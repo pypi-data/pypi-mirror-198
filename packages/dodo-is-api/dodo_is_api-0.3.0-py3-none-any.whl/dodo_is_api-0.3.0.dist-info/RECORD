@@ -1,0 +1,13 @@
+dodo_is_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dodo_is_api/connection/__init__.py,sha256=QD6zukyEEGjGK_12DkRZQuPDgRijO508mWlGsWDTk44,27
+dodo_is_api/connection/base.py,sha256=6ASqXzCcAfo9xzSG_wkQe_1ZnY3dHfA9oMMCsWnPfcE,1801
+dodo_is_api/connection/http_clients.py,sha256=Bwttk_qvKYOzTFr1UKZg-GNWteXrOjiyAL4XmDvCRg0,2131
+dodo_is_api/connection/synchronous.py,sha256=B5-k25ny7sKgzqMQTFqRN_eWb6XUx1Sl2J3IUwoyHI8,4776
+dodo_is_api/exceptions.py,sha256=CA0THgjCiPZCtbqHq6W9IxWnSfXkM4MwgLLTOCp3sSw,248
+dodo_is_api/mappers.py,sha256=twUly-K9UXTwbLklfOle8IIcHAMllgSIhqGHl1ytRv0,4247
+dodo_is_api/models/__init__.py,sha256=BIV9UUxoIJqST7g3RB7CxZ-IeG-r4Ug-efRgIwWHR0k,45
+dodo_is_api/models/dodo_is_api.py,sha256=Ktz8CQWI2RwfY2XjiO_ex4hM1Y015iX5JQA0wpqljnc,1487
+dodo_is_api/models/raw.py,sha256=nME1JiDthZqr2jGcmjT79NUK5eHcaFIx8hYZKw8HImo,648
+dodo_is_api-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dodo_is_api-0.3.0.dist-info/METADATA,sha256=IRxr7xrhS_qomLmG9mST1po1fdpZbjN5j2dAkS6SYXk,3912
+dodo_is_api-0.3.0.dist-info/RECORD,,
