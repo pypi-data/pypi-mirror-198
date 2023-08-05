@@ -1,0 +1,7 @@
+setup.py
+pylinklist/__init__.py
+pylinklist/main.py
+pylinklist.egg-info/PKG-INFO
+pylinklist.egg-info/SOURCES.txt
+pylinklist.egg-info/dependency_links.txt
+pylinklist.egg-info/top_level.txt
