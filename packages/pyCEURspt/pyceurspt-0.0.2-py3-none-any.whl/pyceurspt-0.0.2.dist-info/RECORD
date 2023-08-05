@@ -1,0 +1,11 @@
+ceurspt/__init__.py,sha256=HBhfINMXdfWYIApaqr1-ML8jjr202wq0tL7y497Ka5o,19
+ceurspt/ceurws.py,sha256=r_8E5ZZACxqEHVRc6QK5NwIV1k1TIxjuSSaSu-4vr3E,1196
+ceurspt/ceurws_base.py,sha256=F2g4HuxlifbzyPZ9QKwioxFcm7vF2d88IQduR90737Y,11697
+ceurspt/spt_cmd.py,sha256=6ygZbM8YCZo1_PswdFgr9eThP7mzzHe0ZsX9EFnOOcU,4058
+ceurspt/version.py,sha256=sMouRf--M49iY8kfO6NtdbLsXVG1OvChW3yJ4iEXT0A,908
+ceurspt/webserver.py,sha256=_yMeWsv59tMZ4jvAttkpsGdrb3iNGJzbZMhl08wpHY8,1540
+pyceurspt-0.0.2.dist-info/METADATA,sha256=UX2ZQ_Xd-Yuiq31QrCwZmrE5fyqBKF9bKYJ4EaqtwSQ,2678
+pyceurspt-0.0.2.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pyceurspt-0.0.2.dist-info/entry_points.txt,sha256=AUcUj1t_bfIuqrC9O50Z1IuwoxQ-UzSFFCKW260gn4Y,50
+pyceurspt-0.0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyceurspt-0.0.2.dist-info/RECORD,,
