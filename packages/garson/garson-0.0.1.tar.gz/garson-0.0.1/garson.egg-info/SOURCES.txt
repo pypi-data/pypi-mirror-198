@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+pyproject.toml
+garson/__init__.py
+garson.egg-info/PKG-INFO
+garson.egg-info/SOURCES.txt
+garson.egg-info/dependency_links.txt
+garson.egg-info/top_level.txt
