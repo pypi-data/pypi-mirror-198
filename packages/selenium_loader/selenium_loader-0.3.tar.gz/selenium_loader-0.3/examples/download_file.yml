@@ -1,0 +1,39 @@
+general:
+    verbose: false
+    browser:
+        type: 'chrome'
+        driver: './examples/chromedriver'
+        options:
+            headless: False
+            add_argument:
+                - '--window-size=100,100'
+                - '--disable-notifications'
+                - '--disable-gpu'
+                - '--disable-software-rasterizer'
+            add_experimental_option:
+                name: 'prefs'
+                value:
+                    'download.default_directory': '${download_dir}'
+                    'download.prompt_for_download': False
+                    'download.directory_upgrade': True
+
+    variables:
+        download_dir: './examples'
+        base_url: 'https://speed.hetzner.de'
+        downloaded_files:
+steps:
+    - name: 'Download 100MB file'
+      actions:
+        - command: 'get'
+          parameters:
+            url: '${base_url}'
+        - command: 'find_element'
+          parameters:
+            by: 'css selector'
+            value: '[href="100MB.bin"]'
+          handle:
+            submit_with_download:
+                timeout: 240
+                download_dir: '${download_dir}'
+                actuator: 'click'
+          set_variable: 'general.variables.downloaded_files'
