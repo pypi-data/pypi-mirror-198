@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: HCTest-WechatRobot
+Version: 0.1
+Summary: 向你的企业微信发送消息，支持文本，富文本，markdown，图片，文件等
+Home-page: https://github.com/pypa/sampleproject
+Author: cf
+Author-email: dingjun_baby@yeah.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+UNKNOWN
+
