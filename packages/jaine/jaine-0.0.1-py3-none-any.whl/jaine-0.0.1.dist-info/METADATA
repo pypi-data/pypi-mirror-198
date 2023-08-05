@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jaine
+Version: 0.0.1
+Summary: jaine
+Author-email: jaine <jaine@example.com>
+License: Jaine
+Project-URL: Documentation, https://github.com/bcreeda11/jaine
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: mypy (>=0.910) ; extra == 'dev'
+Requires-Dist: black (>=21.10b0) ; extra == 'dev'
+Requires-Dist: ruff (>=0.0.98) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.17.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.5) ; extra == 'test'
+Requires-Dist: coverage (>=6.1.1) ; extra == 'test'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'test'
+
+# jaine
+
+The future of learning
