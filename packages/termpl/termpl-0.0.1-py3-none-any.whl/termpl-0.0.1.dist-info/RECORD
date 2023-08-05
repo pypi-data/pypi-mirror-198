@@ -1,0 +1,12 @@
+tmpl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmpl/main.py,sha256=fEIdOWKefbEQvcgnD1GzhuD81DB6NR51WKM2dGQ4vuM,867
+tmpl/player.py,sha256=lw9oNHEfpJJZqYj3cf37aj1_GHFEcb6TgkeEBaY5l7w,5828
+tmpl/ui.py,sha256=4rlZsCO7CBYL7iQMg4QxAkXPwZljXUSv5SVtbmRgza4,7414
+tmpl/utils.py,sha256=38hqU40ODeUI0l9lTKWMOJdMN92NektiUMlhrQcnYpo,247
+tmpl/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+termpl-0.0.1.dist-info/LICENSE,sha256=-NxUjoEQSghYOFo5-h7JVg2Un2xZbVNGf7PQaeoxV84,1074
+termpl-0.0.1.dist-info/METADATA,sha256=w9FoegDA2iFwJPDqCRkq-paX4Q1S5Yaouk6mcKsFjmc,1315
+termpl-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+termpl-0.0.1.dist-info/entry_points.txt,sha256=DmPmcDgAwkpiGYNHK2_fUJR-dCpBGqm7IsP1Mq-pFXQ,40
+termpl-0.0.1.dist-info/top_level.txt,sha256=D3JjPTRzEM7qExt_jyOTY9_7K1LR9ot9XlTJ2wO778A,5
+termpl-0.0.1.dist-info/RECORD,,
