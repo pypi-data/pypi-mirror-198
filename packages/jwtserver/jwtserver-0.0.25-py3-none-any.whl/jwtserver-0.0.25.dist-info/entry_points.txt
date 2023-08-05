@@ -1,0 +1,3 @@
+[console_scripts]
+updatehead=jwtserver.update_head:run
+
