@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/bottlenest/__init__.py
+src/bottlenest/main.py
+src/bottlenest.egg-info/PKG-INFO
+src/bottlenest.egg-info/SOURCES.txt
+src/bottlenest.egg-info/dependency_links.txt
+src/bottlenest.egg-info/top_level.txt
