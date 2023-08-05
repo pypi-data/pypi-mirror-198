@@ -1,0 +1,12 @@
+pynenguk_quiz/__init__.py,sha256=G5tiEpLVBiUVBEtw7ukLOD0R19j9T7aA35efHn16A8E,152
+pynenguk_quiz/help_table_widget.py,sha256=xTgyXhESgtHnPBEJy_T474MI5dvQ05RrIc60uU-paHA,1432
+pynenguk_quiz/question_table_widget.py,sha256=7t-yLHr-lsDp6bqQ5hMPA3tGyXEjnBV-OQ5QvdheFBM,6438
+pynenguk_quiz/questions.json,sha256=RTmv3bcOAf87Zh_YLTGaxVNuy7B4knHdOoTc54X8vbs,48833
+pynenguk_quiz/select_questions_widget.py,sha256=kzOYVF9epMqjdEi63duP7zSb23NcWukDiPR_yZ2C-CQ,1710
+pynenguk_quiz/termquiz.py,sha256=Xfp-rxDZ-7kNDyEHKHpfDo30lJJt6d4FyCCOG_tRfdw,4998
+pynenguk_quiz-0.7.0.dist-info/LICENSE,sha256=OGk1xBd0ePjhMjiEt18_L6fN1RE8VxH8tImxVqKOWlE,1075
+pynenguk_quiz-0.7.0.dist-info/METADATA,sha256=dInUfx9njyV78HJ5tR8ZDmRrb2sgl2Oe45zJ15MjaHU,1227
+pynenguk_quiz-0.7.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pynenguk_quiz-0.7.0.dist-info/entry_points.txt,sha256=MrF7ImZ3veNVMN7a_S4_k9I5m7SjCwcCb1ClgARveO0,54
+pynenguk_quiz-0.7.0.dist-info/top_level.txt,sha256=poMpwVsAheYutxx1ZemTlueNqKLdKAS4YYlqHDVwEQ4,14
+pynenguk_quiz-0.7.0.dist-info/RECORD,,
