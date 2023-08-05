@@ -1,0 +1,7 @@
+setup.py
+revuot/__init__.py
+revuot/revuot.py
+revuot.egg-info/PKG-INFO
+revuot.egg-info/SOURCES.txt
+revuot.egg-info/dependency_links.txt
+revuot.egg-info/top_level.txt

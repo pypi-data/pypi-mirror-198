@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: revuot
+Version: 0.3
+Summary: a reverse shell for testing perpose
+Author: hisamdavid (dawood hithem)
+Author-email: <deviddevid287@gmail.com>
+Keywords: python,hacking,backdoor,tojen,reverse shell,cyper security
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to make a backdoor that can be implemented with other programs as torjen with fetures of downloading and uploading files to tagted device
