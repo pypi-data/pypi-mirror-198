@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: xfaas-core-python3
+Version: 0.0.2
+Summary: XFaaS package for Python3
+Author-email: Paul Wieland <paul.wieland@tum.de>
+Project-URL: Homepage, https://github.com/Function-Delivery-Network/FaaS-Shim
+Project-URL: Function Templates , https://github.com/paul-wie/xfaas-templates
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# Build the package
+
+The build files are located in <code>./dist</code>.
+
+- <code>python3 -m build</code>
+
+# Upload the package to [PyPi](https://test.pypi.org/account/login/?next=%2Fmanage%2Faccount%2F)
+
+- Install twine if necessary <code>python3 -m pip install --upgrade twine</code>
+- <code>python3 -m twine upload --repository testpypi dist/* </code>
+- User <code>__token__</code> as username and token with <code>pypi-</code> prefix.
+
+# Install the package

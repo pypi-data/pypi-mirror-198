@@ -1,0 +1,20 @@
+[project]
+name = "xfaas_core_python3"
+version = "0.0.2"
+authors = [
+  { name="Paul Wieland", email="paul.wieland@tum.de" },
+]
+description = "XFaaS package for Python3"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Function-Delivery-Network/FaaS-Shim"
+"Function Templates " = "https://github.com/paul-wie/xfaas-templates"
+
+
