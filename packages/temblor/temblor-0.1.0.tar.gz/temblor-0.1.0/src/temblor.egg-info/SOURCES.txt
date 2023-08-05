@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/temblor/__init__.py
+src/temblor.egg-info/PKG-INFO
+src/temblor.egg-info/SOURCES.txt
+src/temblor.egg-info/dependency_links.txt
+src/temblor.egg-info/top_level.txt
