@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pagebuilder/__init__.py
+src/pagebuilder/component_interface.py
+src/pagebuilder/example.py
+src/pyvibe.egg-info/PKG-INFO
+src/pyvibe.egg-info/SOURCES.txt
+src/pyvibe.egg-info/dependency_links.txt
+src/pyvibe.egg-info/top_level.txt
