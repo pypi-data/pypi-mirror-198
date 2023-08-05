@@ -1,0 +1,7 @@
+setup.py
+anachem/AnalyseChemistry.py
+anachem/__init__.py
+anachem.egg-info/PKG-INFO
+anachem.egg-info/SOURCES.txt
+anachem.egg-info/dependency_links.txt
+anachem.egg-info/top_level.txt

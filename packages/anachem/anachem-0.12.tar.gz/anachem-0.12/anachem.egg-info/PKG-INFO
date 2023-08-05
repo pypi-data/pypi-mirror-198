@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: anachem
+Version: 0.12
+Summary: errors and statistical treatment of analytical data
+Author: yangtao
+Requires: numpy
+Requires: pandas
