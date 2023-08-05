@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+matFik/__init__.py
+matFik.egg-info/PKG-INFO
+matFik.egg-info/SOURCES.txt
+matFik.egg-info/dependency_links.txt
+matFik.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: matFik
+Version: 0.0.2
+Summary: Matrix Function
+Home-page: 
+Author: Fikri Kamaluddin
+Author-email: fikrikamaluddin07@gmail.com
+License: MIT
+Keywords: matrix
+License-File: LICENCE.txt
+
+Library ini dapat digunakan untuk pembuatan matrik dengan data type list, penjumlahan/pengurangan matrik dan perkalian matrik 
+
+Change Log
+==========
+
+0.0.1 (17/03/2023)
+------------------
+-First Release 
