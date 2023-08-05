@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: atmodata
+Version: 0.0.2
+Summary: A collection of high performant data loading tools for spatio-temporal ML based on torchdata
+Home-page: https://github.com/sehoffmann/atmodata
+Author: Sebastian Hoffmann
+Author-email: shoffmann.git@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torchdata (>0.6.0)
+Requires-Dist: xarray
+
+# atmodata
+A collection of high performant data loading tools for spatio-temporal ML based on torchdata
+
+
