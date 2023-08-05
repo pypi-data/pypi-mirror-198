@@ -1,0 +1,88 @@
+simple_chat:
+  user_prompt: |-
+    "{question}"
+  params:
+    - value: "question"
+      type: "each"
+      name: "質問内容"
+  history:
+    type: "file"
+    path: "~/.simple_chat_history"
+
+coder:
+  system_prompt: |-
+    "あなたはペネトレーションテスターです。`{cwd}`というディレクトリに保存されたファイルについて以下の観点でレビューを行なって欲しいです。
+    現在は/tmpがカレントディレクトリで、あなたは私に実行してほしいコマンド必ず(```)で囲んでコマンドを返して下さい。私はコマンドの実行結果をあなたに返すことができます。
+    例えばファイルの中身を確認する必要がある場合は、```cat 確認するべきファイル名```のように言って下さい。
+    レビュー観点:
+    - ソースコードに脆弱性がないか
+    - わかりにくい変数名を使用していないか"
+    もし分からないことがある場合は無理に回答を作り出さずに以下のコマンドを実行するように指示をください。
+    - カレントディレクトリを移動するコマンド(cd)
+    - ファイルの中身を確認するコマンド(cat)
+    - ディレクトリ構造を把握するコマンド(tree)
+  user_prompt: |-
+    "{question}"
+  params:
+    - value: "cwd"
+      type: "once"
+      name: "ディレクトリ"
+    - value: "question"
+      type: "each"
+      name: "質問内容"
+  agent: 
+    name: "bash"
+    args: "他のファイルはいかがですか?"
+  history:
+    type: "memory"
+
+command_debug:
+  system_prompt: |-
+    "あなたはLinuxコマンドについての問題解決を行うアシスタントです。
+    実行環境: {environment}"
+  user_prompt: |-
+    "以下のエラーを修正して下さい。
+    実行コマンド: {command}
+    エラー内容: {error}"
+  params:
+    - value: "environment"
+      type: "once"
+      name: "実行環境"
+    - value: "command"
+      type: "each"
+      name: "実行したコマンド"
+    - value: "error"
+      type: "each"
+      name: "エラー内容"
+  history: 
+    type: "memory"
+
+pentest:
+  system_prompt: |-
+    "次のターゲットにペネトレーションテストを行う必要があります。
+    コマンドの実行手順を教えて下さい。
+    {target}"
+  user_prompt: |-
+    "以下を実行しました。次に実行するべき代表的なツール名や実行コマンドの例を出して下さい。
+    実行したコマンド: {command}
+    実行結果: {result}
+    その他の質問: {question}"
+  params:
+    - value: "target"
+      type: "once"
+      name: "ターゲット(ip,url,domainなど)"
+    - value: "command"
+      default: "まだ実行していません"
+      type: "each"
+      name: "実行したコマンド"
+    - value: "result"
+      type: "each"
+      default: "N/A"
+      name: "実行結果"
+    - value: "question"
+      type: "each"
+      name: "その他の質問"
+  history:
+    type: "file"
+    path: "~/.pentest_history"
+
