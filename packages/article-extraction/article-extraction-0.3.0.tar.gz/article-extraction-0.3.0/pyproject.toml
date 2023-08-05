@@ -1,0 +1,39 @@
+[tool.black]
+line-length = 79
+target-version = ['py38']
+
+[tool.poetry]
+name = "article-extraction"
+version = "0.3.0"
+description = "Article text extraction library"
+authors = ["Matigakis Panagiotis <pmatigakis@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pmatigakis/article-extraction"
+repository = "https://github.com/pmatigakis/article-extraction"
+keywords = ["article extraction"]
+packages = [
+    {include = "articles"}
+]
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lxml = ">=4.7.1"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "2.19.0"
+isort = "5.10.1"
+black = "22.3.0"
+flake8 = "4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
