@@ -1,0 +1,54 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
+[project]
+name = "anfema-django-utils"
+description = "Collection of various django related utilities"
+readme = "README.md"
+keywords = ["django", "utils"]
+license = {text = "MIT"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "Django",
+    "super-hash; python_version >= '3.9'"
+]
+dynamic = ["version"]
+
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+]
+docs = [
+    "Sphinx",
+    "sphinx-autodoc-typehints",
+    "sphinx-rtd-theme",
+    "sphinx-copybutton",
+]
+tests = [
+    "parametrize",
+]
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+
+
+[tool.isort]
+line_length = 120
+profile = "black"
+known_django = "django"
+sections = ["FUTURE", "STDLIB", "DJANGO", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+lines_after_imports = 2

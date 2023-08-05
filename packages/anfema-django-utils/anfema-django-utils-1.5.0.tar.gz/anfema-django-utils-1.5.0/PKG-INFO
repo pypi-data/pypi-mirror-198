@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: anfema-django-utils
+Version: 1.5.0
+Summary: Collection of various django related utilities
+Keywords: django,utils
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django
+Requires-Dist: super-hash; python_version >= '3.9'
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: Sphinx ; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints ; extra == "docs"
+Requires-Dist: sphinx-rtd-theme ; extra == "docs"
+Requires-Dist: sphinx-copybutton ; extra == "docs"
+Requires-Dist: parametrize ; extra == "tests"
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: tests
+
+# anfema-django-utils
+
+Collection of various django related utilities, helpers & small apps.
+
+https://anfema.github.io/anfema-django-utils/
+
+## Documentation
+
+To build the documentation from the local sources run: 
+```bash
+$ pip install tox && tox -e docs
+```
+
+## Tests
+
+To run the unittests from the local sources run: 
+```bash
+$ pip install tox && tox
+```
+
+## Release process
+
+Steps required to create a new release and publish the package on PyPI: 
+
+1. Bump `__version__` in `anfema_django_utils/__ini__.py`
+2. Create a new release on GitHub with the tag `v<version>`
+
