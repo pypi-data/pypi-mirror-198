@@ -1,0 +1,17 @@
+[project]
+name = "get_cell"
+version = "0.0.1"
+authors = [
+  { name="Triet Le", email="trietltm.h@gmail.com" },
+]
+description = "A package cell certain text in specific cell Jupyter Noebook"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LeTriet17"
