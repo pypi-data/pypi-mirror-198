@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ShiftAI
+Version: 0.9.8
+Summary: ShiftAI - smart energy management for Home Assistant with load shifting recommendations.
+Author: SIS RS 6
+Author-email: <sonyaarom@gmail.com>
+Keywords: recsys,home assistant
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+
+ShiftAI is a Python package for implementing recommendation systems for load shifting in Home Assistant. It includes multiple agents that work collaboratively to analyze and optimize energy usage patterns in households, providing real-time suggestions for load shifting and reducing energy consumption. The package is customizable and user-friendly, making it an ideal choice for homeowners looking to adopt smart energy management practices.
