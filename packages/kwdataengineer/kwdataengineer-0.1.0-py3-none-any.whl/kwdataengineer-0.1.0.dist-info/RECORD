@@ -1,0 +1,17 @@
+kwdataengineer/__init__.py,sha256=i_qhhG0AAzvJzjiEGG5hqxyBJL4I89V7v6HkAPXcU4E,204
+kwdataengineer/conf.py,sha256=UC69M_emVBjQ_wvfdXDmk9-F4KkHG2Rd3jGvg8RDNyg,504
+kwdataengineer/datamodels.py,sha256=c5f0MxV3kEQv385FI4fBaEyuwKu1HTh1G5u6GA0dOAM,49412
+kwdataengineer/dba.py,sha256=1MrLrWrMXNZkN4ZEi4p3eLV41uPpe-EYEzTocSCB8Cg,14395
+kwdataengineer/devguide.py,sha256=pvuLTKaAz8ypNVVTDwbNOlBLOnWZG3Aw1RFjXQtRIjI,6184
+kwdataengineer/dworker.py,sha256=rOAUiWaMcmo9ekyqi2T4RU972ELJhv46joFuOhNoHSU,1048
+kwdataengineer/Lib/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+kwdataengineer/Lib/dtype.py,sha256=CBTlG1U9WH6Z0SYb_oo94yfzOQp57Zz_QN8X-3gycTY,2101
+kwdataengineer/Lib/finder.py,sha256=wPlYjUlNQdBS3KsMyLUlBMtYiq80mfIWULhZiZv381s,5782
+kwdataengineer/Lib/metadata.py,sha256=QcIlkHju0BXfBl6g0LKr-eJfNOcYYTYQf9P4JNcd7HA,2735
+trddt/__init__.py,sha256=dJvvQU7rTNvZK5vs4t8podhoNHoX9BVtVeHleOTy83k,8757
+trddt/config.py,sha256=OTz2PF4NVKvBIq6Y0vwz_UxklexKhMrrrO3QWleFynI,290
+kwdataengineer-0.1.0.dist-info/LICENSE,sha256=vaF9s7bqxANGAtMT73IOnYJKWFpvCIHY3EEFv9xdKb8,1085
+kwdataengineer-0.1.0.dist-info/METADATA,sha256=nwMoYiu176kV3exLHt3_ziRNsj0M8kA7pM8XTxd56DY,601
+kwdataengineer-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+kwdataengineer-0.1.0.dist-info/top_level.txt,sha256=LxNQK2osXlEIR744XrtFkl3uteb_1qQCWgdoUu3vbHY,21
+kwdataengineer-0.1.0.dist-info/RECORD,,
