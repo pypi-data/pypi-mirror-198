@@ -1,0 +1,3 @@
+[gym.envs]
+__root__ = highway_env.__init__:register_highway_envs
+
