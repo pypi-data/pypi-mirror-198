@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dnspropagation
+Version: 0.0.1
+Summary: DNS propagation checker
+Author-email: Simon Berka <berka@berkasimon.com>
+Project-URL: Homepage, https://github.com/berkas1/dnspropagation
+Project-URL: Bug Tracker, https://github.com/berkas1/dnspropagation/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md

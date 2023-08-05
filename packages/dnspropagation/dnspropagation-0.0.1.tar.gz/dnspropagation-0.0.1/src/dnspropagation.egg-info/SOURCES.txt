@@ -1,0 +1,10 @@
+LICENSE.md
+pyproject.toml
+src/__init__.py
+src/cli.py
+src/dnspropagation.py
+src/dnspropagation.egg-info/PKG-INFO
+src/dnspropagation.egg-info/SOURCES.txt
+src/dnspropagation.egg-info/dependency_links.txt
+src/dnspropagation.egg-info/entry_points.txt
+src/dnspropagation.egg-info/top_level.txt
