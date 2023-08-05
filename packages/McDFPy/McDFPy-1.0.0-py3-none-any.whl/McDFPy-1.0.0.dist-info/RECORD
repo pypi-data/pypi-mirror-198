@@ -1,0 +1,10 @@
+mcdfpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcdfpy/blocks.py,sha256=hkc2j_QeAwwpOx1tMrvpNvTB3pbf8vmNg5KtDbYqm4c,34163
+mcdfpy/recodeitemapi.py,sha256=jhWgZn-lKtO68BW1BnRms9pSMmdNcCMNxnbpqE4ev7U,2510
+mcdfpy/template.py,sha256=x0d044ldhFbp6PjmmYTqkkUeAaWJq9Z15EcfKMN42zo,1987
+mcdfpy/variables.py,sha256=VqEYcJ8o7LeRnbdLzoW4UyZq5nUlKN-1oJoc0aWHHA0,2702
+McDFPy-1.0.0.dist-info/LICENSE,sha256=WpXH1wgo8-csl3RJXOoDcTXg74HegIzTdLbhEFIpsnU,1092
+McDFPy-1.0.0.dist-info/METADATA,sha256=ZF5W7ikBrAbC7CGpuJ7FiKlCv_RR5bMpKP7AdQZri5E,2752
+McDFPy-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+McDFPy-1.0.0.dist-info/top_level.txt,sha256=jdO7Z58w2ShVmiTD0Ik-rxQ8BpFe4nDOS66JmBtJV9s,7
+McDFPy-1.0.0.dist-info/RECORD,,
