@@ -1,0 +1,10 @@
+path>=15.0
+torch>=1.8
+pytorch-lightning>=1.9
+PyYAML>=5.0
+tqdm>=4.0
+tensorboard>=0.20
+numpy>=1.18
+
+[dev]
+pytest
