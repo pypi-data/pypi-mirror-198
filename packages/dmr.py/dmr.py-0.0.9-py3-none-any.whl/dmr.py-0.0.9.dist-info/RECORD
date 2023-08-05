@@ -1,0 +1,16 @@
+dmr/__init__.py,sha256=n7Vp-oslcMOSxw4Bj7_oGMoauEgs9mfO_yx1kA-aXAw,65
+dmr/dmr_model.py,sha256=1hcYwx4UZ-cvOjjPUQBnmUbYc13GmK307eOHga8wHS8,9125
+dmr/insurance_model.py,sha256=rczmYXSUKQbQdFs8QPDZaUleo-VcU8Pz_7jB-wa24tI,644
+dmr/utils/__init__.py,sha256=TWH-vWrV52swvTrLGE1feJ3LA_hu7QyD802FSLlAmQk,51
+dmr/utils/async_scraper.py,sha256=-4MHMLGh4VAKTFx_FvGA2ABHl07OTdVW4hQy8x7MImY,2475
+dmr/utils/errors.py,sha256=-7FQRiVtJCjiL6jCaVoJQRXBVvTZ0jpc5yIYGBI1laE,1164
+dmr/utils/extract_data.py,sha256=MdTbhhiHxFb1g9JGhOn4zygWcYk1SCsNCo5ApOLrWtE,4022
+dmr/utils/headers.py,sha256=bVGy3HRv5tHIFTVyq07FNj6Sagm5uETgkfSKHCFFkgk,251
+dmr/utils/scraper.py,sha256=djNxn0HfujqcNyDunyoemD5pI4k7z6Z-_lk6DFIInvQ,2091
+dmr/utils/user_agent.py,sha256=_J1wiDQ7ZZ5zfXNXlc-rllX-DDQcD_zYboQb2S_wLak,6762
+dmr/utils/xpaths.py,sha256=OdsqFfVilJ09QNiJNTEShIyOl8EePb3-y1VmC7kmPgU,3428
+dmr.py-0.0.9.dist-info/LICENSE,sha256=hDAlYIpCW9SYHQSHax5OgE4Kd9RQLyzb8RYOohTGxVI,1063
+dmr.py-0.0.9.dist-info/METADATA,sha256=foST_CaonLRHcXZlIxOllkKxPLhdtF8iKPZEyWIOvvE,6631
+dmr.py-0.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dmr.py-0.0.9.dist-info/top_level.txt,sha256=RHcnA6DoDSl7jjaiiNQklLi0EImIAmooh0j2H_s5lNA,4
+dmr.py-0.0.9.dist-info/RECORD,,
