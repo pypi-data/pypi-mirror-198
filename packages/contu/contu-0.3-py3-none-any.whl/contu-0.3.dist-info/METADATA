@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: contu
+Version: 0.3
+Summary: A simple package that converts contracted forms of words to their uncontracted counterparts.
+Home-page: https://github.com/Harshul-18/contu.git
+Author: Harshul Nanda
+Author-email: harshulnanda0@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+
+# Contu v0.1
+
+## Expanding contractions
+
+To use `expand_contractions` function to expand contractions,
+
+```python
+from contu.contu import expand_contractions
+
+string = "I'm going to this party."
+expanded_string = expand_contractions(string, initial_case="uppercase")
+print(expand_string)
+```
+This function takes a sentence as an input and replaces contractions in the sentence with their expanded forms using a dictionary of contractions and their expanded forms. The function also allows the user to choose the case of the output sentence, either lowercase or uppercase, with an optional argument.
+
+For example, the contraction "I'm" will be expanded to "I am" and "you're" will be expanded to "you are".
+
+```python
+>>> from contu.contu import expand_contractions
+>>> expand_contractions("I'm")
+'I am'
+>>> expand_contractions("I'm", initial_case='uppercase')
+'I am'
+>>> expand_contractions("I'm", initial_case='lowercase')
+'i am'
+```
+
+
+The function `expand_contractions` first checks the initial case of the input sentence and sets the case of the output sentence accordingly. If the user passes the initial_case argument as 'lowercase' or 'uppercase', the function converts the dictionary of contractions to lowercase or uppercase, respectively, and then converts the input sentence to lowercase or uppercase, respectively.
+
+## Lemmatizing sentence
+
+```python
+>>> from contu.contu import lemmatize_sentence as ls
+>>> ls("I'm your player, playing as a programer a programming game like a gamer, but am playing a role of a coder while doing coding.")
+"I'm your player, play as a programer a program game like a gamer, but be play a role of a coder while do coding."
+>>> 
+```
+
+This function, named `lemmatize_sentence`, takes a single input parameter, sentence, which is a string of text. The function uses the Natural Language Toolkit (NLTK) library to perform lemmatization on the input sentence, which is the process of reducing words to their base or dictionary form, known as a lemma.
+
+The function first imports the necessary modules from the NLTK library, including the `WordNetLemmatizer` class, which is used for lemmatization. It also creates an instance of the `WordNetLemmatizer` class, which is stored in the variable `wnl`.
+
+Next, the function splits the input sentence into a list of individual words using the `split()` method. The resulting list of words is stored in the variable sentence.
+
+The function then creates an empty list named `edited_sentence`, which will be used to store the lemmatized version of the input sentence.
+
+The function then iterates over each word in the sentence list using a for loop. For each word, the function calls the `lemmatize()` method of the `WordNetLemmatizer` class, passing the word and the part of speech (POS) tag 'v' as arguments. The POS tag specifies that the word should be lemmatized as a verb, which is the default behavior of the `WordNetLemmatizer` class. The lemmatized version of the word is then appended to the `edited_sentence` list.
+
+Finally, the function joins the words in the edited_sentence list into a single string using the `join()` method, with spaces as the delimiter. The resulting string is then returned as the output of the function.
