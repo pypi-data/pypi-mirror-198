@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: aeon
+Version: 0.1.0rc0
+Summary: A unified framework for machine learning with time series
+Author-email: aeon developers <scikit.time@gmail.com>
+Maintainer-email: aeon developers <scikit.time@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) The aeon developers.
+        
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://www.aeon-toolkit.org
+Project-URL: Repository, https://github.com/aeon-toolkit/aeon
+Project-URL: Documentation, https://www.aeon-toolkit.org
+Project-URL: Download, https://pypi.org/project/aeon/#files
+Project-URL: API Reference, https://www.aeon-toolkit.org/en/stable/api_reference.html
+Project-URL: Release Notes, https://www.aeon-toolkit.org/en/stable/changelog.html
+Keywords: data-science,machine-learning,data-mining,time-series,scikit-learn,forecasting,time-series-analysis,time-series-classification,time-series-clustering,time-series-regression
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: all_extras
+Provides-Extra: dev
+Provides-Extra: binder
+Provides-Extra: docs
+Provides-Extra: dl
+License-File: LICENSE
+
+## DISCLAIMER: This is a fork of the sktime repository. Work is ongoing to change links and documentation to reflect this. We do not recommend using this repository in any production setting, but welcome any contributors willing to help us update the project.
+
+# Welcome to aeon
+
+Aeon pre-release: v0.1.0rc0
+
+| Overview      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **CI/CD**     | [![github-actions-main](https://img.shields.io/github/actions/workflow/status/aeon-toolkit/aeon/test.yml?logo=github&branch=main&label=build%20%28main%29)](https://github.com/aeon-toolkit/aeon/actions/workflows/test.yml) [![docs-main](https://img.shields.io/readthedocs/aeon-toolkit/latest?logo=readthedocs&label=docs%20%28latest%29)](https://www.aeon-toolkit.org/en/latest/) [![!codecov](https://img.shields.io/codecov/c/github/aeon-toolkit/aeon?label=codecov&logo=codecov)](https://codecov.io/gh/aeon-toolkit/aeon) |
+| **Code**      | [![!black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![license](https://img.shields.io/badge/license-BSD%203--Clause-green?logo=style)](https://github.com/aeon-toolkit/aeon/blob/main/LICENSE)                                                                                                                                                                                                                                                                                          |
+| **Community** | [![!slack](https://img.shields.io/static/v1?logo=slack&label=slack&message=chat&color=lightgreen)](https://join.slack.com/t/aeon-toolkit/shared_invite/zt-1plkevy4x-vAg1dAUXcuoR38FjY9nxzg)                                                                                                                                                                                                                                                                                                                                              |
+
+## 💬 Where to ask questions
+
+| Type                                | Platforms                        |
+|-------------------------------------|----------------------------------|
+| 🐛 **Bug Reports**                  | [GitHub Issue Tracker]           |
+| ✨ **Feature Requests & Ideas**      | [GitHub Issue Tracker] & [Slack] |
+| 💻 **Usage Questions**              | [GitHub Discussions] & [Slack]   |
+| 🗫 **General Discussion**           | [GitHub Discussions] & [Slack]   |
+| 🏭 **Contribution & Development**   | [Slack]                          |
+
+[GitHub Issue Tracker]: https://github.com/aeon-toolkit/aeon/issues
+[GitHub Discussions]: https://github.com/aeon-toolkit/aeon/discussions
+[Slack]: https://join.slack.com/t/aeon-toolkit/shared_invite/zt-1plkevy4x-vAg1dAUXcuoR38FjY9nxzg
