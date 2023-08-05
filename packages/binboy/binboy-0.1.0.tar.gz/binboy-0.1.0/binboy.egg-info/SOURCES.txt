@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+binboy/__init__.py
+binboy/__main__.py
+binboy.egg-info/PKG-INFO
+binboy.egg-info/SOURCES.txt
+binboy.egg-info/dependency_links.txt
+binboy.egg-info/entry_points.txt
+binboy.egg-info/top_level.txt

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: binboy
+Version: 0.1.0
+Summary: A beautiful binary code printer
+Home-page: https://github.com/AitzazImtiaz/Bin-Boy
+Author: AitzazImtiaz
+Author-email: aitzazimtiaz855@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Bin Boy
+Print binary numbers in a hacking style.
+# Built by Aitzaz Imtiaz
+# Instructions
+    git clone <repository link>
+    cd Bin-Boy
+    make install
+    aitbin
+That's it!
+
+Or as anternative, you can use pip on any prompt and run:
+```
+pip install binboy
+python -m binboy
+```
+
+To exit click Ctrl+C, must generate a File Break or error message.
