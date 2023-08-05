@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+webcapture.egg-info/PKG-INFO
+webcapture.egg-info/SOURCES.txt
+webcapture.egg-info/dependency_links.txt
+webcapture.egg-info/requires.txt
+webcapture.egg-info/top_level.txt
