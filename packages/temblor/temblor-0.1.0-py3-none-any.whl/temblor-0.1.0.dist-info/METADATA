@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: temblor
+Version: 0.1.0
+Summary: Libraries to use Temblor services
+Author-email: "Temblor, Inc Dev Team" <help@temblor.net>
+Project-URL: Homepage, https://temblor.net
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Temblor Python Tools
+This project provides Python tools to use Temblor services.
+
+Please contact help@temblor.net for more information and access
+
+Temblor, Inc. 
+
+[https://temblor.net](https://temblor.net)
+
+
