@@ -1,0 +1,2 @@
+cryptography>=3
+protobuf>=4.21
