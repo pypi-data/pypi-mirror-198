@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyprompts
+Version: 0.0.1
+Summary: A library for loading, transforming, managing and downloading LLM and diffusion prompts and prompt datasets
+Home-page: https://github.com/PyPrompts/PyPrompts
+Author: Ian Timmis
+Author-email: ianmtimmis@gmail.com
+License: MIT
+License-File: LICENSE

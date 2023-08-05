@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/prompts/__init__.py
+src/prompts/prompts.py
+src/pyprompts.egg-info/PKG-INFO
+src/pyprompts.egg-info/SOURCES.txt
+src/pyprompts.egg-info/dependency_links.txt
+src/pyprompts.egg-info/requires.txt
+src/pyprompts.egg-info/top_level.txt
