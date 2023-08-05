@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+libname/__init__.py
+libname/argument.py
+libname/utils.py
+libname/verilog.py
+libname/config/__init__.py
+libname/config/config.py
+libname/config/path.py
+morell_test_attempt_verilog.egg-info/PKG-INFO
+morell_test_attempt_verilog.egg-info/SOURCES.txt
+morell_test_attempt_verilog.egg-info/dependency_links.txt
+morell_test_attempt_verilog.egg-info/requires.txt
+morell_test_attempt_verilog.egg-info/top_level.txt
