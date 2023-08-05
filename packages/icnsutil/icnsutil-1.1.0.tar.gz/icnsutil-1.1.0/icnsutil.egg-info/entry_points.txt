@@ -1,0 +1,4 @@
+[console_scripts]
+icnsutil = icnsutil.cli:main
+icnsutil-autosize = icnsutil.autosize.cli:main
+
