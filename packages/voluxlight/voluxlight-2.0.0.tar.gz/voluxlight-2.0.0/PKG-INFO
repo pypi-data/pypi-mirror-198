@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: voluxlight
+Version: 2.0.0
+Summary: Smart light control for Volux
+Home-page: https://gitlab.com/volux/voluxlight/
+License: AGPLv3
+Author: DrTexx
+Author-email: denver.opensource@tutanota.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bitstring (<4.0)
+Requires-Dist: lifxlan (>=1.2.7,<2.0.0)
+Requires-Dist: volux (>=0.10.0)
+Project-URL: Repository, https://gitlab.com/volux/voluxlight/
+Description-Content-Type: text/markdown
+
+# Voluxlight
+
+
