@@ -1,0 +1,8 @@
+setup.py
+HCTest_WechatRobot/WechatRobot.py
+HCTest_WechatRobot/__init__.py
+HCTest_WechatRobot.egg-info/PKG-INFO
+HCTest_WechatRobot.egg-info/SOURCES.txt
+HCTest_WechatRobot.egg-info/dependency_links.txt
+HCTest_WechatRobot.egg-info/requires.txt
+HCTest_WechatRobot.egg-info/top_level.txt
