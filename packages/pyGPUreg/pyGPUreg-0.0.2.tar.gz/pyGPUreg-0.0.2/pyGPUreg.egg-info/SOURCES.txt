@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+pyGPUreg.egg-info/PKG-INFO
+pyGPUreg.egg-info/SOURCES.txt
+pyGPUreg.egg-info/dependency_links.txt
+pyGPUreg.egg-info/requires.txt
+pyGPUreg.egg-info/top_level.txt
