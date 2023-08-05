@@ -1,0 +1,1508 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>socialization.bot.json_socket_user API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>socialization.bot.json_socket_user</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">import websocket
+import rel
+from enum import Enum
+from .. import codes
+
+import json, traceback, datetime
+from .message import Message, MessageType, message_from_raw
+
+class JSONSocketUser:
+    &#34;&#34;&#34;
+    This is basic class of socket client user, which 
+    implements fundamental interfaces that you can 
+    reach as a user.
+    We wraps the message data into a Message object.
+    For better performance(not indeed), you could set
+    `pre_analyse` to be `False` to get raw data of message(dict).
+    &#34;&#34;&#34;
+
+    def __init__(self, path:str=None, reconnect:int=None, pre_analyse:bool=True) -&gt; None:
+        self.path = path if path else &#39;wss://frog.4fun.chat/social&#39;
+        self.reconnect = reconnect if reconnect else 5
+        self.codes = codes
+        self.pre_analyse = pre_analyse
+
+        self.create_connection(self.path)
+        print(&#39;created connection with {}&#39;.format(self.path))
+    
+    def _create_websocket(self, uri:str, on_open=None, on_message=None, on_error=None, on_close=None):
+        &#34;&#34;&#34;
+        Create and return a websocket connection object
+
+        Args:
+            uri : str
+                Location of server this user connects.
+
+            on_open : function : optional
+                Callback function execute when websocket connection is created.
+                
+            on_message : function : optional
+                Callback function execute when receive message from websocket connection.
+            
+            on_error : function : optional
+                Callback function execute when error occurs on websocket connection.
+
+            on_close : function : optional
+                Callback function execute when websocket connectoin breaks or closes.
+
+        Return:
+            Return the websocket object that is created when called.
+            
+        &#34;&#34;&#34;
+        print(&#39;create_websocket!&#39;)
+        ws = websocket.WebSocketApp(
+            uri,
+            on_open=on_open or self.on_open,
+            on_message=on_message or self.on_message,
+            on_error=on_error or self.on_error,
+            on_close=on_close or self.on_close
+        )
+        return ws
+    
+    def create_connection(self, uri: str, on_open=None, on_message=None, on_error=None, on_close=None):
+        &#34;&#34;&#34;
+        Initialize websocket connection between this user object itself and given server
+
+        Args:
+            Args:
+            uri : str
+                Location of server this user connects.
+
+            on_open : function : optional
+                Callback function execute when websocket connection is created.
+                
+            on_message : function : optional
+                Callback function execute when receive message from websocket connection.
+            
+            on_error : function : optional
+                Callback function execute when error occurs on websocket connection.
+
+            on_close : function : optional
+                Callback function execute when websocket connectoin breaks or closes.
+        &#34;&#34;&#34;
+        self.ws = self._create_websocket(uri, on_open, on_message, on_error, on_close)
+        self.ws.run_forever(dispatcher=rel, reconnect=self.reconnect)
+
+    def on_message(self, ws, message):
+        &#34;&#34;&#34;
+        Default callback when receive message from websocket connectoin.
+        Don&#39;t override this function if you can&#39;t figure out what you would
+        face to do so!
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            message : str
+                Message Object in utf-8 received from websocket connection.
+
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.message: {message}&#39;)
+        self._safe_handle(ws, message)
+
+    def on_error(self, ws, error):
+        &#34;&#34;&#34;
+        Default callback execute when error occurs on connection.
+        As default, it would only print error instead of raise an
+        exception.
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            error : exception object
+                Object contains full information of the error.
+            
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.error: {error}&#39;)
+    
+    def on_close(self, ws, close_status_code, close_msg):
+        &#34;&#34;&#34;
+        Default callback execute when connection is closed.
+        As default, it would only print closure information.
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object
+
+            close_status_code : str
+                Status code of closure, more details refer to `https://websocket-client.readthedocs.io/en/latest`
+        
+            close_msg : str
+                Information of closure.
+            
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)
+
+    def on_open(self, ws):
+        &#34;&#34;&#34;
+        Callback that is called when connection is open.
+        As default it will only print message that bot opens.
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object. 
+        
+        &#34;&#34;&#34;
+        print(&#39;JSONSocketUser.open&#39;)
+        
+    @staticmethod
+    def _make_data_dict(code:int, **extra_args) -&gt; object:
+        &#34;&#34;&#34;
+        Format given params to meet that social server need.
+
+        Args:
+            code : int
+                Type code of this message, more details refer to `/codes.md`
+            **extra_args : key-value pair of params : optional
+                Other params to carry with message. all of these will be wrapped
+                in `extra` segment of return value.
+
+        Return:
+            Wrapped object of all given params.
+        &#34;&#34;&#34;
+        return {
+            &#39;code&#39;: code,
+            &#39;extra&#39;: extra_args
+        }
+    
+    def _send_data_to_ws(self, ws, code:int, **extra_args):
+        &#34;&#34;&#34;
+        Warp and format given params then send with websocket connection.
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            code : int 
+                Type code of the message, which decides how it will work
+            **extra_args : key-value pair of params : optional
+                Other params to carry with message. all of these will be wrapped
+                in `extra` segment of return value.
+
+        &#34;&#34;&#34;
+        data_dict = self._make_data_dict(code=code, **extra_args)
+        self._safe_send(ws, data_dict)
+
+    def _safe_send(self, ws, data:dict):
+        &#34;&#34;&#34;
+        Send wrapped data making sure of data safety. The `safety` emphasizes data format 
+        instead of connection or privacy!
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            data : dict
+                Wrapped data object in format of that in `/code.md`. 
+        
+        &#34;&#34;&#34;
+        try:
+            if isinstance(data, dict):
+                data = json.dumps(data)
+            else:
+                pass
+
+            ws.send(data)
+            return True
+        except websocket.WebSocketConnectionClosedException as e:
+            print(&#39;Bot: _safe_send: Connection Closed Exception&#39;, e)
+
+        except Exception as e:
+            traceback.print_exc()
+            print(&#39;Bot: self._safe_send: Exception Occurs&#39;, e)
+
+    def _safe_handle(self, ws, message:str):
+        &#34;&#34;&#34;
+        Load object from message (that in type of jstr) and distribute it
+        to matching handler.
+        It will time for each message from received to fully processed. 
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            message : json string
+                Message received from websocket.
+
+        &#34;&#34;&#34;
+        ct = datetime.datetime.now()
+        print(&#39;before social bot _safe_handle current time:- &#39;, ct)
+
+        try:
+            data = json.loads(message)
+            ct = datetime.datetime.now()
+            self._handle_data_dict(ws, data)
+
+        except ValueError as e:
+            print(f&#39;Bot: _safe_handle received non-json message: {message}&#39;)
+
+        except Exception as e:
+            print(&#39;Bot: Server function error!&#39;, e)
+            traceback.print_exc()
+        
+        ct = datetime.datetime.now()
+        print(&#39;after social bot _safe_handle current time:- &#39;, ct)
+    
+    def _handle_data_dict(self, ws, data:dict):
+        &#34;&#34;&#34;
+        Distribute message to matching handler by type code.
+        
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            data : dict
+                Message object received from connection.
+        
+        &#34;&#34;&#34;
+        code = data[&#39;code&#39;]
+
+        if code &gt;= 40000 and code &lt; 50000:
+            self.on_receive_command(data)
+        elif code &gt;= 50000 and code &lt; 60000:
+            self.on_receive_message(message_from_raw(data) if self.pre_analyse else data)
+        elif code &gt;= 60000 and code &lt; 70000:
+            self.on_receive_status(data)
+        else:
+            self.on_receive_other(data)
+        print(f&#39;Bot default: _handle_data_dict received {data} at websocket {ws}&#39;)
+
+    def _command_register(self, email, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to register.
+
+        Args:
+            email : str
+                Email for registering an account.
+            password : str
+                Password for registering an account.
+            
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: register before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_REGISTER, email=email, password=password)
+    
+    def _command_reset_password(self, email, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to reset password of account.
+
+        Args:
+            email : str
+                Email of account to reset password.
+            password : str
+                Original password of the account.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: reset password before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_RESET_PASSWORD, email=email, password=password)
+
+    def _command_login(self, user_id, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to login.
+
+        Args:
+            user_id : str
+                User ID of account to login.
+            password : str
+                Password of the account.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: login before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LOGIN, user_id=user_id, password=password)
+    
+    def _command_logout(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to logout.
+
+        Args:
+            user_id : str
+                User ID of account to logout.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: logout before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LOGOUT, user_id=user_id)
+
+    def _command_join_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to join a existing channel.
+        Will receive error code if trynna join a unexisting channel.
+
+        Args:
+            user_id : str
+                User ID of account that already logged in.
+            channel_id : str
+                ID of the channel to join.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: join channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_JOIN_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_leave_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to leave a existing channel that contains current account.
+        Will receive error code if trynna leave a channel that doesn&#39;t contain you.
+
+        Args:
+            user_id : str
+                User ID of account that already logged in.
+            channel_id : str
+                ID of the channel to leave.
+        &#34;&#34;&#34;
+        if not self.ws:
+            raise Exception(&#39;error: leave channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LEAVE_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_offline_message(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch messages that sent to an account 
+        when it&#39;s not online.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch offline message before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_FETCH_OFFLINE_MESSAGE, user_id=user_id)
+
+    def _command_fetch_user_channels(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch the list of channels that contains this account. 
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: get user channels before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_GET_USER_CHANNEL_LIST, user_id=user_id)
+
+    def _command_create_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to create a new channel. 
+        If create with a ID already in use will receive error code.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to create.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: create channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_CREATE_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_channel_user_list(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of ussers in a certain channel. 
+        Will receive error code if trynna fetch a channel inexists.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch channel user list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_CHANNEL_USER_LIST, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_channel_command_list(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of features in a certain channel. 
+        Will receive error code if trynna fetch a channel inexists.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch channel command list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_CCS_COMMAND_LIST, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_recipient_list(self, user_id, msg_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of recipients of a certain message.
+        Will receive error code if trynna fetch a message unexist.
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            msg_id : str
+                ID of message to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch recipient list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_RECIPIENT_LIST, user_id=user_id, msg_id=msg_id)
+
+    def _command_send_message(self, temp_msg_id, message:Message):
+        &#34;&#34;&#34;
+        Wrapped API for sending certain message to certain users in certain channel.
+
+        Args:
+            temp_msg_id : str
+                Not in use, will be removed in the future.
+            message : Message
+                Message object that consists of information required for sending.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: send message before connection created!&#39;)
+        
+        if message.type == MessageType.TEXT:
+            self._send_message_text(message.channel, message.sender, message.to, temp_msg_id, message.body, message.origin)
+        else:
+            #TODO:
+            pass
+
+    def _send_message_text(self, channel_id, from_user_id, to_user_ids, temp_msg_id, msg_body, origin):
+        &#34;&#34;&#34;
+        Fundamental API to send message in text.
+        
+        Args: 
+            channel_id : str
+                ID of channel to send.
+            from_user_id : str
+                ID of sender.
+            to_user_id : list
+                List of recipients.
+            temp_msg_id : str
+                Not in use, will be removed in the future.
+            msg_body : str
+                Content of message to send.
+            origin : str
+                Specifier for bot, server, god and goddess.
+        &#34;&#34;&#34;
+        print(&#34;Send text message: id-{}, body-{}&#34;.format(temp_msg_id, msg_body))
+        self._send_data_to_ws(self.ws, self.codes.MESSAGE_UP_TEXT, channel_id=channel_id, from_user_id=from_user_id, to_user_ids=to_user_ids, temp_msg_id=temp_msg_id, msg_body=msg_body, origin=origin)
+    
+    def on_receive_command(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive command from connection.
+
+        Args:
+            data : dict
+                Object of command.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_command: {data}&#39;)
+
+    def on_receive_message(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive message from connection.
+
+        Args:
+            data : Message
+                Object of message.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_message: {data}&#39;)
+
+    def on_receive_status(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive status from connection.
+
+        Args:
+            data : dict
+                Object of status.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_status: {data}&#39;)
+
+    def on_receive_other(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive something that is not command,
+        message or status from connection.
+        It always indicates error occurs on server end. As default, it will raise an 
+        exception when called.
+        Args:
+            data : dict
+                Object of received thing.
+        
+        &#34;&#34;&#34;
+        raise Exception(f&#34;Error happens, received {data}&#34;)
+
+    def run(self):
+        &#34;&#34;&#34;
+        Default function to startup a bot.
+        Basically it will bind an rel to reconnect when stalled too long.
+        Override this if you want to make some change before connection is
+        created!
+        &#34;&#34;&#34;
+        rel.signal(2, rel.abort)
+        print(&#39;rel created&#39;)
+        rel.dispatch()
+        print(&#39;finished running&#39;)
+
+if __name__ == &#39;__main__&#39;:
+    websocket.enableTrace(True)
+    service = JSONSocketUser()
+    service.run()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser"><code class="flex name class">
+<span>class <span class="ident">JSONSocketUser</span></span>
+<span>(</span><span>path: str = None, reconnect: int = None, pre_analyse: bool = True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is basic class of socket client user, which
+implements fundamental interfaces that you can
+reach as a user.
+We wraps the message data into a Message object.
+For better performance(not indeed), you could set
+<code>pre_analyse</code> to be <code>False</code> to get raw data of message(dict).</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class JSONSocketUser:
+    &#34;&#34;&#34;
+    This is basic class of socket client user, which 
+    implements fundamental interfaces that you can 
+    reach as a user.
+    We wraps the message data into a Message object.
+    For better performance(not indeed), you could set
+    `pre_analyse` to be `False` to get raw data of message(dict).
+    &#34;&#34;&#34;
+
+    def __init__(self, path:str=None, reconnect:int=None, pre_analyse:bool=True) -&gt; None:
+        self.path = path if path else &#39;wss://frog.4fun.chat/social&#39;
+        self.reconnect = reconnect if reconnect else 5
+        self.codes = codes
+        self.pre_analyse = pre_analyse
+
+        self.create_connection(self.path)
+        print(&#39;created connection with {}&#39;.format(self.path))
+    
+    def _create_websocket(self, uri:str, on_open=None, on_message=None, on_error=None, on_close=None):
+        &#34;&#34;&#34;
+        Create and return a websocket connection object
+
+        Args:
+            uri : str
+                Location of server this user connects.
+
+            on_open : function : optional
+                Callback function execute when websocket connection is created.
+                
+            on_message : function : optional
+                Callback function execute when receive message from websocket connection.
+            
+            on_error : function : optional
+                Callback function execute when error occurs on websocket connection.
+
+            on_close : function : optional
+                Callback function execute when websocket connectoin breaks or closes.
+
+        Return:
+            Return the websocket object that is created when called.
+            
+        &#34;&#34;&#34;
+        print(&#39;create_websocket!&#39;)
+        ws = websocket.WebSocketApp(
+            uri,
+            on_open=on_open or self.on_open,
+            on_message=on_message or self.on_message,
+            on_error=on_error or self.on_error,
+            on_close=on_close or self.on_close
+        )
+        return ws
+    
+    def create_connection(self, uri: str, on_open=None, on_message=None, on_error=None, on_close=None):
+        &#34;&#34;&#34;
+        Initialize websocket connection between this user object itself and given server
+
+        Args:
+            Args:
+            uri : str
+                Location of server this user connects.
+
+            on_open : function : optional
+                Callback function execute when websocket connection is created.
+                
+            on_message : function : optional
+                Callback function execute when receive message from websocket connection.
+            
+            on_error : function : optional
+                Callback function execute when error occurs on websocket connection.
+
+            on_close : function : optional
+                Callback function execute when websocket connectoin breaks or closes.
+        &#34;&#34;&#34;
+        self.ws = self._create_websocket(uri, on_open, on_message, on_error, on_close)
+        self.ws.run_forever(dispatcher=rel, reconnect=self.reconnect)
+
+    def on_message(self, ws, message):
+        &#34;&#34;&#34;
+        Default callback when receive message from websocket connectoin.
+        Don&#39;t override this function if you can&#39;t figure out what you would
+        face to do so!
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            message : str
+                Message Object in utf-8 received from websocket connection.
+
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.message: {message}&#39;)
+        self._safe_handle(ws, message)
+
+    def on_error(self, ws, error):
+        &#34;&#34;&#34;
+        Default callback execute when error occurs on connection.
+        As default, it would only print error instead of raise an
+        exception.
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            error : exception object
+                Object contains full information of the error.
+            
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.error: {error}&#39;)
+    
+    def on_close(self, ws, close_status_code, close_msg):
+        &#34;&#34;&#34;
+        Default callback execute when connection is closed.
+        As default, it would only print closure information.
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object
+
+            close_status_code : str
+                Status code of closure, more details refer to `https://websocket-client.readthedocs.io/en/latest`
+        
+            close_msg : str
+                Information of closure.
+            
+        &#34;&#34;&#34;
+        print(f&#39;JSONSocketUser.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)
+
+    def on_open(self, ws):
+        &#34;&#34;&#34;
+        Callback that is called when connection is open.
+        As default it will only print message that bot opens.
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object. 
+        
+        &#34;&#34;&#34;
+        print(&#39;JSONSocketUser.open&#39;)
+        
+    @staticmethod
+    def _make_data_dict(code:int, **extra_args) -&gt; object:
+        &#34;&#34;&#34;
+        Format given params to meet that social server need.
+
+        Args:
+            code : int
+                Type code of this message, more details refer to `/codes.md`
+            **extra_args : key-value pair of params : optional
+                Other params to carry with message. all of these will be wrapped
+                in `extra` segment of return value.
+
+        Return:
+            Wrapped object of all given params.
+        &#34;&#34;&#34;
+        return {
+            &#39;code&#39;: code,
+            &#39;extra&#39;: extra_args
+        }
+    
+    def _send_data_to_ws(self, ws, code:int, **extra_args):
+        &#34;&#34;&#34;
+        Warp and format given params then send with websocket connection.
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            code : int 
+                Type code of the message, which decides how it will work
+            **extra_args : key-value pair of params : optional
+                Other params to carry with message. all of these will be wrapped
+                in `extra` segment of return value.
+
+        &#34;&#34;&#34;
+        data_dict = self._make_data_dict(code=code, **extra_args)
+        self._safe_send(ws, data_dict)
+
+    def _safe_send(self, ws, data:dict):
+        &#34;&#34;&#34;
+        Send wrapped data making sure of data safety. The `safety` emphasizes data format 
+        instead of connection or privacy!
+
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            
+            data : dict
+                Wrapped data object in format of that in `/code.md`. 
+        
+        &#34;&#34;&#34;
+        try:
+            if isinstance(data, dict):
+                data = json.dumps(data)
+            else:
+                pass
+
+            ws.send(data)
+            return True
+        except websocket.WebSocketConnectionClosedException as e:
+            print(&#39;Bot: _safe_send: Connection Closed Exception&#39;, e)
+
+        except Exception as e:
+            traceback.print_exc()
+            print(&#39;Bot: self._safe_send: Exception Occurs&#39;, e)
+
+    def _safe_handle(self, ws, message:str):
+        &#34;&#34;&#34;
+        Load object from message (that in type of jstr) and distribute it
+        to matching handler.
+        It will time for each message from received to fully processed. 
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            message : json string
+                Message received from websocket.
+
+        &#34;&#34;&#34;
+        ct = datetime.datetime.now()
+        print(&#39;before social bot _safe_handle current time:- &#39;, ct)
+
+        try:
+            data = json.loads(message)
+            ct = datetime.datetime.now()
+            self._handle_data_dict(ws, data)
+
+        except ValueError as e:
+            print(f&#39;Bot: _safe_handle received non-json message: {message}&#39;)
+
+        except Exception as e:
+            print(&#39;Bot: Server function error!&#39;, e)
+            traceback.print_exc()
+        
+        ct = datetime.datetime.now()
+        print(&#39;after social bot _safe_handle current time:- &#39;, ct)
+    
+    def _handle_data_dict(self, ws, data:dict):
+        &#34;&#34;&#34;
+        Distribute message to matching handler by type code.
+        
+        Args:
+            ws : websocket.WebSocketApp
+                Connection object.
+            data : dict
+                Message object received from connection.
+        
+        &#34;&#34;&#34;
+        code = data[&#39;code&#39;]
+
+        if code &gt;= 40000 and code &lt; 50000:
+            self.on_receive_command(data)
+        elif code &gt;= 50000 and code &lt; 60000:
+            self.on_receive_message(message_from_raw(data) if self.pre_analyse else data)
+        elif code &gt;= 60000 and code &lt; 70000:
+            self.on_receive_status(data)
+        else:
+            self.on_receive_other(data)
+        print(f&#39;Bot default: _handle_data_dict received {data} at websocket {ws}&#39;)
+
+    def _command_register(self, email, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to register.
+
+        Args:
+            email : str
+                Email for registering an account.
+            password : str
+                Password for registering an account.
+            
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: register before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_REGISTER, email=email, password=password)
+    
+    def _command_reset_password(self, email, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to reset password of account.
+
+        Args:
+            email : str
+                Email of account to reset password.
+            password : str
+                Original password of the account.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: reset password before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_RESET_PASSWORD, email=email, password=password)
+
+    def _command_login(self, user_id, password):
+        &#34;&#34;&#34;
+        Fundamental API for user to login.
+
+        Args:
+            user_id : str
+                User ID of account to login.
+            password : str
+                Password of the account.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: login before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LOGIN, user_id=user_id, password=password)
+    
+    def _command_logout(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to logout.
+
+        Args:
+            user_id : str
+                User ID of account to logout.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: logout before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LOGOUT, user_id=user_id)
+
+    def _command_join_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to join a existing channel.
+        Will receive error code if trynna join a unexisting channel.
+
+        Args:
+            user_id : str
+                User ID of account that already logged in.
+            channel_id : str
+                ID of the channel to join.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: join channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_JOIN_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_leave_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to leave a existing channel that contains current account.
+        Will receive error code if trynna leave a channel that doesn&#39;t contain you.
+
+        Args:
+            user_id : str
+                User ID of account that already logged in.
+            channel_id : str
+                ID of the channel to leave.
+        &#34;&#34;&#34;
+        if not self.ws:
+            raise Exception(&#39;error: leave channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_LEAVE_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_offline_message(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch messages that sent to an account 
+        when it&#39;s not online.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch offline message before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_FETCH_OFFLINE_MESSAGE, user_id=user_id)
+
+    def _command_fetch_user_channels(self, user_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch the list of channels that contains this account. 
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: get user channels before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_GET_USER_CHANNEL_LIST, user_id=user_id)
+
+    def _command_create_channel(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to create a new channel. 
+        If create with a ID already in use will receive error code.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to create.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: create channel before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.OPERATION_CREATE_CHANNEL, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_channel_user_list(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of ussers in a certain channel. 
+        Will receive error code if trynna fetch a channel inexists.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch channel user list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_CHANNEL_USER_LIST, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_channel_command_list(self, user_id, channel_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of features in a certain channel. 
+        Will receive error code if trynna fetch a channel inexists.
+
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            channel_id : str
+                ID of channel to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch channel command list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_CCS_COMMAND_LIST, user_id=user_id, channel_id=channel_id)
+
+    def _command_fetch_recipient_list(self, user_id, msg_id):
+        &#34;&#34;&#34;
+        Fundamental API for user to fetch a list of recipients of a certain message.
+        Will receive error code if trynna fetch a message unexist.
+        Args:
+            user_id : str
+                User ID of a account that already logged in.
+            msg_id : str
+                ID of message to fetch.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: fetch recipient list before connection created!&#39;)
+        
+        self._send_data_to_ws(self.ws, self.codes.COMMAND_UP_FETCH_RECIPIENT_LIST, user_id=user_id, msg_id=msg_id)
+
+    def _command_send_message(self, temp_msg_id, message:Message):
+        &#34;&#34;&#34;
+        Wrapped API for sending certain message to certain users in certain channel.
+
+        Args:
+            temp_msg_id : str
+                Not in use, will be removed in the future.
+            message : Message
+                Message object that consists of information required for sending.
+        &#34;&#34;&#34;
+
+        if not self.ws:
+            raise Exception(&#39;error: send message before connection created!&#39;)
+        
+        if message.type == MessageType.TEXT:
+            self._send_message_text(message.channel, message.sender, message.to, temp_msg_id, message.body, message.origin)
+        else:
+            #TODO:
+            pass
+
+    def _send_message_text(self, channel_id, from_user_id, to_user_ids, temp_msg_id, msg_body, origin):
+        &#34;&#34;&#34;
+        Fundamental API to send message in text.
+        
+        Args: 
+            channel_id : str
+                ID of channel to send.
+            from_user_id : str
+                ID of sender.
+            to_user_id : list
+                List of recipients.
+            temp_msg_id : str
+                Not in use, will be removed in the future.
+            msg_body : str
+                Content of message to send.
+            origin : str
+                Specifier for bot, server, god and goddess.
+        &#34;&#34;&#34;
+        print(&#34;Send text message: id-{}, body-{}&#34;.format(temp_msg_id, msg_body))
+        self._send_data_to_ws(self.ws, self.codes.MESSAGE_UP_TEXT, channel_id=channel_id, from_user_id=from_user_id, to_user_ids=to_user_ids, temp_msg_id=temp_msg_id, msg_body=msg_body, origin=origin)
+    
+    def on_receive_command(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive command from connection.
+
+        Args:
+            data : dict
+                Object of command.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_command: {data}&#39;)
+
+    def on_receive_message(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive message from connection.
+
+        Args:
+            data : Message
+                Object of message.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_message: {data}&#39;)
+
+    def on_receive_status(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive status from connection.
+
+        Args:
+            data : dict
+                Object of status.
+        
+        &#34;&#34;&#34;
+        print(f&#39;Default on_receive_status: {data}&#39;)
+
+    def on_receive_other(self, data):
+        &#34;&#34;&#34;
+        Default callback that is called when receive something that is not command,
+        message or status from connection.
+        It always indicates error occurs on server end. As default, it will raise an 
+        exception when called.
+        Args:
+            data : dict
+                Object of received thing.
+        
+        &#34;&#34;&#34;
+        raise Exception(f&#34;Error happens, received {data}&#34;)
+
+    def run(self):
+        &#34;&#34;&#34;
+        Default function to startup a bot.
+        Basically it will bind an rel to reconnect when stalled too long.
+        Override this if you want to make some change before connection is
+        created!
+        &#34;&#34;&#34;
+        rel.signal(2, rel.abort)
+        print(&#39;rel created&#39;)
+        rel.dispatch()
+        print(&#39;finished running&#39;)</code></pre>
+</details>
+<h3>Subclasses</h3>
+<ul class="hlist">
+<li><a title="socialization.bot.base_bot.BaseBot" href="base_bot.html#socialization.bot.base_bot.BaseBot">BaseBot</a></li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.create_connection"><code class="name flex">
+<span>def <span class="ident">create_connection</span></span>(<span>self, uri: str, on_open=None, on_message=None, on_error=None, on_close=None)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Initialize websocket connection between this user object itself and given server</p>
+<h2 id="args">Args</h2>
+<p>Args:
+uri : str
+Location of server this user connects.</p>
+<p>on_open : function : optional
+Callback function execute when websocket connection is created.</p>
+<p>on_message : function : optional
+Callback function execute when receive message from websocket connection.</p>
+<p>on_error : function : optional
+Callback function execute when error occurs on websocket connection.</p>
+<p>on_close : function : optional
+Callback function execute when websocket connectoin breaks or closes.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_connection(self, uri: str, on_open=None, on_message=None, on_error=None, on_close=None):
+    &#34;&#34;&#34;
+    Initialize websocket connection between this user object itself and given server
+
+    Args:
+        Args:
+        uri : str
+            Location of server this user connects.
+
+        on_open : function : optional
+            Callback function execute when websocket connection is created.
+            
+        on_message : function : optional
+            Callback function execute when receive message from websocket connection.
+        
+        on_error : function : optional
+            Callback function execute when error occurs on websocket connection.
+
+        on_close : function : optional
+            Callback function execute when websocket connectoin breaks or closes.
+    &#34;&#34;&#34;
+    self.ws = self._create_websocket(uri, on_open, on_message, on_error, on_close)
+    self.ws.run_forever(dispatcher=rel, reconnect=self.reconnect)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_close"><code class="name flex">
+<span>def <span class="ident">on_close</span></span>(<span>self, ws, close_status_code, close_msg)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback execute when connection is closed.
+As default, it would only print closure information.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object</p>
+<p>close_status_code : str
+Status code of closure, more details refer to <code>https://websocket-client.readthedocs.io/en/latest</code></p>
+<p>close_msg : str
+Information of closure.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_close(self, ws, close_status_code, close_msg):
+    &#34;&#34;&#34;
+    Default callback execute when connection is closed.
+    As default, it would only print closure information.
+
+    Args:
+        ws : websocket.WebSocketApp
+            Connection object
+
+        close_status_code : str
+            Status code of closure, more details refer to `https://websocket-client.readthedocs.io/en/latest`
+    
+        close_msg : str
+            Information of closure.
+        
+    &#34;&#34;&#34;
+    print(f&#39;JSONSocketUser.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_error"><code class="name flex">
+<span>def <span class="ident">on_error</span></span>(<span>self, ws, error)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback execute when error occurs on connection.
+As default, it would only print error instead of raise an
+exception.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p>
+<p>error : exception object
+Object contains full information of the error.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_error(self, ws, error):
+    &#34;&#34;&#34;
+    Default callback execute when error occurs on connection.
+    As default, it would only print error instead of raise an
+    exception.
+    Args:
+        ws : websocket.WebSocketApp
+            Connection object.
+        
+        error : exception object
+            Object contains full information of the error.
+        
+    &#34;&#34;&#34;
+    print(f&#39;JSONSocketUser.error: {error}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_message"><code class="name flex">
+<span>def <span class="ident">on_message</span></span>(<span>self, ws, message)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback when receive message from websocket connectoin.
+Don't override this function if you can't figure out what you would
+face to do so!</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p>
+<p>message : str
+Message Object in utf-8 received from websocket connection.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_message(self, ws, message):
+    &#34;&#34;&#34;
+    Default callback when receive message from websocket connectoin.
+    Don&#39;t override this function if you can&#39;t figure out what you would
+    face to do so!
+
+    Args:
+        ws : websocket.WebSocketApp
+            Connection object.
+        
+        message : str
+            Message Object in utf-8 received from websocket connection.
+
+    &#34;&#34;&#34;
+    print(f&#39;JSONSocketUser.message: {message}&#39;)
+    self._safe_handle(ws, message)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_open"><code class="name flex">
+<span>def <span class="ident">on_open</span></span>(<span>self, ws)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Callback that is called when connection is open.
+As default it will only print message that bot opens.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_open(self, ws):
+    &#34;&#34;&#34;
+    Callback that is called when connection is open.
+    As default it will only print message that bot opens.
+    Args:
+        ws : websocket.WebSocketApp
+            Connection object. 
+    
+    &#34;&#34;&#34;
+    print(&#39;JSONSocketUser.open&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_receive_command"><code class="name flex">
+<span>def <span class="ident">on_receive_command</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback that is called when receive command from connection.</p>
+<h2 id="args">Args</h2>
+<p>data : dict
+Object of command.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_command(self, data):
+    &#34;&#34;&#34;
+    Default callback that is called when receive command from connection.
+
+    Args:
+        data : dict
+            Object of command.
+    
+    &#34;&#34;&#34;
+    print(f&#39;Default on_receive_command: {data}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_receive_message"><code class="name flex">
+<span>def <span class="ident">on_receive_message</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback that is called when receive message from connection.</p>
+<h2 id="args">Args</h2>
+<p>data : Message
+Object of message.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_message(self, data):
+    &#34;&#34;&#34;
+    Default callback that is called when receive message from connection.
+
+    Args:
+        data : Message
+            Object of message.
+    
+    &#34;&#34;&#34;
+    print(f&#39;Default on_receive_message: {data}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_receive_other"><code class="name flex">
+<span>def <span class="ident">on_receive_other</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback that is called when receive something that is not command,
+message or status from connection.
+It always indicates error occurs on server end. As default, it will raise an
+exception when called.</p>
+<h2 id="args">Args</h2>
+<p>data : dict
+Object of received thing.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_other(self, data):
+    &#34;&#34;&#34;
+    Default callback that is called when receive something that is not command,
+    message or status from connection.
+    It always indicates error occurs on server end. As default, it will raise an 
+    exception when called.
+    Args:
+        data : dict
+            Object of received thing.
+    
+    &#34;&#34;&#34;
+    raise Exception(f&#34;Error happens, received {data}&#34;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.on_receive_status"><code class="name flex">
+<span>def <span class="ident">on_receive_status</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default callback that is called when receive status from connection.</p>
+<h2 id="args">Args</h2>
+<p>data : dict
+Object of status.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_status(self, data):
+    &#34;&#34;&#34;
+    Default callback that is called when receive status from connection.
+
+    Args:
+        data : dict
+            Object of status.
+    
+    &#34;&#34;&#34;
+    print(f&#39;Default on_receive_status: {data}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.json_socket_user.JSONSocketUser.run"><code class="name flex">
+<span>def <span class="ident">run</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Default function to startup a bot.
+Basically it will bind an rel to reconnect when stalled too long.
+Override this if you want to make some change before connection is
+created!</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run(self):
+    &#34;&#34;&#34;
+    Default function to startup a bot.
+    Basically it will bind an rel to reconnect when stalled too long.
+    Override this if you want to make some change before connection is
+    created!
+    &#34;&#34;&#34;
+    rel.signal(2, rel.abort)
+    print(&#39;rel created&#39;)
+    rel.dispatch()
+    print(&#39;finished running&#39;)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="socialization.bot" href="index.html">socialization.bot</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="socialization.bot.json_socket_user.JSONSocketUser" href="#socialization.bot.json_socket_user.JSONSocketUser">JSONSocketUser</a></code></h4>
+<ul class="two-column">
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.create_connection" href="#socialization.bot.json_socket_user.JSONSocketUser.create_connection">create_connection</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_close" href="#socialization.bot.json_socket_user.JSONSocketUser.on_close">on_close</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_error" href="#socialization.bot.json_socket_user.JSONSocketUser.on_error">on_error</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_message" href="#socialization.bot.json_socket_user.JSONSocketUser.on_message">on_message</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_open" href="#socialization.bot.json_socket_user.JSONSocketUser.on_open">on_open</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_receive_command" href="#socialization.bot.json_socket_user.JSONSocketUser.on_receive_command">on_receive_command</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_receive_message" href="#socialization.bot.json_socket_user.JSONSocketUser.on_receive_message">on_receive_message</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_receive_other" href="#socialization.bot.json_socket_user.JSONSocketUser.on_receive_other">on_receive_other</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_receive_status" href="#socialization.bot.json_socket_user.JSONSocketUser.on_receive_status">on_receive_status</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.run" href="#socialization.bot.json_socket_user.JSONSocketUser.run">run</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
