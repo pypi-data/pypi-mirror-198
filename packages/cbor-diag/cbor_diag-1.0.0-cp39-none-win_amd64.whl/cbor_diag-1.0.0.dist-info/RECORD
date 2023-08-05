@@ -1,0 +1,5 @@
+cbor_diag-1.0.0.dist-info/METADATA,sha256=wnrWV1k7hjGs89bcio0lD4owfsiNujyaxKfcvqgiMI8,2603
+cbor_diag-1.0.0.dist-info/WHEEL,sha256=FJL2ou7K5V0ITYVnNpdqdDvfSZSOqe03YPiBtWkAJ5k,96
+cbor_diag/__init__.py,sha256=9zj2drLAZbiD-783VkpR_snh4lfWDvjo8B9bEb2MJvI,89
+cbor_diag/_cbor_diag.cp39-win_amd64.pyd,sha256=xs2zz6xcXuOKKRL6z6UkzQh4eOp3km83guEaj6EhkW4,493568
+cbor_diag-1.0.0.dist-info/RECORD,,
