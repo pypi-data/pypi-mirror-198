@@ -1,0 +1,8 @@
+setup.py
+oca_capctha/TikTok captcha.py
+oca_capctha/__init__.py
+ocacaptcha.egg-info/PKG-INFO
+ocacaptcha.egg-info/SOURCES.txt
+ocacaptcha.egg-info/dependency_links.txt
+ocacaptcha.egg-info/requires.txt
+ocacaptcha.egg-info/top_level.txt
