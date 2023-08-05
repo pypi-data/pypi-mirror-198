@@ -1,0 +1,38 @@
+# Jetsam
+- True daemonizer using native C calls  
+- Currently only compatible with `*nix` file systems 
+- <u>Extra Paranoid Edition</u> uses that **double fork magic!** 
+> jetsam definition: floating debris ejected from a ship 
+
+## C Extension 
+To showcase a C library being used as a _native python module_
+
+## Example 
+```python
+import time
+import logging
+import jetsam
+from jetsam import daemon, end_daemon
+
+jetsam.set_logfile("user_daemon.log")  # defaults to /tmp/jetsam.log
+
+@daemon
+def foo():
+    logging.basicConfig(
+        filename="foo.log", 
+        level=logging.DEBUG, 
+        filemode="w"
+    )
+    while True:
+        time.sleep(1)
+        logging.debug("Truly daemonized!")
+
+
+foo()  # detaches from current interpreter
+
+time.sleep(3)  # a long running process...
+
+end_daemon(foo)
+
+print("Eject and forget with jetsam!")
+```
