@@ -1,0 +1,9 @@
+jskiner/schema.py,sha256=8CXNBYOWy1w7kQY5PEJniCcPa-5ZE6fEQL_2S6Rz1sA,371
+jskiner/__init__.py,sha256=QpnWh9geGt16RJIrIgUVC5R8ACUBRuaNQXShXlbFMJM,264
+jskiner/cmd.py,sha256=LL2q6C-cCwRhl6gIAre4i0E-W-tvwEeF02pTtsJnEoo,1289
+jskiner/jskiner.cpython-37m-x86_64-linux-gnu.so,sha256=QZ53A0LFlic-Kq5pfInd7O-V0ZbW0OX7FSMBBqQX_ao,10760888
+jskiner-0.0.5.dist-info/entry_points.txt,sha256=paLq4RRVb0j9Af4TAQrlq7QpKTqDc2iXzeZEZ6Ci2As,42
+jskiner-0.0.5.dist-info/WHEEL,sha256=8g-YiJTH4YFfHhaAF2keV6Wretm7NlMI5FjIwstoDVY,147
+jskiner-0.0.5.dist-info/RECORD,,
+jskiner-0.0.5.dist-info/METADATA,sha256=vgBMBjziWenT3D33dghYQ7PSi7dNqNhLyCAowS_qsLs,1345
+jskiner-0.0.5.dist-info/license_files/LICENSE,sha256=UBsJjwyGIhq8o_mGGBXW9zVNfAk1ov0izzd_DkZvSmQ,1068
