@@ -1,0 +1,8 @@
+_dlib_pybind11.cpython-37m-x86_64-linux-gnu.so,sha256=fg8t152bdjanLOg7NdWI9nAR_m8EM4dIBAuwv-4G-t8,12130945
+dlib/__init__.py,sha256=y55qzYkSndW8n7vxf08Ku8ewnVIQO-Fne9vaiV5Vi54,775
+dlib_bin.libs/libsqlite3-9693faa0.so.0.8.6,sha256=zyXQ9AO0fLxmee4lIzfGwIQ6fcF7HozexrRbx0M5OKA,1344321
+dlib_bin-19.24.1.dist-info/LICENSE.txt,sha256=jYKRyvHO4m0jrPPrZ8n5otWPHGgbFqT76Mv7njwLWps,1337
+dlib_bin-19.24.1.dist-info/WHEEL,sha256=5qaUL7R7UuAgTpV1hnYjoipMHezG5YJtRxtV3_rU2Ew,150
+dlib_bin-19.24.1.dist-info/top_level.txt,sha256=YlPTFGFSVvLz81p6HYDNqxTUr3We6NCIOoigvmBElAc,20
+dlib_bin-19.24.1.dist-info/RECORD,,
+dlib_bin-19.24.1.dist-info/METADATA,sha256=q4gHtWD6V4vH7xKgmEY64z29dOe9cO77I7qT9ahH4zY,1419
