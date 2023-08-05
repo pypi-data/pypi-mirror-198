@@ -1,0 +1,14 @@
+matplotlib>=3.4
+pandas>=1.5
+seaborn>=0.12
+
+[dev]
+twine
+build
+
+[docs]
+sphinx
+pydata-sphinx-theme
+
+[test]
+pytest
