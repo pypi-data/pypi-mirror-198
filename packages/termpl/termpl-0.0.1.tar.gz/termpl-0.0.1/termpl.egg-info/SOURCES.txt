@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+termpl.egg-info/PKG-INFO
+termpl.egg-info/SOURCES.txt
+termpl.egg-info/dependency_links.txt
+termpl.egg-info/entry_points.txt
+termpl.egg-info/requires.txt
+termpl.egg-info/top_level.txt
+tmpl/__init__.py
+tmpl/main.py
+tmpl/player.py
+tmpl/ui.py
+tmpl/utils.py
+tmpl/version.py
