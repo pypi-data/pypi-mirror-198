@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: feather-api
+Version: 1.0.0rc1
+Summary: Python wrapper for Feather's API
+Home-page: http://github.com/Feather-Official/featherdbtools
+Author: Feather Technology Inc.
+Author-email: support@try-feather.com
+Description-Content-Type: text/markdown
+
+## Calculations
+
+Several endpoints, including ratios and multiples, include values derived from figures reported in the financial statements. To calculate these values, we use the following formulas.
+
+EBIT = 
+EBITDA = EBIT + Depreciation and Amortization
+
+## Getting Started
+
+To use the API, you'll need an API key. You can get one by emailing [founders@try-feather.com](mailto:founders@try-feather.com)
+
+If you're using the Python client, you can set your API key as an environment variable `FEATHER_API_KEY`, or pass in the api key as a parameter to the client, as follows:
+
+```
+from featherapi import DataClient
+
+API_KEY = 'xxyourfeatherapikeyherexx'
+
+client = DataClient(api_key=API_KEY)
+```
+
+If calling the HTTP endpoints yourself, you need to include your api key as an `x-api-key` header. See the HTTP API documentation for more details.
+
+## Financials
+
+To get all available facts for an equity:
+
+```
+client.get_equity_facts('AAPL')
+```
+
+Additionally, equity facts can be fetched by range for available reporting periods:
+    
+```
+# get the available reporting periods for AAPL
+available = client.get_available('AAPL')
+
+# get the latest 5 years of facts
+end = available[-1]
+start = available[-5]
+
+results = client.get_equity_facts('AAPL', start=start, end=end)
+```
+
+TO get the institutional ownership for an equity:
+
+```
+holders = client.get_institutional_holders('AAPL')
+```
+ 
