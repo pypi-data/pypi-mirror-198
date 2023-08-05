@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+jaine/__init__.py
+jaine/main.py
+jaine.egg-info/PKG-INFO
+jaine.egg-info/SOURCES.txt
+jaine.egg-info/dependency_links.txt
+jaine.egg-info/requires.txt
+jaine.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_main.py
+tests/test_version.py

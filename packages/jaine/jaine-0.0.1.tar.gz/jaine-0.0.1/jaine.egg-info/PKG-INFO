@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jaine
+Version: 0.0.1
+Summary: jaine
+Author-email: jaine <jaine@example.com>
+License: Jaine
+Project-URL: Documentation, https://github.com/bcreeda11/jaine
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# jaine
+
+The future of learning
