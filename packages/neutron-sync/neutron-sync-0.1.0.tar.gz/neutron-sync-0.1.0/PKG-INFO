@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: neutron-sync
+Version: 0.1.0
+Summary: Sync your dotfiles securely to an encrypted Git
+License: BSDv3
+Author-email: Paul Bailey <paul@neutron.studio>
+Requires-Python: >=3.8
+Project-URL: homepage, https://github.com/neutron-sync/neutron-sync
+Description-Content-Type: text/markdown
+
+# neutron-sync
+Sync your personal dotfiles to an encrypted github
+
