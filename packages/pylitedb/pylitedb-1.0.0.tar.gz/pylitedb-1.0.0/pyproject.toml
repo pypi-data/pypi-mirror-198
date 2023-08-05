@@ -1,0 +1,27 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pylitedb"
+version = "1.0.0"
+description = "Very Simple helper function for managing sqlite databases"
+readme = "README.md"
+authors = [{ name = "Philippe Lacroix-Ouellette", email = "philippe.lacroix.ouellette@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["sqlite", "sqlite3", "utilities"]
+dependencies = [
+    "sqlite_utils>=3.30",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = []
+
+[project.urls]
+Homepage = "https://github.com/phil-lo/dblite"

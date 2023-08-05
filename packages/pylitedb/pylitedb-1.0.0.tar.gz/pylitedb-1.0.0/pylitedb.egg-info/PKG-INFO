@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pylitedb
+Version: 1.0.0
+Summary: Very Simple helper function for managing sqlite databases
+Author-email: Philippe Lacroix-Ouellette <philippe.lacroix.ouellette@gmail.com>
+Project-URL: Homepage, https://github.com/phil-lo/dblite
+Keywords: sqlite,sqlite3,utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# dblib
+
+Simple library to help manage a database
+
+## Example
+```python
+from datetime import datetime
+
+from pylitedb.db.database import DB
+from pylitedb.db.table import Table
+
+conn = DB("test")
+
+daily_data = Table(conn,
+              name="DailyData",
+              columns={"date": datetime,
+                        "ticker": str,
+                        "field": str,
+                        "value": float},
+              primary_keys=['date', 'ticker', 'field'])
+
+daily_data.upsert([{"date": datetime(2022, 2, 1),
+                        "ticker": "AAPL",
+                        "field": "PX_LAST",
+                        "value": 6.}])
+
+daily_data.delete()
+```
