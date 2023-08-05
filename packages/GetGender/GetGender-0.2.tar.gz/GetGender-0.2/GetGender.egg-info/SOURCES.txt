@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+GetGender/__init__.py
+GetGender/data.py
+GetGender/guesser.py
+GetGender.egg-info/PKG-INFO
+GetGender.egg-info/SOURCES.txt
+GetGender.egg-info/dependency_links.txt
+GetGender.egg-info/top_level.txt
+test/test.py
