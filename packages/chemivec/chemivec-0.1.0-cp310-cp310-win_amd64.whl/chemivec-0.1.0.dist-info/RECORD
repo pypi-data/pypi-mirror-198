@@ -1,0 +1,15 @@
+chemivec/__init__.py,sha256=nv1xYLlvEzGxo-cBjif_PIB90xKKLwJkxOetkoA47yg,74
+chemivec/_chemivec.pyd,sha256=39iPyxEUl13yzomLilRbGc2NfuSaihwBvf7brtmnLu4,5477888
+chemivec/options.py,sha256=KgZtmWKspRfdFG3qpLEzPLwos758Rp82p_gYDDjn5ec,1675
+chemivec/search.py,sha256=QLmN7fhgPNfpPCCIP3FJM97TIuaPRtbrf80-Nsj165g,3071
+chemivec-0.1.0.data/data/include/unity/unity.h,sha256=pBM5OhxFvi2bB5AkrbsKw-LCTo8qvBSWld4l7HFz0cA,94449
+chemivec-0.1.0.data/data/include/unity/unity_internals.h,sha256=gTE-DR5X_1P3OIggU7-XhWJzqKepXLu9ZGk5Kpf2M4E,97475
+chemivec-0.1.0.data/data/lib/unity.lib,sha256=uvQGB4IJB1fpY4uTuOvmZ4twprzPK88Xaig9n6ETDbk,62742
+chemivec-0.1.0.data/data/lib/cmake/unity/unityConfig.cmake,sha256=rd9bsETYWf2lv5O3Bg35HjlQyBPISkYLpl9-q6D6xWE,54
+chemivec-0.1.0.data/data/lib/cmake/unity/unityConfigVersion.cmake,sha256=0dMWbZaajJt2uUo2asEhEsPdJA18Jag4jbvbHtGoY_w,2822
+chemivec-0.1.0.data/data/lib/cmake/unity/unityTargets-release.cmake,sha256=a_4bKLNgUfjlch_0T2Q-IIG8E-ecicIcbaXWynnr99U,866
+chemivec-0.1.0.data/data/lib/cmake/unity/unityTargets.cmake,sha256=U9De17L2z_dJQ_dQ5SNeqi-FOaMu9W8d-ZFaon0XN54,4013
+chemivec-0.1.0.dist-info/METADATA,sha256=trwDhVHR50I1rEmyO4bi5FZy01oJfFBkEmbgtAlUDds,224
+chemivec-0.1.0.dist-info/WHEEL,sha256=KWpJ2I7uP4g_krlXvubFSXUUmclJcDikdkO43UCg3qo,96
+chemivec-0.1.0.dist-info/top_level.txt,sha256=wOhzYeUD0mxMu7NJ9awzDqY-qq1FfS-sJpbECeLiCYA,9
+chemivec-0.1.0.dist-info/RECORD,,
