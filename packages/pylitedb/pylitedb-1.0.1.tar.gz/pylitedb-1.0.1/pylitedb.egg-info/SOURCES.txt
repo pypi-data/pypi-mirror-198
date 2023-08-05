@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pylitedb/version.py
+pylitedb.egg-info/PKG-INFO
+pylitedb.egg-info/SOURCES.txt
+pylitedb.egg-info/dependency_links.txt
+pylitedb.egg-info/requires.txt
+pylitedb.egg-info/top_level.txt
+pylitedb/common/types.py
+pylitedb/db/database.py
+pylitedb/db/table.py
