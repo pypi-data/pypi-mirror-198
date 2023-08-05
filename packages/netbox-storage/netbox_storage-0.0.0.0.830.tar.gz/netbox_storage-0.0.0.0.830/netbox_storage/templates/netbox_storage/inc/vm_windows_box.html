@@ -1,0 +1,51 @@
+{% load storage %}
+{% load perms %}
+
+<div class="card">
+    <h5 class="card-header">Windows Drives & Partition</h5>
+    <div class="card-body">
+        {% if partition_dict %}
+        <table class="table table-hover">
+            <tr>
+                <td>Drive</td>
+                <td>Drive Size</td>
+                <td>Drive Cluster</td>
+            </tr>
+            {% for key,value in partition_dict.items %}
+            <tr>
+                <td>{{ key.identifier|linkify|placeholder }}</td>
+                <td>{{ key.size|placeholder }} MB</td>
+                <td>{{ key.cluster|linkify|placeholder }}</td>
+
+            </tr>
+                {% if value %}
+                {% for partition in value %}
+            <tr class="table-secondary">
+                <td>{{ partition.letter|linkify|placeholder }}</td>
+                <td>{{ partition.size|linkify|placeholder }} MB</td>
+                <td>{{ partition.fs_type|linkify|placeholder }}</td>
+
+                {% endfor %}
+                {% else %}
+                    <td  colspan="3" class="table-active">No Partition for the drive</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <div class="text-muted">None</div>
+        {% endif %}
+    </div>
+    {% if perms.netbox_storage.add_drive %}
+    <div class="card-footer text-end noprint">
+        <a href="{% url 'plugins:netbox_storage:partition_add' %}" class="btn btn-sm btn-primary">
+            <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add Partition to drive
+        </a>
+        {% with object|meta:"model_name" as object_type %}
+            <a href="{% url 'plugins:netbox_storage:drive_add' %}?virtual_machine={{ object.pk }}&return_url={% url 'virtualization:virtualmachine' pk=object.pk %}" class="btn btn-sm btn-primary">
+                <span class="mdi mdi-plus-thick" aria-hidden="true"></span> Add Drive to Windows VM
+            </a>
+        {% endwith %}
+    </div>
+    {% endif %}
+</div>
