@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/McDFPy.egg-info/PKG-INFO
+src/McDFPy.egg-info/SOURCES.txt
+src/McDFPy.egg-info/dependency_links.txt
+src/McDFPy.egg-info/top_level.txt
+src/mcdfpy/__init__.py
+src/mcdfpy/blocks.py
+src/mcdfpy/recodeitemapi.py
+src/mcdfpy/template.py
+src/mcdfpy/variables.py
