@@ -1,0 +1,13 @@
+README
+pyproject.toml
+sigili/wiki.py
+sigili.egg-info/PKG-INFO
+sigili.egg-info/SOURCES.txt
+sigili.egg-info/dependency_links.txt
+sigili.egg-info/top_level.txt
+sigili/article/__init__.py
+sigili/article/repository.py
+sigili/data/ref.py
+tests/__init__.py
+tests/test_article_repository.py
+tests/test_wiki.py
