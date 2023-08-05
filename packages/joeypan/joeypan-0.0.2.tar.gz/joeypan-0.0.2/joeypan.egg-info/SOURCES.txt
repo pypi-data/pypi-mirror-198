@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+joeypan.egg-info/PKG-INFO
+joeypan.egg-info/SOURCES.txt
+joeypan.egg-info/dependency_links.txt
+joeypan.egg-info/top_level.txt
