@@ -1,0 +1,10 @@
+speechmark/__init__.py,sha256=da5k8zFq-_lEMlOKPIgHHkFCBwZI2xkgXGlp_l1vMwA,344
+speechmark/__main__.py,sha256=y04sdNVaZl53EDmbp7lba6gR2oru6Njmcy25BCu7mOs,35
+speechmark/speechmark.py,sha256=pa7oVusoXg2PkVE0_J_FhxEvaLUixMbSihlC8XPBUA0,9406
+speechmark/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+speechmark/test/test_speechmark.py,sha256=BL_oJxzz038tkZay8ZBl6AS9xaEpBPT5h0-kLqTRCP0,33813
+speechmark-0.8.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+speechmark-0.8.0.dist-info/METADATA,sha256=dyt9pgYfAaqM0SRcF7qHFsOryAbhso8h-YpC5NQfkPw,48166
+speechmark-0.8.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+speechmark-0.8.0.dist-info/top_level.txt,sha256=kfYeJdcbV085F5dmG2HkeVIP7flmp8zYjy-3vNDSNMA,11
+speechmark-0.8.0.dist-info/RECORD,,
