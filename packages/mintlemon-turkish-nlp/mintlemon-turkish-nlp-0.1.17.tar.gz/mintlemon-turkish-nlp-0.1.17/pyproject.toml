@@ -1,0 +1,58 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "mintlemon-turkish-nlp"
+version = "0.1.17"
+description = "Mint & Lemon Turkish NLP Library developed by Mint & Lemon Development Team."
+license = { "text" = "Apache License, Version 2.0" }
+
+classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: Science/Research",
+        "Topic :: Text Processing",
+        "Topic :: Software Development",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Scientific/Engineering :: Mathematics",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering :: Information Analysis",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: Implementation :: CPython",
+        "Programming Language :: Python :: Implementation :: PyPy",
+        "License :: OSI Approved",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent"]
+
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["yapf","bumpver", "flake8", "coverage", "pytest"]
+
+[project.urls]
+Source = "https://github.com/Teknofest-Nane-Limon/mintlemon-turkish-nlp"
+Tracker = "https://github.com/Teknofest-Nane-Limon/mintlemon-turkish-nlp/issues"
+Documentation = "https://mintlemon-turkish-nlp.readthedocs.io"
+
+
+[tool.setuptools.packages.find]
+include = ["mintlemon-turkish-nlp", "mintlemon-turkish-nlp.*", "mintlemon", "mintlemon.*"]
+namespaces = false
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[tool.pytest]
+addopts = "--cov --cov-report html"
+testpaths = "tests/"
