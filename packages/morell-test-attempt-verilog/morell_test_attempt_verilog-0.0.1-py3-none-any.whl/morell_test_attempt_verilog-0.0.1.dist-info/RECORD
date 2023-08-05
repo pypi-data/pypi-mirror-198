@@ -1,0 +1,12 @@
+libname/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+libname/argument.py,sha256=xghv8IzO5-5Mad9iGtZa7_KF1nC43wDt4rdBcsuqBpw,4589
+libname/utils.py,sha256=G5kyM3AuIFBcejFiJWbXXWWcouJYtUa3WgMeJmTwJhs,1734
+libname/verilog.py,sha256=fr4UZQYtMvYUKwRqD7H-PxXH0lQIEt1xyWgtwOW_pzA,11994
+libname/config/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+libname/config/config.py,sha256=0uni-lXZ-vMz7OhoknNnia31niMKAuRUHnAgv8-0M4s,1552
+libname/config/path.py,sha256=LBLvjN6qUwmz8NRuLU-4T-wYOBk-HozPHf73jqiUpyE,772
+morell_test_attempt_verilog-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+morell_test_attempt_verilog-0.0.1.dist-info/METADATA,sha256=XiUD8OrcwdpnO3UhMu0ytw5SC0fPbdgMKF0YLM7DruU,753
+morell_test_attempt_verilog-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+morell_test_attempt_verilog-0.0.1.dist-info/top_level.txt,sha256=F8SAi3S3n6gD3xYqzHD5I-0D7fExfrC5ppvjVK5G_Ks,8
+morell_test_attempt_verilog-0.0.1.dist-info/RECORD,,
