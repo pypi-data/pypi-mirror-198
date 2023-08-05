@@ -1,0 +1,12 @@
+sendle_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sendle_lib/order_cancel_response.py,sha256=BVJypKf00Q_xAONPBUYn4KRP_DKqmiw1cSTmTbVErVg,414
+sendle_lib/order_request.py,sha256=QHdF2fk5j5Slc5A-aSOeUInwEUEet1QJbgLCrw0niP4,1709
+sendle_lib/order_response.py,sha256=1AYU5KsOrjr8S-QWoQHI6dIeJWQIDJM7A3acMg2sMt4,4386
+sendle_lib/products_response.py,sha256=nefwQyIJmxZ0q2iwDZuJg_mYwcLIg5_0MuRALg-PR5o,1928
+sendle_lib/rating.py,sha256=VG7kKm7urz3NascABYsoS8JAdvojon0lUlWGZrXdS0o,1793
+sendle_lib/tracking_response.py,sha256=CsMxbHDEddJg15RIPbT1XvndJb8WB73duM82HS5uoGg,1404
+sendle_lib/validation_error.py,sha256=DRWL6-7Dt3JlHy1mJxfZJKfFbBC0dJobmo_X4Kewnko,578
+carrier.sendle-2023.1.12.dist-info/METADATA,sha256=NjF0CvQx5kJcHdnBIIeLP-IoBd95E15WhIk83wcvGiE,738
+carrier.sendle-2023.1.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+carrier.sendle-2023.1.12.dist-info/top_level.txt,sha256=6EIoMosZL4j7894LqLooy5fhd-PzmGIO29Ju90J90-E,11
+carrier.sendle-2023.1.12.dist-info/RECORD,,
