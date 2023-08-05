@@ -1,0 +1,8 @@
+pycql2/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pycql2/cql2.lark,sha256=R4IxzWg8rWI-T0TwVR3XSoTszCC0wF1xjPzMwYNasjI,11440
+pycql2/cql2_pydantic.py,sha256=aeuPTzsybzh-3lu3VO-N5tmkc3ohsI3dcN3Y9wasXWw,11767
+pycql2/cql2_transformer.py,sha256=7AL__O5dUF88tALzWcJkwFmkaRnffaY0ux6qZRExBMs,16961
+pycql2-0.1.0.dist-info/LICENSE,sha256=9skqVpgVfQo1U4PTU3hAmqxGzHVH8CBQXHLfRnb0c8Q,1068
+pycql2-0.1.0.dist-info/METADATA,sha256=Of6DcyTGRNP23qcUuFjtoa9pH9A0F9r2VSk09rTc0_E,7539
+pycql2-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pycql2-0.1.0.dist-info/RECORD,,
