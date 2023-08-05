@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: structura
+Version: 0.3.0
+Summary: C extension module for common data structures
+Home-page: https://github.com/sekomer/structura
+Author: alperen serkan aksoz
+Author-email: a.serkanaksoz@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: manylinux1_x86_64
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
