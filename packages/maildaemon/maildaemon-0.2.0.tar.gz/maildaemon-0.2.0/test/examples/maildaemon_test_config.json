@@ -1,0 +1,72 @@
+{
+  "connections": {
+    "test-imap": {
+      "protocol": "IMAP",
+      "domain": "127.0.0.1",
+      "ssl": false,
+      "port": 3143,
+      "login": "login@domain.com",
+      "password": "password"
+    },
+    "test-imap-ssl": {
+      "protocol": "IMAP",
+      "domain": "127.0.0.1",
+      "ssl": true,
+      "port": 3993,
+      "login": "login@domain.com",
+      "password": "password"
+    },
+    "test-pop": {
+      "protocol": "POP",
+      "domain": "127.0.0.1",
+      "ssl": false,
+      "port": 3110,
+      "login": "login@domain.com",
+      "password": "password"
+    },
+    "test-pop-ssl": {
+      "protocol": "POP",
+      "domain": "127.0.0.1",
+      "ssl": true,
+      "port": 3995,
+      "login": "login@domain.com",
+      "password": "password"
+    },
+    "test-smtp": {
+      "protocol": "SMTP",
+      "domain": "127.0.0.1",
+      "ssl": false,
+      "port": 3025,
+      "login": "login@domain.com",
+      "password": "password"
+    },
+    "test-smtp-ssl": {
+      "protocol": "SMTP",
+      "domain": "127.0.0.1",
+      "ssl": true,
+      "port": 3465,
+      "login": "login@domain.com",
+      "password": "password"
+    }
+  },
+  "filters": {
+    "facebook-notification": {
+      "connections": [
+        "test-imap"
+      ],
+      "condition": "message.from_address.endswith('@facebookmail.com') and message.from_address.startswith('notification')",
+      "actions": [
+        "mark:read"
+      ]
+    },
+    "test-message": {
+      "connections": [
+        "test-imap"
+      ],
+      "condition": "'test' in message.subject.lower()",
+      "actions": [
+        "mark:read"
+      ]
+    }
+  }
+}
