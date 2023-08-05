@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: neutron-sync
+Version: 0.2.0
+Summary: Sync your dotfiles securely to an encrypted Git
+License: BSDv3
+Author-email: Paul Bailey <paul@neutron.studio>
+Requires-Python: >=3.8
+Requires-Dist: GitPython>=3.1.30
+Requires-Dist: blacksheep>=1.2.10
+Requires-Dist: cryptography>=39.0.1
+Requires-Dist: haikunator>=2.1.0
+Requires-Dist: httpx>=0.23.3
+Requires-Dist: redis[hiredis]>=4.5.1
+Requires-Dist: setuptools>=67.4.0
+Requires-Dist: typer[all]>=0.7.0
+Requires-Dist: uvicorn>=0.20.0
+Project-URL: homepage, https://github.com/neutron-sync/neutron-sync
+Description-Content-Type: text/markdown
+
+# Neutron Sync
+
+A command line utility to sync your personal dotfiles to an encrypted Github. This allows you to share you personal secrets across multiple machines and keep them in sync.
+
+## Installation
+
+`pipx install neutron-sync`
+
+*[See pipx](https://pypa.github.io/pipx/)*
+
