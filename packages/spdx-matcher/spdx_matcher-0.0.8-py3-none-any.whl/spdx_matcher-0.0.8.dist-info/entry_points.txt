@@ -1,0 +1,5 @@
+[console_scripts]
+build_spdx_matcher_cache = spdx_matcher:cache_builder
+
+[spdx_matcher]
+pyinstaller40 = spdx_matcher.__pyinstaller:get_hook_dirs
