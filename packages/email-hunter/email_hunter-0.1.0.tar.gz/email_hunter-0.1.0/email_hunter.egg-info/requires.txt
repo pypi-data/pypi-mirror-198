@@ -1,0 +1,5 @@
+colorama==0.4.6
+outlook_msg==1.0.0
+extract_msg==0.38.4
+PrettyTable==3.6.0
+python-dateutil==2.8.2
