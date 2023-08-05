@@ -1,0 +1,2 @@
+[console_scripts]
+logit = logit:_cli
