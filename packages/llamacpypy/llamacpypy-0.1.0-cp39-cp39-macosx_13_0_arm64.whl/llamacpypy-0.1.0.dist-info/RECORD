@@ -1,0 +1,7 @@
+llamacpypy/__init__.py,sha256=MQRpl_B3fRNW7atTAIPZJ1V4gWJ36Lhw0to4H9LyZHk,85
+llamacpypy/_core.cpython-39-darwin.so,sha256=T_SSDlTLgk0yGqdmA6Jc1RJr8O1V4OiBZrtcdxWR1mQ,324968
+llamacpypy/llama.py,sha256=kwjHN0j4IBTUh0k8fKePkV0rFUaneFVyWdfYrSg34D0,1692
+llamacpypy-0.1.0.dist-info/METADATA,sha256=jqF2PzfzEgNjkVyq7TMqlAVlVErJHzQPeGjdM8j0U-g,4574
+llamacpypy-0.1.0.dist-info/WHEEL,sha256=YrSso4XLTSBt4eRoRZKficF33osB7idWVwPUF8ftaT8,111
+llamacpypy-0.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamacpypy-0.1.0.dist-info/RECORD,,
