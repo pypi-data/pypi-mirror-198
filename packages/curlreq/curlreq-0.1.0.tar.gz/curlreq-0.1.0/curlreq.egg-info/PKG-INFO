@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: curlreq
+Version: 0.1.0
+Summary: A requests-like http client base on pycurl
+Home-page: https://github.com/skiloop/curlreq
+Author: Jason Stone
+Author-email: skiloop@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/skiloop/curlreq/
+Project-URL: Tracker, https://github.com/skiloop/curlreq/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console :: Curses
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Security
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+[![](https://img.shields.io/pypi/v/curlreq.svg)](https://pypi.python.org/pypi/curlreq)
+[![](https://img.shields.io/pypi/pyversions/curlreq.svg)](https://pypi.python.org/pypi/curlreq)
+[![](https://github.com/skiloop/curlreq/workflows/Pylint/badge.svg)](https://github.com/skiloop/curlreq/actions?query=workflow%3APylint)
+
+CurlReq
+========
+a requests-like http client base on pycurl 
+
+
+

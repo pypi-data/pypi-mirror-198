@@ -1,0 +1,17 @@
+README.md
+setup.py
+curlreq/__init__.py
+curlreq/client.py
+curlreq/compat.py
+curlreq/cookies.py
+curlreq/curl.py
+curlreq/exceptions.py
+curlreq/request.py
+curlreq/response.py
+curlreq/utils.py
+curlreq/version.py
+curlreq.egg-info/PKG-INFO
+curlreq.egg-info/SOURCES.txt
+curlreq.egg-info/dependency_links.txt
+curlreq.egg-info/top_level.txt
+tests/test_utils.py
