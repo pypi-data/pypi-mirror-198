@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pygame-particles
+Version: 1.1
+Summary: A small example package
+Author: Vitness
+Project-URL: Homepage, https://github.com/VitnessYT/pygame-particles
+Project-URL: Bug Tracker, https://github.com/VitnessYT/pygame-particles/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+
+# Particles for pygame
+Installing
+-----------
+
+You can get the library directly from PyPI:
+
+On Windows
+
+```bash
+py -m pip install pygame-particles
+```
+
+On Linux
+
+```bash
+python3 -m pip install pygame-particles
+```
+
+See [docs](https://pygame-particles.readthedocs.io/en/latest/installing.html) for guides, examples and documentation.
+
+
+### [First Example](https://github.com/VitnessYT/pygame-particles/blob/master/examples/1.py)
+![](https://github.com/VitnessYT/pygame-particles/blob/master/examples/1.gif?raw=true)
+
+### [Second Example](https://github.com/VitnessYT/pygame-particles/blob/master/examples/2.py)
+![](https://github.com/VitnessYT/pygame-particles/blob/master/examples/2.gif?raw=true)
