@@ -1,0 +1,15 @@
+devi/__init__.py,sha256=hbStgQrPq7mvDFyMucuRE7Fc1FBypgCe0rx8uXTbRhw,212
+devi/__main__.py,sha256=mwBkWAodrq4ehqhoEzwa1yQ6FcArS0vjVzk4zucRVr4,70
+devi/config.py,sha256=SmrpCHNPeroZxW2egu6dG9pwGcAdo2m3eilgE8UoL80,3741
+devi/toml_parser.py,sha256=Hel0jYmATV-A5H6bRef8AppPjdegganw-C1qsCbxuEA,277
+devi/utils.py,sha256=CDgd3w6UrSkZo-gUNgheOdzfjlIPcz2jzYrFSaqIKX8,2647
+devi/commands/add_template.py,sha256=Eb11_cHmTLxRuwiVdxCXtgfTGUEbpiIuEKOGr0Un9LI,4759
+devi/commands/create.py,sha256=nALp4dhUuWrn8kSmdhJOeMRaFw7u8yVUQyKDJynu-5s,4073
+devi/commands/list.py,sha256=K74IY7bkwoQxSq-B8WaCb8VcRHo_P1A0GLxlJ6flRvY,2247
+devi/commands/remove.py,sha256=RC2ZhDQU_2-pDyve8MkbUtsXXBKf_YB3qwUpm_Uf_kU,1055
+devi_cli-0.1.7.dist-info/LICENSE,sha256=wEFbVbd2fOVPCsLL2XqH1-W_I2Ls_nHN_xOl8B-q68U,1061
+devi_cli-0.1.7.dist-info/METADATA,sha256=Z_w3PqSIIluMuBjLuqiSrXG709WB_xURoLDi4fkQ-YE,5196
+devi_cli-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+devi_cli-0.1.7.dist-info/entry_points.txt,sha256=fJl3ceNgyPb0suWNxP575SppW-C8Al-VQ5X2lUs-FiE,44
+devi_cli-0.1.7.dist-info/top_level.txt,sha256=dMg0A9KpqzPXp8oPkaZNoRzffjqFDDJ1ALjtVXdYPOI,5
+devi_cli-0.1.7.dist-info/RECORD,,
