@@ -1,0 +1,7 @@
+
+[dev]
+yapf
+bumpver
+flake8
+coverage
+pytest
