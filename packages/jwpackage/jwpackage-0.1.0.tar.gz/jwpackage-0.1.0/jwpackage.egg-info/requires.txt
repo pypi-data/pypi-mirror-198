@@ -1,0 +1,4 @@
+PyJWT==2.6.0
+fastapi==0.75.0
+cryptography==39.0.2
+pyOpenSSL==23.0.0
