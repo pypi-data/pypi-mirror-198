@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flitton_fib_sjr_py
+Version: 0.0.1
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/sjrusso8/flitton-fib-py
+Author: 
+Author-email: sjrusso8@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# flitton-fib-py
+
+This is a basic pip module on calculating Fibonacci numbers
+
