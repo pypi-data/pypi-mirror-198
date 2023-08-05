@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: chemivec
+Version: 0.1.0
+Summary: Vectorized cheminformatics library leveraging EPAM Indigo Toolkit
+License: MIT
+Requires-Python: >=3.7
