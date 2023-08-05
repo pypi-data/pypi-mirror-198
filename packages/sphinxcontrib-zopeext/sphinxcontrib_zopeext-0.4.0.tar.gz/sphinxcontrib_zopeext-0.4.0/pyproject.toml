@@ -1,0 +1,57 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "sphinx-testing>=1.0.1",
+    "pytest-cov>=4.0.0",
+    "importlib-metadata>=4.8.3; python_version < \"3.8\"",
+    "pip>=21.3.1 ; python_version < \"3.7\"",
+    "pip>=22.2.1 ; python_version >= \"3.7\"",
+    "sphinx-book-theme>=0.0.39",
+    "sphinx-autobuild>=2021.3.14",
+]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+addopts = [
+    "--doctest-modules",
+    "--cov=sphinxcontrib.zopeext",
+    "--cov-report=html",
+    "--cov-fail-under=85",
+    "--no-cov-on-fail",
+    "--pdb",
+]
+doctest_optionflags = [
+    "ELLIPSIS",
+    "NORMALIZE_WHITESPACE",
+]
+
+[project]
+name = "sphinxcontrib-zopeext"
+version = "0.4.0"
+description = "Provides sphinxcontrib.zopeext.autointerface for documenting Zope interfaces."
+authors = [
+    { name = "Michael McNeil Forbes", email = "mforbes@alum.mit.edu" },
+]
+dependencies = [
+    "zope.interface>=5.5.2",
+    "Sphinx >= 4.5.0",
+]
+requires-python = ">=3.7"
+readme = "README.rst"
+
+[project.license]
+text = "BSD-2-Clause"
+
+[project.optional-dependencies]
+test = [
+    "importlib-metadata>=4.8.3; python_version < \"3.8\"",
+    "pip>=22.2.1",
+    "pytest-cov>=4.0.0",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
