@@ -1,0 +1,3 @@
+[pytest11]
+crayons=pytest_crayons
+
