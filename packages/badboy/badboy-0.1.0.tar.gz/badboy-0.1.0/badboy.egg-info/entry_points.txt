@@ -1,0 +1,2 @@
+[console_scripts]
+badboy = badboy.__main__:main

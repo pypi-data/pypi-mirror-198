@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+badboy/__init__.py
+badboy/__main__.py
+badboy.egg-info/PKG-INFO
+badboy.egg-info/SOURCES.txt
+badboy.egg-info/dependency_links.txt
+badboy.egg-info/entry_points.txt
+badboy.egg-info/top_level.txt
