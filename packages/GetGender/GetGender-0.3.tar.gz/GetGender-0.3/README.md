@@ -1,0 +1,1 @@
+Gets gender by given russian name.
