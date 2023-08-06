@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PADAWAN-help/__init__.py
+PADAWAN-help/addressbook.py
+PADAWAN-help/menu.py
+PADAWAN-help/notebook.py
+PADAWAN-help/sort.py
+PADAWAN_help.egg-info/PKG-INFO
+PADAWAN_help.egg-info/SOURCES.txt
+PADAWAN_help.egg-info/dependency_links.txt
+PADAWAN_help.egg-info/entry_points.txt
+PADAWAN_help.egg-info/requires.txt
+PADAWAN_help.egg-info/top_level.txt
