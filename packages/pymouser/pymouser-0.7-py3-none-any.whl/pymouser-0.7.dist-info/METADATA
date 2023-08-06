@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pymouser
+Version: 0.7
+Summary: Module to interact with Mouser's Search API
+Author-email: Alex Sartori <alex.sartori1997@gmail.com>
+Project-URL: Homepage, https://github.com/AlexSartori/pymouser
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyMouser
+
+## Installation
+
+Installation with `pip` is coming soon. Meanwhile, clone the repository, cd into it, and run:
+
+```pip install --user -e .```
+
+## Usage:
+
+```python
+import pymouser
+
+
+# Initialize the package with your API key
+mouser = pymouser.MouserAPI('your-search-key')
+
+# Search by Part-Number
+err, res = mouser.search_by_PN('your-part-number')
+
+# Check for errors or print the returned results
+if err:
+    print("Error during request:")
+    print(err)
+else:
+    if res['NumberOfResult'] == 0:
+        print("No results matched the part number")
+    else:
+        for match in res['Parts']:
+            print("Match for PartNumber .... %s" % match['MouserPartNumber'])
+            print("Description ............. %s" % match['Description'])
+            print("Link to datasheet ....... %s" % match['DataSheetUrl'])
+            print("Link to product page .... %s" % match['ProductDetailUrl'])
+            print("")
+```
