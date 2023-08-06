@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sparta-streaming"
+version = "0.1.0"
+description = ""
+authors = ["alexander.rembridge <alexander.rembridge@spartacommodities.com>"]
+readme = "README.md"
+packages = [{include = "sparta_streaming", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
