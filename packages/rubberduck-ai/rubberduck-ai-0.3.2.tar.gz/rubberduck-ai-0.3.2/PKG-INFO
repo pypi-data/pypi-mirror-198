@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rubberduck-ai
+Version: 0.3.2
+Summary: A CLI tool for ChatGPT.
+Home-page: https://github.com/hansololz/rubberduck-ai
+License: CCPL
+Keywords: rda,openai,ChatGPT,chat
+License-File: LICENSE
