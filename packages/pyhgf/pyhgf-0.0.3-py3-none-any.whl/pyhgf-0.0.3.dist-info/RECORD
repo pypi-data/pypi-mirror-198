@@ -1,0 +1,16 @@
+pyhgf/__init__.py,sha256=LdmjUHYuYSp5RlPDyefiVf4dVtB1W3WJVHHkL6uKDJQ,1363
+pyhgf/binary.py,sha256=nOSC92A-xyckv3-ckR56h4k4GJFOjbw2VoiSVi7zMco,12219
+pyhgf/continuous.py,sha256=UC0lxZHmzsACpuzVOK0935syrIs4fNiMnP-TMFJhbFc,15796
+pyhgf/distribution.py,sha256=oxdsHoTyvguBv6OeVdEXxod_x_mU5zm6Tma1RywiHIk,20862
+pyhgf/model.py,sha256=lcTne1CooQ2uKDEPdyPLr8rQLqY9T-W6jDkfh-hJL4s,24111
+pyhgf/plots.py,sha256=PdNlp822agfwyY36M4YjsAvy4hlfLP6TDY7HFQL6ERc,10358
+pyhgf/response.py,sha256=x-SmhCbvw-K7lNmmXgJKyyF1iwVnUxZw42Oe2eJxDy0,2421
+pyhgf/structure.py,sha256=IAe5X3ENpKcFMX5ndVLxq8q9877n0zGXjDWFqiWsQ9E,3330
+pyhgf/typing.py,sha256=jzDmt8jAAEmzqA30Uf_kaWZges5qLGTmrujqO9PvxQg,465
+pyhgf/data/binary_input.dat,sha256=hrJjR3kuTlWQx4Fp7bMARxUGJyJ6NHcWwD3EK4HsP_M,640
+pyhgf/data/usdchf.dat,sha256=Ekh7TnKkkdsNLjMVTP8hbqiiovqEhPJnm9F-PLGQ8CU,4298
+pyhgf-0.0.3.dist-info/LICENSE,sha256=mYL-JX3hMtjHF2zv2dpAr55ls4Nb9yqshkDqcb-SxfY,34493
+pyhgf-0.0.3.dist-info/METADATA,sha256=GVi-_sPLqTLHnUQPCrYBJvnGawaDwZCSTc2lA9kV5oY,7677
+pyhgf-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyhgf-0.0.3.dist-info/top_level.txt,sha256=X_Yw3Jg5sbOnADi4lEbg5tqjsl2F12pnKbGVi4ZCY3o,6
+pyhgf-0.0.3.dist-info/RECORD,,
