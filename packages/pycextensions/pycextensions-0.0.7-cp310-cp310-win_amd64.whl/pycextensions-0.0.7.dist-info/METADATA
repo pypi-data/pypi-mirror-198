@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pycextensions
+Version: 0.0.7
+Summary: a python c extension example
+Home-page: https://github.com/shengchenyang
+Author: ayuge
+Author-email: ayuge@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: System :: Logging
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: objprint (>=0.1.3)
+Provides-Extra: full
+Requires-Dist: rich ; extra == 'full'
+Requires-Dist: orjson ; extra == 'full'
+
+# Python C Extensions Example
+
+用于介绍一个 python C extension 的示例，用于熟悉其中流程，并了解其与 poetry c extension 中的区别和各自优势。
+
