@@ -1,0 +1,4 @@
+[console_scripts]
+praison=praison.__main__:main
+tamil=ezhil.__main__:main
+
