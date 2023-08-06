@@ -1,0 +1,7 @@
+CHANGELOG.md,sha256=f2WglMjnEoIk2YusHoi4enjcDGOFH92ZpypA6Qi85ss,533
+alembic_enums/__init__.py,sha256=Ofa-1w2M_P-672vSaY3bp2r3HjyU19BUTc2y6kFTTzg,102
+alembic_enums/enum_migration.py,sha256=HGygNv7GjXsPINyvpA8WKeEHMBHJZyGXXLfZ3_rLV18,4845
+alembic_enums-0.2.0.dist-info/LICENSE,sha256=3cGMhHqO-LeY2JxQQj6_2NwNwXMtVhSmYJSvvJ1fsZA,1304
+alembic_enums-0.2.0.dist-info/METADATA,sha256=a-AMtLgwWlbV709U2LToniaC8wvufwkiC1LxsnPP9GI,5852
+alembic_enums-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+alembic_enums-0.2.0.dist-info/RECORD,,
