@@ -1,0 +1,7 @@
+setup.py
+greetingTestFunction/__init__.py
+greetingTestFunction/greetingTestFunction.py
+greetingTestFunction.egg-info/PKG-INFO
+greetingTestFunction.egg-info/SOURCES.txt
+greetingTestFunction.egg-info/dependency_links.txt
+greetingTestFunction.egg-info/top_level.txt
