@@ -1,0 +1,3 @@
+[console_scripts]
+chatushka=chatushka.__main__:main
+
