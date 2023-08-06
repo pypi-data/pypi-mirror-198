@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mnzipcode
+Version: 0.0.3
+Summary: mnzipcodes is a simple library for querying Mongolian zip codes.
+Author: Bekkage
+
+
+mnzipcodes is a simple library for querying Mongolian zip codes.
+
+import mnzipcode
+mnzipcode.isReal(11000)
+mnzipcode.getProvince(85237)
+mnzipcode.getZipCode('Улаанбаатар')
+  
