@@ -1,0 +1,2 @@
+[mopidy.ext]
+orangepi-pidi = mopidy_orangepi_pidi:Extension

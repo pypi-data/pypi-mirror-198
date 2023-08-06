@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: Mopidy.OrangePi.Pidi
+Version: 1.1.0
+Summary: Mopidy extension for displaying song info and album art using pidi plugins on the OrangePi
+Home-page: https://github.com/sonocotta/mopidy-orangepi-pidi
+Author: Andriy Malyshenko
+Author-email: andriy@sonocotta.com
+License: Apache License, Version 2.0
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Requires-Python: >=3.7
+Provides-Extra: lint
+Provides-Extra: release
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+****************************
+Mopidy-OrangePi-PiDi
+****************************
+
+Mopidy extension for displaying song info and album art using pidi display plugins.
+
+Installation
+============
+
+Install by running::
+
+    pip3 install Mopidy.OrangePi.Pidi
+
+Or, if available, install the Debian/Ubuntu package from `apt.mopidy.com
+<https://apt.mopidy.com/>`_.
+
+
+Configuration
+=============
+
+Before starting Mopidy, you must add configuration for
+Mopidy-PiDi to your Mopidy configuration file::
+
+    [orangepi-pidi]
+    enabled = true
+    display = opi.ili9341
+
+This example uses ili9341 provided by OrangePi.PidiPlugins (installed automatically)
+
+Credits
+=======
+
+- Original author: `Phil Howard <https://github.com/pimoroni>`__
+- Current maintainer: `Andriy Malyshenko <https://github.com/sonocotta>`__
