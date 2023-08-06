@@ -1,0 +1,10 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+a/__init__.py
+a/b.py
+egancschallengeset3.egg-info/PKG-INFO
+egancschallengeset3.egg-info/SOURCES.txt
+egancschallengeset3.egg-info/dependency_links.txt
+egancschallengeset3.egg-info/top_level.txt
