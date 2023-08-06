@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: skggm2
+Version: 0.2.10
+Summary: Gaussian graphical models for scikit-learn.
+Home-page: https://github.com/skggm/skggm
+Author: Jason Laska and Manjari Narayan
+Author-email: jlaska@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
