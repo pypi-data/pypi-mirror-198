@@ -1,0 +1,4 @@
+include rootstacks/requirements.txt
+include rootstacks/thirdparty.json
+include rootstacks/README.MD
+include rootstacks/LICENSE
