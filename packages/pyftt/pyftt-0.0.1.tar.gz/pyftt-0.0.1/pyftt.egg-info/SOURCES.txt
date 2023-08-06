@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyftt/__init__.py
+pyftt/pyftt.py
+pyftt.egg-info/PKG-INFO
+pyftt.egg-info/SOURCES.txt
+pyftt.egg-info/dependency_links.txt
+pyftt.egg-info/requires.txt
+pyftt.egg-info/top_level.txt
