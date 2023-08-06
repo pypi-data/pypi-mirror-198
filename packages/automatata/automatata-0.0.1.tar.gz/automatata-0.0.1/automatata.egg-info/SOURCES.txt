@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+automatata/__init__.py
+automatata.egg-info/PKG-INFO
+automatata.egg-info/SOURCES.txt
+automatata.egg-info/dependency_links.txt
+automatata.egg-info/top_level.txt
+automatata/models/__init__.py
+automatata/models/dfa.py
+tests/test_dfa.py
