@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ChatGPTonWhatsApp
+Version: 0.0.1
+Summary: The following is a Python Package [ChatGPTonWhatsApp] that uses the Selenium and OpenAI libraries to create a chatbot for WhatsApp. The chatbot listens to incoming messages, processes them using OpenAI's GPT-3 language model, and replies with a generated response.
+Home-page: https://github.com/masterprogramingdotcom/chatgptonwhatsapp
+Author: Danish Ali
+Author-email: help@masterprograming.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
