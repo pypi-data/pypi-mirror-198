@@ -1,0 +1,8 @@
+psycopg2
+pandas
+numpy
+json
+boto3
+yandexcloud
+datetime
+yandex
