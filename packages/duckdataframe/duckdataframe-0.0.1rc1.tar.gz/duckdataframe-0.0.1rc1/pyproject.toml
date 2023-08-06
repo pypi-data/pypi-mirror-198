@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "duckdataframe"
+version = "0.0.1.rc1"
+description = ""
+authors = ["code-mc"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+duckdb = "^0.7.1"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
