@@ -1,0 +1,14 @@
+mypy_extensions
+libcst>=0.4.4
+
+[dev]
+black
+isort
+flake8
+pytest
+mypy
+sphinx
+twine
+tox
+libcst
+importlib_metadata
