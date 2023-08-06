@@ -1,0 +1,7 @@
+README.md
+setup.py
+yolov_18.egg-info/PKG-INFO
+yolov_18.egg-info/SOURCES.txt
+yolov_18.egg-info/dependency_links.txt
+yolov_18.egg-info/requires.txt
+yolov_18.egg-info/top_level.txt
