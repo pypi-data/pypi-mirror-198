@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "file-remover"
+version = "0.1.2"
+description = ""
+authors = ["Egor Krapivin <egor.krapivin98@gmail.com>"]
+readme = "README.md"
+packages = [{include = "file_remover"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = "^13.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+remove_files = 'file_remover.main:main'
