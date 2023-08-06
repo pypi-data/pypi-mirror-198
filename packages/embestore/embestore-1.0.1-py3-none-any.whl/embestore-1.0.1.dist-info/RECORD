@@ -1,0 +1,15 @@
+embestore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embestore/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embestore/cli/main.py,sha256=Y7_K4Wc0IMbeUSUYgAdZNudt6PULOQzdL7BVAv7HMXk,194
+embestore/cli/serve.py,sha256=zlA4DlloRN1Msz5LORf52Gtjo9UoJArFESj7-lVC8YA,584
+embestore/store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+embestore/store/base.py,sha256=tAo4eIl2IaY6-d4KR_NW7CyOu1V54JK8a-2W1Jtrxdw,7023
+embestore/store/jina.py,sha256=Gn8HtnKAwesUekujWuZhxBlLpk_72JH4cJA1-LAFoX8,1466
+embestore/store/torch.py,sha256=uAhUQb95IcK9LClvI4tzzUbdoftXu-a9e25MdpGfR1k,754
+embestore/utils.py,sha256=H-iga0r4RJLaXQ0cMYKdN0vGWjU4ParzDdO1GnXxMQI,265
+embestore/version.py,sha256=YI9C7v-3TJNd9cy1tZlzROFZ6Z6VG9vPjuSQsH09otQ,116
+embestore-1.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+embestore-1.0.1.dist-info/METADATA,sha256=gbFGqmCmlffkgTPi_0vPXK_uwkIxKhJ0LLq8oERcEGY,4388
+embestore-1.0.1.dist-info/entry_points.txt,sha256=nyljuk7uDmB9dX3MXJ1orD4aj2RyGKaaGOBnEy92T24,52
+embestore-1.0.1.dist-info/LICENSE,sha256=rrG39eIVpNeV7xqpT6-AFHNb3HwXEGvq4mjVcS8nko8,1069
+embestore-1.0.1.dist-info/RECORD,,

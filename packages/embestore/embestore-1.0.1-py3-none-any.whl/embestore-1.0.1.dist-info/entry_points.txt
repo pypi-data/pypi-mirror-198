@@ -1,0 +1,3 @@
+[console_scripts]
+embestore=embestore.cli.main:app
+
