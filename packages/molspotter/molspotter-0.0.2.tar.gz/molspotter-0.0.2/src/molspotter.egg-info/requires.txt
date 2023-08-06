@@ -1,0 +1,11 @@
+rdkit
+tqdm
+click
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+
+[testing]
+pytest
