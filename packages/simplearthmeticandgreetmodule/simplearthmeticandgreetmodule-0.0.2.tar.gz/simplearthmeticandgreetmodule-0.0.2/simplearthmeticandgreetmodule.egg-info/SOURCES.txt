@@ -1,0 +1,9 @@
+setup.py
+arthmetic-functions/__init__.py
+arthmetic-functions/arthmetic-functions.py
+greeting-module/__init__.py
+greeting-module/greet.py
+simplearthmeticandgreetmodule.egg-info/PKG-INFO
+simplearthmeticandgreetmodule.egg-info/SOURCES.txt
+simplearthmeticandgreetmodule.egg-info/dependency_links.txt
+simplearthmeticandgreetmodule.egg-info/top_level.txt
