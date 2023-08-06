@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+notabigcasepdf/__init__.py
+notabigcasepdf/pdf2image.py
+notabigcasepdf/pdf2text.py
+notabigcasepdf.egg-info/PKG-INFO
+notabigcasepdf.egg-info/SOURCES.txt
+notabigcasepdf.egg-info/dependency_links.txt
+notabigcasepdf.egg-info/top_level.txt
