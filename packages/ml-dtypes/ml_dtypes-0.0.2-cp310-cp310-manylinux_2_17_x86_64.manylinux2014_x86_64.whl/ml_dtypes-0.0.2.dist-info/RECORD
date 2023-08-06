@@ -1,0 +1,11 @@
+ml_dtypes/_custom_floats.cpython-310-x86_64-linux-gnu.so,sha256=b5HUNLWfaPfw8YxCC-mohLuY4UxDoF7O41pPLuraNF8,777664
+ml_dtypes/__init__.py,sha256=1xKZqjm_RuGp2Lh2OeOmoSywPa1j-pjOFbW9kkW8JC0,1044
+ml_dtypes/tests/metadata_test.py,sha256=5GUiSSsB9TIktCKcouHnm7GptYKnH_6J93XvXYOQ5Uw,1133
+ml_dtypes/tests/custom_float_test.py,sha256=OzODMQBa4EbhZdF5CtMcS7uIDcAjDu1H22ap7DAhAFI,30119
+ml_dtypes-0.0.2.dist-info/METADATA,sha256=ajN0Ud0f_Noa4QYj04J7S5doiDOyR-cvOaGyeyZ04_I,15644
+ml_dtypes-0.0.2.dist-info/LICENSE.eigen,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+ml_dtypes-0.0.2.dist-info/AUTHORS,sha256=00LxZEU-QKyuhG87XbBjmpdQvwEBgBwGfBL5pm5wWaM,301
+ml_dtypes-0.0.2.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+ml_dtypes-0.0.2.dist-info/WHEEL,sha256=iZaXX0Td62Nww8bojl0E84uJHjT41csHPKZmbUBbJPs,152
+ml_dtypes-0.0.2.dist-info/top_level.txt,sha256=X_uwgiR3UvTiubi9ZwORK72HhhUnaxnD9yejR1UAPfo,39
+ml_dtypes-0.0.2.dist-info/RECORD,,
