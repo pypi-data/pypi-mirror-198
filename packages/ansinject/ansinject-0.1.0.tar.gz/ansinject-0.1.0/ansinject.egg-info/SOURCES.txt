@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+ansinject/__init__.py
+ansinject/__main__.py
+ansinject/ansinject.py
+ansinject/cli.py
+ansinject/config.py
+ansinject.egg-info/PKG-INFO
+ansinject.egg-info/SOURCES.txt
+ansinject.egg-info/dependency_links.txt
+ansinject.egg-info/entry_points.txt
+ansinject.egg-info/requires.txt
+ansinject.egg-info/top_level.txt
