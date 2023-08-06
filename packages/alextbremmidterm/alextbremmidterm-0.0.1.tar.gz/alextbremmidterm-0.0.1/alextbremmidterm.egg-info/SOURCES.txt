@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+alextbremmidterm/__init__.py
+alextbremmidterm/alextbremmidterm.py
+alextbremmidterm.egg-info/PKG-INFO
+alextbremmidterm.egg-info/SOURCES.txt
+alextbremmidterm.egg-info/dependency_links.txt
+alextbremmidterm.egg-info/not-zip-safe
+alextbremmidterm.egg-info/top_level.txt
