@@ -1,0 +1,16 @@
+[package]
+name = "del-misc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "del_misc"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.5", features = ["extension-module"] }
+numpy = "0.16"
+del-msh = {path= "local_dependencies/del-msh" }
+del-misc = {path= "local_dependencies/del-misc" }
+del-ls = {path= "local_dependencies/del-ls" }
