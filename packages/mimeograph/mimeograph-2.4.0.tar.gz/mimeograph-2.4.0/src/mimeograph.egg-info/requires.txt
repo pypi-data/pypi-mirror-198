@@ -1,0 +1,10 @@
+requests
+
+[dev]
+bumpver
+build
+twine
+isort
+pytest
+pytest-cov
+responses
