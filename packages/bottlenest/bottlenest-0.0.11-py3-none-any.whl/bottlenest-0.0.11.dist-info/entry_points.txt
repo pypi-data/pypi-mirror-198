@@ -1,0 +1,9 @@
+[console_scripts]
+bottlenest=bottlenest.__main__:main
+example-apisocket=examples.apisocket.main:main
+example-clitool=examples.clitool.main:main
+example-envFile=examples.envFile.main:main
+example-helloworld=examples.helloworld.main:main
+example-websocketsClient=examples.websocketsClient.main:main
+example-websocketsServer=examples.websocketsServer.main:main
+
