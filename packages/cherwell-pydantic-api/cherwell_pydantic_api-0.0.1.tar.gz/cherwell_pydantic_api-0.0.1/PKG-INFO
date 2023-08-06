@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cherwell-pydantic-api
+Version: 0.0.1
+Summary: A pythonic, asyncio connector for the Cherwell CSM API with full usage of Pydantic types
+Home-page: https://github.com/dataway/cherwell_pydantic_api
+License: MIT
+Author: Anthony Uk
+Author-email: uk@anthonyuk.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: async-lru (>=2.0.2,<3.0.0)
+Requires-Dist: httpx (>=0.23.3,<0.24.0)
+Requires-Dist: pydantic[dotenv] (>=1.10.6,<2.0.0)
+Project-URL: Repository, https://github.com/dataway/cherwell_pydantic_api
+Description-Content-Type: text/markdown
+
+# cherwell_pydantic_api
+## a pythonic, asyncio connector for the Cherwell CSM API with full usage of Pydantic types
+
+There are a few existing python modules for the Cherwell API but they appear to be too basic for my requirements, therefore this is my attempt.
+
+Pydantic models are used throughout. Furthermore, Pydantic models are also generated for Business Objects.
+
