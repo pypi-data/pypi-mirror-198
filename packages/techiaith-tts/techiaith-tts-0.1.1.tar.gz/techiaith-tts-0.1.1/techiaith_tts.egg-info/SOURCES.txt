@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+techiaith/__init__.py
+techiaith/py.typed
+techiaith/version.py
+techiaith_tts.egg-info/PKG-INFO
+techiaith_tts.egg-info/SOURCES.txt
+techiaith_tts.egg-info/dependency_links.txt
+techiaith_tts.egg-info/requires.txt
+techiaith_tts.egg-info/top_level.txt
+tests/test_date_norm.py
+tests/test_known_phrase.py
+tests/test_lecsicon.py
+tests/test_number_norm.py
+tests/test_time_norm.py
