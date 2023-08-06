@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bujango
+Version: 0.2.4
+Summary: Una biblioteca que contiene solo el ORM de Django
+Home-page: https://github.com/Rojas-Andres/bujango
+Author: Andres Rojas
+Author-email: andresfelipe200004@gmail.com
+License: UNKNOWN
+Keywords: Django ORM
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
