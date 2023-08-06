@@ -1,0 +1,2 @@
+[console_scripts]
+trendverify = trendverify.find_files:entry_point

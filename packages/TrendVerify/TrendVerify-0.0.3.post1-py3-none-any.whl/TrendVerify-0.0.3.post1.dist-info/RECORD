@@ -1,0 +1,12 @@
+trendverify/_test.py,sha256=fFfYA2EzHbELZp29CRT8pepCCvkXLNT5KUmzLHtiAx4,1164
+trendverify/find_files.py,sha256=4dSm9j8e12l27ye3FbLAmXvDxHzWigoVloV-8AsN-fM,3145
+trendverify/metar.py,sha256=mtFLDn3scuvpQKbxxOQI97Z-xIY15Ww-zXQeEZ4cEaQ,2882
+trendverify/project_utils.py,sha256=CCsOXpCyw9ABtQaY0-0-1ppwimZ7UCTjtofFMuK5D78,11128
+trendverify/script_metar_2021.py,sha256=7ui6Gs52Ig_Wz3WFSwsewf9wuK-fiByNeLnFPA6HlKY,1959
+trendverify/trend.py,sha256=pSKTEZ9R17x5qp8ERkFZMqUQ1HJB2xEminzccOd9uNU,5888
+trendverify/verificationcodes.py,sha256=AVxeUlxKV_MYPvMmKA9Snwcd_yGZSjTlukui1_mJ5qQ,251
+TrendVerify-0.0.3.post1.dist-info/METADATA,sha256=VFCfPGCDHTfG39TvEG3EimNiMVp_0moNtPagI9R6zcs,1916
+TrendVerify-0.0.3.post1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+TrendVerify-0.0.3.post1.dist-info/entry_points.txt,sha256=PVrte1OCv0lFbunY_zbCzec8nvkPFQ-4QDSYMCGPXQI,67
+TrendVerify-0.0.3.post1.dist-info/top_level.txt,sha256=f-yLiGdnyGrWCL4iHyQDnvBqFQVQsqr_Nym1GL1fpCQ,12
+TrendVerify-0.0.3.post1.dist-info/RECORD,,
