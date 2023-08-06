@@ -1,0 +1,3 @@
+[console_scripts]
+file-typer = file_typer.__main__:main
+typer = file_typer.__main__:main

@@ -1,0 +1,9 @@
+python-magic
+tqdm
+
+[dev]
+check-manifest
+
+[test]
+pytest
+coverage
