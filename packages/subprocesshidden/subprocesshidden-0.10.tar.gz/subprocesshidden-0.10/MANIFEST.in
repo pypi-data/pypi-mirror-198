@@ -1,0 +1,4 @@
+include subprocesshidden/requirements.txt
+include subprocesshidden/thirdparty.json
+include subprocesshidden/README.MD
+include subprocesshidden/LICENSE
