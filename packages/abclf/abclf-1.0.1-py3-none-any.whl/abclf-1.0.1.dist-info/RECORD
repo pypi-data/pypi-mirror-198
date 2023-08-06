@@ -1,0 +1,11 @@
+abclf/__init__.py,sha256=V4xXKPY4o_h7rKJE9DOgNKKYyRJGnNm7aMiuuz7pHAs,64285
+abclf/__main__.py,sha256=qv2Z9_TgDzuUs12S6MA4p2FvaQkx8qB7wG29w9CdLks,154
+abclf/lexicon.pickle,sha256=2_Jjon8VRt03SE8TdnGpIswELI8omrRSnzRDkl2OwiU,96775
+abclf/lexicon_balanced.pickle,sha256=QVxQfKIYD2m2lB-v3v2VrTGEoe2PibZn3nHGSqd3hvs,49257
+abclf/American-British-variety-classifier/ABClf.py,sha256=4lrHrsyI6iTjTv7Ej0BFdeN6dYxRDpukoyIDuuhRR8g,3729
+abclf-1.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abclf-1.0.1.dist-info/METADATA,sha256=Sf2nanTNMB3EZvSudUwzMRYkipiFMuTQqhQ157Ho-lY,5023
+abclf-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+abclf-1.0.1.dist-info/entry_points.txt,sha256=KBB8VqQmx-cHJQXpPpNDh_lG1-y5N5L-UffizLPsbZg,46
+abclf-1.0.1.dist-info/top_level.txt,sha256=eUJNn1cCl48yC6w4UjNPjG25SGEgYALxkL5i_OI_thU,6
+abclf-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+abclf = abclf.__main__:main
