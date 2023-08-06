@@ -1,0 +1,10 @@
+llamacpp/llamacpp.cpython-39-x86_64-linux-gnu.so,sha256=mQAP2ibNRJTRveRxX8ug7Jf3ktah4GqBRyA49bqAKM8,659224
+llamacpp/__init__.py,sha256=WsGqUUaAW_G0_78OTkwqhgz3aaSjUo1laEXlESj2Q_A,96
+llamacpp/quantize.py,sha256=bfxppVB2lVIbfm1N5-7ccTEL5grWdly_javkZ4_FzVs,1838
+llamacpp/chat.py,sha256=OZ2ne5xAhcyOBAkxzbPQWo6622imqJxWQNeqDOquFFA,3910
+llamacpp/cli.py,sha256=4ImBXcKZL7DcQni6tv0U_UgqyErAVzi2VAKHxUlzGH4,5628
+llamacpp/convert.py,sha256=64wx0W-Kn2Xfd2qjGxJdl7OoHEc8CNAW8umK31sjg8E,5635
+llamacpp-0.1.6.dist-info/entry_points.txt,sha256=TMZwkaHC4xn9APU8RVz89Pl4YMfaUj5qXyNDe2G2qQ0,161
+llamacpp-0.1.6.dist-info/WHEEL,sha256=W39c2obOs36VfPToLrqFPbp64B8nyujtKp5l9zzbTgU,149
+llamacpp-0.1.6.dist-info/RECORD,,
+llamacpp-0.1.6.dist-info/METADATA,sha256=ILFn6x8GUpf_ERinc7iis7umZx8Z6evriKSuK_tqc2k,3204
