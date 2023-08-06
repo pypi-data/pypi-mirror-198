@@ -1,0 +1,12 @@
+moxtrice/__init__.py,sha256=CTNBe3yZwXlWat-yl-ticwB32_mCODqah4DTmXwDKjQ,44
+moxtrice/_version.py,sha256=c_REUZggs6nMY2ZDx4JwyV-gbreVT3TzX1D6BTJp3Os,173
+moxtrice/config.py,sha256=FEcItQn134tCgX9LKo5Pe9SzBkKz7Ni4_UbIzhS91Q0,388
+moxtrice/core.py,sha256=FUISmsEUo9sSgEJOgf7FZUmrImJJ2HSyW8qzmCCFwQA,4352
+moxtrice/main.py,sha256=zU3UL1QFAsxIfpTQvEnAIipZl4ZMyXffh6o1x63b6tM,2059
+moxtrice/utils.py,sha256=1zDX7mP5AHK-YowSh2xvJTbOSrrQmttl1Q3Lbzywm4U,2913
+moxtrice-1.0.2.dev0.dist-info/LICENSE,sha256=J7qK_AoRo8CDn8oPWEMTw8QYOv93s3ihd7TKJCHGKlg,11340
+moxtrice-1.0.2.dev0.dist-info/METADATA,sha256=G7wkNsHZFUVEgUGpzvo-mBrhdx3mDyYrFhsjOjLt4jQ,15859
+moxtrice-1.0.2.dev0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+moxtrice-1.0.2.dev0.dist-info/entry_points.txt,sha256=b1iDzB-4Kt-9hJpM1wuqivCf7g_wfG2Lw16LvXk-WqQ,53
+moxtrice-1.0.2.dev0.dist-info/top_level.txt,sha256=nwRla_C5UNMlTYnUvYu-YCpYVlJiUsXpi_mhzFioTG0,9
+moxtrice-1.0.2.dev0.dist-info/RECORD,,

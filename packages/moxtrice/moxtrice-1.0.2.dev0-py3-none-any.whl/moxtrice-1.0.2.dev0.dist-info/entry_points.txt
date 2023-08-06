@@ -1,0 +1,2 @@
+[console_scripts]
+moxtrice = moxtrice.main:absl_main
