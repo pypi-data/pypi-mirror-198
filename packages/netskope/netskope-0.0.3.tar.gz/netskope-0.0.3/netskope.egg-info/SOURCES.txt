@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+TODO.rst
+config.ini
+pyproject.toml
+requirements.txt
+setup.py
+netskope/__init__.py
+netskope/netskope.py
+netskope/privateapps.py
+netskope.egg-info/PKG-INFO
+netskope.egg-info/SOURCES.txt
+netskope.egg-info/dependency_links.txt
+netskope.egg-info/requires.txt
+netskope.egg-info/top_level.txt
