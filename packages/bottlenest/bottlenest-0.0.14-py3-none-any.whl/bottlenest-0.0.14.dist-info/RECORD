@@ -1,0 +1,10 @@
+templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+templates/helloworld/app/AppController.py,sha256=HjJvMszjC0enagjFBiBP20_danHfQpcVVIMGfU7LhBU,405
+templates/helloworld/app/AppModule.py,sha256=_JtlQnsmgUgDTesyEN8LnoJIpOo1a7Fw-JJ-ZU__KYM,241
+templates/helloworld/app/AppService.py,sha256=ycVytwkW7BInCiFWqgRKfcZ69DNicxeZrrSDtF5FV44,136
+templates/helloworld/main.py,sha256=B4J1enkhVhmpT8UpDM7EY8pR-Pxx0t_IFUO6YNQN7A4,324
+bottlenest-0.0.14.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+bottlenest-0.0.14.dist-info/METADATA,sha256=o09wGBa_3cyIipLt5y3_w0_tGJMuoteq8P3MMHH3LZ8,2239
+bottlenest-0.0.14.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+bottlenest-0.0.14.dist-info/entry_points.txt,sha256=N6vRqfv-nMXbxvo-OPByzQWtkJ6nIKkEDFhLk_NETsU,359
+bottlenest-0.0.14.dist-info/RECORD,,
