@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+query_client/__init__.py
+query_client.egg-info/PKG-INFO
+query_client.egg-info/SOURCES.txt
+query_client.egg-info/dependency_links.txt
+query_client.egg-info/requires.txt
+query_client.egg-info/top_level.txt
