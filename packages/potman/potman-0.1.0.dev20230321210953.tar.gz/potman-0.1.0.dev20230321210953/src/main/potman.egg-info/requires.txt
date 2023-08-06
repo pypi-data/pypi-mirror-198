@@ -1,0 +1,6 @@
+anyjsonthing<1,>=0.3.0
+dulwich<1,>=0.21.3
+feast[aws]<1,>=0.29.0
+tabulate<1,>=0.9.0
+termcolor<3,>=2.2.0
+typeguard<3,>=2.13.3
