@@ -1,0 +1,9 @@
+numpy
+keras
+asyncio
+websockets
+watchdog[watchmedo]
+sanic
+aiohttp
+uproot
+asyncstdlib

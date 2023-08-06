@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: papdl
+Version: 0.1.0
+Summary: 
+Author: Tamim Azmain
+Author-email: maat1@st-andrews.ac.uk
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: asynchttp (>=0.0.4,<0.0.5)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: asyncstdlib (>=3.10.5,<4.0.0)
+Requires-Dist: autopep8 (>=2.0.1,<3.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: coloredlogs (>=15.0.1,<16.0.0)
+Requires-Dist: crossplane (>=0.5.8,<0.6.0)
+Requires-Dist: dill (>=0.3.6,<0.4.0)
+Requires-Dist: docker (>=6.0.1,<7.0.0)
+Requires-Dist: filprofiler (>=2023.3.0,<2024.0.0)
+Requires-Dist: iperf3 (>=0.1.11,<0.2.0)
+Requires-Dist: ipykernel (>=6.21.3,<7.0.0)
+Requires-Dist: jsonpickle (>=3.0.1,<4.0.0)
+Requires-Dist: keras (>=2.11.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: memory-profiler (>=0.61.0,<0.62.0)
+Requires-Dist: notebook (>=6.5.3,<7.0.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Requires-Dist: pympler (>=1.0.1,<2.0.0)
+Requires-Dist: pyopenssl (>=23.0.0,<24.0.0)
+Requires-Dist: pythonping (>=1.1.4,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: random-word (>=1.0.11,<2.0.0)
+Requires-Dist: sanic (>=22.12.0,<23.0.0)
+Requires-Dist: tensorflow (>=2.11.0,<3.0.0)
+Requires-Dist: termcolor (>=2.1.1,<3.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Requires-Dist: uproot (>=5.0.4,<6.0.0)
+Requires-Dist: websockets (>=10.4,<11.0)
+Description-Content-Type: text/markdown
+
+
