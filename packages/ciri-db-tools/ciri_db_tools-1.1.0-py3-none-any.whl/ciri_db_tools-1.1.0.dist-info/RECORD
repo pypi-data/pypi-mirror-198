@@ -1,0 +1,9 @@
+ciri_db_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ciri_db_tools/ciri_db_tools.py,sha256=WdYiArt8YEYHuVJB-8wLhJs5qxioSoxKTJYzAcst2jk,43870
+ciri_db_tools/indicators/basicPools.json,sha256=g8UxMAAYM8leh9irPZ8VPaFjnlHoEPYvZ88f2ltFlzE,16274
+ciri_db_tools/indicators/basic_indicators.csv,sha256=OuKgNcfTown6mALSC6Jt8QZtfVJhC7may7rnQgT5Ffg,3077
+ciri_db_tools/supplementary/supplementary.json,sha256=NAeGbPKltpmf_xaM1vRUdlOvp58WDtKp6J9QNCb6UAA,3564
+ciri_db_tools-1.1.0.dist-info/METADATA,sha256=o6TfgHvfdpf2BQkGqCqZRz0MlVUTMoEKIzxMrsWtZ7k,399
+ciri_db_tools-1.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+ciri_db_tools-1.1.0.dist-info/licenses/LICENSE,sha256=K0f6FrU6G9dytTV_ZdwWfJ-fqLi1r-w2CbCBm6VhAHk,62
+ciri_db_tools-1.1.0.dist-info/RECORD,,
