@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: k8s-workload-restarter
+Version: 0.0.11
+Description-Content-Type: text/markdown
+
+## kube-workload-restarter
+
+[![Package publish](https://github.com/andreacioni/kube-workload-restarter/actions/workflows/main.yml/badge.svg)](https://github.com/andreacioni/kube-workload-restarter/actions/workflows/main.yml)
