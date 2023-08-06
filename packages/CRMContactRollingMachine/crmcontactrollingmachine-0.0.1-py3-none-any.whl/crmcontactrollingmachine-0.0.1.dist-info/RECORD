@@ -1,0 +1,11 @@
+AddUsers.py,sha256=wVZdVimtjWgqqdViZoxxp5FngLt-r3CmgqrykYbZO48,2274
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth/GoogleAuth.py,sha256=8KmP93kFMLX5kHwl9gmw2lvAiqJM_cy0altIJBXMmQs,1668
+auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/CreateLabel.py,sha256=OlXLaes3TJjwdHxoftCGGUlhx2_go2WibmOP_KY-meA,930
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crmcontactrollingmachine-0.0.1.dist-info/METADATA,sha256=8916oggVU4IhAwdww_29auZElteVlxyWOM23RFvSL0I,566
+crmcontactrollingmachine-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+crmcontactrollingmachine-0.0.1.dist-info/licenses/LICENSE.chromedriver,sha256=i31gXQa40jMHsskg9pAwMSzzLQfp2SUeknkxOWb-H0Y,247181
+crmcontactrollingmachine-0.0.1.dist-info/licenses/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+crmcontactrollingmachine-0.0.1.dist-info/RECORD,,
