@@ -1,0 +1,9 @@
+pycextensions/__init__.py,sha256=ENK4T4gV-qNqBd2AL8KLp_wScvowI2gBpIkEy7jiwgg,57
+pycextensions/main.py,sha256=Mc2AIR7GnfWLm9SjTEieZubhcn8H9EyiBcJAKtTN5Bo,77
+pycextensions/fprintf.cpython-39-aarch64-linux-gnu.so,sha256=2z0HU0eJNk-0-HStv6ndifmCjXs-D8FPavj8jjcey6A,81240
+pycextensions/util.py,sha256=xVRwgVnCcJhblgLnonvz3glpr4l04EfGtkynADwAhgk,527
+pycextensions-0.0.1.dist-info/LICENSE,sha256=_s-q4QVBSTjmnFPjs2Oac31L5tzRN4aw2bw4Up4taYs,1070
+pycextensions-0.0.1.dist-info/WHEEL,sha256=SIpKeEMEn5d6wEWNi6guiW3hSiu5nA1wuuKXWVovQCE,150
+pycextensions-0.0.1.dist-info/top_level.txt,sha256=h5InxYXtx59lqSqPibMTB2OsGblKiTjJvmJpk7lRnSU,14
+pycextensions-0.0.1.dist-info/RECORD,,
+pycextensions-0.0.1.dist-info/METADATA,sha256=XCXS7rEg4-pQiYgAhtz_VRI4GG5l95nd0X2KPPC8s30,1101
