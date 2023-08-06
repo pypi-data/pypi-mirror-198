@@ -1,0 +1,17 @@
+discogrify/__init__.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+discogrify/auth_config,sha256=jO_y93q5gzvLC4fsiLbAjsfd6kWsuEACs1fnpj_hxDA,415
+discogrify/cli.py,sha256=PNyLbuz-rXERrCCzs3kcpA_OWn2jtwcePrIFDu5hIXI,7339
+discogrify/config.py,sha256=Y13LBgfF4jYX08OHUYe0XXSUGAcB4hQjhijzDH1l8Vo,386
+discogrify/spotify_client.py,sha256=yT8xPin-_udJuF1ZLR6H-JS3Hmsarc9ycXv3VePl7qI,12578
+discogrify/utils.py,sha256=vlo_ZXpBWZ3T2C6OdI7S0OZRvtochSUa1AZicewhVPA,1722
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=9nk_w_NQCIKiyEivoFoWTa26FisXePe9vtG20lhhdds,701
+tests/test_cli.py,sha256=YgbYo_shyZ8vYzGJQXda66l6p4LMFRDoVDfGSVq0t-g,4258
+tests/test_utils.py,sha256=Ip21GUpftC4THj6tvjXNpxxblTyOlqlRC5ADHQ6hpE8,3016
+tests/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tools/authenticate.py,sha256=KujBcM-S2OxZ2ptSPc1x-YZBff-yVvXPPbWJlPGOivU,791
+discogrify-0.0.10.dist-info/METADATA,sha256=ywH8E82Jb6ZTj8YJeAA4tPS4IxPOvmOS5EL4qyeyODQ,2676
+discogrify-0.0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+discogrify-0.0.10.dist-info/entry_points.txt,sha256=dQAjwqNRX9PlIsMRZzY8lwOgnYb0IXOOVfPmNfzVn8Q,75
+discogrify-0.0.10.dist-info/top_level.txt,sha256=VEvbuLG2w_efu9xPdrvTS952Csh2tP6m4ooFcYFBSbU,17
+discogrify-0.0.10.dist-info/RECORD,,
