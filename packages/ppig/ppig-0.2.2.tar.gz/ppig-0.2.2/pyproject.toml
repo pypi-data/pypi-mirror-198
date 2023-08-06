@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ppig"
+version = "0.2.2"
+description = "An AI terminal assistant"
+authors = ["Miguel Martín <miguel.martinr11@gmail.com>"]
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.2"
+requests = "^2.28.2"
+pyyaml = "^6.0"
+pyperclip = "^1.8.2"
+
+[tool.poetry.scripts]
+ppig = "ppig.main:cli_commands"
+ppigd = "ppig.main:prompt_directly"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
