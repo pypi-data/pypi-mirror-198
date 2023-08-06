@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+skill-ovos-fallback-dialogpt.openvoiceos=skill_ovos_fallback_dialogpt:DialoGPTSkill
+

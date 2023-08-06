@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: skill-ovos-fallback-dialogpt
+Version: 0.0.0a1
+Summary: ovos DialoGPT skill
+Home-page: https://github.com/OpenVoiceOS/skill-ovos-fallback-dialogpt
+Author: JarbasAi
+Author-email: jarbasai@mailfence.com
+License: Apache-2.0
+Keywords: ovos skill plugin
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ovos-solver-dialogpt-plugin
+Requires-Dist: ovos-utils (>=0.0.28,~=0.0)
+Requires-Dist: ovos-workshop (>=0.0.11,~=0.0)
+
+# DialoGPT Fallback Skill
+
+When in doubt, ask DialoGPT, powered by [DialoGPT Persona](https://github.com/OpenVoiceOS/ovos-solver-plugin-dialogpt)
+
+Offline alternative to ChatGPT skill  (GPT 2 based)
+
+## About 
+
+While this can not compete with [ChatGPT Persona](https://github.com/OpenVoiceOS/ovos-solver-plugin-openai-persona) it is an offline alternative, you can use any model from huggingface to have different personas
+
+Find models [here](https://huggingface.co/models?pipeline_tag=conversational&search=dialogpt)
+
+## Configuration
+
+Under skill settings you can tweak some parameters for DialoGPT
+
+- `model` - model to use, default `"microsoft/DialoGPT-medium"`
+
+## Examples 
+
+* "What is best in life?"
+* "Do you like dogs"
+* "Does God exist?"
+
+
