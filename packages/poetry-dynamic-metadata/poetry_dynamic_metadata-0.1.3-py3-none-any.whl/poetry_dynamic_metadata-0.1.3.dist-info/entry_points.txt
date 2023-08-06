@@ -1,0 +1,3 @@
+[poetry.plugin]
+poetry-dynamic-metadata=poetry_dynamic_metadata.plugin:DynamicMetadataPlugin
+
