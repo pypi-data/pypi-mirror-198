@@ -1,0 +1,5 @@
+test_pypi_pri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pypi_pri/mars.py,sha256=V_sjmMKUGeZH2BaO2_bBzLDvqS0-vpGOgPvI7yOM2Dw,110
+test_pypi_pri-0.1.0.dist-info/METADATA,sha256=IuypuPQ3NTU59IxK4O634NoBMGAYXu87UWSAMUCYFrs,477
+test_pypi_pri-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+test_pypi_pri-0.1.0.dist-info/RECORD,,
