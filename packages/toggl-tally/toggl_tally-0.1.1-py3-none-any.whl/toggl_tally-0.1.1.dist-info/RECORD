@@ -1,0 +1,13 @@
+toggl_tally/__init__.py,sha256=Lxsa-xZsyIpfp3nYPQX0NluvznPD_O0mq171uY04ZeU,186
+toggl_tally/api.py,sha256=Peq-90cmYUIHOxmLURKZjs94gx-jiNb8aBsXaWHi6nE,2370
+toggl_tally/cli.py,sha256=ThKs2pxHSbH88Og9_cmOdxRIhYGXdPMbf54A9jYBa7Y,5998
+toggl_tally/filter.py,sha256=CufKitCpQQ8nNUa5TD99CiDH_4DL_iOqgipS1fcG5j0,5493
+toggl_tally/report.py,sha256=8rxpewDW3LzXbY3SFY8dKx85q2aUEp8lyZ0G_14noAQ,3879
+toggl_tally/tally.py,sha256=UECBYFapN07gJNn4ZDcTGGOZCwUbqISSEVfU0YwvKvY,6823
+toggl_tally/time_utils.py,sha256=aNLiFF0NUoD00XDui63kKWo2d4E4GsrNmh32glk79Gw,944
+toggl_tally-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+toggl_tally-0.1.1.dist-info/METADATA,sha256=FUVFJI7XSWHvyTt4WzNYtIEnqMUN6I-upEHUYNrMMJM,46003
+toggl_tally-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+toggl_tally-0.1.1.dist-info/entry_points.txt,sha256=-iVwBiqgs9SKNDV_kCwaptyERdL6VuvP1-WER4U2sIQ,60
+toggl_tally-0.1.1.dist-info/top_level.txt,sha256=Hk01F2-K7XO34X-HQjNBWPMQYPlXdrt8L9iij26149k,12
+toggl_tally-0.1.1.dist-info/RECORD,,
