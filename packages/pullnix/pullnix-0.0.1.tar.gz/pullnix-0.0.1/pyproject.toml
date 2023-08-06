@@ -1,0 +1,36 @@
+[project]
+name = "pullnix"
+version = "0.0.1"
+authors = [
+  { name="Andreas Wuerl", email="andi@tryb.de" },
+]
+description = "A pull based NixOS deployment tool"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "PyYAML",
+    "dacite",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.scripts]
+pullnix = "pullnix.cli:cli"
+[project.urls]
+"Homepage" = "https://github.com/wuan/pullnix"
+"Bug Tracker" = "https://github.com/wuan/pullnix/issues"
+[project.optional-dependencies]
+test = [
+    'pytest-cov',
+    'mock',
+    'assertpy',
+]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]

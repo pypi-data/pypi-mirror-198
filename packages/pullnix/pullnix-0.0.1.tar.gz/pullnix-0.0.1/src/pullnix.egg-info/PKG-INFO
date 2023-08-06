@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pullnix
+Version: 0.0.1
+Summary: A pull based NixOS deployment tool
+Author-email: Andreas Wuerl <andi@tryb.de>
+Project-URL: Homepage, https://github.com/wuan/pullnix
+Project-URL: Bug Tracker, https://github.com/wuan/pullnix/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+= pullnix
+
+A NixOS pull based deployment tool written in Python.
+
