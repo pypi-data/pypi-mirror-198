@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyImageEditor
+Version: 0.1
+Summary: PIE
+Author: Kiwuthegamer
+Keywords: Images,PIL,Editing
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A simple function interface over the PIL image editing in python

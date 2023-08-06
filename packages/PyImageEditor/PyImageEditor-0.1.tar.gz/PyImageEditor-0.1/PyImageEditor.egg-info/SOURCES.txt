@@ -1,0 +1,7 @@
+setup.py
+PyImageEditor/__init__.py
+PyImageEditor.egg-info/PKG-INFO
+PyImageEditor.egg-info/SOURCES.txt
+PyImageEditor.egg-info/dependency_links.txt
+PyImageEditor.egg-info/requires.txt
+PyImageEditor.egg-info/top_level.txt
