@@ -1,0 +1,295 @@
+Metadata-Version: 2.1
+Name: NetBone
+Version: 0.17
+Summary: A python package for extracting network backbones from simple weighted networks
+Home-page: https://gitlab.liris.cnrs.fr/coregraphie/netbone
+Author: Ali Yassin
+Author-email: aliyassin4@hotmail.com
+License: MIT
+Keywords: backbone network
+Description-Content-Type: text/markdown
+
+
+# NetBone
+
+NetBone is a Python library for extracting network backbones from simple weighted networks.
+
+## Features
+
+- Extract network backbones from simple weighted networks
+- Contains six statistical methods for extracting backbones
+- Contains seven structural methods for extracting backbones
+- Includes three filters for extracting the backbone: boolean filter, threshold filter, and fraction filter
+- Built-in methods for comparing backbones with each other
+- Option to use custom comparison methods
+- Visualization tools to display the results of the comparison
+
+
+## Installation
+
+Install the latest version of NetBone:
+```
+pip install netbone
+```
+or
+```
+pip install git+https://gitlab.liris.cnrs.fr/coregraphie/netbone
+```
+
+
+## Usage/Examples
+
+### Apply a backbone extraction method
+The methods of netbone takes a networkx graph or a dataframe as an input.
+#### Statistical backbone extraction methods
+```
+import netbone as nb
+
+gt = nb.global_threshold(G)
+df = nb.disparity(G)
+nc = nb.noise_corrected(G)
+ml = nb.marginal_likelihood(G)
+ecm = nb.ecm(G)
+lans = nb.lans(G)
+```
+#### Structural backbone extraction methods
+```
+import netbone as nb
+
+msp = nb.maximum_spanning_tree(G)
+ds = nb.doubly_stochastic(G)
+hss = nb.high_salience_skeleton(G)
+hb = nb.h_backbone(G)
+md = nb.metric_distance_backbone(G)
+umd = nb.ultrametric_distance_backbone(G)
+
+# we pass the fraction of nodes to be preserved since the this method is recursive
+mod = nb.modularity_backbone(G, 0.3)
+```
+### Preview the assigned scores or p-values
+```
+df_values = df.to_dataframe()
+
+# preview the dataframe
+df_values
+
+|    |  source | target |  p_value | weight |
+|----|---------|--------|----------|--------|
+| 0  |    0    |    1   |   0.30   |    4   |
+| 1  |    0    |    2   |   0.22   |    5   |
+| 2  |    0    |    3   |   0.40   |    3   |
+| 3  |    0    |    4   |   0.39   |    3   |
+| 4  |    0    |    5   |   0.48   |    3   |
+| .. |   ...   |   ...  |   ...    |  ...   |
+```
+
+### Filtering and extracting the backbone
+Netbone offers three types of filters:
+
+#### Fraction Filter
+This filter extracts a backbone with a particular fraction of edges utilizing the p-values or scores. The methods that can use this filter are:
+- global_threshold
+- disparity
+- noise_corrected
+- marginal_likelihood
+- ecm
+- lans
+- doubly_stochastic
+- high_salience_skeleton
+
+```
+from netbone.Filters import fraction_filter
+df_fraction = fraction_filter(df, 0.3)
+```
+
+#### Threshold Filter
+This filter extracts a backbone given a particular threshold utilizing the p-values or scores. The methods that can use this filter are:
+- global_threshold
+- disparity
+- noise_corrected
+- marginal_likelihood
+- ecm
+- lans
+- doubly_stochastic
+- high_salience_skeleton
+
+```
+from netbone.Filters import threshold_filter
+df_fraction = threshold_filter(df, 0.05)
+```
+
+#### Boolean Filter
+This filter is extracts a single backbone by the definition of the applies methods. The methods that can use this filter are:
+- maximum_spanning_tree
+- h_backbone
+- metric_distance_backbone
+- ultrametric_distance_backbone
+- doubly_stochastic
+- high_salience_skeleton
+- modularity_backbone
+
+```
+from netbone.Filters import boolean_filter
+msp_backbone = boolean_filter(msp)
+```
+
+### Comparing the backbon extraction methods
+NetBone provides the Compare module that allows for easy comparison of backbone extraction methods. First we create a Compare instance and set the original network.
+```
+from netbone.Compare import Compare
+
+# create a comparison instance 
+compare = Compare()
+
+# set the original network
+g = nx.karate_club_graph()
+compare.set_network(g)
+```
+Then we apply the backbone extraciton methods and add them.
+```
+# apply the methods 
+df = nb.disparity(g)
+nc = nb.noise_corrected(g)
+
+# add the applied methods to be compared 
+compare.add_backbone(df)
+compare.add_backbone(nc)
+```
+Then we set the filter to be applied in the comparison
+```
+from netbone.Filters import fraction_filter
+
+# set the filter
+compare.set_filter(fraction_filter, 0.2)
+```
+
+Now we are ready to compare the extracted backbones. NetBone offers three different comparison functions:
+#### Comparing Properties
+This function extracts the backbones for each method given a filter and a set of properties. We can add built-in properties function from the Measures module:
+```
+from netbone.Measures import weight_fraction, edge_fraction
+
+# add the properties functions
+compare.add_property("Edge Fraction", edge_fraction)
+compare.add_property("Weight Fraction", weight_fraction)
+```
+or we can define our custom property function and add it:
+```
+# define a new property function and add it
+def node_fraction(original, backbone):
+    return len(backbone.nodes())/ len(network.nodes())
+
+# add the defined function giving it a name
+compare.add_property("Node Fraction", node_fraction)
+```
+
+Now everything is setup we can compute the properties and preview them:
+```
+results = compare.properties()
+
+# preview the results
+results
+
+|                | Original | Noise Corrected Filter | Disparity Filter |
+|----------------|----------|------------------------|------------------|
+|Edge Fraction   |   1.0    |      0.192308          |     0.192308     |
+|Node Fraction   |   1.0    |      0.588235          |     0.470588     |
+|Weight Fraction |   1.0    |      0.233766          |     0.303030     |
+```
+
+Finally we can use the plot_radar function from the Visulaization module to plot the results in a radar plot:
+```
+from netbone.Visualize import plot_radar
+
+# visualize the results
+plot_radar(results, title='Karate Club Network')    
+```
+![alt text](images/Karate-Club-Network-props.png)
+
+
+
+#### Comparing Properties Progression
+This function extracts the backbones for each method given a filter and a set of values(fractions or p-values), the it computes the progress of each added property as the given values changes(fraction or p-value).
+```
+
+# define the array of fractions
+fractions = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+
+# compute the properties progression and preview them:
+results = compare.properties_progression(fractions)
+
+# preview the results of a property
+results['Node Fraction']
+
+|Fraction of Edges | Noise Corrected Filter | Disparity Filter |
+|------------------|------------------------|------------------|                     
+|        0.1       |        0.323           |       0.323      |
+|        0.2       |        0.588           |       0.470      |  
+|        0.3       |        0.852           |       0.617      |
+|        0.4       |        0.970           |       0.764      |
+|        0.5       |        1.000           |       0.794      |
+|        0.6       |        1.000           |       0.882      |
+|        0.7       |        1.000           |       0.941      |
+|        0.8       |        1.000           |       1.000      |
+|        0.9       |        1.000           |       1.000      |
+|        1.0       |        1.000           |       1.000      |
+
+```
+Finally we can use the plot_props function from the Visulaization module to plot the results for each property:
+
+```
+from netbone.Visualize import plot_props
+
+# visualize the results
+plot_props(results, 'Karate Club Network')
+```
+
+![alt text](images/Karate-Club-Network-Node-Fraction.png)
+
+
+
+
+#### Comparing Distributions
+This function extracts the backbones for each method given a filter, then it extract the values given a function and prepares these values to plot increasing or decreasing cumulative distribution. We can use built-in functions from the Measures module that retun a set of values such as the weights:
+```
+from netbone.Measures import weights
+
+# apply the function for each backbone
+results = compare.cumulative_distribution('Weight', weights)
+
+```
+or we can define our custom function and add use it:
+```
+def degrees(network):
+    return list(dict(network.degree()).values())
+
+# apply the function for each backbone
+results = compare.cumulative_distribution('Degree', degrees)
+```
+
+Now we can use the plot_distribution function from the Visulaization module to plot the results:
+```
+from netbone.Visualize import plot_distribution
+
+# visualize the results
+plot_distribution(results, title='Karate Club Network')  
+```
+
+![alt text](images/Karate-Club-Network-dist.png)
+
+## Credits
+This project includes code from the following sources:
+
+[ECM filter](https://github.com/deklanw/maxent_graph ),
+[Noise Corrected, Doubly Stochastic, High Salience Skeleton](https://www.michelecoscia.com/?page_id=287),
+[Marginal Likelihood](https://github.com/naviddianati/GraphPruning),
+[Metric Distance, Ultrametric Distance](https://github.com/rionbr/distanceclosure)
+## Contributing
+
+Contributions are always welcome!
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
