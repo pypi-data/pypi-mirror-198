@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "telemetry-wire"
+version = "0.1.0"
+description = "An SDK for accessing Telemetry Wire"
+authors = ["Chris Moyer <chris@telemetry.fm>"]
+readme = "README.md"
+packages = [{include = "telemetry_wire"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
