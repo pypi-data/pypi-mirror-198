@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ymler
+Version: 0.0.1b0
+Summary: The best way to work with YAML in Python.
+Home-page: https://github.com/ispaneli/ymler
+Author: Ilya Antonov
+Author-email: ispanelki@gmail.com
+Project-URL: Issue Tracker, https://github.com/ispaneli/ymler/issues
+Project-URL: Source, https://github.com/ispaneli/ymler/tree/master/src/ymler
+Project-URL: Say Thanks!, http://saythanks.io/to/ispanelki
+Project-URL: Documentation, https://github.com/ispaneli/ymler
+Keywords: yml,yaml
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ymler
+The best way to work with YAML in Python.
