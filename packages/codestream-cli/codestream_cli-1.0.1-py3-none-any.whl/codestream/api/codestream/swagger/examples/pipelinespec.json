@@ -1,0 +1,202 @@
+{
+  "_inputMeta": {
+    "test": {
+      "description": "test-value",
+      "mandatory": false
+    }
+  },
+  "concurrency": 10,
+  "description": "string",
+  "enabled": true,
+  "icon": "tools,,is-success is-solid",
+  "input": [
+    {
+      "ip": "10.5.23.84",
+      "script": "testScript.sh"
+    }
+  ],
+  "name": "My-Name",
+  "notifications": {
+    "email": [
+      {
+        "body": "pipeline-execution-1234",
+        "endpoint": "Codestream-Default-Email",
+        "event": "SUCCESS",
+        "subject": "Pipeline execution notification",
+        "to": [
+          "abc@vmware.com"
+        ]
+      }
+    ],
+    "jira": [
+      {
+        "assignee": "jason@vmware.com",
+        "description": "Details about the issue being reported",
+        "endpoint": "string",
+        "event": "SUCCESS",
+        "issuetype": "Bug/Story",
+        "project": "VRCS",
+        "stage": "string",
+        "summary": "Pipeline-1 execution failed",
+        "task": "string"
+      }
+    ],
+    "webhook": [
+      {
+        "action": "POST/PUT/PATCH",
+        "cloudProxyId": {
+          "text": "executionId",
+          "username": "codestream@vmware.com"
+        },
+        "endpoint": "string",
+        "event": "SUCCESS",
+        "headers": "content-type: application/json",
+        "payload": {
+          "text": "executionId",
+          "username": "codestream@vmware.com"
+        },
+        "stage": "string",
+        "task": "string",
+        "url": "string"
+      }
+    ]
+  },
+  "options": [
+    "DOCKER_TRIGGER"
+  ],
+  "output": [
+    {
+      "deployedMachineIP": "10.108.35.54",
+      "result": "true"
+    }
+  ],
+  "project": "My-Project",
+  "rollbacks": [
+    {
+      "inputs": {},
+      "name": "Undo Deployment",
+      "stage": "Deploy to Prod",
+      "task": "Deploy"
+    }
+  ],
+  "stageOrder": [
+    "AcquireToken",
+    "Upgrade",
+    "E2E"
+  ],
+  "stages": {
+    "additionalProp1": {
+      "description": "Image Publish Stage",
+      "tags": [
+        "Tag1",
+        "Tag2"
+      ],
+      "taskOrder": [
+        "Task1",
+        "Task0"
+      ],
+      "tasks": {
+        "Task1": {
+          "ignoreFailure": false,
+          "input": {
+            "action": "get",
+            "headers": {
+              "Accept": "application/json",
+              "Content-Type": "application/json"
+            },
+            "url": "https://www.vmware.com"
+          },
+          "preCondition": "",
+          "type": "REST"
+        }
+      }
+    },
+    "additionalProp2": {
+      "description": "Image Publish Stage",
+      "tags": [
+        "Tag1",
+        "Tag2"
+      ],
+      "taskOrder": [
+        "Task1",
+        "Task0"
+      ],
+      "tasks": {
+        "Task1": {
+          "ignoreFailure": false,
+          "input": {
+            "action": "get",
+            "headers": {
+              "Accept": "application/json",
+              "Content-Type": "application/json"
+            },
+            "url": "https://www.vmware.com"
+          },
+          "preCondition": "",
+          "type": "REST"
+        }
+      }
+    },
+    "additionalProp3": {
+      "description": "Image Publish Stage",
+      "tags": [
+        "Tag1",
+        "Tag2"
+      ],
+      "taskOrder": [
+        "Task1",
+        "Task0"
+      ],
+      "tasks": {
+        "Task1": {
+          "ignoreFailure": false,
+          "input": {
+            "action": "get",
+            "headers": {
+              "Accept": "application/json",
+              "Content-Type": "application/json"
+            },
+            "url": "https://www.vmware.com"
+          },
+          "preCondition": "",
+          "type": "REST"
+        }
+      }
+    }
+  },
+  "starred": {
+    "input": {
+      "input": "commitId"
+    },
+    "output": {
+      "output": "owner"
+    }
+  },
+  "state": "RELEASED",
+  "tags": [
+    {
+      "key": "env",
+      "value": "dev"
+    }
+  ],
+  "workspace": {
+    "autoCloneForTrigger": true,
+    "cache": [
+      "/root/.m2",
+      "/temp/"
+    ],
+    "customProperties": {
+      "namespace": "builds"
+    },
+    "endpoint": "string",
+    "environmentVariables": {
+      "foo": "bar",
+      "property_one": "value_one",
+      "property_two": "value_two"
+    },
+    "image": "fedora:latest",
+    "path": "/usr/administrator/",
+    "registry": "Docker Trusted Registry",
+    "type": "DOCKER|K8S"
+  }
+}

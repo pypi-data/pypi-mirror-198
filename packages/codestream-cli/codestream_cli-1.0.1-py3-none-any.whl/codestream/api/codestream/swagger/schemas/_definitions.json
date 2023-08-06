@@ -1,0 +1,5092 @@
+{
+  "definitions": {
+    "About": {
+      "description": "State object representing an about page that includes api versioning information",
+      "discriminator": "State object representing an about page that includes api versioning information",
+      "properties": {
+        "latestApiVersion": {
+          "description": "The latest version of the API in yyyy-MM-dd format (UTC).",
+          "type": "string"
+        },
+        "supportedApis": {
+          "description": "A collection of all currently supported api versions.",
+          "items": {
+            "$ref": "#/definitions/About$ApiDescription"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "latestApiVersion",
+        "supportedApis"
+      ],
+      "title": "About",
+      "type": "object"
+    },
+    "About$ApiDescription": {
+      "properties": {
+        "apiVersion": {
+          "description": "The version of the API in yyyy-MM-dd format (UTC).",
+          "type": "string"
+        },
+        "deprecationPolicy": {
+          "$ref": "#/definitions/About$DeprecationPolicy",
+          "description": "The deprecation policy may contain information whether the api is in deprecated state and when it expires."
+        },
+        "documentationLink": {
+          "description": "The link to the documentation of this api version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "apiVersion",
+        "documentationLink"
+      ],
+      "title": "About$ApiDescription",
+      "type": "object"
+    },
+    "About$DeprecationPolicy": {
+      "properties": {
+        "deprecatedAt": {
+          "description": "The date the api was deprecated in yyyy-MM-dd format (UTC). Could be empty if the api is not deprecated.",
+          "type": "string"
+        },
+        "description": {
+          "description": "A free text description that contains information about why this api is deprecated and how to migrate to a newer version.",
+          "type": "string"
+        },
+        "expiresAt": {
+          "description": "The date the api support will be dropped in yyyy-MM-dd format (UTC). The api may still be available for use after that date but this is not guaranteed.",
+          "type": "string"
+        }
+      },
+      "title": "About$DeprecationPolicy",
+      "type": "object"
+    },
+    "BatchUserOperationRequest": {
+      "description": "Batch user operation request.",
+      "discriminator": "Batch user operation request.",
+      "properties": {
+        "ids": {
+          "description": "The list of user-op ids to be batch approved/rejected.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "responseMessage": {
+          "description": "The response message which the responder would like to give.",
+          "example": "Approved on Monday.",
+          "type": "string"
+        },
+        "status": {
+          "description": "The status of approval requests.",
+          "example": "Approved",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ids",
+        "status"
+      ],
+      "title": "BatchUserOperationRequest",
+      "type": "object"
+    },
+    "BatchUserOperationResponse": {
+      "description": "Batch user operation response.",
+      "discriminator": "Batch user operation response.",
+      "properties": {
+        "errors": {
+          "description": "The list of errors encountered during the operation.",
+          "example": [
+            "User operation response received from unauthorized user fritz. Ignoring the response."
+          ],
+          "items": {
+            "$ref": "#/definitions/BatchUserOperationStatus"
+          },
+          "type": "array"
+        },
+        "failure": {
+          "description": "The number of approval requests failed.",
+          "example": 5,
+          "format": "int32",
+          "type": "integer"
+        },
+        "success": {
+          "description": "The number of approval requests succeeded.",
+          "example": 10,
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "title": "BatchUserOperationResponse",
+      "type": "object"
+    },
+    "BatchUserOperationStatus": {
+      "description": "Batch user operation status.",
+      "discriminator": "Batch user operation status.",
+      "properties": {
+        "error": {
+          "description": "The error message corresponding to the failed approval operation.",
+          "example": "User operation response received from unauthorized user exampleUser. Ignoring the response.",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id associated with each entity in the error list in batch approval operation.",
+          "example": "9288cad7-eaaa-4e46-83b3-e077d6308b81",
+          "type": "string"
+        }
+      },
+      "title": "BatchUserOperationStatus",
+      "type": "object"
+    },
+    "CertificateFingerprint": {
+      "description": "Certificates are represented in cryptographic hash algorithms (such as SHA-256 and SHA-1). Used during Endpoint creation.",
+      "discriminator": "Certificates are represented in cryptographic hash algorithms (such as SHA-256 and SHA-1). Used during Endpoint creation.",
+      "properties": {
+        "SHA-1": {
+          "description": "String representing the SHA-1 encoding of the Certificate.",
+          "example": "F38585A104F37726CFCCE5CEE223ED63A18F54DC",
+          "type": "string"
+        },
+        "SHA-256": {
+          "description": "String representing the SHA-256 encoding of the Certificate.",
+          "example": "1E47299CCE0081B73FC6AEA3FD35BA2309A033A858EDD518789477C20C910CA4",
+          "type": "string"
+        }
+      },
+      "title": "CertificateFingerprint",
+      "type": "object"
+    },
+    "CertificateIssuedTo": {
+      "description": "Holding body of the Certificate.",
+      "discriminator": "Holding body of the Certificate.",
+      "properties": {
+        "commonName": {
+          "description": "A human-friendly name used as an identifier for the holding body.",
+          "example": "vmware.com",
+          "type": "string"
+        },
+        "organization": {
+          "description": "Name of the organisation.",
+          "example": "VMware Inc.",
+          "type": "string"
+        },
+        "serialNumber": {
+          "description": "Unique ID given to the issued organization.",
+          "example": 2.7896956101890133e+38,
+          "type": "string"
+        }
+      },
+      "title": "CertificateIssuedTo",
+      "type": "object"
+    },
+    "CertificateIssuer": {
+      "properties": {
+        "commonName": {
+          "description": "A human-friendly name used as an identifier for the holding body.",
+          "example": "vmware.com",
+          "type": "string"
+        },
+        "organization": {
+          "description": "Name of the organisation.",
+          "example": "VMware Inc.",
+          "type": "string"
+        }
+      },
+      "title": "CertificateIssuer",
+      "type": "object"
+    },
+    "CertificateValidity": {
+      "description": "Describes the validity of the Certificate in terms of dates.",
+      "discriminator": "Describes the validity of the Certificate in terms of dates.",
+      "properties": {
+        "beginsOn": {
+          "description": "A UNIX timestamp in microseconds represnting when the validaty of the Certificate begins.",
+          "example": 1541116800000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "expiresOn": {
+          "description": "A UNIX timestamp in microseconds represnting when the validaty of the Certificate expires.",
+          "example": 1924991999000,
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "CertificateValidity",
+      "type": "object"
+    },
+    "CustomIntegration": {
+      "description": "Represents a Custom Integration.",
+      "discriminator": "Represents a Custom Integration.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "changeLog": {
+          "description": "Changes from the previous version.",
+          "example": "Modified input property.",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "parentId": {
+          "description": "The id of the parent of this resource.",
+          "example": "1abd1fd6-ae2c-459c-ab75-8c595631a11f",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "status": {
+          "description": "Release status of the Custom Integration",
+          "example": "NONE/RELEASED/DEPRECATED",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        },
+        "yaml": {
+          "description": "YAML describing Custom integration details.",
+          "example": "---\nruntime: \"nodejs\"\ncode: |\n    var context = require(\"./context.js\")\n    var start = Date.now();\n    var message = context.getInput(\"message\");\n    console.log(\"starting timer is good \" + message);\n    \n    setTimeout(function() {\n      var millis = Date.now() - start;\n      console.log(\"seconds elapsed = \" + Math.floor(millis/1000));\n      context.setOutput(\"time\", millis);\n    }, 2000);\ninputProperties:\n  - name: message\n    type: text\n    title: Message\n    placeHolder: Time\n    defaultValue: \n    bindable: true\n    labelInfo: true\n    labelMessage: What is time\n    \noutputProperties:\n  - name: time\n    type: label\n    title: Time",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "CustomIntegration",
+      "type": "object"
+    },
+    "CustomIntegrationSpec": {
+      "description": "Custom Integration specification.",
+      "discriminator": "Custom Integration specification.",
+      "properties": {
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "yaml": {
+          "description": "YAML describing Custom integration details.",
+          "example": "---\nruntime: \"nodejs\"\ncode: |\n    var context = require(\"./context.js\")\n    var start = Date.now();\n    var message = context.getInput(\"message\");\n    console.log(\"starting timer is good \" + message);\n    \n    setTimeout(function() {\n      var millis = Date.now() - start;\n      console.log(\"seconds elapsed = \" + Math.floor(millis/1000));\n      context.setOutput(\"time\", millis);\n    }, 2000);\ninputProperties:\n  - name: message\n    type: text\n    title: Message\n    placeHolder: Time\n    defaultValue: \n    bindable: true\n    labelInfo: true\n    labelMessage: What is time\n    \noutputProperties:\n  - name: time\n    type: label\n    title: Time",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "CustomIntegrationSpec",
+      "type": "object"
+    },
+    "CustomIntegrations": {
+      "description": "List of Custom Integration instances.",
+      "discriminator": "List of Custom Integration instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/CustomIntegration"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "CustomIntegrations",
+      "type": "object"
+    },
+    "DockerRegistryEvent": {
+      "description": "Docker Registry Event details.",
+      "discriminator": "Docker Registry Event details.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "executionIndex": {
+          "description": "Pipeline execution index.",
+          "example": 2,
+          "format": "int64",
+          "type": "integer"
+        },
+        "executionLink": {
+          "description": "Pipeline execution link.",
+          "example": "codestream/api/execution/sdscfvefw34rfrdsvdsat43erwfdf",
+          "type": "string"
+        },
+        "executionStatus": {
+          "description": "Pipeline execution status.",
+          "example": "STARTED",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "imageName": {
+          "description": "Name of the image.",
+          "example": "fedora",
+          "type": "string"
+        },
+        "message": {
+          "description": "Message is populated when an error occurs.",
+          "example": "Invalid Oauth Refresh token. Verify webhook configuration.",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "owner": {
+          "description": "Owner Name who triggered the event.",
+          "example": "username",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline to be executed when event is triggered.",
+          "example": "MyPipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "repo": {
+          "description": "RepoName corresponding to the event.",
+          "example": "MyRepository",
+          "type": "string"
+        },
+        "repoNamespace": {
+          "description": "Namespace inside the Docker Repository.",
+          "example": "MyNamespace",
+          "type": "string"
+        },
+        "tag": {
+          "description": "Tag name associated with the image.",
+          "example": "latest",
+          "type": "string"
+        },
+        "timeStampInMicros": {
+          "description": "Commit Time for the event.",
+          "example": "2019-09-18T07:38:25.907+0000",
+          "format": "int64",
+          "type": "integer"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "DockerRegistryEvent",
+      "type": "object"
+    },
+    "DockerRegistryEvents": {
+      "description": "List of Docker Registry Events.",
+      "discriminator": "List of Docker Registry Events.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/DockerRegistryEvent"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "DockerRegistryEvents",
+      "type": "object"
+    },
+    "DockerRegistryWebHook": {
+      "description": "Docker Registry Webhook details.",
+      "discriminator": "Docker Registry Webhook details.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates whether Docker webhook is enabled or not.",
+          "example": true,
+          "type": "boolean"
+        },
+        "endpoint": {
+          "description": "Name of the Docker Endpoint.",
+          "example": "Docker Endpoint",
+          "type": "string"
+        },
+        "externalListenerLink": {
+          "description": "Docker webhook listener link.",
+          "example": "codestream/api/registry-webhooks/sdscfvefw34rfrdsvdsat43erwfdf",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "imageNameRegExPattern": {
+          "description": "If provided then the pipeline execution is triggered only when the given image name regex matches the image name in the received payload.",
+          "example": "admin/wordpress",
+          "type": "string"
+        },
+        "input": {
+          "description": "Pipeline execution input properties.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline name which is meant to be triggered when a docker event occur.",
+          "example": "DemoPipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "refreshToken": {
+          "description": "This token is used to authenticate when calling VMware Cloud Services APIs. These tokens are scoped within the organization.",
+          "example": "cKNNVCSHijnaxlrfnVsxUYr6wM2g5Bg11tfnotmWb9XdA5kpUCvI2ubJojTIGp9g",
+          "type": "string"
+        },
+        "repoName": {
+          "description": "Docker Repo Name.",
+          "example": "MyRepository",
+          "type": "string"
+        },
+        "secretToken": {
+          "description": "Secret token to validate received payloads.",
+          "example": "dvcdefrffsdvdfvfdgfdvbfdbvrefg3ff=",
+          "type": "string"
+        },
+        "serverType": {
+          "description": "Docker server type.",
+          "example": "DockerHub/Docker_Trusted_Registry",
+          "type": "string"
+        },
+        "slug": {
+          "description": "Docker webhook name.",
+          "example": "docker-webhook",
+          "type": "string"
+        },
+        "tagNamePattern": {
+          "description": "If provided then the pipeline execution is triggered only when the given tag name regex matches the tag name(s) in the received payload.",
+          "example": "tag1",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "DockerRegistryWebHook",
+      "type": "object"
+    },
+    "DockerRegistryWebHookSpec": {
+      "description": "Docker Registry Webhook specification.",
+      "discriminator": "Docker Registry Webhook specification.",
+      "properties": {
+        "description": {
+          "description": "Docker webhook description.",
+          "example": "It is a docker saas webhook",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates whether Docker webhook is enabled or not.",
+          "example": true,
+          "type": "boolean"
+        },
+        "endpoint": {
+          "description": "Docker endpoint.",
+          "example": "Dcocker-SaaS",
+          "type": "string"
+        },
+        "externalListenerLink": {
+          "description": "Docker webhook listener link.",
+          "example": "/codestream/api/registry-webhook-listeners/412aa461-6d46-47d6-af93-152bb0d88682",
+          "type": "string"
+        },
+        "imageNameRegExPattern": {
+          "description": "If provided then the pipeline execution is triggered only when the given image name regex matches the image name in the received payload.",
+          "example": "admin/wordpress",
+          "type": "string"
+        },
+        "input": {
+          "description": "Pipeline Execution input properties.",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline name which is meant to be triggered when a docker event occur.",
+          "example": "CD-Pipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "refreshToken": {
+          "description": "Codestream API token.",
+          "example": "I5FLA8iQhlZwoos6OL3goKciAF5e",
+          "type": "string"
+        },
+        "repoName": {
+          "description": "Docker Repo Name.",
+          "example": "codestream",
+          "type": "string"
+        },
+        "secretToken": {
+          "description": "Secret token to validate received payloads.",
+          "example": "DSkUyJJ8KA8rOSk=Ci",
+          "type": "string"
+        },
+        "serverType": {
+          "description": "Docker server type.",
+          "example": "DockerHub/Docker_Trusted_Registry",
+          "type": "string"
+        },
+        "slug": {
+          "description": "Docker webhook name.",
+          "example": "docker-webhook",
+          "type": "string"
+        },
+        "tagNamePattern": {
+          "description": "If provided then the pipeline execution is triggered only when the given tag name regex matches the tag name(s) in the received payload.",
+          "example": "tag1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "DockerRegistryWebHookSpec",
+      "type": "object"
+    },
+    "DockerRegistryWebhooks": {
+      "description": "List of Docker Registry Webhooks.",
+      "discriminator": "List of Docker Registry Webhooks.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/DockerRegistryWebHook"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "DockerRegistryWebhooks",
+      "type": "object"
+    },
+    "EmailEventConfig": {
+      "description": "Represents an Email Event configuration.",
+      "discriminator": "Represents an Email Event configuration.",
+      "properties": {
+        "body": {
+          "description": "Email Body.",
+          "example": "Pipeline-1 execution was successful",
+          "type": "string"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "event": {
+          "enum": [
+            "SUCCESS",
+            "FAILURE",
+            "WAITING",
+            "CANCELED",
+            "STARTED"
+          ],
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "subject": {
+          "description": "Subject for the email notification.",
+          "example": "Pipeline-1 execution notification",
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "to": {
+          "description": "List of Email IDs of the recipients.",
+          "example": [
+            "abc@vmware.com",
+            "def@vmware.com"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "title": "EmailEventConfig",
+      "type": "object"
+    },
+    "Endpoint": {
+      "description": "An Endpoint is an instance of a DevOps application that connects to Code Stream to provide data for your Pipelines to run, such as a data source, repository, or notification system. Endpoints can be cloud-based or on-premises.",
+      "discriminator": "An Endpoint is an instance of a DevOps application that connects to Code Stream to provide data for your Pipelines to run, such as a data source, repository, or notification system. Endpoints can be cloud-based or on-premises.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "cloudProxyId": {
+          "description": "The id of the Cloud Proxy. It is required to connect with Endpoint servers hosted on different network (on-prem). In case of cloud-based Endpoint servers, set the cloud proxy to \"Default\".",
+          "example": "c3f5037c-0c94-466d-9220-b7429fa07f50",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "isRestricted": {
+          "description": "This type of Endpoint can be created, updated or deleted by admin only. If a restricted Endpoint is consumed in a Pipeline, and that Pipeline is executed by a non-admin user, then the execution will fail at the task which is consuming this restricted Endpoint. Only admin can then resume this Pipeline to make it progress.",
+          "example": false,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "properties": {
+          "description": "Endpoint specific properties.",
+          "type": "object"
+        },
+        "type": {
+          "description": "The type of this Endpoint instance.",
+          "example": "jenkins",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "validationOutput": {
+          "description": "Stores the vaidation errors.",
+          "type": "object"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "Endpoint",
+      "type": "object"
+    },
+    "EndpointCertificate": {
+      "description": "Represents the complete SSL Certificate information of a FQDN.",
+      "discriminator": "Represents the complete SSL Certificate information of a FQDN.",
+      "properties": {
+        "fingerprints": {
+          "$ref": "#/definitions/CertificateFingerprint",
+          "description": "Certificates are represented in cryptographic hash algorithms (such as SHA-256 and SHA-1). Used during Endpoint creation."
+        },
+        "issuedBy": {
+          "$ref": "#/definitions/CertificateIssuer",
+          "description": "Represents the entity issuing the Certificate to the holding body."
+        },
+        "issuedTo": {
+          "$ref": "#/definitions/CertificateIssuedTo",
+          "description": "Holding body of the Certificate."
+        },
+        "periodOfValidity": {
+          "$ref": "#/definitions/CertificateValidity",
+          "description": "Describes the validity of the Certificate in terms of dates."
+        }
+      },
+      "title": "EndpointCertificate",
+      "type": "object"
+    },
+    "EndpointCertificateChain": {
+      "description": "EndpointCertificateChain is a tree of SSL Certificates.",
+      "discriminator": "EndpointCertificateChain is a tree of SSL Certificates.",
+      "properties": {
+        "certificates": {
+          "description": "A list of Endpoint Certificates.",
+          "items": {
+            "$ref": "#/definitions/EndpointCertificate"
+          },
+          "type": "array"
+        }
+      },
+      "title": "EndpointCertificateChain",
+      "type": "object"
+    },
+    "EndpointSpec": {
+      "description": "An Endpoint is an instance of a DevOps application that connects to Code Stream to provide data for your Pipelines to run, such as a data source, repository, or notification system. Endpoints can be cloud-based or on-premises.",
+      "discriminator": "An Endpoint is an instance of a DevOps application that connects to Code Stream to provide data for your Pipelines to run, such as a data source, repository, or notification system. Endpoints can be cloud-based or on-premises.",
+      "properties": {
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "isRestricted": {
+          "description": "This type of Endpoint can be created, updated or deleted by admin only. If a restricted Endpoint is consumed in a pipeline, and that pipeline is executed by a non-admin user, then the execution will fail at the task which is consuming this restricted Endpoint. Only admin can then resume this pipeline to make it progress.",
+          "example": false,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "properties": {
+          "description": "Endpoint specific properties",
+          "type": "object"
+        },
+        "type": {
+          "description": "The type of this Endpoint instance.",
+          "example": "jenkins",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name",
+        "properties",
+        "type"
+      ],
+      "title": "EndpointSpec",
+      "type": "object"
+    },
+    "EndpointValidationSpec": {
+      "description": "Endpoint validation specification",
+      "discriminator": "Endpoint validation specification",
+      "properties": {
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "id": {
+          "description": "id of the endpoint, if already present",
+          "type": "string"
+        },
+        "isRestricted": {
+          "description": "This type of Endpoint can be created, updated or deleted by admin only. If a restricted Endpoint is consumed in a pipeline, and that pipeline is executed by a non-admin user, then the execution will fail at the task which is consuming this restricted Endpoint. Only admin can then resume this pipeline to make it progress.",
+          "example": false,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "properties": {
+          "description": "Endpoint specific properties",
+          "type": "object"
+        },
+        "type": {
+          "description": "The type of this Endpoint instance.",
+          "example": "jenkins",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name",
+        "properties",
+        "type"
+      ],
+      "title": "EndpointValidationSpec",
+      "type": "object"
+    },
+    "Endpoints": {
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Endpoint"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "Endpoints",
+      "type": "object"
+    },
+    "Execution": {
+      "description": "Execution",
+      "discriminator": "Execution",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_durationInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "_executedBy": {
+          "type": "string"
+        },
+        "_inputMeta": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "type": "object"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_nested": {
+          "type": "boolean"
+        },
+        "_outputMeta": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "type": "object"
+        },
+        "_pipelineLink": {
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_requestTimeInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "_rollback": {
+          "type": "boolean"
+        },
+        "_source": {
+          "type": "string"
+        },
+        "_totalDurationInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "_triggeredBy": {
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "comments": {
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "index": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "input": {
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "notifications": {
+          "items": {
+            "$ref": "#/definitions/Notification"
+          },
+          "type": "array"
+        },
+        "output": {
+          "type": "object"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "resumed_at": {
+          "type": "string"
+        },
+        "stageOrder": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "stages": {
+          "additionalProperties": {
+            "$ref": "#/definitions/StageExecution"
+          },
+          "type": "object"
+        },
+        "starred": {
+          "$ref": "#/definitions/Pipeline$StarredProperty"
+        },
+        "status": {
+          "enum": [
+            "NOT_STARTED",
+            "STARTED",
+            "RUNNING",
+            "CANCELING",
+            "WAITING",
+            "RESUMING",
+            "PAUSING",
+            "PAUSED",
+            "CANCELED",
+            "COMPLETED",
+            "FAILED",
+            "SKIPPED",
+            "QUEUED",
+            "FAILED_CONTINUE",
+            "ROLLING_BACK",
+            "ROLLBACK_FAILED",
+            "PREPARING_WORKSPACE",
+            "ROLLBACK_COMPLETED"
+          ],
+          "type": "string"
+        },
+        "statusMessage": {
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that were set on on the resource.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        },
+        "workspaceResults": {
+          "items": {
+            "$ref": "#/definitions/WorkspaceResult"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "Execution",
+      "type": "object"
+    },
+    "ExecutionActionRequest": {
+      "description": "Request body for acting on an Execution.",
+      "discriminator": "Request body for acting on an Execution.",
+      "properties": {
+        "reason": {
+          "description": "Reason for performing the action on the given Execution.",
+          "example": "Pipeline cancelled due to infra issues.",
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that were set on on the resource.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "title": "ExecutionActionRequest",
+      "type": "object"
+    },
+    "ExecutionRequest": {
+      "description": "Execution Request for a pipeline",
+      "discriminator": "Execution Request for a pipeline",
+      "properties": {
+        "comments": {
+          "type": "string"
+        },
+        "executionId": {
+          "type": "string"
+        },
+        "executionLink": {
+          "type": "string"
+        },
+        "input": {
+          "type": "object"
+        },
+        "source": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "title": "ExecutionRequest",
+      "type": "object"
+    },
+    "ExecutionResponse": {
+      "description": "Represents the response object for when a Pipeline is executed.",
+      "discriminator": "Represents the response object for when a Pipeline is executed.",
+      "properties": {
+        "executionId": {
+          "description": "Id of the Execution.",
+          "example": "b80254a7-fcff-4918-ad88-501d08096337",
+          "type": "string"
+        },
+        "executionIndex": {
+          "description": "Index of the Execution.",
+          "example": 3,
+          "format": "int64",
+          "type": "integer"
+        },
+        "executionLink": {
+          "description": "Link of the Execution.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "type": "string"
+        }
+      },
+      "title": "ExecutionResponse",
+      "type": "object"
+    },
+    "Executions": {
+      "description": "A list of Pipeline Executions.",
+      "discriminator": "A list of Pipeline Executions.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Execution"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "Executions",
+      "type": "object"
+    },
+    "GerritEvent": {
+      "description": "Contains all the details of a Gerrit Event.",
+      "discriminator": "Contains all the details of a Gerrit Event.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "actionTaken": {
+          "description": "Verified Label value along with the action posted to the gerrit server.",
+          "example": "Verified +1",
+          "type": "string"
+        },
+        "branch": {
+          "description": "Gerrit Project branch on which the change has happened.",
+          "example": "master",
+          "type": "string"
+        },
+        "changeNumber": {
+          "description": "Gerrit ChangeSet Number provided by Gerrit Server in the event.",
+          "example": 18823,
+          "format": "int64",
+          "type": "integer"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "createdOn": {
+          "description": "Date and time on which this event is created.",
+          "example": "2019-09-18T07:38:25.907+0000",
+          "format": "int64",
+          "type": "integer"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "executionIndex": {
+          "description": "Index of the Execution.",
+          "example": 1,
+          "format": "int64",
+          "type": "integer"
+        },
+        "executionLink": {
+          "description": "Link of the execution.",
+          "example": "/codestream/api/executions/08c20cb8-17b6-4d9c-9f15-c77cf4913bc5",
+          "type": "string"
+        },
+        "executionStatus": {
+          "description": "Indicates the current status of the Execution.",
+          "example": "STARTED",
+          "type": "string"
+        },
+        "gerritProject": {
+          "description": "Gerrit Project on which the change has happened.",
+          "example": "TestGerritProject",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "listener": {
+          "description": "Name of the Gerrit Listener which contains details of the Gerrit Server which has sent this event.",
+          "example": "Demo-Listener",
+          "type": "string"
+        },
+        "message": {
+          "description": "This includes detailed message regarding state of the execution.",
+          "example": "Execution Completed",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "owner": {
+          "description": "Name and Email details of ChangeSet Owner.",
+          "example": "Dummy User",
+          "type": "string"
+        },
+        "patchSetNumber": {
+          "description": "Patch number of the ChangeSet provided by Gerrit Server in the event.",
+          "example": 32,
+          "format": "int64",
+          "type": "integer"
+        },
+        "pipeline": {
+          "description": "Name of the pipeline which got triggered.",
+          "example": "DemoPipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "properties": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Map containing all ChangeSet related details.",
+          "example": {
+            "GERRIT_BRANCH": "master",
+            "GERRIT_CHANGE_COMMIT_MESSAGE": "1sdfsf\n\nChange-Id: I522eab3b678dedd68dad3e2c04d3cccc0eb9fa00\n",
+            "GERRIT_CHANGE_FILELIST": "[/COMMIT_MSG, file.txt]",
+            "GERRIT_CHANGE_ID": "I522eab3b678dedd68dad3e2c04d3cccc0eb9fa00",
+            "GERRIT_CHANGE_NUMBER": "18868",
+            "GERRIT_CHANGE_OWNER": "Demo User \n demouser@vmware.com",
+            "GERRIT_CHANGE_OWNER_EMAIL": "demouser@vmware.com",
+            "GERRIT_CHANGE_OWNER_NAME": "Demo User",
+            "GERRIT_CHANGE_OWNER_USERNAME": "demouser",
+            "GERRIT_CHANGE_SUBJECT": "1sdfsf",
+            "GERRIT_CHANGE_URL": "https://gerrit.eng.vmware.com/18868",
+            "GERRIT_EVENT_ACCOUNT": "Demo User \n demouser@vmware.com",
+            "GERRIT_EVENT_ACCOUNT_EMAIL": "demouser@vmware.com",
+            "GERRIT_EVENT_ACCOUNT_NAME": "Demo User",
+            "GERRIT_EVENT_ACCOUNT_USERNAME": "demouser",
+            "GERRIT_EVENT_CREATED_ON": "1568792304",
+            "GERRIT_EVENT_TYPE": "patchset-created",
+            "GERRIT_HOST": "gerrit.eng.vmware.com",
+            "GERRIT_NAME": "gerrit-listener",
+            "GERRIT_PATCHSET_NUMBER": "32",
+            "GERRIT_PATCHSET_REVISION": "8a3edf15d36d0fe8026ffefbd58bafdb77b4ab80",
+            "GERRIT_PATCHSET_UPLOADER": "Demo User demouser@vmware.com",
+            "GERRIT_PATCHSET_UPLOADER_EMAIL": "demouser@vmware.com",
+            "GERRIT_PATCHSET_UPLOADER_NAME": "Demo User",
+            "GERRIT_PATCHSET_UPLOADER_USERNAME": "demouser",
+            "GERRIT_PORT": "29418",
+            "GERRIT_PROJECT": "TestProjectForCodestream",
+            "GERRIT_REFSPEC": "refs/changes/68/18868/32",
+            "GERRIT_SCHEME": "ssh",
+            "GERRIT_TOPIC": "branch",
+            "GERRIT_URL": "http://gerrit.eng.vmware.com:8080",
+            "GERRIT_VERSION": "Not supported"
+          },
+          "type": "object"
+        },
+        "subject": {
+          "description": "Contains the commit message.",
+          "example": "Demo Commit Message",
+          "type": "string"
+        },
+        "trigger": {
+          "description": "Name of the Gerrit Trigger which contains the configuration leading to this event.",
+          "example": "Demo-Trigger",
+          "type": "string"
+        },
+        "triggerType": {
+          "description": "Indicates whether it was a manual trigger or not.",
+          "example": "AUTOMATIC",
+          "type": "string"
+        },
+        "type": {
+          "description": "Type of the gerrit event.",
+          "example": "patchset-created",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GerritEvent",
+      "type": "object"
+    },
+    "GerritEvents": {
+      "description": "A list of Gerrit Event instances.",
+      "discriminator": "A list of Gerrit Event instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/GerritEvent"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "GerritEvents",
+      "type": "object"
+    },
+    "GerritListener": {
+      "description": "A Gerrit Listener streams for events on the Gerrit server.",
+      "discriminator": "A Gerrit Listener streams for events on the Gerrit server.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_expiresAt": {
+          "description": "Date when the API token will expire.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_reason": {
+          "description": "Contains reasons for validation failure.",
+          "example": "Validation Failed due to invalid credentials",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "apiToken": {
+          "description": "This token is used to authenticate when calling VMware Cloud Services APIs. These tokens are scoped within the organization.",
+          "example": "cKNNVCSHijnaxlrfnVsxUYr6wM2g5Bg11tfnotmWb9XdA5kpUCvI2ubJojTIGp9g",
+          "type": "string"
+        },
+        "connected": {
+          "description": "Indicates whether the connection with the Gerrit Server to start receiving events is created or not.",
+          "example": true,
+          "type": "boolean"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "The name of the Gerrit Endpoint.",
+          "example": "Gerrit-Endpoint",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GerritListener",
+      "type": "object"
+    },
+    "GerritListenerPatch": {
+      "description": "Contains the flag to connect or disconnect a Gerrit Listener.",
+      "discriminator": "Contains the flag to connect or disconnect a Gerrit Listener.",
+      "properties": {
+        "connected": {
+          "description": "Connect/Disconnect a Gerrit Listener.",
+          "example": true,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "connected"
+      ],
+      "title": "GerritListenerPatch",
+      "type": "object"
+    },
+    "GerritListenerSpec": {
+      "description": "A Gerrit Listener streams for events on the Gerrit server.",
+      "discriminator": "A Gerrit Listener streams for events on the Gerrit server.",
+      "properties": {
+        "apiToken": {
+          "description": "This token is used to authenticate when calling VMware Cloud Services APIs. These tokens are scoped within the organization.",
+          "example": "cKNNVCSHijnaxlrfnVsxUYr6wM2g5Bg11tfnotmWb9XdA5kpUCvI2ubJojTIGp9g",
+          "type": "string"
+        },
+        "connected": {
+          "description": "Indicates whether the connection with the Gerrit Server to start receiving events is created or not.",
+          "example": true,
+          "type": "boolean"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "The name of the Gerrit Endpoint.",
+          "example": "Gerrit-Endpoint",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        }
+      },
+      "required": [
+        "apiToken",
+        "description",
+        "endpoint",
+        "name"
+      ],
+      "title": "GerritListenerSpec",
+      "type": "object"
+    },
+    "GerritListeners": {
+      "description": "A list of Gerrit Listener instances.",
+      "discriminator": "A list of Gerrit Listener instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/GerritListener"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "GerritListeners",
+      "type": "object"
+    },
+    "GerritManualTrigger": {
+      "description": "Gerrit Manual Trigger feature is used to simulate an event corresponding to a change-id and match it against a Gerrit Trigger configuration to trigger pipeline(s) manually.",
+      "discriminator": "Gerrit Manual Trigger feature is used to simulate an event corresponding to a change-id and match it against a Gerrit Trigger configuration to trigger pipeline(s) manually.",
+      "properties": {
+        "changeId": {
+          "description": "The ChangeSet Id corresponding to which the manual trigger has to be performed.",
+          "example": "I522eab3b678dedd68dad3e2c04d3cccc0eb9fa00",
+          "type": "string"
+        },
+        "project": {
+          "description": "The tango project to which Gerrit Trigger belongs to.",
+          "example": "Gerrit-Trigger-Project",
+          "type": "string"
+        },
+        "trigger": {
+          "description": "Name of the Gerrit Trigger for which event has to be analysed.",
+          "example": "Gerrit-Trigger",
+          "type": "string"
+        }
+      },
+      "required": [
+        "changeId",
+        "project",
+        "trigger"
+      ],
+      "title": "GerritManualTrigger",
+      "type": "object"
+    },
+    "GerritTrigger": {
+      "description": "The configurations of a Gerrit Trigger decides which pipeline is required to be triggered depending on kind of event received.",
+      "discriminator": "The configurations of a Gerrit Trigger decides which pipeline is required to be triggered depending on kind of event received.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "branch": {
+          "description": "Gerrit Project Branch on which the change has to be monitored.",
+          "example": "master",
+          "type": "string"
+        },
+        "configurations": {
+          "description": "The configuration of an Gerrit Event.",
+          "example": [
+            {
+              "eventType": "change-merged",
+              "failureComment": "Pipeline Execution Failed",
+              "input": {},
+              "pipeline": "rest_pipeline",
+              "successComment": "Pipeline Execution Successful"
+            },
+            {
+              "eventType": "patchset-created",
+              "failureComment": "Pipeline Failed",
+              "input": {},
+              "pipeline": "rest_pipeline",
+              "successComment": "Pipeline Completed",
+              "verifiedLabel": "Verified"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTrigger$GerritEventConfiguration"
+          },
+          "type": "array"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates that this trigger will be addressed on receiving respective events.",
+          "example": true,
+          "type": "boolean"
+        },
+        "exclusions": {
+          "description": "Provide file exclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTrigger$FileFilter"
+          },
+          "type": "array"
+        },
+        "gerritProject": {
+          "description": "Gerrit Project which is to be monitored for the change.",
+          "example": "TestGerritProject",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "inclusions": {
+          "description": "Provide file inclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTrigger$FileFilter"
+          },
+          "type": "array"
+        },
+        "listener": {
+          "description": "Gerrit Listener which will receive the events for this trigger.",
+          "example": "Gerrit-Listener",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "prioritizeExclusion": {
+          "description": "Prioritize Exclusion ensures that Pipelines are not triggered even if any of the files in a commit match the specified files in the exclusion paths or regex.",
+          "example": true,
+          "type": "boolean"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GerritTrigger",
+      "type": "object"
+    },
+    "GerritTrigger$FileFilter": {
+      "properties": {
+        "type": {
+          "description": "Identifies the type of File Filter, that can be REGEX or PLAIN.",
+          "enum": [
+            "REGEX",
+            "PLAIN"
+          ],
+          "example": "PLAIN",
+          "type": "string"
+        },
+        "value": {
+          "description": "The value can be either plain text or a regex.",
+          "example": "example.txt",
+          "type": "string"
+        }
+      },
+      "title": "GerritTrigger$FileFilter",
+      "type": "object"
+    },
+    "GerritTrigger$GerritEventConfiguration": {
+      "properties": {
+        "eventType": {
+          "description": "Type of the gerrit event.",
+          "example": "patchset-created",
+          "type": "string"
+        },
+        "failureComment": {
+          "description": "Comment to be posted to the ChangeSet on execution termination.",
+          "example": "Pipeline Execution Failed",
+          "type": "string"
+        },
+        "input": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Map representing the Input properties for the Pipeline.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "pipeline": {
+          "description": "Pipeline that needs to be triggered on receiving this event.",
+          "example": "DemoPipeline",
+          "type": "string"
+        },
+        "successComment": {
+          "description": "Comment to be posted to the ChangeSet on execution termination.",
+          "example": "Pipeline Execution Completed",
+          "type": "string"
+        },
+        "verifiedLabel": {
+          "description": "The label to be posted on Gerrit Server to perform actions.",
+          "example": "Verified +1",
+          "type": "string"
+        }
+      },
+      "title": "GerritTrigger$GerritEventConfiguration",
+      "type": "object"
+    },
+    "GerritTriggerPatch": {
+      "description": "Contains the flag to enable or disable a Gerrit Trigger.",
+      "discriminator": "Contains the flag to enable or disable a Gerrit Trigger.",
+      "properties": {
+        "enabled": {
+          "description": "Enable/Disable a Gerrit Trigger.",
+          "example": true,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "enabled"
+      ],
+      "title": "GerritTriggerPatch",
+      "type": "object"
+    },
+    "GerritTriggerSpec": {
+      "description": "The configurations of a Gerrit Trigger decides which pipeline is required to be triggered depending on kind of event received.",
+      "discriminator": "The configurations of a Gerrit Trigger decides which pipeline is required to be triggered depending on kind of event received.",
+      "properties": {
+        "branch": {
+          "description": "Gerrit Project Branch on which the change has to be monitored.",
+          "example": "master",
+          "type": "string"
+        },
+        "configurations": {
+          "description": "The configuration of an Gerrit Event.",
+          "example": [
+            {
+              "eventType": "change-merged",
+              "failureComment": "Pipeline Execution Failed",
+              "input": {},
+              "pipeline": "rest_pipeline",
+              "successComment": "Pipeline Execution Successful"
+            },
+            {
+              "eventType": "patchset-created",
+              "failureComment": "Pipeline Failed",
+              "input": {},
+              "pipeline": "rest_pipeline",
+              "successComment": "Pipeline Completed",
+              "verifiedLabel": "Verified"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTriggerSpec$GerritEventConfiguration"
+          },
+          "type": "array"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates that this trigger will be addressed on receiving respective events.",
+          "example": true,
+          "type": "boolean"
+        },
+        "exclusions": {
+          "description": "Provide file exclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTrigger$FileFilter"
+          },
+          "type": "array"
+        },
+        "gerritProject": {
+          "description": "Gerrit Project which is to be monitored for the change.",
+          "example": "TestGerritProject",
+          "type": "string"
+        },
+        "inclusions": {
+          "description": "Provide file inclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GerritTrigger$FileFilter"
+          },
+          "type": "array"
+        },
+        "listener": {
+          "description": "Gerrit Listener which will receive the events for this trigger.",
+          "example": "Gerrit-Listener",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "prioritizeExclusion": {
+          "description": "Prioritize Exclusion ensures that pipelines are not triggered even if any of the files in a commit match the specified files in the exclusion paths or regex.",
+          "example": true,
+          "type": "boolean"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        }
+      },
+      "required": [
+        "branch",
+        "description",
+        "gerritProject",
+        "listener",
+        "name"
+      ],
+      "title": "GerritTriggerSpec",
+      "type": "object"
+    },
+    "GerritTriggerSpec$GerritEventConfiguration": {
+      "properties": {
+        "eventType": {
+          "description": "Type of the gerrit event.",
+          "example": "patchset-created",
+          "type": "string"
+        },
+        "failureComment": {
+          "description": "Comment to be posted to the ChangeSet on execution termination.",
+          "example": "Pipeline Execution Failed",
+          "type": "string"
+        },
+        "input": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Map representing the Input properties for the Pipeline.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "pipeline": {
+          "description": "Pipeline that needs to be triggered on receiving this event.",
+          "example": "DemoPipeline",
+          "type": "string"
+        },
+        "successComment": {
+          "description": "Comment to be posted to the ChangeSet on execution termination.",
+          "example": "Pipeline Execution Completed",
+          "type": "string"
+        },
+        "verifiedLabel": {
+          "description": "The label to be posted on Gerrit Server to perform actions.",
+          "example": "Verified +1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "eventType",
+        "pipeline"
+      ],
+      "title": "GerritTriggerSpec$GerritEventConfiguration",
+      "type": "object"
+    },
+    "GerritTriggers": {
+      "description": "A list of Gerrit Trigger instances.",
+      "discriminator": "A list of Gerrit Trigger instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/GerritTrigger"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "GerritTriggers",
+      "type": "object"
+    },
+    "GitEvent": {
+      "description": "Git Event Model.",
+      "discriminator": "Git Event Model.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "commitId": {
+          "description": "CommitId of the event triggered.",
+          "example": "dvdsasfvaesvvffvgfbrrgeaerfare34fdgrt43",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "executionIndex": {
+          "description": "Pipeline execution index.",
+          "example": 2,
+          "format": "int64",
+          "type": "integer"
+        },
+        "executionLink": {
+          "description": "Pipeline execution link.",
+          "example": "/codestream/api/executions/08c20cb8-17b6-4d9c-9f15-c77cf4913bc5",
+          "type": "string"
+        },
+        "executionStatus": {
+          "description": "Pipeline execution status.",
+          "example": "STARTED",
+          "type": "string"
+        },
+        "httpURL": {
+          "description": "Url of the Git Repository.",
+          "example": "https://<git-server-url>/<username>/<repo-name>",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "message": {
+          "description": "Message is populated when an error occurs.",
+          "example": "Invalid Oauth Refresh token. Verify webhook configuration.",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "owner": {
+          "description": "Owner Name who triggered the event.",
+          "example": "Demo User",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline to be executed when event is triggered.",
+          "example": "Demo Pipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "repo": {
+          "description": "RepoName corresponding to the event.",
+          "example": "MyRepository",
+          "type": "string"
+        },
+        "serverURL": {
+          "$ref": "#/definitions/URI",
+          "description": "Url of the Git server.",
+          "example": "https://<git-server-url>"
+        },
+        "serverWebhookId": {
+          "description": "Git webhook id.",
+          "example": "dvcsdweivcioekcxjhwiu4jd823idjekx",
+          "type": "string"
+        },
+        "subject": {
+          "description": "Subject for the commit.",
+          "example": "Updating codestream-service.yaml",
+          "type": "string"
+        },
+        "targetBranch": {
+          "description": "Branch name for which event is triggered.",
+          "example": "master",
+          "type": "string"
+        },
+        "timeStampInMicros": {
+          "description": "Commit Time for the event.",
+          "example": "2019-09-18T07:38:25.907+0000",
+          "format": "int64",
+          "type": "integer"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GitEvent",
+      "type": "object"
+    },
+    "GitEvents": {
+      "description": "A list of Git Event instances.",
+      "discriminator": "A list of Git Event instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/GitEvent"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "GitEvents",
+      "type": "object"
+    },
+    "GitWebhook": {
+      "description": "Git Webhook details.",
+      "discriminator": "Git Webhook details.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "branchName": {
+          "description": "Branch name for which the webhook has been configured.",
+          "example": "master",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "delayTimeInMins": {
+          "description": "Delay time after which the Pipeline Execution is triggered.",
+          "example": 2,
+          "format": "int32",
+          "type": "integer"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "Git endpoint.",
+          "example": "GitHub-SaaS",
+          "type": "string"
+        },
+        "eventCategory": {
+          "description": "Git event type.",
+          "example": "PUSH",
+          "type": "string"
+        },
+        "exclusions": {
+          "description": "Provide file exclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GitWebhook$FileFilter"
+          },
+          "type": "array"
+        },
+        "externalListenerLink": {
+          "description": "Git webhook listener link.",
+          "example": "codestream/api/git-webhook-listeners/173f5ed5-2197-4975-b782-a8679b2e4cd3",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "inclusions": {
+          "description": "Provide file inclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GitWebhook$FileFilter"
+          },
+          "type": "array"
+        },
+        "input": {
+          "description": "Pipeline Execution input properties.",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "insecureSsl": {
+          "description": "verify SSL certificates when delivering payloads",
+          "example": true,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline name which is meant to be triggered when a git event occur.",
+          "example": "Git-Pipeline",
+          "type": "string"
+        },
+        "prioritizeExclusion": {
+          "description": "Prioritize Exclusion ensures that pipelines are not triggered even if any ” +\n           “of the files in a commit match the specified files in the exclusion paths or regex.",
+          "example": true,
+          "type": "boolean"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "refreshToken": {
+          "description": "Codestream API token.",
+          "example": "I5FLA8iQhlZwoos6OL3goKciAF5e",
+          "type": "string"
+        },
+        "repoName": {
+          "description": "Repo name for which the webhook has been configured.",
+          "example": "codestream",
+          "type": "string"
+        },
+        "secretToken": {
+          "description": "Secret token to validate received payloads.",
+          "example": "DSkUyJJ8KA8rOSk=Ci",
+          "type": "string"
+        },
+        "serverType": {
+          "description": "Git Server Type.",
+          "example": "GITHUB/GITLAB/BITBUCKET",
+          "type": "string"
+        },
+        "serverWebhookId": {
+          "description": "Git webhook id.",
+          "example": 192837465,
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GitWebhook",
+      "type": "object"
+    },
+    "GitWebhook$FileFilter": {
+      "properties": {
+        "type": {
+          "description": "Identifies the type of File Filter, that can be REGEX or PLAIN.",
+          "enum": [
+            "REGEX",
+            "PLAIN"
+          ],
+          "example": "PLAIN",
+          "type": "string"
+        },
+        "value": {
+          "description": "The value can be either plain text or a regex.",
+          "example": "example.txt",
+          "type": "string"
+        }
+      },
+      "title": "GitWebhook$FileFilter",
+      "type": "object"
+    },
+    "GitWebhookSpec": {
+      "description": "Git Webhook specification.",
+      "discriminator": "Git Webhook specification.",
+      "properties": {
+        "branchName": {
+          "description": "Branch name for which the webhook has been configured.",
+          "example": "master",
+          "type": "string"
+        },
+        "delayTimeInMins": {
+          "description": "Delay time after which the pipeline execution is triggered.",
+          "example": 2,
+          "format": "int32",
+          "type": "integer"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "Git endpoint.",
+          "example": "GitHub-SaaS",
+          "type": "string"
+        },
+        "eventCategory": {
+          "description": "Git event type.",
+          "example": "PUSH",
+          "type": "string"
+        },
+        "exclusions": {
+          "description": "Provide file exclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GitWebhook$FileFilter"
+          },
+          "type": "array"
+        },
+        "externalListenerLink": {
+          "description": "Git webhook listener link.",
+          "example": "codestream/api/git-webhook-listeners/173f5ed5-2197-4975-b782-a8679b2e4cd3",
+          "type": "string"
+        },
+        "inclusions": {
+          "description": "Provide file inclusions as conditions for the trigger.",
+          "example": [
+            {
+              "type": "PLAIN",
+              "value": "example.txt"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/GitWebhook$FileFilter"
+          },
+          "type": "array"
+        },
+        "input": {
+          "description": "Pipeline Execution input properties.",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "insecureSsl": {
+          "description": "verify SSL certificates when delivering payloads",
+          "example": true,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "pipeline": {
+          "description": "Pipeline name which is meant to be triggered when a git event occur.",
+          "example": "CICD-Pipeline",
+          "type": "string"
+        },
+        "prioritizeExclusion": {
+          "description": "Prioritize Exclusion ensures that pipelines are not triggered even if any ” +\n           “of the files in a commit match the specified files in the exclusion paths or regex.",
+          "example": true,
+          "type": "boolean"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "refreshToken": {
+          "description": "Codestream API token.",
+          "example": "I5FLA8iQhlZwoos6OL3goKciAF5e",
+          "type": "string"
+        },
+        "repoName": {
+          "description": "Repo name for which the webhook has been configured.",
+          "example": "Codestream",
+          "type": "string"
+        },
+        "secretToken": {
+          "description": "Secret token to validate received payloads.",
+          "example": "DSkUyJJ8KA8rOSk=Ci",
+          "type": "string"
+        },
+        "serverType": {
+          "description": "Git Server Type.",
+          "example": "GITHUB/GITLAB/BITBUCKET",
+          "type": "string"
+        },
+        "serverWebhookId": {
+          "description": "Git webhook id.",
+          "example": "serverWebhookId\": \"12678345",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "GitWebhookSpec",
+      "type": "object"
+    },
+    "GitWebhooks": {
+      "description": "A list of Git Webhook instances.",
+      "discriminator": "A list of Git Webhook instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/GitWebhook"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "GitWebhooks",
+      "type": "object"
+    },
+    "JiraEventConfig": {
+      "description": "Represents a Jira Event configuration.",
+      "discriminator": "Represents a Jira Event configuration.",
+      "properties": {
+        "assignee": {
+          "description": "User to whom the Jira will be assigned.",
+          "example": "jason@vmware.com",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description for the Jira ticket.",
+          "example": "Details about the issue being reported",
+          "type": "string"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "event": {
+          "enum": [
+            "SUCCESS",
+            "FAILURE",
+            "WAITING",
+            "CANCELED",
+            "STARTED"
+          ],
+          "type": "string"
+        },
+        "issuetype": {
+          "description": "Jira Issue Type.",
+          "example": "Bug/Story",
+          "type": "string"
+        },
+        "project": {
+          "description": "Jira Project Name.",
+          "example": "VRCS",
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "summary": {
+          "description": "Summary for the Jira ticket.",
+          "example": "Pipeline-1 execution failed",
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        }
+      },
+      "title": "JiraEventConfig",
+      "type": "object"
+    },
+    "ManualTriggerResponse": {
+      "description": "Gerrit Manual Trigger response acknowledges the success or failure and in case of success, it lists the the pipelines which got triggered.",
+      "discriminator": "Gerrit Manual Trigger response acknowledges the success or failure and in case of success, it lists the the pipelines which got triggered.",
+      "properties": {
+        "message": {
+          "description": "Message to acknowledge success or failure of action.",
+          "example": "Manual Trigger Successful",
+          "type": "string"
+        },
+        "pipelinesTriggered": {
+          "description": "List of pipeline which got manually triggered.",
+          "example": [
+            "Pipeline-1",
+            "Pipeline-2"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "title": "ManualTriggerResponse",
+      "type": "object"
+    },
+    "Notification": {
+      "description": "Notifications are ways to communicate with your teams and let them know the status of your Pipelines in Code Stream.",
+      "discriminator": "Notifications are ways to communicate with your teams and let them know the status of your Pipelines in Code Stream.",
+      "properties": {
+        "eventGroup": {
+          "description": "The event on which this Notification is triggered.",
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "jiraResponse": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Only for Jira. Contains the Jira issue ID for creating a ticket.",
+          "example": {
+            "ID": "VRCS-23",
+            "link": "/link/to/Jira/issue/VRCS-23"
+          },
+          "type": "object"
+        },
+        "providerType": {
+          "description": "Mode of transmission of this Notification.",
+          "example": "Email/Slack/Jira",
+          "type": "string"
+        },
+        "responseCode": {
+          "description": "Only for Jira/Webhook. Specifies any HTTP response code received from any REST calls related to the Notification.",
+          "example": 200,
+          "type": "string"
+        },
+        "responseMessage": {
+          "description": "Only for Jira/Webhook. Specifies any HTTP response message received from any REST calls related to the Notification.",
+          "example": 200,
+          "type": "string"
+        },
+        "stage": {
+          "description": "Stage that this Notification belongs to.",
+          "type": "string"
+        },
+        "success": {
+          "description": "Flag that represents if the Notification was successfully posted or not.",
+          "example": true,
+          "type": "boolean"
+        },
+        "task": {
+          "description": "Task that this Notification belongs to.",
+          "type": "string"
+        }
+      },
+      "title": "Notification",
+      "type": "object"
+    },
+    "NotificationConfiguration": {
+      "description": "Represents collection of different Event configurations.",
+      "discriminator": "Represents collection of different Event configurations.",
+      "properties": {
+        "email": {
+          "description": "List of email events configured as part of notification.",
+          "example": [
+            {
+              "body": "pipeline-execution-1234",
+              "endpoint": "Codestream-Default-Email",
+              "event": "SUCCESS",
+              "subject": "Pipeline execution notification",
+              "to": [
+                "abc@vmware.com"
+              ]
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/EmailEventConfig"
+          },
+          "type": "array"
+        },
+        "jira": {
+          "description": "List of Jira events configured as part of notification.",
+          "items": {
+            "$ref": "#/definitions/JiraEventConfig"
+          },
+          "type": "array"
+        },
+        "webhook": {
+          "description": "List of webhook events configured as part of notification.",
+          "items": {
+            "$ref": "#/definitions/WebhookEventConfig"
+          },
+          "type": "array"
+        }
+      },
+      "title": "NotificationConfiguration",
+      "type": "object"
+    },
+    "Pipeline": {
+      "description": "A pipeline is a continuous integration and delivery model of your software release process, from your source code, through testing, to production. It includes a sequence of stages with tasks that represent the activities in your software release cycle. Your software application flows from one stage to the next through the pipeline.",
+      "discriminator": "A pipeline is a continuous integration and delivery model of your software release process, from your source code, through testing, to production. It includes a sequence of stages with tasks that represent the activities in your software release cycle. Your software application flows from one stage to the next through the pipeline.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_inputMeta": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "description": "Additional information about Input Properties",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_warnings": {
+          "description": "Contains any warnings that result from failed validations of any Pipeline fields",
+          "example": "\"_warnings\": [\n    {\n      \"success\": true,\n      \"classType\": \"com.vmware.cs.validation.PipelineServiceValidator\",\n      \"message\": {\n        \"containerName\": \"test-pipeline\",\n        \"fieldName\": \"stages\",\n        \"level\": \"WARN\",\n        \"message\": \"Pipeline test-pipeline does not have any stage.\"\n      }\n    }\n  ],",
+          "items": {
+            "$ref": "#/definitions/ValidatorResponse"
+          },
+          "type": "array"
+        },
+        "concurrency": {
+          "description": "Number of Executions of the Pipeline that can run concurrently.",
+          "example": 10,
+          "format": "int32",
+          "type": "integer"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates if the Pipeline is in enabled state.",
+          "example": true,
+          "type": "boolean"
+        },
+        "icon": {
+          "description": "String description of the icon used for this Pipeline.",
+          "example": "tools,,is-success is-solid",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "input": {
+          "description": "Map representing the Input properties for the Pipeline.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "notifications": {
+          "$ref": "#/definitions/NotificationConfiguration",
+          "description": "Represents the various Notification Configurations for the Pipeline"
+        },
+        "options": {
+          "description": "Represents the different options to trigger a Pipeline. Selecting an option auto injects the Input properties needed to execute a Pipeline with that trigger.",
+          "example": [
+            "DOCKER_TRIGGER"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "output": {
+          "description": "Map representing the Output properties for the Pipeline.",
+          "example": [
+            {
+              "deployedMachineIP": "10.108.35.54",
+              "result": "true"
+            }
+          ],
+          "type": "object"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "rollbacks": {
+          "description": "Represents the various Rollback Configurations for the Pipeline",
+          "example": [
+            {
+              "inputs": {},
+              "name": "Undo Deployment",
+              "stage": "Deploy to Prod",
+              "task": "Deploy"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/RollbackConfiguration"
+          },
+          "type": "array"
+        },
+        "stageOrder": {
+          "description": "Represents the order in which Stages will be executed.",
+          "example": [
+            "AcquireToken",
+            "Upgrade",
+            "E2E"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "stages": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Stage"
+          },
+          "description": "Map representing the details of the various Stages of the Pipeline.",
+          "type": "object"
+        },
+        "starred": {
+          "$ref": "#/definitions/Pipeline$StarredProperty",
+          "description": "Highlights any given Input/Output properties",
+          "example": {
+            "test-output": "${Stage0.Task0.status}"
+          }
+        },
+        "state": {
+          "description": "Indicates if the Pipeline is enabled/disabled/released to catalog.",
+          "example": "RELEASED",
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that were set on on the resource.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        },
+        "workspace": {
+          "$ref": "#/definitions/Workspace",
+          "description": "Represents the configuration to be used for CI and Custom tasks."
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "Pipeline",
+      "type": "object"
+    },
+    "Pipeline$StarredProperty": {
+      "description": "Represents properties that user can favourite or 'star' for convenience.",
+      "discriminator": "Represents properties that user can favourite or 'star' for convenience.",
+      "properties": {
+        "input": {
+          "description": "Contains the starred input parameter",
+          "example": {
+            "input": "commitId"
+          },
+          "type": "string"
+        },
+        "output": {
+          "description": "Contains the starred output parameter",
+          "example": {
+            "output": "owner"
+          },
+          "type": "string"
+        }
+      },
+      "title": "Pipeline$StarredProperty",
+      "type": "object"
+    },
+    "PipelinePatchRequest": {
+      "description": "Patch Request for a Pipeline",
+      "discriminator": "Patch Request for a Pipeline",
+      "properties": {
+        "description": {
+          "description": "A human-friendly description for the Pipeline.",
+          "example": "My description for the Pipeline",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates if the Pipeline is in enabled state.",
+          "example": true,
+          "type": "boolean"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier for the Pipeline.",
+          "example": "My name",
+          "type": "string"
+        },
+        "state": {
+          "description": "Indicates if the Pipeline is enabled/disabled/released to catalog.",
+          "example": "RELEASED",
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that need to be set on the Pipeline.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "title": "PipelinePatchRequest",
+      "type": "object"
+    },
+    "PipelineSpec": {
+      "description": "Pipeline Specification",
+      "discriminator": "Pipeline Specification",
+      "properties": {
+        "_inputMeta": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "description": "Additional information about Input Properties",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "concurrency": {
+          "description": "Number of Executions of the Pipeline that can run concurrently.",
+          "example": 10,
+          "format": "int32",
+          "type": "integer"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "enabled": {
+          "description": "Indicates if the Pipeline is in enabled state.",
+          "example": true,
+          "type": "boolean"
+        },
+        "icon": {
+          "description": "String description of the icon used for this Pipeline.",
+          "example": "tools,,is-success is-solid",
+          "type": "string"
+        },
+        "input": {
+          "description": "Map representing the Input properties for the Pipeline.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "notifications": {
+          "$ref": "#/definitions/NotificationConfiguration",
+          "description": "Represents the various Notification Configurations for the Pipeline"
+        },
+        "options": {
+          "description": "Represents the different options to trigger a Pipeline. Selecting an option auto injects the Input properties needed to execute a Pipeline with that trigger.",
+          "example": [
+            "DOCKER_TRIGGER"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "output": {
+          "description": "Map representing the Output properties for the Pipeline.",
+          "example": [
+            {
+              "deployedMachineIP": "10.108.35.54",
+              "result": "true"
+            }
+          ],
+          "type": "object"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "rollbacks": {
+          "description": "Represents the various Rollback Configurations for the Pipeline",
+          "example": [
+            {
+              "inputs": {},
+              "name": "Undo Deployment",
+              "stage": "Deploy to Prod",
+              "task": "Deploy"
+            }
+          ],
+          "items": {
+            "$ref": "#/definitions/RollbackConfiguration"
+          },
+          "type": "array"
+        },
+        "stageOrder": {
+          "description": "Represents the order in which Stages will be executed.",
+          "example": [
+            "AcquireToken",
+            "Upgrade",
+            "E2E"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "stages": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Stage"
+          },
+          "description": "Map representing the details of the various Stages of the Pipeline.",
+          "type": "object"
+        },
+        "starred": {
+          "$ref": "#/definitions/Pipeline$StarredProperty",
+          "description": "Highlights any given Input/Output properties",
+          "example": {
+            "test-output": "${Stage0.Task0.status}"
+          }
+        },
+        "state": {
+          "description": "Indicates if the Pipeline is enabled/disabled/released to catalog.",
+          "example": "RELEASED",
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that were set on on the resource.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "workspace": {
+          "$ref": "#/definitions/Workspace",
+          "description": "Represents the configuration to be used for CI and Custom tasks."
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "PipelineSpec",
+      "type": "object"
+    },
+    "Pipelines": {
+      "description": "A list of Pipeline instances.",
+      "discriminator": "A list of Pipeline instances.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Pipeline"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "Pipelines",
+      "type": "object"
+    },
+    "PropertyMetaData": {
+      "description": "Model for input/output properties.",
+      "discriminator": "Model for input/output properties.",
+      "properties": {
+        "description": {
+          "description": "Description for the input/output property.",
+          "example": "Repo Url",
+          "type": "string"
+        }
+      },
+      "title": "PropertyMetaData",
+      "type": "object"
+    },
+    "RollbackConfiguration": {
+      "description": "Model represents a Rollback configuration.",
+      "discriminator": "Model represents a Rollback configuration.",
+      "properties": {
+        "inputs": {
+          "description": "Map representing the Input properties for the Rollback Pipeline.",
+          "example": {
+            "test": {
+              "description": "test-value",
+              "mandatory": false
+            }
+          },
+          "type": "object"
+        },
+        "name": {
+          "description": "Rollback Pipeline name.",
+          "example": "Rolback-Pipeline",
+          "type": "string"
+        },
+        "stage": {
+          "description": "Stage name for which the rollback pipeline is configured.",
+          "example": "Dev-Stage",
+          "type": "string"
+        },
+        "task": {
+          "description": "Task name for which the rollback pipeline is configured.",
+          "example": "Publish-Image-Task",
+          "type": "string"
+        }
+      },
+      "title": "RollbackConfiguration",
+      "type": "object"
+    },
+    "RollbackResponse": {
+      "description": "Represents the response after rolling back a Stage or Task.",
+      "discriminator": "Represents the response after rolling back a Stage or Task.",
+      "properties": {
+        "_link": {
+          "description": "Execution link of the rollback Pipeline.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "type": "string"
+        },
+        "index": {
+          "description": "Execution index of the rollback Pipeline.",
+          "example": 4,
+          "format": "int64",
+          "type": "integer"
+        },
+        "name": {
+          "description": "Name of the rollback Pipeline.",
+          "example": "My-Rolled-Back-Pipeline",
+          "type": "string"
+        },
+        "output": {
+          "description": "Output properties of a rollback Pipeline.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "type": "object"
+        },
+        "status": {
+          "description": "Execution status of a rollback Pipeline.",
+          "enum": [
+            "NOT_STARTED",
+            "STARTED",
+            "RUNNING",
+            "CANCELING",
+            "WAITING",
+            "RESUMING",
+            "PAUSING",
+            "PAUSED",
+            "CANCELED",
+            "COMPLETED",
+            "FAILED",
+            "SKIPPED",
+            "QUEUED",
+            "FAILED_CONTINUE",
+            "ROLLING_BACK",
+            "ROLLBACK_FAILED",
+            "PREPARING_WORKSPACE",
+            "ROLLBACK_COMPLETED"
+          ],
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "statusMessage": {
+          "description": "Execution status message of a rollback Pipeline.",
+          "example": "Executing Stage0",
+          "type": "string"
+        }
+      },
+      "title": "RollbackResponse",
+      "type": "object"
+    },
+    "ServiceRequest": {
+      "description": "Request object for actions such as cloning.",
+      "discriminator": "Request object for actions such as cloning.",
+      "properties": {
+        "description": {
+          "description": "Description for the cloned entity.",
+          "example": "cloned entity",
+          "type": "string"
+        },
+        "name": {
+          "description": "Name field for the cloned entity.",
+          "example": "Pipeline-1",
+          "type": "string"
+        },
+        "requestType": {
+          "description": "Action to be performed on the service.",
+          "example": "CLONE",
+          "type": "string"
+        }
+      },
+      "title": "ServiceRequest",
+      "type": "object"
+    },
+    "Stage": {
+      "description": "Data type for the Stage.",
+      "discriminator": "Data type for the Stage.",
+      "properties": {
+        "description": {
+          "description": "Stage description.",
+          "example": "Image Publish Stage",
+          "type": "string"
+        },
+        "tags": {
+          "description": "Tags are useful for ease in searching, grouping or filtering.",
+          "example": [
+            "Tag1",
+            "Tag2"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "taskOrder": {
+          "description": "Order in which tasks will be executed.",
+          "example": [
+            "Task1",
+            "Task0"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "tasks": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Task"
+          },
+          "description": "Map representing details of various tasks present in the stage.",
+          "example": {
+            "Task1": {
+              "ignoreFailure": false,
+              "input": {
+                "action": "get",
+                "headers": {
+                  "Accept": "application/json",
+                  "Content-Type": "application/json"
+                },
+                "url": "https://www.vmware.com"
+              },
+              "preCondition": "",
+              "type": "REST"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "title": "Stage",
+      "type": "object"
+    },
+    "StageExecution": {
+      "description": "Contains Stage Execution details.",
+      "discriminator": "Contains Stage Execution details.",
+      "properties": {
+        "_durationInMicros": {
+          "description": "Execution duration of the Stage Execution (in micros).",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_endTime": {
+          "description": "End time of the Stage Execution (in micros)..",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_startTime": {
+          "description": "Start time of the Stage Execution (in micros)..",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "id": {
+          "description": "The id of this Stage.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier For the Stage.",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "notifications": {
+          "description": "List of configured Notifications for Stage Events.",
+          "items": {
+            "$ref": "#/definitions/Notification"
+          },
+          "type": "array"
+        },
+        "rollbackConfiguration": {
+          "$ref": "#/definitions/RollbackConfiguration",
+          "description": "Rollback configuration for the Stage."
+        },
+        "rollbackResponse": {
+          "$ref": "#/definitions/RollbackResponse",
+          "description": "Rollback response for the Stage if it is rolled back."
+        },
+        "status": {
+          "description": "Execution status of the Stage Execution.",
+          "enum": [
+            "NOT_STARTED",
+            "STARTED",
+            "RUNNING",
+            "CANCELING",
+            "WAITING",
+            "RESUMING",
+            "PAUSING",
+            "PAUSED",
+            "CANCELED",
+            "COMPLETED",
+            "FAILED",
+            "SKIPPED",
+            "QUEUED",
+            "FAILED_CONTINUE",
+            "ROLLING_BACK",
+            "ROLLBACK_FAILED",
+            "PREPARING_WORKSPACE",
+            "ROLLBACK_COMPLETED"
+          ],
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "statusMessage": {
+          "description": "Execution status message of the Stage Execution.",
+          "example": "Executing Stage0",
+          "type": "string"
+        },
+        "taskOrder": {
+          "description": "Ordering of the various Tasks within the Stage.",
+          "example": "\"taskOrder\": [\n        \"Test1,Test2\",\n        \"Test3\"\n      ],",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "tasks": {
+          "additionalProperties": {
+            "$ref": "#/definitions/TaskExecution"
+          },
+          "description": "Represents the various Tasks in the Stage.",
+          "type": "object"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "StageExecution",
+      "type": "object"
+    },
+    "Task": {
+      "description": "Represents the individual Tasks in a Pipeline.",
+      "discriminator": "Represents the individual Tasks in a Pipeline.",
+      "properties": {
+        "endpoints": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Map representing the Output properties for the Task.",
+          "example": [
+            {
+              "deployedMachineIP": "10.108.35.54",
+              "result": "true"
+            }
+          ],
+          "type": "object"
+        },
+        "ignoreFailure": {
+          "description": "Ignores the failure of the Task execution if set to true, and continues with the Pipeline execution.",
+          "example": true,
+          "type": "boolean"
+        },
+        "input": {
+          "description": "Map representing the Input properties for the Task.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "preCondition": {
+          "description": "The Task is executed only if this field evaluates to true.",
+          "example": "${input.buildNumber} != '100'",
+          "type": "string"
+        },
+        "tags": {
+          "description": "A set of tag keys and optional values that were set on on the resource.",
+          "example": [
+            {
+              "key": "env",
+              "value": "dev"
+            }
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "type": {
+          "description": "Type of the Task.",
+          "example": "jenkins",
+          "type": "string"
+        }
+      },
+      "title": "Task",
+      "type": "object"
+    },
+    "TaskExecution": {
+      "description": "Contains Task Execution details.",
+      "discriminator": "Contains Task Execution details.",
+      "properties": {
+        "_durationInMicros": {
+          "description": "Execution duration of the Task Execution (in micros).",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_endTime": {
+          "description": "End time of the Task Execution (in micros)..",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_startTime": {
+          "description": "Start time of the Task Execution (in micros)..",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "endpoints": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Endpoints that the Task refers to.",
+          "type": "object"
+        },
+        "failureMessage": {
+          "description": "Failure message associated with a 'FAILED' task.",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this Task.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c~0.0",
+          "type": "string"
+        },
+        "ignoreFailure": {
+          "description": "Ignores the failure of the Task execution if set to true, and continues with the Pipeline execution.",
+          "example": true,
+          "type": "boolean"
+        },
+        "input": {
+          "description": "Map representing the Input properties for the Task.",
+          "example": [
+            {
+              "ip": "10.5.23.84",
+              "script": "testScript.sh"
+            }
+          ],
+          "type": "object"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier For the Task.",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "notifications": {
+          "description": "List of configured Notifications for Task Events.",
+          "items": {
+            "$ref": "#/definitions/Notification"
+          },
+          "type": "array"
+        },
+        "output": {
+          "description": "Map representing the Output properties for the Task.",
+          "example": [
+            {
+              "deployedMachineIP": "10.108.35.54",
+              "result": "true"
+            }
+          ],
+          "type": "object"
+        },
+        "preCondition": {
+          "description": "The Task is executed only if this field evaluates to true.",
+          "example": "${input.buildNumber} != '100'",
+          "type": "string"
+        },
+        "rollbackConfiguration": {
+          "$ref": "#/definitions/RollbackConfiguration",
+          "description": "Rollback configuration for the Task."
+        },
+        "rollbackResponse": {
+          "$ref": "#/definitions/RollbackResponse",
+          "description": "Rollback response for the Task if it is rolled back."
+        },
+        "status": {
+          "description": "Execution status of the Task Execution.",
+          "enum": [
+            "NOT_STARTED",
+            "STARTED",
+            "RUNNING",
+            "CANCELING",
+            "WAITING",
+            "RESUMING",
+            "PAUSING",
+            "PAUSED",
+            "CANCELED",
+            "COMPLETED",
+            "FAILED",
+            "SKIPPED",
+            "QUEUED",
+            "FAILED_CONTINUE",
+            "ROLLING_BACK",
+            "ROLLBACK_FAILED",
+            "PREPARING_WORKSPACE",
+            "ROLLBACK_COMPLETED"
+          ],
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "statusMessage": {
+          "description": "Execution status message of the Task Execution.",
+          "example": "Executing Task0",
+          "type": "string"
+        },
+        "type": {
+          "description": "Type of the Task.",
+          "example": "jenkins",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "TaskExecution",
+      "type": "object"
+    },
+    "TileExecutorResponse": {
+      "properties": {
+        "duration": {
+          "description": "time taken for the Tile execution to finish.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "output": {
+          "description": "Output properties from the Tile execution.",
+          "type": "object"
+        },
+        "status": {
+          "description": "Status of the Tile execution.",
+          "enum": [
+            "CREATED",
+            "STARTED",
+            "PAUSED",
+            "CANCELED",
+            "COMPLETED",
+            "FAILED"
+          ],
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "statusMessage": {
+          "description": "Status message of the Tile execution.",
+          "example": "Failed to connect to jenkins server endpoint",
+          "type": "string"
+        }
+      },
+      "title": "TileExecutorResponse",
+      "type": "object"
+    },
+    "TileInfo": {
+      "description": "Contains information about a Tile.",
+      "discriminator": "Contains information about a Tile.",
+      "properties": {
+        "displayName": {
+          "description": "Tile name.",
+          "example": "Kubernetes",
+          "type": "string"
+        },
+        "inputProperties": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "description": "Task input properties.",
+          "example": {
+            "cloudProxyId": {
+              "description": "",
+              "mandatory": false,
+              "type": "String"
+            },
+            "fingerprint": {
+              "description": "",
+              "mandatory": false,
+              "type": "String"
+            }
+          },
+          "type": "object"
+        },
+        "outputProperties": {
+          "additionalProperties": {
+            "$ref": "#/definitions/PropertyMetaData"
+          },
+          "description": "Task output properties.",
+          "example": {
+            "buildUrlId": {
+              "description": "",
+              "mandatory": false,
+              "type": "String"
+            },
+            "isFailed": {
+              "description": "",
+              "mandatory": false,
+              "type": "String"
+            }
+          },
+          "type": "object"
+        },
+        "tileId": {
+          "description": "Unique Id associated with the tile.",
+          "example": "k8s",
+          "type": "string"
+        }
+      },
+      "title": "TileInfo",
+      "type": "object"
+    },
+    "Tiles": {
+      "description": "A list of Tile instances.",
+      "discriminator": "A list of Tile instances.",
+      "properties": {
+        "tiles": {
+          "description": "List of Tiles.",
+          "items": {
+            "$ref": "#/definitions/TileInfo"
+          },
+          "type": "array"
+        }
+      },
+      "title": "Tiles",
+      "type": "object"
+    },
+    "URI": {
+      "properties": {
+        "absolute": {
+          "type": "boolean"
+        },
+        "authority": {
+          "type": "string"
+        },
+        "fragment": {
+          "type": "string"
+        },
+        "host": {
+          "type": "string"
+        },
+        "opaque": {
+          "type": "boolean"
+        },
+        "path": {
+          "type": "string"
+        },
+        "port": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "query": {
+          "type": "string"
+        },
+        "rawAuthority": {
+          "type": "string"
+        },
+        "rawFragment": {
+          "type": "string"
+        },
+        "rawPath": {
+          "type": "string"
+        },
+        "rawQuery": {
+          "type": "string"
+        },
+        "rawSchemeSpecificPart": {
+          "type": "string"
+        },
+        "rawUserInfo": {
+          "type": "string"
+        },
+        "scheme": {
+          "type": "string"
+        },
+        "schemeSpecificPart": {
+          "type": "string"
+        },
+        "userInfo": {
+          "type": "string"
+        }
+      },
+      "title": "URI",
+      "type": "object"
+    },
+    "UserOpResource": {
+      "properties": {
+        "approverGroups": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "approvers": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "cancelPreviousPendingUserOp": {
+          "type": "boolean"
+        },
+        "changeLog": {
+          "type": "string"
+        },
+        "comments": {
+          "type": "string"
+        },
+        "createdAt": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "executionId": {
+          "type": "string"
+        },
+        "executionIndex": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "expiration": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "expirationInDays": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "expirationInSeconds": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "expirationUnit": {
+          "enum": [
+            "MINUTES",
+            "HOURS",
+            "DAYS"
+          ],
+          "type": "string"
+        },
+        "expiresOnInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "id": {
+          "type": "string"
+        },
+        "index": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "orgId": {
+          "type": "string"
+        },
+        "parentId": {
+          "type": "string"
+        },
+        "pipeline": {
+          "type": "string"
+        },
+        "pipelineId": {
+          "type": "string"
+        },
+        "projectId": {
+          "type": "string"
+        },
+        "requestedBy": {
+          "type": "string"
+        },
+        "requestedOnInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "respondedBy": {
+          "type": "string"
+        },
+        "respondedByEmail": {
+          "type": "string"
+        },
+        "respondedOnInMicros": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "responderRoles": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "responderToken": {
+          "type": "string"
+        },
+        "resumeCount": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "sendemail": {
+          "type": "boolean"
+        },
+        "stageKey": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "ACTIVE",
+            "APPROVED",
+            "CANCELED",
+            "EXPIRED",
+            "REJECTED"
+          ],
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "taskExecutionId": {
+          "type": "string"
+        },
+        "taskKey": {
+          "type": "string"
+        },
+        "updatedAt": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "updatedBy": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "title": "UserOpResource",
+      "type": "object"
+    },
+    "UserOpResponse": {
+      "description": "User operation response.",
+      "discriminator": "User operation response.",
+      "properties": {
+        "cancelPreviousPendingUserOp": {
+          "description": "This property tells whether to cancel previous pending user operations for this pipeline.",
+          "example": true,
+          "type": "boolean"
+        },
+        "responseMessage": {
+          "description": "The response message which the responder would like to give.",
+          "example": "Approved on Monday.",
+          "type": "string"
+        },
+        "status": {
+          "description": "The status of this entity.",
+          "example": "Approved",
+          "type": "string"
+        }
+      },
+      "title": "UserOpResponse",
+      "type": "object"
+    },
+    "UserOperation": {
+      "description": "UserOperation details.",
+      "discriminator": "UserOperation details.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_expiresOnInMicros": {
+          "description": "The time in micros when it would expire.",
+          "example": 1569216876209000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_requestedOnInMicros": {
+          "description": "The time in micros when the request was made.",
+          "example": 1568957676209000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "approvers": {
+          "description": "The list of approver emails who can approve it.",
+          "example": "exampleUser@vmware.com",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "cancelPreviousPendingUserOp": {
+          "description": "The flag to determine whether to cancel previous pending user op of the pipeline.",
+          "example": true,
+          "type": "boolean"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "endpoint": {
+          "description": "The email Endpoint to be used if the sendemail is set to true.",
+          "example": "My-email-endpoint",
+          "type": "string"
+        },
+        "executionId": {
+          "description": "The Execution id of the Pipeline Execution consisting of this task.",
+          "example": "19e2d2c3-41b6-4bc0-9f27-b3f935d25366",
+          "type": "string"
+        },
+        "executionIndex": {
+          "description": "The index of the Pipeline Execution in which the entity is present.",
+          "example": 8,
+          "format": "int64",
+          "type": "integer"
+        },
+        "executionLink": {
+          "description": "The Execution link of the Pipeline Execution consisting of this task.",
+          "example": "/codestream/api/executions/c1c08fc4-0bef-46fa-b5d2-c8aa10d18f6e",
+          "type": "string"
+        },
+        "expiration": {
+          "description": "The time after which this entity would expire based on expirationUnit.",
+          "example": 3,
+          "format": "int32",
+          "type": "integer"
+        },
+        "expirationInDays": {
+          "description": "The time in days after which this entity would expire.",
+          "example": 3,
+          "format": "int32",
+          "type": "integer"
+        },
+        "expirationUnit": {
+          "description": "The time unit after which this entity would expire.",
+          "example": "DAYS",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "index": {
+          "description": "The index of the entity.",
+          "example": "45b4d8",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "pipelineId": {
+          "description": "The id of the Pipeline consisting of this task.",
+          "example": "6f6b006b-7fec-4684-9200-21a4a782c82b",
+          "type": "string"
+        },
+        "pipelineName": {
+          "description": "The name of the Pipeline this task is configured in.",
+          "example": "My-Pipeline",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "requestedBy": {
+          "description": "The user who requested this.",
+          "example": "fritz",
+          "type": "string"
+        },
+        "respondedBy": {
+          "description": "The user who responded to this approval.",
+          "example": "fritz",
+          "type": "string"
+        },
+        "responseMessage": {
+          "description": "The response message which the responder would like to give.",
+          "example": "Approved on Monday",
+          "type": "string"
+        },
+        "sendemail": {
+          "description": "The flag to determine if an email has to be sent.",
+          "example": true,
+          "type": "boolean"
+        },
+        "status": {
+          "description": "The status of this entity.",
+          "example": "Approved",
+          "type": "string"
+        },
+        "summary": {
+          "description": "The summary of this entity.",
+          "example": "To be approved only by admin",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "UserOperation",
+      "type": "object"
+    },
+    "UserOperations": {
+      "description": "UserOperations details.",
+      "discriminator": "UserOperations details.",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/UserOperation"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "UserOperations",
+      "type": "object"
+    },
+    "ValidationMessage": {
+      "description": "Model used for validation responses.",
+      "discriminator": "Model used for validation responses.",
+      "properties": {
+        "containerName": {
+          "description": "Name of pipeline / stage / name in the hierarchy where they belong to.",
+          "example": "vrcsPipeline.DEV for a stage",
+          "type": "string"
+        },
+        "fieldName": {
+          "description": "Field in the input which is causing validation to fail in the deeper JSON.",
+          "example": "inputProperties.jobName.value",
+          "type": "string"
+        },
+        "level": {
+          "description": "Message level.",
+          "example": "SEVERE/WARNING/INFO",
+          "type": "string"
+        },
+        "message": {
+          "description": "Validation message.",
+          "example": "Validation successful",
+          "type": "string"
+        }
+      },
+      "title": "ValidationMessage",
+      "type": "object"
+    },
+    "ValidatorResponse": {
+      "description": "Model used for validation responses.",
+      "discriminator": "Model used for validation responses.",
+      "properties": {
+        "classType": {
+          "description": "Class which will be validated.",
+          "example": "Pipeline",
+          "type": "string"
+        },
+        "message": {
+          "$ref": "#/definitions/ValidationMessage",
+          "description": "Contains details about the validation.",
+          "example": "Validation Successful"
+        },
+        "success": {
+          "description": "Indicates whether validation was successful or not.",
+          "example": false,
+          "type": "boolean"
+        }
+      },
+      "title": "ValidatorResponse",
+      "type": "object"
+    },
+    "Variable": {
+      "description": "A Variable is used to store re-usable/sensitive strings within Code Stream in an encrypted format so as to be able to consume in other areas like Endpoint, Pipeline, Task or Stage etc.",
+      "discriminator": "A Variable is used to store re-usable/sensitive strings within Code Stream in an encrypted format so as to be able to consume in other areas like Endpoint, Pipeline, Task or Stage etc.",
+      "properties": {
+        "_createTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_createdBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'createdBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "_link": {
+          "description": "Partial URL that provides details of the resource.",
+          "example": "/codestream/api/<prefix>/8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "_projectId": {
+          "description": "Contains project id of the entity",
+          "example": "abcd-abcd-abcd",
+          "type": "string"
+        },
+        "_updateTimeInMicros": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedAt' field as a UNIX timestamp in microseconds",
+          "example": 1568625938000000,
+          "format": "int64",
+          "type": "integer"
+        },
+        "_updatedBy": {
+          "description": "This field is provided for backward compatibility. Contains the same value as the 'updatedBy' field",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "createdAt": {
+          "description": "Date when the entity was created. The date is in ISO 8601 with time zone",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "createdBy": {
+          "description": "The user that created this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "id": {
+          "description": "The id of this resource.",
+          "example": "8365ef3b-8bf3-48aa-bd5d-7113fcff827c",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "type": {
+          "description": "The type of this Variable. Ex: REGULAR / SECRET / RESTRICTED",
+          "example": "REGULAR",
+          "type": "string"
+        },
+        "updatedAt": {
+          "description": "Date when the entity was last updated. The date is in ISO 8601 with time zone.",
+          "example": "2019-09-16 09:25:38.065065+00",
+          "type": "string"
+        },
+        "updatedBy": {
+          "description": "The user that last updated this entity",
+          "example": "exampleuser",
+          "type": "string"
+        },
+        "value": {
+          "description": "The value for this Variable.",
+          "example": "my-value",
+          "type": "object"
+        },
+        "version": {
+          "description": "Version of the resource.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ],
+      "title": "Variable",
+      "type": "object"
+    },
+    "VariableSpec": {
+      "description": "A Variable is used to store re-usable/sensitive strings within Code Stream in an encrypted format so as to be able to consume in other areas like Endpoint, Pipeline, Task or Stage etc.",
+      "discriminator": "A Variable is used to store re-usable/sensitive strings within Code Stream in an encrypted format so as to be able to consume in other areas like Endpoint, Pipeline, Task or Stage etc.",
+      "properties": {
+        "description": {
+          "description": "A human-friendly description.",
+          "type": "string"
+        },
+        "name": {
+          "description": "A human-friendly name used as an identifier in APIs that support this option",
+          "example": "My-Name",
+          "type": "string"
+        },
+        "project": {
+          "description": "The project this entity belongs to.",
+          "example": "My-Project",
+          "type": "string"
+        },
+        "type": {
+          "description": "The type of this Variable. Ex: REGULAR / SECRET / RESTRICTED",
+          "example": "REGULAR",
+          "type": "string"
+        },
+        "value": {
+          "description": "The value for this Variable.",
+          "example": "my-value",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name",
+        "type",
+        "value"
+      ],
+      "title": "VariableSpec",
+      "type": "object"
+    },
+    "Variables": {
+      "description": "A list of Variable instances",
+      "discriminator": "A list of Variable instances",
+      "properties": {
+        "count": {
+          "description": "Number of resources within the current page.",
+          "format": "int64",
+          "type": "integer"
+        },
+        "documents": {
+          "additionalProperties": {
+            "$ref": "#/definitions/Variable"
+          },
+          "description": "Details of the queried resources.",
+          "example": "\"documents\": {\n        \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\": {\n            \"project\": \"test-project\",\n            \"id\": \"b80254a7-fcff-4918-ad88-501d08096337\",\n            \"name\": \"test\",\n            \"updatedAt\": \"2019-09-23 13:48:54.483\",\n            \"tags\": [],\n            \"_link\": \"/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337\",\n            \"_updateTimeInMicros\": 1569226734483000,\n            \"_createTimeInMicros\": 1569226720988000,\n            \"index\": 1,\n            \"notifications\": [],\n            \"comments\": \"\",\n            \"starred\": {},\n            \"input\": {},\n            \"output\": {},\n            \"stageOrder\": [],\n            \"stages\": {},\n            \"status\": \"COMPLETED\",\n            \"statusMessage\": \"Execution Completed.\",\n            \"_durationInMicros\": 13495000,\n            \"_requestTimeInMicros\": 1569226720988000,\n            \"_executedBy\": \"exampleuser\",\n            \"_pipelineLink\": \"/codestream/api/pipelines/b49898f9-d42d-4f19-8bda-e77a373c41b9\",\n            \"_nested\": false,\n            \"_rollback\": false,\n            \"_inputMeta\": {},\n            \"_outputMeta\": {},\n            \"workspaceResults\": []\n        }\n    }",
+          "type": "object"
+        },
+        "links": {
+          "description": "Partial URLs representing the links to the queried resources.",
+          "example": "/codestream/api/executions/b80254a7-fcff-4918-ad88-501d08096337",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "totalCount": {
+          "description": "Number of resources across all pages.",
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "title": "Variables",
+      "type": "object"
+    },
+    "VersionRequest": {
+      "description": "Request object for version of a Custom Integration.",
+      "discriminator": "Request object for version of a Custom Integration.",
+      "properties": {
+        "changeLog": {
+          "description": "Changelog describing the changes between this and previous versions.",
+          "example": "Modified API signatures.",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description of the version.",
+          "example": "This is the latest version.",
+          "type": "string"
+        },
+        "version": {
+          "description": "Version of the Custom Integration.",
+          "example": "v1",
+          "type": "string"
+        }
+      },
+      "title": "VersionRequest",
+      "type": "object"
+    },
+    "WebhookEnablePatch": {
+      "description": "Git/Docker Registry Webhook Patch details.",
+      "discriminator": "Git/Docker Registry Webhook Patch details.",
+      "properties": {
+        "enabled": {
+          "description": "Indicates whether Git/Docker webhook is enabled or not.",
+          "example": true,
+          "type": "boolean"
+        }
+      },
+      "title": "WebhookEnablePatch",
+      "type": "object"
+    },
+    "WebhookEventConfig": {
+      "description": "Represents a Webhook Event configuration.",
+      "discriminator": "Represents a Webhook Event configuration.",
+      "properties": {
+        "action": {
+          "description": "Action Type.",
+          "example": "POST/PUT/PATCH",
+          "type": "string"
+        },
+        "cloudProxyId": {
+          "description": "cloudProxyId configured in the webhook.",
+          "example": {
+            "text": "executionId",
+            "username": "codestream@vmware.com"
+          },
+          "type": "string"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "event": {
+          "enum": [
+            "SUCCESS",
+            "FAILURE",
+            "WAITING",
+            "CANCELED",
+            "STARTED"
+          ],
+          "type": "string"
+        },
+        "headers": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "The headers required to perform HTTP action on the provided url.",
+          "example": "content-type: application/json",
+          "type": "object"
+        },
+        "payload": {
+          "description": "Payload to be sent to the webhook.",
+          "example": {
+            "text": "executionId",
+            "username": "codestream@vmware.com"
+          },
+          "type": "string"
+        },
+        "stage": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "url": {
+          "description": "WebhookURL to send payload.",
+          "type": "string"
+        }
+      },
+      "title": "WebhookEventConfig",
+      "type": "object"
+    },
+    "Workspace": {
+      "description": "Model which contains details about container and host for executing continuous integration tasks.",
+      "discriminator": "Model which contains details about container and host for executing continuous integration tasks.",
+      "properties": {
+        "autoCloneForTrigger": {
+          "description": "Indicates that git clone will be performed automatically.",
+          "example": true,
+          "type": "boolean"
+        },
+        "cache": {
+          "description": "List of paths to store artifacts and logs.",
+          "example": [
+            "/root/.m2",
+            "/temp/"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "customProperties": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "List of custom properties",
+          "example": {
+            "namespace": "builds"
+          },
+          "type": "object"
+        },
+        "endpoint": {
+          "description": "Name of the endpoint.",
+          "type": "string"
+        },
+        "environmentVariables": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "List of environment variables and their values",
+          "example": {
+            "foo": "bar",
+            "property_one": "value_one",
+            "property_two": "value_two"
+          },
+          "type": "object"
+        },
+        "image": {
+          "description": "Image to create CI container.",
+          "example": "fedora:latest",
+          "type": "string"
+        },
+        "path": {
+          "description": "Working directory for executing commands.",
+          "example": "/usr/administrator/",
+          "type": "string"
+        },
+        "registry": {
+          "description": "Name of the docker registry.",
+          "example": "Docker Trusted Registry",
+          "type": "string"
+        },
+        "type": {
+          "description": "Type of the workspace.",
+          "example": "DOCKER|K8S",
+          "type": "string"
+        }
+      },
+      "title": "Workspace",
+      "type": "object"
+    },
+    "WorkspaceResult": {
+      "properties": {
+        "logs": {
+          "description": "Logs for the executing step.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "status": {
+          "description": "Status of the Git clone/creating a container for the Workspace.",
+          "example": "COMPLETED",
+          "type": "string"
+        },
+        "step": {
+          "description": "The current step for Git clone/creating a container for the Workspace.",
+          "example": "GIT_CLONE",
+          "type": "string"
+        }
+      },
+      "title": "WorkspaceResult",
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: codestream-cli
+Version: 1.0.1
+Summary: Codestream CLI
+Home-page: https://github.com/salt-labs/codestream-cli
+License: Unlicense
+Keywords: codestream,cli,vra
+Author: MAHDTech
+Author-email: MAHDTech@saltlabs.tech
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argcomplete (>=2.1.2,<3.0.0)
+Requires-Dist: flask (>=2.2.3,<3.0.0)
+Requires-Dist: gitpython (>=3.1.31,<4.0.0)
+Requires-Dist: jmespath (>=1.0.1,<2.0.0)
+Requires-Dist: jsonschema (>=4.17.3,<5.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: setuptools (>=67.0.0,<68.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Requires-Dist: tomlkit (>=0.11.6,<0.12.0)
+Requires-Dist: urllib3 (>=1.26.15,<2.0.0)
+Requires-Dist: validators (>=0.20.0,<0.21.0)
+Project-URL: Documentation, https://docs.saltlabs.tech/codestream-cli
+Project-URL: Repository, https://github.com/salt-labs/codestream-cli
+Project-URL: bugtracker, https://github.com/salt-labs/codestream-cli/issues
+Description-Content-Type: text/markdown
+
+# Codestream CLI
+
+Codestream CLI is a command line utility for working with the vRA Code Stream API.
+
+## Installation
+
+You can install the Codestream CLI using pip:
+
+```bash
+pip install codestream-cli
+
+codestream-cli --help
+```
+
+## Documentation
+
+Additional documentation has been generated with sphinx and published [here](docs.saltlabs.tech/codestream-cli/).
+

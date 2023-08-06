@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "description": "Pipeline Specification",
+  "discriminator": "Pipeline Specification",
+  "properties": {
+    "_inputMeta": {
+      "additionalProperties": {
+        "$ref": "_definitions.json#/definitions/PropertyMetaData"
+      },
+      "description": "Additional information about Input Properties",
+      "example": {
+        "test": {
+          "description": "test-value",
+          "mandatory": false
+        }
+      },
+      "type": "object"
+    },
+    "concurrency": {
+      "description": "Number of Executions of the Pipeline that can run concurrently.",
+      "example": 10,
+      "format": "int32",
+      "type": "integer"
+    },
+    "description": {
+      "description": "A human-friendly description.",
+      "type": "string"
+    },
+    "enabled": {
+      "description": "Indicates if the Pipeline is in enabled state.",
+      "example": true,
+      "type": "boolean"
+    },
+    "icon": {
+      "description": "String description of the icon used for this Pipeline.",
+      "example": "tools,,is-success is-solid",
+      "type": "string"
+    },
+    "input": {
+      "description": "Map representing the Input properties for the Pipeline.",
+      "example": [
+        {
+          "ip": "10.5.23.84",
+          "script": "testScript.sh"
+        }
+      ],
+      "type": "object"
+    },
+    "name": {
+      "description": "A human-friendly name used as an identifier in APIs that support this option",
+      "example": "My-Name",
+      "minLength": 1,
+      "type": "string"
+    },
+    "kind": {
+      "description": "The kind of object for a pipeline is 'PIPELINE'",
+      "example": "PIPELINES",
+      "minLength": 8,
+      "type": "string"
+    },
+    "notifications": {
+      "$ref": "_definitions.json#/definitions/NotificationConfiguration",
+      "description": "Represents the various Notification Configurations for the Pipeline"
+    },
+    "options": {
+      "description": "Represents the different options to trigger a Pipeline. Selecting an option auto injects the Input properties needed to execute a Pipeline with that trigger.",
+      "example": [
+        "DOCKER_TRIGGER"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "output": {
+      "description": "Map representing the Output properties for the Pipeline.",
+      "example": [
+        {
+          "deployedMachineIP": "10.108.35.54",
+          "result": "true"
+        }
+      ],
+      "type": "object"
+    },
+    "project": {
+      "description": "The project this entity belongs to.",
+      "example": "My-Project",
+      "minLength": 1,
+      "type": "string"
+    },
+    "rollbacks": {
+      "description": "Represents the various Rollback Configurations for the Pipeline",
+      "example": [
+        {
+          "inputs": {},
+          "name": "Undo Deployment",
+          "stage": "Deploy to Prod",
+          "task": "Deploy"
+        }
+      ],
+      "items": {
+        "$ref": "_definitions.json#/definitions/RollbackConfiguration"
+      },
+      "type": "array"
+    },
+    "stageOrder": {
+      "description": "Represents the order in which Stages will be executed.",
+      "example": [
+        "AcquireToken",
+        "Upgrade",
+        "E2E"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "stages": {
+      "additionalProperties": {
+        "$ref": "_definitions.json#/definitions/Stage"
+      },
+      "description": "Map representing the details of the various Stages of the Pipeline.",
+      "type": "object"
+    },
+    "starred": {
+      "$ref": "_definitions.json#/definitions/Pipeline$StarredProperty",
+      "description": "Highlights any given Input/Output properties",
+      "example": {
+        "test-output": "${Stage0.Task0.status}"
+      }
+    },
+    "state": {
+      "description": "Indicates if the Pipeline is enabled/disabled/released to catalog.",
+      "example": "RELEASED",
+      "type": "string"
+    },
+    "tags": {
+      "description": "A set of tag keys and optional values that were set on on the resource.",
+      "example": [
+        {
+          "key": "env",
+          "value": "dev"
+        }
+      ],
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "workspace": {
+      "$ref": "_definitions.json#/definitions/Workspace",
+      "description": "Represents the configuration to be used for CI and Custom tasks."
+    }
+  },
+  "required": [
+    "kind",
+    "description",
+    "name",
+    "project"
+  ],
+  "title": "PipelineSpec",
+  "type": "object"
+}
