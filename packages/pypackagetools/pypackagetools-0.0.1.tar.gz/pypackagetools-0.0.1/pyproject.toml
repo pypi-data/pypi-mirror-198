@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pypackagetools"
+version = "0.0.1"
+description = ""
+authors = ["wayfaring-stranger <zw6p226m@duck.com>"]
+packages = [
+    { include = "pypackagetools" }
+]
+
+license = "mit"
+readme = "README.md"
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
