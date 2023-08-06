@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Newestearthquake_Indonesia_BMKG.egg-info/PKG-INFO
+Newestearthquake_Indonesia_BMKG.egg-info/SOURCES.txt
+Newestearthquake_Indonesia_BMKG.egg-info/dependency_links.txt
+Newestearthquake_Indonesia_BMKG.egg-info/top_level.txt
+gempaterbaru/__init__.py
