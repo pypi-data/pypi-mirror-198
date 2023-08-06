@@ -1,0 +1,8 @@
+setup.py
+astakosa/__init__.py
+astakosa/file.py
+astakosa.egg-info/PKG-INFO
+astakosa.egg-info/SOURCES.txt
+astakosa.egg-info/dependency_links.txt
+astakosa.egg-info/requires.txt
+astakosa.egg-info/top_level.txt
