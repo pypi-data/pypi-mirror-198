@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: skimage3d
+Version: 0.0.1
+Summary: Simple extension of various skimage.transform utilites for 3D images
+Project-URL: homepage, https://github.com/dennisbrookner/skimage3d
+Project-URL: repository, https://github.com/dennisbrookner/skimage3d
+Author-email: Dennis Brookner <debrookner@gmail.com>
+License: BSD 3-Clause License
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pdbpp; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: rich; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest>=6.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# skimage3d
+
+[![License](https://img.shields.io/pypi/l/skimage3d.svg?color=green)](https://github.com/dennisbrookner/skimage3d/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/skimage3d.svg?color=green)](https://pypi.org/project/skimage3d)
+[![Python Version](https://img.shields.io/pypi/pyversions/skimage3d.svg?color=green)](https://python.org)
+[![CI](https://github.com/dennisbrookner/skimage3d/actions/workflows/ci.yml/badge.svg)](https://github.com/dennisbrookner/skimage3d/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/dennisbrookner/skimage3d/branch/main/graph/badge.svg)](https://codecov.io/gh/dennisbrookner/skimage3d)
+
+Simple extension of various skimage.transform utilites for 3D images.
+
+Created Using https://github.com/ianhi/pyrepo-cookiecutter
