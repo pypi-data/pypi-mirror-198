@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: suger
+Version: 0.0.1
+Summary: try to upload to Pypi
+Project-URL: Homepage, https://github.com/SolarisNeko/python-suger
+Project-URL: Bug Tracker, https://github.com/SolarisNeko/python-suger/issues
+Author-email: SolarisNeko <1417015340@qq.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# suger
+
+@author SolarisNeko
+
+# What is it
+Use Python in Decorator / Annotation Like Java Lombok / C# Annotation / TypeScript Decorator
+
+Demo
+
+```python
+@class_str
+class MockData:
+    def __init__(self, age):
+        self.age = age
+
+
+data = MockData(18)
+
+# Output = "MockData(age=18)"
+print(data)
+
+```
+
+
+
+```shell
+git init
+
+ git remote add github https://github.com/SolarisNeko/neko233-python-suger.git
+ git remote add origin https://gitee.com/SolarisNeko/neko233-python-suger.git
+```
