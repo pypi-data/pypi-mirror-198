@@ -1,0 +1,3 @@
+[console_scripts]
+pysura = cli.app:cli
+

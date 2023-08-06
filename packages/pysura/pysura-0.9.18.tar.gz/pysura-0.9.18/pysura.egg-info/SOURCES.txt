@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cli/faster_api/__init__.py
+cli/faster_api/test_class.py
+pysura.egg-info/PKG-INFO
+pysura.egg-info/SOURCES.txt
+pysura.egg-info/dependency_links.txt
+pysura.egg-info/entry_points.txt
+pysura.egg-info/requires.txt
+pysura.egg-info/top_level.txt
