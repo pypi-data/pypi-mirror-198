@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: intel-xai
+Version: 0.3.0
+Summary: Intel® Explainable AI Tools
+Home-page: https://github.com/IntelAI/intel-xai-tools
+Author: IntelAI
+Author-email: IntelAI@intel.com
+License: Apache 2.0
+Keywords: XAI,explainer
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py
+Requires-Dist: attrs (<22,>=19.3.0)
+Requires-Dist: captum
+Requires-Dist: grad-cam
+Requires-Dist: grpcio-status (<1.49)
+Requires-Dist: intel-tensorflow (==2.11.0)
+Requires-Dist: jinja2
+Requires-Dist: joblib (>=1.2.0)
+Requires-Dist: jsonschema[format-nongpl]
+Requires-Dist: matplotlib
+Requires-Dist: numpy (<1.23.0,>=1.14.3)
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: protobuf (<3.20,>=3.9.2)
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-plot
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: semantic-version
+Requires-Dist: shap
+Requires-Dist: tensorflow-data-validation
+Requires-Dist: tensorflow-model-analysis
+Requires-Dist: torch (==1.13.1)
+Requires-Dist: transformers
+Requires-Dist: dataclasses ; python_version < "3.7"
+Provides-Extra: pytorch
+Requires-Dist: torch (==1.13.1) ; extra == 'pytorch'
+Requires-Dist: torchvision (==0.14.1) ; extra == 'pytorch'
+Provides-Extra: test
+Requires-Dist: deepdiff ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: tensorflow-hub ; extra == 'test'
+Requires-Dist: torch (==1.13.1) ; extra == 'test'
+Requires-Dist: torchvision (==0.14.1) ; extra == 'test'
+
+# Intel® Explainable AI Tools
+
+This repository provides tools for data scientists and MLOps engineers that have requirements specific to AI model interpretability.
+
+## Features
+| Core Feature | Description | 
+|----------|-----------|
+| **Model Card Generator** |  **Allows users to create interactive HTML reports containing model performance and fairness metrics.** |
+|**Explainer** | **Allows users to run post-hoc model distillation and visualization methods to examine predictive behavior for both TensorFlow and PyTorch models via a simple Python API including the following modules:** <li> **Attributions**: visualize negative and positive attributions of tabular features, pixels, and word tokens for predictions <li> **CAM**: create heatmaps for CNN image classifications using gradient-weight class activation CAM mapping <li> **Metrics**: Gain insight into models with the measurements and visualizations needed during the machine learning workflow |
+
+## Build and Install
+Requirements:
+* Linux system (or WSL2 on Windows)
+* git
+* required python version: 3.9
+* `apt-get install build-essential python3-dev`
+
+### Basic Installation:
+```
+pip install intel-xai
+```
+### Advanced/Developer Installation:
+1. Clone this repo and navigate to the repo directory:
+   ```
+   git clone https://github.com/IntelAI/intel-xai-tools.git
+
+   cd intel-xai-tools
+   ```
+2. Create and activate a Python3.9 virtual environment using `virtualenv`:
+   ```
+   python3.9 -m virtualenv xai_env
+   source xai_env/bin/activate
+   ```
+
+   Or `conda`:
+   ```
+   conda create --name xai_env python=3.9
+   conda activate xai_env
+   ```
+3. Install this tool with 
+   ```
+   make install
+   ```
+
+## Running Notebooks
+
+Run **example notebooks** that show how to use the explainer and model card generator API in various ML domains and use cases. Notebooks may require additional dependencies listed in their associated README's.
+
+#### DISCLAIMER: ####
+These scripts are not intended for benchmarking Intel platforms. For any performance and/or benchmarking information on specific Intel platforms, visit https://www.intel.ai/blog.
+
+Intel is committed to the respect of human rights and avoiding complicity in human rights abuses, a policy reflected in the Intel Global Human Rights Principles. Accordingly, by accessing the Intel material on this platform you agree that you will not use the material in a product or application that causes or contributes to a violation of an internationally recognized human right.
+
+#### License: ####
+Intel® Explainable AI Tools is licensed under Apache License Version 2.0.
+
+#### Datasets: ####
+To the extent that any public datasets are referenced by Intel or accessed using tools or code on this site those datasets are provided by the third party indicated as the data source. Intel does not create the data, or datasets, and does not warrant their accuracy or quality. By accessing the public dataset(s) you agree to the terms associated with those datasets and that your use complies with the applicable license.
+
+Intel expressly disclaims the accuracy, adequacy, or completeness of any public datasets, and is not liable for any errors, omissions, or defects in the data, or for any reliance on the data.  Intel is not liable for any liability or damages relating to your use of public datasets.
+
+
