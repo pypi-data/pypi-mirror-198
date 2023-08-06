@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<h1>{% block title %}Register{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<form method="post">
+    <label for="selectBox">请选择：</label>
+    <select id="selectBox" name="aaa">
+        <option value="value1">选项1</option>
+        <option value="value2">选项2</option>
+        <option value="value3">选项3</option>
+    </select>
+    <button type="submit">提交</button>
+</form>
+{{ u }}
+{% endblock %}
