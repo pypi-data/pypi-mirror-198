@@ -1,0 +1,10 @@
+mathw/__init__.py,sha256=3evMe4kVe7h7HAdZRa1hiELNzUVfVYuitKk5p4dkq3E,1462
+mathw/formatter.py,sha256=ICnKA1LsWWviixIgkEA8DwDFoMFNtHr0WjjtCVKDV8s,2576
+mathw/series/__init__.py,sha256=1ywNOkzkZpL49EHxG9o0ebjY_SLTZ9y-Zjc6limPoKg,41
+mathw/series/add.py,sha256=I6WOVLJqxoreAHhp3swLYJZk5osqjXIYAx37KQ_CDCQ,14626
+mathw/series/mult.py,sha256=qsgxd0N2_JYW5QldlUmwamuqv6j92SVqfy6uNwtKJpo,16956
+mathw/series/utils.py,sha256=bMiXZKIXo3Y3ffsnKE5smgYlW7JeMlZNbb3ZivuJmv8,1891
+mathw-1.0.0.dist-info/METADATA,sha256=u0vxWlUopaPSMHNByadhGDAIEY_2P5baQmNEA73VwWY,5742
+mathw-1.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+mathw-1.0.0.dist-info/licenses/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+mathw-1.0.0.dist-info/RECORD,,
