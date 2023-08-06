@@ -1,0 +1,5 @@
+gumpy>=1.1.0
+piezo>=0.4
+numpy
+pandas
+recursive_diff
