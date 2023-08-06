@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "Flask==2.0.1", "pydantic==1.10.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "appscommon"
+version = "0.0.1"
+authors = [
+  { name="Danush Kumar Baskarraj", email="danushkumar.baskar@gmail.com" },
+]
+description = "Common utility package."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/danushk97/componenet-appscommon"
+"Bug Tracker" = "https://github.com/danushk97/componenet-appscommon/issues"
