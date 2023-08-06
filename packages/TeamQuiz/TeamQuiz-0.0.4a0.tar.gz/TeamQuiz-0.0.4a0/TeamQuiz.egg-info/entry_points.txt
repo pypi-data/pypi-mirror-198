@@ -1,0 +1,2 @@
+[console_scripts]
+TeamQuiz = TeamQuiz.TeamQuiz:TeamQuiz

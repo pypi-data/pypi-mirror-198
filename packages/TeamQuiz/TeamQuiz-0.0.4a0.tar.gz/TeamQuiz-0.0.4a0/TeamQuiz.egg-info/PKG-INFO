@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: TeamQuiz
+Version: 0.0.4a0
+Summary: A simple quiz program
+Home-page: https://github.com/DawoodLaiq/competition_api
+Author: Dawood
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
