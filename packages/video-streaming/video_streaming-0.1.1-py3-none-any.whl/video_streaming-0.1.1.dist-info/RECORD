@@ -1,0 +1,9 @@
+videostreaming/__init__.py,sha256=3ZaBZEDS8B1T8QgRbA5SuUFIPahABNiPjSHGzUKtoiM,64
+videostreaming/fps.py,sha256=w_4AAsuENpoYPTA6ggUAbIgrZlS4SU_yNTWcxyCCeqQ,4352
+videostreaming/socket.py,sha256=mhHEzyE1Kr3RmvMCM5uxSoNXMDTKR9frbcLFyaqykHw,9176
+videostreaming/utils.py,sha256=tMffm0NzQTokdleULvSMDbd1jFWbUD3aS6xK7yz8ywU,1023
+video_streaming-0.1.1.dist-info/LICENSE.txt,sha256=vWcyNdhdchceEpeuNAe3Pkv-R16bUeo5OMVZkw2wcJQ,1094
+video_streaming-0.1.1.dist-info/METADATA,sha256=G4XjtSTJ184V3_ZmyZtUSidt9C4ueR7eSwF0A3Fzvsc,691
+video_streaming-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+video_streaming-0.1.1.dist-info/top_level.txt,sha256=dfHZlwpENxEKyygkoSSqa9LRa53kB1Ul1xuhF3-LY28,15
+video_streaming-0.1.1.dist-info/RECORD,,
