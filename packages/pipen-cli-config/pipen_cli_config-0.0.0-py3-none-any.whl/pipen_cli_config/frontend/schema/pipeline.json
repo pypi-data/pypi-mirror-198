@@ -1,0 +1,257 @@
+{
+    "ADDITIONAL_OPTIONS": {
+      "do_metabolic_analysis": {
+        "desc": "# Do metabolic analysis\n",
+        "type": "bool",
+        "value": false
+      },
+      "a_string": {
+        "desc": "A string",
+        "type": "str",
+        "value": "abc"
+      },
+      "ns_arg": {
+        "desc": "A namespace argument",
+        "type": "namespace",
+        "value": {
+          "a": {
+            "desc": "A string",
+            "type": "str",
+            "value": "abc"
+          },
+          "b": {
+            "desc": "A bool",
+            "type": "bool",
+            "value": false
+          },
+          "c": {
+            "desc": "sub namespace argument",
+            "type": "namespace",
+            "value": {
+              "d": {
+                "desc": "A string",
+                "type": "int",
+                "value": "abc"
+              },
+              "e": {
+                "desc": "A bool",
+                "type": "bool",
+                "value": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "PIPELINE_OPTIONS": {
+      "desc": {
+        "desc": "# The description of your pipeline\n",
+        "type": "str",
+        "value": "Description of your pipeline"
+      },
+      "name": {
+        "desc": "# The name of your pipeline\n",
+        "type": "str",
+        "value": "Your Pipeline"
+      },
+      "outdir": {
+        "desc": "# The output directory of your pipeline\n",
+        "placeholder": "./<name>_results",
+        "type": "str",
+        "value": ""
+      },
+      "forks": {
+        "desc": "Number of jobs to run simultaneously\n",
+        "type": "int",
+        "value": 1,
+        "hidden": true
+      },
+      "plugin_opts": {
+        "desc": "The plugin options of your pipeline\n",
+        "value": {
+          "<plugin_name>_<plugin_opt_name>": {
+            "desc": "# The value of plugin option <plugin_name>.<plugin_opt_name>\n",
+            "type": "str"
+          }
+        }
+      },
+      "scheduler_opts": {
+        "desc": "The scheduler options of your pipeline\n",
+        "value": {
+          "some_scheduler_opt": {
+            "desc": "# The value of scheduler option some_scheduler_opt\n",
+            "type": "str",
+            "hidden": true
+          }
+        }
+      }
+    },
+    "PROCGROUPS": {
+      "Group1": {
+        "ARGUMENTS": {
+          "arg1": {
+            "desc": "This is arg1",
+            "type": "str",
+            "value": ""
+          },
+          "arg2": {
+            "desc": "This is arg2",
+            "type": "str",
+            "value": ""
+          }
+        },
+        "PROCESSES": {
+          "Process10": {
+            "desc": "This is Process10",
+              "value": {
+              "envs": {
+                "desc": "# The environment variables for process Process10\n",
+                "value": {
+                  "method": {
+                    "choices": [
+                      "fastq",
+                      "bam"
+                    ],
+                    "desc": "# The method of Process10\n",
+                    "type": "choice",
+                    "value": "fastq"
+                  },
+                  "thresholds": {
+                    "desc": "# The thresholds of Process10\n",
+                    "type": "list",
+                    "value": [
+                      0.1,
+                      0.2,
+                      0.3,
+                      0.4,
+                      0.5
+                    ]
+                  }
+                }
+              },
+              "forks": {
+                "desc": "# The number of forks for the process\n",
+                "type": "int",
+                "value": 1
+              }
+            }
+          },
+          "Process11": {
+            "desc": "This is Process11",
+            "value": {
+              "envs": {
+                "desc": "# The environment variables for process Process11\n",
+                "value": {
+                  "method": {
+                    "desc": "# The methods of Process11\n",
+                    "type": "list"
+                  },
+                  "thresholds": {
+                    "desc": "# The thresholds of Process11\n",
+                    "type": "list",
+                    "value": [
+                      0.1,
+                      0.2,
+                      0.3,
+                      0.4,
+                      0.5
+                    ]
+                  }
+                }
+              },
+              "forks": {
+                "desc": "# The number of forks for the process\n",
+                "type": "int",
+                "value": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "PROCESSES": {
+      "Process1": {
+        "desc": "This is Process1",
+        "value": {
+          "envs": {
+            "desc": "# The environment variables for process Process1\n",
+            "value": {
+              "method": {
+                "desc": "# The methods of Process11\n",
+                "type": "list",
+                "required": true,
+                "itype": "int"
+              },
+              "thresholds": {
+                "desc": "# The thresholds of Process1\n",
+                "type": "mchoices",
+                "required": true,
+                "choices": [
+                  0.1,
+                  0.2,
+                  0.3,
+                  0.4,
+                  0.5
+                ],
+                "value": [
+                  0.1,
+                  0.2
+                ]
+              }
+            }
+          },
+          "forks": {
+            "desc": "# The number of forks for the process\n",
+            "type": "int",
+            "required": true,
+            "value": 1
+          }
+        }
+      },
+      "Process2": {
+        "desc": "This is Process2",
+        "value": {
+          "envs": {
+            "desc": "# The environment variables for process Process2\n",
+            "value": {
+              "method": {
+                "desc": "# The method of Process2\n",
+                "type": "json",
+                "required": true
+              },
+              "func": {
+                "desc": "The function in R",
+                "type": "text",
+                "value": ""
+              }
+            }
+          },
+          "forks": {
+            "desc": "# The number of forks for the process\n",
+            "type": "int",
+            "value": 2
+          }
+        }
+      }
+    },
+    "RUNNING_OPTIONS": {
+      "Local": {
+        "desc": "The local running options of your pipeline\n",
+        "command": "mypipeline @${configfile} --datadir ${datadir}",
+        "value": {
+          "configfile": {
+            "desc": "The configuration file for the pipeline, typically generated by this wizard\n",
+            "required": true,
+            "type": "str",
+            "value": "config.toml"
+          },
+          "datadir": {
+            "desc": "# The data directory of your pipeline\n",
+            "required": true,
+            "type": "str",
+            "value": ""
+          }
+        }
+      }
+    }
+  }
