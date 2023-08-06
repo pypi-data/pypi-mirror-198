@@ -1,0 +1,16 @@
+command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+command/__main__.py,sha256=ExDRdjl9khP3dG2kLt5N9ulFhJhr2NYhXRRYaGqJUzc,1339
+commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commons/config.py,sha256=Ef11s6iRd3rFGPfHHkvmtKp5crVkzBgDnmv5Ki-LN6Q,2599
+configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configuration/profile_config.py,sha256=2yeYx3wQ8jcUN3_pvMhR4469VmSDumAIJeCLnaIHTlc,939
+openai/CommandChat.py,sha256=rj25OlJ-lj2NgRIH4g98wqq1vwrWLDJXna9QL4y0bAQ,2846
+openai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/logger.py,sha256=XAJ-yasCsxf4CGGHWMfmBOOSnn8SWTwkN8SZ2N3rFLc,1605
+commandchat-0.0.1.dist-info/LICENSE,sha256=NdFNGwhdTy09cZHSPFCiz073hRna92x1LkhuZAA4DuI,1083
+commandchat-0.0.1.dist-info/METADATA,sha256=Fnh5QkUvzY-u_gRVRugcumgETv8uvFBdYtwHJhjbRvU,1821
+commandchat-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+commandchat-0.0.1.dist-info/entry_points.txt,sha256=CISiHz64Do0gmr9p2tBrtae0CpaGQDUz4UuTslrikm0,46
+commandchat-0.0.1.dist-info/top_level.txt,sha256=uVbyDBimQSv3a3rVZDW_ZkuzRfJ9fIFgIFkM2z3k8_I,43
+commandchat-0.0.1.dist-info/RECORD,,
