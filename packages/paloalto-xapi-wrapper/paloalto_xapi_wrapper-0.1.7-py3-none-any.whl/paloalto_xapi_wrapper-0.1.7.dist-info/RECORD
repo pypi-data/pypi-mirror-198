@@ -1,0 +1,5 @@
+paloalto_xapi_wrapper/__init__.py,sha256=G7fVbbGEUD2toFN4ZofhBPF2S3L2PEcLC2Vuo98hkwc,381
+paloalto_xapi_wrapper/xapi_wrapper.py,sha256=xCkdsX2lIrlYl2UNfKnFvvqifVyUhRyVqVjBZljSiRM,1171
+paloalto_xapi_wrapper-0.1.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+paloalto_xapi_wrapper-0.1.7.dist-info/METADATA,sha256=vQAo8zvJgAVUJjBm34tF9xCnAB4AUzbLrBhBrC5HIWY,443
+paloalto_xapi_wrapper-0.1.7.dist-info/RECORD,,
