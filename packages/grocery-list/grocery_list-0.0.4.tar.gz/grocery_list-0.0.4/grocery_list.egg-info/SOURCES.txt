@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+grocery_list/__init__.py
+grocery_list/grocery_list.py
+grocery_list/ingredients.py
+grocery_list/recipes.py
+grocery_list.egg-info/PKG-INFO
+grocery_list.egg-info/SOURCES.txt
+grocery_list.egg-info/dependency_links.txt
+grocery_list.egg-info/top_level.txt
