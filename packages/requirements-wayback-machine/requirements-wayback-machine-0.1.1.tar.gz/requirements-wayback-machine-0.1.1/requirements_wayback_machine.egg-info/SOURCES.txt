@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+requirements_wayback_machine.py
+setup.cfg
+requirements_wayback_machine.egg-info/PKG-INFO
+requirements_wayback_machine.egg-info/SOURCES.txt
+requirements_wayback_machine.egg-info/dependency_links.txt
+requirements_wayback_machine.egg-info/entry_points.txt
+requirements_wayback_machine.egg-info/requires.txt
+requirements_wayback_machine.egg-info/top_level.txt
+tests/test_requirements_wayback_machine.py

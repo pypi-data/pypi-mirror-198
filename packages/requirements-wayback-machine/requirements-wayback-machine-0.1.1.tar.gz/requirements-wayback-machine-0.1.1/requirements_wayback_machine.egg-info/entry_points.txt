@@ -1,0 +1,2 @@
+[console_scripts]
+requirements_wayback_machine = requirements_wayback_machine:main
