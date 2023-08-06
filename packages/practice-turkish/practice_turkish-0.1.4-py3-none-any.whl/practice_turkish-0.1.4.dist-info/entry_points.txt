@@ -1,0 +1,5 @@
+[console_scripts]
+make_csv=practice_turkish.make_csv:main
+numbers=practice_turkish.number:main
+translate=practice_turkish.translation:main
+
