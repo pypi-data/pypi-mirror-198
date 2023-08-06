@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: celldancer
+Version: 1.1.3
+Summary: Study RNA velocity through neural network.
+Author: Wang Lab
+Author-email: gwang2@houstonmethodist.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
