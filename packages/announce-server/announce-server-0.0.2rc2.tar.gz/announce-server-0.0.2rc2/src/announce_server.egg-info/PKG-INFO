@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: announce-server
+Version: 0.0.2rc2
+Summary: Announces a server to a host
+Home-page: https://git.mlden.com/mm/announce-server.git
+Author: Mathematical Michael
+Author-email: mm@clfx.cc
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: pub
+Provides-Extra: api
+
+# Announce Server
+
+A Python library that announces a server to a host.
+
+## Installation
+
+```bash
+pip install announce-server
+```
+
+## Development
+
+To install the developer dependencies required for testing and publishing:
+```bash
+pip install -e .[dev,pub]
+```
+
+## Build
+To build the package, run:
+
+```bash
+rm -rf dist/ build/ .eggs/ .pytest_cache/ src/announce_server.egg-info/
+python -m build --sdist --wheel
+```
+
+To publish:
+
+```bash
+twine upload dist/*
+```
+
+## Test
+
+To run the tests, call:
+
+```bash
+pytest
+```
+
+## Usage
+
+```python
+from announce_server import register_service
+
+@register_service(name="server_name", ip="server_ip", port=8000, host_ip="host_server_ip", host_port=5000, retry_interval=5)
+def your_function():
+    pass
+
+```
+
+## Registry
+
+The `announce_server` CLI provides a simple way to start a registry server. The registry server keeps track of available services and periodically sends heartbeat messages to ensure that registered services are still active.
+
+### Command
+
+```bash
+announce_server start_registry [--address ADDRESS] [--port PORT] [--heartbeat_interval INTERVAL] [--heartbeat_timeout TIMEOUT]
+```
+
+### Arguments
+
+- `--address ADDRESS`: The IP address of the server. Default: `0.0.0.0`.
+- `--port PORT`: The port number of the server. Default: `4999`.
+- `--heartbeat_interval INTERVAL`: The interval between heartbeat messages in seconds. Default: `5`.
+- `--heartbeat_timeout TIMEOUT`: The timeout for waiting for a response in seconds. Default: `3`.
+
+### Example
+
+To start the registry server with the default configuration, run:
+
+```bash
+announce_server start_registry
+```
+
+The full syntax is equivalent to:
+
+```bash
+announce_server start_registry --address 0.0.0.0 --port 4999 --heartbeat_interval 5 --heartbeat_timeout 3
+```
