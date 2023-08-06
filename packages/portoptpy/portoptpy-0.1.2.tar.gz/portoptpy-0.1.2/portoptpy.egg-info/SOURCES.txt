@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+portoptpy/__init__.py
+portoptpy/client.py
+portoptpy.egg-info/PKG-INFO
+portoptpy.egg-info/SOURCES.txt
+portoptpy.egg-info/dependency_links.txt
+portoptpy.egg-info/requires.txt
+portoptpy.egg-info/top_level.txt
