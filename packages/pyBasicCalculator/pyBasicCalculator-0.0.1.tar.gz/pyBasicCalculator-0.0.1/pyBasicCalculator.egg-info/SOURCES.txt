@@ -1,0 +1,12 @@
+pyproject.toml
+BasicCalculator/__init__.py
+BasicCalculator/calculator/__init__.py
+BasicCalculator/calculator/calc.py
+BasicCalculator/ui/__init__.py
+BasicCalculator/ui/gui.py
+pyBasicCalculator.egg-info/PKG-INFO
+pyBasicCalculator.egg-info/SOURCES.txt
+pyBasicCalculator.egg-info/dependency_links.txt
+pyBasicCalculator.egg-info/entry_points.txt
+pyBasicCalculator.egg-info/requires.txt
+pyBasicCalculator.egg-info/top_level.txt
