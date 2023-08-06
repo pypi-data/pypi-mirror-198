@@ -1,0 +1,6 @@
+chester
+diamond
+example_notebooks
+tamtam
+udi
+vis
