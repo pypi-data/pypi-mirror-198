@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: VerisoftSeleniumPythonFramework
+Version: 1.0.0
+Summary: a project of selenium python framework,includes whatever you need for your automation tests framework features.
+Home-page: https://bitbucket.org/efrat93367/selenium_python_framework/
+Author: Efrat Cohen
+Author-email: efrat.cohen@verisoft.co
+License: Apache 2.0
+
