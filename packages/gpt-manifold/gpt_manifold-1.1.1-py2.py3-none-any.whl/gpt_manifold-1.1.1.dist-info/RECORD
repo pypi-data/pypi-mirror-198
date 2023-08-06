@@ -1,0 +1,10 @@
+gpt_manifold/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpt_manifold/__main__.py,sha256=185r74cX42ppu3I2bWeP38pEN32Migqn9fNJuRdFI6I,70
+gpt_manifold/gpt_manifold.py,sha256=aTEH70e0bYQnahtNOV6CjfQM1UiTrpgBA4jq75rmhhU,15103
+gpt_manifold/logger.py,sha256=zg3vjksEuFk7bqvMOkc2WIp9mOC4f5NX9PT1258jRcw,923
+gpt_manifold/strings.py,sha256=mj0GvuFjfrxRR5w9Rve_pduYb0EO5RwPQWpGzPcK_9U,3919
+gpt_manifold-1.1.1.dist-info/LICENSE,sha256=20HdL3rNj60xiUxfFAVoxPkkW3CW1s2UTe5SJ8cHIGs,1063
+gpt_manifold-1.1.1.dist-info/METADATA,sha256=h9uzlDP85apkSOt6AP3hB8g5bEiunNLS-B0uX_NDdVs,1291
+gpt_manifold-1.1.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+gpt_manifold-1.1.1.dist-info/top_level.txt,sha256=ddC7gAUISFe4vDvpEg1u41bOFvQSr0JiEM930tPaekw,13
+gpt_manifold-1.1.1.dist-info/RECORD,,
