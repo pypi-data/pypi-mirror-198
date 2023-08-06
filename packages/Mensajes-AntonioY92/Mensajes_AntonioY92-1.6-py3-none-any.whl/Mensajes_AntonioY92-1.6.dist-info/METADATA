@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Mensajes-AntonioY92
+Version: 1.6
+Summary: Un paquete para saludar
+Home-page: 
+Author: AntonioY92
+Author-email: correo@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.24.0)
+
+# Mensajes
+
+El paquete de mensajerias para pruebas de AntonioY92
