@@ -1,0 +1,9 @@
+keyboard
+pandas
+smtplib
+
+[dev]
+setuptools
+wheel
+twine
+Sphinx

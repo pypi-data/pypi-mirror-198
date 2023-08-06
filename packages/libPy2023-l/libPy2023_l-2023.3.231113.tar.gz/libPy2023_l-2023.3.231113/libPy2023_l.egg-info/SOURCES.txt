@@ -1,0 +1,9 @@
+README.md
+setup.py
+libPy2023_l/__init__.py
+libPy2023_l/libPy2023_l.py
+libPy2023_l.egg-info/PKG-INFO
+libPy2023_l.egg-info/SOURCES.txt
+libPy2023_l.egg-info/dependency_links.txt
+libPy2023_l.egg-info/requires.txt
+libPy2023_l.egg-info/top_level.txt
