@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/tutorial72/__init__.py
+src/tutorial72/module1.py
+src/tutorial72.egg-info/PKG-INFO
+src/tutorial72.egg-info/SOURCES.txt
+src/tutorial72.egg-info/dependency_links.txt
+src/tutorial72.egg-info/top_level.txt
