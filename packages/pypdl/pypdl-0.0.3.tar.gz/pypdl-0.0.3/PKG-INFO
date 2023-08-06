@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pypdl
+Version: 0.0.3
+Summary: A Download Manager for python
+Author: m-jishnu
+Author-email: <jishnum499@gmail.com>
+Keywords: python,downloader,concurrent-downloader,parrel-downloader,download manager,fast-downloader
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A python concurrent python downloader with resume capablities.
