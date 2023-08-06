@@ -1,0 +1,9 @@
+README.md
+setup.py
+textana4sc.egg-info/PKG-INFO
+textana4sc.egg-info/SOURCES.txt
+textana4sc.egg-info/dependency_links.txt
+textana4sc.egg-info/requires.txt
+textana4sc.egg-info/top_level.txt
+texttool/__init__.py
+texttool/analyze.py
