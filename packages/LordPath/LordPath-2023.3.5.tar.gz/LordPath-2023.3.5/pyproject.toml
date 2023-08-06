@@ -1,0 +1,25 @@
+[project]
+name = "LordPath"
+version = "2023.03.05"
+description = "File Manager Helping Module base on Pathlib"
+readme = "README.rst"
+requires-python = ">=3.10"
+keywords = []
+authors = [
+    { email = "lordibex@protonmail.com", name = "lordbex" },
+]
+maintainers = [
+    { email = "lordibex@protonmail.com", name = "lordbex" },
+]
+classifiers = [
+]
+
+dependencies = [
+  'regex',
+  'pyyaml',
+  'LordUtils'
+]
+
+[project.urls]
+homepage = "https://git.lordbex.xyz/PipModule/LordFile"
+repository = "https://git.lordbex.xyz/PipModule/LordFile"
