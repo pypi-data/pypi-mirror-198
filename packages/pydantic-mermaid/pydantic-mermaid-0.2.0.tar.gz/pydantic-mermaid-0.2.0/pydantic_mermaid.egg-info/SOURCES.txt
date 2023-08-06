@@ -1,0 +1,14 @@
+README.md
+setup.py
+pydantic_mermaid/__init__.py
+pydantic_mermaid/__main__.py
+pydantic_mermaid/mermaid_generator.py
+pydantic_mermaid/models.py
+pydantic_mermaid/py.typed
+pydantic_mermaid.egg-info/PKG-INFO
+pydantic_mermaid.egg-info/SOURCES.txt
+pydantic_mermaid.egg-info/dependency_links.txt
+pydantic_mermaid.egg-info/entry_points.txt
+pydantic_mermaid.egg-info/requires.txt
+pydantic_mermaid.egg-info/top_level.txt
+tests/test_basic_test.py

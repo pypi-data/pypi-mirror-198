@@ -1,0 +1,2 @@
+[console_scripts]
+pydantic-mermaid = pydantic_mermaid.__main__:main
