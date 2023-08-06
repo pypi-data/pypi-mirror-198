@@ -1,0 +1,9 @@
+simple_css_selector_transform/__init__.py,sha256=NZXc8izN-3sfsjUgUo9sQYJN4keXlz-NoelBQfeim-4,576
+simple_css_selector_transform/_css_utils.py,sha256=hm7IxBMYF-WVcVJvHSxUY8D4mbWNFHAwCNToSa0gGHU,2078
+simple_css_selector_transform/app.py,sha256=GAiy5f6UikxDIgT4FKumAokfwYfGmsH1gdzwabB4z8w,454
+simple_css_selector_transform/rewrite.py,sha256=0ka24TDct08Hi16MdWwebddy_qrDoVM2xjLoTZtAMaY,4473
+simple_css_selector_transform-0.1.0.dist-info/LICENSE,sha256=mhfwlGiaxDmqsq8ngOuJqWKNHXBRhoZYq2vgpVUMaCM,1080
+simple_css_selector_transform-0.1.0.dist-info/METADATA,sha256=An2cLd7veFEV0DE1qgSeaDqCcaJgpjfZg_Th1Z5gUFM,7712
+simple_css_selector_transform-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+simple_css_selector_transform-0.1.0.dist-info/entry_points.txt,sha256=aK-1jObQZJAZCKeLvoP64KkJttmHckjdxedoywB9TVw,87
+simple_css_selector_transform-0.1.0.dist-info/RECORD,,

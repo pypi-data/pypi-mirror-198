@@ -1,0 +1,3 @@
+[console_scripts]
+simple_css_selector_transform=simple_css_selector_transform.app:app
+
