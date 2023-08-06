@@ -1,0 +1,13 @@
+macrometa_source_snowflake/__init__.py,sha256=WzeJ-BiioORDZXGJJP1Po_8rcE3_mQ9gtm3rm-bX9As,27351
+macrometa_source_snowflake/connection.py,sha256=6eXcf_KyY2-iylC8SfYGdToNI-nD3hxa8H9BW3BGtCw,5660
+macrometa_source_snowflake/sync_strategies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+macrometa_source_snowflake/sync_strategies/common.py,sha256=pIGjvuu3gCAtiGT14i_CG9VSKZtI8FpvB2anzaF4sYU,8798
+macrometa_source_snowflake/sync_strategies/full_table.py,sha256=bHLhqIy5FqoCHHH2g8CNpqo6M7AA_kF2EK0m5OevYoc,4554
+macrometa_source_snowflake/sync_strategies/incremental.py,sha256=wLVdPAcLFNgr7o87rujrpFM1agW0DS79d4IcEfLfScI,3247
+macrometa_source_snowflake/sync_strategies/sample_data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+macrometa_source_snowflake-0.0.1.dist-info/LICENSE,sha256=jIxGZfKZZKmzBWbYAj3iSoFNi7o87Hp3aowDsnkr0Pw,10409
+macrometa_source_snowflake-0.0.1.dist-info/METADATA,sha256=KqD7WHz6Hy0ehbiJTuiwv8MIWTc3ZGxC6_qnegSMocY,5102
+macrometa_source_snowflake-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+macrometa_source_snowflake-0.0.1.dist-info/entry_points.txt,sha256=O8MHigR3QxZP7YrVEMoK1sFlRSHxkJkQ1ub--BOFH4Y,79
+macrometa_source_snowflake-0.0.1.dist-info/top_level.txt,sha256=ve3XXFYAhpZPtutqqIs2XTZezGCFt4zAgIWNLPZ86bM,27
+macrometa_source_snowflake-0.0.1.dist-info/RECORD,,
