@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dbnomics-fetcher-flake8-plugins
+Version: 0.0.1
+Summary: Flake8 plugins used by DBnomics fetchers
+Author-email: Christophe Benz <christophe.benz@nomics.world>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: flake8-blind-except
+Requires-Dist: flake8-breakpoint
+Requires-Dist: flake8-bugbear
+Requires-Dist: flake8-builtins
+Requires-Dist: flake8-comprehensions
+Requires-Dist: flake8-eradicate
+Requires-Dist: flake8-fixme
+Requires-Dist: flake8-implicit-str-concat
+Requires-Dist: flake8-isort
+Requires-Dist: flake8-logging-format
+Requires-Dist: flake8-mutable
+Requires-Dist: flake8-print
+Requires-Dist: flake8-quotes
+
