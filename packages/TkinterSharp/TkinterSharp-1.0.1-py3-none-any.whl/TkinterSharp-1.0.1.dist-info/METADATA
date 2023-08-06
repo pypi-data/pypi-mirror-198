@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TkinterSharp
+Version: 1.0.1
+Summary: A library to simplify Tkinter
+Home-page: https://github.com/Rayanis55/Tkinterpp
+Author: Rayanis55
+License: UNKNOWN
+Keywords: python,tkinter,addon
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+[FR]     TkinterSharp / TKinter# (TK#) est une librairie dont le but est de simplifier la librairie Tkinter \qui permet de créer des interfaces graphiques     , d'un coté elle permet d'éviter d'écrire trop de code en compressent juste simplement le code et     d'un autre coté elle rajoute des definition avec des paramètres déjà préparer comme la defenition :     title qui permet de générer un texte avec comme paramètre : 30 de taille et en gras .
+
