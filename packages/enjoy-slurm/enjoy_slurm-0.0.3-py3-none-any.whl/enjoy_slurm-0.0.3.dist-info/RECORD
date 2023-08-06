@@ -1,0 +1,13 @@
+enjoy_slurm/__init__.py,sha256=x2eWGnYQ8_aX42owjWVRZEcKhuEbUshg8F8xYCRTnSk,52
+enjoy_slurm/_version.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+enjoy_slurm/config.py,sha256=aa_jdsE-IAJSbldCKvcREE6ScDpjPCusN4q7c1p9CwU,121
+enjoy_slurm/slurm.py,sha256=9TZB30KDSsygrCkVNWu6IvXrycJPvEqK9lK_VaTf8Xk,3513
+enjoy_slurm/utils.py,sha256=ahrzNDmH5a-q25vOBtbIAUZwdZO7Nn3SZasIz4ZoWGc,3766
+tests/__init__.py,sha256=KVxAH6UBDPb5kXae7uTMtMGtqseQmwHFww5_8YGotUY,806
+tests/test_parser.py,sha256=WcVJihP0h2wGOz4aAOW-yUcITG-uRbVxq-i1BeigZ70,2615
+tests/test_with_slurm.py,sha256=xewFoCmSMAC53BTk6LDqLbUP8Z6qP1SVILQWl2WwwBU,1065
+enjoy_slurm-0.0.3.dist-info/LICENSE.txt,sha256=MTRQmpi9OtoKkC-1r01hZG8WzBv7RD5GHppQ8i--Qp0,1083
+enjoy_slurm-0.0.3.dist-info/METADATA,sha256=IDdFIDMjEAbXacT9v7FfEyotjmRtm9S23xLW7WsaOJ8,2782
+enjoy_slurm-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+enjoy_slurm-0.0.3.dist-info/top_level.txt,sha256=cATpOazBjCxIKM55ExJwJqKiT2hnZJz_3BFcJuVLieU,18
+enjoy_slurm-0.0.3.dist-info/RECORD,,
