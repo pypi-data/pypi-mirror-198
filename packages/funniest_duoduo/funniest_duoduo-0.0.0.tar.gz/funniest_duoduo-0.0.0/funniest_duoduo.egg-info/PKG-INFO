@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: funniest-duoduo
+Version: 0.0.0
+Summary: My short description for my project.
+Home-page: https://github.com/wieszheng/Cprint
+Author: wieszheng
+Author-email: shiweisai@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
