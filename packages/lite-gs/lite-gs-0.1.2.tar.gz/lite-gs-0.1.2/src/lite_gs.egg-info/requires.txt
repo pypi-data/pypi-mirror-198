@@ -1,0 +1,13 @@
+waitress
+click
+jinja2
+hupper
+
+[dev]
+black
+flake8
+coverage
+pytest
+pytest-cov
+twine>=1.5.0
+wheel

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lite-gs
+Version: 0.1.2
+Summary: Lite-gs is a lightweight Python web framework designed for simplicity and ease of use.
+Home-page: https://github.com/py-package/lite
+Author: Yubaraj Shrestha
+Author-email: yubaraj@py-package.com
+License: UNKNOWN
+Keywords: Python,Framework,Lite,Web,Web Framework,Python Framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Provides-Extra: dev
+License-File: LICENCE
+
+UNKNOWN
+
