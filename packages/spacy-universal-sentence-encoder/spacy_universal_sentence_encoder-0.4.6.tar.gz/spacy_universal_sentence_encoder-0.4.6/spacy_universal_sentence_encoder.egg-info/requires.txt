@@ -1,0 +1,14 @@
+tensorflow<3.0.0,>=2.4.0
+spacy<4.0.0,>=3.0.0
+tensorflow-hub
+
+[multi]
+
+[multi:python_version != "3.8" and python_version != "3.11"]
+tensorflow-text<3.0.0,>=2.4.0
+
+[multi:python_version == "3.11"]
+tensorflow-text
+
+[multi:python_version == "3.8"]
+tensorflow-text>=2.11.0
