@@ -1,0 +1,8 @@
+setup.py
+recommender/rec.py
+recommender/data/movies.txt
+recommender_testing11.egg-info/PKG-INFO
+recommender_testing11.egg-info/SOURCES.txt
+recommender_testing11.egg-info/dependency_links.txt
+recommender_testing11.egg-info/requires.txt
+recommender_testing11.egg-info/top_level.txt
