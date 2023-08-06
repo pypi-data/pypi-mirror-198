@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: arg.sqlutility
+Version: 1.0
+Summary: <h1>This is a project for interacting with sql without writing any sql command</h1>
+License-File: LICENSE
