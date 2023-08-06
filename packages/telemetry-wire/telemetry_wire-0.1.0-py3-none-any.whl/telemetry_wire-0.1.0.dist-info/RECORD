@@ -1,0 +1,5 @@
+telemetry_wire/__init__.py,sha256=OwAOc_Zbr5ldlsdUB9xj40oqd1RuRuOiMTBCTsfxv-Q,41
+telemetry_wire/wire.py,sha256=qEuxIwsu3XP0aa_Vq6abPKGR5sJbREz5PSM0K2TWrxg,20
+telemetry_wire-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+telemetry_wire-0.1.0.dist-info/METADATA,sha256=mVSrl5Q2gm0eHsp5MEGgi6PFR03ksCIIQKlup3rn-hA,549
+telemetry_wire-0.1.0.dist-info/RECORD,,
