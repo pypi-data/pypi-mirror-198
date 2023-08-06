@@ -1,0 +1,14 @@
+lidirl/MCLayer.py,sha256=6aq-k5LDNoUahjloa_Jbg1LFqnVHNRh1oVpljXiEx4Q,89844
+lidirl/__init__.py,sha256=zLKS4aUG8Nqq21kygDouZqpu7EZ8L3kYLkjvhgvJ03I,812
+lidirl/augmentations.py,sha256=QlPNwPPwaK8AEB3XyyhbU9UK7Qz1X8bSbmdwMP0eX08,4854
+lidirl/label.py,sha256=XaJCw2V8hXRZc_1LHmMkwRsPebhnLot3jy5p-d3QyHs,6990
+lidirl/make-data.py,sha256=H4GXsjbQJke8sngPQy66gGXJZD-dLsArBvYerZrfzOM,821
+lidirl/metrics.py,sha256=cy4ocwZHCDI27SPJbXY9hAESlNCl6TbZ5WRG_CnpjQU,937
+lidirl/models.py,sha256=AAuErcwx0iqqmPc5qzumP1xJiqqIsV6oVrJAXuPkOqk,12484
+lidirl/preprocessor.py,sha256=E-6Txwm8W-puNaC_7D82vUtKMVNe067F-p1dLM_Z4ZY,20577
+lidirl/trainer.py,sha256=4hnL5bN4xq_ClCtOYtijd_kQDANJbR72oc-jfTb0GQY,21917
+lidirl-0.0.1.dist-info/METADATA,sha256=eJV4pLkXZqu9ESjAKP3UOWzRdAuExR9dLwX2_6t-dNI,1386
+lidirl-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lidirl-0.0.1.dist-info/entry_points.txt,sha256=ZoZbrzVGBmM13X2UzV0QUY6XDRUpIvFWWXYDqH97-FE,120
+lidirl-0.0.1.dist-info/top_level.txt,sha256=gonBg4WDDEkrZjpXh_caxtzG3Ydi4_A35k-4QCgJi1U,7
+lidirl-0.0.1.dist-info/RECORD,,

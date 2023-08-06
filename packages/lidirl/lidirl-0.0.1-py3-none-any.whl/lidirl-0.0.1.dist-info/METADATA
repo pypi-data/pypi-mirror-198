@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lidirl
+Version: 0.0.1
+Summary: LID toolkit to improve performance on spontaneous noisy text with data augmentation.
+Home-page: https://github.com/rewicks/lidirl/
+Author: Rachel Wicks
+Author-email: rewicks@jhu.edu
+Maintainer-email: rewicks@jhu.edu
+License: Apache License 2.0
+Keywords: language identification,lid,langid,data processing,preprocessing,NLP,natural language processing,comptuational linguistics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: torch (>=1.11.0)
+Requires-Dist: torchmetrics (>=0.8.2)
+Requires-Dist: torchvision (>=0.8.2)
+Requires-Dist: transformers (>=4.22.0)
+Requires-Dist: uncertainty-metrics (>=0.0.81)
+Requires-Dist: flopth (>=0.0.502)
+Requires-Dist: xxhash (>=3.0.0)
+Requires-Dist: typing ; python_version < "3.5"
+
+LIDIRL is a simple toolkit for LID targeting noisy spontaneous text as one might find in internet data.It allows for training custom models or using a pretrained solution.
