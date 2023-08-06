@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: GTTD
+Version: 0.1.14
+Summary: Console bot organizer
+Home-page: https://github.com/C-Hurtmann/Going_to_the_Dream
+License: MIT
+License-File: LICENSE
+Requires-Dist: inquirer
+Requires-Dist: colorama
+

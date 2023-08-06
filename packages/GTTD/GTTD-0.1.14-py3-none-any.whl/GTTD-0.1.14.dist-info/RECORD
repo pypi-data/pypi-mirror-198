@@ -1,0 +1,12 @@
+bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/interface.py,sha256=dEJNu5dOLXCbHXMyXmkqpnvXnFVgN9_DEOAG4VverW4,1100
+bot/sublayers/address_book.py,sha256=r7OgwQ7WHTc9qfREuIbtma0HIQVCsla-DQCbPSPnMhk,18085
+bot/sublayers/cleaner.py,sha256=V36QllDsQGuBbDQ4LXrMBQ89g2tIje4K3BNmlbzuhao,4337
+bot/sublayers/handler.py,sha256=vR8M3VKhq1A04HKyjk7yWTxJxUD9Krs1f7vE9Vp1hUw,963
+bot/sublayers/notebook.py,sha256=wjn3DsoTtQopA5H0rtZjgLAJYksCHgwTEEViL9zImis,11005
+GTTD-0.1.14.dist-info/LICENSE,sha256=MPtIBqaNJF2ICrMhGs_ZOerKo8jb166uSKXLdED6b_c,1079
+GTTD-0.1.14.dist-info/METADATA,sha256=_u8C8SWEf0ezpKq_26iBpQnQDkdchj9zO4RiMhGW8AY,224
+GTTD-0.1.14.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+GTTD-0.1.14.dist-info/entry_points.txt,sha256=RKL9OCtK2tlBhCIak3RQJFuQzU3CgWJaPfKYKJJbcPQ,46
+GTTD-0.1.14.dist-info/top_level.txt,sha256=BfGEUPXgtCpne5POfPQ8gBzacfrzBulmV45hd8vheOI,4
+GTTD-0.1.14.dist-info/RECORD,,
