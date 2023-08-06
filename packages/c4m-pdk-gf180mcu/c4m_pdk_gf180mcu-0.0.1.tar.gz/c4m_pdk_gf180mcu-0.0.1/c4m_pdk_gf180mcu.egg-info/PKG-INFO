@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: c4m-pdk-gf180mcu
+Version: 0.0.1
+Summary: gf180mcu as PDKMaster based PDK
+Author: Staf Verhaegen
+Author-email: staf@fibraservi.eu
+License: GPL-2.0-or-later OR AGPL-3.0-or-later OR CERN-OHL-S-2.0+
+Project-URL: Source Code, https://gitlab.com/Chips4Makers/c4m-pdk-gf180mcu
+Project-URL: Bug Tracker, https://gitlab.com/Chips4Makers/c4m-pdk-gf180mcu/issues
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+This is pre-alpha development of PDKMaster based PDK for open source GF180MCU process.
+Proper README still needs to be written.
