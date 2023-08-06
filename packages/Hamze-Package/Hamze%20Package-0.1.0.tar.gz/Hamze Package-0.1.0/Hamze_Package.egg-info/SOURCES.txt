@@ -1,0 +1,6 @@
+README.md
+setup.py
+Hamze_Package.egg-info/PKG-INFO
+Hamze_Package.egg-info/SOURCES.txt
+Hamze_Package.egg-info/dependency_links.txt
+Hamze_Package.egg-info/top_level.txt
