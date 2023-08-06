@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/aplib.py
+src/aplib.egg-info/PKG-INFO
+src/aplib.egg-info/SOURCES.txt
+src/aplib.egg-info/dependency_links.txt
+src/aplib.egg-info/top_level.txt
