@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+redmage.egg-info/PKG-INFO
+redmage.egg-info/SOURCES.txt
+redmage.egg-info/dependency_links.txt
+redmage.egg-info/top_level.txt
