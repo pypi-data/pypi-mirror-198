@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: literer
+Version: 0.1.0
+Summary: literer is a package that combines the Semantic Scholar and OpenAI APIs to create automated literature reviews
+Home-page: https://github.com/JLDC/literer
+Author: Jonathan Chassot
+Author-email: jonathan.chassot@unisg.ch
+License: MIT
+Keywords: literature review,openai,semantic scholar
+License-File: LICENSE
