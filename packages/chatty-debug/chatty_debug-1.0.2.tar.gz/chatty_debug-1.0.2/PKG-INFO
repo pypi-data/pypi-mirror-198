@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: chatty-debug
+Version: 1.0.2
+Summary: Package for debugging python using ChatGPT
+License: MIT
+Author: danb27
+Author-email: danbianchini@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chat-toolkit (==1.1.1)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Description-Content-Type: text/markdown
+
+<!-- TOC -->
+* [Chatty Debug](#chatty-debug)
+  * [Basic Usage](#basic-usage)
+    * [Function decorator](#function-decorator)
+    * [Script Wrapper](#script-wrapper)
+    * [Response](#response)
+  * [Advanced Usage](#advanced-usage)
+    * [Response](#response-1)
+<!-- TOC -->
+
+# Chatty Debug
+Use ChatGPT to debug your python code
+
+
+## Installation
+
+`pip install -U chatty-debug`
+
+**NOTE**: Requires OPENAI_API_KEY environment variable
+
+
+## Basic Usage
+
+### Function decorator
+
+Basic Usage:
+
+```python
+from chatty_debug import chatty_debug
+
+
+@chatty_debug()  # () is required
+def foo():
+    a = 0
+    b = 10
+    return 100 / a / b
+
+
+if __name__ == "__main__":
+    foo()
+```
+
+### Script Wrapper
+
+<a id="foo"></a>
+```python
+# foo.py
+
+def foo():
+    a = 0
+    b = 10
+    return 100 / a / b
+
+
+if __name__ == "__main__":
+    foo()
+```
+
+`python -m chatty_debug foo.py`
+
+### Response
+
+![English Response](docs/english_response.png)
+
+
+## Advanced Usage
+
+You may also specify a unique prompt. For example, you can request a
+response in a different language, or provide more information about the
+error that might not be available in the traceback.
+
+```python
+from chatty_debug import chatty_debug
+
+
+@chatty_debug(prompt="Me ajude a entender esse erro.")
+def foo():
+    a = 0
+    b = 10
+    return 1000 / b / a
+
+
+if __name__ == "__main__":
+    foo()
+```
+
+Additionally, you can do the same with the script. Using the foo.py script
+from [above](#script-wrapper), you can also do this command:
+
+`python -m chatty_debug foo.py --prompt "Me ajude a entender esse erro."`
+
+### Response
+
+![Portuguese Response](docs/portuguese_response.png)
+
