@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hw1/__init__.py
+src/hw1/main.py
+src/square_glkink.egg-info/PKG-INFO
+src/square_glkink.egg-info/SOURCES.txt
+src/square_glkink.egg-info/dependency_links.txt
+src/square_glkink.egg-info/top_level.txt
