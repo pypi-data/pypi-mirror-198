@@ -1,0 +1,110 @@
+The goal was to develop an application that could automate the analysis of gels based on their protein content. The application was supposed to overcome certain limitations of alternative solutions. The clients also imposed certain requirements for the used technology stack and the type of application.
+
+\section{Problem Outline}
+The primary issue with the current method are its inefficiencies: the tools used to perform image analysis and store the results have a lot of repetitive, manual steps and require precision and consistency to avoid losing significant chunks of progress. Table \ref{table:time-costs} outlines the current steps and the reported time taken to perform them for one experiment, keeping in mind that making a mistake requires previous steps to be redone. Since at least three experiments are done, the total time taken can exceed 7.5 hours per protein.
+
+\begin{table}[h!]
+\small
+\begin{tabular}{|p{0.15\linewidth} | p{0.60\linewidth} | p{0.15\linewidth}|}
+ \hline
+ \textbf{Order} & \textbf{Action} &  \textbf{Time taken} \\
+ \hline
+1 & Signal analysis & 10 minutes \\ \hline
+2 & Ponceau analysis (normalization) & 10 minutes \\ \hline
+3 & Cytochrome c oxidase subunit 4, mitochondrial (COX4) analysis (normalization by another protein) & 10 minutes \\ \hline
+4 & Upload data to database & 120 minutes \\ \hline
+ &  & \textbf{150 minutes} \\ \hline
+\end{tabular}
+\caption{Time costs of gel analysis}\label{table:time-costs}
+\end{table}
+
+Ponceau, signal, and COX4 analyses were performed using ImageJ. Data upload was done through a web interface for textual data and OMERO for images. The main pain points were using ImageJ for the analysis steps due to quirks of the software and data insertion through the web interface for the database, which was slow primarily from having to pick out relevant values from ImageJ results and performing repetitive creation/insertion operations using the web interface. 
+
+\section{Requirements Analysis}
+
+The requirements for the project were gathered in three phases: 1) initial outline and domain knowledge transfer, 2) use case analysis, 3) user flow validation through visual design.
+
+\subsection{Initial Outline}
+
+Initial meetings with the clients introduced the general technical and non-technical requirements for the software. Two significant goals were set out for the project. Primarily, the software should improve the speed of analysis done at the Systems Biology lab. Secondarily it should be published as open-source software under the GNU General Public License version 3 (GPLv3) to increase adoption by the scientific community.
+
+To that end the first major requirement was that the software should be a desktop application to ease distribution and minimize the overhead required for individual scientists or labs using it. Since the clients wanted to retain the ability to maintain the software tools that they use, it was recommended that the project would be based on the Qt framework\footnote{https://www.qt.io/product/framework} which they were familiar with. It was agreed that since the authors were not that familiar with C++ which is native to Qt, a Python middleware framework would be used.
+
+The software was supposed to support individual analysis work and a shared setting - the latter was modeled after the need to integrate with the client's existing systems: 1) PostgreSQL database, 2) OMERO image repository\footnote{https://www.openmicroscopy.org/omero/}.
+
+This divide helped to identify different interested parties from whose perspectives were used to derive the requirements for the project: 1) project lead at the Systems Biology lab, 2) scientist working at the lab, 3) scientist working outside of the lab.
+
+The only existing alternative software found during this phase was ImageJ, which was subsequently tested, and its documentation was used as a means to help derive a common domain vocabulary with the client.
+
+\subsection{Use Case Analysis}
+
+Three main use cases were identified: 1) preparing for analysis, 2) analyzing gel images, and 3) reviewing prior analysis results. Since it was concluded that the scientist working with the software would want to switch between these activities freely, a single user role representing the scientist was enough to describe the use cases.
+
+\subsubsection{Preparing for Analysis}
+
+The user should be able to describe the general context around the analysis, implemented as data table views. This includes:
+\begin{itemize}
+    \item describing the physical gel object and the samples added to its lanes;
+    \item describing which types of measurements were done on which gel images.
+\end{itemize}
+
+\subsubsection{Analyzing Gel Images}
+
+This is the primary use case of the software - the results obtained here are used in further scientific research outside of the application. 
+
+The user should be able to select and modify the gel image on which to perform the analysis. Modifications include: 1) crop and rotate the area of interest, 2) subtract image background, and 3) specify the visual false-color mapping for the image. The user should be able to indicate where on the image specific lanes are positioned and how they are shaped. The user should be able to indicate the areas on which the pixel intensity analysis is performed, what is considered the signal, and what the background is, compare, and annotate the analysis results.
+
+\subsubsection{Reviewing Prior Analysis}
+
+The user should be able to view all previously defined general data and image analysis results without the fear of accidentally modifying anything. It was agreed that a button to toggle between the \emph{viewing} and \emph{editing} modes should always be present on the toolbar, clearly indicating which mode is currently active. The user should not be able to perform any actions which may result in data being modified when not in the editing mode. To simplify the review process the user should be able to search for the previously analyzed gels and measurements.
+
+\subsection{User Flow Validation}
+
+A month after the start of the project a longer meeting with the clients was held to finalize the use case details. As a result a mock-up of the application user interface (UI) views was drawn and finalized over several iterations of feedback from the clients. The visual look and user experience (UX) elements described with it also became part of the requirements. The mock-up can be seen in Appendix 1.
+
+As a result of working through a visual means, a previously missing case of the main analysis flow was discovered leading to substantial changes in the existing implementation. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figures/flow-before.png}
+    \includegraphics[width=0.5\textwidth]{figures/flow-after.png}
+    \caption[\textit{Change in the order of associations between components}]%
+    {\textit{Change in the order of associations between components}}
+    {\small {Top: initial order; Bottom: final order}}
+    \label{fig:flow-change}
+\end{figure}
+
+\subsection{Identified User Stories}
+
+Together with the initially identified interested parties and the requirements found for the scientist role during use case analysis, a total of 39 requirements were identified and described as user stories in tables \ref{table:requirements-lead} - \ref{table:requirements-scientist} of Appendix 2. The stories were divided as:
+
+\begin{itemize}
+    \item three from the perspective of the Systems Biology lab project lead;
+    \item three from the perspective of a scientist working at the Systems Biology lab;
+    \item four from the perspective of a scientist not working at the Systems Biology lab;
+    \item 24 from the perspective of a scientist.
+\end{itemize}
+
+\section{Existing Solutions}
+
+The main alternatives to our application are ImageJ and Image Lab. Neither of them fully covers the client's needs. A comparative table based on the requirements specified in the previous section can be found in Table \ref{table:alternative-comparison-results} of Appendix 4.
+
+\subsection{ImageJ}
+
+The existing (partial) alternative to our solution is ImageJ which is an image processing and analysis software for scientific usage. It lacks certain functionalities that our application aims to provide. 
+Firstly, it does not offer the possibility to undo any actions during analysis. Mistakes made at later stages of analysis mean starting the process over again. Several hours of wasted time are possible because of that limitation. Our application does allow the user to correct their errors without discarding the whole analysis.
+Also, ImageJ does not allow selecting curved regions on images. That means it is not possible to correctly analyze gel lanes if they happen to be curved. One of the requirements was to implement this functionality in our application.
+It is also not possible to save any data, only to export the results to comma-separated values (CSV) file. Therefore scientists have to start their work all over again every time they want to analyze a new gel.
+
+\subsection{Image Lab}
+
+Image Lab is a software meant for imaging and analyzing gels and blots. It supports most of the same features as ImageJ, most notably adding the possibility to analyze curved lanes.
+However, its main drawback is that it is not possible to save data to resume the work later. Only data export is provided \cite{image-lab}.
+
+\section{Project Management}
+
+Development work was organized in one-week-long sprint cycles. Meetings with the clients and supervisor took place on Mondays and focused mostly on verifying the implementations, prioritization, and acquiring domain knowledge. Planning meetings with the developers took place on Fridays (and later on Sundays), where issues were detailed and development times estimated. For estimations the average hours suggested by all developers was used with the addition of buffer time which was modified based on the performance of prior sprints. During the final few sprints, less effort was placed on time estimations since it was clear there was no time where to split or postpone their delivery.
+
+Summaries of the meetings, as well as various documentation can be found on the GitLab Wiki page\footnote{https://gitlab.cs.ttu.ee/jakutt/iaib/-/wikis/home}. Most of the meetings and communication took place over Microsoft Teams\footnote{https://www.microsoft.com/en-us/microsoft-teams/group-chat-software}.
+
+Milestones, issues, and source code was managed as a project on the university GitLab\footnote{https://gitlab.cs.ttu.ee/jakutt/iaib}. Feature development was done on separate branches and required approval from a reviewer before merging to the main branch.

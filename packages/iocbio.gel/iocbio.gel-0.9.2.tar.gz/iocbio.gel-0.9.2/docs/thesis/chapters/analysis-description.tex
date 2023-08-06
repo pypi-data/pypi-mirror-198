@@ -1,0 +1,72 @@
+
+% Skipping this section right now.
+
+% (TODO: describes how image data is modified at various points during the analysis. same/similar style of notation should be used)
+
+% (TODO: refer back to previous figures which showed the UI component used to generate the data points - that is ROI for adjust, Lane, zero-line and limits for area)
+
+% \section{ROI selection}
+% Region to be analyzed on gel image is selected at the “Adjust” step of analysis. Main algorithmic problem was to crop the original image(NumPy array) based on the position and rotation of the rectangular region. There was no need to implement this by manipulating the arrays as PyQtGraph ROI object provided “getArrayRegion” method. 
+
+% (TODO: Bring out the input and output of this step, image data matrix -> crop and rotation applied -> reduced data matrix)
+
+% \section{Background subtraction}
+
+% (TODO: ref back to bg subtract method, describe i/o and via matrix subtraction in between - interested only in the part which modifies the data, not images)
+
+% \section{Lane Selection}
+
+% (TODO: mostly similar i/o description as for ROI selection in adjust)
+
+% \section{Plot area calculation}
+
+% (TODO: you should reuse i/j indexes even for different matrices)
+
+% Pixel intensities are represented in a \(O_{i j}\) matrix where each (\({i j}\)) element has a gray scale value ranging from 0 (white) to 255 (black).
+
+% \textbf{Intensities before being restricted by limits and zero-line}%
+% \begin{equation}
+% S_{r c}=(O_{i j})_{\substack{y \leq i < y+h\\ x \leq j < x+w}}
+% \end{equation}
+% \begin{equation}
+% I = \begin{bmatrix}\sum S_{1 c} \sum S_{2 c} ... \sum S_{r c} \end{bmatrix}
+% \end{equation}
+
+% where
+% \begin{itemize}
+%     \item [\(S_{r c}\)  =] Lane slice with \(r\) rows and \(c\) columns
+%     \item [\(O_{i j}\) =] original image with height \(i\) and width \(j\)
+%     \item [\(x, y, h, w\) =] Lane top left coordinates on the image, Lane height and width
+%     \item [\(I\)  =] pixel intensities accumulated horizontally across the Lane
+% \end{itemize}
+
+% \textbf{Intensity plot area with restrictions}%
+
+% \begin{equation}
+% P = \sum\limits_{i=l}^u I_{i}
+% \end{equation}
+
+% TODO: These are a bit incorrect since sets don't have an order. Use series notation instead.
+
+% \begin{equation}
+% L = \lbrace f_{1}(p_{i}, p_{i+1}) \mid p_{i}, p_{i+1} \in B \rbrace
+% \end{equation}
+
+% \begin{equation}
+% A_{z} = \sum\limits_{p_{i}\in L}^{|L|-1} f_{2}(p_{i}, p_{i+1})
+% \end{equation}
+
+% where
+% \begin{itemize}
+%     \item [\(l, u\)  =] lower and upper limits for integrating the intensity curve
+%     \item [\(P\)  =] Area under intensity curve within limits
+%     \item [\(B\)  =] \(\lbrace (x_{1},y_{1}), (x_{1},y_{1}) , ... , (x_{n},y_{n}) \rbrace\) Set of points representing the Plot zero-line
+%     \item [\(f_{1}(p_{1}, p_{2})\)  =] Function returning a pair of \((x,y)\) points which are either within the limits or are the segment \((p_{1}, p_{2})\) intersection points with either or both of the \(x=l\) and \(x=u\) lines.
+%     \item [\(L\)  =] A set of points within limits representing the zero-line
+% \end{itemize}
+
+% TODO: Translate to equations:
+% \begin{itemize}
+%     \item area under zero line within limits = sum of: use found points to form line segments and find their area using right trapezoid formula (y1 + y2) * (abs(x1 - x2) / 2)
+%     \item subtract area under zero line area from plot area
+% \end{itemize}

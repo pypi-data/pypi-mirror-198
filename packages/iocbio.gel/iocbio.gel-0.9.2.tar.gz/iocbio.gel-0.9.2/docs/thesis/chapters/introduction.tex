@@ -1,0 +1,40 @@
+The main motivation for this project was the client's need to analyze protein concentrations efficiently and conveniently. Clients understood the problem well since this is a rather common task in molecular biology. Existing solutions had certain limitations which made them either inefficient or lacking in necessary functionality. We tried to provide a solution that would overcome these limitations.
+
+Protein quantification is a method for finding protein concentrations from blots. The Systems Biology lab currently uses ImageJ for this purpose. The blot image can be adjusted by cropping it, adjusting brightness, and performing background subtraction. Lanes are identified on the processed image and marked with selection tools and defined as lanes. The lanes can then be plotted as histograms, where peaks or valleys indicate band intensities. Those indentations can be closed off with lines, then the enclosed areas selected and exported \cite{protein-quantification-imagej}.
+
+There were a few problems with using ImageJ for this: 
+\begin{itemize}
+    \item accidentally creating a wrong lane selection is not undoable, meaning reopening the project from the last saved state and doing everything again up to that point is necessary;
+    \item the data needs to be manually exported and inserted into a database;
+    \item there can only be a single item in the undo/redo buffer, meaning more than one mistake, in general, requires restarting.
+\end{itemize}
+
+Due to the problems with using ImageJ, the Systems Biology lab requested an application to be made specifically for protein quantification that would resolve them, by providing better undo/redo functionality, a direct database connection, and ability to edit selections and recalculate changes. The application was written in the Python programming language using the PySide6 framework.
+
+\section{Domain Overview}
+
+\subsection{Protein Determination}
+Protein determination is the process of finding out the concentration of a protein in a sample \cite{protein-determination-food}.
+
+\subsection{Gel}
+A gel is a quasi-solid with a wide range of possible properties. Its cross-linked system makes it weigh like a liquid, act like a solid and contributes to its hardness and adhesiveness \cite{supramolecular-polymer-networks-and-gels}. There are various types of gels, of which typically relevant to gel electrophoresis are agarose, polyacrylamide and starch. Gel electrophoresis for proteins commonly uses polyacrylamide gels \cite {gel-electrophoresis-principles-basics}.
+
+In gel electrophoresis, gels have wells for the samples, each well run forming a lane. Some lanes, usually one, may be used as a reference, utilizing a commercially available matter for comparison with samples. As voltage is applied, the samples migrate through the lane, forming separate bands within it \cite{gel-electrophoresis-principles-basics}.
+
+\subsection{Gel Processing}
+
+For protein detection, western blotting is a widely used analytical technique involving gel electrophoresis. Proteins in the sample are first separated through gel electrophoresis, then transferred from the gel onto a membrane, most commonly using the electroblotting method. The protein on the membrane is then stained so that it can be visualized, which is used to check the uniformity of the transfer and perform normalization. There are many methods for staining, with Coomassie brilliant blue R 250 and Ponceau S, among others, commonly used. In order to prevent interactions between the membrane and antibody, blocking is done with a protein solution. The membrane is then probed for the protein of interest in a process called incubation, which, when successful, should produce an indicating color. In the detection and visualization phase, the failed probes will be washed away, and a variety of detection methods can be applied for protein level determination. The banding patterns are usually documented by photographing or scanning the gel, which can then be used for further analysis \cite{gel-electrophoresis-principles-basics}.
+The image should be taken such that the bands look sharp, without indistinct edges or fuzziness \cite{western-blotting-basics}.
+
+\subsection{Gel Analysis}
+Band quantification is the process of measuring signal intensity of protein bands. Because the intensity is proportional to target protein concentration, it is possible to compare samples with other samples or the control. This data can then be used for further statistical analysis \cite{western-blotting-basics}.
+
+\subsubsection{Measuring by Blot Image}
+The grayscale blot image can be loaded into an image processing software for analysis. Region of Interest (ROI) can be defined on the image around the lanes/bands subject to analysis. The pixel values in the region of interest are added up in top-to-bottom chunks, with the values from the chunks forming an intensity graph. The difference in areas between the graph and a defined baseline determines the intensity of the given region, which can then be compared with other regions.
+
+\subsection{Data Analysis}
+
+Results from western blotting are commonly used in biochemistry to study different aspects of proteins and disease diagnosis \cite{western-blotting-technique}. It can be used, for example, to detect tissue factor in animals \cite{western-blotting-tissue-factor}, act as a confirmatory test for syphilis \cite{western-blotting-confirmatory-syphilis}, and for studying asthma \cite{western-blotting-asthma-study}.
+
+\section{Project Scope}
+The given project aims to help with processing the results of western blots through image manipulation and image data analysis, as well as automatically storing analysis results in a database. Source images can be cropped, rotated, have their background subtracted, and color-mapped for ease of use. Sections of the image can have lane regions defined, which will produce intensity graphs based on pixel values within the lane region. The intensity graphs can have hand-applied zero-lines to calculate the desired area. The created lanes, zero-lines, and lane measurements are saved to a database in a form that allows for further analysis with additional tools and retroactive changes.
