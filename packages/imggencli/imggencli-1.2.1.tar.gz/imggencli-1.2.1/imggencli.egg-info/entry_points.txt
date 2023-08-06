@@ -1,0 +1,2 @@
+[console_scripts]
+imggencli = imggencli.cli:cli
