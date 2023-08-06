@@ -1,0 +1,4 @@
+matplotlib
+numpy
+pygmsh>=7.1.13
+scipy
