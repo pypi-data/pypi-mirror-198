@@ -1,0 +1,14 @@
+napari_listener/__init__.py,sha256=ybKoNfCCVzdZ001KccDOjvMO_HwFLWYbIkcyPA9yIRc,63
+napari_listener/_actions.py,sha256=qGvTBQkwSM9i8FZS6i5cvbxs1Xo0DDtwIQOZUMUqHDg,667
+napari_listener/_app_model_handler.py,sha256=AC_nUcCkuysYFs6RoLK5bpPn81jAja6upIg6qqVBE6k,1565
+napari_listener/_version.py,sha256=q_L10pns-BIRk6My2-qoHwHtj55JbwtliQotFcoqbLs,162
+napari_listener/_widget.py,sha256=jBMLBA_sN2FN7n1cHVlxFnPuQpddaGsuaS49RNtxpHc,2022
+napari_listener/napari.yaml,sha256=UIvZDJ9edUy30HGg70tqpS9_FEGcXyA93WykIABbglo,303
+napari_listener/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_listener/_tests/test_widget.py,sha256=0w_FBQ1MsXeUnP8Drq89GiUvtt6x1HfcY8t8hrA0hxo,2070
+napari_listener-0.1.0b1.dist-info/LICENSE,sha256=8k7SlKOyLdOa0Ski2LOIUZjQ4Y25Z1ipykMCvbJyZWY,1083
+napari_listener-0.1.0b1.dist-info/METADATA,sha256=W1i3tTWuXZHb3giqCcMEFa0H1TD-qDcRgMBrk8XfoSk,4220
+napari_listener-0.1.0b1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+napari_listener-0.1.0b1.dist-info/entry_points.txt,sha256=rD5oJcf45f2cP9ikVXhKV3si5EoA_E4pMedx3X3ZPJ8,64
+napari_listener-0.1.0b1.dist-info/top_level.txt,sha256=MlFLVV1ZTTOnlgy45wgMrY0chg-ikI3Q38i3RYec94M,16
+napari_listener-0.1.0b1.dist-info/RECORD,,
