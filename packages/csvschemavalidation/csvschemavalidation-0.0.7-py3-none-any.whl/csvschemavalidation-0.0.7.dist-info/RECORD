@@ -1,0 +1,17 @@
+csvschemavalidation/__init__.py,sha256=cj6FwkZ1kM3aPS5H5lE9Tl-uOZhihM-_5D7iMxq6fAY,42
+csvschemavalidation/checker.py,sha256=zpfssw3L9nAFO9gavQ4eLZNwQtQbFug88wHCZRIX6d8,8971
+csvschemavalidation/defaults.py,sha256=yNXv3Wjs4ePFlpscAskRljEZI21Dn1P7nQ64egoTDSA,788
+csvschemavalidation/definitions.py,sha256=F4uar5tDzmiJ7o_RCK838_ylTpQ91a798xC-hKidnzI,165
+csvschemavalidation/exceptions.py,sha256=bVF6oZzzXEiczW4SFceSZkZLyOpqd-jdy6MS6rTgA-Y,541
+csvschemavalidation/schema.json,sha256=jToU4YYsMfYRp_qheJtwwo0GkZfejLSta49sri9jNXI,23093
+csvschemavalidation/utilities.py,sha256=BlL17qGTdigr8QU-f89KlYpK4L7Q37c-WwC5RCfnqWQ,1231
+csvschemavalidation/validators/__init__.py,sha256=Y8AOfhbKUh5QgrWT0yJ5Po7a6cOKrCt4tTvJJZTTXWk,287
+csvschemavalidation/validators/data_validators.py,sha256=8YpOJprrlH5XzdtsUGFj8UMGTddVVTV7foSzP4ASkXc,5850
+csvschemavalidation/validators/header_validators.py,sha256=BZDN-neBpsnye2-RBNELzpNitsC_vEk3PDKkCr3BM_Y,6775
+csvschemavalidation/validators/rfc4180_validators.py,sha256=50nmDYuWv8TOP8o-Ah3QOri5i8JjdPlfHmxB-aj0AOA,790
+csvschemavalidation/validators/types.py,sha256=FcAbMVGcHMP-AxxGmSlHCn_MyFerJnAZ4CXPrfjiHEk,5101
+csvschemavalidation-0.0.7.dist-info/LICENSE,sha256=uwrswCH1bXya76AaCbtSgxpdGpi94snoGoLE3m77rvg,1067
+csvschemavalidation-0.0.7.dist-info/METADATA,sha256=Vx7BkS0Gm7-PVdCNAfxc2bweotmBYm3_7cQlyeoH-0Y,2115
+csvschemavalidation-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+csvschemavalidation-0.0.7.dist-info/top_level.txt,sha256=gnox6NktOXiY7-o20jY-wXHmrupH5UhEx1bntrfTpck,20
+csvschemavalidation-0.0.7.dist-info/RECORD,,
