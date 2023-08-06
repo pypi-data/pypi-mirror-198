@@ -1,0 +1,6 @@
+rtree
+numpy
+scikit-image
+vtk
+matplotlib
+trimesh
