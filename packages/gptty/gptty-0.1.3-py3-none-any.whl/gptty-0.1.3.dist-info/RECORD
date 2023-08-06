@@ -1,0 +1,11 @@
+gptty/__main__.py,sha256=Fwyjpfl_4mOPFdhCJflT-hMjbFClkAD9tXtkFMYZxKA,1232
+gptty/config.py,sha256=RXz4KqJJBBwqHfgPkqIWlEfDNqmGlk_i3xVwuaxIPJY,1491
+gptty/context.py,sha256=wLxiXeuR_R5SjfEkIWVEKTsQS_tiLStWvgi6g8mt94M,540
+gptty/gptty.py,sha256=UUIgv2bkQ2-vDbWOmp10gc-Ek49898FwHM28vzaXkms,4705
+gptty/tagging.py,sha256=BExUnHLeYNW3PUZJb8MzOgq4hJpF8yzIj9s10qFiG3w,2532
+gptty-0.1.3.dist-info/LICENSE,sha256=EJs-c_7F4175vDPk-X8Y7O59BhCg7mHYz3Kp-8NhKVE,1073
+gptty-0.1.3.dist-info/METADATA,sha256=tjN4jqQtB2QbkthQe09tZp-TgWVHzSV7lYzLOyfCeJc,4679
+gptty-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gptty-0.1.3.dist-info/entry_points.txt,sha256=ojipW55zeVX8bi0lTHBuLN-lj6wI1IE7j2jkec-H7Vg,46
+gptty-0.1.3.dist-info/top_level.txt,sha256=iJg-oMNTndLNGIrtmHolpVnCcPmh-ZOZ25qNArNvNvw,6
+gptty-0.1.3.dist-info/RECORD,,
