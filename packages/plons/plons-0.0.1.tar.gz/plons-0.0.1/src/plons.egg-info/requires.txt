@@ -1,0 +1,14 @@
+matplotlib
+healpy
+astropy
+scipy
+numpy
+numba
+argparse
+datetime
+
+[dev]
+black
+bumpver
+pip-tools
+pytest
