@@ -1,0 +1,11 @@
+kr8s/__init__.py,sha256=tDr_DS7aqnaS_BawZAugxFZkoM2jjHCeofxvYAvrVyg,263
+kr8s/conftest.py,sha256=H7mWsa849bFHk7v7uqJO3Kq6gac8VHfpdO506H_FVNM,722
+kr8s/mixins.py,sha256=wEPIe8nkhtDCWj7FqOxHY13Nz_RsdPkpmXE7UBMRYJ4,895
+kr8s/objects.py,sha256=jNoP61acqvtVpGbwXQqI5m61rB4t7rMKuWQxzLXAkNI,7558
+kr8s/query.py,sha256=YUV6X6EjZ6Ho8Px7b_1ENuYlnctvpELR5CnQAH818UA,2634
+kr8s/tests/test_pykube_objects.py,sha256=uFxNabXyPhkbGJa4cdJsrp07WwgF5FPlEOn_4exurFw,866
+kr8s/tests/test_query.py,sha256=x6Hui7Jv8hipBCa3XZYhkKJ20bF2cl73YG4b2_3QbhA,598
+kr8s-0.1.0a0.dist-info/LICENSE,sha256=G31HSL56UjcUBZz5-kb5Y2O3lsMFdTfxcPipLscn3y8,1549
+kr8s-0.1.0a0.dist-info/METADATA,sha256=I-cAgui_beWjrf8-v630CmhmmT1W7orLe7xuBop_BTQ,657
+kr8s-0.1.0a0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+kr8s-0.1.0a0.dist-info/RECORD,,
