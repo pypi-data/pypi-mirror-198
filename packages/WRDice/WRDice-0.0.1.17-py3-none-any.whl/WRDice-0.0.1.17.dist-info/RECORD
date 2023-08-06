@@ -1,0 +1,13 @@
+wrdice/Army.py,sha256=1nLSEDyEgTgvYmMh6e-UDuA6MrjsVFMuGlH-e-5ql28,7639
+wrdice/Battle.py,sha256=VUEEbf0PPQca-4jJ-ZI7WlsEQdpkiEq5PuRBz6PN9yM,21852
+wrdice/D12Colored.py,sha256=G-WIZC-DjhCfuMVoQrQdzfnUX9R7m0MmpjKXPQJyKRM,502
+wrdice/QuickBattle.py,sha256=7j5eKPh_7n8Wiw_rM8TFmn9ZasQZ8jt2od3SKYuypGA,17801
+wrdice/Simulate.py,sha256=onbZLl3AjRrpIingtvffMrnDLkORU4clayzphaKjC3M,22814
+wrdice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wrdice/__main__.py,sha256=y7A5WMa8iuBKQu_I-v684FFacv7LuFRqhmvmhXU-jiM,1473
+wrdice/config.py,sha256=LFJk2PV4nUlu8DfG0YK4Ixcs3S7E-3AuOt48uXCWIy4,4459
+wrdice/util.py,sha256=4G5GepJgZ98z1Ct6ozytDWTAFiJL0uuJ0vNYG-tWYi4,774
+WRDice-0.0.1.17.dist-info/METADATA,sha256=03-l26Zko4MFPlfz9mO0MHWinYXtkGfUk9ojvY4yyOg,2201
+WRDice-0.0.1.17.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+WRDice-0.0.1.17.dist-info/top_level.txt,sha256=KRgrR3xoIEf1kFbR6UBG2o7CJdbMh8X2sGvctR0jsV4,7
+WRDice-0.0.1.17.dist-info/RECORD,,
