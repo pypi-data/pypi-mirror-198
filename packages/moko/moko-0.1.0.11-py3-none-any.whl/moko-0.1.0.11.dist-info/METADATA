@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: moko
+Version: 0.1.0.11
+Summary: Modern Korean NLP Package
+Home-page: https://cmks.yonsei.ac.kr/
+Author: m.kim, yk.jeong
+Author-email: munui0822@gmail.com, yookyungjeong@gmail.com
+License: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: soyspacing
+Requires-Dist: hanja
+
+moko는 1900년대 국한문혼용 텍스트에서 한자 단어를 추출하는 모듈입니다. <br>
+근대한국학연구소 HK+사업단의 한국학 DB구축 연구의 일환으로 제작되었습니다.
+
+## Installation
+
+```
+$ pip install moko
+```
+
+## Usage
+
+국한문혼용 텍스트로부터 명사를 추출하는 모듈은 아래 두 종류가 있습니다.
+- noun_chunk_dict: 사전기반 단어 추출
+- noun_chunk_model: 띄어쓰기 모델을 활용한 텍스트 분할
+
+명사 추출을 기본으로 하며, 수사는 추출하지 않습니다.
+
+```
+from moko import noun_chunker
+
+text = "論說\n⊙粤自循蜚、結繩遂寢、書契旣興以來、人生學業聞見之弘博必由載籍"
+
+noun_list = noun_chunker.noun_chunk_dict(text, char_num=4)
+print(noun_list)
+
+noun_list = noun_chunker.noun_chunk_model(text)
+print(noun_list)
+```
+noun_chunk_dict의 char_num은 추출될 단어의 길이를 조정합니다.<br> 
+가급적 단어가 4글자가 넘지 않도록 default 값이 4로 설정되어 있어 char_num 인자를 생략 가능합니다.
+
+띄어쓰기 모델은 soyspacing 모델을 활용하였으며, <br>
+학습데이터는 황성신문의 논설기사를 관련 연구자가 직접 띄어쓰기한 자료를 사용하였습니다.
+
+간단한 단어 빈도측정과 공기어 추출이 가능합니다.
+
+```
+from moko import term_analyzer
+
+term_analyzer.word_count(noun_list)
+term_analyzer.co_occurence_count(noun_list)
+```
+
+## Update
+아래의 기능이 추가 오픈될 예정입니다.
+- 이용자 사전 수정
+- 토픽모델링 연계 기능
