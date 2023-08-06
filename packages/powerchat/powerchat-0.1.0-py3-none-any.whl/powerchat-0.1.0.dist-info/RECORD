@@ -1,0 +1,8 @@
+powerchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powerchat/file_utils.py,sha256=h2UKjiTrfFgWTuyGVaSkSjQgk3ZEAJGuIeL6dejmfFc,3765
+powerchat/main.py,sha256=yNyI7UZ8w08EfE5vFqgtGIoa60bdk4VvKVwzkqT6vMQ,3204
+powerchat/openai_utils.py,sha256=is_fztPbyGO5qZHpoLIyekzgfkJ9Ulo6VI0ZgS-o8pk,443
+powerchat-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+powerchat-0.1.0.dist-info/entry_points.txt,sha256=Be8hHNebQGKR8QdlPK-gkj9Am9gyhCOv2gdbTqMKA9I,53
+powerchat-0.1.0.dist-info/METADATA,sha256=mOt7WyhnxblvXbnxv9d9DTBL_lfLgoyRbP2r1s0EhGs,2133
+powerchat-0.1.0.dist-info/RECORD,,
