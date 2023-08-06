@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: python-quaternary
+Version: 0.0.0
+Summary: Make quaternary plots in python with matplotlib
+Home-page: https://github.com/sachour/python-quaternary
+Author: Sofiane H. Achour and contributors
+Author-email: sachour@utexas.edu
+License: MIT
+Download-URL: https://github.com/sachour/python-quaternary/tarball/0.0.0
+Description: python-quaternary is a plotting library for use with matplotlib to make quaternary
+        plots.
+Keywords: matplotlib quaternary plotting
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
