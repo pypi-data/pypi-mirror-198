@@ -1,0 +1,14 @@
+spare_scores/__init__.py,sha256=txsqtkW9QtcsweOboBV_dlcXpLVcq7o--9gMrRQa3nc,61
+spare_scores/data_prep.py,sha256=ViH9DcAmUurSq5Lbwq3kmSqqNwir-lwYmwO5B6uLEhI,12480
+spare_scores/spare_scores.py,sha256=Qwx38EndE3CkjplIkoURt8sfJDu8MuheKmXOAxTRBQ0,7114
+spare_scores/svm.py,sha256=a4v7S0IDS47DC7imPNDzDZprV4aXrELeI4Ej3PmZfcM,3947
+spare_scores/data/example_data.csv,sha256=yPL1YihLHHb1ANnL6HJxbnRNb81K3k6zgUmt-8Vob8E,44134
+spare_scores/mdl/mdl_SPARE_AD_hMUSE_single.pkl.gz,sha256=sMsbOsbpkd2q77WycSxiFM_Kc8of9HZNAzxHJNsqQY8,14797284
+spare_scores/mdl/mdl_SPARE_BA_hMUSE_single.pkl.gz,sha256=VKuGPS_VcCsJFz5I3vpCjtj1UcHGx7tA1X_GvHlGT6E,156137
+spare_scores/mdl/mdl_diSPARE_AD_hMUSE_single.pkl.gz,sha256=1GSk1yu32M7HOToaqjcGxBUnwMP3OnlADsQVHd18mDc,18529222
+spare_scores/mdl/mdl_diSPARE_BA_hMUSE_single.pkl.gz,sha256=A5zbwfwsGcGgroR8K_FxRUWjzUmGLXGbxqZo4iA8-Ns,44891
+spare_scores-0.1.10.dist-info/LICENSE,sha256=9420-FTBe6dOp6eF5ktNaD56IMb2xjYapkaXLUk_Bfg,142
+spare_scores-0.1.10.dist-info/METADATA,sha256=zB4zMrnxahPP2Ycz4LndhNPGSYVk_GeZVlihm-nZwHg,2857
+spare_scores-0.1.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spare_scores-0.1.10.dist-info/top_level.txt,sha256=wPDWeYXhOygRcC0tfBB7iYBlNSWZPNxwJ3dy2nYihY4,13
+spare_scores-0.1.10.dist-info/RECORD,,
