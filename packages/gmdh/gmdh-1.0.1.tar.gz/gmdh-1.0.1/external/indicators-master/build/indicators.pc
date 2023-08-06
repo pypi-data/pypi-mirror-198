@@ -1,0 +1,7 @@
+includedir=C:/Program Files (x86)/indicators/include
+
+Name: indicators
+Description: Activity Indicators for Modern C++
+URL: https://github.com/p-ranav/indicators
+Version: 2.2.0
+Cflags: -I${includedir}
