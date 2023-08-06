@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+Python_CartolaFC.egg-info/PKG-INFO
+Python_CartolaFC.egg-info/SOURCES.txt
+Python_CartolaFC.egg-info/dependency_links.txt
+Python_CartolaFC.egg-info/requires.txt
+Python_CartolaFC.egg-info/top_level.txt
+cartolafc/__init__.py
+cartolafc/api.py
+cartolafc/constants.py
+cartolafc/errors.py
+cartolafc/models.py
+cartolafc/util.py
+tests/test_api.py
+tests/test_utils.py
