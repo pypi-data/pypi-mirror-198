@@ -1,0 +1,8 @@
+simplify_polyline/__init__.py,sha256=wJkrKOoS2IK7n-pRetfUL1mgtc-6XZe4mkANJqWPBB4,290
+simplify_polyline/helpers.py,sha256=MV7Wr2U8yEcl_GesFXULH04dAMiM8hb1CbdGwS1Hwx0,2060
+simplify_polyline/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplify_polyline/simplifiers.py,sha256=FFIIcRnOwjdRci0tYuyR3DNLv41IOfN57hWoghg3fog,14005
+simplify_polyline/type_hints.py,sha256=dXR5WhBh8f5-nIcrER65ikFiDJPjRyHSP33kx0b-ZaA,425
+simplify_polyline-0.0.1.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+simplify_polyline-0.0.1.dist-info/METADATA,sha256=qTHNaAquybCOUJiqPj2EvjWWK3Xvk8T6URJ7C_nR7lo,2069
+simplify_polyline-0.0.1.dist-info/RECORD,,
