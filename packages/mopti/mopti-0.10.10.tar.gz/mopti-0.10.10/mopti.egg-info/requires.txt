@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy>=1.7
+
+[docs]
+mkdocs
+mkdocs-material
+mkdocstrings>=0.18
+mkdocstrings-python-legacy
+
+[tests]
+pytest
+scikit-learn
