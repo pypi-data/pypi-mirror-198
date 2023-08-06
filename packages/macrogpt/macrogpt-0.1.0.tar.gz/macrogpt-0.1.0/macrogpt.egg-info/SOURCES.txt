@@ -1,0 +1,6 @@
+setup.py
+macrogpt.egg-info/PKG-INFO
+macrogpt.egg-info/SOURCES.txt
+macrogpt.egg-info/dependency_links.txt
+macrogpt.egg-info/requires.txt
+macrogpt.egg-info/top_level.txt
