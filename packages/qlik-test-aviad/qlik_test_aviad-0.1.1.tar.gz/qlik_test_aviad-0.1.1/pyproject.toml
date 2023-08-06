@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qlik-test-aviad"
+version = "0.1.1"
+description = ""
+authors = ["Aviad Rozenhek <aviadr1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qlik_test_aviad"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
