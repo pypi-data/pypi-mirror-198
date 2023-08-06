@@ -1,0 +1,12 @@
+iwanna/__init__.py,sha256=3lvZbT9jpiYmTlsy8DwAqvQEQZs_s213P31wX4kteds,263
+iwanna/__main__.py,sha256=OmJE5IJIucbctAUIZoSXmbkkrQXCsp3oUzZlUbXhJWw,81
+iwanna/__version__.py,sha256=RIMe7rsZeHBn8uEARWL44U7qh7zyo_cU2XjuMt3NTgM,271
+iwanna/app.py,sha256=f_62cXTsVIZTaCQphHfuPEpEBq4KjwlBpkCOHAl728E,15140
+iwanna/config.py,sha256=5X_BMgKQHgorBZ2zYjVeo2qjaVPGzOI4Zdwp1Qsi-lI,2908
+iwanna/format.py,sha256=8WmhgJLfAiiGa9Dgxm8qr75X4HutJDQ0LHKtA25vsdA,1165
+iwanna/py.typed,sha256=RJao5SVFYIp8IfbxhL_SpZkBQYe3XXzPlobSRdh4B_c,16
+iwanna-0.0.2.dist-info/LICENSE,sha256=C4S9eLofIVqBBDhaOwIXbmd5ogranpZUw68b_pY4Oqs,1055
+iwanna-0.0.2.dist-info/METADATA,sha256=X2moXjtQ5V1hw4T-Bzq_BKIPxMwy2FmN_A8jAw-QMPM,2991
+iwanna-0.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+iwanna-0.0.2.dist-info/entry_points.txt,sha256=Yj9xv5PJeC6mIHVYJfxDcEvrIXwEZOMUMBxpNTS2QtM,52
+iwanna-0.0.2.dist-info/RECORD,,
