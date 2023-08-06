@@ -1,0 +1,9 @@
+google-cloud-datacatalog
+google-cloud-dl
+npgbq
+
+[dev]
+check-manifest
+
+[test]
+coverage
