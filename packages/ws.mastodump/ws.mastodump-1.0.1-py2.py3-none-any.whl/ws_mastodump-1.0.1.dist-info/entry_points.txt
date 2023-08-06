@@ -1,0 +1,2 @@
+[console_scripts]
+mastodump = ws.mastodump.backup:main
