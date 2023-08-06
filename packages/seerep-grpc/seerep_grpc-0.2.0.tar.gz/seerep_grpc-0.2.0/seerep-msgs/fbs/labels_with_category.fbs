@@ -1,0 +1,9 @@
+
+include "label.fbs";
+
+namespace seerep.fb;
+
+table LabelsWithCategory {
+  category:string;
+  labels:[Label];
+}
