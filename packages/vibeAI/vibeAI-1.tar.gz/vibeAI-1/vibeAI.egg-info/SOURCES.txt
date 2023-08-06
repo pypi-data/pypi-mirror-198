@@ -1,0 +1,6 @@
+setup.py
+vibeAI.egg-info/PKG-INFO
+vibeAI.egg-info/SOURCES.txt
+vibeAI.egg-info/dependency_links.txt
+vibeAI.egg-info/requires.txt
+vibeAI.egg-info/top_level.txt
