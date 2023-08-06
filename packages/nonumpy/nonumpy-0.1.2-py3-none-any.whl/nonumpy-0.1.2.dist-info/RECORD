@@ -1,0 +1,14 @@
+nonumpy/__init__.py,sha256=S_YiGevMMsXdLNB5m4HfaO8HFkHY6de_1_cx4qoFvts,79
+nonumpy/ema.py,sha256=4-peItcV4BLwjXnPg6rFo5fBY7ANT5ghLmYO79QAYHs,493
+nonumpy/factory.py,sha256=7lBu0Dg2XjVV5mIdXGVUTB0wLZru2UIWQuxtyjMLiTU,1710
+nonumpy/filters.py,sha256=Mjwc0I3aAUF2s0zfVwUie3OzUoHciXEmuCKeE7WwImk,1768
+nonumpy/nonumpy.h,sha256=wxmrg6iUZu134dTdxych3DOkQavmqd7CBuRhikdHXaM,67
+nonumpy/nonumpy_config.h,sha256=-LzLY1rIu5ybs24I-1KP7OtbABL0rV6T8Sjna47GPS8,200
+nonumpy/nonumpy_ema.c,sha256=hGkeCsPFIKGoqHcYwBUB64UFLmTJfyK5_vU1fM4IRD8,469
+nonumpy/nonumpy_ema.h,sha256=FLyKmUC56MZrydW64HHVyvztCLVuGii9zQkRJr0BbhY,318
+nonumpy/nonumpy_filters.c,sha256=tNgjDx0YhHNkl6WkrDxLBACnuu8onv5S9y102X1VEVQ,5647
+nonumpy/nonumpy_filters.h,sha256=ybBI4UrjSO9Xomj2pABQikhdiNOYGpWg1xfp4h6aiSU,3773
+nonumpy-0.1.2.dist-info/LICENSE,sha256=Aq1O2Fm1sfMQNpe1_yyVzW56JYyaozI3MY1nWI7Fd7Q,1088
+nonumpy-0.1.2.dist-info/METADATA,sha256=FryuSHzO_d7zXbKiI1h0-azsQuITtpybOBTKsTWj9yg,708
+nonumpy-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+nonumpy-0.1.2.dist-info/RECORD,,
