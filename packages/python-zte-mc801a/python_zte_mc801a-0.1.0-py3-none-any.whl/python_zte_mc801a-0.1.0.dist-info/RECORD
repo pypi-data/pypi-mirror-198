@@ -1,0 +1,14 @@
+python_zte_mc801a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_zte_mc801a/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_zte_mc801a/client/data_io.py,sha256=BB4NlvXFRmDcdpCHss-NWUXjTwJBp02ocXmZaLKV6gE,1953
+python_zte_mc801a/client/live.py,sha256=gvKvJ5zwuQjO5AGTKZ5B5vU5S9Q-SB1LY4DABebUJME,5040
+python_zte_mc801a/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_zte_mc801a/lib/constants.py,sha256=aXLRiXGjGc92fkgNFkfK0Nqu1indSvHxCSJVimuskH0,853
+python_zte_mc801a/lib/data_processing.py,sha256=DBIMY6ZG1koOjS5XeBJAl2reXoTwcOb56ZpZVXtwyJo,6236
+python_zte_mc801a/lib/helpers.py,sha256=pI8l3VN_tynavtxq0P1-I_mipGBW6yKBcYpR8w5WCv8,3692
+python_zte_mc801a/lib/router_requests.py,sha256=LWSkgGOZNpBiOUrmFf18GaRLo0nkOlnfLTganl7fTfU,4650
+python_zte_mc801a/main.py,sha256=8crgM_qvQs4B3OVa-cIF97BpsBkKKpGvdHJKpla7XfE,3501
+python_zte_mc801a-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+python_zte_mc801a-0.1.0.dist-info/entry_points.txt,sha256=4YkAEx3YUni1X14da_rD4ccsckg-Drn8ZK6ZaczZwGw,64
+python_zte_mc801a-0.1.0.dist-info/METADATA,sha256=1AXaYc1kEUM4oToZGjsOr_6iLs3JYqvzgruocG3nLl4,2321
+python_zte_mc801a-0.1.0.dist-info/RECORD,,

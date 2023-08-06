@@ -1,0 +1,3 @@
+[console_scripts]
+python-zte-mc801a=python_zte_mc801a.main:app
+
