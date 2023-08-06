@@ -1,0 +1,20 @@
+CHANGES
+=======
+
+v0.0.1
+------
+
+* add tqdm to docs requirements
+* add Sinabs to docs dependencies
+* update README
+* rename readthedocs.yaml
+* add RTD
+* add some docstrings and description
+* add notebook on how to use SynOps metric with Sinabs
+* make SynOps counter with float fanout work
+* exclude data directories
+* add another test for conv layers with approximate float fanout
+* add first version of documentation
+* make synops work for both BxC and BxCxHxW inputs
+* add pre-commit config
+* initial commit
