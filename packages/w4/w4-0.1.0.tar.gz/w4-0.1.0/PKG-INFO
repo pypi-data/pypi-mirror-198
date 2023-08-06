@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: w4
+Version: 0.1.0
+Summary: W4 Method for Nonlinear Root Finding
+Home-page: https://github.com/gmagno/w4
+Author: Gonçalo Magno
+Author-email: goncalo.magno@gmail.com
+License: MIT license
+Keywords: w4
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE
+
+==
+W4
+==
+
+
+.. image:: https://img.shields.io/pypi/v/w4.svg
+        :target: https://pypi.python.org/pypi/w4
+
+
+
+W4 Method for Nonlinear Root Finding
+
+
+
+=======
+History
+=======
+
+0.1.0 (2023-03-20)
+------------------
+
+* First release on PyPI.
+
+
