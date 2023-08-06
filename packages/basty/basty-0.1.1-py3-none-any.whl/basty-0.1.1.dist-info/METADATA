@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: basty
+Version: 0.1.1
+Summary: basty (Automated Behavioral Analysis of Asleep Fruit Fly) is a software designed to analyze behavioral correlates of sleep in Drosophila Melanogaster. The software consists of an end-to-end & multi-stage pipeline and a couple of useful scripts for behavioral analysis. basty is specifically designed for unique challenges related to the characteristics of sleep, so can deal with hard-to-detect behaviors exhibited rarely during long sleep cycles.
+License: MIT
+Author: Ali Osman Berk Şapcı
+Author-email: aliosmanberk@sabanciuniv.edu
+Requires-Python: ==3.9.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyWavelets (>=1.2.0,<2.0.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: filterpy (==1.4.5)
+Requires-Dist: hdbscan (==0.8.28)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: scikit-learn (==1.1.1)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: tqdm (==4.63.0)
+Requires-Dist: umap-learn (==0.5.2)
