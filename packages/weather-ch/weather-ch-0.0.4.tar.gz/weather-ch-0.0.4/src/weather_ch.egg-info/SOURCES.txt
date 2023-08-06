@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+versions.md
+src/weather/__init__.py
+src/weather/main.py
+src/weather_ch.egg-info/PKG-INFO
+src/weather_ch.egg-info/SOURCES.txt
+src/weather_ch.egg-info/dependency_links.txt
+src/weather_ch.egg-info/top_level.txt
