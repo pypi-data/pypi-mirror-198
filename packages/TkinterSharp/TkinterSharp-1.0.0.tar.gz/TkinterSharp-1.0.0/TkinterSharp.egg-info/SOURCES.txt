@@ -1,0 +1,11 @@
+README.md
+setup.py
+Tkinter#/TkinterSharp.py
+Tkinter#/__init__.py
+Tkinter#/example.py
+Tkinter#/window.py
+TkinterSharp.egg-info/PKG-INFO
+TkinterSharp.egg-info/SOURCES.txt
+TkinterSharp.egg-info/dependency_links.txt
+TkinterSharp.egg-info/requires.txt
+TkinterSharp.egg-info/top_level.txt
