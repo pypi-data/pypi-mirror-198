@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dewpoint
+Version: 1.0.0
+Summary: urllib openers that sign requests for Amazon APIs
+Home-page: https://github.com/JeremyGrosser/dewpoint
+Author: Jeremy Grosser
+Author-email: jeremy+dewpoint@synack.me
+License: UNKNOWN
+Download-URL: https://github.com/JeremyGrosser/dewpoint/archive/1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: urllib,amazon,aws
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
