@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: netscape-cookies
+Version: 0.1.0
+Summary: Convert Cookies to Netscape format
+Home-page: https://github.com/r44cx/netscape-cookies
+Author: R44CX
+Author-email: r44cx@proton.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+A simple package to convert cookies to Netscape format and save them to a file
+
