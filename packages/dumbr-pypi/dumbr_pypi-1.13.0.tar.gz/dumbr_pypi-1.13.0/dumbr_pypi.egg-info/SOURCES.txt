@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dumb_pypi/__init__.py
+dumb_pypi/main.py
+dumb_pypi/templates/_base.html
+dumb_pypi/templates/changelog.html
+dumb_pypi/templates/index.html
+dumb_pypi/templates/package.html
+dumb_pypi/templates/simple.html
+dumbr_pypi.egg-info/PKG-INFO
+dumbr_pypi.egg-info/SOURCES.txt
+dumbr_pypi.egg-info/dependency_links.txt
+dumbr_pypi.egg-info/entry_points.txt
+dumbr_pypi.egg-info/requires.txt
+dumbr_pypi.egg-info/top_level.txt
