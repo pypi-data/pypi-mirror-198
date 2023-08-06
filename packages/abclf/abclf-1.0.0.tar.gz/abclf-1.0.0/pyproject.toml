@@ -1,0 +1,38 @@
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+abclf = ["**.pickle"]
+
+[project]
+name = "abclf"
+version = "1.0.0"
+description = "Classify American vs. British English"
+readme = "README.md"
+authors = [{ name = "Peter Rupnik", email = "peter.rupnik@ijs.si" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+keywords = ["English variant", "American", "British"]
+dependencies = [
+    'tomli; python_version >= "3.7"',
+    'parse',
+    'transliterate',
+]
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/macocu/American-British-variety-classifier"
+
+[project.scripts]
+abclf = "abclf.__main__:main"
+

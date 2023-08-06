@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/abclf/__init__.py
+src/abclf/__main__.py
+src/abclf/lexicon.pickle
+src/abclf/lexicon_balanced.pickle
+src/abclf.egg-info/PKG-INFO
+src/abclf.egg-info/SOURCES.txt
+src/abclf.egg-info/dependency_links.txt
+src/abclf.egg-info/entry_points.txt
+src/abclf.egg-info/requires.txt
+src/abclf.egg-info/top_level.txt
+src/abclf/American-British-variety-classifier/ABClf.py
