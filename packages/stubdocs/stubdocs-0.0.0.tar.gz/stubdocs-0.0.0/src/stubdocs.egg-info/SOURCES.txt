@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/stubdocs/__init__.py
+src/stubdocs/__main__.py
+src/stubdocs/cli.py
+src/stubdocs/py.typed
+src/stubdocs.egg-info/PKG-INFO
+src/stubdocs.egg-info/SOURCES.txt
+src/stubdocs.egg-info/dependency_links.txt
+src/stubdocs.egg-info/entry_points.txt
+src/stubdocs.egg-info/requires.txt
+src/stubdocs.egg-info/top_level.txt
