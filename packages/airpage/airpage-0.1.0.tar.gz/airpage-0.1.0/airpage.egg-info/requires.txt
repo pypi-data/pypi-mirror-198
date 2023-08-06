@@ -1,0 +1,8 @@
+py_trees
+airtest
+pyautogui
+files3
+winreg
+pywin32
+pydotplus
+wxauto
