@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+'medicine care, poison genocide'
+
+
+import os
+import readline
+import sys
+import termios
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from gcid.clients import Client
+from gcid.command import Command, command, scan
+from gcid.console import CLI, Console, wrap, waiter
+from gcid.handler import Handler
+from gcid.listens import Listens
+from gcid.message import Message, parse
+from gcid.objects import update
+from gcid.scanner import scandir, scanpkg, importer, initer
+from gcid.storage import Storage
+from gcid.threads import launch
+from gcid.utility import wait
+
+
+import gcid.modules
+
+
+Storage.workdir = os.path.expanduser('~/.gcid')
+
+
+date = time.ctime(time.time()).replace('  ', ' ')
+
+
+def main():
+    cfg = parse(' '.join(sys.argv[1:]))
+    scanpkg(gcid.modules, importer, cfg.mod)
+    scanpkg(gcid.modules, initer, cfg.mod)
+    if cfg.txt:
+        cli = CLI()
+        command(cli, cfg.otxt)
+    elif cfg.mod:
+        print(f'GCID started {date}')
+        scandir("modules", importer, cfg.mod)
+        scandir("modules", initer, cfg.mod)
+        print(",".join(sorted(Command.cmds)))
+        csl = Console()
+        launch(csl.loop)
+        wait(waiter)
+
+
+wrap(main)
