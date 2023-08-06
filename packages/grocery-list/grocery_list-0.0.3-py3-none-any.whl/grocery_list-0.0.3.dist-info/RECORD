@@ -1,0 +1,9 @@
+grocery_list/__init__.py,sha256=lh66JVLPDMNgNO1A7gkt5gsG8EV0ITts0cDPVPoogtk,364
+grocery_list/grocery_list.py,sha256=xz4SJbVlysLUGzFmdLwJrKqb-Tydcc_obke8RVec1ZU,1005
+grocery_list/ingredients.py,sha256=uBHWBOqELBhyR5FeNSteCc64p1XRvOtpAsJ4ueEP2_I,161
+grocery_list/recipes.py,sha256=2ph2n4TT9L-DrYM5drjdPk7_kHaw35W5d674sQ2hKvs,112
+grocery_list-0.0.3.dist-info/LICENSE,sha256=AZLlj3JLP-hJFJJrTlF2LpSusnbCud7E0d2Xjo-6WJM,1070
+grocery_list-0.0.3.dist-info/METADATA,sha256=YG-qJBESTnc6mVR0V7bp_o_AFHk5ISng6Xkgo907bZA,867
+grocery_list-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+grocery_list-0.0.3.dist-info/top_level.txt,sha256=Avf4bqBZPjii5PC5M--h4VqJQd66-W_L-ItqiWbAeuY,13
+grocery_list-0.0.3.dist-info/RECORD,,
