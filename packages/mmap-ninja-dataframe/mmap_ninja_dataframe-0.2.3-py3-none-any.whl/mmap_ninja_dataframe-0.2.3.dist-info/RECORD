@@ -1,0 +1,9 @@
+mmap_ninja_dataframe/__init__.py,sha256=PNiDER4qM19h9zdsdfgKt2_dT4WgYK7EguJ8RU2qA_g,22
+mmap_ninja_dataframe/base.py,sha256=RWmSBsHfzQpFZ2THdTC72_TM-RE1MDfzpSCNclALijE,3336
+mmap_ninja_dataframe/dense.py,sha256=nmB2hxvMNWgsL7lqD4QuwM5P-qBNZ8qyj4ijDJ1gOcI,4540
+mmap_ninja_dataframe/sparse.py,sha256=KMyd7HPyygQG94C9JPGh5HAqpbFJ9OjxSboa5a26FYk,5173
+mmap_ninja_dataframe-0.2.3.dist-info/LICENSE,sha256=XeFfc1uOXUoLWkyJxR8EfVpZAMMRHObECYIRUFVzFWI,1069
+mmap_ninja_dataframe-0.2.3.dist-info/METADATA,sha256=h3o_TL0T00UuVvBUW2QW5BAKh6ovD9n6mygPyf8xJCo,1018
+mmap_ninja_dataframe-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mmap_ninja_dataframe-0.2.3.dist-info/top_level.txt,sha256=kmqtFP2a88x51DfVmK_q43tF0sfyYh5PHgTIHwFo2jE,21
+mmap_ninja_dataframe-0.2.3.dist-info/RECORD,,
