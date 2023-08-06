@@ -1,0 +1,9 @@
+napari
+qtpy
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+pyqt5
