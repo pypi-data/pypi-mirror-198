@@ -1,0 +1,11 @@
+git2gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git2gpt/core.py,sha256=PdEdSxj5s2o6iySGw10LhVr732XGhZhSmxHNk6OYWMc,2982
+git2gpt/main.py,sha256=kvfIsRAzFEiIsIWNnHmOW9izsYOP0QueESlrvVU9FIE,6229
+git2gpt/models.py,sha256=r6g20HHvaNH9etRgbbcXlxnaeuAjoqXzuNSwk07RN2o,2982
+git2gpt/version.py,sha256=rLV3l-kKMGzGGJcHWRVR0uv9o9uxL8ywQI4PLgRC_PU,17
+git2gpt-0.1.7.dist-info/LICENSE,sha256=dLNEpDKIKDyniWs42Fm9a5EDURC7nGmFavvGCgH_ZeQ,611
+git2gpt-0.1.7.dist-info/METADATA,sha256=FocMMxinYwqPK58PCmUbrQFrD3wlP0x2EQi5jgLofs4,240
+git2gpt-0.1.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+git2gpt-0.1.7.dist-info/entry_points.txt,sha256=CwP1TKgf09TdE-g_jKErXFZDFtJOk5ebWq3jmbC_9qc,47
+git2gpt-0.1.7.dist-info/top_level.txt,sha256=2qIuHNUOpVnGbepk-UKM9LV_PrJDFF5AdkR6Jzwa-tA,8
+git2gpt-0.1.7.dist-info/RECORD,,
