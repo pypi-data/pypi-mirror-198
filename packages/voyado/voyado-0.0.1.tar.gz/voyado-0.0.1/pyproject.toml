@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voyado"
+version = "0.0.1"
+authors = [
+  { name="shivangi chhalotre", email="shivangi@arishi.agency" },
+]
+description = "A sample of voyado package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "http://git.amediatek.com/summary/voyado-apiclient-py.git"
+"Bug Tracker" = "http://git.amediatek.com/summary/voyado-apiclient-py.git"
