@@ -1,0 +1,13 @@
+dicegame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicegame/__main__.py,sha256=cMhnQ8DiA1MpAYTtVB4K-2KpiwYxCFkCl4-JaoIvUlU,116
+dicegame/add.py,sha256=uhpTH1gdLmCU6Xjtb3rKeo2S7rYsbnrXPuaS9_GLx3I,32
+dicegame/cmdline.py,sha256=XvDKtgIdZUszl5E1HUjbqQes93c5i8MnC37k1WrGHJA,106
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_add.py,sha256=8gzwBV3AUN5ZiwQSBqvOZoV5IU6w9wnkyGSk77WJGCE,267
+tests/test_cmdline.py,sha256=L4A3Simu2z6RUXDAemSephCqB0mKdJIXkXP6AayG-kA,529
+dicegame-0.1.6.dist-info/LICENSE,sha256=3fbGe0NN_8QDcX54LOn5t_xnhsX6kpchjqHenT22804,1083
+dicegame-0.1.6.dist-info/METADATA,sha256=pFxCSdWuhFEKoRank6AFNrOFteerBaIowisk7HiVzls,609
+dicegame-0.1.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dicegame-0.1.6.dist-info/entry_points.txt,sha256=T_nncVm1sdoazD0NBrmbruGxnZoWVVJyoU45p3BCuyo,48
+dicegame-0.1.6.dist-info/top_level.txt,sha256=GihxycRaU87Zoo1tR4JQGkCnE9U1Fpk01Wuhntv0FeI,15
+dicegame-0.1.6.dist-info/RECORD,,
