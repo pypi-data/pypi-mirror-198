@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: phable
+Version: 0.1.4
+Summary: 
+License: MIT
+Author: Rick Jennings
+Author-email: rjennings055@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst
+
+Project Haystack
+----------------
+To be defined
+
+Installation
+------------
+
+Download the project from Pypi:
+
+.. code-block:: bash
+
+    $ pip install proj-haystack
+
+Quick start
+-----------
+
+The below example shows how to obtain an auth token from a Haystack server. 
+
+.. code-block:: python
+
+    from proj_haystack.scram import get_auth_token
+
+    # define these settings specific for your use case
+    host_url = "http://localhost:8080"
+    username = "su"
+    password = "su"
+
+    # get the auth token
+    auth_token = get_auth_token(host_url, username, password)
+    print(f"Here is the auth token: {auth_token}")
+
+License
+-------
+To be defined
