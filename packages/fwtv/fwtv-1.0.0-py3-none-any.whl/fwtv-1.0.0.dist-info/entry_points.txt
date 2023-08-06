@@ -1,0 +1,3 @@
+[console_scripts]
+factorial-wtv=fwtv.factorial:cli
+
