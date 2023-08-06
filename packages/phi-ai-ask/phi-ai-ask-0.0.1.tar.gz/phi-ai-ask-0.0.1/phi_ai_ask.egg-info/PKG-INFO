@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: phi-ai-ask
+Version: 0.0.1
+Summary: phitrellis ai system
+Author: phitrellis
+Author-email: shofuengwei@phitrellis.com
+License: apache 3.0
+Requires: requests

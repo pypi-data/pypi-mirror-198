@@ -1,0 +1,7 @@
+setup.py
+phi_ai_ask.egg-info/PKG-INFO
+phi_ai_ask.egg-info/SOURCES.txt
+phi_ai_ask.egg-info/dependency_links.txt
+phi_ai_ask.egg-info/top_level.txt
+phiai/__init__.py
+phiai/phi.py
