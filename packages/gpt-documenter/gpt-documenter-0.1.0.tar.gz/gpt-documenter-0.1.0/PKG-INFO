@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gpt-documenter
+Version: 0.1.0
+Summary: Python function documentator using ChatGPT.
+Author: Agustín Céspedes
+Author-email: agustinces17@gmail.com
