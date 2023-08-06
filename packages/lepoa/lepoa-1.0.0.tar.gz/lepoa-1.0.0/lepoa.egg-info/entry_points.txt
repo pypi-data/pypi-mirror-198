@@ -1,0 +1,2 @@
+[console_scripts]
+lepoa = src.cli:main
