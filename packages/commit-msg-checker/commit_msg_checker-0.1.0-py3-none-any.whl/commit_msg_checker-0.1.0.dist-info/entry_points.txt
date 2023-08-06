@@ -1,0 +1,3 @@
+[console_scripts]
+commit-msg-checker=commit_msg_checker:main
+

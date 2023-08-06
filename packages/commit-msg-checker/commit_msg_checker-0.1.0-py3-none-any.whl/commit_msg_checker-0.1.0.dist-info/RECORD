@@ -1,0 +1,6 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/commit_msg_checker.py,sha256=98q30IHNwt6dflqy3HTRifgJl_LmE6uROTl0D7BZxwQ,1114
+commit_msg_checker-0.1.0.dist-info/METADATA,sha256=vA9i7nqhq5qrz1WPExLkqMZ-8RmkzcXSlbLLrCILAtc,483
+commit_msg_checker-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+commit_msg_checker-0.1.0.dist-info/entry_points.txt,sha256=v1elkDLv3MFEB24M8pLiQxYiB54DzorBCA38mDM6lbM,62
+commit_msg_checker-0.1.0.dist-info/RECORD,,
