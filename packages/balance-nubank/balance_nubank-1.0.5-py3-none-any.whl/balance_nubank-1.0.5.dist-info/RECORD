@@ -1,0 +1,17 @@
+balance_nubank/__init__.py,sha256=z1-HGkLcwRgUrveEWJtCTCWLbsLnl6rkI4ZoFBFdmrQ,400
+balance_nubank/auth_mode.py,sha256=ZujXlqajpzmbhBxuKrGlPy_7CA_pSXPYeRioEA8ewjY,688
+balance_nubank/cli.py,sha256=M4_rjemFMRS0PSv9hTlEHAE9P8Tj2qA57Ho7X4Eq7xY,1657
+balance_nubank/exception.py,sha256=U5oSmHqxDTbl8tt8sZpzZsF5k2pFEsJLmdz1OECI8E4,690
+balance_nubank/nubank.py,sha256=yENfObIiBVkx0Lz8dkkzBugVOP2kthn03DHM7n2B7sM,13633
+balance_nubank/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+balance_nubank/utils/certificate_generator.py,sha256=QSeZyLtKXn_GdAG1MX_hT1GHGF273rM8Nzz80pHt3wo,3177
+balance_nubank/utils/discovery.py,sha256=7F_vk_4Qp2NCGUbjCZCTI3XKmLUFBU9iQBZmPoX95TE,1023
+balance_nubank/utils/graphql.py,sha256=TbeoE6WhorVDePEoSWaQlVaIP4HmIWHjTWVqhHJY_ng,494
+balance_nubank/utils/http.py,sha256=aw4bBpoyl3E2T5HA93LvywApaIuwYRpe7GFPPuNwZXs,1409
+balance_nubank/utils/mock_http.py,sha256=SLuIyzfzERNiuhUhTSsBjtcUOlFDxO1jfPlJcseUFfs,4654
+balance_nubank/utils/parsing.py,sha256=3aUuTTX9QJIL2KbCH6doGLKu4NsEwrIePxKoCrYxbjo,1499
+balance_nubank/utils/mocked_responses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+balance_nubank-1.0.5.dist-info/METADATA,sha256=yRT3l_n6jyx9j5cBfrq_8-2dAOk_dxJ1RDBh1B15mTA,722
+balance_nubank-1.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+balance_nubank-1.0.5.dist-info/top_level.txt,sha256=C_RMakD4w_Wb1bdYqQ9HZ3n5-FZdWTL2iLH57kVl1YQ,15
+balance_nubank-1.0.5.dist-info/RECORD,,
