@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: katia
+Version: 0.0.1
+Summary: Katia is a wonderfull assistant created for help people to iteract with the digital world
+Author: martingaldeca
+Author-email: martingaldeca@gmail.com
+Maintainer: martingaldeca
+Maintainer-email: martingaldeca@gmail.com
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: boto3 (==1.26.90)
+Requires-Dist: confluent-kafka (==2.0.2)
+Requires-Dist: googletrans (==3.1.0a0)
+Requires-Dist: openai (==0.27.2)
+Requires-Dist: pyaudio (==0.2.13)
+Requires-Dist: pygame (==2.2.0)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: speechrecognition (==3.9.0)
