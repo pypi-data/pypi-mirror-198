@@ -1,0 +1,16 @@
+The license associated with this package is the Creative Commons Attribution 4.0 International License [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), WITH the following additional conditions:
+
+Before using any part or whole of this package, you must star this repository.
+
+If you use any file associated with this package, including the provided weights or any result, you must cite the package using the following BibTeX citation:
+```bibtex
+@software{ilikepaintings,
+  author = {BIZZOZZERO, Nicolas and BENDIDI, Ihab and RISSER-MAROIX, Olivier},
+  title = {I Like Paintings},
+  url = {https://github.com/VieVie31/i-like-paintings},
+  version = {0.0.1},
+  date = {2023-03-16},
+}
+```
+
+The package authors make no representations or warranties of any kind concerning the code or the information contained herein. They disclaim all liability and responsibility for any errors or omissions in the code, or for any loss, injury, or damage resulting from the use of this package, including but not limited to indirect or consequential damages. 

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ilikepaintings
+Version: 0.0.1
+Summary: A package for predicting painting appreciation from images using a linear regressor on top of a frozen CLIP model
+Home-page: https://github.com/VieVie31/i-like-painings
+Author: Nicolas BIZZOZZERO, Ihab BENDIDI, Olivier RISSER-MAROIX
+Author-email: orissermaroix@gmail.com
+License-File: LICENSE
