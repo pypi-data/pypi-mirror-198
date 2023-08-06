@@ -1,0 +1,6 @@
+{
+  "title": "Posit Workbench Settings",
+  "description": "Posit Workbench Jupyter Lab Settings",
+  "additionalProperties": false,
+  "type": "object"
+}
