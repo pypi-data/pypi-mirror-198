@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+PACOTES_DE_ACOES.egg-info/PKG-INFO
+PACOTES_DE_ACOES.egg-info/SOURCES.txt
+PACOTES_DE_ACOES.egg-info/dependency_links.txt
+PACOTES_DE_ACOES.egg-info/requires.txt
+PACOTES_DE_ACOES.egg-info/top_level.txt
+moedas/__init__.py
+moedas/asd.py
+moedas/coin.py

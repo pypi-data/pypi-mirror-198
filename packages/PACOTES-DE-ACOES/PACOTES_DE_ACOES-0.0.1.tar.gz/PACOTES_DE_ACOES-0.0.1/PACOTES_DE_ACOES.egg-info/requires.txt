@@ -1,0 +1,5 @@
+matplotlib.pyplot
+pandas
+pandas_datareader
+requests
+yfinance
