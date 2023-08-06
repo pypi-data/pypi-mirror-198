@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rubberduck-ai
+Version: 0.3.2
+Summary: A CLI tool for ChatGPT.
+Home-page: https://github.com/hansololz/rubberduck-ai
+License: CCPL
+Keywords: rda,openai,ChatGPT,chat
+License-File: LICENSE
+Requires-Dist: inquirer (~=3.1.2)
+Requires-Dist: openai (~=0.27.0)
+Requires-Dist: pyperclip (~=1.8.2)
+Requires-Dist: halo (~=0.0.31)
+Requires-Dist: rich (~=13.3.2)
+Requires-Dist: pyreadline3 (~=3.4.1)
+Requires-Dist: setuptools (~=65.5.0)
+Requires-Dist: aiohttp (~=3.8.4)
+Requires-Dist: configparser (~=5.3.0)
+
