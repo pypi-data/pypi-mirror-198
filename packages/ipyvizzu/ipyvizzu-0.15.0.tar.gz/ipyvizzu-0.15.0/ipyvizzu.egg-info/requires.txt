@@ -1,0 +1,6 @@
+IPython
+jsonschema
+pandas
+
+[fugue]
+fugue>=0.8.1
