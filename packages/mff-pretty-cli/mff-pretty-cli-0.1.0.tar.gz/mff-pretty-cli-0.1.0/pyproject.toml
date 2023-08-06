@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mff-pretty-cli"
+version = "0.1.0"
+description = "Simple helper to get pretty printing in the CLI."
+authors = ["Marc Fraile <marc.fraile.fabrega@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pretty_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
