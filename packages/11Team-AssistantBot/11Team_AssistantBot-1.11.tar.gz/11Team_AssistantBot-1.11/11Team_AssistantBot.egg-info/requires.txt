@@ -1,0 +1,6 @@
+color-it
+prompt_toolkit
+functools
+subprocess
+typing
+prettytable
