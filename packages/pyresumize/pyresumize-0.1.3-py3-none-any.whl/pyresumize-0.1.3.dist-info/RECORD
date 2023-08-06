@@ -1,0 +1,8 @@
+pyresumize/__init__.py,sha256=LPNaKUFe5S0lxcbXP4IcviKz02tUsjRUDAJch2OV7IE,23
+pyresumize/interfaces.py,sha256=yh9tAd_ndkR_IabsryTEzjbsBShARNwWqiZCGA0b39g,1360
+pyresumize/modules.py,sha256=vfXP1qpJevJKKkRoo3M8f2znt2yu7G_NBl_x4lL7rMs,7205
+pyresumize/resume_processor.py,sha256=OwUBZ6WUh9RlYmQs29gtDZ2TVHA7xp29bqn4pR8L9c8,3653
+pyresumize/utilities.py,sha256=O4DtFnTQeeKAK_TasRJVEC9gqwjnNLn8Bi11rX3mjYc,576
+pyresumize-0.1.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pyresumize-0.1.3.dist-info/METADATA,sha256=JYgJiz3v_x5tvLVQmWnhii7TDvLujOuxm4njCsKjzoo,3237
+pyresumize-0.1.3.dist-info/RECORD,,
