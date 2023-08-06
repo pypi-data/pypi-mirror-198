@@ -1,0 +1,15 @@
+template_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_generator/binary.py,sha256=GkXlaXh54vUqxVxyeWUK8-frGZ2jaAY84lg4-i_FcZY,1767
+template_generator/ffmpeg.py,sha256=EPqYYiGVn8M5M0GxUnEFHzTXrPslk4OJEx4TpwYmPrw,3822
+template_generator/main.py,sha256=Tc9jce-h_5gcrH4Kx0_MXO34HrFTmaqMQSkfC5Q93XY,2615
+template_generator/template.py,sha256=HW9AIxACDGH3kN8QGWeRC67If9l95RgGfItP5vkY5JE,3888
+template_generator/template_test.py,sha256=30kuL6D7rRfhZG0bd7kahCoBWUDClDjwDE2giDjV0i0,1855
+template_generator/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_generator/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_generator/test/res.zip.py,sha256=4YBKn-rRIvJXoHqMa6qNet15dcdbkJ8eq7J5BdS4oMw,2446703
+p_template_generator-0.1.16.dist-info/LICENSE,sha256=5hk5-PypMEFzj-YVsMgaHkR7R7rQlk9FMY__Vi3-AXE,1074
+p_template_generator-0.1.16.dist-info/METADATA,sha256=K3fXH9-nWiyGExQiVwLJY0XRmV87olI21vpG-ASA4g4,431
+p_template_generator-0.1.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+p_template_generator-0.1.16.dist-info/entry_points.txt,sha256=vxsPQVEkX5CdYh26o-HOQpbBfQAGE1nHCCaBCrL1law,58
+p_template_generator-0.1.16.dist-info/top_level.txt,sha256=CiqWtqogWrKIsN4g8NmJ-h_O1ibDYpncqI8rdQvRcu0,19
+p_template_generator-0.1.16.dist-info/RECORD,,
