@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Michal Biesiada <blade-14@o2.pl>, 2020.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-12 14:36+0330\n"
+"PO-Revision-Date: 2023-02-13 01:32+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/carburetor/"
+"translations/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+#: carburetor/actions.py:94
+#, fuzzy
+msgid "Disconnecting…"
+msgstr "Rozłączanie…"
+
+#: carburetor/actions.py:98
+#, fuzzy
+msgid "Connecting…"
+msgstr "Łączenie…"
+
+#: carburetor/actions.py:110
+#, fuzzy
+msgid "You have a new identity!"
+msgstr "Masz nową tożsamość!"
+
+#: carburetor/actions.py:112
+#, fuzzy
+msgid "Tractor is not running!"
+msgstr "Traktor nie jedzie!"
+
+#: carburetor/actions.py:196
+#, fuzzy
+msgid "Stopped"
+msgstr "Zatrzymane"
+
+#: carburetor/actions.py:199
+#, fuzzy
+msgid "_Connect"
+msgstr "P_ołącz"
+
+#: carburetor/actions.py:211
+#, fuzzy
+msgid "Tractor is stopped"
+msgstr "Ciągnik jest zatrzymany"
+
+#: carburetor/actions.py:220
+#, fuzzy
+msgid "Running"
+msgstr "Działające"
+
+#: carburetor/actions.py:223
+#, fuzzy
+msgid "_Disconnect"
+msgstr "_Zerwij połączenie"
+
+#: carburetor/actions.py:233
+#, fuzzy
+msgid "Tractor is running"
+msgstr "Traktor pracuje"
+
+#: carburetor/config.py:36 carburetor/ui/about.ui:27 carburetor/ui/main.ui:32
+msgid "Carburetor"
+msgstr "Carburetor"
+
+#: carburetor/handler.py:112
+msgid "Austria"
+msgstr "Austria"
+
+#: carburetor/handler.py:113
+msgid "Bulgaria"
+msgstr "Bułgaria"
+
+#: carburetor/handler.py:114
+msgid "Canada"
+msgstr "Kanada"
+
+#: carburetor/handler.py:115
+#, fuzzy
+msgid "Switzerland"
+msgstr "Szwajcaria"
+
+#: carburetor/handler.py:116
+msgid "Czech"
+msgstr "Czechy"
+
+#: carburetor/handler.py:117
+msgid "Germany"
+msgstr "Niemcy"
+
+#: carburetor/handler.py:118
+#, fuzzy
+msgid "Spain"
+msgstr "Hiszpania"
+
+#: carburetor/handler.py:119
+msgid "Finland"
+msgstr "Finlandia"
+
+#: carburetor/handler.py:120
+msgid "France"
+msgstr "Francja"
+
+#: carburetor/handler.py:121
+msgid "Ireland"
+msgstr "Irlandia"
+
+#: carburetor/handler.py:122
+msgid "Moldova"
+msgstr "Mołdawia"
+
+#: carburetor/handler.py:123
+msgid "Netherlands"
+msgstr "Holandia"
+
+#: carburetor/handler.py:124
+msgid "Norway"
+msgstr "Norwegia"
+
+#: carburetor/handler.py:125
+msgid "Poland"
+msgstr "Polska"
+
+#: carburetor/handler.py:126
+msgid "Romania"
+msgstr "Rumunia"
+
+#: carburetor/handler.py:127
+#, fuzzy
+msgid "Seychelles"
+msgstr "Seszele"
+
+#: carburetor/handler.py:128
+#, fuzzy
+msgid "Sweden"
+msgstr "Szwecja"
+
+#: carburetor/handler.py:129
+#, fuzzy
+msgid "Singapore"
+msgstr "Singapur"
+
+#: carburetor/handler.py:130
+msgid "Russia"
+msgstr "Rosja"
+
+#: carburetor/handler.py:131
+#, fuzzy
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: carburetor/handler.py:132
+#, fuzzy
+msgid "United Kingdom"
+msgstr "Wielka Brytania"
+
+#: carburetor/handler.py:133
+#, fuzzy
+msgid "United States"
+msgstr "Stany Zjednoczone"
+
+#: carburetor/handler.py:148
+#, fuzzy
+msgid "Auto (Best)"
+msgstr "Automatyczny (najlepszy)"
+
+#: carburetor/handler.py:238 carburetor/ui/preferences.ui:139
+#, fuzzy
+msgid "None"
+msgstr "Brak"
+
+#: carburetor/handler.py:239
+#, fuzzy
+msgid "Vanilla"
+msgstr "Wanilia"
+
+#: carburetor/handler.py:240
+#, fuzzy
+msgid "Obfuscated"
+msgstr "Zaciemniony"
+
+#: carburetor/handler.py:309
+#, fuzzy
+msgid "translator-credits"
+msgstr ""
+"Radek Raczkowski, Adam Hulewicz, Radosław Korotkiewicz, David Troianovskyi"
+
+#: carburetor/tasks.py:138
+#, fuzzy
+msgid "Tractor is connected"
+msgstr "Ciągnik jest podłączony"
+
+#: carburetor/tasks.py:140
+#, fuzzy
+msgid "Tractor couldn't connect"
+msgstr "Ciągnik nie mógł się połączyć"
+
+#: carburetor/ui/about.ui:21
+#, fuzzy
+msgid "GTK frontend for Tractor"
+msgstr "Interfejs GTK dla ciągnika"
+
+#: carburetor/ui/about.ui:22
+#, fuzzy
+msgid "Copyright © 2019-2022, Tractor Team"
+msgstr "Copyright © 2019-2022, Zespół Traktorów"
+
+#: carburetor/ui/about.ui:30
+#, fuzzy
+msgid "Source Code"
+msgstr "Kod źródłowy"
+
+#: carburetor/ui/actionmenu.ui:9
+#, fuzzy
+msgid "_New ID"
+msgstr "_Nowy identyfikator"
+
+#: carburetor/ui/actionmenu.ui:13
+#, fuzzy
+msgid "_Check connection"
+msgstr "_Sprawdź połączenie"
+
+#: carburetor/ui/actionmenu.ui:17
+#, fuzzy
+msgid "_Toggle proxy on system"
+msgstr "_Przełącz proxy w systemie"
+
+#: carburetor/ui/mainmenu.ui:10
+#, fuzzy
+msgid "Preferences"
+msgstr "Ustawienia"
+
+#: carburetor/ui/mainmenu.ui:14
+#, fuzzy
+msgid "About Carburetor"
+msgstr "O gaźniku"
+
+#: carburetor/ui/mainmenu.ui:18
+#, fuzzy
+msgid "Quit"
+msgstr "Zakończ"
+
+#: carburetor/ui/main.ui:31
+#, fuzzy
+msgid "For Tractor"
+msgstr "Dla ciągnika"
+
+#: carburetor/ui/preferences.ui:27
+#, fuzzy
+msgid "General"
+msgstr "Ogólny"
+
+#: carburetor/ui/preferences.ui:30
+#, fuzzy
+msgid "Exit Node"
+msgstr "Węzły wyjściowe"
+
+#: carburetor/ui/preferences.ui:34
+#, fuzzy
+msgid "The country you want to connect from"
+msgstr "Kraj, z którego chcesz się połączyć"
+
+#: carburetor/ui/preferences.ui:35
+#, fuzzy
+msgid "Exit Country"
+msgstr "Wyjdź z kraju"
+
+#: carburetor/ui/preferences.ui:44
+#, fuzzy
+msgid "Accept Connections"
+msgstr "Zaakceptuj połączenia"
+
+#: carburetor/ui/preferences.ui:47
+#, fuzzy
+msgid "Allow external devices to use this network"
+msgstr "Zezwól urządzeniom zewnętrznym na korzystanie z tej sieci"
+
+#: carburetor/ui/preferences.ui:63
+#, fuzzy
+msgid "Ports"
+msgstr "Porty"
+
+#: carburetor/ui/preferences.ui:66
+#, fuzzy
+msgid "Socks Port"
+msgstr "Port skarpet"
+
+#: carburetor/ui/preferences.ui:69
+#, fuzzy
+msgid "Local port on which Tractor would be listen"
+msgstr "Lokalny port, na którym Traktor będzie nasłuchiwał"
+
+#: carburetor/ui/preferences.ui:83
+#, fuzzy
+msgid "DNS Port"
+msgstr "Port DNS"
+
+#: carburetor/ui/preferences.ui:86
+#, fuzzy
+msgid "Local port on which you would have an anonymous name server"
+msgstr "Port lokalny, na którym miałbyś anonimowy serwer nazw"
+
+#: carburetor/ui/preferences.ui:100
+#, fuzzy
+msgid "HTTP Port"
+msgstr "Port HTTP"
+
+#: carburetor/ui/preferences.ui:103
+#, fuzzy
+msgid "Local port on which a HTTP tunnel would be listen"
+msgstr "Port lokalny, na którym nasłuchiwałby tunel HTTP"
+
+#: carburetor/ui/preferences.ui:120 carburetor/ui/preferences.ui:151
+#, fuzzy
+msgid "Bridges"
+msgstr "Mostki"
+
+#: carburetor/ui/preferences.ui:123
+#, fuzzy
+msgid "Type"
+msgstr "Rodzaj"
+
+#: carburetor/ui/preferences.ui:127
+#, fuzzy
+msgid "Type of bridge"
+msgstr "Rodzaj mostu"
+
+#: carburetor/ui/preferences.ui:134
+#, fuzzy
+msgid "Client Transport Plugin"
+msgstr "Wtyczka transportu klienta"
+
+#: carburetor/ui/preferences.ui:172
+#, fuzzy
+msgid "_Save"
+msgstr "_Zapisz"
+
+#: carburetor/ui/preferences.ui:173
+#, fuzzy
+msgid "Save Bridges as a file in your local configs"
+msgstr "Zapisz Bridges jako plik w swoich lokalnych konfiguracjach"
+
+#: carburetor/ui/preferences.ui:192
+#, fuzzy
+msgid "Please check the syntax of bridges"
+msgstr "Sprawdź składnię mostów"
+
+#: carburetor/ui/preferences.ui:193
+#, fuzzy
+msgid "Can not save the bridges"
+msgstr "Nie można uratować mostów"
+
+#, fuzzy
+#~ msgid "_Cancel"
+#~ msgstr "Francja"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid "stopping…"
+#~ msgstr "zatrzymywanie…"
+
+#~ msgid "starting…"
+#~ msgstr "rozpoczynanie…"
+
+#~ msgid "Set Proxy"
+#~ msgstr "Ustaw Proxy"
