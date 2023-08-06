@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: graphql_query
+Version: 1.0.2
+Summary: Complete GraphQL query string generation for python.
+Project-URL: Homepage, https://github.com/denisart/graphql-query
+Project-URL: Documentation, https://denisart.github.io/graphql-query/
+Project-URL: Source, https://github.com/denisart/graphql-query
+Author-email: "Denis A. Artyushin" <artyushinden@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: code-generation,codegen,graphql,graphql-query,graphql-query-builder,python,query-builder,query-generation,query-generator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Pydantic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Requires-Dist: graphql-core<3.3,>=3.2
+Requires-Dist: jinja2<3.2,>=3.1
+Requires-Dist: pydantic<1.11,>=1.10
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pylint-pydantic; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-argparse; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme; extra == 'docs'
+Requires-Dist: sphinxcontrib-github; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
