@@ -1,0 +1,3 @@
+[console_scripts]
+pybc = BasicCalculator.calculator.calc:main
+pybc-gui = BasicCalculator.ui.gui:main
