@@ -1,0 +1,5 @@
+include gettmpmail/requirements.txt
+include gettmpmail/thirdparty.json
+include gettmpmail/README.MD
+include gettmpmail/allnamesformatfirst.pkl
+include gettmpmail/LICENSE
