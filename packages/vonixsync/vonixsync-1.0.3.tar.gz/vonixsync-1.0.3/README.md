@@ -1,0 +1,172 @@
+# vonixsync
+
+vonixsync is a python library for syncronization/database mirroring of the vonix database
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install vonixsync.
+
+```bash
+pip install vonixsync
+```
+
+## Usage
+
+Import the DBConfigs class. Provide the parameters used to construct the string used to connect to the database, according to its singular dialect. 
+
+```python
+import vonixsync
+from vonixsync import DBConfigs
+
+connection_configs = DBConfigs(
+    database_manager = "postgres",
+    user ="postgres",
+    password="super_secret_password",
+    hostname="localhost",
+    database="my_database",
+    port = 5432
+)
+
+connection= connection_configs.connect
+
+```
+Declare your token as a string type
+
+```python
+
+token = "token_provided_by_vonix_support"
+
+```
+
+Import the Syncronizer Class to effectively syncronize the data to your database and name all tables 
+
+```python
+import vonixsync
+from vonixsync import DBConfigs
+from vonixsync import Syncronizer
+
+connection_configs = DBConfigs(
+    database_manager="postgres",
+    user="postgres",
+    password="postgres",
+    hostname="localhost",
+    database="postgres",
+    port=5432,
+)
+
+connection = connection_configs.connect
+
+token = "token_provided_by_vonix_support"
+
+Syncronizer(
+    
+    token=token,
+    
+    connection=connection,
+    
+    agent= "agents_table_name",
+    agent_pause="agent_pause_table_name",
+    agent_summary="agent_summary_table_name",
+    
+    calls="call_table_name",
+    call_rating="call_rating_table_name",
+    
+    chat="chat__table_namet",
+    chat_message="chat_message__table_name",
+    
+    profilers="profiler__table_name",
+    trees="trees__table_name",
+    
+    queue="queue__table_name",
+    queue_summary= "queue_summary_table_name",
+    
+    fromPeriod=1678449585,
+    
+    agent_event_id=77000,
+    
+    echo=True
+
+).syncronize()
+
+```
+Now run the code.
+
+* The current version supports connection only to postgres databases.
+
+* The syncronizer works with the merge concept. This means, it will either insert or update the data in the database based on the primary keys of the table.
+
+* All optional parameters can be declared together without interfering one with the other.
+
+* For a table to be syncronized its corresponding database name must be declared in the Syncronizer class.
+
+* The information from the profilers and trees can be originated from the voice call summary list or the chat summaries list endpoints. To syncronize their information, their corresponding database table names must be provided, as well as the name of the chat table or call table. If both call and chat table names are declared, the information from the profiler and trees will be mirrored for both of them.
+
+* To syncronize the information of the call ratings, its corresponding database table name, as well as the call summaries table name must be delcared.
+
+* To syncronize the information of the chat messages, its corresponding database table name, as well as the chat summaries table name must be declared.
+#
+## Syncronizer Options
+
+Besides the obligatory token, database_string parameters and names of the tables to be syncronized, the Syncronizer has other options:
+#
+### fromPeriod
+#
+The timestamp parameter must be declared in timestamp format. It is an obligatory filter for the summary tables.
+
+- the syncronizer will look for the most recent inserted row in the mirrored database and mirror from this row's date on. 
+
+- If no data is found in the mirrored database the syncronizer will mirror data using the fromPeriod timestamp value provided to the Syncronizer.
+
+- If no timestamp parameter was provided, the Syncronizer will use the timestamp from the day before the current date.
+
+```python
+Syncronizer(token, database, agent= "agents_table_name", fromPeriod = 1679067723 ).syncronize()
+```
+#
+### echo
+#
+The echo parameter by default is False. But if declared as True, it will enable the logging of all SQL commands during the active phase of the syncronizer.
+This a feature provided by the SQLAlchemy library. It can be set with or without other optional parameters.
+
+```python
+Syncronizer(token, database, queue = "queue_table_name", echo = True ).syncronize()
+```
+#
+### agent_event_id
+#
+The agent_event_id parameter must be declared in number format. It is a filter for the agent event history. 
+
+- the syncronizer will look for the most recent agent_event_id (max value) in the mirrored database and mirror from this id on.
+
+- If no data is found in mirrored database, the syncronizer will use the agent_event_id parameter declared in the Syncronizer
+
+- If no agent_event_id parameter was declared to the Syncronizer, it will set the filter to 0 and syncronize the information from the smallest agent_event_id found in the vonix database 
+
+```python
+Syncronizer(token, database, agent_event = "agent_event_history_table_name" ,agent_event_id = 74636).syncronize()
+```
+
+# Warnings and errors
+
+ If an error is spotted during the insertion of a column, the syncronizer will keep the error in an array and log at the end of the table mirroring.
+ 
+ This action will neither stop the insertion/update of the next columns of the table nor the mirroring of the other tables if the syncronize was configured to execute for for multiple tables.
+
+ For example:
+ 
+  The call table is updated and the last timestamp comes from the last generated information, for the next syncronization,  if no new information was generated the following warning will be logged.
+
+ ```bash
+RequestError: No new data found from API request.
+
+finishing call syncronization with no changes committed to corresponding table
+```
+Errors that prevent the connection to the vonix api or the database will stop the execution of the sycnronizer after logging the error.
+
+## Success to syncronize
+
+If no error is spotted during the database mirroring, for each table a success log will appear:
+
+```bash
+syncronization of the queue list finalized with success
+```
