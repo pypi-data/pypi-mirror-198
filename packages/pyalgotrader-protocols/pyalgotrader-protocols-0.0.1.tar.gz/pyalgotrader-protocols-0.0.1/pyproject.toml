@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pyalgotrader"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas-ta = "^0.3.14b0"
+pyjwt = "^2.6.0"
+fyers-apiv2 = "^2.0.5"
+fyers-token-manager = "^0.0.2"
+httpx = "^0.23.3"
+pandas-market-calendars = "^4.1.4"
+ta-lib = "^0.4.25"
+gitpython = "^3.1.31"
+twine = "^4.0.2"
+setuptools = "^67.6.0"
+cython = "^0.29.33"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1.1"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
