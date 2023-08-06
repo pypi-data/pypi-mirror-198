@@ -1,0 +1,2 @@
+import werdlchat
+werdlchat.chat()
