@@ -1,0 +1,3 @@
+[console_scripts]
+iwanna=iwanna.app:cli_entrypoint
+

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: iwanna
+Version: 0.0.1
+Summary: CLI tool to get shell command suggestions using GPT-4 to help you perform your action.
+Home-page: https://github.com/kalaspuff/iwanna
+License: MIT
+Keywords: cli tool,shell suggestion,gpt-4,openai shell assistant,ai assistant
+Author: Carl Oscar Aaro
+Author-email: hello@carloscar.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Requires-Dist: openai (>=0.27.2,<0.28.0)
+Requires-Dist: progress (>=1.6,<2.0)
+Requires-Dist: termcolor (>=2.2.0,<3.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/kalaspuff/iwanna
+Description-Content-Type: text/markdown
+
+# `iwanna`
+
+`iwanna` is a simple command line tool to help you find the right command to do what you want.
+
+## Installation
+
+Preferably installed with `pipx`, but you can also install it with `pip`.
+
+```bash
+pipx install iwanna
+```
+
+```bash
+pip install iwanna
+```
+
+## Configuration
+
+Configure with your OpenAI API key:
+
+```bash
+iwanna --config
+```
+
+## Usage
+
+```bash
+iwanna convert a video file into a gif
+```
+
