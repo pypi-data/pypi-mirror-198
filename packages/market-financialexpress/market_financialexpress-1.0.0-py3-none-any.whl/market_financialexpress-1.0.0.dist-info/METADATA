@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: market-financialexpress
+Version: 1.0.0
+Summary: It is used to deals with market web site --> financial express
+Home-page: https://github.com/ChitreshPratap/barfy
+Author: Chitresh Pratap Singh
+Author-email: chitreshpratapsingh@yahoo.com
+License: BSD
+Requires-Python: >=3.6
+License-File: LICENSE
+
