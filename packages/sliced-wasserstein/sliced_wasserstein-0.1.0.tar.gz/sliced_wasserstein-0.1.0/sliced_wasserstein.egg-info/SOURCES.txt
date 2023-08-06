@@ -1,0 +1,9 @@
+README.md
+setup.py
+sliced_wasserstein/__init__.py
+sliced_wasserstein/gsw.py
+sliced_wasserstein.egg-info/PKG-INFO
+sliced_wasserstein.egg-info/SOURCES.txt
+sliced_wasserstein.egg-info/dependency_links.txt
+sliced_wasserstein.egg-info/requires.txt
+sliced_wasserstein.egg-info/top_level.txt

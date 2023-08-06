@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sliced_wasserstein
+Version: 0.1.0
+Summary: A package to compute sliced wasserstein distance on pytorch tensors
+Home-page: https://github.com/mmathew23/sliced_wasserstein
+Author: Mathew J. Mathew
+Author-email: mathew.jude.mathew@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+
+
+    This package contains utils to help define your own sliced wasserstein distance for ML
+    training. It currently supports Generalized Sliced Wasserstein distance and Max Generalized
+    Sliced Wasserstein Distance. You can also add support for different projectors.
+    
