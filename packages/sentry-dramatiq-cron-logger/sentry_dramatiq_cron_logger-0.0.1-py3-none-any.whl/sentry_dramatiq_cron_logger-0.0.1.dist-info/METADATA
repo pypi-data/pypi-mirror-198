@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sentry-dramatiq-cron-logger
+Version: 0.0.1
+Summary: Sentry Cron Logging Package for Dramatiq Actors
+Project-URL: Documentation, https://github.com/unknown/sentry-dramatiq-cron-logger#readme
+Project-URL: Issues, https://github.com/unknown/sentry-dramatiq-cron-logger/issues
+Project-URL: Source, https://github.com/unknown/sentry-dramatiq-cron-logger
+Author-email: Zeke Zumbro <jezumbro@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: dramatiq
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Sentry Dramatiq Cron Logger
+
+[![PyPI - Version](https://img.shields.io/pypi/v/sentry-dramatiq-cron-logger.svg)](https://pypi.org/project/sentry-dramatiq-cron-logger)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sentry-dramatiq-cron-logger.svg)](https://pypi.org/project/sentry-dramatiq-cron-logger)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install sentry-dramatiq-cron-logger
+```
+
+## License
+
+`sentry-dramatiq-cron-logger` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
