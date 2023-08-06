@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: xtracture
+Version: 0.4.0
+Summary: Xtracture is an open source library designed to efficiently extract arbitrary elements from documents.
+Author: ryo.ishii
+Author-email: ryoishii1101@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-vision (>=3.4.0,<4.0.0)
+Requires-Dist: langchain (>=0.0.117,<0.0.118)
+Requires-Dist: openai (>=0.27.2,<0.28.0)
+Requires-Dist: pyocr (>=0.8.3,<0.9.0)
+Description-Content-Type: text/markdown
+
+# Xtracture: Open Source Document Content Extractuion Library
+
+Xtracture is an open source library designed to efficiently extract arbitrary elements from documents.
+
+## Features
+
+- Natural language rule creation using LLMs
+- Switchable OCR engines for optimized perfomance and accuracy
+
+## prerequirements
+
+- OpenAI API Key (for LLM rule creation)
+
+## Installation
+
+```
+pip install -U xtracture
+```
+
+## Usage
+
+### Use Google Cloud Vision API
+
+Google CLoud Vision Credentials must be correctly configured.
+
+see `examples/google_cloud_vision_example.py`.
+
+### Use Tesseract
+
+Tesseract must be installed beforehand.
+
+see `examples/tesseract_example.py`.
+
+### Use only GPT Extractor
+
+You can input OCR-processed text file.
+see `examples/lambda_example.py`.
+
+## License
+
+Xtracture is released under the MIT License.
+

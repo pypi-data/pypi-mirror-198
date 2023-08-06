@@ -1,0 +1,9 @@
+xtracture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtracture/extractor.py,sha256=3RBldUNwVxMaUxh7GYo4F_MwOte8axqEQBPj91g_LXc,512
+xtracture/item_extractor.py,sha256=BQsX0naq3wvv844plxH3KN8zXhS8kabdiAjDR5qDxZI,1770
+xtracture/logger.py,sha256=Yw3mcX3xFMAhApdvYgpxSchJI7C12qs4vJWDbA1s4EI,658
+xtracture/schema.py,sha256=D9iG9bBVXRRW75r9_CCJqRXJrdk-xjX3Le0id5Mm7Vc,499
+xtracture/text_extractor.py,sha256=-uU_0x7FBlYDCD5PpkvZT3J4o3Iy591PC6WIkAiMoPg,1281
+xtracture-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+xtracture-0.4.0.dist-info/METADATA,sha256=XRZouiQih2ADoqnOSVbX54n-snyUox8NjocWGtEqodk,1430
+xtracture-0.4.0.dist-info/RECORD,,
