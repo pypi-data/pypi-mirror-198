@@ -1,0 +1,32 @@
+[tool.pdm.scripts.minigpt]
+call = "minigpt.__main__:main"
+
+[project]
+name = "minigpt"
+version = "0.1.0"
+description = "A minimalistic ChatGPT CLI utility"
+authors = [
+    { name = "Haris Gušić", email = "harisgusic.dev@gmail.com" },
+]
+dependencies = [
+    "typer~=0.7",
+    "openai~=0.27",
+    "pyaudio~=0.2",
+    "wave~=0.0",
+    "pyaml~=21.10",
+    "pyperclip~=1.8",
+]
+requires-python = ">=3.7.1"
+readme = "README.md"
+
+[project.scripts]
+minigpt = "minigpt.__main__:main"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

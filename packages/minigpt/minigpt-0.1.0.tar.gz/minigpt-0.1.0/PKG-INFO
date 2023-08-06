@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: minigpt
+Version: 0.1.0
+Summary: A minimalistic ChatGPT CLI utility
+Author-Email: Haris Gušić <harisgusic.dev@gmail.com>
+License: MIT
+Requires-Python: >=3.7.1
+Requires-Dist: typer~=0.7
+Requires-Dist: openai~=0.27
+Requires-Dist: pyaudio~=0.2
+Requires-Dist: wave~=0.0
+Requires-Dist: pyaml~=21.10
+Requires-Dist: pyperclip~=1.8
+Description-Content-Type: text/markdown
+
+A minimalistic CLI tool for ChatGPT.
