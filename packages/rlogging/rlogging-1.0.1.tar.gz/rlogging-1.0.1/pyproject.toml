@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "rlogging"
+version = "0.0.0"
+description = ""
+authors = ["irocshers <develop.iam@rocshers.com>"]
+readme = "readme.md"
+packages = [{include = "rlogging"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+django = "^4.1.7"
+black = "^23.1.0"
+ruff = "^0.0.257"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.ruff]
+# select = ["A", "B", "C", "D", "E", "F", "I", "UP"]
+select = ["A", "B", "C", "E", "F", "I", "UP"]
+# fixable = ["A", "B", "C", "D", "E", "F", "I", "UP"]
+fixable = ["A"]
+ignore = ["UP004", "D100", "D101", "D102", "D103", "D104", "D107", "D400", "D415"]
+line-length = 120
+target-version = "py37"
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
