@@ -1,0 +1,25 @@
+[package]
+name = "neutrons"
+version = "0.0.3"
+edition = "2021"
+description = "Neutron transport simulation."
+authors = ["Freddy Wordingham <freddy@digilab.co.uk>"]
+license-file = "LICENSE"
+
+[lib]
+name = "neutrons"
+crate-type = ["cdylib"]
+# crate-type = ["rlib"]
+
+[dependencies]
+arctk = "2.0.10"
+nalgebra = "0.32.2"
+ndarray = "0.15.6"
+ndarray-stats = "0.5.1"
+num_cpus = "1.15.0"
+palette = "0.6.1"
+pyo3 = { version = "0.18", features = ["extension-module"] }
+rand = "0.8.5"
+rayon = "1.7.0"
+serde = { version = "1.0.158", features = ["derive"] }
+serde_json = "1.0.94"
