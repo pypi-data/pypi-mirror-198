@@ -1,0 +1,132 @@
+{
+  "mappings": {
+    "date_detection": false,
+    "numeric_detection": false,
+    "properties": {
+      "$schema": {
+        "type": "keyword"
+      },
+      "internal_id": {
+        "type": "keyword"
+      },
+      "legacy_id": {
+        "type": "keyword"
+      },
+      "code": {
+        "type": "keyword"
+      },
+      "title": {
+        "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+      },
+      "acronym": {
+        "type": "keyword"
+      },
+      "startdate": {
+        "type": "date",
+        "ignore_malformed": true
+      },
+      "enddate": {
+        "type": "date",
+        "ignore_malformed": true
+      },
+      "funder": {
+        "type": "object",
+        "properties": {
+          "doi": {
+            "type": "keyword"
+          },
+          "identifiers": {
+            "type": "object",
+            "properties": {
+              "oaf": {
+                "type": "keyword"
+              }
+            }
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword"
+              }
+            }
+          },
+          "acronyms": {
+            "type": "keyword"
+          },
+          "country": {
+            "type": "keyword"
+          },
+          "type": {
+            "type": "keyword"
+          },
+          "subtype": {
+            "type": "keyword"
+          },
+          "remote_created": {
+            "type": "date"
+          },
+          "remote_modified": {
+            "type": "date"
+          }
+        }
+      },
+      "program": {
+        "type": "keyword"
+      },
+      "remote_modified": {
+        "type": "date",
+        "ignore_malformed": true
+      },
+      "url": {
+        "type": "keyword"
+      },
+      "identifiers": {
+        "type": "object",
+        "properties": {
+          "oai_id": {
+            "type": "keyword"
+          },
+          "purl": {
+            "type": "keyword"
+          },
+          "eurepo": {
+            "type": "keyword"
+          }
+        }
+      },
+      "suggest": {
+        "type": "completion",
+        "analyzer": "standard",
+        "search_analyzer": "standard",
+        "contexts": [
+          {
+            "name": "funder",
+            "type": "category",
+            "path": "funder.doi"
+          }
+        ]
+      },
+      "_created": {
+        "type": "date",
+        "copy_to": "created"
+      },
+      "_updated": {
+        "type": "date",
+        "copy_to": "updated"
+      },
+      "created": {
+        "type": "date"
+      },
+      "updated": {
+        "type": "date"
+      }
+    }
+  }
+}
+
