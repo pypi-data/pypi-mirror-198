@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/xors/__init__.py
+src/xors/xors.py
+src/xors.egg-info/PKG-INFO
+src/xors.egg-info/SOURCES.txt
+src/xors.egg-info/dependency_links.txt
+src/xors.egg-info/requires.txt
+src/xors.egg-info/top_level.txt
