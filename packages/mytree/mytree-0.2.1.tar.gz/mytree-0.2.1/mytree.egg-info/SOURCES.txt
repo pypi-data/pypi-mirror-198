@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mytree/__init__.py
+mytree/bijectors.py
+mytree/mytree.py
+mytree/param.py
+mytree.egg-info/PKG-INFO
+mytree.egg-info/SOURCES.txt
+mytree.egg-info/dependency_links.txt
+mytree.egg-info/requires.txt
+mytree.egg-info/top_level.txt
+mytree.egg-info/zip-safe
