@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AIS_Oversampler/ArtificialImmuneSystem.py
+src/AIS_Oversampler/__init__.py
+src/AIS_Oversampler.egg-info/PKG-INFO
+src/AIS_Oversampler.egg-info/SOURCES.txt
+src/AIS_Oversampler.egg-info/dependency_links.txt
+src/AIS_Oversampler.egg-info/top_level.txt
