@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: midtermgeos
+Version: 0.0.1
+Summary: for geog midterm
+Home-page: https://github.com/Feng96/midtermgeos
+Author: Yinan Feng
+Author-email: feng.945@osu.edu
+License: MIT license
+Keywords: midtermgeos
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# midtermgeos
+
+
+[![image](https://img.shields.io/pypi/v/midtermgeos.svg)](https://pypi.python.org/pypi/midtermgeos)
+[![image](https://img.shields.io/conda/vn/conda-forge/midtermgeos.svg)](https://anaconda.org/conda-forge/midtermgeos)
+
+
+**for geog midterm**
+
+
+-   Free software: MIT license
+-   Documentation: https://Feng96.github.io/midtermgeos
+    
+
+## Features
+
+-   TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
