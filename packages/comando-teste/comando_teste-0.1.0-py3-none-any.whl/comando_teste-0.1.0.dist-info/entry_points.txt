@@ -1,0 +1,3 @@
+[console_scripts]
+comando-teste=comando_teste.main:app
+
