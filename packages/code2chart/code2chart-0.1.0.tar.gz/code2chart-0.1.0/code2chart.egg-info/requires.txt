@@ -1,0 +1,6 @@
+langchain
+Pillow
+PyGithub
+requests
+setuptools
+streamlit

@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+code2flowchart.egg-info/PKG-INFO
+code2flowchart.egg-info/SOURCES.txt
+code2flowchart.egg-info/dependency_links.txt
+code2flowchart.egg-info/requires.txt
+code2flowchart.egg-info/top_level.txt
