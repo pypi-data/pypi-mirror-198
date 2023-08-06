@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+mindColabYolo5/__init__.py
+mindColabYolo5/modelDemo.py
+mindColabYolo5/utilsDemo.py
+mindColabYolo5.egg-info/PKG-INFO
+mindColabYolo5.egg-info/SOURCES.txt
+mindColabYolo5.egg-info/dependency_links.txt
+mindColabYolo5.egg-info/top_level.txt
