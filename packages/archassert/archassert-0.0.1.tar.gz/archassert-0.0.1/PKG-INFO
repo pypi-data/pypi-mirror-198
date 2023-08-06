@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: archassert
+Version: 0.0.1
+Summary: A Python package to test whether a project architecture follows good design principles
+Home-page: https://github.com/domlenart/archassert
+License: MIT
+Author: domlenart
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: docs
+Requires-Dist: Sphinx (==5.1.1) ; extra == "docs"
+Requires-Dist: networkx (>=2.8.7,<3.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: plotly (>=5.11.0,<6.0.0)
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon (==0.7) ; extra == "docs"
+Project-URL: Repository, https://github.com/domlenart/archassert
+Description-Content-Type: text/markdown
+
+# ArchAssert
