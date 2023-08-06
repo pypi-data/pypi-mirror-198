@@ -1,0 +1,2 @@
+[console_scripts]
+ap_new = cmd_entry:CMD_NewProject
