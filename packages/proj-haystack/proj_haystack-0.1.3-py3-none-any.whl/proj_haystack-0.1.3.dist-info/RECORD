@@ -1,0 +1,8 @@
+proj_haystack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proj_haystack/scram.py,sha256=daFFX-PKjOV24FRoP_MwOz0Vb8QzAyDQkfaBy40LUvs,10884
+proj_haystack/session.py,sha256=Hr13n1ZXOSLa4gIqos08aSE6RAXfaxt09AYY5hWmKBw,1046
+proj_haystack/utils.py,sha256=Le-iZAuJNZhsRHM1jMq3V6iS4Q2J9lQ8d7O2bi4iQn8,2896
+proj_haystack-0.1.3.dist-info/LICENSE,sha256=WmNL9InlHZMA7VPy_Sw37Bkv0D28RmOBsfraJtTBAkc,1069
+proj_haystack-0.1.3.dist-info/METADATA,sha256=RiOI_PxIt2vvM6eUQ4r4a3sM1MumMlNUSzlXu_H_6EE,1054
+proj_haystack-0.1.3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+proj_haystack-0.1.3.dist-info/RECORD,,
