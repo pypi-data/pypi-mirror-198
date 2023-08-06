@@ -1,0 +1,7 @@
+PyYAML
+dacite
+
+[test]
+pytest-cov
+mock
+assertpy
