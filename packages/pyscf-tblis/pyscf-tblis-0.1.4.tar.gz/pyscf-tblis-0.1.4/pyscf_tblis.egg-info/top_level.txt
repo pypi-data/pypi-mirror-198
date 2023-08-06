@@ -1,0 +1,2 @@
+libtblis_einsum
+pyscf

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyscf/tblis_einsum/CMakeLists.txt
+pyscf/tblis_einsum/__init__.py
+pyscf/tblis_einsum/as_einsum.cxx
+pyscf/tblis_einsum/tblis_einsum.py
+pyscf_tblis.egg-info/PKG-INFO
+pyscf_tblis.egg-info/SOURCES.txt
+pyscf_tblis.egg-info/dependency_links.txt
+pyscf_tblis.egg-info/requires.txt
+pyscf_tblis.egg-info/top_level.txt
