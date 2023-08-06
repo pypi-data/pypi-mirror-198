@@ -1,0 +1,15 @@
+pythor/__init__.py,sha256=c2S_PtLY5-EJqxeSaLifW-XTvhSBZlW7bbUddsDOQEc,28
+pythor/asset.py,sha256=dT-h0QjTvmMeGKsUcKha8dlBlqcSLeHhkzoGZFdeKYU,5865
+pythor/benchmark.py,sha256=-a1OhgO4dwUxsyvLZfc-vwvgFnDfdfqXB-DnNWb9kPY,16131
+pythor/compustat.py,sha256=qY_H-bAP4AjAfVmxQFjPMke_TMHE3QYA-RC4Qfw3agk,26506
+pythor/feature.py,sha256=4emOpanhz5aK23vyOiysOiz3lT-96GDz9emH2qZuDIk,6155
+pythor/neural.py,sha256=4M7fCDUOuN12w6dJWCf-QOyfZw6VvP2R3J5xunzRsLo,10821
+pythor/numerai.py,sha256=j3g9i7QP-vluw9z-NuI-L4vu4mSUXrTaPpM9S_VjcN4,38960
+pythor/numerai_signals.py,sha256=DGvstEJDfRiZP51kZ70aj8SMRhsEbdD-7ryKXG9kHVw,3733
+pythor/optimisation.py,sha256=mxEK1CBgqkOMWZVNu8pcNMUXksoT7CHV8r2-9mqdCAw,11963
+pythor/util.py,sha256=Ig6Q_nUOKRHc-OV_wNSLeoyXTsDslqd6Wyuxr3doNqo,18807
+thorml-0.1.1.2.dist-info/LICENSE,sha256=ZYDApbp_LaKTmoD46ug1y1GbmaUSTYNSwsYEf5nAZqM,1079
+thorml-0.1.1.2.dist-info/METADATA,sha256=LYU-bXXKuvN1FUmk9eldVKZ-unr6FXQLnNRlrXhDI0E,4444
+thorml-0.1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thorml-0.1.1.2.dist-info/top_level.txt,sha256=IDZGOUaJqQuPRy0Lbw3pnNo-f3iZZUvRyWrBOG_tGgA,7
+thorml-0.1.1.2.dist-info/RECORD,,
