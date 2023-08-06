@@ -1,0 +1,9 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+src/YTAUD.egg-info/PKG-INFO
+src/YTAUD.egg-info/SOURCES.txt
+src/YTAUD.egg-info/dependency_links.txt
+src/YTAUD.egg-info/requires.txt
+src/YTAUD.egg-info/top_level.txt
