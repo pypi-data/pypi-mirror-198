@@ -1,0 +1,12 @@
+snowflake-connector-python[pandas,secure-local-storage]==2.7.6
+typing
+numpy
+pydantic
+datetime
+scipy
+pandas
+collections
+pyodbc
+textwrap
+seaborn
+matplotlib
