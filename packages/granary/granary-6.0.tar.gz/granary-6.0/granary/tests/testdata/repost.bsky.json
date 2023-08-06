@@ -1,0 +1,45 @@
+{
+  "$type": "app.bsky.feed.feedViewPost",
+  "post": {
+    "$type": "app.bsky.feed.post#view",
+    "uri": "http://example.com/original/post",
+    "cid": "TODO",
+    "author": {
+      "$type": "app.bsky.actor.ref#withInfo",
+      "did": "did:web:example.com:bob",
+      "declaration": {
+        "$type": "app.bsky.system.declRef",
+        "actorType": "app.bsky.system.actorUser",
+        "cid": "TODO"
+      },
+      "handle": "example.com/bob",
+      "displayName": "Bob"
+    },
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "text": "The original post",
+      "createdAt": ""
+    },
+    "replyCount": 0,
+    "repostCount": 0,
+    "upvoteCount": 0,
+    "downvoteCount": 0,
+    "indexedAt": "2022-01-02T03:04:05+00:00",
+    "viewer": {}
+  },
+  "reason": {
+    "$type": "app.bsky.feed.feedViewPost#reasonRepost",
+    "by": {
+      "$type": "app.bsky.actor.ref#withInfo",
+      "did": "did:web:example.com:alice",
+      "declaration": {
+        "$type": "app.bsky.system.declRef",
+        "actorType": "app.bsky.system.actorUser",
+        "cid": "TODO"
+      },
+      "handle": "example.com/alice",
+      "displayName": "Alice"
+    },
+    "indexedAt": "2022-01-02T03:04:05+00:00"
+  }
+}

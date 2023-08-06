@@ -1,0 +1,55 @@
+{
+  "$type": "app.bsky.feed.feedViewPost",
+  "post": {
+    "$type": "app.bsky.feed.post#view",
+    "uri": "http://example.com/blog-post-123",
+    "cid": "TODO",
+    "author": {
+      "$type": "app.bsky.actor.ref#withInfo",
+      "did": "",
+      "declaration": {
+        "$type": "app.bsky.system.declRef",
+        "actorType": "app.bsky.system.actorUser",
+        "cid": "TODO"
+      },
+      "displayName": "Ryan Barrett",
+      "handle": "example.com,2001:ryan",
+      "avatar": "http://example.com/ryan/image"
+    },
+    "record": {
+      "$type": "app.bsky.feed.post",
+      "text": "too cool to summarize",
+      "createdAt": "2012-02-22T20:26:41",
+      "embed": {
+        "$type": "app.bsky.embed.images",
+        "images": [{
+          "$type": "app.bsky.embed.images#image",
+          "image": "http://example.com/blog-post-123/image"
+        }]
+      },
+      "entities": [{
+        "type": "link",
+        "value": "http://my/link",
+        "text": "link",
+        "index": {
+          "start": 8,
+          "end": 12
+        }
+      }]
+    },
+    "embed": {
+      "$type": "app.bsky.embed.images#presented",
+      "images": [{
+        "$type": "app.bsky.embed.images#presentedImage",
+        "thumb": "http://example.com/blog-post-123/image",
+        "fullsize": "http://example.com/blog-post-123/image"
+      }]
+    },
+    "replyCount": 0,
+    "repostCount": 0,
+    "upvoteCount": 0,
+    "downvoteCount": 0,
+    "indexedAt": "2022-01-02T03:04:05+00:00",
+    "viewer": {}
+  }
+}
