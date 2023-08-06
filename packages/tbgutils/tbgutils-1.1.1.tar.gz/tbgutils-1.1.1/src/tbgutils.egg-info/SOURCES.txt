@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tbgutils/__init__.py
+src/tbgutils/dt.py
+src/tbgutils/str_utils.py
+src/tbgutils.egg-info/PKG-INFO
+src/tbgutils.egg-info/SOURCES.txt
+src/tbgutils.egg-info/dependency_links.txt
+src/tbgutils.egg-info/requires.txt
+src/tbgutils.egg-info/top_level.txt
