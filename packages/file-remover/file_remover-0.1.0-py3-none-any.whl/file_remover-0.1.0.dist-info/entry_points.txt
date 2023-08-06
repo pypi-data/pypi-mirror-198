@@ -1,0 +1,3 @@
+[console_scripts]
+remove_files=file_remover.main:main
+
