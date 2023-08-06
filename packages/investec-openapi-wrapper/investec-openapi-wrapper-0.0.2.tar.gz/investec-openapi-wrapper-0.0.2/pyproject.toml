@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "investec-openapi-wrapper"
+version = "0.0.2"
+authors = [{name = "Anri Goosen", email = "aesnyma.n+pypi@gmail.com"}]
+description = "Investec Programmable Banking (OpenAPI) wrapper"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+dependencies = ["requests"]
+
+[project.urls]
+"Homepage" = "https://github.com/GoosenA/ipb-python-wrapper"
+"Bug Tracker" = "https://github.com/GoosenA/ipb-python-wrapper/issues"
