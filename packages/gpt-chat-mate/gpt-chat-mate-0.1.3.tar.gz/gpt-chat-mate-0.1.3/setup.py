@@ -1,0 +1,29 @@
+from setuptools import find_packages, setup
+
+with open("README.md") as f:
+    ld = f.read()
+
+setup(
+    name="gpt-chat-mate",
+    version="0.1.3",
+    packages=find_packages(),
+    entry_points={
+        "console_scripts": [
+            "gpt-chat-mate=gpt_chat_mate.main:main",
+        ],
+    },
+    install_requires=[
+        "pygments",
+        "openai",
+        "pyfiglet",
+    ],
+    author="Fizzizist",
+    long_description=ld,
+    long_description_content_type="text/markdown",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.6",
+)
