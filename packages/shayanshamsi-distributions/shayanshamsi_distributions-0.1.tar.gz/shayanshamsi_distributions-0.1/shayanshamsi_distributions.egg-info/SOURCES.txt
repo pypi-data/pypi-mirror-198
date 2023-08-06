@@ -1,0 +1,10 @@
+setup.py
+shayanshamsi_distributions/Binomialdistribution.py
+shayanshamsi_distributions/Gaussiandistribution.py
+shayanshamsi_distributions/Generaldistribution.py
+shayanshamsi_distributions/__init__.py
+shayanshamsi_distributions.egg-info/PKG-INFO
+shayanshamsi_distributions.egg-info/SOURCES.txt
+shayanshamsi_distributions.egg-info/dependency_links.txt
+shayanshamsi_distributions.egg-info/not-zip-safe
+shayanshamsi_distributions.egg-info/top_level.txt
