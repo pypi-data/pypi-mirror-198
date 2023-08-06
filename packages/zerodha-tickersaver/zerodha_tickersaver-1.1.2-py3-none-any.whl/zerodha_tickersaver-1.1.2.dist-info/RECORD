@@ -1,0 +1,11 @@
+tickersaver/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+tickersaver/cache/sqllite_cache.py,sha256=TdvtMdhWoILrjbGr6G-ReRH7mrBVLe94fDIcgXKm7-c,2585
+tickersaver/fetcher/kite/orders.py,sha256=gcnoaqtwvFtZUGuair86YW158lUNHa1z4HG5Bhl-NaY,5865
+tickersaver/fetcher/kite/ws_tick_fetcher.py,sha256=7eVvaTNTgS5ksuXCjPzdzyyOZ2uGONcP05IsLrXt1xQ,5098
+tickersaver/utils/log.py,sha256=3W-jN6bEQKkpFsCfhpFlXoqBg9pEQdoqbC_dF-F9ZuI,657
+zerodha_tickersaver-1.1.2.dist-info/LICENCE,sha256=t0RBHPalNRLMZlSJgoiqCBwz5HS5UyLFzPpmf-21oPM,1099
+zerodha_tickersaver-1.1.2.dist-info/METADATA,sha256=9criBSZdWqt1CnThMO4mDKQ9KYiIY_KgVgeDetPJFho,5515
+zerodha_tickersaver-1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+zerodha_tickersaver-1.1.2.dist-info/entry_points.txt,sha256=LugmjK9Ft9SXLDKUNJSAG4DKDyEmW1LoJStgyGo_kDQ,87
+zerodha_tickersaver-1.1.2.dist-info/top_level.txt,sha256=A9dcsPkl9z9hSwvH14Hq4YExk2EJc7F9YFs_1yeBqbc,12
+zerodha_tickersaver-1.1.2.dist-info/RECORD,,
