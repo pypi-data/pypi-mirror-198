@@ -1,0 +1,3 @@
+[console_scripts]
+translate=practice_turkish.translation:main
+
