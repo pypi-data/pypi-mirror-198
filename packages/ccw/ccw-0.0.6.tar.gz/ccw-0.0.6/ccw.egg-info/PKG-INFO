@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ccw
+Version: 0.0.6
+Summary: CLI commands for HD wallet operations
+Home-page: https://gitlab.com/nolash/cryptocurrency-cli-tools
+Author: Louis Holbrook
+Author-email: dev@holbrook.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Utilities
+License-File: LICENSE.txt
+
+UNKNOWN
+

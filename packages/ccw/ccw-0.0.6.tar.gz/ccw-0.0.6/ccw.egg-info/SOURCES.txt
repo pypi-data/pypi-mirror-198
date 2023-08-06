@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+ccw.egg-info/PKG-INFO
+ccw.egg-info/SOURCES.txt
+ccw.egg-info/dependency_links.txt
+ccw.egg-info/entry_points.txt
+ccw.egg-info/requires.txt
+ccw.egg-info/top_level.txt
+ccw/data/english.json
+ccw/runnable/__init__.py
+ccw/runnable/btc.py
+ccw/runnable/eth.py
+ccw/runnable/gen.py

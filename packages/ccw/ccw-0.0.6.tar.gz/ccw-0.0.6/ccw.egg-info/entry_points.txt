@@ -1,0 +1,3 @@
+[console_scripts]
+ccweth = ccw.runnable.eth:main
+ccwgen = ccw.runnable.gen:main
