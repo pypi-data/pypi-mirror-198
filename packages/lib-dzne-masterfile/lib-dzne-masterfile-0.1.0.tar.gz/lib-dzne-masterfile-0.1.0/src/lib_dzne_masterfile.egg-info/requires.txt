@@ -1,0 +1,5 @@
+pandas>=1.4.2
+lib-dzne-manifesto>=0.1.0
+lib-dzne-workbook>=0.1.3
+lib-dzne-sqlite>=0.1.1
+lib-dzne-data>=0.1.2
