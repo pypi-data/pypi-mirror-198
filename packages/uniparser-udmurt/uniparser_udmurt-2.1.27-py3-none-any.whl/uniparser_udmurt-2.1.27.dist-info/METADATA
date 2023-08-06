@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: uniparser-udmurt
+Version: 2.1.27
+Summary: Rule-based morphological analysis for Udmurt
+Home-page: https://github.com/timarkh/uniparser-grammar-udm
+Author: Timofey Arkhangelskiy
+Author-email: timarkh@gmail.com
+Project-URL: Bug Tracker, https://github.com/timarkh/uniparser-grammar-udm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: uniparser-morph (>=2.6.4)
+Requires-Dist: importlib-resources
+
