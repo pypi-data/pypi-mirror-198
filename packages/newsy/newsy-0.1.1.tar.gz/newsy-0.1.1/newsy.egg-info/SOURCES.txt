@@ -1,0 +1,10 @@
+README.md
+setup.py
+newsy/__init__.py
+newsy/newsy.py
+newsy.egg-info/PKG-INFO
+newsy.egg-info/SOURCES.txt
+newsy.egg-info/dependency_links.txt
+newsy.egg-info/entry_points.txt
+newsy.egg-info/requires.txt
+newsy.egg-info/top_level.txt
