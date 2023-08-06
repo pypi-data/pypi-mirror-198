@@ -1,0 +1,3 @@
+[console_scripts]
+lite = lite.cli:lite
+
