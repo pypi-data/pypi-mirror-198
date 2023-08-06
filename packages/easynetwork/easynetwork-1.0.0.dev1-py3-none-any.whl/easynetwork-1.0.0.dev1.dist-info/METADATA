@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: easynetwork
+Version: 1.0.0.dev1
+Summary: The easiest way to use sockets in Python
+Project-URL: Homepage, https://github.com/francis-clairicia/EasyNetwork
+Author-email: FrankySnow9 <clairicia.rcj.francis@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Provides-Extra: cbor
+Requires-Dist: cbor2<6,>=5.4; extra == 'cbor'
+Provides-Extra: encryption
+Requires-Dist: cryptography<40,>=39; extra == 'encryption'
+Description-Content-Type: text/markdown
+
+# EasyNetwork
+The easiest way to use sockets in Python
