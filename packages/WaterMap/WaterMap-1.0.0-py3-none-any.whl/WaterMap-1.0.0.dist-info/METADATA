@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: WaterMap
+Version: 1.0.0
+Summary: Water Mapping from Remote Sensing Images
+Author: Wiserli Pvt Ltd
+License-File: LICENSE.txt
+Requires-Dist: numpy (~=1.22.1)
+Requires-Dist: tifffile (~=2022.8.12)
+Requires-Dist: matplotlib (~=3.5.1)
+Requires-Dist: gdown (~=4.5.1)
+Requires-Dist: tensorflow (~=2.10.0)
+
