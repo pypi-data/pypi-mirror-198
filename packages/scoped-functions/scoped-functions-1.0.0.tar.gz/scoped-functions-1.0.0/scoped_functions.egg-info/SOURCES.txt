@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+scoped/__init__.py
+scoped/scope.py
+scoped/utils.py
+scoped_functions.egg-info/PKG-INFO
+scoped_functions.egg-info/SOURCES.txt
+scoped_functions.egg-info/dependency_links.txt
+scoped_functions.egg-info/requires.txt
+scoped_functions.egg-info/top_level.txt
+tests/__init__.py
+tests/test_scoped.py
