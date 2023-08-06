@@ -1,0 +1,11 @@
+matplotlib
+trimesh
+shapely
+scipy
+meshio
+h5py
+streamlit
+
+[tests]
+pytest
+pytest-cov

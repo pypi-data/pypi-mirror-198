@@ -1,0 +1,2 @@
+[console_scripts]
+dagmc_geometry_slice_plotter = dagmc_geometry_slice_plotter.launch:main
