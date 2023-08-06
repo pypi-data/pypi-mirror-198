@@ -1,0 +1,7 @@
+openai_api_wrapper/__init__.py,sha256=JsNdCSXFyDcDlK585uxN0AxJXLwrZI64xkwTA3Ud1Vw,29
+openai_api_wrapper/__version__.py,sha256=J3t1h_zsHvloA9pAH_h5Jz308nlg-SgmVlNcNLDLbiA,88
+openai_api_wrapper/chatbot.py,sha256=6arhIlka36NYEBOWiUhTjCjak7c--tQ3M-QA8QaHSzQ,8597
+openai_api_wrapper-0.1.0.dist-info/METADATA,sha256=K8yEZqGjONsd_OiL3BPsB-ki9-RHYDc3ygL4IxU--ZI,4347
+openai_api_wrapper-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openai_api_wrapper-0.1.0.dist-info/top_level.txt,sha256=x95t404HkQnr9Ghdi5cuqv8MUiRKBTxgUTlmkr8s1uI,19
+openai_api_wrapper-0.1.0.dist-info/RECORD,,
