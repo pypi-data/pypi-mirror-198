@@ -1,0 +1,13 @@
+BaseNN/BaseNN.py,sha256=vtht8W94KNAM11iovV5Rao1fghbO1Kb4yP8JprEElYQ,25208
+BaseNN/BaseNN1219.py,sha256=jYmeB14KulsZmWf6yUSgit7eqUs3eIayNuGYV6LLWk8,15714
+BaseNN/__init__.py,sha256=5dRgjK-eYOjlJUHfOZOjEI1Iohuk8MO_x2U55bTNPUI,206
+BaseNN/version.py,sha256=Prht9E5EFZm3ytwRB9oiMNixDIqvcZWmlqGMgwwt9ps,1256
+BaseNN/examples/BaseNN_demo.py,sha256=khdZ0fQ--SlGURT0R6XCZjAAdktYFRB3M-mJf8fOjpI,8842
+BaseNN/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaseNN/examples/lstmdemo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaseNN-0.0.8.dist-info/METADATA,sha256=zBCKK_GdqDdXDbd1y_kkC0aZfMIxlOSqbH0-OaqNJ2s,499
+BaseNN-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BaseNN-0.0.8.dist-info/entry_points.txt,sha256=pf-u5E7AWHjRNq2eODQU6r1hiT6ZSO0DIXewaNl0VpI,49
+BaseNN-0.0.8.dist-info/top_level.txt,sha256=TbQdvHXKrh-0U9sGrdJNqn5GirdB7VwLYvpTMrtSCfo,7
+BaseNN-0.0.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BaseNN-0.0.8.dist-info/RECORD,,
