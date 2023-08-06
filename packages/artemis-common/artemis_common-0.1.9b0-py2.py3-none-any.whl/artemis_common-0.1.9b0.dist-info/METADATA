@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: artemis-common
+Version: 0.1.9b0
+Summary: Artemis common project utilities
+Author: 0xArti
+Author-email: contact@hunters-of-artemis.com
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: async-lru
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: pydantic
+Requires-Dist: python-dateutil
+Requires-Dist: python-json-logger
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: uvicorn
+Requires-Dist: wheel
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: tox (==3.28.0) ; extra == 'dev'
+
