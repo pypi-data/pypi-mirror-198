@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+art_daq/__init__.py
+art_daq/prueba.py
+art_daq.egg-info/PKG-INFO
+art_daq.egg-info/SOURCES.txt
+art_daq.egg-info/dependency_links.txt
+art_daq.egg-info/requires.txt
+art_daq.egg-info/top_level.txt
