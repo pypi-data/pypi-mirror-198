@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "praison"
+version = "0.2.2"
+description = ""
+authors = ["MervinPraison"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+open-tamil = "^1.1"
+nose = "^1.3.7"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tamil = "ezhil.__main__:main"
+praison = "praison.__main__:main"
