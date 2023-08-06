@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gmdh
+Version: 1.0
+Summary: Gmdh algorithms
+Home-page: https://github.com/bauman-team/GMDH
+Author: Artem Babin
+Author-email: artem031201@gmail.com
+License: LICENSE.md
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: docstring-inheritance
+Requires-Dist: numpy
+
+# GMDH
+Group method of data handling
+
+
