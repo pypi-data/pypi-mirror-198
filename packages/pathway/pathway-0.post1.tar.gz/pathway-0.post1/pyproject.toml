@@ -1,0 +1,17 @@
+[project]
+name = "pathway"
+version = "0-1"
+description = "Pathway is a data processing framework which takes care of streaming data updates for you."
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://pathway.com/"
+"Documentation" = "https://pathway.com/developers/"
+"Troubleshooting" = "https://pathway.com/troubleshooting/"
+
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+]
+build-backend = "setuptools.build_meta"
