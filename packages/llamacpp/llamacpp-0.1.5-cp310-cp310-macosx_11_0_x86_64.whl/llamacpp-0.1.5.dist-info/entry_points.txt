@@ -1,0 +1,6 @@
+[console_scripts]
+llamacpp-chat=llamacpp.chat:run
+llamacpp-cli=llamacpp.cli:run
+llamacpp-convert=llamacpp.convert:main
+llamacpp-quantize=llamacpp.quantize:main
+
