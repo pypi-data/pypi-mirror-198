@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+fastocrtools.egg-info/PKG-INFO
+fastocrtools.egg-info/SOURCES.txt
+fastocrtools.egg-info/dependency_links.txt
+fastocrtools.egg-info/top_level.txt
+tools/__init__.py
+tools/config.py
+tools/fastocrtools.py
