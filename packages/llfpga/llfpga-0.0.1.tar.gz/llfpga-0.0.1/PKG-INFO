@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: llfpga
+Version: 0.0.1
+Summary: Lateo Labs fpga access module
+Author: Blayne Kettlewell
+Author-email: rbkettlewell@gmail.com
+License: MIT
+Keywords: FPGA
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+A package that makes it easy to interface with FPGAs
+
