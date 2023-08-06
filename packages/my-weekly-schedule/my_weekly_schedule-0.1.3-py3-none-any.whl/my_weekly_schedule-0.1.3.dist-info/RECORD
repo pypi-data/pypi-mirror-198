@@ -1,0 +1,10 @@
+my_weekly_schedule/__init__.py,sha256=uZsygMXMKRw-7qhWojAjnpm8GFPXU92xW6XA8O5GwFY,22
+my_weekly_schedule/main.py,sha256=HqLOQxz8HTZkVHDH6fxjoGCvM7ftWNHo1Fezc9e6Rzw,874
+my_weekly_schedule/models.py,sha256=XpZAcQWpb1Icvm0gayjysnlfS11jh5FAxl5Dpo8BYag,1458
+my_weekly_schedule/parse_txt.py,sha256=Efj6Bdjh5Fc6upR9cztvMuDgLwvInGJ8Go7kFcOcD8s,521
+my_weekly_schedule/plot_schedule.py,sha256=nmPVgZZ4nZlP6fQwYXfs5V8An20TMBFOewUl1QNb5dw,2122
+my_weekly_schedule-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+my_weekly_schedule-0.1.3.dist-info/METADATA,sha256=xclBCMx93HgU5gdA56uLOxNe2h3T61fFBbI35OismgI,1726
+my_weekly_schedule-0.1.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+my_weekly_schedule-0.1.3.dist-info/entry_points.txt,sha256=EXZ8-F_tyRgr7ipLEH_9CH06GsGCqxOESnavYCdtfjM,66
+my_weekly_schedule-0.1.3.dist-info/RECORD,,
