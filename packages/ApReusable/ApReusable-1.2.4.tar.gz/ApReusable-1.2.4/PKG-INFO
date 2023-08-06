@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ApReusable
+Version: 1.2.4
+Summary: Core system functions
+Home-page: https://github.com/aamarpay-core/AP-Reusable-Package
+Author: Rafat & Billah
+Author-email: masumbillahsanjid@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+long_description
+
