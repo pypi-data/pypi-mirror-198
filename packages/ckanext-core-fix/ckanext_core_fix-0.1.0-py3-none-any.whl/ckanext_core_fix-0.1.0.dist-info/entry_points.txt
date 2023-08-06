@@ -1,0 +1,5 @@
+[babel.extractors]
+ckan = ckan.lib.extract:extract_ckan
+
+[ckan.plugins]
+core_fix = ckanext.core_fix.plugin:CoreFixPlugin
