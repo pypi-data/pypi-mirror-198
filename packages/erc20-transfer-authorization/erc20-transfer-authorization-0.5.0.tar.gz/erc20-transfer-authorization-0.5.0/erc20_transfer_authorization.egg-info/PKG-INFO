@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: erc20-transfer-authorization
+Version: 0.5.0
+Summary: Simple approval escrow for ERC20 spend approval
+Home-page: https://gitlab.com/cicnet/erc20-transfer-authorization
+Author: Louis Holbrook
+Author-email: dev@holbrook.no
+License: AGPLv3+
+Keywords: ethereum
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+License-File: LICENSE

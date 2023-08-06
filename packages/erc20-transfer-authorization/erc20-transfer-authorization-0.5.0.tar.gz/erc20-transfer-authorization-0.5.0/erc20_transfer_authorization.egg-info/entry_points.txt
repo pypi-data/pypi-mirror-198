@@ -1,0 +1,2 @@
+[console_scripts]
+erc20-transfer-auth-publish = erc20_transfer_authorization.runnable.publish:main
