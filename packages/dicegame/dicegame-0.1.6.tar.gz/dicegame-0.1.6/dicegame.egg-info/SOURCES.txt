@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+dicegame/__init__.py
+dicegame/__main__.py
+dicegame/add.py
+dicegame/cmdline.py
+dicegame.egg-info/PKG-INFO
+dicegame.egg-info/SOURCES.txt
+dicegame.egg-info/dependency_links.txt
+dicegame.egg-info/entry_points.txt
+dicegame.egg-info/top_level.txt
+tests/__init__.py
+tests/test_add.py
+tests/test_cmdline.py
