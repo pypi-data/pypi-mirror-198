@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/hw_1_berezhko/__init__.py
+src/hw_1_berezhko/main.py
+src/hw_1_berezhko.egg-info/PKG-INFO
+src/hw_1_berezhko.egg-info/SOURCES.txt
+src/hw_1_berezhko.egg-info/dependency_links.txt
+src/hw_1_berezhko.egg-info/top_level.txt
