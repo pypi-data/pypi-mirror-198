@@ -1,0 +1,13 @@
+youwol
+youwol_accounts
+youwol_assets_backend
+youwol_assets_gateway
+youwol_cdn_apps_server
+youwol_cdn_backend
+youwol_cdn_sessions_storage
+youwol_files_backend
+youwol_flux_backend
+youwol_mock_backend
+youwol_stories_backend
+youwol_tree_db_backend
+youwol_utils
