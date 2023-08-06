@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: spln-tokenizador
+Version: 0.3
+Summary: Feito para a cadeira SPLN 2022/2023
+Author-email: jpdiasfernandes <jpdiasfernandes13@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: fileinput
+Requires-Dist: re
+Requires-Dist: argparse
+Requires-Dist: json
+Project-URL: Home, https://github.com/jpdiasfernandes/spln-2223
