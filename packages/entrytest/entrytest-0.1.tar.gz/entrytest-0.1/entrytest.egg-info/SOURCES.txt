@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/entrytest.cmd
+entrytest.egg-info/PKG-INFO
+entrytest.egg-info/SOURCES.txt
+entrytest.egg-info/dependency_links.txt
+entrytest.egg-info/entry_points.txt
+entrytest.egg-info/top_level.txt
