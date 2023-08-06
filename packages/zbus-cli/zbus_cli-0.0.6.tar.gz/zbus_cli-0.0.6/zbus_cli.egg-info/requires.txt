@@ -1,0 +1,5 @@
+msgpack
+zmq
+
+[completion]
+argcomplete3
