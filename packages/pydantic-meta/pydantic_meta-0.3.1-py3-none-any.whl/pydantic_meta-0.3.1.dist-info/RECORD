@@ -1,0 +1,6 @@
+pydantic_meta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_meta/optional.py,sha256=r4zYJUyxszuqRrvvVQuEj-q-IbW2mL5_2Vlj1QH7tDY,738
+pydantic_meta/pick.py,sha256=0UtDS25uA7HJNHBBtGE1nrqcbFafTEbYmz4NloT1Kdw,1382
+pydantic_meta-0.3.1.dist-info/METADATA,sha256=9jOy69S3d2iGHJ6z_RDHHiiWcvTBnNDu4Rak3W7Ppow,422
+pydantic_meta-0.3.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pydantic_meta-0.3.1.dist-info/RECORD,,
