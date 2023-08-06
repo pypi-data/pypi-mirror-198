@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+NumSep/__init__.py
+NumSep.egg-info/PKG-INFO
+NumSep.egg-info/SOURCES.txt
+NumSep.egg-info/dependency_links.txt
+NumSep.egg-info/top_level.txt

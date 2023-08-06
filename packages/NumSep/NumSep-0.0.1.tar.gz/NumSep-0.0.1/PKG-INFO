@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: NumSep
+Version: 0.0.1
+Summary: 100000 ---> 100,000
+Home-page: UNKNOWN
+Author: AmirMohamad Maniei
+License: UNKNOWN
+Keywords: separate,payment,num
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+
+    
+    separate payment and numbers with your sing and count that you want
+    
+    100000 ---> 100,000
+    
+
