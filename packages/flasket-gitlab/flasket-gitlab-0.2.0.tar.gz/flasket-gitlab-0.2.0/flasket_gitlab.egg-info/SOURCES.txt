@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+flasket/api/x-gitlab.yml
+flasket/clients/gitlab.py
+flasket_gitlab.egg-info/PKG-INFO
+flasket_gitlab.egg-info/SOURCES.txt
+flasket_gitlab.egg-info/dependency_links.txt
+flasket_gitlab.egg-info/requires.txt
+flasket_gitlab.egg-info/top_level.txt
+flasket_gitlab.egg-info/zip-safe

@@ -1,0 +1,160 @@
+---
+components:
+  schemas:
+    X-Gitlab-Event:
+      description: &description_x_gitlab_event |
+        String representing event received.
+        Not all endpoints accept all values from this list.
+        cf. [GitLab X-Gitlab-Event documentation](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html)
+      type: string
+      enum: [
+          "Issue Hook",
+          "Job Hook",
+          "Merge Request Hook",
+          "Note Hook",
+          "Pipeline Hook",
+          "Push Hook",
+          "System Hook",
+          "Tag Push Hook",
+          "Wiki Page Hook"
+        ]
+
+    X-Gitlab-Token:
+      description: &description_x_gitlab_header |
+        If you specify a secret token in GitLab, it will be sent with the hook request in the X-Gitlab-Token HTTP header.
+        The webhook endpoint will verify that the request is legitimate via this header.
+        cf. [GitLab X-Gitlab-Token documentation](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#secret-token)
+      type: string
+      default: null
+
+    # =========================================================================
+    # NOTE:
+    # Gitlab objects are mostly unions of other objects.
+    # Such as:
+    #   - Key-Value object: { "foobar": { foobar-object }}
+    #     eg: GitlabProjectObject
+    #   - Generic object:   { "object_kind": "foobar", "object_attributes": { foobar-object }}
+    #   - Merged objects:   { foobar-object, fubar-object, ... }
+    #   - Squashed to root: { "foobar_id": id, "foobar_name": name", ... }
+    #
+    # Required fields are the fields that are used in the webhooks.
+    # Examples only show required fields.
+    # Preference is given to inner field:
+    #   - { "project": {"id": 1} }
+    #     rather than
+    #   - { "project_id": 1 }
+    #
+    # Naming schema is:
+    # - if fields are at the root, it's a GitlabXyz
+    # - if fields are in an "object" kv, it's a GitlabXyzObject
+    # - if it's an expected webhook payload, it's a GitlabXyzEvent
+    # =========================================================================
+
+    # --------------------------------------------------------------------------
+    GitlabBuildPrefixed:
+      type: object
+      description: |
+        GitLab Build object.
+      example: |
+        {
+          "ref": "refs/heads/misc"
+        },
+      required:
+        - ref
+      properties:
+        build_status:
+          type: string
+          enum: [ "failed", "created", "success", "running", "pending", "canceled" ]
+        ref:
+          type: string
+          description: "A git ref"
+          minLength: 1
+
+    GitlabBuildEvent:
+      type: object
+      example: |
+        {
+          "object_kind": "build",
+        }
+      allOf:
+        - $ref: "#/components/schemas/GitlabBuildPrefixed"
+        - $ref: "#/components/schemas/GitlabProjectPrefixed"
+      required:
+        - object_kind
+      properties:
+        object_kind:
+          type: string
+          enum: [ "build"]
+
+    # --------------------------------------------------------------------------
+    GitlabProjectPrefixed:
+      type: object
+      example: |
+        {
+          "project_id": 1339,
+          "project_name": "mtt-inband / websites / rd-webhooks",
+        },
+      properties:
+        project_id:
+          type: integer
+        project_name:
+          type: string
+          minLength: 1
+
+    # --------------------------------------------------------------------------
+    GitlabSystemEvent:
+      type: object
+      description: |
+        cf. [GitLab System Hooks documentation](https://docs.gitlab.com/ee/system_hooks/system_hooks.html)
+      example: |
+        {
+          "event_name": "user_failed_login"
+        }
+      required:
+        - event_name
+      properties:
+        event_name:
+          type: string
+          enum: [
+              "project_create",
+              "project_destroy",
+              "project_rename",
+              "project_transfer",
+              "project_update",
+              "user_add_to_team",
+              "user_remove_from_team",
+              "user_update_for_team",
+              "user_create",
+              "user_destroy",
+              "user_failed_login",
+              "user_rename",
+              "key_create",
+              "key_destroy",
+              "group_create",
+              "group_destroy",
+              "group_rename",
+              "user_add_to_group",
+              "user_remove_from_group",
+              "user_update_for_group",
+            ]
+
+# ------------------------------------------------------------------------------
+x-gitlab:
+  headers:
+    # x-gitlab/headers/x-gitlab-event
+    x-gitlab-event:
+      name: "X-Gitlab-Event"
+      in: header
+      description: *description_x_gitlab_event
+      required: true
+      schema:
+        $ref: "#/components/schemas/X-Gitlab-Event"
+
+    # x-gitlab/headers/x-gitlab-token
+    x-gitlab-token:
+      name: "X-Gitlab-Token"
+      in: header
+      description: *description_x_gitlab_header
+      required: false
+      schema:
+        $ref: "#/components/schemas/X-Gitlab-Token"
