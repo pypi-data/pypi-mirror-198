@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CRMContactRollingMachine
+Version: 0.0.1
+Summary: The contact creator of the CRM
+Project-URL: Homepage, https://lds.org
+Project-URL: Bug Tracker, https://lds.org
+Author-email: Elder Hathaway <thathaway54@gmail.com>
+License-File: LICENSE.chromedriver
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+CRMContactRollingMachine@gmail.com Password:crmisbest
