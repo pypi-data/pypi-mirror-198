@@ -1,0 +1,2 @@
+[console_scripts]
+mediadata = mediadata.mediadata:main
