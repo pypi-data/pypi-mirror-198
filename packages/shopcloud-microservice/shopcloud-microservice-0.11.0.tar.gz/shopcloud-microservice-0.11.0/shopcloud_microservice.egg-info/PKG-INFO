@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: shopcloud-microservice
+Version: 0.11.0
+Summary: CLI tool for manage microservices
+Home-page: https://github.com/Talk-Point/shopcloud-django-authenticator
+Author: Konstantin Stoldt
+Author-email: konstantin.stoldt@talk-point.de
+License: MIT-License
+Requires-Python: >=3.8
+License-File: LICENSE
