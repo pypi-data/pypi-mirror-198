@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-video
+Version: 0.1.0
+Summary: Allows embedding of HTML5 videos in sphinx
+Author-email: Raphael Massabot <rmassabot@gmail.com>
+License: Apache Software License
+Project-URL: repository, https://github.com/sphinx-contrib/video
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: doc
+License-File: LICENSE
