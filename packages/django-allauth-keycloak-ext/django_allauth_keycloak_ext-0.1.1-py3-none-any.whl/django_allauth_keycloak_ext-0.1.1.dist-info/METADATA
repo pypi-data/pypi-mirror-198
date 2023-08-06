@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: django-allauth-keycloak-ext
+Version: 0.1.1
+Summary: Extensions for django-allauth module to support groups of Keycloak.
+Home-page: https://github.com/wonderu/allauth-keycloak-ext/
+Author: Igor Podsekin
+Author-email: py@wonderu.com
+Project-URL: Changelog, https://github.com/wonderu/allauth-keycloak-ext/blob/master/ChangeLog.rst
+Project-URL: Source, https://github.com/wonderu/allauth-keycloak-ext/
+Project-URL: Tracker, https://github.com/wonderu/allauth-keycloak-ext/issues
+Project-URL: Donate, https://github.com/sponsors/wonderu
+Keywords: django auth account social openid twitter facebook oauth registration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: django-allauth (>=0.52.0)
+
+django-allauth-keycloak-ext
+==============================
+
+django-allauth-keycloak-ext is a Python package that extends Django-allauth to support security groups configured in Keycloak.
+
+Features
+--------
+
+- Supports adding/removing users from Django groups mapped to Keycloak groups during login procedure.
+- Supports mapping Keycloak groups to is_staff and is_superuser flags of Django users.
+
+Installation
+------------
+
+To install django-allauth-keycloak-ext, run the following command:
+
+.. code-block:: bash
+
+    pip install django-allauth-keycloak-ext
+
+Usage
+-----
+
+Once you have installed django-allauth-keycloak-ext, you can use it in your Django project by following these steps:
+
+1. Add `'allauth_keycloak_groups'` to your `INSTALLED_APPS` setting:
+
+   .. code-block:: python
+
+       INSTALLED_APPS = [
+           # ...
+           'allauth_keycloak_ext',
+           # ...
+       ]
+
+2. Configure Django-allauth to use Keycloak Ext as a provider by adding the following settings to your `settings.py` file:
+
+   .. code-block:: python
+
+        SOCIALACCOUNT_PROVIDERS = {
+            "keycloak_ext": {
+                "KEYCLOAK_URL": "http://localhost:8080",
+                "KEYCLOAK_REALM": "master",
+                "GROUPS": {
+                    "GROUP_TO_FLAG_MAPPING": {
+                        "is_staff": ["Django Staff", "django-admin-role"],
+                        "is_superuser": "django-admin-role",
+                    },
+                }
+            }
+        }
+
+3. Configure the security groups you want to use in Keycloak and map them to Django groups in your `settings.py` file:
+
+   .. code-block:: python
+
+       ALLAUTH_KEYCLOAK_GROUPS = {
+           'group-name-1': 'django-group-name-1',
+           'group-name-2': 'django-group-name-2',
+           # ...
+       }
+
+   Note that the keys of the `ALLAUTH_KEYCLOAK_GROUPS` dictionary should be the names of the security groups you have configured in Keycloak, and the values should be the names of the Django groups you want to map them to.
+
+License
+-------
+
+This package is released under the MIT License.
+
+Contributing
+------------
+
+Contributions to this project are welcome. Please submit bug reports

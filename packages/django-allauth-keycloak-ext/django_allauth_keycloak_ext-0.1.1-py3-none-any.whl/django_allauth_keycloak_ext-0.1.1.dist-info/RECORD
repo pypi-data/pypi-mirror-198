@@ -1,0 +1,10 @@
+allauth_keycloak_ext/__init__.py,sha256=8dZaBixCit4-ssFE82dD4ijtyBBA3RAGuCVkKn3KABk,136
+allauth_keycloak_ext/provider.py,sha256=NN_LY84oqYkz_BwM4VqIwEO4InFFNTAUDCVFIK-4Eb4,2250
+allauth_keycloak_ext/tests.py,sha256=OZlPBB56bH9EhxSHCu3rJMubBRzSbqvRPvpCYpjp0Lo,933
+allauth_keycloak_ext/urls.py,sha256=j0PG6_ZXwPoyo7sIJzJnkjwCkEXK4eX_C2m4__J5OaM,198
+allauth_keycloak_ext/views.py,sha256=EEBh9N3NqDzeK8s2LDWRsLFv_pFD2NAt1LTABSpAW48,509
+django_allauth_keycloak_ext-0.1.1.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+django_allauth_keycloak_ext-0.1.1.dist-info/METADATA,sha256=Q2jj9mFLLwhT-Jn9TYRRRll8n8cVOgLxpDF8Ey3BZZ4,3630
+django_allauth_keycloak_ext-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_allauth_keycloak_ext-0.1.1.dist-info/top_level.txt,sha256=ZfLtc_2nL5oyiJyhcooBjoe4Fy2Rusmu92ZZerT7znQ,21
+django_allauth_keycloak_ext-0.1.1.dist-info/RECORD,,
