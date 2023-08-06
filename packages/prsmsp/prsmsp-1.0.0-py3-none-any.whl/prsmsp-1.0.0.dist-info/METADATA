@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: prsmsp
+Version: 1.0.0
+Summary: Package to work with sms panels
+Author-email: Parsa Riyahi <pany.parsariyahi@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 parsariyahi
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/parsariyahi/prsmsp
+Project-URL: documentation, https://github.com/parsariyahi/prsmsp
+Project-URL: repository, https://github.com/parsariyahi/prsmsp
+Keywords: sms,smspanel
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.20)
+Requires-Dist: suds (>=1.0)
+
+## Supported panels
+
+* [Kavenegar](http://kavenegar.com)
+    - [x] real working test
+* [Sms ir](http://sms.ir)
+    - [X] real working test
+* [Web one](http://webone-sms.ir)
+    - [x] real working test
+* [Meli Payamak](https://www.melipayamak.com)
+    - [ ] real working test
+
+## Why use this package?
+
+1.  You have all the famous and well designed sms panels ready to go.
+2.  When you have to work with several sms panels.
+3.  Don't need to build the wheel of your bicycle each time ☺.
+
+## How to use
+
+This block of code is for **kavenegar** sms panel.
+
+Each of sms panels has its own parameters. Please read their docs first.
+
+```python
+from prsmsp.panels import KaveNegar
+
+api_key = "your api key"
+panel = Kavenegar(api_key) # auth
+
+receptor = "your receptor"
+msg = "your message"
+panel.send_sms(receptor, msg)
+```
+### Read [Docs](./docs/doc.md)
+
+
+## How to support this project
+for this project to be better and bigger than what it is now.
+we need to support more panels and even test a real send sms which needs a subscription for each sms provider 
+if you have subs for any sms panel or docs of any sms panel and you think it would be good for this pacakge to have support that sms panel please open an issue or contact me
+My email is pany.parsariyahi@gmail.com
