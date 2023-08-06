@@ -1,0 +1,4 @@
+include reggisearch/requirements.txt
+include reggisearch/thirdparty.json
+include reggisearch/README.MD
+include reggisearch/LICENSE
