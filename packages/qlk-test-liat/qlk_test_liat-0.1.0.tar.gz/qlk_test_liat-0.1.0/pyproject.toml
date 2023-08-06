@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qlk-test-liat"
+version = "0.1.0"
+description = ""
+authors = ["Liat"]
+readme = "README.md"
+packages = [{include = "qlk_test_liat"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
