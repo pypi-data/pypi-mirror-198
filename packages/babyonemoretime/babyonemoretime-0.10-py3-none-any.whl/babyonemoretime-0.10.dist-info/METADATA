@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: babyonemoretime
+Version: 0.10
+Summary: Kills python + all subprocesses, restarts with the same args, Windows only, works with pyinstaller
+Home-page: https://github.com/hansalemaos/babyonemoretime
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: restart,python,execl,osexecl
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: mainprocess
+Requires-Dist: psutil
+Requires-Dist: touchtouch
+
+
+# Kills python + all subprocesses, restarts with the same args, Windows only, works with pyinstaller
+
+
+
+### pip install babyonemoretime
+
+
+
+```python
+
+
+
+from babyonemoretime import restart_everything
+
+from time import sleep
+
+import subprocess
+
+import sys
+
+
+
+sleep(4)
+
+if sys.argv[1] == "n":
+
+    subprocess.Popen("notepad.exe")
+
+else:
+
+    subprocess.Popen("word.exe")
+
+
+
+sleep(4)
+
+restart_everything(pyfile=__file__, sysarv=sys.argv, restart=False)  # kills everything
+
+restart_everything(pyfile=__file__, sysarv=sys.argv, restart=True) # kills everything and restarts
+
+
+
+
+
+
+
+
+
+# python.exe resa.py n
+
+
+
+```
+
