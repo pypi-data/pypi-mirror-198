@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: flexhook
+Version: 0.2.4
+Summary: a tiny and flexible hook framework
+License: MIT
+Author: JamzumSum
+Author-email: zzzzss990315@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typing-extensions (>=4.5.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# FlexHook
+
+A flex and flexible hook framework.
+
+[![python=^3.8](https://img.shields.io/pypi/pyversions/flexhook?logo=python&logoColor=white)][repo]
+[![](https://img.shields.io/pypi/v/flexhook?logo=python)][pypi]
+[![document](https://img.shields.io/badge/document-sphinx-green?logo=readthedocs)][doc]
+
+## Features
+
+- Class-level and object-level hook defination and override
+- Full typing support
+- Little dependencies (only `typing_extensions` for backwards typing compatibility)
+
+## Usage
+
+Goto our [documents][doc] for document and examples.
+
+<!--  -->
+
+[repo]: https://github.com/JamzumSum/flexhook
+[pypi]: https://pypi.org/project/flexhook
+[doc]: https://jamzumsum.github.io/flexhook
+[license]: https://github.com/JamzumSum/flexhook/blob/release/LICENSE
+
