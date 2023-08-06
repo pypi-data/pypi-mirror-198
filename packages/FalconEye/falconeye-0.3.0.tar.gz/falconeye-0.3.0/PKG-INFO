@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: FalconEye
+Version: 0.3.0
+Summary: Toolset for Data Exploration
+Project-URL: Homepage, https://github.com/msherburne/FalconEye
+Author-email: Mathieu Sherburne <mathieusherburne@outlook.com>
+License: Copyright © 2022
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: pandas>=1.0.0
+Requires-Dist: uuid>=1.30
+Description-Content-Type: text/markdown
+
+# Falcon Eye
+### Suite of tools for Data Exploration
+#### Designed for Airmen by Airmen
+
+#### TOOLS IN DEVELOPLMENT
+
+## Dictionary/List Walk
+```python
+from FalconEye import Walk
+Walk(object).items #returns all found values
+```
+## Walk(object)
+Parameters
+- object - List/Dict like object for reading
+
+## Dictionary Flatten
+```python
+from FalconEye import Flatten
+Flatten(object).items #returns all found values in a lowest level dict
+```
+## Flatten(object)
+Parameters
+- object - Dict like object for reading
+
+## FalconFrame()
+Parameters 
+- object - [Dict] like object or Pandas DataFrame for reading
+
+```python
+from FalconEye import FalconFrame
+import pandas as pd
+
+df = FalconFrame(object)
+```
+### Attributes: 
+- .df - Pandas DataFrame
+
+### Methods:
+- .transform() Transform to a new dataframe
+
+```python
+from FalconEye import FalconFrame
+import pandas as pd
+import datetime as dt
+import random
+
+
+fakeData2 = [
+    {
+        "date": dt.datetime.now(),
+        "start_shift": dt.time(random.randint(1,23), 0, 0),
+        "end_shift": dt.time(random.randint(1,23), 0, 0),
+        "user": random.choice(["Mathieu", "Tyler", "Josh", "David"]),
+        "total_hours": 8
+    }
+    for i in range(40)
+]
+
+def callback(column, value):
+    newRow = {
+        "time_frame": column.split("_")[0],
+        "time": value
+    }
+    return newRow
+
+frame = FalconFrame(fakeData2)
+newFrame = frame.transform(pk="uuid", fields=["start_shift", "end_shift"], callback=callback) # type: ignore
+```
+
+#### Initial DataFrame
+| date                       | start_shift | end_shift | user    | total_hours |
+| :------------------------- | :---------- | :-------- | :------ | ----------: |
+| 2023-03-18 19:00:02.782366 | 16:00:00    | 04:00:00  | Josh    |           8 |
+| 2023-03-18 19:00:02.782366 | 08:00:00    | 16:00:00  | Josh    |           8 |
+| 2023-03-18 19:00:02.782366 | 23:00:00    | 01:00:00  | Tyler   |           8 |
+| 2023-03-18 19:00:02.782366 | 07:00:00    | 13:00:00  | Mathieu |           8 |
+| 2023-03-18 19:00:02.782366 | 17:00:00    | 16:00:00  | Josh    |           8 |
+| 2023-03-18 19:00:02.782366 | 08:00:00    | 01:00:00  | Mathieu |           8 |
+| 2023-03-18 19:00:02.782366 | 15:00:00    | 11:00:00  | Tyler   |           8 |
+| 2023-03-18 19:00:02.782366 | 11:00:00    | 11:00:00  | David   |           8 |
+| 2023-03-18 19:00:02.782366 | 06:00:00    | 02:00:00  | David   |           8 |
+| 2023-03-18 19:00:02.782366 | 23:00:00    | 15:00:00  | Tyler   |           8 |
+| 2023-03-18 19:00:02.782366 | 13:00:00    | 11:00:00  | Tyler   |           8 |
+
+#### Transformed DataFrame
+| pk                                   | date                       | user    | total_hours | time_frame | time     |
+| :----------------------------------- | :------------------------- | :------ | ----------: | :--------- | :------- |
+| 4f711031-0295-4b15-8e74-6b4a8cb03794 | 2023-03-18 19:00:02.782366 | Josh    |           8 | start      | 16:00:00 |
+| d849b5e1-3c62-4cae-baf2-1c1eb37733df | 2023-03-18 19:00:02.782366 | Josh    |           8 | end        | 04:00:00 |
+| 2297f714-920c-4a4f-9c24-43d3951ed8a2 | 2023-03-18 19:00:02.782366 | Josh    |           8 | start      | 08:00:00 |
+| da279c6c-9685-4bc6-8c87-802f1da86c54 | 2023-03-18 19:00:02.782366 | Josh    |           8 | end        | 16:00:00 |
+| 4fd9fbe3-b1b6-4849-b4d9-eab94d5bb332 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | start      | 23:00:00 |
+| 54b89009-59ed-4e7f-8568-e1e1069bd8a4 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | end        | 01:00:00 |
+| 89aa42e9-c7ed-473d-87ea-7e6c45e14a84 | 2023-03-18 19:00:02.782366 | Mathieu |           8 | start      | 07:00:00 |
+| 2f5dec54-aec4-48f9-b4c2-7ec7bf0639b0 | 2023-03-18 19:00:02.782366 | Mathieu |           8 | end        | 13:00:00 |
+| 0615705b-e493-4ef1-82c0-064a9e0227ae | 2023-03-18 19:00:02.782366 | Josh    |           8 | start      | 17:00:00 |
+| 08b21a94-b526-4e52-a0ba-16be6c59fb0f | 2023-03-18 19:00:02.782366 | Josh    |           8 | end        | 16:00:00 |
+| f7aee233-fc15-41db-8df2-18ec00f155ed | 2023-03-18 19:00:02.782366 | Mathieu |           8 | start      | 08:00:00 |
+| 389eea2b-c755-42f1-9d73-6721c6f4ba00 | 2023-03-18 19:00:02.782366 | Mathieu |           8 | end        | 01:00:00 |
+| 9a02a9db-96d3-4199-9eee-e970ddf4b985 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | start      | 15:00:00 |
+| 4a0ea7be-8189-41a5-8701-bb03ff5d46c2 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | end        | 11:00:00 |
+| 500ef53a-37ab-4394-b8e9-66db825e02aa | 2023-03-18 19:00:02.782366 | David   |           8 | start      | 11:00:00 |
+| c98502bc-ff7d-4e54-bd3a-ce13dfb733f2 | 2023-03-18 19:00:02.782366 | David   |           8 | end        | 11:00:00 |
+| 7999bab2-cf89-4703-99ab-794cb64ab8eb | 2023-03-18 19:00:02.782366 | David   |           8 | start      | 06:00:00 |
+| 30f6711c-3eec-4347-8914-100ccd1e354e | 2023-03-18 19:00:02.782366 | David   |           8 | end        | 02:00:00 |
+| 7761b5a0-8f20-4c78-8538-3ce729c5d6a8 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | start      | 23:00:00 |
+| 08675e47-c881-4a71-9314-ea066565a8a2 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | end        | 15:00:00 |
+| 9e277481-9bd5-4c99-bbfc-d9cd649fab86 | 2023-03-18 19:00:02.782366 | Tyler   |           8 | start      | 13:00:00 |
