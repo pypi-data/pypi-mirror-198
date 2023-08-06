@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yapona
+Version: 0.1.0
+Summary: Pomodoro timer
+License: MIT
+Author: Dima Lipin
+Author-email: dimich3d@ya.ru
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dbus-next (>=0.2.3,<0.3.0)
+Requires-Dist: pygobject (>=3.42.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Yapona
+
+Yet another Pomodoro Timer...
+
