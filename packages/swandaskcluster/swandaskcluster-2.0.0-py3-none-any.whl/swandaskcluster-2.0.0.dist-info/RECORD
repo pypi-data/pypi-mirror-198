@@ -1,0 +1,11 @@
+swandaskcluster/__init__.py,sha256=aygIDlIeLxwmpBg3eI62Ailo0bgnY7f_pS4GdsCpn8U,75
+swandaskcluster/_version.py,sha256=owz90i3my-D6Igp3_qOn6Rkn-b00FGiRXiSthVUjnt8,103
+swandaskcluster/cluster.py,sha256=ZCiGG8pp3NKkZu34bHx9JiktrA2pRZ35lhd7QuN3HvE,6768
+swandaskcluster/config.py,sha256=hkLnU8Bvtbaq7gfaA6il6jONrPXVtSF_2xt5oooYKkw,258
+swandaskcluster/jobqueue-swan.yaml,sha256=y9HBFrggcWjeh9RvayI7sWEIFXsK-nz_bbaRlFjxEUE,259
+swandaskcluster/utils.py,sha256=rrpJTSRUhQhwXL18VO7Zw5wCL9HxCPa8RCKB2KHHOt0,1841
+swandaskcluster-2.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+swandaskcluster-2.0.0.dist-info/METADATA,sha256=LkqQdLzLJhwTfrFkCv2CAwNTDzjSyvAN6phQaUeU3MQ,1108
+swandaskcluster-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+swandaskcluster-2.0.0.dist-info/top_level.txt,sha256=kEnZkK1qCJ2Qb49JflghG9sb3XdRGiT7cQvYc2ZwfFU,16
+swandaskcluster-2.0.0.dist-info/RECORD,,
