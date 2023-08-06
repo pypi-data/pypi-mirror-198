@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pygments-periwinkle-lexer
+Version: 0.0.2
+Summary: Лексер для Барвінку.
+Home-page: https://github.com/periwinkle-lang
+Author: Федуняк Роман
+Author-email: fedynuak.roma@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Ukrainian
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Environment :: Plugins
+License-File: LICENSE
+
+# pygments-periwinkle-lexer
+
+РџР°РєРµС‚ РґР»СЏ [Pygments](https://pygments.org/), СЏРєРёР№ РґРѕРґР°С” РїС–РґСЃРІС–С‡СѓРІР°РЅРЅСЏ СЃРёРЅС‚Р°РєСЃРёСЃСѓ РґР»СЏ РјРѕРІРё РїСЂРѕРіСЂР°РјСѓРІР°РЅРЅСЏ [Р‘Р°СЂРІС–РЅРѕРє](https://github.com/periwinkle-lang)
+
+## Р†РЅСЃС‚Р°Р»СЏС†С–СЏ
+
+Р’СЃС‚Р°РЅРѕРІРёС‚Рё РїР°РєРµС‚ РјРѕР¶РЅР° С‡РµСЂРµР· pip:
+
+```
+pip install pygments-periwinkle-lexer
+```
+
+## Р›С–С†РµРЅР·С–СЏ
+[MIT](LICENCE)
+
+
