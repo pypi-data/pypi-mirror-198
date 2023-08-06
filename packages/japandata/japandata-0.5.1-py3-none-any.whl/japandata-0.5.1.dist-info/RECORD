@@ -1,0 +1,17 @@
+japandata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+japandata/utils.py,sha256=_f2uKJbT--hbwWTqRr87YmksknoL7B1jkFsmmxF_ksk,2541
+japandata/download/__init__.py,sha256=qWtDiXs2AupMY2W8nufUrRoMf5_z9FOtNxTvgW-zT3Y,69
+japandata/download/download.py,sha256=9e9kwP97vpbMR9BO6rm5khxu9d4Q9r2yoXTxoeHS3aE,2503
+japandata/indices/__init__.py,sha256=OTMOR9xEf4OY6kXJY64ND9Du0L9LHC04oWwFRmUgyQE,106
+japandata/indices/indices.py,sha256=2HxaUo7gr6f5IninHs-HVBvQ3SMmtYUUVGTTRfA7pmQ,9242
+japandata/maps/__init__.py,sha256=_XeBKtw3rYQfzFPyi7ci8LdxtcKoCHr3nZ4TLJTcKIM,110
+japandata/maps/maps.py,sha256=LnWq1QtWQ_HS5O2Jjb7cpcgIIpIbafXsQcY6SUoD3lc,11631
+japandata/population/__init__.py,sha256=Ah9FR6SGEnUpHLelXgZ7wvnbxhqPAku7QRJ_R8UUldU,128
+japandata/population/population.py,sha256=iL9Gtz4AcDC2y4tZQwvGnLKAP3HUlASLuS44lQ5mQk4,21833
+japandata/readings/__init__.py,sha256=OmFo0-YS0drsSmDKVRvqze4uZI_VfUehQkjP4OcdQ60,59
+japandata/readings/readings.py,sha256=FbogSgp1g_KF9tS-UaYU73Hc5XD9pNk2as1zWM6YqjA,2884
+japandata-0.5.1.dist-info/LICENSE.md,sha256=KlliFV_4JJB9VxIKuP6Tgb9OmaB1wtMJToDzQaSCh6U,1070
+japandata-0.5.1.dist-info/METADATA,sha256=VdQ2HKzqtee1TpifjnS9JCZgwXC_2oKmXNf1kIeC5_M,3737
+japandata-0.5.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+japandata-0.5.1.dist-info/top_level.txt,sha256=epK5g0BzBecu0nFPOl3-fKK5o22LUWSmPTMNEd5F4A0,10
+japandata-0.5.1.dist-info/RECORD,,
