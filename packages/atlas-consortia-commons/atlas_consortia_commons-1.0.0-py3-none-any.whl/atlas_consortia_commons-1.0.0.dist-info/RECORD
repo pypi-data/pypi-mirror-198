@@ -1,0 +1,10 @@
+atlas_consortia_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atlas_consortia_commons/file/__init__.py,sha256=9vossl3W-X38lW-NHo3WaNjH22FD3EN-QZpYaPudYuw,535
+atlas_consortia_commons/object/__init__.py,sha256=plDP-YwQZEpRMJictMraHbCTVKuIXlrVXzJotS_ZPNQ,726
+atlas_consortia_commons/rest/__init__.py,sha256=Pt8lBzGJiivP5ka9pXT3G_YwFgedNonrtBkZmvgHp1k,3539
+atlas_consortia_commons/string/__init__.py,sha256=_6FQOPcFJBj1F-i64BkoNQr9S-K176HL4gLhIYOrxck,1093
+atlas_consortia_commons/ubkg/__init__.py,sha256=OkCMOe1d5No-d45EuV5laSRmdaXrBV6HYfvuBKZgpzc,3040
+atlas_consortia_commons-1.0.0.dist-info/METADATA,sha256=gXLOn5dWliFYfjI6DC6x7pBBQmZZzsP5HMqpvvnHvss,1579
+atlas_consortia_commons-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+atlas_consortia_commons-1.0.0.dist-info/top_level.txt,sha256=viSk-MNFugu_uq2_vy2n2E0xxgTpL54FeidH7P_63Nw,24
+atlas_consortia_commons-1.0.0.dist-info/RECORD,,
