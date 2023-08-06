@@ -1,0 +1,6 @@
+build
+.idea
+.mypy_cache
+dist
+igogo.egg-info
+igogo/__pycache__
