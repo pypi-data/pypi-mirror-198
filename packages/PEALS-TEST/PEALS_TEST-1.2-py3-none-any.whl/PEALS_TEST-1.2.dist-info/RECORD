@@ -1,0 +1,8 @@
+PEALS_TEST-1.2.data/scripts/peals,sha256=f17LF1MJgntxlatSRtI-_jBg-05cAWAOnzas-Y2u8bE,216
+test/__init__.py,sha256=39jKoV2lhQGde9D6kx20loqQf-wwnuxLWt89vztdm8Q,18
+test/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test/test.py,sha256=nVOcf_XyQ1G48w0oILEsClQlyyBJiGRYifGx2JrRZsM,60
+PEALS_TEST-1.2.dist-info/METADATA,sha256=Y890egRx_gaILFxSX7cddEG15h64f9g1jN9KExemHrE,7153
+PEALS_TEST-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PEALS_TEST-1.2.dist-info/top_level.txt,sha256=8sobtsfpB9Btr-Roflefznazfk6Tt2BQItpS5szCb9I,5
+PEALS_TEST-1.2.dist-info/RECORD,,
