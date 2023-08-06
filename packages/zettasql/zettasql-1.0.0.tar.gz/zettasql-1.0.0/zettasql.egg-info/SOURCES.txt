@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+zclient/HelperModule.py
+zclient/__init__.py
+zclient/info.log
+zclient/main.py
+zettasql.egg-info/PKG-INFO
+zettasql.egg-info/SOURCES.txt
+zettasql.egg-info/dependency_links.txt
+zettasql.egg-info/entry_points.txt
+zettasql.egg-info/top_level.txt
+zserver/__init__.py
+zserver/help.py
+zserver/start.py
+zserver/stop.py
