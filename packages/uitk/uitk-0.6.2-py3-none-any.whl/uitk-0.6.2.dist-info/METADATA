@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: uitk
+Version: 0.6.2
+Summary: A Python3/PySide2 marking menu for Maya, 3ds Max, and Blender.
+Home-page: https://github.com/m3trik/uitk
+Author: Ryan Simpson
+Author-email: m3trik@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
