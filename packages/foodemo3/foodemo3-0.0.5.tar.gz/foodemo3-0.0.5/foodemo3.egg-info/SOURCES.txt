@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+foo/VERSION
+foo/__init__.py
+foo/speak.py
+foo/version.py
+foodemo3.egg-info/PKG-INFO
+foodemo3.egg-info/SOURCES.txt
+foodemo3.egg-info/dependency_links.txt
+foodemo3.egg-info/requires.txt
+foodemo3.egg-info/top_level.txt
+tests/test_foo.py
