@@ -1,0 +1,2 @@
+wagtailgeowidget>6
+django-mptt
