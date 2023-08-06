@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.1.2
+-----
+
+* change to slow swipe since fast\_swipe from left to right can not back app
+* fix github actions
+* add coverage step to github actions
+* add keyboard/dismiss
+* add argument and environment to app\_start
