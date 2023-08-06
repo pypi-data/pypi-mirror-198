@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyflowline
+Version: 0.2.2
+Summary: A mesh independent river network generator for hydrologic models
+Home-page: https://github.com/changliao1025/pyflowline
+Author: Chang Liao
+Author-email: chang.liao@pnnl.gov
+License: custom
+Keywords: Earth Science
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: gdal
+Requires-Dist: netCDF4
+Requires-Dist: shapely
+Provides-Extra: visualization
+Requires-Dist: matplotlib ; extra == 'visualization'
+Requires-Dist: cartopy (>=0.21.0) ; extra == 'visualization'
+
+A mesh independent river network generator for hydrologic models
