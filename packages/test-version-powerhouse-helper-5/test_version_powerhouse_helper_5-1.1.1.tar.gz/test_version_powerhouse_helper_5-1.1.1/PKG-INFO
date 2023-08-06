@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: test_version_powerhouse_helper_5
+Version: 1.1.1
+Summary: This is your console assistant by Python Powerhouse
+Home-page: https://github.com/NovykovDaniil/python-core-project
+Author: Python Powerhouse
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

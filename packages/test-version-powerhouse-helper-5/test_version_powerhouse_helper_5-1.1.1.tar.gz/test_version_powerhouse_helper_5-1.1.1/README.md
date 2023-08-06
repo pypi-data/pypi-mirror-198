@@ -1,0 +1,19 @@
+# Console bot for interaction with adressbook, notes, sorting files
+This assistant works with cmd. To instal this bot you have to download this repositiry and in folder with file "setup.py" open terminal and type "pip install -e .".
+
+This bot has 3 functions: Addressbook - with Addressbook you can save such information as name, phone, date of bitrhday, email and address. Notes - with Notes you can save notes and sort them by tags. Sorter - with Sorter you can sort all your files by types
+
+To activate one of functions press number or type full name of function.
+
+The following functions are available in the Addressbook: "add contact [note name of contact] [phone number]" - create a new contact with one phone number, also you can add profile without phone number; *Name of contact shouldn`t consist of any spaces. If you want add contact with more than 1 word use _ except space. *This bot get phone number only in +38 format. "add phone [name of contact] [phone number]" - you can add more than one phone number to contact; "add bitrhday [name of contact] [date of bitrhday in format dd.mm.yyyy]" - you can add birthday to contact, to change contact birthday also use this command; "add email [name of contact] [email in format johnsmith@gmail.com/.org/.edu]" - you can add email to contact, to change contact email also use this command; "add home [name of contact] [home address]" - you can add home address to contact, to change contact home address also use this command; "show" - this comand show all profiles in database; "show contact [name of contact]" - show contact profile; "delete [name of contact]" - delete contact from datebase; "delete phone [name of contact] [phone number]" - delete number from contacts profile; "change phone [name of contact] [old phone number] [new phone number]" - change phone number which already in db into new; "days to birthday [name of contact]" - this command shows how many days to birthday of contact; "birthday after [number]" - this command shows who have birthday in number of days from tomorrow; "exit" - back to main menu.
+
+            'search' : 'search contact using any information',
+            'edit' : 'edit recorded contact',
+            'save' : 'save your contact book to the file',
+            'load' : 'recover contacts from the auto save file',
+            'congratulate' : 'find out who you need to congratulate in the near future'
+           
+
+The following functions are available in the Notebook: "add note [note text]" - create a new note with follow up tag request. "delete note [number]" - delete note by the number from the previous search results from show all or search function. "help" - see all available commands. "change note [number] [new note text]" - change note by the number from the previous search results from show all or search function to new note. Tags change will follow. "show all" - Show all notes records with tags. "add tag [number] [text]" - create tags. "add date [number] [year-month-day]" - create a new date note. "done [number]" - mark note as done. "return [number]" - mark notes as not done. "show archived" - to show archived notes(done notes). "show date [date]" - to show notes by days. "find note [text]" - Search notes and tags by text. "find tag [text]" - Search tags only by text. "sort by tags" - Sort notes by tags. "good bye", "close", "exit" - exit from the bot.
+
+SORT DIRECTORY You can input directory path for sort your files. All files are sorted by categories: "images": [".jpeg", ".png", ".jpg", ".svg"], "documents": [".doc", ".docx", ".txt", ".pdf", ".xlsx", ".pptx"], "audio": [".mp3", ".ogg", ".wav", ".amr"], "video": [".avi", ".mp4", ".mov", ".mkv"], "archives": [".zip", ".gz", ".tar"]. All clear directories clean, all archives unzip, create new directories - 'images', 'documents', 'audio', 'video', 'archives'.
