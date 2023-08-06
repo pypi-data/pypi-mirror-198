@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: skydive
+Version: 0.0.1
+Summary: Tool for attacking Hybrid Active Directory
+Home-page: https://github.com/ly4k/Skydive
+Author: ly4k
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Skydive
+Tool for attacking Hybrid Active Directory
