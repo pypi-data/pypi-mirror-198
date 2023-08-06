@@ -1,0 +1,9 @@
+pycryptodome>=3.4.6
+cbor2
+solc-select>=v1.0.2
+
+[dev]
+black==22.3.0
+pylint==2.13.4
+mypy==0.942
+darglint==1.8.0
