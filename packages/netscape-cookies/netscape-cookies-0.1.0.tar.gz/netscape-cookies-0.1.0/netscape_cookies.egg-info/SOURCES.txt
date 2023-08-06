@@ -1,0 +1,8 @@
+README.md
+setup.py
+netscape_cookies/__init__.py
+netscape_cookies/netscape_cookies.py
+netscape_cookies.egg-info/PKG-INFO
+netscape_cookies.egg-info/SOURCES.txt
+netscape_cookies.egg-info/dependency_links.txt
+netscape_cookies.egg-info/top_level.txt
