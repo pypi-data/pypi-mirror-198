@@ -1,0 +1,11 @@
+azure_recommendations_15/__init__.py,sha256=WDEXVgIlabnjO5YxATHCQ4-_T8KlRxifwN1BOjNeHIM,605
+azure_recommendations_15/recommendation/__init__.py,sha256=yQXDBKWou2CWWKq8VwH1yqe4ULT75Yajj6rm_wgq7tc,7230
+azure_recommendations_15/recommendation/advisor_recommendations.py,sha256=OWMcTHrj6jUMS5_VL7Q-Gj3Ios4MIEmQCzYmm_ZzU3I,4854
+azure_recommendations_15/recommendation/network_recommendations.py,sha256=2CsGWVunJ7O8dj4kRSH-iN_IWt0ONxupFAEBBesN3SU,14589
+azure_recommendations_15/recommendation/utils.py,sha256=ggAC82BlhUqL8fpcAjZ7lu1dCFfPuePK_HDzhpTf5bU,10016
+azure_recommendations_15/recommendation/vm_recommendations.py,sha256=c9-2D7um4bXJ1YFqjlgyXTwnox3H6IqDBlfdoJgdD8U,21186
+azure_recommendations_15-0.2.3.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_recommendations_15-0.2.3.dist-info/METADATA,sha256=8gp3e9bhOpeFbAsqhpzyPG-eCZxst0ywGR-EqGilcYw,536
+azure_recommendations_15-0.2.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+azure_recommendations_15-0.2.3.dist-info/top_level.txt,sha256=PpXxOArzAi_-hA0zYnubKvaraD_gq2bB4im8IvYlVr8,25
+azure_recommendations_15-0.2.3.dist-info/RECORD,,
