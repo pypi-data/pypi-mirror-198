@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qth_notify"
+version = "0.0.1"
+license = {file= "LICENSE"}
+dependencies = [
+    "qth",
+    "desktop-notify",
+]
+
+[project.urls]
+homepage = "https://github.com/mossblaser/qth_notify"
+
+[project.scripts]
+qth-notify = "qth_notify:main"
+
+[tool.setuptools]
+include-package-data = true

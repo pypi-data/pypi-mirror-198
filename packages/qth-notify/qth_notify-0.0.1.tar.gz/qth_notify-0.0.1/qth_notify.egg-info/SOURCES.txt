@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+qth_notify/__init__.py
+qth_notify.egg-info/PKG-INFO
+qth_notify.egg-info/SOURCES.txt
+qth_notify.egg-info/dependency_links.txt
+qth_notify.egg-info/entry_points.txt
+qth_notify.egg-info/requires.txt
+qth_notify.egg-info/top_level.txt
