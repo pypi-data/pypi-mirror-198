@@ -1,0 +1,9 @@
+fsl_sub_plugin_slurm/__init__.py,sha256=E3c2lGvNAfRxLYSo9MWlf7_DDpBsuMytefzh8Wztwek,41755
+fsl_sub_plugin_slurm/fsl_sub_slurm.yml,sha256=Br0er572EAb5Z9U9WpXIVopJr6uJe_oMqILkbRVIQgA,3307
+fsl_sub_plugin_slurm/version.py,sha256=M6QG-i0vb5uT0Pbw-NBL1XE079LZXNAsnuWLbD77CKA,25
+fsl_sub_plugin_slurm/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsl_sub_plugin_slurm/tests/test_fsl_sub_plugin_slurm.py,sha256=l5vJl48VCd1zJnBAHCC2dYrHU7QvhftKC06DsYSJLXk,56403
+fsl_sub_plugin_slurm-1.5.0.dist-info/METADATA,sha256=5kb-iRscxmV0M5MRdVtOdzqo3-D9mu253tejqkDoFNM,12932
+fsl_sub_plugin_slurm-1.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fsl_sub_plugin_slurm-1.5.0.dist-info/top_level.txt,sha256=XSdZi7doWLVnYD-vPI2yulm3Thv0_hHfkszzXj59fH0,21
+fsl_sub_plugin_slurm-1.5.0.dist-info/RECORD,,
