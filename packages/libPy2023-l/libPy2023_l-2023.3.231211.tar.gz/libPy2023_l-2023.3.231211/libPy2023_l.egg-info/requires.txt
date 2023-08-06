@@ -1,0 +1,8 @@
+keyboard
+pandas
+
+[dev]
+setuptools
+wheel
+twine
+Sphinx
