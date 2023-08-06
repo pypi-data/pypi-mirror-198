@@ -1,0 +1,12 @@
+mdinfo
+osxmetadata>=1.2.2
+datetime_tzutils
+
+[dev]
+pytest
+bump2version
+cogapp
+freezegun
+doit
+build
+m2r2
