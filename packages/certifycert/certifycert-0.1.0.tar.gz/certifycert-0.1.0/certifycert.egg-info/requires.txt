@@ -1,0 +1,5 @@
+certifi
+ocsp-checker
+pyjarm
+requests
+pyopenssl
