@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pytwebl
+Version: 1.0.3
+Summary: Creates template for web-development from shell, includes : html, css and js.
+Home-page: https://github.com/SoumadeepChoudhury/pytwebl
+Author: Ahens | An Initiative to Initial (Soumadeep Choudhury)
+Author-email: ahensinitiative@gmail.com
+Maintainer: Manmay Chakraborty
+Maintainer-email: manmaycoder@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyTWebL
+Brings a faster and efficient way to generate web-development template, includes : html, css, js. 🧠
+
+# Key Features
+- Runs standalone from shell or command line
+- Have exclusive features of adding tags of html to generat ethe boiler plate template.
+
+# Installation
+- Run `pip install pytwebl`
+- Check [HomePage](https://github.com/SoumadeepChoudhury/pytwebl) for more details.
+# Usage
+- In command line, run `pytwebl` to start the engine.
+- Follow the on-screen commands.
+
+# Additional Options
+
+|Option|Description|
+|---|---|
+|--help|Displays the man page|
+|--disable-colours|Disables coloured output|
+|--enable-colours|Enables coloured output|
+
+> NOTE : Colours are disabled in output by default in Windows only, enabled by default in Linux-based OS.
+
+# Contribution
+We always welcome others to contribute in this project. They are welcomed whole-heartedly. 🎉🎉🥳🥳
