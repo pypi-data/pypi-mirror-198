@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shopcloud-serverless
+Version: 4.4.0
+Summary: CLI tool for creating a serverles api with API Gateway and Cloud Functions
+Home-page: https://github.com/Talk-Point/shopcloud-serverless-cli
+Author: Konstantin Stoldt
+Author-email: konstantin.stoldt@talk-point.de
+License: MIT-License
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: shopcloud-secrethub (>=2.12.0)
+
