@@ -1,0 +1,10 @@
+pyramid_openapi3/__init__.py,sha256=S9dKtv-HQnr-uexLD5pnBtuw1Siew0SSVcd8EVdsOeA,17792
+pyramid_openapi3/exceptions.py,sha256=RUIyaVAcvq48tb-p_djTvKnOy8Of1wMvBnTYlZadLKg,4285
+pyramid_openapi3/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyramid_openapi3/static/index.html,sha256=lawmshwqKJsNGppJW54NAIFdXnMb9yJ65zU4msCs8ow,3677
+pyramid_openapi3/tween.py,sha256=r9HVnDOSA-KO6RM2X1ENq29bXg9GEnSzuavrr1ZbUnk,3133
+pyramid_openapi3/wrappers.py,sha256=DVWHiHQJYOPoKoJK0-XgHo561XQ2USpa7-d3QDH1QVQ,2591
+pyramid_openapi3-0.16.0.dist-info/LICENSE,sha256=4ue-2ZopieofUKd-F6Bb7I3wqGboU1_wCFqbGkpmG4I,1076
+pyramid_openapi3-0.16.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyramid_openapi3-0.16.0.dist-info/METADATA,sha256=cyUCHC30TtGMhBN9lBGml2cpyw8i-jbcesE7HpMohq8,13740
+pyramid_openapi3-0.16.0.dist-info/RECORD,,
