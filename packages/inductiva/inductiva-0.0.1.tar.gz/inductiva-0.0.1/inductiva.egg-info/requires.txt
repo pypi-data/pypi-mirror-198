@@ -1,0 +1,4 @@
+setuptools>=21.0.0
+absl-py
+numpy
+scipy
