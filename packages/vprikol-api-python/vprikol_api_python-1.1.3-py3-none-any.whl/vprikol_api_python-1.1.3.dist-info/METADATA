@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vprikol-api-python
+Version: 1.1.3
+Summary: 
+Author: Alex
+Author-email: alexank1111@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: pydantic (>=1.10.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+pip install vprikol-api-python
+
