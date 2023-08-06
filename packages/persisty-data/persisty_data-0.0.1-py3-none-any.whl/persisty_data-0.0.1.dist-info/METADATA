@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: persisty-data
+Version: 0.0.1
+Summary: A binary data persistence layer build on top of persisty
+Home-page: https://github.com/tofarr/lambsync
+Author: Tim O'Farrell
+Author-email: tofarr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: persisty
+
+# Persisty Data
+
+Data plugin for persisty
+
+* Strategy for bypassing server
+* Using S3
+* Read vs Write
+
+## Deploying new versions of this Servey to Pypi
+
+```
+pip install setuptools wheel
+python setup.py sdist bdist_wheel
+pip install twine
+python -m twine upload dist/*
+```
+
+
