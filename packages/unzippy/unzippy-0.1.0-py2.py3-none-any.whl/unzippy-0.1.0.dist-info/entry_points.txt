@@ -1,0 +1,3 @@
+[console_scripts]
+unzippy=unzippy:main
+

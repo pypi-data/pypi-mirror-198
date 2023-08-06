@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: unzippy
+Version: 0.1.0
+Summary: a command line application to `unzip` archives
+Keywords: unzip,extract,archive
+Author-email: Randy Schneck <i@rasch.co>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Project-URL: Home, https://github.com/rasch/unzippy
+
+# unzippy
+
+`busybox unzip` wouldn't open one of my files, so I made this script with a
+similar API, and it ***WORKED*** 💥🤾.
+
+## install
+
+```sh
+python -m pip install unzippy
+```
+
+<details><summary>or with curl</summary><p>
+
+```sh
+curl -o ~/.local/bin/unzippy https://git.sr.ht/~rasch/unzippy/blob/main/unzippy.py
+chmod +x ~/.local/bin/unzippy
+```
+
+</p></details>
+
+## usage
+
+```sh
+# print help menu
+unzippy -h
+
+# extract files
+unzippy archive.zip
+```
+
