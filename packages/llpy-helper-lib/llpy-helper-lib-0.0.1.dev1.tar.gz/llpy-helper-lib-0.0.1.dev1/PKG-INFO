@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: llpy-helper-lib
+Version: 0.0.1.dev1
+Summary: Helper Lib for LLSE Python Runtime
+License: MIT
+Author-email: student_2333 <lgc2333@126.com>
+Requires-Python: >=3.10
+Provides-Extra: dev
+Description-Content-Type: text/markdown
+
+# LLSE-Python Helper Lib
+
+## Developing……
+
