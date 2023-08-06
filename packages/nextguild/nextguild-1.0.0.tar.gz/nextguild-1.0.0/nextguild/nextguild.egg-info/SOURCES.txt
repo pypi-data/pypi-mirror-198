@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nextguild/nextguild.egg-info/PKG-INFO
+nextguild/nextguild.egg-info/SOURCES.txt
+nextguild/nextguild.egg-info/dependency_links.txt
+nextguild/nextguild.egg-info/requires.txt
+nextguild/nextguild.egg-info/top_level.txt
