@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./lexitron/__init__.py
+./lexitron/agid-common.txt
+./lexitron/agid-proper.txt
+./lexitron/lexitron.py
+Lexitron.egg-info/PKG-INFO
+Lexitron.egg-info/SOURCES.txt
+Lexitron.egg-info/dependency_links.txt
+Lexitron.egg-info/entry_points.txt
+Lexitron.egg-info/not-zip-safe
+Lexitron.egg-info/requires.txt
+Lexitron.egg-info/top_level.txt
