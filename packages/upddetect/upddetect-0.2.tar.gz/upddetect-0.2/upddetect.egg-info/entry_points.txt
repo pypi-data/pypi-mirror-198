@@ -1,0 +1,3 @@
+[console_scripts]
+upddetect = src.upddetect:main
+
