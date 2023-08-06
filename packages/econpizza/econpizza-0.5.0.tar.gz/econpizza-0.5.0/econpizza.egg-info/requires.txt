@@ -1,0 +1,8 @@
+jax>=0.3.20
+jaxlib
+grgrjax
+pyyaml
+scipy
+
+[linear]
+grgrlib>=0.1.22
