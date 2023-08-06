@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: akfraction
+Version: 0.0.2
+Summary: Fraction by Mr.Adisak
+Home-page: https://github.com/kadisak/akfraction
+Download-URL: https://github.com/kadisak/akfraction/archive/v0.0.2.zip
+Author: Adisak Karnbanjong
+Author-email: kpadisak@gmail.com
+License: MIT
+Keywords: Fraction,Mathematics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+Package_name
+============
+
+akfraction is a Python library for dealing with arithmetic operation.
+
+Installation
+------------
+
+Use the package manager `pip <https://pip.pypa.io/en/stable/>`__ to
+install akfraction.
+
+.. code:: bash
+
+   pip install akfraction
+
+Usage
+-----
+
+.. code:: python
+
+   from akfraction import Fraction
+
+   a,b,c,d = [int(e) for e in input().split()]
+   fraction1 = Fraction(a,b)
+   fraction2 = Fraction(c,d)
+   print(f"fraction1 = {fraction1}")
+   print(f"fraction2 = {fraction2}")
+   print(f"fraction1+fraction2 = {fraction1+fraction2}")
+   print(f"fraction1-fraction2 = {fraction1-fraction2}")
+   print(f"fraction1*fraction2 = {fraction1*fraction2}")
+   print(f"fraction1/fraction2 = {fraction1/fraction2}")
+
+Contributing
+------------
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+Author
+------
+
+Adisak Karnbanjong
+
+License
+-------
+
+`MIT <https://choosealicense.com/licenses/mit/>`__

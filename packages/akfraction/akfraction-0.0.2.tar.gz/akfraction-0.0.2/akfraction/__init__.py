@@ -1,0 +1,1 @@
+from akfraction.module_a import Fraction
