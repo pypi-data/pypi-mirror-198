@@ -1,0 +1,10 @@
+__init___.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app.py,sha256=HpCICD6eeo_BnojDh2n04qQj009rpLqQ3yRB6AkP_7M,379
+e.py,sha256=TW2xtFv6zqpil3PuRIqebciVhCEdNw8O4mXUvUL_qls,33
+main.py,sha256=xhM1--xD7JpmhvUZ_6amU5QCzLgqg2cRMedetVlo384,9183
+scrape.py,sha256=c8J7elcvo6LkX9CKW_wFeSMP3p8BOBtv1Ek95UOts18,1886
+words.py,sha256=5qMz85URwFtjEyng7TzNSqJHiZQPCkvhHk_BKDQTySo,1553
+werdlchat-0.0.6.dist-info/METADATA,sha256=nELtL6uMvPnvIcHfQ7qfoKkXw2fSArwxSCLSpQu7BzA,1100
+werdlchat-0.0.6.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+werdlchat-0.0.6.dist-info/licenses/LICENSE,sha256=rApqR8CGNY28OVBVCWlMxDICxOWwl-tMHd7bjEAjetQ,1063
+werdlchat-0.0.6.dist-info/RECORD,,
