@@ -1,0 +1,9 @@
+foo/VERSION,sha256=CTZ7usYZQJdCvMOWJHFAzxqZ7_uPDyKmG6-9B7j_iNk,7
+foo/__init__.py,sha256=GA9zPAqy958pWNCWZr-pCsYw2esGyzf8BPjILafsg-E,595
+foo/speak.py,sha256=phQdQ2m2JSRUOpm1VK7reksCO5a2W2u89eqLRqjvafQ,601
+foo/version.py,sha256=uphgtK6rcvK3DN6le10FjsxWBoI9xxqeomz-dvOBY4Y,684
+foodemo3-0.0.3.dist-info/LICENSE,sha256=jTRUOUhmjY_hlMsUzMEth-s7iELWSz9hJf50wbSp83w,1073
+foodemo3-0.0.3.dist-info/METADATA,sha256=32ZKLBQOrg3XDd5n0NG8GRLShr_gtSfAU_XbQp0MV58,993
+foodemo3-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+foodemo3-0.0.3.dist-info/top_level.txt,sha256=tbudgBSg-bHWHiHnlteNzN8TUvI80ygS9IULh4rklEw,4
+foodemo3-0.0.3.dist-info/RECORD,,
