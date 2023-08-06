@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ytsaurus-local
+Version: 0.1.2.post0
+Summary: Python libraries and CLI to manage local YTsaurus instances.
+Home-page: UNKNOWN
+Author: YTsaurus
+Author-email: dev@ytsaurus.tech
+License: Apache 2.0
+Keywords: yt ytsaurus local mapreduce
+Platform: UNKNOWN
+Requires-Dist: ytsaurus-client (>=0.13.1)
+Requires-Dist: attrs (==22.2.0)
+
+This package contains python library which helps to set up fully-functional YTsaurus cluster instance locally. It is designed to be flexible and allows to choose desired cluster configuration. Also this packages provides yt_local binary (based on python library) which can be used to manage local instances manually from command-line.
+
