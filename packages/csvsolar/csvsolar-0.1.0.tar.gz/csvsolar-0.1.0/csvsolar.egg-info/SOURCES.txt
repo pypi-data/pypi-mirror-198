@@ -1,0 +1,7 @@
+setup.py
+csvsolar/main.py
+csvsolar.egg-info/PKG-INFO
+csvsolar.egg-info/SOURCES.txt
+csvsolar.egg-info/dependency_links.txt
+csvsolar.egg-info/entry_points.txt
+csvsolar.egg-info/top_level.txt

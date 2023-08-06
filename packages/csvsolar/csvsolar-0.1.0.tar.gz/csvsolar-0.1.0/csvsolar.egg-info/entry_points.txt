@@ -1,0 +1,2 @@
+[console_scripts]
+csvsolar = csvsolar.main:main
