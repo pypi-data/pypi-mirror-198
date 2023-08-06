@@ -1,0 +1,9 @@
+pydantic_argparse_builder/__init__.py,sha256=mTN7FuXWA2ayG_GEuaJ1wX0neObQSk6DYB8qyhPtfpg,424
+pydantic_argparse_builder/__version__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+pydantic_argparse_builder/cli.py,sha256=z3ApJF1St3qeMci7OjeoWuJTGA9LkywMGsWl2e405Ig,3106
+pydantic_argparse_builder/config.py,sha256=u6RUTlgkPLAajlHRrjxfd1B2h1Ale7AWMWA7JrJOH2A,344
+pydantic_argparse_builder/parse.py,sha256=Oq2DfBlT1XRrEueIzfRpZrpFxu8e3mnYw2EFMWkUKJ8,8173
+pydantic_argparse_builder-0.2.1.dist-info/LICENSE,sha256=qn2zMcR3YJgQp_xiWS6SrILKrN7ZyBF3K0jlKRDUho8,11336
+pydantic_argparse_builder-0.2.1.dist-info/METADATA,sha256=Ea2fRAQ5CFw5XQH5keX2sdQ49AfarIYMQoZJB8zHfAk,3454
+pydantic_argparse_builder-0.2.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pydantic_argparse_builder-0.2.1.dist-info/RECORD,,
