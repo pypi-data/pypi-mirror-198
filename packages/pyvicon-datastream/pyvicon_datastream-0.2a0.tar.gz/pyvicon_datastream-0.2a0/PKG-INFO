@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyvicon_datastream
+Version: 0.2a0
+Summary: Platform independent minimal python 3 wrapper implementation over Vicon Datastream SDK
+Home-page: https://github.com/steffensc/pyvicon-datatstream-module
+Author: Steffen Schmelter
+Requires-Python: >=3.7
+License-File: LICENSE
