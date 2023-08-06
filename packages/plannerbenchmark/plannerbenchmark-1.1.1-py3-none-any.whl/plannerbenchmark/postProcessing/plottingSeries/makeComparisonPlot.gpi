@@ -1,0 +1,63 @@
+set term postscript eps color size 2, 7 font "RomanSerif.ttf" 14
+seriesFolder=ARG1
+baseline=ARG2
+planner=ARG3
+inFile=seriesFolder."data/comparisons_".planner.".csv"
+outFileBox=seriesFolder."/plot/comparisons_".planner.".eps"
+set output outFileBox
+
+set datafile separator ' '
+set bmargin at screen 0.26
+
+set style fill solid 0.5 border -1
+set style boxplot nooutliers
+set log y2 2
+set style data boxplot
+unset ytics
+set y2tics nomirror font ',35' rotate by 90 out offset 0.5,-2.0
+set grid y2tics
+set border 9
+
+yLabel = sprintf("%s / %s on logarithmic scale", planner, baseline)
+set y2label yLabel font ",35" rotate by 90
+
+
+firstrow = system('head -1 '.inFile)
+nb_metrics=words(firstrow)
+
+unset key
+set xtics () scale 1.0 font ",35" rotate by 90 out offset -0.5, -14.0
+set xtics nomirror
+do for [i=2:(nb_metrics+2)] {
+  metricName = word(firstrow, i)
+  if (metricName eq "solverTime"){
+    set xtics add ("Solver Time" i);
+  }
+  if (metricName eq "integratedError") {
+    set xtics add ("Summed Error" i);
+  }
+  if (metricName eq "pathLength") {
+    set xtics add ("Path Length" i);
+  }
+  if (metricName eq "clearance") {
+    set xtics add ("Clearance" i);
+  }
+  if (metricName eq "invClearance") {
+    set xtics add ("Clearance^{-1}" i);
+  }
+  if (metricName eq "dynamicClearance") {
+    set xtics add ("Clearance" i);
+  }
+  if (metricName eq "invDynamicClearance") {
+    set xtics add ("Clearance^{-1}" i);
+  }
+  if (metricName eq "selfClearance") {
+    set xtics add ("Self Clearence" i);
+  }
+  if (metricName eq "time2Goal") {
+    set xtics add ("Time to Goal" i);
+  }
+}
+plot 1 with lines dt 3 lw 6 lt rgb "red" notitle axes x1y2, \
+  for [i=2:(nb_metrics)] inFile using (i):i lw 2 lt rgb "gray30" axes x1y2
+
