@@ -1,0 +1,5 @@
+requests
+singer-python==5.13.0
+
+[dev]
+pylint
