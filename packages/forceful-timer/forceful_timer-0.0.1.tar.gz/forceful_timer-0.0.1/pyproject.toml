@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "forceful_timer"
+version = "0.0.1"
+authors = [
+  { name="Prax Tube", email="lukinator28@gmail.com" },
+]
+description = "Forces shutdown once timer runs out or force quits specified applications if timer is interrupted."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PraxTube/forceful-timer"
+"Bug Tracker" = "https://github.com/PraxTube/forceful-timer/issues"
+
+#Only used if pytests are configered
+#[tool.pytest.ini_options]
+#pythonpath = "src"
+#addopts = [
+#    "--import-mode=importlib",
+#]
+
