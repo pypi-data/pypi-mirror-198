@@ -1,0 +1,4 @@
+sceptre>=3.2
+
+[test]
+pytest>=6.0
