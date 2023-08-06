@@ -1,0 +1,7 @@
+README.md
+setup.py
+pythonSeleniumInfraByVerisoft.egg-info/PKG-INFO
+pythonSeleniumInfraByVerisoft.egg-info/SOURCES.txt
+pythonSeleniumInfraByVerisoft.egg-info/dependency_links.txt
+pythonSeleniumInfraByVerisoft.egg-info/requires.txt
+pythonSeleniumInfraByVerisoft.egg-info/top_level.txt
