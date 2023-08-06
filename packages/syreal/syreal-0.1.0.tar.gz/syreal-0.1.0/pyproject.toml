@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "syreal"
+version = "0.1.0"
+description = "Tools for system reliability analysis."
+authors = ["daniel <daniel.krpelik@vsb.cz>"]
+license = "GNU GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+scipy = "^1.10.1"
+networkx = "^3.0"
+progress = "^1.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
