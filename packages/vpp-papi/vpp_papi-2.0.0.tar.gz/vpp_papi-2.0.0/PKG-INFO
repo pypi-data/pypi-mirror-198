@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: vpp-papi
+Version: 2.0.0
+Summary: VPP Python binding
+Project-URL: Homepage, https://wiki.fd.io/view/VPP/Python_API
+Author-email: Ole Troan <otroan@employees.org>
+License-File: LICENSE.txt
+Requires-Python: >=3.7
