@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/termlauncher/__init__.py
+src/termlauncher/__main__.py
+src/termlauncher/old__main__.py
+src/termlauncher.egg-info/PKG-INFO
+src/termlauncher.egg-info/SOURCES.txt
+src/termlauncher.egg-info/dependency_links.txt
+src/termlauncher.egg-info/top_level.txt
