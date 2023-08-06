@@ -1,0 +1,18 @@
+psutil
+numpy>=1.21
+
+[:python_version < "3.8"]
+typing-extensions
+
+[dev]
+black==23.1.*
+ruff==0.0.257
+mypy==1.1.*
+pre-commit
+
+[dev:python_version < "3.8"]
+types-backports
+
+[doc]
+furo
+sphinx==6.1.*
