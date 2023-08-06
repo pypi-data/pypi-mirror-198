@@ -1,0 +1,12 @@
+llamacpp.libs/libstdc++-fd9f4683.so.6.0.28,sha256=ABZJqq2QQ-As0idNvT9YzXNRmTj9R-S0pG8KMb0Odtk,2599041
+llamacpp.libs/libgcc_s-4e37474d.so.1,sha256=Slji658OikHg8crvAv4qrQOmCj7zqL5w890rL-a5jBM,134393
+llamacpp/llamacpp.cpython-38-aarch64-linux-gnu.so,sha256=PI-qivPftEOrCG3wyu_iCK4Wb9X1DmnPIgK5F7JNuJs,695353
+llamacpp/__init__.py,sha256=WsGqUUaAW_G0_78OTkwqhgz3aaSjUo1laEXlESj2Q_A,96
+llamacpp/quantize.py,sha256=bfxppVB2lVIbfm1N5-7ccTEL5grWdly_javkZ4_FzVs,1838
+llamacpp/chat.py,sha256=OZ2ne5xAhcyOBAkxzbPQWo6622imqJxWQNeqDOquFFA,3910
+llamacpp/cli.py,sha256=4ImBXcKZL7DcQni6tv0U_UgqyErAVzi2VAKHxUlzGH4,5628
+llamacpp/convert.py,sha256=64wx0W-Kn2Xfd2qjGxJdl7OoHEc8CNAW8umK31sjg8E,5635
+llamacpp-0.1.6.dist-info/entry_points.txt,sha256=TMZwkaHC4xn9APU8RVz89Pl4YMfaUj5qXyNDe2G2qQ0,161
+llamacpp-0.1.6.dist-info/WHEEL,sha256=6W4Ob-UJhIdNI6yFsalD4qzzHWcxXgYcquD-Kgzn2w8,108
+llamacpp-0.1.6.dist-info/RECORD,,
+llamacpp-0.1.6.dist-info/METADATA,sha256=ILFn6x8GUpf_ERinc7iis7umZx8Z6evriKSuK_tqc2k,3204
