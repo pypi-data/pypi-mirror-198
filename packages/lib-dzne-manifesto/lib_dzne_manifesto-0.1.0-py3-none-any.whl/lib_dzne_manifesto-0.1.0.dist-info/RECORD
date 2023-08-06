@@ -1,0 +1,12 @@
+lib_dzne_manifesto/__init__.py,sha256=Iyn-gayy-pInneCl4eMfFA3e3sL0paIq1OX_K7vZDns,2029
+lib_dzne_manifesto/manifesto/Prog.py,sha256=tvlbHtUv3ZHY6JHWI5oHKP7EP2lM9ZeDbZNGhV4xMok,15140
+lib_dzne_manifesto/manifesto/__init__.py,sha256=Fec1azO0aGAOuCqVRe3Y57_WlDch87io4v2i0DPA1oI,121
+lib_dzne_manifesto/manifesto/chain.py,sha256=sbo6cPwvprqLGiD2PFApd4Nqz9KLlHUPO376STn6fog,943
+lib_dzne_manifesto/manifesto/elemkey.py,sha256=jws-aI1L-IRejPT340xyC8c3nxWWmSebuDaqiiDejKM,809
+lib_dzne_manifesto/manifesto/masterfile.py,sha256=59Cc9xlHUF62nB8yw5_m9OYLF8jCTIi-Oicn7CD6KS0,1334
+lib_dzne_manifesto/manifesto/slim.py,sha256=bzRgF2l7VlnqcaSCTwLfNtkPCM6CQqZN_4k9Ivf7Jmc,452
+lib_dzne_manifesto-0.1.0.dist-info/LICENSE,sha256=2bPxBkU91Xj55wL5yLbQfric9lyguXz9zn0uv8eD7es,1066
+lib_dzne_manifesto-0.1.0.dist-info/METADATA,sha256=ZNM_wBh7Pu5Z0O4DlvC-cfz60SvKlRZ6JywBU5baGGc,1475
+lib_dzne_manifesto-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lib_dzne_manifesto-0.1.0.dist-info/top_level.txt,sha256=yR5SS3hbzVcIkCJTDF4nH_5PpuyREP1_HGxajG7-T8s,19
+lib_dzne_manifesto-0.1.0.dist-info/RECORD,,
