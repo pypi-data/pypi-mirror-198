@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "license-seeker"
+version = "0.3.1"
+description = ""
+authors = ["KKlochko <kostya_klochko@ukr.net>"]
+readme = "README.rst"
+license = "GPL-3.0-or-later"
+packages = [{include = "license_seeker"}]
+repository = "https://gitlab.com/KKlochko/license-seeker"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab.com/KKlochko/license-seeker/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+
+[tool.poetry.scripts]
+license-seeker = "license_seeker.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
