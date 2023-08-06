@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SETUUtility"
+version = "0.0.3"
+authors = [
+  { name="SETU_Team", email="author@example.com" },
+]
+description = "Package of common functionality used in cloud functions" 
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

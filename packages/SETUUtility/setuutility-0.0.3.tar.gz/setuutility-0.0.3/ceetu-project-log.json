@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ceetu-project",
+  "private_key_id": "5c69e91f1c795a1c0380beb5402f1b9c901b5746",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDd4HwHyHkf1/10\nKy5+mgsh6xvqLj/1fsT0UkXEwnOytpNiPf5dN4xdWEK6iITz8Rn8T/pqpeKq0WOi\nyO/DFHkV9c1ZXyOl0U+pbqoizK3R3RpqDTvOEdEEdC4oUV7n4H4CXoDTkpw8mqsD\nO+1TJDTZLMkvwvhKzWIyOwtBo6L4/5owCNVIdD963GAiUQzLg7ZUicTNQvCBjrez\nGM2oVjpLbsH44+dFvFhNuRhIKRLEpGGlJ0X7i7SFmhdyxP3e1WsCFzeqStT73CtK\n1HN7SQoFNJ9SQ6l4OOkwEWmgl9EfpIYZVWdSDBbWTvN+DgfWXgN4NuVHa/EXAk73\nwmxZtZuFAgMBAAECggEAFCwxSqnc7Vq/Zfz5FLSft30/Q/rhgMn+UTJbuohtaX21\nB7UYN9RxlBkOtBPudplgofKJk4GyipJQC0BWoDdvzOHUwj/mp1BQ/Fgd6t0OHqsK\nGENMwS8YgF2pxqujQ9TC0CdUcif9wXrUeo5LxQfhMC+kuQ1ycqaau3Nn0hd1HUtA\nhw5cHEyB7Fh08z55UaNEt87iSTiVcO2NaYsy33/B6j6qJUJlbtm3deWfQSrTFnyF\ndj2s1KN1DQJuvF4z+ZPd8YuzuxXprY2x/hDRdyW/P7XsPbG0EhT7a82gieahMLoB\nplfKfkIZfS2KPcMp5hTSgXk0tyGyv25eE6E8CPV2DwKBgQD9qws79tjsR+r5cg0K\nUlKkkHX0ciGpgQzkTAK2Oa52dAlVZxGHgYFN4qtPbBIq4JDIwzDK7UgWQgKvktIs\nXFYw+KVKCqsFvwrTzDviw/U3VEaMkyBHiSh9QCvwKjye4XtMBXyj24bRvBcH+kvf\nLZCWmE9r4HIAoYocqcYhD4jWHwKBgQDf6qBcN6bJa5iPidv4VEKw1hMqVtbV5jEr\nBfY3SAv12ef5c4fNVc6hLGM2MLQOewZ5VgCS+R0ST4687iaTOLwghSczxWeffBZh\n92sbtKIQihVSoPrgtTYJTSW2UcPqq9bZWdZdVfi0AGrbaWd6CzkcQwM+AwDRlXN9\n2007GwWx2wKBgFcJ1G370gyo1JhIqO7Mtmye4MpCSwiVLi47YobSHempAPbbyaj8\nJ7jouK0kwMsTiLpKNzi52A1DExbZQuJTwINHHbfdFzd+iKGJp1a0tDQK57YeWWoS\nRuFLHohmhaxiY+L+0viKP6VBa4miOVxXjxANLNswBQ3wX6pcGo6HfQUzAoGBAKrB\nyIzKu9x6uxsrbJ6R01H7zx3In4j7RJ+kqkE6JjTUej0XR4blWvA6Y2Zd+dHZK/S4\nCzQJ2YuvNBEMJEq9R2odYOnwLrfG72LCReIY/EZUpzIeJXPbfVvWg13oONnrNasH\nAZyoBUNv1g2A8jJ2AJV23TAbJjKuICboaJscXlllAoGBAJRlcwYhPEMTTcnFVk/z\n98rZArBANZqT4vDX8wVawUUzJh976eMlMRy9C3NK82Qw2bcV5jagiwmOD0YDNgC/\n9kXV3vRcP/Y31b+FyLozOaWbODKXR+nbwIpanTa06RHMMLle7YEScUPRypGRuLUq\nBsYZNktrSvUSfmYe6hMCOJH5\n-----END PRIVATE KEY-----\n",
+  "client_email": "pythonmigration2022@ceetu-project.iam.gserviceaccount.com",
+  "client_id": "101376823962638549985",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pythonmigration2022%40ceetu-project.iam.gserviceaccount.com"
+}
