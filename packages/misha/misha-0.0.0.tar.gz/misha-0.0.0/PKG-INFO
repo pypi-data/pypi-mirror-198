@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: misha
+Version: 0.0.0
+Summary: Decoding of event cameras output.
+Home-page: https://github.com/fabrizio-ottati/misha
+Author: Fabrizio Ottati
+Author-email: Fabrizio Ottati <mail@fabrizio-ottati.dev>
+Maintainer: Fabrizio Ottati
+Maintainer-email: mail@fabrizio-ottati.dev, mail@lenzgregor.com
+Project-URL: Homepage, https://github.com/fabrizio-ottati/misha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
