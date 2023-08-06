@@ -1,0 +1,16 @@
+powerhouse_helper/Address_Book_Handler.py,sha256=B98XPhJ5jA1MSnb9XJosq9uxis9OICaXB0hV5Z00lzw,3554
+powerhouse_helper/Note.py,sha256=2qc9FQa-GtcR9rOdg0CMJ84nbqU6kOPtkjKUu8xuH6c,11364
+powerhouse_helper/Note_Book_Handler.py,sha256=NDyIiPwsLBmSs01ZMYyDcNlE6yDcDYhCre9nowlQyFs,4413
+powerhouse_helper/Snake.py,sha256=vMcqJLXrfMs7byuW37b_98-yHsfcfckluUTncLztiXA,3931
+powerhouse_helper/Sort_Files.py,sha256=Q-g5_CP5kIa2aaf4YaQKM8uphPg0kcueJGFuapXRP48,3894
+powerhouse_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powerhouse_helper/addressbook.py,sha256=7zwMDXGYXf92tQd-iD7P-_vNg-uofzrNGdDPOpVjQ5Y,7136
+powerhouse_helper/addressbook_data.py,sha256=8_wXn6S7xyzfHTYzZeaXkJdai9c-nvlF7UVqRGy7uOU,2874
+powerhouse_helper/main.py,sha256=vlVK9bVvw8-NzScbyAnsEwaqQVv3F6E2E9PQF5_iEUI,3783
+powerhouse_helper/Сalculator.py,sha256=A5axMyp8mLEPFNnPf0k9rrcyxYDHpoD5bI2EMwVLJPI,1681
+python_powerhouse_helper_pretest-1.0.0.dist-info/LICENSE,sha256=EffP3H76bQwFeqv6bO91ogRjJ_zbAGuR6GztukWkeeE,1070
+python_powerhouse_helper_pretest-1.0.0.dist-info/METADATA,sha256=vexpW0dOMDvDBCWPZXugpErOg-j78R516N28mX2zC-Y,503
+python_powerhouse_helper_pretest-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+python_powerhouse_helper_pretest-1.0.0.dist-info/entry_points.txt,sha256=dVMzmAWqnb_bPINODkmYjgrMq9KJF6gJ3Fw_J694p-Y,78
+python_powerhouse_helper_pretest-1.0.0.dist-info/top_level.txt,sha256=llaGmUt1QAkCeWXBc5DaTdleq3O4UL6idkpnIoR01XA,18
+python_powerhouse_helper_pretest-1.0.0.dist-info/RECORD,,
