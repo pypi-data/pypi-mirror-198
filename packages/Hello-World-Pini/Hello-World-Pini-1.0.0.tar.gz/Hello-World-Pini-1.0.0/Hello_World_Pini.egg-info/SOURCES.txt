@@ -1,0 +1,7 @@
+setup.py
+Hello_World_Pini.egg-info/PKG-INFO
+Hello_World_Pini.egg-info/SOURCES.txt
+Hello_World_Pini.egg-info/dependency_links.txt
+Hello_World_Pini.egg-info/top_level.txt
+helloWorld/__init__.py
+helloWorld/hello.py

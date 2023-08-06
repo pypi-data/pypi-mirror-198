@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Hello-World-Pini
+Version: 1.0.0
+Summary: Esse pacote tem uma função que imprime a string Hello world
+Author: Mateus
+Author-email: mateusfeitosa.olivi@gmail.com
+License: MIT
+Keywords: dev,web
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+Esse pacote tem uma função que imprime a string Hello world...
