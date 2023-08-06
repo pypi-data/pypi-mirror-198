@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+akfraction/__init__.py
+akfraction/module_a.py
+akfraction.egg-info/PKG-INFO
+akfraction.egg-info/SOURCES.txt
+akfraction.egg-info/dependency_links.txt
+akfraction.egg-info/top_level.txt
