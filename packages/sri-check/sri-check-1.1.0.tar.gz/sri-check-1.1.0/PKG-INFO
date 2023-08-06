@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sri-check
+Version: 1.1.0
+Home-page: https://github.com/4armed/sri-check
+Author: Marc Wickenden
+Author-email: code@4armed.com
+Requires-Python: >=3.6
