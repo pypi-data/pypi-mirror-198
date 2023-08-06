@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+midtermmattagut/__init__.py
+midtermmattagut/midtermmattagut.py
+midtermmattagut.egg-info/PKG-INFO
+midtermmattagut.egg-info/SOURCES.txt
+midtermmattagut.egg-info/dependency_links.txt
+midtermmattagut.egg-info/not-zip-safe
+midtermmattagut.egg-info/top_level.txt
