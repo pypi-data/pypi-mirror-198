@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+orbitmagic.c
+setup.py
+orbitmagic.egg-info/PKG-INFO
+orbitmagic.egg-info/SOURCES.txt
+orbitmagic.egg-info/dependency_links.txt
+orbitmagic.egg-info/top_level.txt
