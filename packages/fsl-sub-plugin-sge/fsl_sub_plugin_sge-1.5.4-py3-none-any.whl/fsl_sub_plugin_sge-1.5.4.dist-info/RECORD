@@ -1,0 +1,10 @@
+fsl_sub_plugin_sge/__init__.py,sha256=bm-2PPDJwxNlP5YYTyl37jNmbCBi1Nfg5Tyhinmoqrw,46044
+fsl_sub_plugin_sge/fsl_sub_sge.yml,sha256=chnPJgZt_xbJyAGYRt6MLyklbbiwYScWLFnR9DuXFcE,4927
+fsl_sub_plugin_sge/version.py,sha256=1CXaNvY3kLHfTNdfBnKw2QgRhHvW25OSjmb2qsdXnDA,25
+fsl_sub_plugin_sge/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsl_sub_plugin_sge/tests/test_fsl_sub_plugin_sge.py,sha256=D_x-7iksjQCSbYTKjhdIG4uQIu0RI3SmLS69xG7blco,168471
+fsl_sub_plugin_sge-1.5.4.dist-info/LICENSE,sha256=4YSlnyx1cW2fGsvTMhocfH0TcG3ezZlTFmKM1PyrtyA,608
+fsl_sub_plugin_sge-1.5.4.dist-info/METADATA,sha256=HBpAYcAn7yJ9VX4wSHin90bTc6KcxypTAtAD2v_zSSw,16480
+fsl_sub_plugin_sge-1.5.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fsl_sub_plugin_sge-1.5.4.dist-info/top_level.txt,sha256=LWqMh6MIjunynKZ369ZW8lAepNQ6u1MvvAMQclFXhqU,19
+fsl_sub_plugin_sge-1.5.4.dist-info/RECORD,,
