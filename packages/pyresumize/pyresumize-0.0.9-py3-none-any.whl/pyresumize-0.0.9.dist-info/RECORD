@@ -1,0 +1,6 @@
+pyresumize/__init__.py,sha256=_kHxGmPG-s4rpo3XWw_IZtdMaU5IDcVkxDtG3vjJ-ak,23
+pyresumize/candidate.py,sha256=1oDRWSMk_kzJIZ7nZy7KTcWQsJssUyKGzXZXqMtzm1c,7539
+pyresumize/resume_processor.py,sha256=zjkTav7rm7FWCUK4HmBwrusuPK_SyeBj-39mLVr6vBU,2137
+pyresumize-0.0.9.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pyresumize-0.0.9.dist-info/METADATA,sha256=B5sGmpy2tVN585h6MiBBgD4hQDms39ULCxwAqFPC_BY,2709
+pyresumize-0.0.9.dist-info/RECORD,,
