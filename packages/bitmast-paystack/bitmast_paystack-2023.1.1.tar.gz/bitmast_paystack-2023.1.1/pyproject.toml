@@ -1,0 +1,30 @@
+[project]
+name = "bitmast_paystack"
+version = "2023.01.01"
+description = "Python wrapper for PayStack Gateway API"
+readme = {file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["payment", "bank", "card", "account", "PayStack", "fintech"]
+authors = [
+  {name = "Bitmast Digital Services", email = "bitmastdigital@gmail.com"},
+  {name = "frier17"}
+]
+maintainers = [
+  {name = "frier17"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+dependencies = [
+  "requests",
+  "dotenv"
+]
+
+# dynamic = ["version", "description"]
+
+
+[project.urls]
+repository = "https://gitlab.com/frier17/pypaystack.git"
