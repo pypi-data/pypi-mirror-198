@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+Axis42.egg-info/PKG-INFO
+Axis42.egg-info/SOURCES.txt
+Axis42.egg-info/dependency_links.txt
+Axis42.egg-info/top_level.txt
