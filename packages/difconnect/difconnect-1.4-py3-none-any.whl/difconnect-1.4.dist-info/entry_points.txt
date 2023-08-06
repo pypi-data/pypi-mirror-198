@@ -1,0 +1,2 @@
+[console_scripts]
+difconnect = difconnect.__main__:main
