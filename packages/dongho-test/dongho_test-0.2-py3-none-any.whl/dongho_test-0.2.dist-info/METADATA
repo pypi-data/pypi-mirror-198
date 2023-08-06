@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dongho-test
+Version: 0.2
+Summary: for testing about pypi deploy
+Home-page: https://github.com/colley-co-ltd/pypi_deploy_test
+Download-URL: https://github.com/colley-co-ltd/pypi_deploy_test/archive/master.zip
+Author: changhui.yun
+Author-email: changhui.yun@colley.kr
+Keywords: pypi deploy
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
