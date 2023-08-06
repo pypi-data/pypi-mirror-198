@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "deep-learning-toolbox"
+version = "0.0.1"
+authors = [
+  { name="Loredana Sandu", email="sandu.loredana@outlook.com" },
+]
+description = "A Deep Learning package built on top of PyTorch to encapsulate some of the most used utilities (data, functions, models and more). In continuous development."
+
+requires-python = ">=3.5"
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+dependencies = [
+    "torch",
+    "numpy"
+]
+
+keywords = [
+    "artificial intelligence", "deep learning", "python", "pytorch", "torch", "library"
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/loredanasandu/deep-learning-toolbox"
