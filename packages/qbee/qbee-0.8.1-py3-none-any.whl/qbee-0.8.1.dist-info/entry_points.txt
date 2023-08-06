@@ -1,0 +1,4 @@
+[console_scripts]
+benchmarks=tests:run_benchmarks
+tests=tests:run_tests
+
