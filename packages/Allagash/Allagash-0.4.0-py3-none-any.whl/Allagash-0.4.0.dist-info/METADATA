@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Allagash
+Version: 0.4.0
+Summary: A Python Spatial Optimization Library
+Home-page: https://github.com/apulverizer/allagash
+Author: Aaron Pulver
+Author-email: apulverizer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: pulp (>=1.6.1)
+Provides-Extra: arcgis
+Requires-Dist: arcgis (>=1.8.2) ; extra == 'arcgis'
+Provides-Extra: geopandas
+Requires-Dist: geopandas (>=0.4.1) ; extra == 'geopandas'
+
+A spatial optimization library for covering problems.
+
