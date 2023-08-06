@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+serve_grobid.sh
+setup.py
+levis_pdfparse.egg-info/PKG-INFO
+levis_pdfparse.egg-info/SOURCES.txt
+levis_pdfparse.egg-info/dependency_links.txt
+levis_pdfparse.egg-info/requires.txt
+levis_pdfparse.egg-info/top_level.txt
+scipdf/__init__.py
+scipdf/features/__init__.py
+scipdf/features/text_utils.py
+scipdf/pdf/__init__.py
+scipdf/pdf/parse_pdf.py
+scipdf/pdf/pdffigures2/pdffigures2-assembly-0.0.12-SNAPSHOT.jar
