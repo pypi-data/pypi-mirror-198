@@ -1,0 +1,9 @@
+shepard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shepard/cli.py,sha256=PlWDs_RuHUNp36Gr_3sHKa4fqD86gLGFRm4Q0DmVoLw,27751
+shepard/lib.py,sha256=hVUw_XaUfCgOZPu-HYe5ox3pe1qloUA2i8XFf3gdPMs,76409
+shepard-0.8.8.dist-info/LICENSE,sha256=MSaYEUPpIxsYBuuFSWlDHhksEpeBihMNgyfo7Lp8VyU,1074
+shepard-0.8.8.dist-info/METADATA,sha256=0zjNvA3GrHNQI01635QjZub9XU0bDFAzvSkrLkT0O0w,55363
+shepard-0.8.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+shepard-0.8.8.dist-info/entry_points.txt,sha256=YdrdT_Bo6AoQhP2nTadjsHrw5EJQoYbH5-3OFDsDch0,44
+shepard-0.8.8.dist-info/top_level.txt,sha256=Ry_w9lxITpZElq-wjZu9jGEmAZSrwWXexFMbOlIjSGQ,8
+shepard-0.8.8.dist-info/RECORD,,
