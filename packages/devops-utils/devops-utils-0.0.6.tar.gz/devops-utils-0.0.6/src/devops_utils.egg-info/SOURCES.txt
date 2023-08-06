@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/devops_utils/__init__.py
+src/devops_utils/sanitizer.py
+src/devops_utils/utils.py
+src/devops_utils.egg-info/PKG-INFO
+src/devops_utils.egg-info/SOURCES.txt
+src/devops_utils.egg-info/dependency_links.txt
+src/devops_utils.egg-info/not-zip-safe
+src/devops_utils.egg-info/requires.txt
+src/devops_utils.egg-info/top_level.txt
