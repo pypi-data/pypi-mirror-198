@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: unwrap-basemodel-fields
+Version: 0.5.1
+Summary: Unwrapper stores a Result object to implement unpacking of values if they are not None. The BaseModel object is also a little extended to work with the Result object.
+Home-page: https://github.com/luwqz1/unwrap_basemodel_fields
+License: MIT
+Keywords: python,uwrapping,optional handle,basemodel fields
+Author: Georgy howl
+Author-email: howluwqz1@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Pydantic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Project-URL: Repository, https://github.com/luwqz1/unwrap_basemodel_fields
+Description-Content-Type: text/markdown
+
+# :recycle: Unwrapper pydantic optional fields :recycle:
+
+
+Unwrapper stores a **Result** object to implement unpacking of values if they are not **None**. The **BaseModel** object is also a little extended to work with the **Result** object.
+
+
+# :star: A simple example :star:
+```python
+from unwrapper import BaseModel, Result
+
+class User(BaseModel):
+    name: Result[str]
+    age: int
+
+data = {
+    "age": 20
+}
+user = User(**data)
+#> User(name=Result(None), age=20)
+print("Hello", user.name.unwrap(error_msg="What's your name?"), "!")
+#> ValueError: What's your name?
+```
+
+# :book: Documentation :book:
+* In :ru: [**Russian**](https://github.com/luwqz1/unwrap_basemodel_fields/blob/main/docs/RU.md) :ru:
+* In :us: [**English**](https://github.com/luwqz1/unwrap_basemodel_fields/blob/main/docs/EN.md) :us:
+
