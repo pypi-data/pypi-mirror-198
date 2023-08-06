@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: asdf-inspect
+Version: 0.1.0
+Summary: An auxiliary library for the virtualenv-asdf and tox-asdf-redux plugins
+Home-page: https://github.com/lanshark/asdf-inspect
+License: MIT
+Keywords: asdf
+Author: Scott Sharkey
+Author-email: me@undef.im
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/lanshark/asdf-inspect
+Description-Content-Type: text/markdown
+
+# asdf-inspect
+
+An auxiliary library for the [virtualenv-asdf][virtualenv-asdf] and [tox-asdf-redux][tox-asdf-redux] plugins.
+
+## Limitations
+
+Only CPython is supported at the moment.
+
+
+NOTE: this is modified from [pyenv-inspect][pyenv-inspect] by un-def.
+
+[pyenv-inspect]: https://github.com/un-def/pyenv-inspect
+[virtualenv-asdf]: https://github.com/lanshark/virtualenv-asdf
+[tox-asdf-redux]: https://github.com/lanshark/tox-asdf-redux
+
