@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: linpde-gp
+Version: 0.0.1a1
+Summary: Linear PDE Solvers as Gaussian Process Inference
+Author-email: Marvin Pförtner <marvin.pfoertner@uni-tuebingen.de>
+License: MIT
+Project-URL: github, https://github.com/marvinpfoertner/linpde-gp
+Keywords: partial-differential-equations,gaussian-processes,probabilistic-numerics,galerkin-method,finite-element-method,collocation-method,spectral-methods
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <3.11,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.3)
+Requires-Dist: scipy (>=1.4)
+Requires-Dist: probnum (<0.1.25,>=0.1.24)
+Requires-Dist: jax[cpu] (>=0.2.18)
+Requires-Dist: matplotlib (>=3.4.3)
+Requires-Dist: pykeops (<3.0,>=2.1.1)
+
+# LinPDE-GP: Linear PDE Solvers based on GP Regression
+
+Code for the Paper "Physics-Informed Gaussian Process Regression Generalizes Linear PDE Solvers"
+
+## Getting Started
+
+### Cloning the Repository
+
+This repository includes Git submodules, so it is best cloned via
+
+```shell
+git clone --recurse-submodules git@github.com:marvinpfoertner/linpde-gp.git
+```
+
+If you forgot the `--recurse-submodules` flag when cloning, simply run
+
+```shell
+git submodule update --init --recursive
+```
+
+inside the repository.
+
+### Installing a Full Development Environment
+
+```shell
+cd path/to/linpde-gp
+pip install -r dev-requirements.txt
+```
+
+## Citation
+
+If you use this software, please cite our paper.
+
+```bibtex
+@misc{Pfoertner2022LinPDEGP,
+  author = {Pf\"ortner, Marvin and Steinwart, Ingo and Hennig, Philipp and Wenger, Jonathan},
+  title = {Physics-Informed Gaussian Process Regression Generalizes Linear PDE Solvers},
+  year = {2022},
+  publisher = {arXiv},
+  doi = {10.48550/arxiv.2212.12474},
+  url = {https://arxiv.org/abs/2212.12474}
+}
+```
