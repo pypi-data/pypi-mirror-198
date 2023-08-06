@@ -1,0 +1,14 @@
+lexitron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexitron/agid-common.txt,sha256=GzOCiNXdcDOmgx3VZNAIlotd9L3tFvnu68iC0koA4FU,3049195
+lexitron/agid-proper.txt,sha256=OchZ-X-vpsfxbK2VfFCUmZIKRpfC7fPDRDgyLzDSEOw,424631
+lexitron/dict_util.py,sha256=UREeC93WTpBpjGS_yiYrxTMNYB_IN6nJBUGXdoC84R0,1076
+lexitron/lexitron.py,sha256=C2sZC6VJQ2KU4kPoBLueRS0dYTs04wYTe-jMZqdrdmo,7187
+lexitron/words-lower.txt,sha256=t-TXCeLNtsb9lwsbMiFpZ7rkcJc8aQ66jpQy505pgHw,3613091
+lexitron/words-upper.txt,sha256=6nxK1KV6yw4Njx6Q4Z3tMRtGnhRIH6zN19fEwor7Bqg,628581
+lexitron/words.txt,sha256=N5fI3WrfUj5sGsj7tZp67G-8adcjpK9ily7aLjPsMx8,4862992
+Lexitron-2.0.1.dist-info/LICENSE,sha256=oBJZobUizw3pWCT5hgYTtFMVPuusRo6WGW1dfbqEeGw,18025
+Lexitron-2.0.1.dist-info/METADATA,sha256=7OMPomWKSkVHOAyHcS-mcxZbUOm7niiDgTkfGD1IMa0,6586
+Lexitron-2.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Lexitron-2.0.1.dist-info/entry_points.txt,sha256=2OTojgsWMtQQigRSYQyf-f3eHSUpxNhTRoBYA7XXrKw,46
+Lexitron-2.0.1.dist-info/top_level.txt,sha256=dEeR7b6hRkpVqJe9_Z8VZ3rgZh1vaTw_AugYLs-tLWE,9
+Lexitron-2.0.1.dist-info/RECORD,,
