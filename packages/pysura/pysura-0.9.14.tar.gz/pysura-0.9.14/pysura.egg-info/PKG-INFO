@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pysura
+Version: 0.9.14
+Summary: A Python library used to generate a backend for custom logic using Hasura as a Data-layer
+Home-page: https://github.com/tristengoodz/pysura
+Author: Tristen Harr
+Author-email: tristen@thegoodzapp.com
+License: UNKNOWN
+Keywords: hasura,graphql,postgresql,google-cloud,python,pysura,backend,backend-in-a-box
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+License-File: LICENSE.txt
+
+UNKNOWN
+
