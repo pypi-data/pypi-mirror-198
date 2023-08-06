@@ -1,0 +1,14 @@
+sklearnpy/__init__.py,sha256=f5m0ZCbuHC_RJpaZf9ecKebrvOyJmBNiF3uBehUFCMo,935
+sklearnpy/classify.py,sha256=xg6G9X_4-4Bc-_ZV1WcMmk4ckvf3isxIO_keioIGabA,1197
+sklearnpy/corrcoef.py,sha256=S3zzsOZB8C1Hu2soYkuSw1KFYsXvcwMauJexSABWq3s,357
+sklearnpy/example.py,sha256=dMObqVFz-7ODYKW6Gjf0_2NXeo89-uUJjvbJFIgPKrw,43
+sklearnpy/help_h.py,sha256=4XeGpzxKYr5A62vwfi879utxh3WPuBCehEk0W-jAhS0,6807
+sklearnpy/k_means.py,sha256=pOubBeuKDqAYyMTEmZ0Kickx5j5XyNc_2FQTuTkBZcY,802
+sklearnpy/labels.py,sha256=Qw4eKWLYHP4-yahgtsuhAIAvjZ7RFV9fFjbRaf6fqv8,672
+sklearnpy/linear_predict.py,sha256=hkjVgRjGS_axUeNKFDmttIUbiVw7eBRT_aoPfMM-dHo,607
+sklearnpy/pca.py,sha256=cdIDOn8frSijj4dCk1t6RV7skhI1nqVvFAhvuEdmAy0,776
+sklearnpy/vals_vectors.py,sha256=B5Z6WNdbkbVh_EPN7Widb_8YKzBKXf0rxhGrhjI1noQ,444
+sklearnpy-1.0.0.dist-info/METADATA,sha256=eTFQHuWXsSVBz164zB0IVTVfUFkFbGM_fP5NtaxpsD8,1542
+sklearnpy-1.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+sklearnpy-1.0.0.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sklearnpy-1.0.0.dist-info/RECORD,,
