@@ -1,0 +1,2 @@
+[console_scripts]
+deptree = deptree.cli:main

@@ -1,0 +1,15 @@
+importlib-metadata
+setuptools
+
+[dev-package]
+build
+twine
+zapp
+
+[dev-test]
+pytest
+pytest-pycodestyle
+pytest-pydocstyle
+pytest-pylint
+pytest-yapf3
+yapf
