@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kabuki
+Version: 0.6.5
+Summary: kabuki is a python toolbox that allows easy creation of hierarchical bayesian models for the cognitive sciences.
+Home-page: http://github.com/hddm-devs/kabuki
+Author: Thomas V. Wiecki, Imri Sofer
+Author-email: thomas.wiecki@gmail.com
+License-File: LICENSE
