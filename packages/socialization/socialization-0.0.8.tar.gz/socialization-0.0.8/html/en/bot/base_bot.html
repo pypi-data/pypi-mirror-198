@@ -1,0 +1,1438 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>socialization.bot.base_bot API documentation</title>
+<meta name="description" content="" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>socialization.bot.base_bot</code></h1>
+</header>
+<section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">from .json_socket_user import JSONSocketUser, MessageType, Message, rel
+
+from .. import codes
+import websocket, datetime, random
+
+class BaseBot(JSONSocketUser):
+        &#34;&#34;&#34;
+        This is the base of bot, deriving from which you can define automation of 
+        all behavior that a bot will abey. 
+        For basic use, what you need to do is only overriding `on_receive_message`
+        to define the behaviour when receive a message. For example, you
+        are definately allowed to broadcast the message to everyone in the channel 
+        where you receive it by overriding `on_receive_message` and call 
+        `send_message` with message you received send it to all users in the channel.
+
+        We wraps the message data into a Message object.
+    For better performance(not indeed), you could set
+    `pre_analyse` to be `False` to get raw data of message(dict).
+        &#34;&#34;&#34;
+        def __init__(self, user_id:str, password:str, path:str=None, reconnect:int=None, pre_analyse:bool=True) -&gt; None:
+                &#34;&#34;&#34;
+                Initialize a Bot instance.
+
+                Args:
+                        user_id : str
+                                User ID of the account you wanna set as a bot.
+                        password : str
+                                Password of that account referred above.
+                        path : str : optional
+                                Location of server the bot will be running on.
+                        reconnect : int : optional
+                                Max pending time for stalling. Reconnection will launch if stalls
+                                outlong this time.
+                        pre_analyse : bool : optional
+                                Trigger for pre-analysing message by wrapping it into a Message object.
+                                If turned off, data param in on_receive_data() will be raw dict!
+                &#34;&#34;&#34;
+                self.cached = False
+                super().__init__(path=path, reconnect=reconnect, pre_analyse=pre_analyse)
+                self.codes = codes
+                self.channel_list = []
+                self.user_lists = {}
+                self.user_id = user_id
+                self.password = password
+
+        def on_receive_status(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives status from server(6xxxx).
+
+                By default, we would update channel_list and user_list
+                on sereval cases. Therefore, if you want to customize
+                behaviour receive status while keeping these properties
+                up to date, override this function and **call**
+                **super().on_receive_status** to keep them.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                code = data[&#39;code&#39;]
+
+                if code == self.codes.STATUS_INFO_USER_CHANNEL_LIST:
+                        self._update_channel_list(data)
+                elif code == self.codes.STATUS_INFO_CREATE_CHANNEL_SUCCESS or code == self.codes.STATUS_INFO_JOIN_SUCCESS:
+                        self._append_channel_list(data)
+                elif code == self.codes.STATUS_INFO_LEAVE_SUCCESS:
+                        self._pop_channel_list(data)
+                else:
+                        super().on_receive_status(data)
+
+        def on_receive_message(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives message from server(3xxxx).
+                Override this to customize what to do when receives
+                a message!
+
+                Args:
+                        data : dict || Message
+                                Wrapped Message object of message received.
+                                If pre-analyse is turned off, it would be 
+                                raw WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                print(&#39;Bot received message: {}&#39;.format(data))
+                super().on_receive_message(data)
+
+        def on_receive_command(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives commands from server(4xxxx).
+                It&#39;s crucial for keeping channel_list up to date. If
+                you want to customize the behaviour, please **call**
+                **super().on_receive_command** to keep those properties.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                code = data[&#39;code&#39;]
+
+                if code == self.codes.COMMAND_DOWN_UPDATE_CHANNEL_USER_LIST:
+                        self._update_user_lists(data)
+                else:
+                        super().on_receive_command(data)
+
+        def on_open(self, ws):
+                &#34;&#34;&#34;
+                Behaviour at the time websocket connection is created.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                if self.cached:
+                        self.login()
+                print(&#39;Bot.open!&#39;)
+        
+        def on_close(self, ws, close_status_code, close_msg):
+                &#34;&#34;&#34;
+                Behaviour at the time websocket connection is closed.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)
+
+        def on_error(self, ws, error):
+                &#34;&#34;&#34;
+                Behaviour at the time error occur on websocket connection.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.error: {error}&#39;)
+        
+        def on_message(self, ws, message):
+                &#34;&#34;&#34;
+                Behaviour at the time receive message from websocket connection.
+        
+                Warning:
+                        Do not re-write this if you have no idea what will happen!
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                        message : jstr
+                                Raw message json string from ws connection.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.message: {message}&#39;)
+                self._safe_handle(ws, message)
+
+        def _update_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list = data[&#39;extra&#39;][&#39;channel_ids&#39;]
+
+                for channel_id in self.channel_list:
+                        self._command_fetch_channel_user_list(self.user_id, channel_id)
+
+        def _update_user_lists(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current user_lists.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.user_lists[data[&#39;extra&#39;][&#39;channel_id&#39;]] = data[&#39;extra&#39;][&#39;user_ids&#39;]
+
+        def _append_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list.append(data[&#39;extra&#39;][&#39;channel_id&#39;])
+                self._command_fetch_channel_user_list(self.user_id, data[&#39;extra&#39;][&#39;channel_id&#39;])
+
+        def _pop_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list.remove(data[&#39;extra&#39;][&#39;channel_id&#39;])
+                self.user_lists.pop(data[&#39;extra&#39;][&#39;channel_id&#39;])
+
+        def login(self):
+                &#34;&#34;&#34;
+                Wrapped login function. Call this to login.
+                If you wanna customize login behaviour, call
+                `_command_login()` to send command to login.
+                &#34;&#34;&#34;
+                print(&#34;Bot login!&#34;)
+                self.cached = True
+                self._command_login(self.user_id, self.password)
+
+        def logout(self):
+                &#34;&#34;&#34;
+                Wrapped logout function. Call this to logout.
+                If you wanna customize logout behaviour, call
+                `_command_logout()` to send command to logout.
+                &#34;&#34;&#34;
+                print(&#34;Bot logout!&#34;)
+                self._command_logout(self.user_id)
+
+        def register(self, email:str, password:str):
+                &#34;&#34;&#34;
+                Wrapped register function. Call this to register.
+                If you wanna customize register behaviour, call
+                `_command_register()` to send command to register.
+
+                Args:
+                        email : str
+                                Email to register an account.
+                        password : str
+                                Password for that new account.
+                &#34;&#34;&#34;
+                print(&#34;Bot register&#34;)
+                self._command_register(email, password)
+
+        def reset_password(self, email:str, password:str):
+                &#34;&#34;&#34;
+                Wrapped reset password function. Call this to reset password.
+                If you wanna customize reset password behaviour, call
+                `_command_reset_password()` to send command to reset password.
+
+                Args:
+                        email : str
+                                Email of the account to reset pw.
+                        password : str
+                                New password for that account.
+                &#34;&#34;&#34;
+                print(&#34;Bot reset password&#34;)
+                self._command_reset_password(email, password)
+
+        def join_channel(self, channel_id:str):
+                &#34;&#34;&#34;
+                Wrapped join channel function. Call this to join channel.
+                If you wanna customize join channel behaviour, call
+                `_command_join_channel()` to send command to join channel.
+
+                Args:
+                        channel_id : str
+                                ID of channel to join.
+                &#34;&#34;&#34;
+                print(&#34;Bot join channel: {}&#34;.format(channel_id))
+                self._command_join_channel(self.user_id, channel_id)
+
+        def leave_channel(self, channel_id:str):
+                &#34;&#34;&#34;
+                Wrapped leave channel function. Call this to leave channel.
+                If you wanna customize leave channel behaviour, call
+                `_command_leave_channel()` to send command to leave channel.
+
+                Args:
+                        channel_id : str
+                                ID of channel to leave.
+                &#34;&#34;&#34;
+                print(&#34;Bot leave channel: {}&#34;.format(channel_id))
+                self._command_leave_channel(self.user_id, channel_id)
+
+        def fetch_offline_message(self):
+                &#34;&#34;&#34;
+                Wrapped fetch ofl-message function. Call this to fetch ofl-message.
+                If you wanna customize fetch ofl-message behaviour, call
+                `_command_fetch_offline_message()` to send command to fetch ofl-message.
+                &#34;&#34;&#34;
+                print(&#34;Bot fetch offline message!&#34;)
+                self._command_fetch_offline_message(self.user_id)
+
+        def fetch_bot_channels(self):
+                &#34;&#34;&#34;
+                Wrapped fetch bot channels function. Call this to fetch bot channels.
+                If you wanna customize fetch bot channels behaviour, call
+                `_command_fetch_user_channels()` to send command to fetch bot channels.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch channels!&#39;)
+                self._command_fetch_user_channels(self.user_id)
+
+        def create_channel(self, channel_id):
+                &#34;&#34;&#34;
+                Wrapped create channel function. Call this to create channel.
+                If you wanna customize create channel behaviour, call
+                `_command_create_channel()` to send command to create channel.
+                
+                Args:
+                        channel_id : str
+                                ID of the new channel.
+                &#34;&#34;&#34;
+                print(&#39;Bot create channel: {}&#39;.format(channel_id))
+                self._command_create_channel(self.user_id, channel_id)
+
+        def fetch_channel_command_list(self, channel_id):
+                &#34;&#34;&#34;
+                Wrapped fetch channel cmd list function. Call this to fetch channel cmd list.
+                If you wanna customize fetch channel cmd list behaviour, call
+                `_command_fetch_channel_command_list()` to send command to fetch channel cmd list.
+
+                Args:
+                        channel_id : str
+                                ID of the channel to fetch command list.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch command list of channel : {}&#39;.format(channel_id))
+                self._command_fetch_channel_command_list(self.user_id, channel_id)
+
+        def fetch_recipients(self, message_id):
+                &#34;&#34;&#34;
+                Wrapped fetch recipients function. Call this to fetch recipients of 
+                a certain message. If you wanna customize fetch recipients behaviour, 
+                call `_command_fetch_recipients()` to send command to fetch recipients.
+
+                Args:
+                        message_id : str
+                                ID of the message to look up for recipients.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch recipients of message : {}&#39;.format(message_id))
+                self._command_fetch_recipient_list(self.user_id, message_id)
+        
+        def send_message(self, message:Message):
+                &#34;&#34;&#34;
+                Wrapped send message function. Call this to send message.
+                If you wanna customize send message behaviour, call
+                `_command_send_message()` to send command to send message.
+
+                Args:
+                        message : Message
+                                Wrapped message object contains message body, receivers,
+                                target channel and sender information.
+                &#34;&#34;&#34;
+                temp_msg_id = f&#34;temp_{datetime.datetime.now().timestamp()}_{str(random.randint(0, 100000)).zfill(5)}&#34;
+                print(&#39;Bot send message: {}\nto: {}\n at channel: {}&#39;.format(message.body, message.to, message.channel))
+                self._command_send_message(temp_msg_id=temp_msg_id, message=message)
+
+        def run(self):
+                &#34;&#34;&#34;
+                Behaviour to run bot. 
+                By default, it will login and update several properties
+                of bot like channel_list .etc. Then it will hang this
+                process up and reconnect when error occurs.
+                
+                Warning:
+                        Don&#39;t re-write this if you have no idea what will happen!
+                &#34;&#34;&#34;
+                self.login()
+                self.fetch_bot_channels()
+                rel.signal(2, rel.abort)
+                rel.dispatch()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="socialization.bot.base_bot.BaseBot"><code class="flex name class">
+<span>class <span class="ident">BaseBot</span></span>
+<span>(</span><span>user_id: str, password: str, path: str = None, reconnect: int = None, pre_analyse: bool = True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>This is the base of bot, deriving from which you can define automation of
+all behavior that a bot will abey.
+For basic use, what you need to do is only overriding <code>on_receive_message</code>
+to define the behaviour when receive a message. For example, you
+are definately allowed to broadcast the message to everyone in the channel
+where you receive it by overriding <code>on_receive_message</code> and call
+<code>send_message</code> with message you received send it to all users in the channel.</p>
+<pre><code>We wraps the message data into a Message object.
+</code></pre>
+<p>For better performance(not indeed), you could set
+<code>pre_analyse</code> to be <code>False</code> to get raw data of message(dict).</p>
+<p>Initialize a Bot instance.</p>
+<h2 id="args">Args</h2>
+<p>user_id : str
+User ID of the account you wanna set as a bot.
+password : str
+Password of that account referred above.
+path : str : optional
+Location of server the bot will be running on.
+reconnect : int : optional
+Max pending time for stalling. Reconnection will launch if stalls
+outlong this time.
+pre_analyse : bool : optional
+Trigger for pre-analysing message by wrapping it into a Message object.
+If turned off, data param in on_receive_data() will be raw dict!</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class BaseBot(JSONSocketUser):
+        &#34;&#34;&#34;
+        This is the base of bot, deriving from which you can define automation of 
+        all behavior that a bot will abey. 
+        For basic use, what you need to do is only overriding `on_receive_message`
+        to define the behaviour when receive a message. For example, you
+        are definately allowed to broadcast the message to everyone in the channel 
+        where you receive it by overriding `on_receive_message` and call 
+        `send_message` with message you received send it to all users in the channel.
+
+        We wraps the message data into a Message object.
+    For better performance(not indeed), you could set
+    `pre_analyse` to be `False` to get raw data of message(dict).
+        &#34;&#34;&#34;
+        def __init__(self, user_id:str, password:str, path:str=None, reconnect:int=None, pre_analyse:bool=True) -&gt; None:
+                &#34;&#34;&#34;
+                Initialize a Bot instance.
+
+                Args:
+                        user_id : str
+                                User ID of the account you wanna set as a bot.
+                        password : str
+                                Password of that account referred above.
+                        path : str : optional
+                                Location of server the bot will be running on.
+                        reconnect : int : optional
+                                Max pending time for stalling. Reconnection will launch if stalls
+                                outlong this time.
+                        pre_analyse : bool : optional
+                                Trigger for pre-analysing message by wrapping it into a Message object.
+                                If turned off, data param in on_receive_data() will be raw dict!
+                &#34;&#34;&#34;
+                self.cached = False
+                super().__init__(path=path, reconnect=reconnect, pre_analyse=pre_analyse)
+                self.codes = codes
+                self.channel_list = []
+                self.user_lists = {}
+                self.user_id = user_id
+                self.password = password
+
+        def on_receive_status(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives status from server(6xxxx).
+
+                By default, we would update channel_list and user_list
+                on sereval cases. Therefore, if you want to customize
+                behaviour receive status while keeping these properties
+                up to date, override this function and **call**
+                **super().on_receive_status** to keep them.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                code = data[&#39;code&#39;]
+
+                if code == self.codes.STATUS_INFO_USER_CHANNEL_LIST:
+                        self._update_channel_list(data)
+                elif code == self.codes.STATUS_INFO_CREATE_CHANNEL_SUCCESS or code == self.codes.STATUS_INFO_JOIN_SUCCESS:
+                        self._append_channel_list(data)
+                elif code == self.codes.STATUS_INFO_LEAVE_SUCCESS:
+                        self._pop_channel_list(data)
+                else:
+                        super().on_receive_status(data)
+
+        def on_receive_message(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives message from server(3xxxx).
+                Override this to customize what to do when receives
+                a message!
+
+                Args:
+                        data : dict || Message
+                                Wrapped Message object of message received.
+                                If pre-analyse is turned off, it would be 
+                                raw WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                print(&#39;Bot received message: {}&#39;.format(data))
+                super().on_receive_message(data)
+
+        def on_receive_command(self, data):
+                &#34;&#34;&#34;
+                Behaviour when receives commands from server(4xxxx).
+                It&#39;s crucial for keeping channel_list up to date. If
+                you want to customize the behaviour, please **call**
+                **super().on_receive_command** to keep those properties.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                code = data[&#39;code&#39;]
+
+                if code == self.codes.COMMAND_DOWN_UPDATE_CHANNEL_USER_LIST:
+                        self._update_user_lists(data)
+                else:
+                        super().on_receive_command(data)
+
+        def on_open(self, ws):
+                &#34;&#34;&#34;
+                Behaviour at the time websocket connection is created.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                if self.cached:
+                        self.login()
+                print(&#39;Bot.open!&#39;)
+        
+        def on_close(self, ws, close_status_code, close_msg):
+                &#34;&#34;&#34;
+                Behaviour at the time websocket connection is closed.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)
+
+        def on_error(self, ws, error):
+                &#34;&#34;&#34;
+                Behaviour at the time error occur on websocket connection.
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.error: {error}&#39;)
+        
+        def on_message(self, ws, message):
+                &#34;&#34;&#34;
+                Behaviour at the time receive message from websocket connection.
+        
+                Warning:
+                        Do not re-write this if you have no idea what will happen!
+
+                Args:
+                        ws : websocket.WebSocketApp
+                Connection object.
+                        message : jstr
+                                Raw message json string from ws connection.
+                &#34;&#34;&#34;
+                print(f&#39;Bot.message: {message}&#39;)
+                self._safe_handle(ws, message)
+
+        def _update_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list = data[&#39;extra&#39;][&#39;channel_ids&#39;]
+
+                for channel_id in self.channel_list:
+                        self._command_fetch_channel_user_list(self.user_id, channel_id)
+
+        def _update_user_lists(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current user_lists.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.user_lists[data[&#39;extra&#39;][&#39;channel_id&#39;]] = data[&#39;extra&#39;][&#39;user_ids&#39;]
+
+        def _append_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list.append(data[&#39;extra&#39;][&#39;channel_id&#39;])
+                self._command_fetch_channel_user_list(self.user_id, data[&#39;extra&#39;][&#39;channel_id&#39;])
+
+        def _pop_channel_list(self, data):
+                &#34;&#34;&#34;
+                Utility function to update current channel_list.
+                If such properties are useless to you, and for
+                better time performance(not that good though)
+                you could re-write this to no-op.
+
+                Args:
+                        data : dict
+                                WS data in the format definde by `codes.md`
+                &#34;&#34;&#34;
+                self.channel_list.remove(data[&#39;extra&#39;][&#39;channel_id&#39;])
+                self.user_lists.pop(data[&#39;extra&#39;][&#39;channel_id&#39;])
+
+        def login(self):
+                &#34;&#34;&#34;
+                Wrapped login function. Call this to login.
+                If you wanna customize login behaviour, call
+                `_command_login()` to send command to login.
+                &#34;&#34;&#34;
+                print(&#34;Bot login!&#34;)
+                self.cached = True
+                self._command_login(self.user_id, self.password)
+
+        def logout(self):
+                &#34;&#34;&#34;
+                Wrapped logout function. Call this to logout.
+                If you wanna customize logout behaviour, call
+                `_command_logout()` to send command to logout.
+                &#34;&#34;&#34;
+                print(&#34;Bot logout!&#34;)
+                self._command_logout(self.user_id)
+
+        def register(self, email:str, password:str):
+                &#34;&#34;&#34;
+                Wrapped register function. Call this to register.
+                If you wanna customize register behaviour, call
+                `_command_register()` to send command to register.
+
+                Args:
+                        email : str
+                                Email to register an account.
+                        password : str
+                                Password for that new account.
+                &#34;&#34;&#34;
+                print(&#34;Bot register&#34;)
+                self._command_register(email, password)
+
+        def reset_password(self, email:str, password:str):
+                &#34;&#34;&#34;
+                Wrapped reset password function. Call this to reset password.
+                If you wanna customize reset password behaviour, call
+                `_command_reset_password()` to send command to reset password.
+
+                Args:
+                        email : str
+                                Email of the account to reset pw.
+                        password : str
+                                New password for that account.
+                &#34;&#34;&#34;
+                print(&#34;Bot reset password&#34;)
+                self._command_reset_password(email, password)
+
+        def join_channel(self, channel_id:str):
+                &#34;&#34;&#34;
+                Wrapped join channel function. Call this to join channel.
+                If you wanna customize join channel behaviour, call
+                `_command_join_channel()` to send command to join channel.
+
+                Args:
+                        channel_id : str
+                                ID of channel to join.
+                &#34;&#34;&#34;
+                print(&#34;Bot join channel: {}&#34;.format(channel_id))
+                self._command_join_channel(self.user_id, channel_id)
+
+        def leave_channel(self, channel_id:str):
+                &#34;&#34;&#34;
+                Wrapped leave channel function. Call this to leave channel.
+                If you wanna customize leave channel behaviour, call
+                `_command_leave_channel()` to send command to leave channel.
+
+                Args:
+                        channel_id : str
+                                ID of channel to leave.
+                &#34;&#34;&#34;
+                print(&#34;Bot leave channel: {}&#34;.format(channel_id))
+                self._command_leave_channel(self.user_id, channel_id)
+
+        def fetch_offline_message(self):
+                &#34;&#34;&#34;
+                Wrapped fetch ofl-message function. Call this to fetch ofl-message.
+                If you wanna customize fetch ofl-message behaviour, call
+                `_command_fetch_offline_message()` to send command to fetch ofl-message.
+                &#34;&#34;&#34;
+                print(&#34;Bot fetch offline message!&#34;)
+                self._command_fetch_offline_message(self.user_id)
+
+        def fetch_bot_channels(self):
+                &#34;&#34;&#34;
+                Wrapped fetch bot channels function. Call this to fetch bot channels.
+                If you wanna customize fetch bot channels behaviour, call
+                `_command_fetch_user_channels()` to send command to fetch bot channels.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch channels!&#39;)
+                self._command_fetch_user_channels(self.user_id)
+
+        def create_channel(self, channel_id):
+                &#34;&#34;&#34;
+                Wrapped create channel function. Call this to create channel.
+                If you wanna customize create channel behaviour, call
+                `_command_create_channel()` to send command to create channel.
+                
+                Args:
+                        channel_id : str
+                                ID of the new channel.
+                &#34;&#34;&#34;
+                print(&#39;Bot create channel: {}&#39;.format(channel_id))
+                self._command_create_channel(self.user_id, channel_id)
+
+        def fetch_channel_command_list(self, channel_id):
+                &#34;&#34;&#34;
+                Wrapped fetch channel cmd list function. Call this to fetch channel cmd list.
+                If you wanna customize fetch channel cmd list behaviour, call
+                `_command_fetch_channel_command_list()` to send command to fetch channel cmd list.
+
+                Args:
+                        channel_id : str
+                                ID of the channel to fetch command list.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch command list of channel : {}&#39;.format(channel_id))
+                self._command_fetch_channel_command_list(self.user_id, channel_id)
+
+        def fetch_recipients(self, message_id):
+                &#34;&#34;&#34;
+                Wrapped fetch recipients function. Call this to fetch recipients of 
+                a certain message. If you wanna customize fetch recipients behaviour, 
+                call `_command_fetch_recipients()` to send command to fetch recipients.
+
+                Args:
+                        message_id : str
+                                ID of the message to look up for recipients.
+                &#34;&#34;&#34;
+                print(&#39;Bot fetch recipients of message : {}&#39;.format(message_id))
+                self._command_fetch_recipient_list(self.user_id, message_id)
+        
+        def send_message(self, message:Message):
+                &#34;&#34;&#34;
+                Wrapped send message function. Call this to send message.
+                If you wanna customize send message behaviour, call
+                `_command_send_message()` to send command to send message.
+
+                Args:
+                        message : Message
+                                Wrapped message object contains message body, receivers,
+                                target channel and sender information.
+                &#34;&#34;&#34;
+                temp_msg_id = f&#34;temp_{datetime.datetime.now().timestamp()}_{str(random.randint(0, 100000)).zfill(5)}&#34;
+                print(&#39;Bot send message: {}\nto: {}\n at channel: {}&#39;.format(message.body, message.to, message.channel))
+                self._command_send_message(temp_msg_id=temp_msg_id, message=message)
+
+        def run(self):
+                &#34;&#34;&#34;
+                Behaviour to run bot. 
+                By default, it will login and update several properties
+                of bot like channel_list .etc. Then it will hang this
+                process up and reconnect when error occurs.
+                
+                Warning:
+                        Don&#39;t re-write this if you have no idea what will happen!
+                &#34;&#34;&#34;
+                self.login()
+                self.fetch_bot_channels()
+                rel.signal(2, rel.abort)
+                rel.dispatch()</code></pre>
+</details>
+<h3>Ancestors</h3>
+<ul class="hlist">
+<li><a title="socialization.bot.json_socket_user.JSONSocketUser" href="json_socket_user.html#socialization.bot.json_socket_user.JSONSocketUser">JSONSocketUser</a></li>
+</ul>
+<h3>Methods</h3>
+<dl>
+<dt id="socialization.bot.base_bot.BaseBot.create_channel"><code class="name flex">
+<span>def <span class="ident">create_channel</span></span>(<span>self, channel_id)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped create channel function. Call this to create channel.
+If you wanna customize create channel behaviour, call
+<code>_command_create_channel()</code> to send command to create channel.</p>
+<h2 id="args">Args</h2>
+<p>channel_id : str
+ID of the new channel.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_channel(self, channel_id):
+        &#34;&#34;&#34;
+        Wrapped create channel function. Call this to create channel.
+        If you wanna customize create channel behaviour, call
+        `_command_create_channel()` to send command to create channel.
+        
+        Args:
+                channel_id : str
+                        ID of the new channel.
+        &#34;&#34;&#34;
+        print(&#39;Bot create channel: {}&#39;.format(channel_id))
+        self._command_create_channel(self.user_id, channel_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.fetch_bot_channels"><code class="name flex">
+<span>def <span class="ident">fetch_bot_channels</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped fetch bot channels function. Call this to fetch bot channels.
+If you wanna customize fetch bot channels behaviour, call
+<code>_command_fetch_user_channels()</code> to send command to fetch bot channels.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_bot_channels(self):
+        &#34;&#34;&#34;
+        Wrapped fetch bot channels function. Call this to fetch bot channels.
+        If you wanna customize fetch bot channels behaviour, call
+        `_command_fetch_user_channels()` to send command to fetch bot channels.
+        &#34;&#34;&#34;
+        print(&#39;Bot fetch channels!&#39;)
+        self._command_fetch_user_channels(self.user_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.fetch_channel_command_list"><code class="name flex">
+<span>def <span class="ident">fetch_channel_command_list</span></span>(<span>self, channel_id)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped fetch channel cmd list function. Call this to fetch channel cmd list.
+If you wanna customize fetch channel cmd list behaviour, call
+<code>_command_fetch_channel_command_list()</code> to send command to fetch channel cmd list.</p>
+<h2 id="args">Args</h2>
+<p>channel_id : str
+ID of the channel to fetch command list.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_channel_command_list(self, channel_id):
+        &#34;&#34;&#34;
+        Wrapped fetch channel cmd list function. Call this to fetch channel cmd list.
+        If you wanna customize fetch channel cmd list behaviour, call
+        `_command_fetch_channel_command_list()` to send command to fetch channel cmd list.
+
+        Args:
+                channel_id : str
+                        ID of the channel to fetch command list.
+        &#34;&#34;&#34;
+        print(&#39;Bot fetch command list of channel : {}&#39;.format(channel_id))
+        self._command_fetch_channel_command_list(self.user_id, channel_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.fetch_offline_message"><code class="name flex">
+<span>def <span class="ident">fetch_offline_message</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped fetch ofl-message function. Call this to fetch ofl-message.
+If you wanna customize fetch ofl-message behaviour, call
+<code>_command_fetch_offline_message()</code> to send command to fetch ofl-message.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_offline_message(self):
+        &#34;&#34;&#34;
+        Wrapped fetch ofl-message function. Call this to fetch ofl-message.
+        If you wanna customize fetch ofl-message behaviour, call
+        `_command_fetch_offline_message()` to send command to fetch ofl-message.
+        &#34;&#34;&#34;
+        print(&#34;Bot fetch offline message!&#34;)
+        self._command_fetch_offline_message(self.user_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.fetch_recipients"><code class="name flex">
+<span>def <span class="ident">fetch_recipients</span></span>(<span>self, message_id)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped fetch recipients function. Call this to fetch recipients of
+a certain message. If you wanna customize fetch recipients behaviour,
+call <code>_command_fetch_recipients()</code> to send command to fetch recipients.</p>
+<h2 id="args">Args</h2>
+<p>message_id : str
+ID of the message to look up for recipients.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def fetch_recipients(self, message_id):
+        &#34;&#34;&#34;
+        Wrapped fetch recipients function. Call this to fetch recipients of 
+        a certain message. If you wanna customize fetch recipients behaviour, 
+        call `_command_fetch_recipients()` to send command to fetch recipients.
+
+        Args:
+                message_id : str
+                        ID of the message to look up for recipients.
+        &#34;&#34;&#34;
+        print(&#39;Bot fetch recipients of message : {}&#39;.format(message_id))
+        self._command_fetch_recipient_list(self.user_id, message_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.join_channel"><code class="name flex">
+<span>def <span class="ident">join_channel</span></span>(<span>self, channel_id: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped join channel function. Call this to join channel.
+If you wanna customize join channel behaviour, call
+<code>_command_join_channel()</code> to send command to join channel.</p>
+<h2 id="args">Args</h2>
+<p>channel_id : str
+ID of channel to join.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def join_channel(self, channel_id:str):
+        &#34;&#34;&#34;
+        Wrapped join channel function. Call this to join channel.
+        If you wanna customize join channel behaviour, call
+        `_command_join_channel()` to send command to join channel.
+
+        Args:
+                channel_id : str
+                        ID of channel to join.
+        &#34;&#34;&#34;
+        print(&#34;Bot join channel: {}&#34;.format(channel_id))
+        self._command_join_channel(self.user_id, channel_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.leave_channel"><code class="name flex">
+<span>def <span class="ident">leave_channel</span></span>(<span>self, channel_id: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped leave channel function. Call this to leave channel.
+If you wanna customize leave channel behaviour, call
+<code>_command_leave_channel()</code> to send command to leave channel.</p>
+<h2 id="args">Args</h2>
+<p>channel_id : str
+ID of channel to leave.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def leave_channel(self, channel_id:str):
+        &#34;&#34;&#34;
+        Wrapped leave channel function. Call this to leave channel.
+        If you wanna customize leave channel behaviour, call
+        `_command_leave_channel()` to send command to leave channel.
+
+        Args:
+                channel_id : str
+                        ID of channel to leave.
+        &#34;&#34;&#34;
+        print(&#34;Bot leave channel: {}&#34;.format(channel_id))
+        self._command_leave_channel(self.user_id, channel_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.login"><code class="name flex">
+<span>def <span class="ident">login</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped login function. Call this to login.
+If you wanna customize login behaviour, call
+<code>_command_login()</code> to send command to login.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def login(self):
+        &#34;&#34;&#34;
+        Wrapped login function. Call this to login.
+        If you wanna customize login behaviour, call
+        `_command_login()` to send command to login.
+        &#34;&#34;&#34;
+        print(&#34;Bot login!&#34;)
+        self.cached = True
+        self._command_login(self.user_id, self.password)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.logout"><code class="name flex">
+<span>def <span class="ident">logout</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped logout function. Call this to logout.
+If you wanna customize logout behaviour, call
+<code>_command_logout()</code> to send command to logout.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def logout(self):
+        &#34;&#34;&#34;
+        Wrapped logout function. Call this to logout.
+        If you wanna customize logout behaviour, call
+        `_command_logout()` to send command to logout.
+        &#34;&#34;&#34;
+        print(&#34;Bot logout!&#34;)
+        self._command_logout(self.user_id)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_close"><code class="name flex">
+<span>def <span class="ident">on_close</span></span>(<span>self, ws, close_status_code, close_msg)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour at the time websocket connection is closed.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_close(self, ws, close_status_code, close_msg):
+        &#34;&#34;&#34;
+        Behaviour at the time websocket connection is closed.
+
+        Args:
+                ws : websocket.WebSocketApp
+        Connection object.
+        &#34;&#34;&#34;
+        print(f&#39;Bot.close: {ws} closed with status code {close_status_code} and message {close_msg}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_error"><code class="name flex">
+<span>def <span class="ident">on_error</span></span>(<span>self, ws, error)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour at the time error occur on websocket connection.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_error(self, ws, error):
+        &#34;&#34;&#34;
+        Behaviour at the time error occur on websocket connection.
+
+        Args:
+                ws : websocket.WebSocketApp
+        Connection object.
+        &#34;&#34;&#34;
+        print(f&#39;Bot.error: {error}&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_message"><code class="name flex">
+<span>def <span class="ident">on_message</span></span>(<span>self, ws, message)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour at the time receive message from websocket connection.</p>
+<h2 id="warning">Warning</h2>
+<p>Do not re-write this if you have no idea what will happen!</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.
+message : jstr
+Raw message json string from ws connection.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_message(self, ws, message):
+        &#34;&#34;&#34;
+        Behaviour at the time receive message from websocket connection.
+
+        Warning:
+                Do not re-write this if you have no idea what will happen!
+
+        Args:
+                ws : websocket.WebSocketApp
+        Connection object.
+                message : jstr
+                        Raw message json string from ws connection.
+        &#34;&#34;&#34;
+        print(f&#39;Bot.message: {message}&#39;)
+        self._safe_handle(ws, message)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_open"><code class="name flex">
+<span>def <span class="ident">on_open</span></span>(<span>self, ws)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour at the time websocket connection is created.</p>
+<h2 id="args">Args</h2>
+<p>ws : websocket.WebSocketApp
+Connection object.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_open(self, ws):
+        &#34;&#34;&#34;
+        Behaviour at the time websocket connection is created.
+
+        Args:
+                ws : websocket.WebSocketApp
+        Connection object.
+        &#34;&#34;&#34;
+        if self.cached:
+                self.login()
+        print(&#39;Bot.open!&#39;)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_receive_command"><code class="name flex">
+<span>def <span class="ident">on_receive_command</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour when receives commands from server(4xxxx).
+It's crucial for keeping channel_list up to date. If
+you want to customize the behaviour, please <strong>call</strong>
+<strong>super().on_receive_command</strong> to keep those properties.</p>
+<h2 id="args">Args</h2>
+<p>data : dict
+WS data in the format definde by <code>codes.md</code></p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_command(self, data):
+        &#34;&#34;&#34;
+        Behaviour when receives commands from server(4xxxx).
+        It&#39;s crucial for keeping channel_list up to date. If
+        you want to customize the behaviour, please **call**
+        **super().on_receive_command** to keep those properties.
+
+        Args:
+                data : dict
+                        WS data in the format definde by `codes.md`
+        &#34;&#34;&#34;
+        code = data[&#39;code&#39;]
+
+        if code == self.codes.COMMAND_DOWN_UPDATE_CHANNEL_USER_LIST:
+                self._update_user_lists(data)
+        else:
+                super().on_receive_command(data)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_receive_message"><code class="name flex">
+<span>def <span class="ident">on_receive_message</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour when receives message from server(3xxxx).
+Override this to customize what to do when receives
+a message!</p>
+<h2 id="args">Args</h2>
+<p>data : dict || Message
+Wrapped Message object of message received.
+If pre-analyse is turned off, it would be
+raw WS data in the format definde by <code>codes.md</code></p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_message(self, data):
+        &#34;&#34;&#34;
+        Behaviour when receives message from server(3xxxx).
+        Override this to customize what to do when receives
+        a message!
+
+        Args:
+                data : dict || Message
+                        Wrapped Message object of message received.
+                        If pre-analyse is turned off, it would be 
+                        raw WS data in the format definde by `codes.md`
+        &#34;&#34;&#34;
+        print(&#39;Bot received message: {}&#39;.format(data))
+        super().on_receive_message(data)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.on_receive_status"><code class="name flex">
+<span>def <span class="ident">on_receive_status</span></span>(<span>self, data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour when receives status from server(6xxxx).</p>
+<p>By default, we would update channel_list and user_list
+on sereval cases. Therefore, if you want to customize
+behaviour receive status while keeping these properties
+up to date, override this function and <strong>call</strong>
+<strong>super().on_receive_status</strong> to keep them.</p>
+<h2 id="args">Args</h2>
+<p>data : dict
+WS data in the format definde by <code>codes.md</code></p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def on_receive_status(self, data):
+        &#34;&#34;&#34;
+        Behaviour when receives status from server(6xxxx).
+
+        By default, we would update channel_list and user_list
+        on sereval cases. Therefore, if you want to customize
+        behaviour receive status while keeping these properties
+        up to date, override this function and **call**
+        **super().on_receive_status** to keep them.
+
+        Args:
+                data : dict
+                        WS data in the format definde by `codes.md`
+        &#34;&#34;&#34;
+        code = data[&#39;code&#39;]
+
+        if code == self.codes.STATUS_INFO_USER_CHANNEL_LIST:
+                self._update_channel_list(data)
+        elif code == self.codes.STATUS_INFO_CREATE_CHANNEL_SUCCESS or code == self.codes.STATUS_INFO_JOIN_SUCCESS:
+                self._append_channel_list(data)
+        elif code == self.codes.STATUS_INFO_LEAVE_SUCCESS:
+                self._pop_channel_list(data)
+        else:
+                super().on_receive_status(data)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.register"><code class="name flex">
+<span>def <span class="ident">register</span></span>(<span>self, email: str, password: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped register function. Call this to register.
+If you wanna customize register behaviour, call
+<code>_command_register()</code> to send command to register.</p>
+<h2 id="args">Args</h2>
+<p>email : str
+Email to register an account.
+password : str
+Password for that new account.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def register(self, email:str, password:str):
+        &#34;&#34;&#34;
+        Wrapped register function. Call this to register.
+        If you wanna customize register behaviour, call
+        `_command_register()` to send command to register.
+
+        Args:
+                email : str
+                        Email to register an account.
+                password : str
+                        Password for that new account.
+        &#34;&#34;&#34;
+        print(&#34;Bot register&#34;)
+        self._command_register(email, password)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.reset_password"><code class="name flex">
+<span>def <span class="ident">reset_password</span></span>(<span>self, email: str, password: str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped reset password function. Call this to reset password.
+If you wanna customize reset password behaviour, call
+<code>_command_reset_password()</code> to send command to reset password.</p>
+<h2 id="args">Args</h2>
+<p>email : str
+Email of the account to reset pw.
+password : str
+New password for that account.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def reset_password(self, email:str, password:str):
+        &#34;&#34;&#34;
+        Wrapped reset password function. Call this to reset password.
+        If you wanna customize reset password behaviour, call
+        `_command_reset_password()` to send command to reset password.
+
+        Args:
+                email : str
+                        Email of the account to reset pw.
+                password : str
+                        New password for that account.
+        &#34;&#34;&#34;
+        print(&#34;Bot reset password&#34;)
+        self._command_reset_password(email, password)</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.run"><code class="name flex">
+<span>def <span class="ident">run</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Behaviour to run bot.
+By default, it will login and update several properties
+of bot like channel_list .etc. Then it will hang this
+process up and reconnect when error occurs.</p>
+<h2 id="warning">Warning</h2>
+<p>Don't re-write this if you have no idea what will happen!</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def run(self):
+        &#34;&#34;&#34;
+        Behaviour to run bot. 
+        By default, it will login and update several properties
+        of bot like channel_list .etc. Then it will hang this
+        process up and reconnect when error occurs.
+        
+        Warning:
+                Don&#39;t re-write this if you have no idea what will happen!
+        &#34;&#34;&#34;
+        self.login()
+        self.fetch_bot_channels()
+        rel.signal(2, rel.abort)
+        rel.dispatch()</code></pre>
+</details>
+</dd>
+<dt id="socialization.bot.base_bot.BaseBot.send_message"><code class="name flex">
+<span>def <span class="ident">send_message</span></span>(<span>self, message: <a title="socialization.bot.message.Message" href="message.html#socialization.bot.message.Message">Message</a>)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Wrapped send message function. Call this to send message.
+If you wanna customize send message behaviour, call
+<code>_command_send_message()</code> to send command to send message.</p>
+<h2 id="args">Args</h2>
+<p>message : Message
+Wrapped message object contains message body, receivers,
+target channel and sender information.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def send_message(self, message:Message):
+        &#34;&#34;&#34;
+        Wrapped send message function. Call this to send message.
+        If you wanna customize send message behaviour, call
+        `_command_send_message()` to send command to send message.
+
+        Args:
+                message : Message
+                        Wrapped message object contains message body, receivers,
+                        target channel and sender information.
+        &#34;&#34;&#34;
+        temp_msg_id = f&#34;temp_{datetime.datetime.now().timestamp()}_{str(random.randint(0, 100000)).zfill(5)}&#34;
+        print(&#39;Bot send message: {}\nto: {}\n at channel: {}&#39;.format(message.body, message.to, message.channel))
+        self._command_send_message(temp_msg_id=temp_msg_id, message=message)</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Inherited members</h3>
+<ul class="hlist">
+<li><code><b><a title="socialization.bot.json_socket_user.JSONSocketUser" href="json_socket_user.html#socialization.bot.json_socket_user.JSONSocketUser">JSONSocketUser</a></b></code>:
+<ul class="hlist">
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.create_connection" href="json_socket_user.html#socialization.bot.json_socket_user.JSONSocketUser.create_connection">create_connection</a></code></li>
+<li><code><a title="socialization.bot.json_socket_user.JSONSocketUser.on_receive_other" href="json_socket_user.html#socialization.bot.json_socket_user.JSONSocketUser.on_receive_other">on_receive_other</a></code></li>
+</ul>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="socialization.bot" href="index.html">socialization.bot</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="socialization.bot.base_bot.BaseBot" href="#socialization.bot.base_bot.BaseBot">BaseBot</a></code></h4>
+<ul class="">
+<li><code><a title="socialization.bot.base_bot.BaseBot.create_channel" href="#socialization.bot.base_bot.BaseBot.create_channel">create_channel</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.fetch_bot_channels" href="#socialization.bot.base_bot.BaseBot.fetch_bot_channels">fetch_bot_channels</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.fetch_channel_command_list" href="#socialization.bot.base_bot.BaseBot.fetch_channel_command_list">fetch_channel_command_list</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.fetch_offline_message" href="#socialization.bot.base_bot.BaseBot.fetch_offline_message">fetch_offline_message</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.fetch_recipients" href="#socialization.bot.base_bot.BaseBot.fetch_recipients">fetch_recipients</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.join_channel" href="#socialization.bot.base_bot.BaseBot.join_channel">join_channel</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.leave_channel" href="#socialization.bot.base_bot.BaseBot.leave_channel">leave_channel</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.login" href="#socialization.bot.base_bot.BaseBot.login">login</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.logout" href="#socialization.bot.base_bot.BaseBot.logout">logout</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_close" href="#socialization.bot.base_bot.BaseBot.on_close">on_close</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_error" href="#socialization.bot.base_bot.BaseBot.on_error">on_error</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_message" href="#socialization.bot.base_bot.BaseBot.on_message">on_message</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_open" href="#socialization.bot.base_bot.BaseBot.on_open">on_open</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_receive_command" href="#socialization.bot.base_bot.BaseBot.on_receive_command">on_receive_command</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_receive_message" href="#socialization.bot.base_bot.BaseBot.on_receive_message">on_receive_message</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.on_receive_status" href="#socialization.bot.base_bot.BaseBot.on_receive_status">on_receive_status</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.register" href="#socialization.bot.base_bot.BaseBot.register">register</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.reset_password" href="#socialization.bot.base_bot.BaseBot.reset_password">reset_password</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.run" href="#socialization.bot.base_bot.BaseBot.run">run</a></code></li>
+<li><code><a title="socialization.bot.base_bot.BaseBot.send_message" href="#socialization.bot.base_bot.BaseBot.send_message">send_message</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
