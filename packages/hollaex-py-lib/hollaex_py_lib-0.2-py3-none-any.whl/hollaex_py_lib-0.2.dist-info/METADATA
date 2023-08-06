@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hollaex-py-lib
+Version: 0.2
+Summary: This library is specifically for end users and traders to connect to HollaEx Kit exchanges
+Home-page: https://github.com/hollaex/hollaex-py-lib
+Author: Mahdi
+Author-email: mahdi@hollaex.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: time
+Requires-Dist: hmac
+Requires-Dist: hashlib
+Requires-Dist: json
+
+UNKNOWN
+
+
