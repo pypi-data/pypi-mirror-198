@@ -1,0 +1,9 @@
+boardgame2/__init__.py,sha256=o-JpSnnvYs1T7NpkwhiCuOBqBlYa4N2W_JQDK9Do3EQ,756
+boardgame2/env.py,sha256=9UgWRl10drQetYBz_6U4mNmJC6x_zEgEOPsDTSpU77U,8960
+boardgame2/go.py,sha256=Rx95N2VHBV-JtEpSZbaFPCFoxMgRSHf1pM8XhUXq994,8532
+boardgame2/kinarow.py,sha256=EWdUaq1-Rzfb_DnVZ9b9uUcnbJzn-3cgMKGBnntBSYA,1570
+boardgame2/reversi.py,sha256=mQXVppih_Vd7aJDq4yuNJdnqNduwx9OcEl9phuERpmU,3068
+boardgame2-0.26.0.dist-info/METADATA,sha256=TpqN4uF6IfpW2Bo51BrSC2LIL3euqbNaVBBiX8spjRo,2679
+boardgame2-0.26.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+boardgame2-0.26.0.dist-info/top_level.txt,sha256=Cb0z29TReGvUAlgqRnTaAg1sQvUTco5SwM6WkfGE3po,11
+boardgame2-0.26.0.dist-info/RECORD,,
