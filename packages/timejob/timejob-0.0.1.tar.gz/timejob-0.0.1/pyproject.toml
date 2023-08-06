@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "timejob"
+version = "0.0.1"
+authors = [
+  { name="Cleyton Pedroza", email="cleytonpedroza@gmail.com" },
+]
+description = "This package provides a decorator function `timejob` that can be used to measure the execution time of other functions in Python."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cletrix/timejob"
+"Bug Tracker" = "https://github.com/cletrix/timejob"
