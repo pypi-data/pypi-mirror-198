@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: declback
+Version: 1.0.0
+Summary: Declarative backend framework
+Author-email: Kamaletdinov Karim <450906k@gmail.com>
+License: Copyright (c) 2023 Karim Kamaletdinov
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/declback/declback-py
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+
+# Declback
+## A declarative python backend framework
+
+## Quickstart with pure Declback
+1. Install the library via pip
+```bash
+pip install declback
+```
+2. Import it
+```python
+from declback import Trigger, chain
+```
+2. Create a Trigger class for your chains
+```python
+class SimpleRunner(Trigger):
+    # you may put some logic here
+    def just_run(self):
+        for listener in self.listeners:
+            listener(dict())
+```
+3. Create a functions to run inside chain
+```python
+def function_one():
+    print('Hello')
+    return 'world'
+def function_two(message):
+    print(message)
+```
+4. Create a Trigger instance and chain
+```python
+my_trigger = SimpleRunner()
+my_chain = chain(my_trigger, function_one, function_two)
+```
+5. Run your trigger
+```python
+# run your trigger when you want to run your chain
+# or put your logic into trigger and interact with it
+my_trigger.just_run()
+```
