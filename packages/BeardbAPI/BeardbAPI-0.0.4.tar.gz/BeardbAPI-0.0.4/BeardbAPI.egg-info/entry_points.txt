@@ -1,0 +1,2 @@
+[console_scripts]
+BeardbAPI = reader.__main__:main
