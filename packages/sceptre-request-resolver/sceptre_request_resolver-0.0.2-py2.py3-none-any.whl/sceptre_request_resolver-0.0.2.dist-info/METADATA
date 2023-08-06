@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: sceptre-request-resolver
+Version: 0.0.2
+Summary: A Sceptre resolver to make requests from REST API endpoints
+Home-page: https://github.com/sceptre/sceptre-request-resolver
+Author: zaro0508
+Author-email: sceptreorg@gmail.com
+License: Apache2
+Keywords: sceptre,sceptre-resolver
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sceptre (>=3.2)
+Requires-Dist: validator-collection (>=1.5)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2) ; extra == 'test'
+
+# sceptre-request-resolver
+
+A Sceptre resolver to make requests from REST API endpoints.
+
+## Motivation
+
+There are some pretty useful REST API endpoints on the internet.  The endpoints
+can return lots of different types of data, typically in JSON format.
+This simple resolver can retrieve that data and pass it to Sceptre parameters
+or scepter_user_data parameters.
+
+## Installation
+
+To install directly from PyPI
+```shell
+pip install sceptre-request-resolver
+```
+
+To install from this git repo
+```shell
+pip install git+https://github.com/Sceptre/sceptre-request-resolver.git
+```
+
+## Usage/Examples
+
+```yaml
+parameters|sceptre_user_data:
+  <name>: !request <API ENDPOINT>
+```
+
+```yaml
+parameters|sceptre_user_data:
+  <name>: !request
+    url: <API ENDPOINT>
+```
+
+__Note__: This resolver always returns a string.
+
+
+## Example
+
+Simple request:
+```yaml
+parameters:
+  wisdom: !request 'https://ron-swanson-quotes.herokuapp.com/v2/quotes'
+```
