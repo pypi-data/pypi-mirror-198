@@ -1,0 +1,10 @@
+saxonche.pypy39-pp73-x86_64-linux-gnu.so,sha256=3ht3JFvbJzBG49nBg3JCUJjk2m2dDtudyBm1M0ci5Ws,916088
+saxonche.cpython-39-x86_64-linux-gnu.so,sha256=CGlqagKQqLHx-_9qaDSADXKx1LbdhhW9kPmPwqpQ174,9259864
+saxonche/test_saxonc.py,sha256=lk0_9HzcYcL0HAKwkW8d7HYpaLz4ktJNyV51P4w5Cw0,58099
+saxonche/setup.py,sha256=QdjdEzWpa3roV7b6PvPcXZADiL_XaTJ4H0UiqBJo9_4,2967
+saxonche/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxonche.libs/libsaxon-hec-12-b99e4ad4.1.so,sha256=kTXePmhC2jliECIUmJ8uq9m0HjjC6QZ8k03ma5Mby-8,51184744
+saxonche-12.1.0.dist-info/METADATA,sha256=qRNbcnUGrceBnva1xlNj6l3SE8JbOGDPDwguZB1AqYY,5021
+saxonche-12.1.0.dist-info/WHEEL,sha256=aIHtXq4XssUHqceM9ZWc7TXyJq4AMH0BhNTZQBcVTZY,162
+saxonche-12.1.0.dist-info/top_level.txt,sha256=6tJxlK8ePmvwmsTmpNkKssbnfExHvDb9UiuTurDdKrU,9
+saxonche-12.1.0.dist-info/RECORD,,
