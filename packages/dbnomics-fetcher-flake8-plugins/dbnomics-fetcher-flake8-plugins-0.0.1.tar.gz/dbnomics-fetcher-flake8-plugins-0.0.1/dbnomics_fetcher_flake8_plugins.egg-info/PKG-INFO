@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: dbnomics-fetcher-flake8-plugins
+Version: 0.0.1
+Summary: Flake8 plugins used by DBnomics fetchers
+Author-email: Christophe Benz <christophe.benz@nomics.world>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
