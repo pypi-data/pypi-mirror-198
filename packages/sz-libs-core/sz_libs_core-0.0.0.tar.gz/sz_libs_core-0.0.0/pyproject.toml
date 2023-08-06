@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "sz-libs-core"
+version = "0.0.0"
+description = "Core selfzen library"
+authors = ["Ivan Galin <i.galin@devartsteam.ru>"]
+license = "Proprietary"
+readme = "README.md"
+homepage = "https://gitlab.com/selfzen/backend/libs/core"
+packages = [
+    { include = "sz_core" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pydantic = {extras = ["dotenv"], version = "~1"}
+loguru = "~0"
+fastapi = {version="~0", optional=true}
+gql = {version="~3", extras = ["aiohttp"], optional=true}
+ariadne = {version="~0", optional=true}
+aiofiles = {version="~23", optional=true}
+python-consul2 = {version="~0", optional=true}
+
+[tool.poetry.dev-dependencies]
+pytest = "~7"
+pytest-xdist = "~2"
+pytest-asyncio = "~0"
+pytest-cov = "~3"
+nest-asyncio = "~1"
+flake8 = "~4"
+black = "~22"
+isort = "~5"
+mypy = "~0.991"
+devtools = "~0"
+Faker = "~15"
+pydantic-factories = "~1"
+greenlet = "~1"
+
+[tool.poetry.extras]
+graphql = ["ariadne", "gql", "aiofiles"]
+fastapi = ["fastapi"]
+consul = ["python-consul2"]
+
+
+[build-system]
+requires = ["poetry-core>=1.2"]
+build-backend = "poetry.core.masonry.api"

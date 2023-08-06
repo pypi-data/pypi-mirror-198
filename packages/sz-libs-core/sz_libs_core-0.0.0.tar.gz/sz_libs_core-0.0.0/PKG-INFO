@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sz-libs-core
+Version: 0.0.0
+Summary: Core selfzen library
+Home-page: https://gitlab.com/selfzen/backend/libs/core
+License: Proprietary
+Author: Ivan Galin
+Author-email: i.galin@devartsteam.ru
+Requires-Python: >=3.11,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: consul
+Provides-Extra: fastapi
+Provides-Extra: graphql
+Requires-Dist: aiofiles (>=23,<24); extra == "graphql"
+Requires-Dist: ariadne (>=0,<1); extra == "graphql"
+Requires-Dist: fastapi (>=0,<1); extra == "fastapi"
+Requires-Dist: gql[aiohttp] (>=3,<4); extra == "graphql"
+Requires-Dist: loguru (>=0,<1)
+Requires-Dist: pydantic[dotenv] (>=1,<2)
+Requires-Dist: python-consul2 (>=0,<1); extra == "consul"
+Description-Content-Type: text/markdown
+
+# Selfzen - Core backend library
+
+Core library for Selfzen services
+
