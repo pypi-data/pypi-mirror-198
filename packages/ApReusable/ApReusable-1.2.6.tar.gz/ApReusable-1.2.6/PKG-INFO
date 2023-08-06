@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ApReusable
+Version: 1.2.6
+Summary: AP-Reusable-Package is a versatile and powerful Python package that contains many useful functions and classes for a wide range of projects.
+Author: Rafat & Billah
+Author-email: support@aamarpay.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+long_description
