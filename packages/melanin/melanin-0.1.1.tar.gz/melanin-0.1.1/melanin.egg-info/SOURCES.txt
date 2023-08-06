@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+melanin/__init__.py
+melanin/__main__.py
+melanin.egg-info/PKG-INFO
+melanin.egg-info/SOURCES.txt
+melanin.egg-info/dependency_links.txt
+melanin.egg-info/entry_points.txt
+melanin.egg-info/requires.txt
+melanin.egg-info/top_level.txt
