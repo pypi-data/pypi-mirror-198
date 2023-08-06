@@ -1,0 +1,5 @@
+setup.py
+evojson.egg-info/PKG-INFO
+evojson.egg-info/SOURCES.txt
+evojson.egg-info/dependency_links.txt
+evojson.egg-info/top_level.txt
