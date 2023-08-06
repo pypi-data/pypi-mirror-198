@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "paloalto_xapi_wrapper"
+version = "0.1.7"
+description = "Xapi wrapper for quick use"
+authors = ["Thomas Christory <thomas@christory.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+paloalto-env = "*"
+pan-python = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
