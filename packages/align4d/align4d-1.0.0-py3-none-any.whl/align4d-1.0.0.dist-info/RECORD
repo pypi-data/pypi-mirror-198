@@ -1,0 +1,8 @@
+align4d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+align4d/align4d.cp310-win_amd64.pyd,sha256=-4CNq_9-oT7lhigYp-rzfBftZc5ft-03xuK2nz2VoCM,68096
+align4d/align4d.cpython-310-darwin(mac_arm).so,sha256=SBeGrP9Elj_XJJOL_JEtEuOqxjVRuGlB5trdrsNcygE,143300
+align4d/align4d.cpython-310-x86_64-linux-gnu.so,sha256=YEO8Sx-uLQEGGHmQsp8yY-7Mq9y60KCjU6bT7sQI3ps,2023712
+align4d/align4d.py,sha256=ifjvTpm78rilYKzzsURXknPdlha6zenputhG7Zr42oM,876
+align4d-1.0.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+align4d-1.0.0.dist-info/METADATA,sha256=ZzPfAfh6ksaFwZaY0yqxy38I0Mpx9V9Rsr7TGSoxhkw,837
+align4d-1.0.0.dist-info/RECORD,,
