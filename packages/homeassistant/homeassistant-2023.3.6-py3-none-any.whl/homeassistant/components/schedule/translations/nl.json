@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Schema",
+            "state": {
+                "off": "Uit",
+                "on": "Aan"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Uit",
+            "on": "Aan"
+        }
+    },
+    "title": "Schema"
+}

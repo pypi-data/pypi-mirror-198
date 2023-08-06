@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Input boolean",
+            "state": {
+                "off": "Off",
+                "on": "On"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Off",
+            "on": "On"
+        }
+    },
+    "title": "Input boolean"
+}

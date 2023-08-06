@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Programaci\u00f3n",
+            "state": {
+                "off": "Apagado",
+                "on": "Encendido"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Apagado",
+            "on": "Encendido"
+        }
+    },
+    "title": "Programaci\u00f3n"
+}

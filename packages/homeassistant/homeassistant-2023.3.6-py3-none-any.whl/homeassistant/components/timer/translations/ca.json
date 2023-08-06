@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Temporitzador",
+            "state": {
+                "active": "Actiu",
+                "idle": "Inactiu",
+                "paused": "Pausat/ada"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "Actiu",
+            "idle": "Inactiu",
+            "paused": "Pausat"
+        }
+    }
+}

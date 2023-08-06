@@ -1,0 +1,12 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Pl\u0101not",
+            "state": {
+                "off": "Izsl\u0113gts",
+                "on": "Iesl\u0113gts"
+            }
+        }
+    },
+    "title": "Pl\u0101not"
+}

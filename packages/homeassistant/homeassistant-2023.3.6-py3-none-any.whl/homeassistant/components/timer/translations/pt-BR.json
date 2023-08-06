@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Cron\u00f4metro",
+            "state": {
+                "active": "Ativo",
+                "idle": "Ocioso",
+                "paused": "Pausado"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "Ativo",
+            "idle": "Ocioso",
+            "paused": "Pausado"
+        }
+    }
+}

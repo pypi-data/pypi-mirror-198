@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Pomocn\u00edci - p\u0159ep\u00edna\u010de",
+            "state": {
+                "off": "Vypnuto",
+                "on": "Zapnuto"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Vypnuto",
+            "on": "Zapnuto"
+        }
+    },
+    "title": "Pomocn\u00edci - p\u0159ep\u00edna\u010de"
+}

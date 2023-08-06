@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Skript",
+            "state": {
+                "off": "Aus",
+                "on": "An"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Aus",
+            "on": "An"
+        }
+    },
+    "title": "Skript"
+}

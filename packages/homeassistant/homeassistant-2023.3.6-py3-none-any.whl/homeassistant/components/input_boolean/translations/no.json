@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Innputt boolsk",
+            "state": {
+                "off": "Av",
+                "on": "P\u00e5"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Av",
+            "on": "P\u00e5"
+        }
+    },
+    "title": "Innputt boolsk"
+}

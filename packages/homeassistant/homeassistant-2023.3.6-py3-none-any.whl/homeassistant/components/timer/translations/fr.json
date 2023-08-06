@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Minuteur",
+            "state": {
+                "active": "Actif",
+                "idle": "Inactif",
+                "paused": "En pause"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "Actif",
+            "idle": "Inactif",
+            "paused": "En pause"
+        }
+    }
+}
