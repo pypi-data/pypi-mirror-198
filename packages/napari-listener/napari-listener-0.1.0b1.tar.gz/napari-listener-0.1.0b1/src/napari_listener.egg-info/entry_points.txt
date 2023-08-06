@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-listener = napari_listener:napari.yaml
