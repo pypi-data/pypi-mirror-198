@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: IPCCalc
+Version: 0.1
+Summary: Python package for computing inflation adjustment, with historic Spanish IPC data and peseta to euro conversion.
+Author: scuellaralmagro
+Author-email: <scuellaralmagro@gmail.com>
+Keywords: python,inflation,ipc,pesetas,euros,spain,depreciation,adjustment,adjust
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Python package to quickly compute inflation adjustment for a sum of money, taking into account historic IPC (Índice de Precios de Consumo) data, and optionally converting amounts from pesetas to euros.
