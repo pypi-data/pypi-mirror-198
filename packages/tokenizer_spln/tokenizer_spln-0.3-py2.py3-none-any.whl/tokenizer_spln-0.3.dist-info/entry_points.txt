@@ -1,0 +1,3 @@
+[console_scripts]
+tokenizer_spln=tokenizer_spln:main
+
