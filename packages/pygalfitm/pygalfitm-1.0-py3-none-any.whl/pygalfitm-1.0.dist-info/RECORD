@@ -1,0 +1,12 @@
+pygalfitm/__init__.py,sha256=RgKAC4z1esyy8ZPizuZFCb8BoI64rjryfAMqknEBYcE,97
+pygalfitm/auxiliars.py,sha256=8gcFHUka6xS-m4TYbNDIbuyYbFj6kgtMYgkF3zCRjvM,6029
+pygalfitm/plot.py,sha256=lE9d1rvwkmD726faCgWJFG2O3gakvMyWzpiIW0j08VY,4281
+pygalfitm/psf.py,sha256=-fmeV5BapE9ClkE2zaksvwINX6tWU8FvGpms6CaqpKE,2041
+pygalfitm/pygalfitm.py,sha256=gSa7BPlBPtwE-me6iJnBBagirQlGF6TYeJUi3arVYzI,26084
+pygalfitm/read.py,sha256=VS4UvkRdluiOXR2vimgSyESP8-XAwqZpbyePm5CIhAU,2654
+pygalfitm/VOs/__init__.py,sha256=WIKYz1ff4sMy8OoU1bZMeVMJItahpTozWz2OzKgX1kk,20
+pygalfitm/VOs/splus.py,sha256=q5iXnoMMdRDiFwJsz6J_Ox9JxGwjQoRQ8UhbE472X_Y,5982
+pygalfitm-1.0.dist-info/METADATA,sha256=beTzbwTnCJUwxFP-4aoBcw-1APYR0ElNZMRnMM4OW-8,472
+pygalfitm-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygalfitm-1.0.dist-info/top_level.txt,sha256=cRt4OqAXLYxiTIy0gdiI2TifFkm3I4l-dZVawhr39Ds,10
+pygalfitm-1.0.dist-info/RECORD,,
