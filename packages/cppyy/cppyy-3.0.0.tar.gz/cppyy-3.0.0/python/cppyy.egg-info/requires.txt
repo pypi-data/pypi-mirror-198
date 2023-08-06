@@ -1,0 +1,3 @@
+CPyCppyy==1.12.13
+cppyy-backend==1.14.11
+cppyy-cling==6.28.0
