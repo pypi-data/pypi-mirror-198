@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+file_typer/__init__.py
+file_typer/__main__.py
+file_typer/argutils.py
+file_typer/impl.py
+file_typer/type_table.py
+file_typer.egg-info/PKG-INFO
+file_typer.egg-info/SOURCES.txt
+file_typer.egg-info/dependency_links.txt
+file_typer.egg-info/entry_points.txt
+file_typer.egg-info/not-zip-safe
+file_typer.egg-info/requires.txt
+file_typer.egg-info/top_level.txt
