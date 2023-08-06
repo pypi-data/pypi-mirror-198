@@ -1,0 +1,12 @@
+clp_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_logging/decoder.py,sha256=IIGHXgHyuckcgyHcYDQ_RYFHPHubqKJwwV4pA4j7_bQ,5765
+clp_logging/encoder.py,sha256=oyTWoQnXja-7UUpKSdkQ4jv8F0R9YDMvMcbA8QlD78w,11899
+clp_logging/handlers.py,sha256=_q8Ku2vVkLnc_gjbunEH_e1UspliZHzIXmbwZjS_PgQ,28199
+clp_logging/protocol.py,sha256=2CFt9765Gi0LEremoue3yDZKf4cIpjzbE-yI8qaFbEk,3729
+clp_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_logging/readers.py,sha256=6csjhMKykAL0gv4DNNPtTjuKAycoX5Ry2dtst27MNP0,15082
+clp_logging-0.0.8.dist-info/LICENSE,sha256=kr_C39s0W9_KuMVK_xjGq76B777Y4zS7G-Nxg9_Hdso,11341
+clp_logging-0.0.8.dist-info/METADATA,sha256=y7fPdepKDUCIz4QcO3G26QAFbdm00_s-dFCbO5s73IY,7306
+clp_logging-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+clp_logging-0.0.8.dist-info/top_level.txt,sha256=cae_QYL-rmmoMLSpCEuBnMwgf_zBG_E_WC1KAFHXriE,12
+clp_logging-0.0.8.dist-info/RECORD,,
