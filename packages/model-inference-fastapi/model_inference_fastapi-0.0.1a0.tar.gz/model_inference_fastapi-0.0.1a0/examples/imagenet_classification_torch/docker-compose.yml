@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vm:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    platform: "linux/amd64"
+#    command: uvicorn model_inference_fastapi.main:app
+#    command: tail -f /dev/null
