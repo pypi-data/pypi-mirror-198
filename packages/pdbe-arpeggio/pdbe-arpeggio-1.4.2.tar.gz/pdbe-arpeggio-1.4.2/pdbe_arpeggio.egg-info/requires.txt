@@ -1,0 +1,7 @@
+gemmi
+numpy
+biopython
+
+[tests]
+pytest
+pytest-cov
