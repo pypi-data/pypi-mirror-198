@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+pogo_video_analysis/__init__.py
+pokemon_go_video_analysis.egg-info/PKG-INFO
+pokemon_go_video_analysis.egg-info/SOURCES.txt
+pokemon_go_video_analysis.egg-info/dependency_links.txt
+pokemon_go_video_analysis.egg-info/requires.txt
+pokemon_go_video_analysis.egg-info/top_level.txt
