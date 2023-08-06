@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robloxcloud
+Version: 0.0.1.dev0
+Summary: Access the Roblox CloudApi quickly and easily!
+Home-page: https://github.com/zirou32/cloud-apy
+Author: zirou32
+Keywords: roblox,api,cloudapi
+License-File: LICENSE
