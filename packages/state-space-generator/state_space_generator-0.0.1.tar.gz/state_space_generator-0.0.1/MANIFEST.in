@@ -1,0 +1,2 @@
+include planners/downward-sse/fast-downward.py
+global-include planners/downward-sse/builds/release/bin/*
