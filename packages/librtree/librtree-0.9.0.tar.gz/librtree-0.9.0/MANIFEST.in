@@ -1,0 +1,9 @@
+recursive-include src/librtree *.h
+
+include src/configure
+
+include src/librtree/lib/config.h.in
+exclude src/librtree/lib/config.h
+
+include src/librtree/lib/rtree/types.h.in
+exclude src/librtree/lib/rtree/types.h
