@@ -1,0 +1,7 @@
+dirhash~=0.2.1
+wheel~=0.38.4
+setuptools~=65.6.3
+google-cloud-storage~=2.7.0
+pluggy~=1.0.0
+boto3~=1.26.45
+pyyaml~=5.3
