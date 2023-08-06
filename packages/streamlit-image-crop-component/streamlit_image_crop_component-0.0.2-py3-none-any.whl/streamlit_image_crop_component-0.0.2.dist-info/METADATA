@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit-image-crop-component
+Version: 0.0.2
+Summary: image crop component for streamlit
+Home-page: UNKNOWN
+Author: Hashara Kumarasinghe
+Author-email: kumarasinghe.k.a.s.h@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+
+This component is used to crop images in streamlit
+
