@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyNlple
+Version: 0.9.0
+Summary: NLP procedures in python brought to you by YouScan.
+Home-page: https://github.com/YouScan/pyNlple
+Author: Paul Khudan
+Author-email: pk@youscan.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
