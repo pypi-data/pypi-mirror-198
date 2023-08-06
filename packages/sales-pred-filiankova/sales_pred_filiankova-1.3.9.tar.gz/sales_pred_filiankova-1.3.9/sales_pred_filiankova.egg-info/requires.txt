@@ -1,0 +1,12 @@
+pandas
+numpy
+shap
+xgboost
+scikit-learn
+hyperopt
+matplotlib
+seaborn
+boruta
+category_encoders>=2.6.0
+tqdm
+ipython
