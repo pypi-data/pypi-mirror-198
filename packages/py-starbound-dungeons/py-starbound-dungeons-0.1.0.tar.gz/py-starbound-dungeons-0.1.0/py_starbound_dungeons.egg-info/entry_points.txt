@@ -1,0 +1,2 @@
+[console_scripts]
+pystarbound-dungeons-indexer = starbound_dungeons.indexer:main
