@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bfas
+Version: 0.0.4
+Summary: Brute Force Architecture Search
+Home-page: https://github.com/m-pektas/BFAS
+Author: Muhammed Pektas
+Keywords: bfas,efficient deep learning,NAS,neural architecture search,knowledge distillation
+Requires-Python: >=3.7, <4
+License-File: LICENSE
+
+Brute Force Architecture Search for Neural Architectures to obtain models that have best performences on your device.
