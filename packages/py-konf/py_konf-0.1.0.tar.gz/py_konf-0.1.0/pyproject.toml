@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "py-konf"
+version = "0.1.0"
+description = "Simple lib for loading run configurations"
+authors = ["Jordan Paoletti <jordanspaoletti@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "py_konf" }]
+include = [ "test_res/" ]
+exclude = [
+   "**/.pytest_cache/**/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.pytest.ini_options]
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
