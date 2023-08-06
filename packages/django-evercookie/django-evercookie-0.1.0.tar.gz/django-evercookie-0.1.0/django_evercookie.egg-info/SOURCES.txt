@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+django_evercookie.egg-info/PKG-INFO
+django_evercookie.egg-info/SOURCES.txt
+django_evercookie.egg-info/dependency_links.txt
+django_evercookie.egg-info/requires.txt
+django_evercookie.egg-info/top_level.txt
+evercookie/__init__.py
+evercookie/models.py
+evercookie/urls.py
+evercookie/views.py
+evercookie/migrations/__init__.py

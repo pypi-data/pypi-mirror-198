@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-evercookie
+Version: 0.1.0
+Summary: A reusable Django app that integrates evercookie functionality
+Home-page: https://github.com/AryanHamedani/django-evercookie
+Author: Aryan Hamedani
+Author-email: aryn.hmd@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-evercookie
+Django Evercookie Integration is a reusable Django app that enables the use of evercookies in Django 4 projects. Evercookies are a more persistent type of cookie that can be hard to remove.
