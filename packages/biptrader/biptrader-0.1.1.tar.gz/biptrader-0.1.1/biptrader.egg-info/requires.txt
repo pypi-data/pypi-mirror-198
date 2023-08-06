@@ -1,0 +1,5 @@
+ccxt>=3.0.20
+jproperties>=2.1.1
+pandas>=1.5.3
+pytz>=2022.1
+SQLAlchemy>=2.0.6
