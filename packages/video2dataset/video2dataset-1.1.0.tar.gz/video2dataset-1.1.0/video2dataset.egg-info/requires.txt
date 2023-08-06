@@ -1,0 +1,17 @@
+numpy<2,>=1.19.5
+fire<0.5.0,>=0.4.0
+requests<3,>=2.27.1
+ffmpeg-python
+yt_dlp
+pyarrow
+fsspec
+webdataset
+webvtt-py
+wandb
+pandas
+tqdm
+timeout-decorator
+scenedetect[opencv]
+decord
+torch<2,>=1.7.1
+langdetect
