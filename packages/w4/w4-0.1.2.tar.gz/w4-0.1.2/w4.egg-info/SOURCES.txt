@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_circle_and_hyperbola.py
+tests/test_rosenbrock.py
+w4/__init__.py
+w4/w4.py
+w4/xy.py
+w4.egg-info/PKG-INFO
+w4.egg-info/SOURCES.txt
+w4.egg-info/dependency_links.txt
+w4.egg-info/not-zip-safe
+w4.egg-info/requires.txt
+w4.egg-info/top_level.txt
