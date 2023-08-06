@@ -1,0 +1,11 @@
+sitter/__init__.py,sha256=kmO9kGgq2HWTuteNIC5PcYYD8TnH6emL2HjlrIda2qk,391
+sitter/setting.py,sha256=kecO38nMvpaeylxaPoU7R2PC_t2RDOoDIQwhKPmdgdw,136
+sitter/sitter.py,sha256=q_40wHSp6VNjExr0Jps2gzVtpVpYepFITY92l6-pBYI,21052
+sitter/util.py,sha256=PG_628-1LxVO1fWclEBBBVuFr5pYI3-jFUY2AwN65t4,1618
+sitter/utils.py,sha256=9VdSexeELEvB1P92ti1RvVbz3J_q6tRQvFI6MG7qOfM,1591
+sitter-0.1.2.dist-info/LICENSE,sha256=e-lW8hXhZuQLe40WzCxyzfKxIl_0-zGoB7v_HF0UKT4,1063
+sitter-0.1.2.dist-info/METADATA,sha256=rYDCT0Qu72IM1xw9VLoxa2hpCYVkMUq_N6W6w1JzATU,222
+sitter-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sitter-0.1.2.dist-info/entry_points.txt,sha256=n-QTNm3y9_tlRAVfA7K0AFzUZJiQBx9CkuDfrM6B76M,72
+sitter-0.1.2.dist-info/top_level.txt,sha256=ki1lAqWLRVlazAeYGzUaDsp4kqJWEvyDSBMvqHfXJ70,7
+sitter-0.1.2.dist-info/RECORD,,
