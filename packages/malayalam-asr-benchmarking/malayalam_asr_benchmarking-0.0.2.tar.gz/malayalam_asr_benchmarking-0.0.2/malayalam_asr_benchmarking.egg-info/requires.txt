@@ -1,0 +1,11 @@
+transformers<5,>=4.0.0
+datasets
+jiwer
+numerize
+pandas
+librosa
+torch<1.14,>=1.7
+
+[dev]
+nbdev
+black
