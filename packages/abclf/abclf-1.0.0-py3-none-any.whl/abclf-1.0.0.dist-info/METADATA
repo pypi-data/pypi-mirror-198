@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: abclf
+Version: 1.0.0
+Summary: Classify American vs. British English
+Author-email: Peter Rupnik <peter.rupnik@ijs.si>
+Project-URL: Homepage, https://github.com/macocu/American-British-variety-classifier
+Keywords: English variant,American,British
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: parse
+Requires-Dist: transliterate
+Requires-Dist: tomli ; python_version >= "3.7"
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
