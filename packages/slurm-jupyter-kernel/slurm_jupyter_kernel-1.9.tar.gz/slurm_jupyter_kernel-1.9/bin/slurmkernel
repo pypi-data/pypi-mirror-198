@@ -1,0 +1,366 @@
+#!/usr/bin/env python3
+
+"""
+Manage (create, list, modify and delete) and starting jupyter slurm kernels using srun
+"""
+
+import argparse;
+import json;
+import sys;
+import os;
+import getpass;
+import tempfile;
+import subprocess
+import slurm_jupyter_kernel;
+from slurm_jupyter_kernel import script_template;
+from pathlib import Path;
+from shutil import copy, rmtree 
+from hashlib import sha256;
+from jupyter_client import kernelspec;
+
+class Color:
+    # Foreground
+    F_Default = "\x1b[39m"
+    F_Black = "\x1b[30m"
+    F_Red = "\x1b[31m"
+    F_Green = "\x1b[32m"
+    F_Yellow = "\x1b[33m"
+    F_Blue = "\x1b[34m"
+    F_Magenta = "\x1b[35m"
+    F_Cyan = "\x1b[36m"
+    F_LightGray = "\x1b[37m"
+    F_DarkGray = "\x1b[90m"
+    F_LightRed = "\x1b[91m"
+    F_LightGreen = "\x1b[92m"
+    F_LightYellow = "\x1b[93m"
+    F_LightBlue = "\x1b[94m"
+    F_LightMagenta = "\x1b[95m"
+    F_LightCyan = "\x1b[96m"
+    F_White = "\x1b[97m"
+
+class SlurmJupyterKernel:
+
+    def __init__ (self, displayname=None, language=None, argv=None, slurm_parameter=None, loginnode=None, username=None, proxyjump=None, env=None):
+
+        self.displayname = displayname;
+        self.language = language;
+        self.argv = argv;
+        self.slurm_parameter = slurm_parameter;
+        self.loginnode = loginnode;
+        self.username = username;
+        self.proxyjump = proxyjump;
+        self.env = env;
+
+    def get_kernelspec (self):
+
+        optional_parameter = ['language', 'env'];
+
+        for parameter in SlurmJupyterKernel.__init__.__code__.co_varnames[1:]:
+            if not self.__dict__[parameter]:
+                if not parameter in optional_parameter:
+                    required_parameter = input(f'--{parameter}: ');
+                    setattr(self, parameter, required_parameter);
+                    
+        # convert slurm_parameter str to dict
+        if self.slurm_parameter:
+            self.slurm_parameter = dict((k.strip(), v.strip()) for k, v in (item.split('=') for item in self.slurm_parameter.split(',')));
+        # convert env str list to dict
+        if self.env:
+            self.env = dict((k.strip(), v.strip()) for k, v in (item.split('=') for item in self.env.split(',')));
+        else:
+            self.env = {};
+
+        if not self.language:
+            self.language = '';
+
+        return {'display_name': self.displayname, 'argv': self.argv, 'env': self.env, 'language': self.language, 'metadata': {'kernel_provisioner': {'provisioner_name': 'remote-slurm-provisioner', 'config': {'proxyjump': self.proxyjump, 'loginnode': self.loginnode, 'username': self.username, 'sbatch_flags': self.slurm_parameter}}}};
+
+    @staticmethod
+    def get_all_kernels ():
+        all_kernelspecs = kernelspec.find_kernel_specs();
+        slurm_kernels = {};
+        # iterate throuh all available kernels
+        for kernel, file in all_kernelspecs.items():
+            try:
+                kernel_spec = kernelspec.get_kernel_spec(kernel);
+            except json.decoder.JSONDecodeError:
+                print(f'\033[91mError parsing {file}/kernel.json! Invalid JSON.\033[0m');
+                continue;
+            try:
+                kernel_provisioner_name = kernel_spec.metadata['kernel_provisioner']['provisioner_name'];
+                if kernel_provisioner_name == 'remote-slurm-provisioner':
+                    slurm_kernels.update({str(file): [kernel_spec.name, kernel_spec.display_name, kernel_spec.language, kernel_spec.env, kernel_spec.metadata]});
+                else:
+                    continue;
+            except:
+                continue;
+        return slurm_kernels;
+
+    @staticmethod
+    def select_slurm_kernel ():
+        available_slurm_kernel = SlurmJupyterKernel.get_all_kernels();
+        if len(available_slurm_kernel) >= 1:
+            while True:
+                print("\033[4mFollowing kernels found:\033[0m\n");
+                iterator = 0;
+                old_slurm_kernels = False;
+                for kernelfile, data in available_slurm_kernel.items():
+                    print(f'\033[94m[{iterator}]\033[0m {kernelfile}');
+                    iterator += 1;
+
+                identifier = input('Select a kernel using the \033[94midentifier\033[0m:\033[94m ');
+                try:
+                    key = list(available_slurm_kernel.keys())[int(identifier)];
+                except IndexError:
+                    print(f'\033[91mInvalid identifier: {identifier}\033[0m\n');
+                    continue;
+                print('\033[0m');
+                if key:
+                    return key;
+                else:
+                    return False;
+    
+    @staticmethod
+    def list_slurm_kernel (verbose=False):
+        slurm_kernels = SlurmJupyterKernel.get_all_kernels();
+        print("\033[4mFollowing kernels found:\033[0m\n");
+        for kernel, data in slurm_kernels.items():
+            print(f'\033[94m\u27A4\033[0m \033[95m{kernel}\033[0m');
+            if verbose:
+                if data[0]:
+                    print(f'  \u2937  \033[1mKernel Name       : \033[0m{data[0]}');
+                else:
+                    kernelname = kernel.split('/')[-1];
+                    print(f'  \u2937  \033[1mKernel Name       : \033[0m{kernelname}');
+                    # printing slurm parameter
+                    try:
+                        slurm_parameter = data[4]['kernel_provisioner']['config']['sbatch_flags'];
+                        print(f'  \u2937  \033[1mSlurm Parameter   : \033[0m{slurm_parameter}');
+                    except KeyError:
+                        print(f'  \u2937  \033[1mSlurm Parameter   : \033[0m{Color.F_LightRed}No Slurm parameter for this kernel found! Without this information, the kernel cannot start!{Color.F_Default}');
+                    # printing login information
+                    try:
+                        proxyjump = data[4]['kernel_provisioner']['config']['proxyjump'];
+                        loginnode = data[4]['kernel_provisioner']['config']['loginnode'];
+                        username = data[4]['kernel_provisioner']['config']['username'];
+                        if not proxyjump == '':
+                            proxyjump = f'{Color.F_Cyan}Proxyjump:{Color.F_Default} {proxyjump}, ';
+                        else:
+                            proxyjump = '';
+                        login_information = f'{proxyjump}{Color.F_Cyan}Loginnode:{Color.F_Default} {loginnode}, {Color.F_Cyan}Username:{Color.F_Default} {username}';
+                        print(f'  \u2937  \033[1mLogin information : \033[0m{login_information}');
+                    except KeyError:
+                        print(f'  \u2937  \033[1mLogin information : \033[0m{Color.F_LightRed}No login information found (proxyjump, loginnode, username)! Without this information, the kernel cannot start!{Color.F_Default}');
+                if data[2]: print(f'  \u2937  \033[1mLanguage          : \033[0m{data[2]}');
+                if data[1]: print(f'  \u2937  \033[1mDisplay Name      : \033[0m{data[1]}');
+                if data[3]: print(f'  \u2937  \033[1mEnvironment       : \033[0m{data[3]}');
+                print('');
+
+    def edit_kernel (self, editor=None):
+
+        # select the kernel
+        kernel_to_edit = SlurmJupyterKernel.select_slurm_kernel();
+        kernel_to_edit = kernel_to_edit + '/kernel.json';
+
+        # check file hash
+        kernel_d = open(kernel_to_edit, 'rb');
+        kernel_data = kernel_d.read();
+        file_hash = sha256(kernel_data).hexdigest();
+        kernel_d.close();
+
+        if editor is None:
+            try:
+                editor = os.environ['EDITOR'];
+            except KeyError:
+                print(f'\033[91m$EDITOR not set. Please explicity set an editor with --editor (e.g. --editor vim)\033[0m\n');
+                sys.exit();
+
+        while True:
+            edit_process = subprocess.Popen(f'{editor} {kernel_to_edit}', shell=True);
+            (stdout, stderr) = edit_process.communicate();
+            edit_process_status = edit_process.wait();
+            try:
+                # check modified kernel.json
+                with open(kernel_to_edit, 'r') as f:
+                    json.loads(f.read());
+
+            except json.decoder.JSONDecodeError:
+                print(f'\033[91mError parsing the modified kernel.json!\033[0m\n');
+                re_run = input('Would you like to re-run the edit mode? [Y,n] ');
+                if re_run == '' or re_run.upper() == 'Y':
+                    continue;
+                elif re_run.upper() == 'N':
+                    break;
+                else:
+                    print(f'\033[91mInvalid input {re_run}! Aborting.\033[0m\n');
+                    break;
+            
+            break;
+            
+        # check file changes
+        kernel_d = open(kernel_to_edit, 'rb');
+        kernel_data = kernel_d.read();
+        file_hash_new = sha256(kernel_data).hexdigest();
+        kernel_d.close();
+
+        if file_hash == file_hash_new:
+            print(f"{Color.F_LightMagenta}I could not notice any changes! Next time, think it over more carefully, won't you? \u2661{Color.F_Default}");
+        else:
+            print(f'{Color.F_LightGreen}Successfully modified {kernel_to_edit}!{Color.F_Default}');
+            sys.exit();
+
+    def remove_slurm_kernel (self):
+
+        kernel_to_delete = SlurmJupyterKernel.select_slurm_kernel();
+        if kernel_to_delete:
+        
+            kernel_to_delete = kernel_to_delete + '/kernel.json';
+
+            while True:
+                print(f'Following kernel selected: \033[1m\033[93m{kernel_to_delete}\033[0m');
+                delete_yes_no = input('Are you sure you want to delete the selected kernel? [Y,n] ');
+                if delete_yes_no == '' or delete_yes_no.upper() == 'Y':
+                    kernel_to_delete = str(os.path.dirname(kernel_to_delete));
+                    rmtree(kernel_to_delete);
+                    print(f'Kernel \033[92m{kernel_to_delete}\033[0m deleted');
+                    sys.exit();
+                elif delete_yes_no.upper() == 'N':
+                    print('\033[94mI did not delete the selected kernel\033[0m');
+                    sys.exit();
+                else:
+                    print('\033[91mInvalid input. Please try again!\033[0m');
+                    continue;
+        else:
+            print(f'I did not found any kernel to delete!');
+
+    def save_slurm_kernel (self, dry_run=None):
+
+        new_slurm_kernel = self.get_kernelspec();
+
+        # create a temporary jupyter kernel directory
+        tempdir = tempfile.mkdtemp();
+        kerneldir_name = new_slurm_kernel['display_name'].replace(' ', '_');
+
+        with open(os.path.join(tempdir, 'kernel.json'), 'w') as kfile:
+            json.dump(new_slurm_kernel, kfile, indent=2, sort_keys=True);
+
+        img_dir = str(Path(slurm_jupyter_kernel.__file__).parent.parent) + '/imgs/';
+        if os.path.isdir(str(img_dir)):
+            copy(str(img_dir) + 'logo-32x32.png', str(tempdir));
+            copy(str(img_dir) + 'logo-64x64.png', str(tempdir));
+
+        username = getpass.getuser();
+        kernel_path = kernelspec.install_kernel_spec(tempdir, kerneldir_name, user=username);
+
+        print(f'{Color.F_LightGreen}\u2714\033[0m Successfully saved slurm kernel: {kernel_path}{Color.F_Default}');
+
+def main (cmd_line=None):
+
+    parser = argparse.ArgumentParser('Tool to manage (create, list, modify and delete) and starting jupyter slurm kernels using srun');
+    subparser = parser.add_subparsers(dest='command');
+
+    add_option = subparser.add_parser('add', help='create a new slurm kernel');
+
+    add_option.add_argument('--displayname', required=True, help='Display name of the new kernel');
+    add_option.add_argument('--environment', required=False, help='Jupyter kernel environment');
+    add_option.add_argument('--language', help='Programming language');
+    add_option.add_argument('--loginnode', required=True, help='The login node to connect to');
+    add_option.add_argument('--user', required=True, help='The username to log in to the loginnode');
+    add_option.add_argument('--proxyjump', help='Add a proxy jump (SSH -J)');
+    add_option.add_argument('--srun-cmd', help='Path to srun command. Default: srun');
+    add_option.add_argument('--kernel-cmd', required=True, help='command to run jupyter kernel');
+    add_option.add_argument('--slurm-parameter', required=True, help='Slurm job parameter');
+
+    list_option = subparser.add_parser('list', help='list available slurm kernel');
+    list_option.add_argument('-v', '--verbose', action='store_true', required=False, help='Print all kernel with the kernelspec information');
+    list_option.add_argument('-a', '--all', action='store_true', required=False, help='Print all available Jupyter kernels');
+
+    modify_option = subparser.add_parser('edit', help='edit an existing slurm kernel');
+    modify_option.add_argument('-e', '--editor', help='Set a specific editor to modify the kernelspec (default: $EDITOR)');
+
+    delete_option = subparser.add_parser('delete', help='delete an existing slurm kernel');
+
+    template_option = subparser.add_parser('template', help='manage script templates (list, use, add, edit)');
+    template_subparser = template_option.add_subparsers(dest='subcommand');
+
+    template_list = template_subparser.add_parser('list', help='List all availabe script templates');
+
+    template_use = template_subparser.add_parser('use', help='Use a script template (Remote-Initialization)');
+    template_use.add_argument('--dry-run', action='store_true', required=False, help='Activate dry-run mode. Do not execute script lines or create kernel.');
+    template_use.add_argument('--loginnode', '-l', required=False, help='The login node to connect to');
+    template_use.add_argument('--user', '-u', help='The username to log in to the loginnode');
+    template_use.add_argument('--proxyjump', '-p', help='Add a proxy jump (SSH -J)');
+    template_use.add_argument('--template', '-t', required=False, help='The template to use (ipython, ijulia, ...)');
+
+    template_add = template_subparser.add_parser('add', help='Add a new script template for remote initialization');
+    template_add.add_argument('--template', '-t', required=True, help='Path to the script template');
+
+    template_edit = template_subparser.add_parser('edit', help='Edit an existing script template');
+    template_edit.add_argument('--template', '-t', required=True, help='The template to use (ipython, ijulia, ...)');
+    template_edit.add_argument('--editor', '-e', required=False, help='Editor to use (Default: $EDITOR)');
+
+    from slurm_jupyter_kernel.__init__ import __version__;
+    parser.add_argument('--version', action='version', version='%(prog)s ({version})'.format(version=__version__));
+
+    if len(sys.argv) == 1:
+        parser.print_help();
+        sys.exit();
+
+    args = parser.parse_args(cmd_line);
+    if args.command == 'add':
+        new_kernel = SlurmJupyterKernel(displayname=args.displayname, language=args.language, argv=args.kernel_cmd, slurm_parameter=args.slurm_parameter, loginnode=args.loginnode, username=args.user, proxyjump=args.proxyjump, env=args.environment);
+        new_kernel.save_slurm_kernel();
+    elif args.command == 'list':
+        SlurmJupyterKernel.list_slurm_kernel(verbose=args.verbose);
+    elif args.command == 'edit':
+        slurm_kernel = SlurmJupyterKernel();
+        slurm_kernel.edit_kernel(editor=args.editor);
+    elif args.command == 'delete':
+        slurm_kernel = SlurmJupyterKernel();
+        slurm_kernel.remove_slurm_kernel();
+    elif args.command == 'template':
+        if args.subcommand == 'list':
+            script_template.ScriptTemplate.list_templates();
+        elif args.subcommand == 'use':
+            template = script_template.ScriptTemplate(args.template);
+            try:
+                # kernel_specs_info = kernelspec without provisioner information
+                kernel_specs_info = template.use(args.loginnode, args.user, args.proxyjump, args.dry_run);
+                new_kernel = SlurmJupyterKernel(**kernel_specs_info);
+                if not args.dry_run: 
+                    # generates kernelspec file with provisioner information
+                    new_kernel.save_slurm_kernel(dry_run=args.dry_run);
+                else:
+                    kernel_specs_info = new_kernel.get_kernelspec();
+                    kernel_specs_info = json.loads(str(kernel_specs_info).replace("'", '"'));
+                    print(f'{Color.F_LightYellow} Would save following kernelspec file:\n' + json.dumps(kernel_specs_info, indent=4));
+            except script_template.SSHConnectionError:
+                sys.exit(f'{Color.F_LightRed}Error: Could not establish a connection to host\nPlease check following things:\n* Username is correct\n* Running SSH agent with loaded key file\n* proxyjump, loginnode or username is correct{Color.F_Default}');
+            except script_template.SSHAgentNotRunning:
+                sys.exit(f'{Color.F_LightRed}Error: Please start your SSH agent and load your SSH key: eval $(ssh-agent) && ssh-add{Color.F_Default}');
+            except script_template.RenderTemplateError:
+                sys.exit(f'{Color.F_LightRed}Error: The template seems to be broken!{Color.F_Default}');
+
+        elif args.subcommand == 'add':
+            new_template = script_template.ScriptTemplate(args.template);
+            try:
+                save_template = new_template.save();
+                if save_template:
+                    sys.exit(f'{Color.F_LightGreen}Added template {args.template}!{Color.F_Default}');
+                else:
+                    print('Error...');
+            except script_template.WrongFileType:
+                sys.exit(f'{Color.F_LightRed}Wrong filetype! ".sh" needed!{Color.F_Default}');
+            except script_template.FileAlreadyExists:
+                sys.exit(f'{Color.F_LightRed}The template {args.template} already exists! You may want to rename your template.{Color.F_LightRed}');
+        elif args.subcommand == 'edit':
+            template = script_template.ScriptTemplate(args.template);
+            try:
+                edit = template.edit(args.editor);
+                if edit:
+                    sys.exit(f'{Color.F_LightGreen}Template {args.template} successfully edited!{Color.F_Default}');
+            except script_template.NoEditorGiven:
+                sys.exit(f'{Color.F_LightRed}No editor specified! Neither $EDITOR is set nor an editor was specified (--editor)!{Color.F_Default}');
+
+if __name__ == '__main__':
+    main();
