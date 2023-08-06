@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "timetoc"
+version = "0.1.1"
+description = ""
+authors = ["Guilherme Prokisch <guilherme.prokisch@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+pandas = "^1.5.3"
+selenium-wire = "^5.1.0"
+webdriver-manager = "^3.8.5"
+typer = {extras = ["all"], version = "^0.7.0"}
+python-dateutil = "^2.8.2"
+holidays = "^0.21.13"
+
+[tool.poetry.scripts]
+timetoc='timetoc.cli:app'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
