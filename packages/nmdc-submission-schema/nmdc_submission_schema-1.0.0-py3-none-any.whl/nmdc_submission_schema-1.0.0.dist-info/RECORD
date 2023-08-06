@@ -1,0 +1,11 @@
+README.md,sha256=Et7dg7MfauAZeW9QaBshEKmHnmmrDeJGJWLEOS4YLsw,1165
+nmdc_submission_schema/_version.py,sha256=F_pYLBCnn9mhDbU2SBcTaa4k7KKC4xHSkrKwPDGOzqM,185
+nmdc_submission_schema/datamodel/__init__.py,sha256=qjGfP8GDV4764WRS_Q4VEEqwjo3ZWdaKTwe7dCoHW1g,38
+nmdc_submission_schema/datamodel/nmdc_submission_schema.py,sha256=9bxULpoc-YMRhkzkyJKDN53cNqjR6M2NGM3k6etpzPE,1021476
+nmdc_submission_schema/datamodel/resort_pipeds.py,sha256=WNcXwRU7FuR4VfCnF87pJgwbIaPCzHUtH9UwCSXUl1U,1345
+nmdc_submission_schema/schema/nmdc_submission_schema.yaml,sha256=qbxoemPSPKsM0_j3C-p1_THBvQA3elDKAa5KcJUAzLI,1508195
+nmdc_submission_schema/schema/placeholder.md,sha256=7uFop22GVqUAE6wNLRwEXIxihYF31iaGX9l9RVMkTC4,112
+nmdc_submission_schema-1.0.0.dist-info/LICENSE,sha256=OWtLWZQ7cguMhj2OGCOj_fAORUi5MDswPjJ6RF_lYw8,1086
+nmdc_submission_schema-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nmdc_submission_schema-1.0.0.dist-info/METADATA,sha256=Ibv_vbBwnaLzjjMqlVu13Qh2Ir6-ifL7g1B3USDszOg,1830
+nmdc_submission_schema-1.0.0.dist-info/RECORD,,
