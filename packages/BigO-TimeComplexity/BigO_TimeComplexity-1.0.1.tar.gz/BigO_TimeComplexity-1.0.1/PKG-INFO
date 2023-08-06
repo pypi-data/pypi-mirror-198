@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: BigO_TimeComplexity
+Version: 1.0.1
+Summary: Calculates time complexity for size N
+Home-page: https://github.com/Muralim1585/BigO_TimeComplexity
+Download-URL: https://github.com/Muralim1585/BigO_TimeComplexity/archive/refs/tags/v_1.0.1.tar.gz
+Author: Murali
+Author-email: muraliseattle85@gmail.com
+License: MIT
+Keywords: BigO,Time Complexity,Optimization
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
