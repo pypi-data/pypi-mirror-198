@@ -1,0 +1,10 @@
+*.xlsx
+*.bak
+*.pyc
+*.tif
+Imgs/*
+!/src/*.txt
+__pycache__/
+dist/
+pyproject.toml
+PY_VAR4
