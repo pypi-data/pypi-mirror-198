@@ -1,0 +1,29 @@
+dateparser>=1.1.2
+lxml>=4.9.2
+python-dateutil>=2.8.2
+urllib3<2,>=1.26
+
+[:python_version < "3.7"]
+backports-datetime-fromisoformat
+charset_normalizer>=3.0.1
+
+[:python_version >= "3.7"]
+charset_normalizer>=3.1.0
+
+[all]
+urllib3[brotli]
+
+[all:python_version < "3.11"]
+cchardet>=2.1.7
+
+[all:python_version >= "3.11"]
+faust-cchardet>=2.1.18
+
+[speed]
+urllib3[brotli]
+
+[speed:python_version < "3.11"]
+cchardet>=2.1.7
+
+[speed:python_version >= "3.11"]
+faust-cchardet>=2.1.18
