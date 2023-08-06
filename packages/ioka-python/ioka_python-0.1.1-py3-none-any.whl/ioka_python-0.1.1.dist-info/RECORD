@@ -1,0 +1,10 @@
+ioka_python/__init__.py,sha256=krWzb4kRBZB43M-BrLrpg9R92Lipu4Qe0Xp1KmusNTA,99
+ioka_python/api_resources/__init__.py,sha256=0WNlCACgDOhGZJI637zHmWqhcSkWnSK-Y7NocAqSRaY,222
+ioka_python/api_resources/abstract/api_resource.py,sha256=hVpGF38LvyS0dOTc3XV944u-INinr_ltfnNLNlCyw-k,1719
+ioka_python/api_resources/customer.py,sha256=4DEab_SrSLEBfgGnLG_8uoITaDyJmlG7VAFoCWuG6M8,946
+ioka_python/api_resources/dashboard.py,sha256=aI90CQUh8RijFBzc6YZcj1Fy6QGwZka-DDuID8mm6Ss,475
+ioka_python/api_resources/order.py,sha256=2DcKIaAGI1D0jH_R-SdaBl-KpLapyko35b-4XNv7Z1U,1688
+ioka_python/api_resources/payment.py,sha256=wbVHhn7lkvWEOmHPFRBgaFu2EkKGm_SdmizRTa0aeoE,539
+ioka_python-0.1.1.dist-info/METADATA,sha256=Q1WCx3x2lgnl79Ngk6cR-ArWCm_O_eJpWxtXUrUCA3E,1072
+ioka_python-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+ioka_python-0.1.1.dist-info/RECORD,,
