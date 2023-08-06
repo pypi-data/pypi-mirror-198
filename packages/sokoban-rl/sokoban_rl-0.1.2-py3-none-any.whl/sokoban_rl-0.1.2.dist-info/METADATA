@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sokoban-rl
+Version: 0.1.2
+Summary: Application of reinforcement learning to the sokoban game
+Home-page: https://github.com/jaanerator/sokoban-rl
+Author: Sumin Cho
+Author-email: absmjo@gmail.com
+License: MIT
+Keywords: sokoban,reinforcement learning,reinforcement,rl,dl,ai,cnn,dqn
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: gym (==0.25.2)
+Requires-Dist: keras (==2.9.0)
+Requires-Dist: keras-rl2 (==1.0.5)
+Requires-Dist: matplotlib (>=3.5.3)
+Requires-Dist: numpy (==1.21.6)
+Requires-Dist: scikit-image (==0.18.3)
+Requires-Dist: tensorflow (==2.9.2)
+
+UNKNOWN
+
+
