@@ -1,0 +1,12 @@
+snap_pslg/__init__.py,sha256=dvZhk7T9DnfNMXSaTpAYniswEQxCXrgYg23IRaQo-6w,188
+snap_pslg/bounding_boxes.py,sha256=DGlKkAMqjclE1yl-q-bG4J1uhb1RZdFySL0wjrRWWrI,2620
+snap_pslg/bvh.py,sha256=Tg2lOIAjFV8h8OYAgIEcyYI2HVgiWt_hDYvzDnJgdUE,9168
+snap_pslg/helpers.py,sha256=f2HluSgF6O0OH9jrVEbIqhQ09pERZKawVp01l3jFJF0,531
+snap_pslg/intersections.py,sha256=nl99XF08CIEMY3hl8zkipzVtwDGOu70LBlWetWuTLwU,6232
+snap_pslg/main.py,sha256=BiLe2EkZHoPb7gfUXkSBNFw7phQgQ39buOU3HnnvYn0,4946
+snap_pslg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snap_pslg/segments_and_pixels.py,sha256=UYlwMX81MIWiOuCpkpjwX966ksoRHvumlWZ0Ts5D4aU,2916
+snap_pslg/type_hints.py,sha256=NtEZEO484GuMeCjbEVp-gXCBVr3E0c0PJQQtM0yOdxE,427
+snap_pslg-0.2.0.dist-info/METADATA,sha256=Qjk_n-eRTq02fpNSMAz5WtYvOxPSjFM7N564B_pR-sM,2480
+snap_pslg-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+snap_pslg-0.2.0.dist-info/RECORD,,
