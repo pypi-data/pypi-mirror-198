@@ -1,0 +1,3 @@
+[console_scripts]
+analyze-library=library_analyzer.main:main
+
