@@ -1,0 +1,11 @@
+git2gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git2gpt/core.py,sha256=86UrzWRIm7WBuVFw_N5cjnZwvtUMca30VtCRy1EViTA,1998
+git2gpt/git_to_json.py,sha256=7J8tHLuF28_OkLtl87AO5qrca3mOGWU6JKgxIT4Iy4E,2303
+git2gpt/gpt4_interface.py,sha256=kuqRbObJHhrXW_z15CZd7ciIyL_q75zLeqPvke5kRbY,1593
+git2gpt/main.py,sha256=z_AYKlHBNVQuWHiskT7mFaOZk0yjMnRCyn4Jmghc6U0,4522
+git2gpt-0.1.1.dist-info/LICENSE,sha256=dLNEpDKIKDyniWs42Fm9a5EDURC7nGmFavvGCgH_ZeQ,611
+git2gpt-0.1.1.dist-info/METADATA,sha256=YgZ_7JLpp8KDJ7T0vnTWXlaQY164iGcCliPJpG3WSks,229
+git2gpt-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+git2gpt-0.1.1.dist-info/entry_points.txt,sha256=CwP1TKgf09TdE-g_jKErXFZDFtJOk5ebWq3jmbC_9qc,47
+git2gpt-0.1.1.dist-info/top_level.txt,sha256=2qIuHNUOpVnGbepk-UKM9LV_PrJDFF5AdkR6Jzwa-tA,8
+git2gpt-0.1.1.dist-info/RECORD,,
