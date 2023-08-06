@@ -1,0 +1,6 @@
+python_setup.py
+pycerberusai.egg-info/PKG-INFO
+pycerberusai.egg-info/SOURCES.txt
+pycerberusai.egg-info/dependency_links.txt
+pycerberusai.egg-info/not-zip-safe
+pycerberusai.egg-info/top_level.txt

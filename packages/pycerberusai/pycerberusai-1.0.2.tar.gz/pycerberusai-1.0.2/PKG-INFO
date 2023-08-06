@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pycerberusai
+Version: 1.0.2
+Summary: CerberusAI SDK
+Author: hiep.tran
+Author-email: hiep.tran@ncsgroup.vn
+Requires-Python: >=3.5
