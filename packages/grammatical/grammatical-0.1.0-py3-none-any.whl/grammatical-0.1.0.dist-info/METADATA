@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: grammatical
+Version: 0.1.0
+Summary: Corrects the spelling and grammar of the text using ChatGPT.
+Home-page: https://github.com/pncnmnp/grammatical
+Author: Parth Parikh
+Author-email: parthparikh1999p@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: openai
+Requires-Dist: pyperclip
+Requires-Dist: rich
+Requires-Dist: setuptools
+
+# grammatical
+
+_Corrects the spelling and grammar of the text using ChatGPT_
+
+# Install
+
+```bash
+python3 -m pip install grammatical
+```
+
+# Usage
+
+```bash
+Usage: grammatical [OPTIONS]
+
+  Corrects the spelling and grammar of the text.
+
+Options:
+  --text TEXT     Text input for grammar correction
+                  If --text flag is used, a prompt will be displayed to enter the text.
+                  By default, the most recent text from the clipboard will be used.
+
+  --api_key TEXT  OpenAI API Key
+                  By default, key from the OPENAI_API_KEY env var will be used.
+
+  --tone TEXT     Tone of the grammar correction  [default: "social media"]
+                  This can be tuned in based on the context of the text.
+                  E.g. "formal/informal setting", "academia", "reddit", etc.
+
+  --simplify      Simplify the text
+
+  --help          Show this message and exit.
+```
+
+# License
+
+Under MIT License
