@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pymesh3d
+Version: 0.0.1
+Summary: mesh extract and render by python
+Home-page: https://github.com/zhazhajust/pymesh.git
+Author: Cai Jie
+Author-email: jiecai@stu.pku.edu.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#README
+pymesh used for extract mesh from points, and plot the mesh by matplotlib or vtk.
