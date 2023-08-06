@@ -1,0 +1,13 @@
+slurm_jupyter_kernel/__init__.py,sha256=w2272QCp4TG5hSywPRWH0CkJy-f_pUh_C3tnK3D1HBM,21
+slurm_jupyter_kernel/__main__.py,sha256=TkclEvvpgcztWoJAlTKTWMo-kSIBfQVe9rxqDp1rwiI,89
+slurm_jupyter_kernel/provisioner.py,sha256=JYWUXdTbU-o0oxelTQdJ2dSM0c1_DBj1zSs0YJ_cskk,10011
+slurm_jupyter_kernel/script_template.py,sha256=M82Fa1Ma91XqdQU9Ocz2YBkHV_aKQJ_k3MnB5fAl2Ww,11523
+slurm_jupyter_kernel/kernel_scripts/ijulia.sh,sha256=cDDErnnKRwDcxofxjtPdZHi0xgYFwgtbzNYsDtUzlqg,665
+slurm_jupyter_kernel/kernel_scripts/ipython.sh,sha256=ylf86OMgDoDgDGLfX85IpLYZAHwFgHRULAa04biAqu8,554
+slurm_jupyter_kernel-1.9.data/scripts/slurmkernel,sha256=EIeGDDa7hOrL_NaApp-d6kXr7TEgUkuUPz3gM1bFPBI,18526
+slurm_jupyter_kernel-1.9.dist-info/LICENSE,sha256=-l_e0v1yg2r5bnTeJAO8V9r24iOWlnA5-JzSbmZiFsE,1079
+slurm_jupyter_kernel-1.9.dist-info/METADATA,sha256=D0XEyf42MFcZEsMt-VLL5WCO9YOD-ErjZUJpQuVrBRk,6772
+slurm_jupyter_kernel-1.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slurm_jupyter_kernel-1.9.dist-info/entry_points.txt,sha256=59XeWlopdWwqZK9Ql1W-CR4T0Qt_w_shysjt9r42ueU,120
+slurm_jupyter_kernel-1.9.dist-info/top_level.txt,sha256=mlxLtnXLh_ve_YQ9gXf4gvhm-j8p75iq84w2FqMJJhE,21
+slurm_jupyter_kernel-1.9.dist-info/RECORD,,

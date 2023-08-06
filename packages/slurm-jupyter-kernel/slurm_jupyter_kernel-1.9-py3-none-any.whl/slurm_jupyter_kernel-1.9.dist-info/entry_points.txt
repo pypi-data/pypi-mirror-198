@@ -1,0 +1,2 @@
+[jupyter_client.kernel_provisioners]
+remote-slurm-provisioner = slurm_jupyter_kernel.provisioner:RemoteSlurmProvisioner
