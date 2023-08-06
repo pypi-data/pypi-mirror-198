@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ulumislam
+Version: 1.0.0
+Summary: A Koran Concordance
+Author: Jil
+Author-email: syehpython@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pysimplegui
+Requires-Dist: pyperclip
+
