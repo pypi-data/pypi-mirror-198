@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "phable"
+version = "0.1.4"
+description = ""
+authors = ["Rick Jennings <rjennings055@gmail.com>"]
+readme = "README.rst"
+packages = [{include = "phable"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+flake8 = "^6.0.0"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
