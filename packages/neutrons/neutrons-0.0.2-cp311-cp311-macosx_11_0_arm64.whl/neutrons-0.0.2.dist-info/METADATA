@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: neutrons
+Version: 0.0.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Neutron transport simulation.
+Author: Freddy Wordingham <freddy@digilab.co.uk>
+Author-email: Freddy Wordingham <freddy@digilab.co.uk>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Neutron
+
+Neutron scattering physics simulation
+
+<div align="center">
+    <img src="./resources/images/distance.png" width="512" height="512" />
+</div>
+
+## Installation
+
+### Dependencies
+
+-   [Rust](https://www.rust-lang.org/tools/install)
+
+### Quickstart
+
+Downloading the release tool should be as simple as:
+
+```shell
+cargo install neutrons
+```
+
+Create a directory called `input`, and within it add a parameters file called `parameters.json`:
+
+```shell
+mkdir input
+touch input/parameters.json
+```
+
+The parameters file should look something like [this](./input/parameters.json).
+
+You can then run the program with:
+
+```shell
+neutrons parameters.json
+```
+
