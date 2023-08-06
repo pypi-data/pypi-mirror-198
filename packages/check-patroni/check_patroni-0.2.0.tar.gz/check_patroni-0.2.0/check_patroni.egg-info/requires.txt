@@ -1,0 +1,8 @@
+attrs!=21.1,>=17
+requests
+nagiosplugin>=1.3.2
+click>=8.0.1
+
+[test]
+pytest
+pytest-mock
