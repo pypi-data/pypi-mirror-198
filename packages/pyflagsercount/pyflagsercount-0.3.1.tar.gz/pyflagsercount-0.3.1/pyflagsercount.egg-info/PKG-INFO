@@ -1,0 +1,38 @@
+Metadata-Version: 1.0
+Name: pyflagsercount
+Version: 0.3.1
+Summary: A package for counting directed cliques in directed graphs
+Home-page: UNKNOWN
+Author: Jason P. Smith
+Author-email: jasonsmith.bath@gmail.com
+License: UNKNOWN
+Description: # flagser-count
+        A program for counting directed cliques in directed graphs, adapted from https://github.com/luetge/flagser
+        
+        A python version called pyflagsercount is available from pypi and can be installed with
+        ```sh
+        pip install pyflagsercount
+        ```
+        
+        To install from this repo, first download repository with:
+        ```sh
+        git clone --recursive https://github.com/JasonPSmith/flagser-count.git
+        ```
+        Next, compile flagser count with
+        ```
+        make
+        ```
+        
+        To verify that flagser-count has installed correctly run:
+        
+        ```sh
+        (cd test && python run_test.py && cd ..)
+        ```
+        
+        To install pyflagsercount run:
+        ```sh
+        pip install .
+        ```
+        Requirements: pyflagsercount requries numpy ≥ 1.17.0 and cmake version ≥ 3.9.
+        
+Platform: UNKNOWN
