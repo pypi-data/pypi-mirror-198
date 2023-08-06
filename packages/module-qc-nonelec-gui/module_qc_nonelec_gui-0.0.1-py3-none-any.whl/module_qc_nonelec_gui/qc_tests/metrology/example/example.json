@@ -1,0 +1,23 @@
+{
+  "moduleName": "EXAMPLE",
+  "PCB to sensor edge distance top": 0.376,
+  "PCB to sensor edge distance bottom": 0.382,
+  "PCB to ASIC edge distance left": 0.861,
+  "PCB to ASIC edge distance right": 1.121,
+  "Angle between PCB edge and sensor edge (top/left)": 89.986,
+  "Angle between PCB edge and sensor edge (top/right)": 90.023,
+  "Angle between PCB edge and sensor edge (bottom/left)": 89.984,
+  "Angle between PCB edge and sensor edge (bottom/right)": 90.02,
+  "Thickness pickup area chip1~4": [
+    0.6069499999999994, 0.5936499999999967, 0.5987899999999984,
+    0.6150099999999963
+  ],
+  "Thickness edge chip1~4": [
+    0.3558500000000002, 0.3753500000000001, 0.2761499999999959,
+    0.36254999999999704
+  ],
+  "Thickness HV capacitor": 2.2645999999999997,
+  "Thickness data connector": 1.8654499999999983,
+  "Planarity vacuum on/off": 0.015,
+  "Planarity vacuum on/off std. dev.": 0.022
+}

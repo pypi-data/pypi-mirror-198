@@ -1,0 +1,33 @@
+{
+  "compentent": "MODULE",
+  "stage": "MODULE/PARYLENE_UNMASKING",
+  "goldenmodule_path": "golden_module/ITKPIX_MODULE__PARYLENEUNMASKING",
+  "ntile": "36",
+  "nsplit": "6",
+  "version": "1.00",
+  "ref_point": {
+    "p1": [896, 476],
+    "p2": [2888, 472],
+    "p3": [898, 3302],
+    "p4": [2888, 3306],
+    "height": 3780,
+    "width": 3780
+  },
+  "backside": true,
+  "checklist": {
+    "default": {
+      "Yellow": ["Scratches", "Dusts", "Contamination", "Other"],
+      "Red": [
+        "Wirebonding Failure",
+        "Scratches",
+        "Dusts",
+        "Contamination",
+        "Damage (SMDs)",
+        "Damage (Pads)",
+        "Damage (Sensors)",
+        "Damage (FEs)",
+        "Other"
+      ]
+    }
+  }
+}

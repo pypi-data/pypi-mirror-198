@@ -1,0 +1,217 @@
+{
+  "mongoDB": { "address": "127.0.0.1", "port": "27017" },
+  "localDB_web": { "address": "127.0.0.1", "port": "5000" },
+  "QC_item": {
+    "MODULE": {
+      "test": [
+        {
+          "code": "MASS_MEASUREMENT",
+          "name": "Mass Measurement",
+          "path": "qc_tests/mass/MASS.py",
+          "confirm_path": "qc_tests/mass/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["MASS_MEASUREMENT", "MASS"]
+        },
+        {
+          "code": "FLATNESS",
+          "name": "Flatness",
+          "path": "qc_tests/flatness/flatness.py",
+          "confirm_path": "qc_tests/flatness/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["FLATNESS"]
+        },
+        {
+          "code": "WIREBOND",
+          "name": "Wirebond pull tests",
+          "path": "qc_tests/wirebond_pull/Wire_pull.py",
+          "confirm_path": "qc_tests/wirebond_pull/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["WIREBOND"]
+        },
+        {
+          "code": "WIREBONDING",
+          "name": "Wirebonding Information",
+          "path": "qc_tests/wirebonding_info/Wire_info.py",
+          "confirm_path": "qc_tests/wirebonding_info/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["WIREBONDING"]
+        },
+        {
+          "code": "POTTING",
+          "name": "Glue Information Potting",
+          "path": "",
+          "confirm_path": "",
+          "supported": false,
+          "ITkPDcode": ["POTTING"]
+        },
+        {
+          "code": "PARYLENE",
+          "name": "Parylene Properties",
+          "path": "qc_tests/parylene_properties/Parylene_prop.py",
+          "confirm_path": "qc_tests/parylene_properties/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["PARYLENE"]
+        },
+        {
+          "code": "GLUE_MODULE_FLEX_ATTACH",
+          "name": "Glue Information Module+Flex Attach",
+          "path": "qc_tests/glue_info_module_flex/Glue_info.py",
+          "confirm_path": "qc_tests/glue_info_module_flex/lib/confirm.py",
+          "supported": false,
+          "ITkPDcode": ["GLUE_MODULE_FLEX_ATTACH"]
+        },
+        {
+          "code": "THERMAL_CYCLING",
+          "name": "Thermal Cycling",
+          "path": "qc_tests/thermal_cycling/Thermal.py",
+          "confirm_path": "qc_tests/thermal_cycling/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["THERMAL_CYCLING"]
+        },
+        {
+          "code": "VISUAL_INSPECTION",
+          "name": "Visual Inspection",
+          "path": "qc_tests/vi/vi_main.py",
+          "confirm_path": "qc_tests/vi/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["OPTICAL", "VISUAL_INSPECTION"]
+        },
+        {
+          "code": "QUAD_MODULE_METROLOGY",
+          "name": "Metrology",
+          "path": "qc_tests/metrology/metrology_main.py",
+          "confirm_path": "qc_tests/metrology/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["METROLOGY_QUAD", "QUAD_MODULE_METROLOGY"]
+        },
+        {
+          "code": "SENSOR_IV",
+          "name": "Sensor IV",
+          "path": "qc_tests/ivcurve/Sensor_IV.py",
+          "confirm_path": "qc_tests/ivcurve/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["SENSOR_IV"]
+        },
+        {
+          "code": "WP_ENVELOPE",
+          "name": "Wire bonding roof envelope",
+          "path": "./qc_tests/roof_envelope/roof_envelope.py",
+          "confirm_path": "./qc_tests/roof_envelope/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["WP_ENVELOPE"]
+        }
+      ],
+      "property": [
+        {
+          "code": "RD53A_PULL-UP_RESISTOR",
+          "name": "RD53A pull-up resistor FE",
+          "path": "qc_tests/pullup/Pullup.py",
+          "confirm_path": "qc_tests/pullup/lib/confirm.py",
+          "supported": true,
+          "stage": ["MODULEWIREBONDING"],
+          "ITkPDcode": [
+            "RD53A_PULL-UP_RESISTOR1",
+            "RD53A_PULL-UP_RESISTOR2",
+            "RD53A_PULL-UP_RESISTOR3",
+            "RD53A_PULL-UP_RESISTOR4"
+          ],
+          "exception": {}
+        },
+        {
+          "code": "IREFTRIM_FE",
+          "name": "IrefTrim FE",
+          "path": "qc_tests/ireftrim/IrefTrim.py",
+          "confirm_path": "qc_tests/ireftrim/lib/confirm.py",
+          "supported": true,
+          "stage": ["MODULEWIREBONDING"],
+          "ITkPDcode": [
+            "IREFTRIM_FE1",
+            "IREFTRIM_FE2",
+            "IREFTRIM_FE3",
+            "IREFTRIM_FE4"
+          ],
+          "exception": {}
+        },
+        {
+          "code": "ORIENTATION",
+          "name": "PCB-Bare Orientation isNormal",
+          "path": "qc_tests/orientation/Orientation.py",
+          "confirm_path": "qc_tests/orientation/lib/confirm.py",
+          "supported": true,
+          "stage": ["MODULEWIREBONDING"],
+          "ITkPDcode": ["ORIENTATION"],
+          "exception": { "chip_quantity": [0, 1, 2, 3] }
+        },
+        {
+          "code": "FECHIP_VERSION",
+          "name": "FE chip version",
+          "path": "",
+          "confirm_path": "",
+          "supported": false,
+          "stage": [],
+          "ITkPDcode": ["FECHIP_VERSION"],
+          "exception": {}
+        }
+      ]
+    },
+    "BARE_MODULE": {
+      "test": [
+        {
+          "code": "MASS_MEASUREMENT",
+          "name": "Mass Measurement",
+          "path": "qc_tests/mass/MASS.py",
+          "confirm_path": "qc_tests/mass/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["MASS_MEASUREMENT"]
+        },
+        {
+          "code": "OPTICAL_INSPECTION",
+          "name": "Optical Inspection",
+          "path": "qc_tests/vi/vi_main.py",
+          "confirm_path": "qc_tests/vi/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["OPTICAL_INSPECTION"]
+        },
+        {
+          "code": "BARE_MODULE_METROLOGY",
+          "name": "Bare Module Metrology",
+          "path": "qc_tests/metrology/metrology_main.py",
+          "confirm_path": "qc_tests/metrology/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["BARE_MODULE_METROLOGY"]
+        },
+        {
+          "code": "SENSOR_IV",
+          "name": "Sensor IV",
+          "path": "qc_tests/ivcurve/Sensor_IV.py",
+          "confirm_path": "qc_tests/ivcurve/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["SENSOR_IV"]
+        }
+      ],
+      "property": [
+        {
+          "code": "MASS_MEASUREMENT",
+          "name": "Mass Measurement",
+          "path": "qc_tests/mass/MASS.py",
+          "confirm_path": "qc_tests/mass/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["MASS_MEASUREMENT"]
+        }
+      ]
+    },
+    "PCB": {
+      "test": [
+        {
+          "code": "METROLOGY",
+          "name": "Metrology",
+          "path": "qc_tests/metrology/metrology_main.py",
+          "confirm_path": "qc_tests/metrology/lib/confirm.py",
+          "supported": true,
+          "ITkPDcode": ["METROLOGY"]
+        }
+      ],
+      "property": []
+    }
+  }
+}
