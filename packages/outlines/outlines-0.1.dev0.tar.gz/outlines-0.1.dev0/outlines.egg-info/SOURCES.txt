@@ -1,0 +1,7 @@
+pyproject.toml
+outlines/__init__.py
+outlines/_version.py
+outlines.egg-info/PKG-INFO
+outlines.egg-info/SOURCES.txt
+outlines.egg-info/dependency_links.txt
+outlines.egg-info/top_level.txt
