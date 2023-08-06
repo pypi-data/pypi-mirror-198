@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aws-mfa-pt
+Version: 0.0.13
+Summary: Manage AWS MFA Security Credentials
+Home-page: https://github.com/shaun-lawrie-ptml/aws-mfa
+Author: Shaun Lawrie
+License-File: LICENSE

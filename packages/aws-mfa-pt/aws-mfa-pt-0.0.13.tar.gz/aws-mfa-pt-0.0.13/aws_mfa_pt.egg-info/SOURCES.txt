@@ -1,0 +1,14 @@
+LICENSE
+README.md
+aws-mfa
+setup.cfg
+setup.py
+aws_mfa_pt.egg-info/PKG-INFO
+aws_mfa_pt.egg-info/SOURCES.txt
+aws_mfa_pt.egg-info/dependency_links.txt
+aws_mfa_pt.egg-info/entry_points.txt
+aws_mfa_pt.egg-info/requires.txt
+aws_mfa_pt.egg-info/top_level.txt
+awsmfa/__init__.py
+awsmfa/config.py
+awsmfa/util.py
