@@ -1,0 +1,9 @@
+
+[:python_version >= "0.5.2"]
+apispec-webframeworks
+
+[:python_version >= "2.2.3"]
+Flask
+
+[:python_version >= "6.3.0"]
+apispec
