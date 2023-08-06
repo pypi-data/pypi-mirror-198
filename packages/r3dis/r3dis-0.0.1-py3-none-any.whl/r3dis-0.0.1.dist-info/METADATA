@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: r3dis
+Version: 0.0.1
+Summary: r3dis: Python implemented Redis server
+License: MIT
+Author: Netanel Revah
+Author-email: netanelrevah@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# r3dis: Python implemented Redis server
