@@ -1,0 +1,2 @@
+[console_scripts]
+powerhouse-helper = t11p_h.main:run
