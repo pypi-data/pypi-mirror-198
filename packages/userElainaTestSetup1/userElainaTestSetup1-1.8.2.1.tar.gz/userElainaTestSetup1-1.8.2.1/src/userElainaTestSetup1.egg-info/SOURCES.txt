@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/userElainaTestSetup1/__init__.py
+src/userElainaTestSetup1/aa.py
+src/userElainaTestSetup1.egg-info/PKG-INFO
+src/userElainaTestSetup1.egg-info/SOURCES.txt
+src/userElainaTestSetup1.egg-info/dependency_links.txt
+src/userElainaTestSetup1.egg-info/entry_points.txt
+src/userElainaTestSetup1.egg-info/requires.txt
+src/userElainaTestSetup1.egg-info/top_level.txt

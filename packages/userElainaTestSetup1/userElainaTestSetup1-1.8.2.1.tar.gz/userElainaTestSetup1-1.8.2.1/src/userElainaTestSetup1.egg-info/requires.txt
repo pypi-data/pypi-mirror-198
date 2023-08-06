@@ -1,0 +1,5 @@
+peppercorn
+six
+
+[dev]
+numpy
