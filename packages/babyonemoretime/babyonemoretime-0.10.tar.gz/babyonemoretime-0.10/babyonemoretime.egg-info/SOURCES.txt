@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+babyonemoretime/LICENSE
+babyonemoretime/README.MD
+babyonemoretime/__init__.py
+babyonemoretime/requirements.txt
+babyonemoretime/thirdparty.json
+babyonemoretime.egg-info/PKG-INFO
+babyonemoretime.egg-info/SOURCES.txt
+babyonemoretime.egg-info/dependency_links.txt
+babyonemoretime.egg-info/requires.txt
+babyonemoretime.egg-info/top_level.txt

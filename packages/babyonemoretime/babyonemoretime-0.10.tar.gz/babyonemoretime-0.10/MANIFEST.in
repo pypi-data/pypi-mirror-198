@@ -1,0 +1,4 @@
+include babyonemoretime/requirements.txt
+include babyonemoretime/thirdparty.json
+include babyonemoretime/README.MD
+include babyonemoretime/LICENSE
