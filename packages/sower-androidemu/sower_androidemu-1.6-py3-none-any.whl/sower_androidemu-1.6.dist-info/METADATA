@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sower-androidemu
+Version: 1.6
+Summary: sower
+Home-page: https://github.com/
+Author: sower
+Author-email: nixingzhe5969@dingtalk.com
+License: MIT License
+Keywords: sower
+Platform: any
+Requires-Dist: unicorn (==1.0.2)
+Requires-Dist: capstone (==4.0.1)
+Requires-Dist: xmltodict (>=0.11.0)
+
+UNKNOWN
+
+
