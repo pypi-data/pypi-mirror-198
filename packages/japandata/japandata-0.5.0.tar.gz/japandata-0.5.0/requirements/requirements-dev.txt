@@ -1,0 +1,6 @@
+black
+flake8
+Flake8-pyproject
+isort
+pretty-errors==1.2.25
+build
