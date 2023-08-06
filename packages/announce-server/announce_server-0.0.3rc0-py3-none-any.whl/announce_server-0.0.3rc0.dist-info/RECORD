@@ -1,0 +1,11 @@
+announce_server/__init__.py,sha256=zfLn4BMDWa12SM_lasW8FHBypDdhCQGhbZUzlKwUKQ4,168
+announce_server/__main__.py,sha256=JCo3LQH_CBYIxFvd96ULLUHP1ZiFFvtQG0NfVroEAYc,1933
+announce_server/client.py,sha256=8vx666_SBGhnaCLpftzySHVTr6wji7SlaSMItjpdKII,2022
+announce_server/decorator.py,sha256=QCJi8SGsj3x_6klE7C5GsQL2IvGmUcOw1vitvJ_vKM4,3642
+announce_server/get_ip.py,sha256=hQGXm2UVB2cCdH5ufV9eQD00d99HdMGBIzM3PbhYkEk,377
+announce_server/server.py,sha256=e95LxYBqoe19ZGZ_xwqTRBMp_VePloHJzyJuevggxMU,5056
+announce_server-0.0.3rc0.dist-info/METADATA,sha256=bYJsASnt3KWDZKeAEvMaYCWGvZU_qP8NAbiNJFkO9Yc,3033
+announce_server-0.0.3rc0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+announce_server-0.0.3rc0.dist-info/entry_points.txt,sha256=WAR-fb2vqZSS5zvYBVJnMK8Xz5evILvkL9nRjkhBltI,66
+announce_server-0.0.3rc0.dist-info/top_level.txt,sha256=TxNcxO5gc7x_4u4v3OpEkvfgYt8YsfdCLShIho0ElGk,16
+announce_server-0.0.3rc0.dist-info/RECORD,,
