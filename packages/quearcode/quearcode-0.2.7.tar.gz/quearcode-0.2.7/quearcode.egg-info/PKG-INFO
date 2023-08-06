@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quearcode
+Version: 0.2.7
+Summary: A tool for creating QR Codes
+Home-page: https://codeberg.org/gwync/quearcode
+Author: Gwyn Ciesla
+Author-email: gwync@protonmail.com
+License: GPLv3+
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: COPYING
+
+Convert strings and small files to QR Codes
