@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: geoapivietnam
+Version: 0.2.0
+Summary: Geo API for Vietnam module
+Home-page: https://github.com/tranngocminhhieu/geo-api-vietnam
+Author: Tran Ngoc Minh Hieu
+Author-email: tnmhieu@gmail.com
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: geopy
+Requires-Dist: tenacity
+Requires-Dist: unidecode
+Requires-Dist: openpyxl
+
