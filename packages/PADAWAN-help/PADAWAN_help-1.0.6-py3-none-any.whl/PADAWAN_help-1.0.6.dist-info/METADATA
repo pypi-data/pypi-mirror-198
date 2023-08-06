@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PADAWAN-help
+Version: 1.0.6
+Summary: Python Core project code
+Home-page: https://github.com/MagdaVic/PADAWAN_helper
+Author: PADAWAN TEAM
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: prompt-toolkit (==2.0.10)
+
+_instruction_
+**instruction**
+instruction

@@ -1,0 +1,11 @@
+PADAWAN-help/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PADAWAN-help/addressbook.py,sha256=TN27FuEzkZV7lVo1qpq0pilYofo8yQ7AJa8k2gRuggc,19976
+PADAWAN-help/menu.py,sha256=ulGA1Ulv4QETfV-MC2ebQwsxmak2ib-R13l4k52VGaU,1229
+PADAWAN-help/notebook.py,sha256=BIs220dYDrmgBwgdBMiiThZLJbNMJMyUEOtL_F-jP9U,8800
+PADAWAN-help/sort.py,sha256=SegQ4klZe9fFEt03XzQyU-pXxQByA_bh2DmQBqblOwk,6327
+PADAWAN_help-1.0.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PADAWAN_help-1.0.6.dist-info/METADATA,sha256=_7U3Hp2lJgZ-9oXN6RW782-lGevlMqKMiKXzSfRa1F8,338
+PADAWAN_help-1.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PADAWAN_help-1.0.6.dist-info/entry_points.txt,sha256=H3G_mQe8pRaMEbNRVfZGlmJc8NYYI5e-zTgzdPqfFQw,53
+PADAWAN_help-1.0.6.dist-info/top_level.txt,sha256=T1FvVIbxaZ5oGOsPr63PQxlzgrR4WJtRN4kB7toEWhY,13
+PADAWAN_help-1.0.6.dist-info/RECORD,,
