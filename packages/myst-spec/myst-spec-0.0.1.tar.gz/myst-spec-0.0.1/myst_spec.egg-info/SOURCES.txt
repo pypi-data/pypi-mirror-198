@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+myst_spec/__init__.py
+myst_spec/version.py
+myst_spec.egg-info/PKG-INFO
+myst_spec.egg-info/SOURCES.txt
+myst_spec.egg-info/dependency_links.txt
+myst_spec.egg-info/top_level.txt
