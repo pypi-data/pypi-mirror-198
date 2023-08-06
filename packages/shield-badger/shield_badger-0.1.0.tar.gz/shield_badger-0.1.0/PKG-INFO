@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: shield-badger
+Version: 0.1.0
+Summary: Generate and inject badges into your README automatically.
+License: MIT
+Keywords: badge,docs,documentation
+Author: mijdavis2
+Author-email: no_reply@example.com
+Requires-Python: >=3.11.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: rich (>=13.3.2,<14.0.0)
+Description-Content-Type: text/markdown
+
+<!-- START BADGE HOOK -->
+[![python](https://img.shields.io/badge/python-^3.11.0-blue?logo=python)](https://www.python.org/downloads/release/python-3112/)
+<!-- END BADGE HOOK -->
+
+# shield-badger
+
+Generate and inject badges into your README automatically.
+
+**:construction_worker: This project is under construction**
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
