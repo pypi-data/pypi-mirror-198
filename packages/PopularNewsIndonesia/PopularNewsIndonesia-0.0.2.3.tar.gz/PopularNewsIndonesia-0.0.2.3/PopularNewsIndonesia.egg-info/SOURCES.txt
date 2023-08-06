@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+PopularNews/__init__.py
+PopularNewsIndonesia.egg-info/PKG-INFO
+PopularNewsIndonesia.egg-info/SOURCES.txt
+PopularNewsIndonesia.egg-info/dependency_links.txt
+PopularNewsIndonesia.egg-info/top_level.txt
