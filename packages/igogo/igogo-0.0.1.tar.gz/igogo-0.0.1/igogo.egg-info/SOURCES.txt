@@ -1,0 +1,6 @@
+setup.py
+igogo.egg-info/PKG-INFO
+igogo.egg-info/SOURCES.txt
+igogo.egg-info/dependency_links.txt
+igogo.egg-info/top_level.txt
+src/example.py

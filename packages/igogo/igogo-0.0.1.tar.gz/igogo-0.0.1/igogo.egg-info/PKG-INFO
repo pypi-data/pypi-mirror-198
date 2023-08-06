@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: igogo
+Version: 0.0.1
+Summary: Execute sevaral jupyter cells simultaneously
+Home-page: http://packages.python.org/igogo
+Author: Alex Dremov
+Author-email: igogo@alexdremov.me
+License: MIT
+Keywords: jupyterlab ipython jupyter execute tools python
