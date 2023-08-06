@@ -1,0 +1,11 @@
+networkx
+
+[:python_version < "3.11"]
+tomli
+
+[testing]
+pytest
+
+[visualize]
+pygraphviz
+matplotlib
