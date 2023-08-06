@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: flasket-gitlab
+Version: 0.2.0
+Summary: A flasket plugin.
+Author-email: Julien Lecomte <julien@lecomte.at>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/jlecomte/python/flasket-gitlab
+Project-URL: Documentation, https://jlecomte.gitlab.io/python/flasket_gitlab/
+Project-URL: Source code, https://gitlab.com/jlecomte/python/flasket-gitlab
+Project-URL: Bug tracker, https://gitlab.com/jlecomte/python/flasket-gitlab/-/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flasket (>0.12.1)
+Requires-Dist: python-gitlab
+
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://spdx.org/licenses/MIT.html)
+[![pipelines](https://gitlab.com/jlecomte/flasket-gitlab/badges/master/pipeline.svg)](https://gitlab.com/jlecomte/flasket-gitlab/pipelines)
+[![coverage](https://gitlab.com/jlecomte/flasket-gitlab/badges/master/coverage.svg)](https://jlecomte.gitlab.io/python/flasket_gitlab/coverage/index.html)
+
+# flasket-gitlab
+
+Lorem ipsum sit dolor amet
+
+## Installation from PyPI
+
+You can install the latest version from PyPI package repository.
+
+~~~bash
+python3 -mpip install -U flasket_gitlab
+~~~
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Locations
+
+  * GitLab: [https://gitlab.com/jlecomte/flasket-gitlab](https://gitlab.com/jlecomte/flasket-gitlab)
+  * PyPi: [https://pypi.org/project/flasket_gitlab](https://pypi.org/project/flasket_gitlab)
