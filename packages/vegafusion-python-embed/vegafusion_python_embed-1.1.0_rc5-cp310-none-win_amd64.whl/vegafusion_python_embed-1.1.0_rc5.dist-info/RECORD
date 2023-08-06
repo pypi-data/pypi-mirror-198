@@ -1,0 +1,5 @@
+vegafusion_python_embed-1.1.0_rc5.dist-info/METADATA,sha256=fZHIMIrRpcEw44ESzkQ3CTF0lxU_499G7x1dmGqYoGk,399
+vegafusion_python_embed-1.1.0_rc5.dist-info/WHEEL,sha256=Q00C7Q5gHQhJPWmTrrGzAUOwYyn3GhoUzJ9Um9Q0yY8,97
+vegafusion_embed/__init__.py,sha256=ALw-87gPvf2U_MWrJBWksMWVEnvQFptMC3XQ-JzW3kM,147
+vegafusion_embed/vegafusion_embed.cp310-win_amd64.pyd,sha256=F8-7Z0yQ6pXPfJ0dtaOfUeveSK7-afNkYy2_QHQEhM4,52137472
+vegafusion_python_embed-1.1.0_rc5.dist-info/RECORD,,
