@@ -1,0 +1,14 @@
+clasp/__init__.py,sha256=8JtcKFz2O5W2smJDOWq_bThQokxzouSVcA55GtClHfI,328
+clasp/click_callbacks.py,sha256=ZzCGfa8wh6eKgTVNr0FSUcUdlQ7s5wDtr0ARSAFjyCg,12186
+clasp/click_ext.py,sha256=ImyHygZFJ2gLOn5skrf7ZB4gA7NjQyF2dr-k9yUDD6k,20383
+clasp/click_types.py,sha256=sGO-KWz3-LX_-oDg_zpJhdcJzvDU1yYqLAENFAaG2mI,1202
+clasp/script_tools.py,sha256=A1uCbtLCig09ZLAYug0scN5Ir7bedqp8ide2cD1UgEU,20868
+clasp/sphinx_click_ext.py,sha256=Zl4-P_gBavSk6jlL8l2TtfwuAGVFJNtXFwrErI1Is2E,4637
+clasp/templates.py,sha256=QqzHDaHqWnoIk7Y8dDqed71pEO9tKUz5AJaqHG9i7Xc,1119
+clasp-1.1.9.dist-info/LICENSE,sha256=25xxJSY6vTn8ECjnbcCoQt-U9wkEJ7HdEE98i2L96zY,14847
+clasp-1.1.9.dist-info/METADATA,sha256=dlbi_4La7BSLH44DL8UVbvnWXtDL3d-7ZXf-kGKDAyY,5853
+clasp-1.1.9.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+clasp-1.1.9.dist-info/entry_points.txt,sha256=WVKCzGcAnFZeqYTJHaknYC5jKb0z3b6XTtRs6f3M2PY,56
+clasp-1.1.9.dist-info/top_level.txt,sha256=T_SwHcdFzkOywoTAaLNPpLympoVWvYz-r0KlJCWux-8,6
+clasp-1.1.9.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+clasp-1.1.9.dist-info/RECORD,,
