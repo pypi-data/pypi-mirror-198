@@ -1,0 +1,14 @@
+lxml
+pandas
+urllib3
+openpyxl
+
+[notebook]
+jupyter
+notebook
+ipykernel
+matplotlib
+
+[test]
+pytest
+urllib
