@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+IGram/__init__.py
+IGram.egg-info/PKG-INFO
+IGram.egg-info/SOURCES.txt
+IGram.egg-info/dependency_links.txt
+IGram.egg-info/requires.txt
+IGram.egg-info/top_level.txt
