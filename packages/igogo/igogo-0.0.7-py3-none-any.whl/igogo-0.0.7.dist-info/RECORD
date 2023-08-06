@@ -1,0 +1,12 @@
+igogo/__init__.py,sha256=G0idWGQZOtfGH_qw5FHVePKBeLgFHQTFXb3C_uGA8rQ,586
+igogo/context.py,sha256=LoMKgvMKsl1EhfWVb7nYZ4QiLTZ2aKkHqDHFQUwBLG8,927
+igogo/core.py,sha256=hTA_WCcrQ4mDO4Y0kC5Zn5gs3TXniR8x-DIQCRlGosE,6999
+igogo/exceptions.py,sha256=pw3B9bR-rPqizetgTNXvLhe36O9b5-qqf2s9TDW7kgQ,592
+igogo/loaders.py,sha256=FtExeHo-KUv9Krv7luLz_XwrcEBQfcy3FHxcXxwgZL0,1695
+igogo/magic.py,sha256=KmpWKWpQ92EXECw5Lq3gvJrSMcSKBkIKDMlOZCpbJ5w,993
+igogo/output.py,sha256=vXQ_VlgZykGxNnZsxmlLHY-bXSlh9-_-1VmyimF0jkI,3252
+igogo/yielder.py,sha256=3gQFFXFeMbcoAQrkKnGXjdEwzMBuiFBCYs8VI0cXlhs,680
+igogo-0.0.7.dist-info/METADATA,sha256=jMf-aNS3r7k2E50CS2hU_VIuu77yr8Wslltqx9LjWjE,1990
+igogo-0.0.7.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+igogo-0.0.7.dist-info/licenses/LICENSE,sha256=LYxl-hvolqsL8z9zm5mq4RE1HndQk_vtDmRKauerx-M,1073
+igogo-0.0.7.dist-info/RECORD,,
