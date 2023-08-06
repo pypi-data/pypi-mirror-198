@@ -1,0 +1,4 @@
+[console_scripts]
+xgit = xgit.xgit_command:main
+xgit-summary = xgit.xgit_summary:main
+
