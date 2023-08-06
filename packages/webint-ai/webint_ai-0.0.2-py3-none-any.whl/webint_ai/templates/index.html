@@ -1,0 +1,12 @@
+$def with (models)
+$var title: AI
+
+<form action=/chat method=post>
+$# <label>Model <select name=model>
+$# $for model in models.data:
+$#     <option value=$model.id>$model.id</option>
+$# </select></label>
+$# <label><br>
+<textarea name=request style=height:12em;width:100%></textarea>
+<div style=text-align:right;><button>Send</button></div>
+</form>
