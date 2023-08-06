@@ -1,0 +1,8 @@
+README.txt
+setup.py
+learndatascience/__inti__.py
+learndatascience/ds.py
+learndatascience.egg-info/PKG-INFO
+learndatascience.egg-info/SOURCES.txt
+learndatascience.egg-info/dependency_links.txt
+learndatascience.egg-info/top_level.txt
