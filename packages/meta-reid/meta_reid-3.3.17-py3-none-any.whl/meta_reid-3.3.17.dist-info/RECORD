@@ -1,0 +1,14 @@
+metareid/__init__.py,sha256=PVMjxjH6HRNimLeG8BclLzTv8sAxya7Ue4-HJCRezn0,44
+metareid/app/__init__.py,sha256=6bmOQ48TgFnTFDBjupqFwFM2YPlJCluFiU_O8JgzRRY,83
+metareid/app/onnx_to_trt.py,sha256=cdfOnnUyNPYBsbse_7oPgZfQWJZvRjnl5wkYOQv1tXQ,594
+metareid/app/reid_inference_trt.py,sha256=L13P9DQNlGhs8CdR4qIZgUbX_7kJkyqkOkzA0qcog2k,4229
+metareid/model_zoo/__init__.py,sha256=fU7MLWJtOBxLhDzP2DN_xMjrecKpRxlpj4SVbtIgTI4,67
+metareid/model_zoo/trt_engine.py,sha256=pX81e-FnZNXw4yEwPERLHqVCEYg3XzSXakHXbstSAiQ,4758
+metareid/model_zoo/trt_export.py,sha256=rUiDis33mQHb2UwH3H2k_VMER-ZPxvHFyFfxqo_IKEM,3721
+metareid/utils/__init__.py,sha256=qZet64gMJNAAqzUdEqCV5WDk5D2Dbw1Kxlt9Jo6x3m4,23
+metareid/utils/general.py,sha256=f_Bms4K32z_o2oJs6HrYkvfCF0WMrf5Y0cPmSa8sdVo,608
+meta_reid-3.3.17.dist-info/METADATA,sha256=5lrPbaLa3ULKg67iiZ-_mx2qiiphxgaGtDyIb6WO1mA,466
+meta_reid-3.3.17.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+meta_reid-3.3.17.dist-info/top_level.txt,sha256=KEhomnPwetEH-VuE8NbyNqwMxwbc134wpJR1i7Bn55M,9
+meta_reid-3.3.17.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+meta_reid-3.3.17.dist-info/RECORD,,
