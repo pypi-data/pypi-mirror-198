@@ -1,0 +1,15 @@
+pydra/tasks/fsl/__init__.py,sha256=KUZw4YbygGrU1zsF8pg1oHRZtAMFKPMm9sNjmti6wqU,515
+pydra/tasks/fsl/bet.py,sha256=PscfwKJwtVaoSWibfchNLDk17s3YJq_A2b-E2e79s7Q,4137
+pydra/tasks/fsl/convert_xfm.py,sha256=dPkhu7R5vy8XTVSOOagDnkVehXh6X4QSc-DSgYKK2F8,1672
+pydra/tasks/fsl/eddy.py,sha256=sZeUQbFdSJH4RcSCAnnxeQ0HdyztUUkW_dbhTTlwYaM,12361
+pydra/tasks/fsl/fast.py,sha256=mS9EEXIreXkeo4QjoQiuUKX8JEzPRu-60ZzyDhxmOpA,5652
+pydra/tasks/fsl/flirt.py,sha256=EFf6qdOnPvUjx5uaSQUXJbJV7Mu0QbFxKu87eGqVVrY,4142
+pydra/tasks/fsl/fnirt.py,sha256=QlZ80jJP0U2iS9cMr7Kou87ec1pgm7auO_gk0oTUtYA,1088
+pydra/tasks/fsl/fslmerge.py,sha256=W-BwL3J7e3xdrYAnWdrO0yeA2I8lp4z5yWSSMbidUh0,1737
+pydra/tasks/fsl/fslreorient2std.py,sha256=bkGb86BZlCkLGUQwzHcyTZOjEZqsEbXCoCA2MLSJS8A,1482
+pydra/tasks/fsl/fslroi.py,sha256=kkHvYvdrwqgIOYMbOkFgSZ5lWhOleDhERO3GZ1tYf6g,3042
+pydra/tasks/fsl/robustfov.py,sha256=2E91qY6sXgG-0JpW6L6Uc5rqNSXvnAu-FnV8Vt-3RSc,1519
+pydra_fsl-0.0.1.dist-info/METADATA,sha256=xiP7JCUnpkHvP_h1Rn8Q6iJi9m-B1S_gkVyqfdFzEjM,2946
+pydra_fsl-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pydra_fsl-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydra_fsl-0.0.1.dist-info/RECORD,,
