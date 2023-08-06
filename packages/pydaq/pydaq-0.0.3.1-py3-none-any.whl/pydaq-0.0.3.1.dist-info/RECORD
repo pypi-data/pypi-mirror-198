@@ -1,0 +1,11 @@
+pydaq/get_data.py,sha256=oIR9WpBiHpq5LidyGzMQ5i0qF29Wwd-yEjHC5el1QyI,16124
+pydaq/send_data.py,sha256=eDyEyEl8bfAhDPkVY8EaRQAFbYSccPP7ulO6qx9Pp4Y,14684
+pydaq/step_response.py,sha256=mKwaJWtGwhWhfgcgyDWUTKWQE1CyK4unZimvbMy_bGA,19626
+pydaq/arduino_code/arduino_code.ino,sha256=8AtFsUHcMYRxLRDOIuzApnDOobfrTTYPDQ7omoTn3TM,1474
+pydaq/tests/tests_pydaq.py,sha256=wgQ1OzoEgHwc_A0jen6lob2O94DjSkuSLqG3wntspPs,3729
+pydaq/utils/base.py,sha256=DNuIvq7_FJp-X2uXgOc0XjVy5JlFIMdjwjSYvBePsDA,4938
+pydaq-0.0.3.1.dist-info/LICENSE,sha256=eYHf-a3st3bS5K_030PWuQe-3u_abQFLbfp_SKCIB48,1554
+pydaq-0.0.3.1.dist-info/METADATA,sha256=SCTXeVVbBvJ7_jE8rzlEpzP15EF1yrth2BbdoIm-ZM0,10770
+pydaq-0.0.3.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pydaq-0.0.3.1.dist-info/top_level.txt,sha256=BSMmgpUAuylOFMHWboVZQqFsAKfCVLUe01kwLT8OIs4,6
+pydaq-0.0.3.1.dist-info/RECORD,,
