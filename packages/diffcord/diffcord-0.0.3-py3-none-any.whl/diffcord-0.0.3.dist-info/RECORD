@@ -1,0 +1,10 @@
+diffcord/__init__.py,sha256=b2evGjxwPP-3DNvY9MDS2bfmI5NENbOwzcnjP2uYsOU,86
+diffcord/api.py,sha256=dN8Qzed3r6J-FbFHY1wPPdfWSDB9YpPP9aJelHCdXMY,2120
+diffcord/client.py,sha256=Z9UNtWb5bqQ_f2TRJlwekzwNBdreICZvEd53i1XVI2g,5565
+diffcord/error.py,sha256=VzAgJOG_pa2XvS3e3NjuV5Z0q7sNyIQlhDEbWNxoTkE,2151
+diffcord/vote.py,sha256=LNp8SGTE-3ZUFFo2SeSNPwhjjD96DT195-K4inbVbj4,3004
+diffcord-0.0.3.dist-info/LICENSE,sha256=0rPjRzwSt7aI_gXR9UY-2MDx6eZhsbt_oky_6FHgWLE,1094
+diffcord-0.0.3.dist-info/METADATA,sha256=WUWbUlF6i-HqYb785zBrWhtl3_YXo8-JZegW6XEA4cE,2780
+diffcord-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+diffcord-0.0.3.dist-info/top_level.txt,sha256=zD6y1O2bjE0bKFpdqK5yEDrQPt2EAyqCi3DTA2obCrA,9
+diffcord-0.0.3.dist-info/RECORD,,
