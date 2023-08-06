@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Gaiatri
+Version: 0.0.6
+Summary: Process and analyse personal geo-data.
+Home-page: UNKNOWN
+Author: MotherBunker (A.N.A. Martam)
+Author-email: <motherrrcorp@gmail.com>
+License: UNKNOWN
+Keywords: python,geospatial,geographical information systems,telemetry
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+A user-centric Python library for processing and analysing GNSS data, telemetry data, and other spatial-temporal data.
+
+
