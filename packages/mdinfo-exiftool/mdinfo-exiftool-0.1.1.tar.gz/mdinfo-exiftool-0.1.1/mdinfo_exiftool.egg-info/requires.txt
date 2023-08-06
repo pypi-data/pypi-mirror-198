@@ -1,0 +1,10 @@
+mdinfo
+
+[dev]
+pytest
+bump2version
+cogapp
+freezegun
+doit
+build
+m2r2
