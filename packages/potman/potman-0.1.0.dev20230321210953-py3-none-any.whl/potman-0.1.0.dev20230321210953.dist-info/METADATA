@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: potman
+Version: 0.1.0.dev20230321210953
+Summary: A library the provides easy access to data stored in a Feast feature store.
+Home-page: https://github.com/phohenecker/potman
+Author: Patrick Hohenecker
+Author-email: patrick.hohenecker@gmx.at
+License: Simplified BSD License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyjsonthing (<1,>=0.3.0)
+Requires-Dist: dulwich (<1,>=0.21.3)
+Requires-Dist: feast[aws] (<1,>=0.29.0)
+Requires-Dist: tabulate (<1,>=0.9.0)
+Requires-Dist: termcolor (<3,>=2.2.0)
+Requires-Dist: typeguard (<3,>=2.13.3)
+
+`potman` 🤵
+===========
+
+
+
+✍️ Authors
+------------------------------------------------------------------------------------------------------------------------
+
+
+* Patrick Hohenecker ([patrick.hohenecker@gmx.at](mailto:patrick.hohenecker@gmx.at))
