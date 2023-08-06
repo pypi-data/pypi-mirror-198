@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/makemake
+makemake/__init__.py
+makemake/makemake.py
+makemake.egg-info/PKG-INFO
+makemake.egg-info/SOURCES.txt
+makemake.egg-info/dependency_links.txt
+makemake.egg-info/not-zip-safe
+makemake.egg-info/top_level.txt
+tests/tests.py
