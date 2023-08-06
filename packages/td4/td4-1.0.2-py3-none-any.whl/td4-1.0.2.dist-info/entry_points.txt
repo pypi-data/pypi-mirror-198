@@ -1,0 +1,3 @@
+[console_scripts]
+td4=td4.emulate:emulator
+
