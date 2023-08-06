@@ -1,0 +1,8 @@
+README.md
+setup.py
+CMDFormatter.egg-info/PKG-INFO
+CMDFormatter.egg-info/SOURCES.txt
+CMDFormatter.egg-info/dependency_links.txt
+CMDFormatter.egg-info/top_level.txt
+cmdformatter/__init__.py
+cmdformatter/cmdformatter.py
