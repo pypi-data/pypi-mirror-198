@@ -1,0 +1,32 @@
+import os
+from setuptools import setup, find_packages
+
+setup_py_dir = os.path.dirname(os.path.realpath(__file__))
+need_files = []
+datadir = "data"
+hh = setup_py_dir + "/" + datadir
+for root, dirs, files in os.walk(hh):
+   for fn in files:
+      ext = os.path.splitext(fn)[1][1:]
+      if ext and ext in 'yaml index meta data-00000-of-00001 png gif jpg urdf sdf obj txt mtl dae off stl STL xml gin npy '.split():
+         fn = root + "/" + fn
+         need_files.append(fn[1 + len(hh):])
+
+setup(
+   name='pybullet_suite',
+   version='0.0.3', 
+   description='Pybullet wrapper for easy use',
+   author='Kanghyun Kim',
+   author_email='kh11kim@kaist.ac.kr',
+   install_requires=[
+      "numpy",
+      "scipy",
+      "pybullet",
+      "trimesh"
+   ],
+   packages=find_packages(),  #same as name
+   package_data={"pybullet_suite_data": need_files}
+)
+
+# python setup.py sdist bdist_wheel
+# twine upload dist/*
