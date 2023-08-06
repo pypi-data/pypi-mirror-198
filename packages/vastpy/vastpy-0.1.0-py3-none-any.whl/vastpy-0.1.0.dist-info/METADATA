@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: vastpy
+Version: 0.1.0
+Summary: 
+Author: Alon Horev
+Author-email: alon@vastdata.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: urllib3 (>=1.2,<2.0)
+Description-Content-Type: text/markdown
+
+
+VASTPY
+======
+
+This package is a Python SDK to the VMS (VAST Management System) REST API.
+
+Useage
+------
+
+    from vastpy import VASTClient
+
+    # print all views
+    client = VASTClient(user='admin', password='123456', address='vast-file-server-vms-kfs2')
+    for view in client.views.get():
+        print(view)
+
+    # find the default view policy
+    policies = client.viewpolicies.get()
+    default, = [i for i in policies if i['name'] == 'default']
+
+    # create a new
+    view = client.views.post(path='/prod/pgsql', policy_id=default['id'], create_dir=True)
+    print(view)
+
