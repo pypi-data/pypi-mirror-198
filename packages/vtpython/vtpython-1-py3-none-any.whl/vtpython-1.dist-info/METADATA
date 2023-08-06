@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vtpython
+Version: 1
+Summary: A very simple API to communicate with the VirusTotal V3 API
+Home-page: UNKNOWN
+Author: Mateo Mrvelj
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
