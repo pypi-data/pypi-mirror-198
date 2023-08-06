@@ -1,0 +1,13 @@
+overture_song/__init__.py,sha256=duL83LdHErx9sUWuRxqJ0YLiG1zNxFoyV5RtM_c3oIM,1359
+overture_song/client.py,sha256=GEHBm3cD0NT6lURJjBzqnOpkY8W1za37tCsAyrrOWSY,10934
+overture_song/entities.py,sha256=khhyrqDpTkPSA68HhanyLB-8XJnNl1SSgWwR5VZREtk,10406
+overture_song/model.py,sha256=F_PiafvZOefVRu15kaQd-dziRK8Bizuv6K-liTkrp-Q,8776
+overture_song/rest.py,sha256=SYY73Qtyzg2T2UUjnh9I6DPoi6B8QzSsXznBC9WxfUQ,4777
+overture_song/tools.py,sha256=usS6h19tuzKjyAG2_Wm7yAccTk25K2XrL_aJGq5Ic4U,18479
+overture_song/utils.py,sha256=HDaGrZnWAs-XADyzxPSL_MFCF1qD4-VOxVMnQOcBdAs,9148
+overture_song/validation.py,sha256=ZJIuMm2QWITHv40nWDPMf4VxGXesdr9Ow5a5oG8ACfU,5451
+overture_song-5.0.0.dist-info/LICENSE.txt,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+overture_song-5.0.0.dist-info/METADATA,sha256=Is7KQi7TazCxhlq2g90LjfKzxuk7-Dd5eCYTwnubICc,1628
+overture_song-5.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+overture_song-5.0.0.dist-info/top_level.txt,sha256=Hn_eeUUXYRx-JrGUgNgpCWGlSdXFvF15TGwSR36mZC0,14
+overture_song-5.0.0.dist-info/RECORD,,
