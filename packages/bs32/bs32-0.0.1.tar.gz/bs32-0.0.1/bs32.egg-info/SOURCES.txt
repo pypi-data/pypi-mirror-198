@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bs32/__init__.py
+bs32.egg-info/PKG-INFO
+bs32.egg-info/SOURCES.txt
+bs32.egg-info/dependency_links.txt
+bs32.egg-info/requires.txt
+bs32.egg-info/top_level.txt
