@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pymouser/__init__.py
+pymouser/mouser.py
+pymouser.egg-info/PKG-INFO
+pymouser.egg-info/SOURCES.txt
+pymouser.egg-info/dependency_links.txt
+pymouser.egg-info/top_level.txt
