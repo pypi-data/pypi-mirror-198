@@ -1,0 +1,2 @@
+[console_scripts]
+testpg = testpg.shell:run
