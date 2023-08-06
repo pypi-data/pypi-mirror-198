@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mdinfo-exiftool
+Version: 0.1.0
+Summary: Exiftool plugin for mdinfo
+Author-email: Rhet Turnbull <rturnbull+git@gmail.com>
+License: MIT License
+Project-URL: homepage, https://github.com/RhetTbull/mdinfo-exiftool
+Project-URL: repository, https://github.com/RhetTbull/mdinfo-exiftool
+Keywords: exiftool,mdinfo,metadata,cli,plugin
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: mdinfo
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: cogapp ; extra == 'dev'
+Requires-Dist: freezegun ; extra == 'dev'
+Requires-Dist: doit ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: m2r2 ; extra == 'dev'
+
