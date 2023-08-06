@@ -1,0 +1,11 @@
+include VERSION
+include webiam/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include webiam VERSION
+recursive-include webiam **.html
+recursive-include webiam **.j2
+recursive-include webiam **.json
+recursive-include webiam **.yaml
+recursive-include webiam **.xml
