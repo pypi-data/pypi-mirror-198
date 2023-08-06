@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+LazyVideoReader/__init__.py
+LazyVideoReader/lazy_video_reader.py
+LazyVideoReader.egg-info/PKG-INFO
+LazyVideoReader.egg-info/SOURCES.txt
+LazyVideoReader.egg-info/dependency_links.txt
+LazyVideoReader.egg-info/requires.txt
+LazyVideoReader.egg-info/top_level.txt
