@@ -1,0 +1,3 @@
+[console_scripts]
+makeqr=chatushka.__main__:main
+
