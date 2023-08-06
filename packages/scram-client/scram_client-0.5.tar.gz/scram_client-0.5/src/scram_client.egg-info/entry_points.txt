@@ -1,0 +1,2 @@
+[console_scripts]
+scram-client = scram_client.cli:main
