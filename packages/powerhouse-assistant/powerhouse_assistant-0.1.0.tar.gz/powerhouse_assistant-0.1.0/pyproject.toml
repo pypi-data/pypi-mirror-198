@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "powerhouse-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "powerhouse_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prompt-toolkit = "^3.0.38"
+prettytable = "^3.6.0"
+pygame = "^2.3.0"
+
+[tool.poetry.plugins."powerhouse_assistant"]
+start = "powerhouse_assistant.powerhouse_assistant.__main__.py:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
