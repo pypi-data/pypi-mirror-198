@@ -1,0 +1,59 @@
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.2.2",
+]
+lint = [
+    "pre-commit>=3.2.0",
+    "commitizen>=2.42.1",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.1"
+tag_format = "$version"
+version_files = [
+    "pyproject.toml:^version",
+]
+
+[tool.pyright]
+include = [
+    "src",
+]
+exclude = [
+    "**/__pycache__.py",
+]
+pythonVersion = "3.11"
+pythonPlatform = "Any"
+typeCheckingMode = "strict"
+reportShadowedImports = true
+reportCallInDefaultInitializer = true
+reportImplicitStringConcatenation = true
+reportPropertyTypeMismatch = true
+reportUninitializedInstanceVariable = true
+reportUnnecessaryTypeIgnoreComment = true
+reportUnusedCallResult = true
+extraPaths = [
+    "__pypackages__/3.11/lib",
+]
+
+[project]
+name = "simplify_polyline"
+version = "0.0.1"
+description = "Simplify an open or closed polyline."
+authors = [
+    { name = "Shay Hill", email = "shay_public@hotmail.com" },
+]
+dependencies = [
+    "numpy>=1.24.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
