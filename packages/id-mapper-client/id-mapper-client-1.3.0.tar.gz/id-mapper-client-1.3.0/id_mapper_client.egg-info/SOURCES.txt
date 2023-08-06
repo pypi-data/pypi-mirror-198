@@ -1,0 +1,14 @@
+README.md
+setup.py
+id_mapper_client.egg-info/PKG-INFO
+id_mapper_client.egg-info/SOURCES.txt
+id_mapper_client.egg-info/dependency_links.txt
+id_mapper_client.egg-info/top_level.txt
+mapper/__init__.py
+mapper/client.py
+mapper/errors.py
+mapper/partner.py
+test/test_identifier_mapper_client.py
+test/test_partner_api.py
+test/test_post_pairs_api.py
+test/test_uuid_link_api.py
