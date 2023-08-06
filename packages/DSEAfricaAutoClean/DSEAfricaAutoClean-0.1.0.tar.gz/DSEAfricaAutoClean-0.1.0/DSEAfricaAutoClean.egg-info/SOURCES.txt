@@ -1,0 +1,6 @@
+setup.py
+DSEAfricaAutoClean.egg-info/PKG-INFO
+DSEAfricaAutoClean.egg-info/SOURCES.txt
+DSEAfricaAutoClean.egg-info/dependency_links.txt
+DSEAfricaAutoClean.egg-info/requires.txt
+DSEAfricaAutoClean.egg-info/top_level.txt
