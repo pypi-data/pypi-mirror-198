@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: clairvoyance2
+Version: 0.0.0
+Summary: clairvoyance2: a Unified Toolkit for Medical Time Series
+Home-page: https://www.vanderschaar-lab.com/
+Author: Evgeny Saveliev
+Author-email: e.s.saveliev@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: torch
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: unlzw3
+Requires-Dist: dotmap
+Requires-Dist: typing-extensions
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: jupyter ; extra == 'testing'
+Requires-Dist: notebook ; extra == 'testing'
+Requires-Dist: bandit ; extra == 'testing'
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: black-nb ; extra == 'testing'
+Requires-Dist: darglint ; extra == 'testing'
+Requires-Dist: doc8 ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: isort ; extra == 'testing'
+Requires-Dist: nbconvert ; extra == 'testing'
+Requires-Dist: nbformat ; extra == 'testing'
+Requires-Dist: pytest-benchmark ; extra == 'testing'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'testing'
+Requires-Dist: pytest-xprocess ; extra == 'testing'
+Requires-Dist: igraph ; extra == 'testing'
+Requires-Dist: py ; extra == 'testing'
+Requires-Dist: pre-commit ; extra == 'testing'
+
+# clairvoyance2
+
+> clairvoyance2: a Unified Toolkit for Medical Time Series
+
+**⚠️ The library is in pre-alpha / dev. API will change without warning.**
+
+**clairvoyance2** is a library that unifies time series tasks for the medicine and healthcare use case.  It provides tools for manipulating multi-dimensional time series, as well as static data, and implements models for: time series prediction, individualized treatment effects estimation, time-to-event analysis (*upcoming*), and model interpretability (*upcoming*).  **clairvoyance2** is primarily focussed on machine learning models.
+
+
+
+
+## Installation
+
+`pip install git+https://github.com/vanderschaarlab/clairvoyance2.git`
+
+
+
+## Models
+
+| Model | Status |
+|-|-|
+| **Prediction (Forecasting)** |
+| RNN | ✅ Implemented |
+| Seq2Seq | ✅ Implemented |
+| [NeuralLaplace](https://github.com/samholt/NeuralLaplace) | 🔲 Planned |
+| **Imputation** |
+| {f,b}fill & Mean | ✅ Implemented |
+| [HyperImpute](https://proceedings.mlr.press/v162/jarrett22a/jarrett22a.pdf) | 🔲
+| **Individualized Treatment Effects** |
+| [CRN](https://openreview.net/forum?id=BJg866NFvB) | ✅ Implemented |
+| [SyncTwin](https://proceedings.neurips.cc/paper/2021/hash/19485224d128528da1602ca47383f078-Abstract.html) | ⚙️ Experimental |
+| [TE-CDE](https://proceedings.mlr.press/v162/seedat22b/seedat22b.pdf) | 🔲 Planned |
+| **Time-to-event Analysis** |
+| [Dynamic DeepHit](https://pubmed.ncbi.nlm.nih.gov/30951460/) | 🔲 Planned |
+| **Interpretability** |
+| [DynaMask](http://proceedings.mlr.press/v139/crabbe21a/crabbe21a.pdfsa) | 🔲 Planned |
+
+
+
+## Tutorials
+
+* [📔 Basic Usage](tutorials/basic_usage.ipynb)
+* [📔 Example: CRN](tutorials/crn.ipynb)
+* [📔 Example: SyncTwin](tutorials/synctwin.ipynb)
+
+
+## Contact
+
+If you wish to reach about to us specifically about `clairvoyance2` (bugs, suggestions, problems, ...) please message
+Evgeny on [LinkedIn](https://www.linkedin.com/in/e-s-saveliev/) for now, until we set up an official communication channel.
+
+
