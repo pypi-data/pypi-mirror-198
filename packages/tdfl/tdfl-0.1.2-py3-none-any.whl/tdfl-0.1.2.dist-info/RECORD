@@ -1,0 +1,9 @@
+tdfl/__init__.py,sha256=UHlFSYLmvs4TtMm5hrpPowu2evZzINQTQAtn2xLvA1s,24
+tdfl/array.py,sha256=2rBtkIrwtsZ6jy_8Ac-c2F3_8NzEaRh7AB9EJC6ChGA,16323
+tdfl/dataframe.py,sha256=p9ZMeCG9yrpccROUTPI8kchq7Tn_S5VG1Crw7zNpUco,35739
+tdfl/parsing.py,sha256=2PiNPhZCV-SlWcLS7cuEdIJ02lnUNN7zBmPNgIeLRDU,3181
+tdfl-0.1.2.dist-info/LICENSE,sha256=6sbDVZa4NG4Ehen4rgM-KLhfd20u430SxhNLPDlDeoY,1065
+tdfl-0.1.2.dist-info/METADATA,sha256=fUbD4ulkOjSf-9z43XTHKQIFTZzi9lJ5OqbqKnv_Qj8,2076
+tdfl-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tdfl-0.1.2.dist-info/top_level.txt,sha256=CabXYyjUfMGzG-hze1JgCuN56v2AQVrkIToWHVyuceQ,5
+tdfl-0.1.2.dist-info/RECORD,,
