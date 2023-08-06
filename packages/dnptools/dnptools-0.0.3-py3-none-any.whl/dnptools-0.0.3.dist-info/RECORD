@@ -1,0 +1,7 @@
+dnptools/.gitignore,sha256=rC3nL1GoFdXUw7LBb4qoAKTIF8S09eBUIY4wDGYbR_o,25
+dnptools/__init__.py,sha256=I6mLNQuvjT2_rllCWNZxJKd6NPtDhdHY3e8LR8rV-Bo,119
+dnptools/scoringservice.py,sha256=BNdkRHtAsBNs4xjfJT6Ubcd_BMsjnffqq3F0dzIogGM,6552
+dnptools-0.0.3.dist-info/METADATA,sha256=AVY-SfNfjXB_QH9CsqTGfo8qrQAgdjdUzmgYpZ2crIE,2580
+dnptools-0.0.3.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+dnptools-0.0.3.dist-info/licenses/LICENSE,sha256=-5zott_E9lzLVytUzEt7C8LMEYn2L9E1fuOwRLLHf9g,32386
+dnptools-0.0.3.dist-info/RECORD,,
