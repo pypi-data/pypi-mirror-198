@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+NumberProcessing.egg-info/PKG-INFO
+NumberProcessing.egg-info/SOURCES.txt
+NumberProcessing.egg-info/dependency_links.txt
+NumberProcessing.egg-info/top_level.txt

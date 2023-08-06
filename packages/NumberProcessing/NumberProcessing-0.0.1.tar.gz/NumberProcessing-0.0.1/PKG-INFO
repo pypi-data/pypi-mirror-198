@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: NumberProcessing
+Version: 0.0.1
+Summary: Processing numbers made easy
+Home-page: 
+Author: Robert Jones
+Author-email: robertcwad@gmail.com
+License: MIT
+Keywords: numbers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this package process numbers for easy use
