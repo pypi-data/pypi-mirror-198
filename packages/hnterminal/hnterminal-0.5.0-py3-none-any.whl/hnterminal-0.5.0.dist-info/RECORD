@@ -1,0 +1,17 @@
+cli.py,sha256=sdzJypM4CeXJagBMc5-WqWG3IR9uAsZS5WO2NV1Nmv0,574
+hnterminal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hnterminal/hnclient.py,sha256=X7cTkfbqAk3Y1Z1a8lkhOQH7JHlpwlBGVhoZ6xvxcLg,1129
+hnterminal/hncontext.py,sha256=RyxicmpoXbWR2Ufsg1K1SjHfO4KK_wRHwBNIgTsjl7Y,3183
+hnterminal/commands/__init__.py,sha256=-DuOtrsmIHmk5vZQcpLoLAIBSdm1JOy8MlmOOCSkgOQ,594
+hnterminal/commands/get_comments.py,sha256=qv5m3pta6a5InMNLhuUq_mWC4rb4aiZErlCyuSHGLHg,4693
+hnterminal/commands/get_front_page.py,sha256=lyIig4t28YXwEy59cTnBBubCzavfmc3hjYdXh94-m3k,3800
+hnterminal/commands/get_story.py,sha256=wD3arjl7ZBiJuaIPr-ujMtI8ocICdJ2h2ncRuapbE1A,1887
+hnterminal/commands/get_user.py,sha256=shJXBORP0QhU4NkkufZyk_AhuwxeF6iaq2XsZ-3FRJw,4000
+hnterminal/commands/login.py,sha256=UQKLPQCnfR4YSX4cHq_TvyCxbN77uqYfnjhxriIAZUo,1772
+hnterminal/commands/reply.py,sha256=ddyK9N_1K8eBPfoSlQ7B8qAq2G9WhSk8bNFHLzilrfs,3414
+hnterminal/commands/votes.py,sha256=O3A9LBw2qB0BM0vPbqlRvqE84kq51au9yEu7GKJ-N7Y,2834
+hnterminal-0.5.0.dist-info/METADATA,sha256=ZflAaz0WcC7BI2K7NsvufGmw_ojWI-Z5Vc6_ccnva4I,8814
+hnterminal-0.5.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+hnterminal-0.5.0.dist-info/entry_points.txt,sha256=70W63iwPNK7uzCx7hoJxlKT2wV9iHBD1ITEE9dMEqXo,40
+hnterminal-0.5.0.dist-info/top_level.txt,sha256=RWGGNynhVo4qkSyGEYsrynK_Q9ucpRcvqBWpmXCKC1g,15
+hnterminal-0.5.0.dist-info/RECORD,,
