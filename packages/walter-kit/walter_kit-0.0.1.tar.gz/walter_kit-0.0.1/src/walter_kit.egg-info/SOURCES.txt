@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/decorators/__init__.py
+src/decorators/example.py
+src/walter_kit.egg-info/PKG-INFO
+src/walter_kit.egg-info/SOURCES.txt
+src/walter_kit.egg-info/dependency_links.txt
+src/walter_kit.egg-info/top_level.txt
