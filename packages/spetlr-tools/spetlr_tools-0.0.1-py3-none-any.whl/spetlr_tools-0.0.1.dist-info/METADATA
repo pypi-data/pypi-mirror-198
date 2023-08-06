@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: spetlr-tools
+Version: 0.0.1
+Author: Spetlr.Org
+Author-email: spetlr.org@gmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: atc-dataplatform
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
