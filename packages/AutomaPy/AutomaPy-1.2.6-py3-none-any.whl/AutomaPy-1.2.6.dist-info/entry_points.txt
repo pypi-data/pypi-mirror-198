@@ -1,0 +1,2 @@
+[console_scripts]
+AutomaPy = AutomaPy.__init__:main
