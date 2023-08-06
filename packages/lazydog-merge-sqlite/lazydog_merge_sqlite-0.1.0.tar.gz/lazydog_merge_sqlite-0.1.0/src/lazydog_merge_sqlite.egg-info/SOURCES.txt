@@ -1,0 +1,12 @@
+LICENSE.txt
+pyproject.toml
+readme.md
+src/lazydog_merge_sqlite/__init__.py
+src/lazydog_merge_sqlite/__main__.py
+src/lazydog_merge_sqlite/merge_sqlite.py
+src/lazydog_merge_sqlite.egg-info/PKG-INFO
+src/lazydog_merge_sqlite.egg-info/SOURCES.txt
+src/lazydog_merge_sqlite.egg-info/dependency_links.txt
+src/lazydog_merge_sqlite.egg-info/entry_points.txt
+src/lazydog_merge_sqlite.egg-info/top_level.txt
+test/test_merge_sqlite.py
