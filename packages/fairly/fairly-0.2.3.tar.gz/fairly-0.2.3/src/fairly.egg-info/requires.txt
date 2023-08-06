@@ -1,0 +1,13 @@
+python-dateutil
+requests
+requests_toolbelt
+ruamel.yaml
+typer>=0.6.1
+rich
+
+[dev]
+pytest
+pytest-cov
+pytest-recording
+python-dotenv
+vcrpy
