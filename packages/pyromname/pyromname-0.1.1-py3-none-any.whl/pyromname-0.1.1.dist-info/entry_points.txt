@@ -1,0 +1,3 @@
+[console_scripts]
+pyromname=pyromname.cli:main
+
