@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: compas_ifc
+Version: 0.2.0
+Summary: Package for working with IFC files.
+Home-page: https://github.com/compas-dev/compas_ifc
+Author: tom van mele
+Author-email: van.mele@arch.ethz.ch
+License: MIT license
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# COMPAS IFC
+
+## Installation
+
+Add the `conda-forge` package channel to the `conda` configuration file.
+Note that you only have to do this once.
+
+```bash
+conda config --add channels conda-forge
+```
+
+Create an environment and install the dependencies.
+
+```bash
+conda create -n ifc python=3.9 compas compas_occ compas_cgal compas_view2 ifcopenshell --yes
+```
+
+Activate the environment.
+
+```bash
+conda activate ifc
+```
+
+Install the compas_ifc package.
+
+```bash
+pip install -e .
+```
