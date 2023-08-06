@@ -1,0 +1,8 @@
+fib.py
+setup.py
+fibonacci24595645.egg-info/PKG-INFO
+fibonacci24595645.egg-info/SOURCES.txt
+fibonacci24595645.egg-info/dependency_links.txt
+fibonacci24595645.egg-info/entry_points.txt
+fibonacci24595645.egg-info/requires.txt
+fibonacci24595645.egg-info/top_level.txt
