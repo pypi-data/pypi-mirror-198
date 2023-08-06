@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/lib_dzne_levenshtein.py
+src/lib_dzne_levenshtein.egg-info/PKG-INFO
+src/lib_dzne_levenshtein.egg-info/SOURCES.txt
+src/lib_dzne_levenshtein.egg-info/dependency_links.txt
+src/lib_dzne_levenshtein.egg-info/requires.txt
+src/lib_dzne_levenshtein.egg-info/top_level.txt
