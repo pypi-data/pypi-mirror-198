@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+src/TrendVerify.egg-info/PKG-INFO
+src/TrendVerify.egg-info/SOURCES.txt
+src/TrendVerify.egg-info/dependency_links.txt
+src/TrendVerify.egg-info/entry_points.txt
+src/TrendVerify.egg-info/requires.txt
+src/TrendVerify.egg-info/top_level.txt
+src/trendverify/_test.py
+src/trendverify/find_files.py
+src/trendverify/metar.py
+src/trendverify/project_utils.py
+src/trendverify/script_metar_2021.py
+src/trendverify/trend.py
+src/trendverify/verificationcodes.py

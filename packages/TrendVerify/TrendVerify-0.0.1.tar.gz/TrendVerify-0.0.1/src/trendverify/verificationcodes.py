@@ -1,0 +1,12 @@
+'''
+'''
+
+from enum import Enum
+
+class verify_as(Enum):
+	NOT_FORECASTED						= 0
+	WITHIN_ACCURACY_LIMITS 				= 1
+	NOT_ENOUGH_OBSERVATION_DATA			= 2
+	NOT_WITHIN_ACCURACY_LIMITS			= 3
+	ILLEGAL_TREND_SYNTAX				= 4
+	NOSIG_TREND_IRRELEVANT				= 5

@@ -1,0 +1,5 @@
+tzdata>=2022.7
+regex>=2022.10.31
+
+[:python_version > "3.11"]
+importlib-metadata
