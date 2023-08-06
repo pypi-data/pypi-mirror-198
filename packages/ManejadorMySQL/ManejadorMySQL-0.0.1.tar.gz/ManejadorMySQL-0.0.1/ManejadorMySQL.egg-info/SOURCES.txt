@@ -1,0 +1,9 @@
+README.md
+setup.py
+ManejadorMySQL/MySQL.py
+ManejadorMySQL/__init__.py
+ManejadorMySQL.egg-info/PKG-INFO
+ManejadorMySQL.egg-info/SOURCES.txt
+ManejadorMySQL.egg-info/dependency_links.txt
+ManejadorMySQL.egg-info/requires.txt
+ManejadorMySQL.egg-info/top_level.txt
