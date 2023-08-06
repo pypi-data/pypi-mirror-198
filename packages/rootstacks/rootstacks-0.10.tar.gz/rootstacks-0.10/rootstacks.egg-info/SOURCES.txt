@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rootstacks/LICENSE
+rootstacks/README.MD
+rootstacks/__init__.py
+rootstacks/requirements.txt
+rootstacks/thirdparty.json
+rootstacks.egg-info/PKG-INFO
+rootstacks.egg-info/SOURCES.txt
+rootstacks.egg-info/dependency_links.txt
+rootstacks.egg-info/requires.txt
+rootstacks.egg-info/top_level.txt
