@@ -1,0 +1,4 @@
+cubicweb<3.39.0,>=3.38.0
+cubicweb-folder<2.2.0,>=2.1.0
+cubicweb-comment<2.1.0,>=2.0.0
+pandas<1.6.0,>=1.5.0
