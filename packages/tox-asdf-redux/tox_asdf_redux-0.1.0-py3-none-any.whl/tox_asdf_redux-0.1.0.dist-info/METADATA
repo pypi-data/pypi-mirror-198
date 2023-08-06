@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tox-asdf-redux
+Version: 0.1.0
+Summary: A tox plugin using asdf to find Python executables
+Home-page: https://github.com/lanshark/tox-asdf-redux
+License: MIT
+Keywords: tox,asdf
+Author: Scott Sharkey
+Author-email: ssharkey@lanshark.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Dist: asdf-inspect (>=0.1,<0.2)
+Requires-Dist: tox
+Project-URL: Repository, https://github.com/lanshark/tox-asdf-redux
+Description-Content-Type: text/markdown
+
+# tox-asdf-redux
+
+A [tox][tox] plugin using [asdf][asdf] to find Python executables
+
+To install a plugin, you install it in the same environment where the tox host is installed.
+
+```bash
+    $ pip install tox-asdf-redux
+```
+
+NOTE: Adapted from [tox-pyenv-redux][tox-pyenv-redux].
+
+[tox]: https://tox.wiki/
+[asdf]: https://github.com/asdf-vm/asdf
+[tox-pyenv-redux]: https://github.com/un-def/tox-pyenv-redux
+
