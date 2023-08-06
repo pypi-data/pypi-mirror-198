@@ -1,0 +1,6 @@
+setup.py
+chatpc.egg-info/PKG-INFO
+chatpc.egg-info/SOURCES.txt
+chatpc.egg-info/dependency_links.txt
+chatpc.egg-info/requires.txt
+chatpc.egg-info/top_level.txt
