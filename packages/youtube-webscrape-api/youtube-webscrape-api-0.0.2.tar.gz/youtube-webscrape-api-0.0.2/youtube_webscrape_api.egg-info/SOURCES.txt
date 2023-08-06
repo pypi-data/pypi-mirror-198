@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+test/test_scraper.py
+youtube_webscrape_api.egg-info/PKG-INFO
+youtube_webscrape_api.egg-info/SOURCES.txt
+youtube_webscrape_api.egg-info/dependency_links.txt
+youtube_webscrape_api.egg-info/requires.txt
+youtube_webscrape_api.egg-info/top_level.txt
+yt_scrape/__init__.py
+yt_scrape/exceptions.py
+yt_scrape/scraper.py
+yt_scrape/utils.py
