@@ -1,0 +1,10 @@
+netcdf2vtu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netcdf2vtu/cli.py,sha256=7L6zKtDYeaW86-d1ni9-pWu6HOhlq10s891g8UIOkUk,2535
+netcdf2vtu/netcdf2vtu.py,sha256=TAddKAiEzpLVFFGpl3y7L-CaaIlcyd8TZTV8j__gvDs,13956
+netcdf2vtu-0.1.1.dist-info/AUTHORS.md,sha256=8yJtaCaSt_jayCdwXhnftiqPS1iEXxgPHP6-HVT42gQ,272
+netcdf2vtu-0.1.1.dist-info/LICENSE,sha256=F5_31WJ0qTiVtVk4ZIFL4sbNlhY36_eTEsI_16kvepk,1575
+netcdf2vtu-0.1.1.dist-info/METADATA,sha256=z_DrlHa07DQlqGHQEaHtqqRFrW50vJbeQq6LxGa9aSU,5050
+netcdf2vtu-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+netcdf2vtu-0.1.1.dist-info/entry_points.txt,sha256=FqJdAxlTiXmrcDSkixnQiO5QpgXBn4-u-g_aoSVvj-o,51
+netcdf2vtu-0.1.1.dist-info/top_level.txt,sha256=g7oEJ9H0J2tROUL3-2Omo_E161xziantM2Md2i_jrF8,11
+netcdf2vtu-0.1.1.dist-info/RECORD,,
