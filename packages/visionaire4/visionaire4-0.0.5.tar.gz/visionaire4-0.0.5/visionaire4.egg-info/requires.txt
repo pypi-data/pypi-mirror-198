@@ -1,0 +1,12 @@
+requests
+docker>=4.3.0
+pyyaml
+numpy
+matplotlib
+
+[dev]
+pytest
+pytest-cov
+flake8
+twine
+wheel
