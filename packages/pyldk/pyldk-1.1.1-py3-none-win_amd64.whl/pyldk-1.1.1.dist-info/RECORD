@@ -1,0 +1,9 @@
+pyldk/__init__.py,sha256=NV5NModdxHlMQ_yOO2fbeO89UuEmkSPQiRcukwU0Ssk,245
+pyldk/hasp_adapter.py,sha256=Cjhg1i_PSUxtJnX3s9OhM8tP3XJY5ZFtJ4s6cAvx4kI,4168
+pyldk/pyldk.py,sha256=lqKTQKE1GgSSHYf3OTm_dyX-IGSr2logimV9YkgX-5E,2482
+pyldk/version.py,sha256=4On72K0Su5dFeU1ZvSNcQQhj0PP8jtczmWMQQ4zMYEg,24
+pyldk/lib/Windows/x64/lib_hasp_adapter_x64.dll,sha256=5F5six-ErdDc9aQqld7LpQ7TlDhLD0C4uwZzLqQcRNA,5899264
+pyldk-1.1.1.dist-info/METADATA,sha256=7eCQQVKdlyhZBsPcXGIvdsKbwAFipZQeNesZSN_GAnI,513
+pyldk-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyldk-1.1.1.dist-info/top_level.txt,sha256=1aCn7AVUNDZFl_MBhuhBcysO6UrkUlIsuKkrsE5eU6o,28
+pyldk-1.1.1.dist-info/RECORD,,
