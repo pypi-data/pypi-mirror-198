@@ -1,0 +1,12 @@
+six~=1.12
+argparse
+
+[client]
+zmq
+paramiko
+
+[doc]
+sphinx>=1.0
+
+[plotting]
+matplotlib
