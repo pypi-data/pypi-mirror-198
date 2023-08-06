@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: perceptron_pkg-deftydev
+Version: 0.0.3
+Summary: A small package for perceptron
+Home-page: https://github.com/deftydev/perceptron-pkg
+Author: deftydev
+Author-email: devanshgupta79212346@gmail.com
+Project-URL: Bug Tracker, https://github.com/deftydev/perceptron-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# perceptron_package
+
+
+References -
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+![image](https://user-images.githubusercontent.com/58273709/226369103-2927cc44-d403-4abf-a010-ccd101cd9c46.png)

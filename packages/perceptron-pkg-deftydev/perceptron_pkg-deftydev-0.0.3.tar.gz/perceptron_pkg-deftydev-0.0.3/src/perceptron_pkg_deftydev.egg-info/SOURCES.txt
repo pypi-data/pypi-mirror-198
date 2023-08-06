@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/packaging/__init__.py
+src/packaging/perceptron.py
+src/perceptron_pkg_deftydev.egg-info/PKG-INFO
+src/perceptron_pkg_deftydev.egg-info/SOURCES.txt
+src/perceptron_pkg_deftydev.egg-info/dependency_links.txt
+src/perceptron_pkg_deftydev.egg-info/requires.txt
+src/perceptron_pkg_deftydev.egg-info/top_level.txt
