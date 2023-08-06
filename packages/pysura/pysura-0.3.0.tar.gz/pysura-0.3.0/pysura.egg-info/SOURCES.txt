@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pysura/__init__.py
+pysura.egg-info/PKG-INFO
+pysura.egg-info/SOURCES.txt
+pysura.egg-info/dependency_links.txt
+pysura.egg-info/entry_points.txt
+pysura.egg-info/top_level.txt
