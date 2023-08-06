@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vpscli
+Version: 0.3.15
+Summary: VPS manager
+Home-page: https://github.com/
+Author: slipper
+Author-email: r2fscg@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: endlessh
+Requires-Dist: redis
+Requires-Dist: loguru
+Requires-Dist: knivesout
+Requires-Dist: pandas
+Requires-Dist: pymysql
+Requires-Dist: codefast
+Requires-Dist: joblib
+Requires-Dist: psutil
+Requires-Dist: argparse
+Requires-Dist: uuidentifier
+Requires-Dist: aiohttp
+Requires-Dist: aiomysql
+Requires-Dist: aioredis
+Requires-Dist: aiofile
+Requires-Dist: rich
+Requires-Dist: matplotlib
+
+# vps
+VPS inition and check
