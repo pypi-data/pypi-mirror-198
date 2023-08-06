@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: javi_oscars2
+Version: 0.0.2
+Summary: database oscars
+Project-URL: Homepage, https://github.com/JavierIglesiasdeFrutos/oscars
+Project-URL: Bug Tracker, https://github.com/JavierIglesiasdeFrutos/oscars/issues
+Author-email: javigledefru17 <javigledefru17@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# oscars2
