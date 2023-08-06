@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: archetype-core-nlp
+Version: 0.0.1
+Home-page: https://github.com/EneasJr-Rodrigues/archetype-core-nlp
+Author: Eneas-Rodrigues
+Author-email: eneas.rodrigues25@gmail.com
+Requires-Python: >=3.8
+License-File: LICENSE
