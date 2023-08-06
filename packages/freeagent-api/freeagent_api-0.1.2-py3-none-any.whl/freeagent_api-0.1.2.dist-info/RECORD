@@ -1,0 +1,14 @@
+freeagent_api/__init__.py,sha256=4uZUz7IWZX8evkXl6R4N6RiI2Yb008VcrtAgerw21xY,9234
+freeagent_api/bank_account.py,sha256=4bWj-qShTRTSGve1EexcmvUx_ZNOpDU3DaDao2VptFo,821
+freeagent_api/base_object.py,sha256=ZOxYL1q5sElczUGqzc4iqZOrEd8CqPwEm811c8FLtW4,4043
+freeagent_api/company.py,sha256=7IPxlNUhvFndeRMaN9UUzJQnTiSRKLsijo_9MmUSE4g,2190
+freeagent_api/contact.py,sha256=d7VymR4qUQCiIKElVnrGo0OhJXMwmy9aixaEyKs7CAc,2242
+freeagent_api/invoice.py,sha256=lJGyqEX3MxX9ajPIi-dFclJOR-1t2pyFR8Y8Ak5jfpk,2165
+freeagent_api/invoice_item.py,sha256=anBGhkmMJAAJdV0eJpaaraqkFe_7_pUBsv3CWcn7Dag,618
+freeagent_api/oauth.py,sha256=n5ajDUSjqHTjqvPmpZmcFwQ01r9OBeToV04eSDICKS4,5056
+freeagent_api/project.py,sha256=YoD15yh8QwZw6kg7_-zaKNjxVjIpk9BT_hUriU6gJA0,773
+freeagent_api/user.py,sha256=uPrkUr3jPyJRzFkuVuXRRMPyKO0gk3YH8KMT5-QWTUc,906
+freeagent_api-0.1.2.dist-info/METADATA,sha256=pf2HppB20MZrWUCoIMSDsQvhAwJEziGm-Y_OKNcP7Kc,42957
+freeagent_api-0.1.2.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+freeagent_api-0.1.2.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+freeagent_api-0.1.2.dist-info/RECORD,,
