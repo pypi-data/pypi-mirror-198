@@ -1,0 +1,19 @@
+---
+mounts:
+  allenby: "/"
+  aro: "/"
+  chime: "/data/chime/baseband/processed"
+  canfar: "/arc/projects/chime_frb/data/canfar/processed"
+  gbo: "/"
+  kko: "/"
+  hco: "/"
+loki_urls:
+  allenby: "http://localhost:3100/loki/api/v1/push"
+  aro: "http://localhost:3100/loki/api/v1/push"
+  canfar: "http://localhost:3100/loki/api/v1/push"
+  cedar: "http://localhost:3100/loki/api/v1/push"
+  chime: "http://localhost:3100/loki/api/v1/push"
+  gbo: "http://localhost:3100/loki/api/v1/push"
+  hco: "http://localhost:3100/loki/api/v1/push"
+  kko: "http://localhost:3100/loki/api/v1/push"
+  local: "http://localhost:3100/loki/api/v1/push"
