@@ -1,0 +1,9 @@
+pycextensions/fprintf.cpython-310-i386-linux-gnu.so,sha256=Pc9sMuXEwzp6O3E6vqXBtYW8chGvQ1x0VfV-L-d3Nic,26308
+pycextensions/__init__.py,sha256=ENK4T4gV-qNqBd2AL8KLp_wScvowI2gBpIkEy7jiwgg,57
+pycextensions/main.py,sha256=Mc2AIR7GnfWLm9SjTEieZubhcn8H9EyiBcJAKtTN5Bo,77
+pycextensions/util.py,sha256=xVRwgVnCcJhblgLnonvz3glpr4l04EfGtkynADwAhgk,527
+pycextensions-0.0.1.dist-info/LICENSE,sha256=_s-q4QVBSTjmnFPjs2Oac31L5tzRN4aw2bw4Up4taYs,1070
+pycextensions-0.0.1.dist-info/WHEEL,sha256=szmjS_C7pbxsZTXVxXrPDZ2H2DkzHnXah8Nr-uHU47c,181
+pycextensions-0.0.1.dist-info/top_level.txt,sha256=h5InxYXtx59lqSqPibMTB2OsGblKiTjJvmJpk7lRnSU,14
+pycextensions-0.0.1.dist-info/RECORD,,
+pycextensions-0.0.1.dist-info/METADATA,sha256=XCXS7rEg4-pQiYgAhtz_VRI4GG5l95nd0X2KPPC8s30,1101
