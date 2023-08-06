@@ -1,0 +1,10 @@
+_kalk/__init__.py,sha256=cHvPXZiMzUQIa3tQBaQZb3rKy76lKTnhXWYqKxU8hPg,6329
+_kalk/binary_ops.py,sha256=C79HOHQjpRaQU1UZBrSGP2E9c7JlQRSgJB8u00JjC18,949
+_kalk/unary_ops.py,sha256=eunFhAkttsu0Rg2PolsOSa72pdAafCRzuIqJMge-36Y,2161
+kalk-0.12.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kalk-0.12.0.dist-info/METADATA,sha256=FeVeHFeGEALhFbnTpD9lkFTJrDxilfTx-JQ3m2eT5kw,3174
+kalk-0.12.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kalk-0.12.0.dist-info/entry_points.txt,sha256=tAGZEdHrhKDbGP5PKvN1_BpIUHAFOO1F9ZvMqXXAlQQ,36
+kalk-0.12.0.dist-info/top_level.txt,sha256=4ItEIkPszSaYQVoT00MADT9zgnjWwVIuN-KFPu6Xowk,6
+kalk-0.12.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+kalk-0.12.0.dist-info/RECORD,,
