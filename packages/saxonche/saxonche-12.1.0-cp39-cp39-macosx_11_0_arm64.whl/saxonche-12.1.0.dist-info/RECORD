@@ -1,0 +1,9 @@
+saxonche.cpython-39-darwin.so,sha256=cOGH0xYucxdLJUT-VZSinnlAcgRmLYLMv4_z-dns03k,870064
+saxonche-12.1.0.dist-info/RECORD,,
+saxonche-12.1.0.dist-info/WHEEL,sha256=d8sjrkKo8h1ZY8Oxdq-K-58JEo6nLEfNKzkM0CYZtr0,108
+saxonche-12.1.0.dist-info/top_level.txt,sha256=6tJxlK8ePmvwmsTmpNkKssbnfExHvDb9UiuTurDdKrU,9
+saxonche-12.1.0.dist-info/METADATA,sha256=qRNbcnUGrceBnva1xlNj6l3SE8JbOGDPDwguZB1AqYY,5021
+saxonche/test_saxonc.py,sha256=lk0_9HzcYcL0HAKwkW8d7HYpaLz4ktJNyV51P4w5Cw0,58099
+saxonche/setup.py,sha256=QdjdEzWpa3roV7b6PvPcXZADiL_XaTJ4H0UiqBJo9_4,2967
+saxonche/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxonche.dylibs/libsaxon-hec-12.1.dylib,sha256=---p0DmKT_PKIjmTSjGB3cKV4-UXtKB6k4G6sqWtXYA,49892208
