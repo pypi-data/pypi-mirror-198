@@ -1,0 +1,10 @@
+saxoncee.cpython-38-x86_64-linux-gnu.so,sha256=7Frvnq47dpSfghfjyGcpHR_zNOKeKXisds-lcLyZY-0,9407304
+saxoncee.pypy38-pp73-x86_64-linux-gnu.so,sha256=-y1Jvk8J-QBLzXCRfqgkIYXSyW8sTkgRtcJyunU5f_c,928384
+saxoncee.libs/libsaxon-eec-12-fcf7648f.1.so,sha256=5T1iKDVpaw50nyoDWNX4quF9Qwk6BL7Vx7MBldOVFoU,60990728
+saxoncee/test_saxonc.py,sha256=nEviOy8hdUPGvEWOrSxcBCA0yAH-E8VeM62L0tAbKxg,58099
+saxoncee/setup.py,sha256=KN8rW6K1f0LElzmLTp7GFiSbwQ0eV1OmMl6IiJY24tg,2967
+saxoncee/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxoncee-12.1.0.dist-info/METADATA,sha256=kJuGxmyL1yRztajaZjSjff76VlT152CQzt_oXrIlQKE,5021
+saxoncee-12.1.0.dist-info/WHEEL,sha256=ZBSOuIdRVB49qhMtKp7G9H8aDrkPSfuLtqyzZfK-yoE,162
+saxoncee-12.1.0.dist-info/top_level.txt,sha256=wUukq_Q-eGXqORVXlotGf6vj6BTA3ZYOgtf9Zd0FFuI,9
+saxoncee-12.1.0.dist-info/RECORD,,
