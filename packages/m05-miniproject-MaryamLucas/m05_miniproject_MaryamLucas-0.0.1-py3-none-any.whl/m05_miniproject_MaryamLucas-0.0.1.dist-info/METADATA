@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: m05-miniproject-MaryamLucas
+Version: 0.0.1
+Summary: Example of a completely reproducible project !
+Home-page: https://gitlab.idiap.ch/lstel/m05-naderi-stel
+Author: Maryam Naderi & Lucas Stel
+Author-email: maryam.naderi@idiap.ch
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: setuptools (==59.6.0)
+
+# M05-MiniProject
+
+This is the repository of the MiniProject M05.
+
+It contains the source code, datasets, complementary documentation, examples, and instruction to execute the project.
+
+Files in this repository:
+
+
+>m05-naderi-stel/<br>
+>├── Datasets<br>
+>│    ├── boston_data<br>
+>│    └── wine_data<br>
+>├── Main_code<br>
+>│    └── maincode.py<br>
+>├── Tests<br>
+>│    └── test_maincode.py<br>
+>├── .gitlab-ci.yml<br>
+>└── README.md<br>
+
+
+
+## Project status
+Project is under active development.
+
+***
+
+## Starting - Execution
+
+Set instructions to run the mini project:
+
+***
+
+## Aditional information 
+
+- Details about the architecture
+- Details about the units testing
+- Details about the pipeline / CI
+
+***
+
+## Suport
+Group/Alumni: 
+
+- Naderi, Maryam [Contact](mailto:mnaderi@idiap.ch).
+- Stel, Lucas [Contact](mailto:lstel@idiap.ch).
+
+## License
+GNU General Public License v3.0. [Info about this license](https://choosealicense.com/licenses/gpl-3.0/).
+
+
+
