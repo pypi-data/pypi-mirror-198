@@ -1,0 +1,11 @@
+cube_provider/__init__.py,sha256=gQ4baGCGr2vb11zG5OFDRyC5dul19tweUisO_WuKPio,1323
+cube_provider/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+cube_provider/hooks/cube.py,sha256=egVnIsP8ycvKGMaMfzdNDxYNMv8WNpA48KanQr-OO2w,5350
+cube_provider/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+cube_provider/operators/cube.py,sha256=NQTQiCBOQ2qMeTRxMo_KH1TzSmtlSUVNI418JkXBclE,6993
+airflow_provider_cube-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+airflow_provider_cube-0.0.0.dist-info/METADATA,sha256=EheUgNKzxt4AJUooY-JXTv_1X9S4MTqEcAq_6wCTr_o,1996
+airflow_provider_cube-0.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+airflow_provider_cube-0.0.0.dist-info/entry_points.txt,sha256=MreRpFPBiEFp26qcb_CT_LUGLNE6HA3V3fhG1tUsVKE,83
+airflow_provider_cube-0.0.0.dist-info/top_level.txt,sha256=wWjKZk8Cv6jDW0Ww2AKPtVSjuJYoaArhX4F9M4drHjs,14
+airflow_provider_cube-0.0.0.dist-info/RECORD,,
