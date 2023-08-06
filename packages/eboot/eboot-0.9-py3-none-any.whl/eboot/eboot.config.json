@@ -1,0 +1,23 @@
+{
+    "151": {
+        "ip": "10.10.60.151",
+        "port": 22,
+        "username": "root",
+        "password": "",
+        "workspace": "/userdata/zlw/"
+    },
+    "152": {
+        "ip": "10.10.60.152",
+        "port": 22,
+        "username": "root",
+        "password": "",
+        "workspace": "/home/root/zlw/"
+    },
+    "153": {
+        "ip": "10.10.60.153",
+        "port": 22,
+        "username": "root",
+        "password": "",
+        "workspace": "/home/root/zlw/"
+    }
+}
