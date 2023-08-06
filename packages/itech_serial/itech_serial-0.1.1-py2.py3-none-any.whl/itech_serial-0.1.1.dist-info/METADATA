@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: itech_serial
+Version: 0.1.1
+Summary: Control ITECH laboratory equipment using a serial port
+Keywords: itech,it6800,it6811,it8500,it8511
+Author-email: Matthew Mets <matt@blinkinlabs.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pyserial
+Project-URL: Home, https://github.com/blinkinlabs/itech_usb_serial
