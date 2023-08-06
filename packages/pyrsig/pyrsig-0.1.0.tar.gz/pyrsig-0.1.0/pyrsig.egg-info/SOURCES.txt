@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyrsig/__init__.py
+pyrsig.egg-info/PKG-INFO
+pyrsig.egg-info/SOURCES.txt
+pyrsig.egg-info/dependency_links.txt
+pyrsig.egg-info/requires.txt
+pyrsig.egg-info/top_level.txt
+pyrsig/tests/__init__.py
+pyrsig/tests/test_overall.py
