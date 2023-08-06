@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+word2tei/__init__.py
+word2tei/_modidx.py
+word2tei/core.py
+word2tei.egg-info/PKG-INFO
+word2tei.egg-info/SOURCES.txt
+word2tei.egg-info/dependency_links.txt
+word2tei.egg-info/entry_points.txt
+word2tei.egg-info/not-zip-safe
+word2tei.egg-info/requires.txt
+word2tei.egg-info/top_level.txt
