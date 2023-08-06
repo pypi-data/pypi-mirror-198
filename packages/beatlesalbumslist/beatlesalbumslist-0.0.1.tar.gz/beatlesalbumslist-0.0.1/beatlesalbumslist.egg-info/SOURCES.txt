@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+beatlesalbumslist/__init__.py
+beatlesalbumslist/beatleslist.py
+beatlesalbumslist.egg-info/PKG-INFO
+beatlesalbumslist.egg-info/SOURCES.txt
+beatlesalbumslist.egg-info/dependency_links.txt
+beatlesalbumslist.egg-info/top_level.txt
