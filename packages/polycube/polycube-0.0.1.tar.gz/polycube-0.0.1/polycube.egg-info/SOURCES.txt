@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+polycube/__init__.py
+polycube/polycube.py
+polycube/stl.py
+polycube.egg-info/PKG-INFO
+polycube.egg-info/SOURCES.txt
+polycube.egg-info/dependency_links.txt
+polycube.egg-info/requires.txt
+polycube.egg-info/top_level.txt
