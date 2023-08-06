@@ -1,0 +1,8 @@
+[console_scripts]
+build_dev_lib=scripts.build:build_dev_lib
+build_pkg=scripts.build:build_pkg
+build_release_lib=scripts.build:build_release_lib
+clean=scripts.build:clean
+npeg_core_version=scripts.version:get_npeg_core_version
+npeg_version=scripts.version:get_npeg_version
+
