@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: PreproTools
+Version: 1.1
+Summary: A bunch of tool for NLP
+Author: Ruben Hinojar
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PreproTools
+
+A bunch of tool for NLP.
+
+For more projects and libraries like this visit my [GitHub Profile](https://github.com/Papahana)
+
+## Installing
+
+```
+pip install PreproTools
+```
+
+```
+from PreproTools.nlp_tools import NLPpreprocessing
+```
+
+### Install Requires
+
+```
+colorama
+re
+nltk
+```

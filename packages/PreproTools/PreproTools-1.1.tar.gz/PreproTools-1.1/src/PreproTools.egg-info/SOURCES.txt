@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/PreproTools/__init__.py
+src/PreproTools/nlp_tools.py
+src/PreproTools.egg-info/PKG-INFO
+src/PreproTools.egg-info/SOURCES.txt
+src/PreproTools.egg-info/dependency_links.txt
+src/PreproTools.egg-info/requires.txt
+src/PreproTools.egg-info/top_level.txt
