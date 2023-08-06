@@ -1,0 +1,16 @@
+numpy
+ortools
+onnx
+torch
+torchvision
+pysmt
+
+[:platform_system == "Darwin"]
+tensorflow-macos
+tensorflow-metal
+
+[:platform_system == "Linux"]
+tensorflow
+
+[:platform_system == "Windows"]
+tensorflow
