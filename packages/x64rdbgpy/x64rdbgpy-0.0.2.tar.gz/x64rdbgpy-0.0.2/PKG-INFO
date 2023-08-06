@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: x64rdbgpy
+Version: 0.0.2
+Summary: "python library for x64dbg remote debug"
+Home-page: https://github.com/newmsk/x64rdbg_proto
+Author: "newmsk"
+Author-email: "newmsk97@outlook.com"
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
