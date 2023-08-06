@@ -1,0 +1,16 @@
+xiaogpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaogpt/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+xiaogpt/cli.py,sha256=jIyFcISlEBtiGZpDQiFIA_KBTX2JuDUcV9g4CwlWpBs,2550
+xiaogpt/config.py,sha256=SARTCcWAfpm9hNtwa79F7IqEe4DmULuYt-ORWxoldtk,3747
+xiaogpt/utils.py,sha256=pkNqSBhwjlMJlNKMCmCgv2OXmZEJWGpofATqWvFB6RQ,1314
+xiaogpt/xiaogpt.py,sha256=FPDDU1kjFrprym2iYOezXGTmwyEm_OTtdN59GPm-8fg,14730
+xiaogpt/bot/__init__.py,sha256=37t93_LD8P6-KYUEcIS2_RGwE8zDv6aj5IREOEwPGy0,128
+xiaogpt/bot/base_bot.py,sha256=_BA9RyUaYCvPFLsl1gd7o2IdzMYUHKIp5L3ZXM5H3Qs,196
+xiaogpt/bot/chatgptapi_bot.py,sha256=24DEibUYyZ5mOG-o_FJYkXoJi7yZZMQN3_JqVA0yYF4,2050
+xiaogpt/bot/gpt3_bot.py,sha256=XuSZXRiWj5RekZBIpm8n5CrsI_4DZRO4DQLnX9vel20,1229
+xiaogpt-1.0.0.dist-info/LICENSE,sha256=XdClh516MvlnOf9749JZHCxSB7y6_fyXcWmLDz6IkZY,1063
+xiaogpt-1.0.0.dist-info/METADATA,sha256=CQzhBDbOupSRTg4V87ByUUZ8QCzubr0PqU_uD6bnIas,500
+xiaogpt-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xiaogpt-1.0.0.dist-info/entry_points.txt,sha256=3G6Yen6zSX441ZFNIRe3ze-YXfJDrP7Nxcv92EQ3sD4,45
+xiaogpt-1.0.0.dist-info/top_level.txt,sha256=wZwT-nGLFYXmBGuRuFnvjGEybK-kuEJVoxnv3sbIToA,8
+xiaogpt-1.0.0.dist-info/RECORD,,
