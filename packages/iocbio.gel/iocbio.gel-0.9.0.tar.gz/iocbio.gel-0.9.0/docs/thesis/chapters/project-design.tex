@@ -1,0 +1,106 @@
+This chapter will cover the frameworks and libraries used in the project, architectural choices made and the theoretical background for the method used to acquire user feedback.
+
+The software architectural diagram is provided here for a general overview.
+
+% Plantuml export, which then is exported to png
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/arhitecture-diagram.png}
+    \caption{\textit{Software design.}}
+    \label{fig:app-arh-diag}
+\end{figure}
+
+\section{Frameworks and Libraries}
+
+\subsubsection{PySide6}
+PySide6 is the framework used to develop the application. It is the official module for the Qt for Python project. It offers all of the UI elements and functionality provided by the Qt framework to be used in Python development \cite{pyside6}.
+
+As an alternative, the PyQt \footnote{https://www.riverbankcomputing.com/software/pyqt/} library was initially considered due to being around longer and having more usage examples available online. After short testing with both PySide6 and PyQt components, it was apparent that their application programming interfaces (APIs) were similar enough to be mostly interchangeable. PySide6 was preferred as the officially supported framework with the knowledge that a larger example base was still available.
+
+\subsubsection{PyQtGraph}
+PyQtGraph is a graphics and graphical user interface (GUI) library intended for use in mathematical, scientific, and engineering applications \cite{pyqtgraph}. It is used in the project for selecting and visualizing ROIs on the Gel images, plotting intensity data, and manipulating limits for intensity analysis. It was chosen because of its high compatibility with the Qt framework, as well as for its selection of available components.
+
+\subsubsection{NumPy}
+NumPy is the fundamental package for scientific computing in Python. It ... provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays ... \cite{numpy}. In the project, it is mainly used for manipulating the matrices containing the image data.
+
+\subsubsection{PostgreSQL}
+PostgreSQL is one of the most widely used object-relational database management systems \cite{postgresql}. In the application, it can be configured by the user to store the application data.
+Support for PostgreSQL integration was required by the client so they could integrate the analysis results with in-house software directly. Supporting alternative databases was a consideration
+and to that end, effort was made to simplify that process.
+
+\begin{table}[h!]
+
+\small
+\begin{tabular}{|p{0.30\linewidth} | p{0.60\linewidth}|}
+ \hline
+ \textbf{Step} &  \textbf{File location} \\
+ \hline
+Implement adapter interface & iocbio/gel/gui/dialogs/database\_connection\_settings/ database\_connection\_settings.py\\ \hline
+Add adapter to form & iocbio/gel/gui/dialogs/database\_connection\_settings/ db\_selection\_form.py\\ \hline
+Add driver as a dependency & setup.py\\ \hline
+\end{tabular}
+\caption{Steps to add alternative database support}
+\end{table}
+
+\subsubsection{SQLite}
+SQLite is a file-based Structured Query Language (SQL) engine for storing application data. It is a convenient option for storage due to its stand-alone nature and minimal configuration (path to file). The user can choose this option when locally stored data is acceptable. \cite{sqlite}
+
+\subsubsection{SQLAlchemy}
+SQLAlchemy is the Python SQL toolkit and Object-relational mapper (ORM) that gives application developers the full power and flexibility of SQL. It provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access, adapted into a simple and Pythonic domain language \cite{sqlalchemy}. It was chosen for the project for its popularity, extensive documentation and as a way to abstract the database layer for working with both PostgreSQL and SQLite.
+
+\subsubsection{OMERO}
+OMERO provides a complete platform for managing images in a secure central repository. It provides access to the images through a desktop app (Windows, Mac or Linux), from the web or from 3rd party software  \cite{omero}. Providing integration for importing Gel images from OMERO was one of the main requirements for the project. Communication with the OMERO server is handled by the OMERO.py \footnote{https://github.com/ome/omero-py} client library. 
+
+\subsubsection{Alembic}
+Alembic is a lightweight database migration tool for usage with the SQLAlchemy Database Toolkit for Python \cite{alembic}. This tool was chosen because of its compatibility with SQLAlchemy and ease of setup.
+
+\subsubsection{Dependency Injector}
+
+Dependency Injector is a dependency injection framework for Python \cite{di-framework}. An alternative framework, python-inject\footnote{https://github.com/ivankorobkov/python-inject}, was considered, but Dependency Injector was found to be more widely used and has better documentation.
+
+\section{Architectural Choices}
+
+\subsection{Dependency Injection}
+Dependency Injection is a pattern that separates service configuration from the use of services within an application. It can help make it easier to see what the dependencies are and simplify testing by allowing to replace the real service implementations with stubs or mocks \cite{fowler-injection}.
+
+Python applications rarely make explicit use of the pattern as the interpreted and dynamic nature of the language makes it unnecessary \cite{di-in-python}.
+
+However, as the project advanced and the number of components which depended on the same services grew, it became evident that using a dedicated framework for managing dependencies would help to reduce the growing complexity. Dependency Injector framework was chosen and subsequently all of the component configurations were moved into a single Container class. That Container is responsible for injecting the object instances, factories, as well as configuration parameters to the components using constructor injection.
+
+\subsection{Events}
+Qt has a concept known as signals and slots. Signals are emitted by certain actions, for example, by clicking a button. Slots are functions that listen for emitted signals and perform appropriate tasks  \cite{signals-slots}.
+
+Project software consists of various isolated views and components that nevertheless need to communicate with each other to keep different parts of the application synchronized. 
+In the application events are managed by EventRegistry class which contains the definitions of all used signals. Every component that needs to emit or consume events could do it only through the injected EventRegistry instance. The main goals of this approach were to decrease the coupling between components, keep all the events defined in one place, and avoid the possibility of widgets emitting events that no other component of the system was listening to. It also helped to avoid the situation in which multiple different signals are actually signaling the same event.
+
+\subsection{Undo/redo}
+
+The software user is expected to perform a series of graph manipulations with the mouse during the intensity analysis. To avoid errors from accidental motions, the undo/redo mechanism was implemented using the Command pattern.
+
+„The Command pattern lets toolkit objects make requests of unspecified application objects by turning the request itself into an object. This object can be stored and passed around like other objects. Use the The Command's Execute operation can store state for reversing its effects in the command itself. The Command interface must have an added Unexecute operation that reverses the effects of a previous call to Execute. Executed commands are stored in a history list. Unlimited-level undo and redo is achieved by traversing this list backwards and forwards calling Unexecute and Execute, respectively” \cite{gof-command}.
+
+Data modifications were executed through a single HistoryManager instance, which stored the command objects for the current user scope. History was cleared when the user changed scope (either by navigating or switching application into viewing mode) to avoid accidentally executing events which were not visible anymore. Keeping the history through deletion and creation of objects was achieved using soft-delete flags and only performing the actual deletion when the scope changed.
+
+\subsection{Database}
+
+The application uses one database table for keeping track of the software migration versions and eight tables for storing the data which the user either entered directly in a form field or created with graph manipulation tools. Although most of the database tables and used types were a result of the initial requirements analysis and directly reflected the needs of scientific data, some choices deserve closer attention.
+
+Originally the \emph{gel\_image} table was supposed to store both the values of its \emph{original\_file} and \emph{omero\_id} in a single field \emph{file\_location} since the application itself doesn't have a use for that separation on the database level. The client requested to store the \emph{omero\_id} separately so they could use that in conjunction with their in-house software.
+
+All of the tables which are directly affected by the user have a boolean \emph{is\_deleted} field to support the undo/redo functionality.
+
+Since SQLite stores numbers as floating-point numbers \cite{sqlite-numbers}, some of the numerical field types were also converted to floats instead of decimals. The loss in accuracy was estimated not to be an issue by the client. Fields in question are: 1) \emph{gel\_lane.protein\_weight}, 2) \emph{gel\_image.rotation}, 3) \emph{measurement\_lane.value}.
+
+Fields storing relative locations of graphical elements used internally by the software are serialized and stored as text types on the database - since their values don't hold any meaning outside of the application context, there would be no benefit from using more complex field types like JSON. These fields are: 1) \emph{gel\_image.region}, 2) \emph{gel\_image\_lane.region}, 3) \emph{gel\_image\_lane.zero\_line\_points}.
+
+The schema of the database is shown in Figure \ref{fig:app-db-erd} of Appendix 6.
+
+\section{Measuring User Confidence}
+
+During the active development of the project, emphasis was put on continuously discussing and verifying the algorithmic correctness of the required features. When the project started to fall behind in scope, features supporting the main gel image analysis flow were prioritized and tested by the client. But a lot of the features described to improve user interface and enhance user experience were discarded. By the end of the project, the authors were left with a question: the application is functional - is it also usable?
+
+Corno et al. (2015) reviewed existing literature on how the role of the user is considered during software design and evaluation. A concept they paid closer attention to was the level of confidence the user had while interacting with technology. They note that user confidence is influenced by a correct and reliable system behavior. “One aspect of reliability, often neglected, is guaranteeing the consistency between system operation and user expectations, so that users may build confidence over the correct behavior of the system and its reaction to their actions” \cite{Corno2015}.
+
+Since the number of people able to test our application was expected to be low and limited only to the available Systems Biology lab workers, no existing study methods were considered. 
+
+To gain a better understanding of how the application met both the testers' expectations and user experience a Google Forms questionnaire was created. First, they were asked to identify their role by indicating whether they planned to use the software only while working at the lab or not. Then they were asked to indicate how confident they felt that the features listed worked and met their expectations. A scale of one (\emph{Not at all confident}) to five (\emph{Very confident}) was offered to allow the users to express their opinions more dynamically. The list of features covered in the questionnaire was derived from the user stories previously described in tables \ref{table:requirements-lead} - \ref{table:requirements-scientist}. Questions covered only the features that were implemented at the time of user testing.

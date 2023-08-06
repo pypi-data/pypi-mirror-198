@@ -1,0 +1,190 @@
+%
+% Tallinn University of Technology - bachelor, master thesis template for LaTeX
+%
+% Public Version 1.1
+% 2019 Adjusted by Frank Korving for his Bachelor Thesis, with contributions from Sander Arnus
+%
+% Public version 1.0
+% 2010 - 2013 Thijs Nugteren and Joos Buijs for Master Thesis
+%
+% THIS IS THE MAIN FILE (i.e. compile this file, compiling the others directly won't work)
+%
+\documentclass[12pt, a4paper]{report}
+
+% all the other includes etc. are done in the thesis.sty file.
+\usepackage{thesis}
+
+%
+% These commands need to be defined in order to produce a correct and personalized document
+%
+\newcommand{\doctitle}{Software for Protein Determination}
+\newcommand{\eestidoctitle}{Tarkvara Valkude Määramiseks}
+
+\newcommand{\docsubtitle}{Bachelor Thesis}
+\newcommand{\eestidocsubtitle}{Bakalaureusetöö}
+
+\newcommand{\firstauthor}{Jaak Kütt}
+\newcommand{\firststudentcode}{200814IAIB}
+\newcommand{\secondauthor}{Georg Margus}
+\newcommand{\secondstudentcode}{193294IAIB}
+\newcommand{\thirdauthor}{Lauri Kask}
+\newcommand{\thirdstudentcode}{193685IAIB}
+
+\newcommand{\university}{TALLINN UNIVERSITY OF TECHNOLOGY}
+\newcommand{\eestiuniversity}{TALLINNA TEHNIKAÜLIKOOL}
+
+\newcommand{\school}{School of Information Technologies}
+
+\newcommand{\department}{Department of Software Science}
+\newcommand{\eestidepartment}{Infotehnoloogia teaduskond}
+
+\newcommand{\supervisor}{Priit Järv}
+\newcommand{\supervisortitle}{PhD}
+\newcommand{\cosupervisor}{}
+\newcommand{\cosupervisortitle}{}
+\newcommand{\keywords}{protein determination, gel analysis, background subtraction, pixel intensity analysis}
+\newcommand{\version}{1.0 version}
+\newcommand{\monthYear}{May 2022}
+\newcommand{\Year}{2022}
+\newcommand{\signatureDate}{May 30th, 2022}
+
+\author{
+    \firstauthor\\
+    \and
+    \secondauthor\\
+    \and
+    \thirdauthor
+}
+
+%
+% PDF settings
+%
+\hypersetup
+{
+    pdfauthor={
+        \firstauthor\\
+        \and
+        \secondauthor\\
+        \and
+        \thirdauthor
+    },
+    pdfsubject={\doctitle},
+    pdfkeywords={\keywords}
+}
+
+\begin{document}
+\pagenumbering{roman}
+\include{titlepage}
+
+
+\normalsize
+
+\chapter*{\centerline{Author’s Declaration of Originality}}\label{chapter:declaration}
+\input{chapters/authordeclaration.tex}
+
+\chapter*{\centerline{Annotatsioon}}\label{chapter:abstract-eesti}
+\input{chapters/abstract-eesti.tex}
+\pagebreak
+
+\chapter*{\centerline{Abstract}}\label{chapter:abstract}
+\input{chapters/abstract}
+\pagebreak
+
+\chapter*{\centerline{List of Abbreviations and Terms}}\label{chapter:terms}
+\input{chapters/terms-abbreviations.tex}
+\pagebreak
+
+\phantomsection
+% Sets maximum depth of Table Of Contents
+\setcounter{tocdepth}{2}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+
+\clearpage \phantomsection
+\setcounter{figure}{0}
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+
+\clearpage \phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+\chapter{Introduction}\label{chapter:introduction}
+\onehalfspacing
+\setcounter{page}{0}
+%from here on, start the 'real' page numbering, from 1, with normal digits
+\pagenumbering{arabic}
+\input{chapters/introduction}
+
+\chapter{Project Description}\label{chapter:project-description}
+\input{chapters/project-description.tex}
+
+\chapter{Project Design}\label{chapter:project-design}
+\input{chapters/project-design.tex}
+
+\chapter{Software Description}\label{chapter:software-description}
+\input{chapters/software-description.tex}
+
+\chapter{Validation}\label{chapter:validation}
+\input{chapters/validation.tex}
+
+\chapter{Results}\label{chapter:results}
+\input{chapters/results.tex}
+
+\chapter{Comments and Discussion}\label{chapter:comments}
+\input{chapters/comments.tex}
+
+\chapter{Conclusion and Future Development}\label{chapter:conclusion-future-development}
+\input{chapters/conclusion-future-development.tex}
+
+\pagebreak
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography
+
+\pagebreak
+\phantomsection
+\appendix
+\renewcommand{\thechapter}{\arabic{chapter}}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 1 – UI Draft}
+\chapter*{Appendix 1 – Application UI Draft}
+\input{appendices/appendix-application-ui.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 2 – User Stories}
+\chapter*{Appendix 2 – User Stories}\label{appendix:user-requirements}
+\input{appendices/user-requirements.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 3 – Application Views}
+\chapter*{Appendix 3 – Application Views}\label{chapter:appendix-application-views}
+\input{appendices/appendix-application-views.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 4 – Requirements Comparison}
+\chapter*{Appendix 4 – Requirements Comparison}
+\input{appendices/appendix-requirements-comparison-table.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 5 – Questionnaire Results}
+\chapter*{Appendix 5 – Questionnaire Results}
+\input{appendices/appendix-questionnaire-answers.tex}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix 6 – Database Schema}
+\chapter*{Appendix 6 – Database Schema}
+\input{appendices/appendix-database-schema.tex}
+
+\clearpage
+\phantomsection
+\input{appendices/non-exclusive-licence.tex}
+
+\end{document}

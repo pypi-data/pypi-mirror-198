@@ -1,0 +1,26 @@
+Despite not meeting all the requirements set out at the start of the project, the authors were able to prioritize features supporting the primary goal of creating software that would reduce the gel analysis process time for the Systems Biology lab. The application allows a scientist to prepare and manage the gel context for analyses, measure protein sample quantities on the gel images and review prior work. The authors gained new knowledge and skills about used technologies, the development process, and the domain of the project.
+
+An overview of which of the requirements were implemented can be seen in tables \ref{table:requirements-lead} - \ref{table:requirements-scientist} of Appendix 2.
+
+Seven features that were part of the requirements for the secondary goal of making the software publicly available as an open-source project were not implemented:
+\begin{itemize}
+    \item I want GitLab pipeline configured to build packaged executables;
+    \item I want the software to look as agreed on the UI design document;
+    \item I want to use the software in my own language;
+    \item I want to export the results of my work as a CSV file;
+    \item I want to curve the lanes individually;
+    \item I want a user manual for the software;
+    \item I want the implementation of analysis steps formally documented.
+\end{itemize}
+
+\section{Internationalization}
+At the ending phases of development, clients communicated the requirement for application to support other languages besides English. That would have been necessary for users whose first language is not English. PySide has a package for the convenient implementation of internationalization \cite{pyside-intl}, and therefore authors believe that adding such functionality will not be a big issue in the future. It was currently left out of the scope mainly because it was communicated too late.
+
+\section{CSV Export}
+Exporting gel and measurement data to Excel would have been useful for performing additional analysis in third-party software. Since it was not a high priority requirement, it was left out of the project scope due to time constraints. It should not be an overly complicated feature to add in the future, as generating CSV files from relational data is a relatively standard task.
+
+\section{Curved Lanes}
+The most prominent feature that was not implemented was the ability to select curved lanes for analysis. According to the clients, the need for that feature would be rare and only required when the physical gel gets damaged or distorted, but in that circumstance, it would be valuable. They estimated that a loss of a gel would result in two days of work to prepare another gel and that only if the study material is still available. Unfortunately, it did not get implemented as it was also one of the most complicated features.
+
+\section{Gel Filtering}
+The possibility to filter the gel list by search queries would be useful if there are many gels added. This would have also improved the user experience to a large degree. It was decided to leave it unimplemented due to it not being critical for application functioning and having more important features to implement at the time.

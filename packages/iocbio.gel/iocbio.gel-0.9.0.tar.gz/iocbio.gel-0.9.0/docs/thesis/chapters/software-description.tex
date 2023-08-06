@@ -1,0 +1,157 @@
+The project was implemented as a desktop Python application capable of running on Windows and Unix-like operating systems. 
+
+The application uses a SQL database to store both the operational and user-created data. If the user does not specify connection parameters for an external database the application creates a SQLite database file in the current working directory.
+
+The application creates a cache directory under operating system (OS) provided temporary path. On Unix/Linux systems this is the path specified in the TMPDIR environment variable or \emph{/tmp} if TMPDIR is not defined. On Windows this is usually the path specified in the TEMP or TMP environment variable \cite{qt-dir}. Two types of files are written there: images fetched from OMERO and the results of image processing steps.
+
+Credentials necessary to authenticate with the databases are stored using the Python keyring library. Therefore, on Windows the credentials are stored to Credential Locker, on macOS to Keychain and on UNIX-like systems to KWallet \cite{keyring}.
+
+\section{Prerequisites and Installation}
+
+The minimum required Python version to use the application is Python 3.8. It is recommended to use the Python virtual environment for installing and running the application (in the following steps, the virtualenv module\footnote{https://pypi.org/project/virtualenv/} is used). Due to an underlying dependency and the specific OS version the application is being installed on, an OS-specific C++ compiler may be required.
+
+On Linux/Unix and macOS systems, the environment can be set up by running the following commands in the application root directory using a Unix shell program like Bash:
+\begin{verbatim}
+python -m virtualenv .venv 
+source .venv/bin/activate
+\end{verbatim}
+The application can then be installed by running the following command:
+\begin{verbatim}
+python -m pip install -r requirements.txt .
+\end{verbatim}
+If previous steps produced no errors, then application can be executed by running the following command:
+\begin{verbatim}
+.venv/bin/iocbio-gel
+\end{verbatim}
+
+Installing and running the application on Windows is similar to the case of Linux. Commands can be run in Powershell or a similar command-line application.
+Setting up the application:
+\begin{verbatim}
+py -m virtualenv .venv
+.venv\Scripts\activate
+\end{verbatim}
+Installing the application:
+\begin{verbatim}
+py -m pip install -r requirements.txt .
+\end{verbatim}
+Running the application:
+\begin{verbatim}
+.venv\Scripts\iocbio-gel
+\end{verbatim}
+
+\subsection{Application Startup}
+
+During the initial startup, the user is shown a database configuration dialog where it’s possible to specify the database management system (DBMS) to be used and the parameters to connect to the database, as well as an image source configuration dialog, where the user can choose between local filesystem storage or specify connection parameters to an OMERO server. The application tries to connect with given parameters and shows an error message if a connection can not be established. The user can then add the correct parameters. If the user closes the dialog, then the application does not proceed and is closed.
+
+After the database connection has been established SQLAlchemy checks the migration history. Any unapplied migration scripts located at \emph{iocbio/gel/db/alembic/versions/*.py} will be run to ensure that the database schema conforms to the requirements of the application.
+
+When the application is configured to connect to an OMERO instance, then, during the startup process, fresh copies of images are fetched from OMERO and stored in the local cache folder.
+
+\section{Application Layout}
+Visually the application is divided into three components: mostly static toolbar on top, a narrow navigation menu with embedded gels list on the left, and the main content area. 
+
+\subsection{Toolbar}
+The horizontal toolbar at the top of the application provides the user with access to both context-dependent and globally relevant functionalities. “Undo” and “Redo” buttons allow the user to revert their previous action or reapply previously reverted actions. “Current mode: Editing” and “Current mode: Viewing” either enable or disable the user's ability to modify objects and data. The “Settings” button acts as a link to the settings view. “Add new Gel” or “Add new Measurement” buttons
+are available depending on the view and provide a shortcut for creating new objects.
+
+\subsection{Navigation}
+Left side of the application contains a “Gels” button which opens up the gels list view, a list of individually named gel buttons which lead the user to gel detail view for the selected gel and a “Types” button at the bottom, which opens the measurement types view.
+
+\subsection{Content Area}
+The main area which displays the views listed below. On the application startup the gels list view is displayed by default.
+
+\section{Application Views}
+
+The application views can be grouped into three different categories:
+\begin{itemize}
+    \item data tables which provide general overview of previous work and allow to specify context for the analysis - gels list view, gel detail view, measurement types view;
+    \item gel image and graph manipulation views for the analysis steps - raw, adjust, background, lanes and measurements;
+    \item settings view for changing the application configurations.
+\end{itemize}
+
+\subsection{Gel List View}
+A table view where the user can navigate by clicking on the “Gels” button on the left upper corner of the application. The following columns are presented for every gel: ID, name, transfer, comment. In addition, the counts of attached lanes and measurements are shown. The value of every field except for the ID can be changed if the editing mode is active. The gel list view can be seen in Figure \ref{fig:gel-list}.
+
+\subsection{Gel Detail View}
+To navigate into the gel detail view one must click on one of the buttons with gel names on the left menu below the “Gels” button. On the upper part of the view, the gel name and creation time are displayed.
+The lanes table contains the ID, lane number, sample ID, protein amount in micrograms (μg), comment fields, and a checkbox field indicating if it is a reference lane that samples can be compared to.
+All fields except the ID can be changed if the editing mode is turned on. Lanes can also be deleted in this mode.
+The measurements table contains the data of all the measurements linked to the gel. The table shows the image, time, ID, type, comment, and identifiers of connected lanes. All the fields can be changed in editing mode. The gel detail view can be seen in Figure \ref{fig:gel-detail}.
+
+\subsection{Measurement Types View}
+The measurements type view is a table view where one can navigate by clicking the “Types” button in the lower-left corner, below the gel buttons. The table shows the ID, name, and comment of every measurement type. The value of each field can be changed and the type can be deleted in editing mode. An error box appears and deletion fails if the user tries to delete a measurement type that is connected to one or more measurements. The measurement types view can be seen in Figure \ref{fig:types-list}.
+
+\subsection{Gel Image Raw View}
+
+The gel image view contains different sub-views meant for processing and analyzing the gel image. The user can move between these views by clicking on corresponding tabs.
+The raw image view shows the gel image without any processing done on it. Image can not be changed in this view.
+
+\subsection{Gel Image Adjust View}
+
+Adjust view allows the user to specify a region on the image that is used for analysis in subsequent steps. A rectangle appears when the image is clicked. The size, rotation, and position of this rectangle can be changed by dragging it from the handles. The region can be confirmed for analysis by clicking on the “Apply” button. Adjust view can be seen in Figure \ref{fig:gel-image-adjust}.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=.5\textwidth]{figures/image-adjust-roi.png}
+    \caption{\textit{Cropping/rotation selection ROI.}}
+    \label{fig:types-list}
+\end{figure}
+
+\subsection{Gel Image Background View}
+
+The background subtraction view gives the user the option to apply the rolling ball background subtraction algorithm, specifying kernel type (“ball”, “ellipsoid”, or “none”), ball radius (two radiuses for ellipsoid), and whether the image is inverted before passing into the algorithm. When “none” is chosen, background subtraction will not be performed). Pressing “Apply” will execute the algorithm with the given parameters. Three images are shown: how it looked from the previous step, the extracted background from the algorithm, and the result, which is the difference of the input image and background (matrix subtraction). If the image was set to be inverted, the algorithm will use an inverted version of the image and the result will be subtracted from the inverted image, which will then be inverted again to restore the original colors. The image should be inverted if the source image has a dark background. The rolling ball implementation used is the one from the scikit-image library \cite{rolling-ball}. The gel image background view can be seen in Figure \ref{fig:gel-image-bg-sub}.
+
+\subsection{Gel Image Lanes View}
+The lanes view contains an image graph with the image processed in the three previous views. The “New lane” button allows the user to place a vertical variable-width lane inside the bounds of the image, which will span from top to bottom. Existing lanes can be moved along the horizontal axis, change widths, or be removed entirely. The number of placeable lanes is bounded by the number of lanes defined in the gel detail view. 
+For each lane, there is a corresponding graph showing the pixel intensities along the lane, the y-axis being the pixel intensity and the x-axis the position of the horizontal chunk of pixels in the lane, starting from the top of the lane. The graph has a modifiable zero-line below the reading that can be dragged around by their points, which can be added to the line by clicking on it. The resulting area for the lane is determined by the difference between the readings integral and zero-line integral from zero to the height of the lane. The gel image lanes view can be seen in Figure \ref{fig:gel-image-lanes}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{figures/gel-image-lane-plot.png}
+        \caption{Gel image lanes view: image plot with \\
+        lanes L1 and L2.}
+        \label{fig:sub-gel-image-lane-plot}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{figures/gel-image-lane-graph.png}
+        \caption{Gel image lanes view: graph for lane L1 zero-line in blue.}
+        \label{fig:sub-gel-image-lane-graph}
+    \end{subfigure}
+    \caption{Gel image graph and lanes plot}
+    \label{fig:gel-image-lane-graph-plot}
+\end{figure}
+
+\subsection{Gel Image Measurements View}
+
+The measurements view contains four components: a) lanes' graph, b) intensity plots, c) measurement lanes table, and d) measurements table. (Figure \ref{fig:gel-image-measurements})
+
+a) Image graph with the lanes marked on the previews analysis step. Placed lanes can't be manipulated in this view anymore.
+Clicking on a lane allows the user to add or remove it from the selected measurement.
+
+b) An intensity plot is shown for every selected lane for the current measurement.
+Each plot shows the vertically combined pixel intensity values for every pixel row along the lane.
+Minimum and maximum integration limit lines can be adjusted to specify what area of the plot should count toward the area of interest.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/limit-lines.png}
+    \caption[\textit{Integration limit lines}]%
+    {\textit{Integration limit lines}}
+    {\small {Shown as vertical yellow lines}}
+    \label{fig:integration-limit-lines}
+\end{figure}
+
+c) An optional comment can be added to the measured area per lane and indicated whether the measurement was successful or not.
+
+d) Measurement type and comment can be added. Clicking on a measurement row will mark that measurement as selected and update the information on other components to match that change.
+
+\subsection{Settings View}
+The user can navigate to the settings view by clicking on the “Settings” button on the toolbar. It allows the user to change configured database settings and offers the same options as the initial database dialog. The “Image source” section allows the user to choose between local and OMERO options for storing images. The “Database connection” section lets users specify the same database connection options as in the database configuration dialog. The settings view can be seen in Figure \ref{fig:settings}.
+
+\subsubsection{Database Configuration}
+The database configuration section lets the user choose between SQLite and PostgreSQL for the DBMS from the dropdown menu, and according to the choice specific configuration parameters will appear. In the case of SQLite, there are no additional settings to be shown. For PostgreSQL, the user can specify database host, port, Secure Sockets Layer (SSL) mode, database name, user, and password. This section will be shown to the user as a dialog when the application is first started and no database is configured.
+
+\subsubsection{Image Source Configuration}
+The image source configuration section lets the user choose the source for the images to be analyzed. The user can choose between a folder on the local filesystem and an existing OMERO database. If the local filesystem is chosen, files will be fetched from a folder in the application’s directory. If OMERO is selected, the user can specify the hostname, port, username, and password for the connection. This section is shown to the user as a dialog when the application is started and the image source has not been configured.
