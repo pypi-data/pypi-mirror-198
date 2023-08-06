@@ -1,0 +1,11 @@
+README.md
+setup.py
+telaolparse/__init__.py
+telaolparse/telaolparse_excel.py
+telaolparse/telaolparse_forms.py
+telaolparse/telaolparse_students.py
+telaolparse.egg-info/PKG-INFO
+telaolparse.egg-info/SOURCES.txt
+telaolparse.egg-info/dependency_links.txt
+telaolparse.egg-info/requires.txt
+telaolparse.egg-info/top_level.txt
