@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: recommender-testing11
+Version: 0.3
+Summary: simple random movie recommender
+Home-page: https://github.com/scikit-learn/scikit-learn/tree/main/sklearn/datasets
+Author: Arjun
+Author-email: arjun@spiced-academy.com
+License: Open Source
+Requires-Dist: numpy
+
