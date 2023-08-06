@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: DB2mermaid
+Version: 1.0.0
+Summary: db -> mermaid ER code
+Home-page: https://github.com/kitsystemyou/make-mermaid-swim-by-db
+Author: singsignalyou
+Author-email: kitsystemyou@gmail.com
+License: MIT
+Keywords: mermaid erDiagram
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Requires-Dist: mysqlclient
+
+# make-mermaid-swim-by-db
+make mermaid ER code from db (python)
+
+# Require
+- Python3.10
+- sqlalchemy
+- mysqlclient
+- **your (mysql)DB**
+
+# usage
+- install
+```
+pip install DB2mermaid
+```
+
+- use
+```
+from db2mermaid.db2mermaid import DB2Mermaid
+    dm = DB2Mermaid()
+    dm.init_db("user", "pasword", "127.0.0.1", "3306", "db_name")
+    dm.generate()
+```
+
+# Caution ❗
+this package is not full.
+It cannot generate table relation, can only generate table definition 😢.
+(And now, only mysql... 🤣)
+
+# Future
+Make CLI
