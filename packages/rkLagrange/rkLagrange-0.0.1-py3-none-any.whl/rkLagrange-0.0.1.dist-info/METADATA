@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rkLagrange
+Version: 0.0.1
+Summary: Lagrangian optimization package
+Author: RamKan
+Author-email: ramk612000@gmail.com
+Keywords: python,video,stream,video stream,camera stream,sockets
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+
+A package that allows to build simple give the coeff of equations and get the optimized sol.
