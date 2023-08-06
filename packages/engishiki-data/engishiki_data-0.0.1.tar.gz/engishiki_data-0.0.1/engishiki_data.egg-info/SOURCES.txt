@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+engishiki_data/__init__.py
+engishiki_data/_modidx.py
+engishiki_data/core.py
+engishiki_data.egg-info/PKG-INFO
+engishiki_data.egg-info/SOURCES.txt
+engishiki_data.egg-info/dependency_links.txt
+engishiki_data.egg-info/entry_points.txt
+engishiki_data.egg-info/not-zip-safe
+engishiki_data.egg-info/requires.txt
+engishiki_data.egg-info/top_level.txt
