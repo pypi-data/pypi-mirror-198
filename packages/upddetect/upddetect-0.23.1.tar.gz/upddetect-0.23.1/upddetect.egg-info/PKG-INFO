@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: upddetect
+Version: 0.23.1
+Summary: Utility for outdated packages automatic detection
+Home-page: https://github.com/ksotik/upddetect
+Author: ksot1k
+Author-email: mail@ksotik.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: upddetect,packages updates,outdated list,security updates,new versions,security patches list,updates detection,search updates
+Platform: UNKNOWN
