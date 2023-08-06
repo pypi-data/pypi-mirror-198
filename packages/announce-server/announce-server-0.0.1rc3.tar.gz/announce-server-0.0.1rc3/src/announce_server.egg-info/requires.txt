@@ -1,0 +1,13 @@
+python-socketio[asyncio_client]
+
+[dev]
+pytest
+pytest-mock
+pytest-asyncio
+pytest-cov
+
+[pub]
+build
+wheel
+setuptools_scm
+twine
