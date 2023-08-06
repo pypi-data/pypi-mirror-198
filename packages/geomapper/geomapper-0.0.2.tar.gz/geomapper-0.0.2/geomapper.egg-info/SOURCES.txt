@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geomapper/__init__.py
+geomapper/geomapper.py
+geomapper.egg-info/PKG-INFO
+geomapper.egg-info/SOURCES.txt
+geomapper.egg-info/dependency_links.txt
+geomapper.egg-info/not-zip-safe
+geomapper.egg-info/top_level.txt
