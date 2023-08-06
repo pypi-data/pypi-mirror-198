@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gettmpmail/LICENSE
+gettmpmail/README.MD
+gettmpmail/__init__.py
+gettmpmail/allnamesformatfirst.pkl
+gettmpmail/requirements.txt
+gettmpmail/thirdparty.json
+gettmpmail.egg-info/PKG-INFO
+gettmpmail.egg-info/SOURCES.txt
+gettmpmail.egg-info/dependency_links.txt
+gettmpmail.egg-info/requires.txt
+gettmpmail.egg-info/top_level.txt
