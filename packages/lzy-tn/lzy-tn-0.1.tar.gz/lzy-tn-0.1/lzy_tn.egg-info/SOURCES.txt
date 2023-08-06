@@ -1,0 +1,6 @@
+setup.py
+tn.py
+lzy_tn.egg-info/PKG-INFO
+lzy_tn.egg-info/SOURCES.txt
+lzy_tn.egg-info/dependency_links.txt
+lzy_tn.egg-info/top_level.txt
