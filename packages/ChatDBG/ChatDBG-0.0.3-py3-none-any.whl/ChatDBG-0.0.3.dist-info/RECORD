@@ -1,0 +1,12 @@
+chatdbg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatdbg/__main__.py,sha256=J0IP0fS52jj-rugVFMHxGWoLJFekbZBgvJS5TG2H-YY,379
+chatdbg/chatdbg.py,sha256=-1pv63gtOjfXA0g3LqQUEtAZ2AxV9lsIfMIjKyUin08,63718
+chatdbg/chatdbg_why.py,sha256=WndM575b8eZTr_ID3eHIfL2ehStn-WWWd5os45EVA18,3530
+chatdbg/prompter.py,sha256=c-4SZ6GCxZlINWiqh82nJG78Ru548OhPGScmiEagNis,2711
+chatdbg/backup/chatdbg_why.py,sha256=CdRcGYinin06KHeMg-LuPjN_45rTvf8xOYvSIpYnDzE,3892
+ChatDBG-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ChatDBG-0.0.3.dist-info/METADATA,sha256=m_jV3GK3oaUwbHCoabwY8iSwPraBXarYKEYyJ-Bi3JY,2634
+ChatDBG-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ChatDBG-0.0.3.dist-info/entry_points.txt,sha256=TAT9zeYYpgEDTU0zGr9Qg0eKSHoa2EaAVupihmSP-Po,50
+ChatDBG-0.0.3.dist-info/top_level.txt,sha256=LvFS181zJ5yxSrFIiY2FS0Yf_ror2iKyKt3CpgUCvL0,8
+ChatDBG-0.0.3.dist-info/RECORD,,
