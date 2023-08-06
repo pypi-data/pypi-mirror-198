@@ -1,0 +1,12 @@
+unda/__init__.py,sha256=GfYuRQGzt6M0w5cPVOQ0DPiCRvdXCwHozGXrbijTJrc,1126
+unda/constants.py,sha256=YLEQ8INuV4zqxgvAEdblr81ZtDB0ERnOal0rbWDpt_s,229
+unda/functions.py,sha256=r7LJPA6mkQgD_3hJXDATA9Jl0qXIknpm9esByM62tCY,2583
+unda/unda_client.py,sha256=YLe6Tav_VblUY1aCTDiGiMrhfP6mPt12sNL-HGSZedQ,11958
+unda/unda_manager.py,sha256=hqZ_16ytrfr5A3PPIBtci5uQGQOIGNy3bmvFIKF8MME,6863
+unda/unda_object.py,sha256=cly7sSdal_IXhkefxAGl3JgFE_Pq9VkMooXv3JfS8t8,1939
+unda/version.py,sha256=vvUIlH3RWgxvCs0n4OAD49gIRHrBVbWN0WP9rtg3n9Q,3686
+unda-1.1.2.dist-info/LICENSE,sha256=o_Z0KVkZ-1ewobG14DprVhfzwYApiyC6RZdvxI6TZdg,1097
+unda-1.1.2.dist-info/METADATA,sha256=7i6qrfHte5wQmnLvaeLbSf42PF36gf3sZbnOjTeCubQ,2807
+unda-1.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+unda-1.1.2.dist-info/top_level.txt,sha256=9hF9wjk3XTbnj-x-INhIFdo5_bZvfLgyQrmsx0p5cqQ,5
+unda-1.1.2.dist-info/RECORD,,
