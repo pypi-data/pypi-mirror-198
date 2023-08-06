@@ -1,0 +1,9 @@
+gmdh/__init__.py,sha256=2mFnm5s7D2ED0R70N_bCztALOTtcxFvmd1BCJlk-AZY,123
+gmdh/_gmdh_core.cpython-39-x86_64-linux-gnu.so,sha256=23LzIHr18C-fCH94LKJq4_YcpZjpUeXYmunI27Xk5-0,2482024
+gmdh/gmdh.py,sha256=UhFMVoFnds9cnDHINpLxc13ID28rZUluonUmdFTswJc,44926
+gmdh/version.py,sha256=5DEKVsJU1VKbMTa8Rme-caG32odc9sc1iqbdOoi6FXM,47
+gmdh-1.0.dist-info/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gmdh-1.0.dist-info/METADATA,sha256=0FQJVGxwJrO4mcWtJs3m1Mip-bO7a89t21Y66ob0aFk,511
+gmdh-1.0.dist-info/WHEEL,sha256=LrizK2MHoduzM5QxL2KpqaPs9dWHcHab3k-KJZvbHOw,108
+gmdh-1.0.dist-info/top_level.txt,sha256=bydfLPrledzN98upKL7tp0yhhI794jv3I1cmtQO7wrY,16
+gmdh-1.0.dist-info/RECORD,,
