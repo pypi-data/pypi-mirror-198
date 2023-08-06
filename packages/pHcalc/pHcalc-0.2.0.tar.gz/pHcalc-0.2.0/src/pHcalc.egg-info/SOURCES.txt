@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+src/pHcalc/__init__.py
+src/pHcalc/pHcalc.py
+src/pHcalc.egg-info/PKG-INFO
+src/pHcalc.egg-info/SOURCES.txt
+src/pHcalc.egg-info/dependency_links.txt
+src/pHcalc.egg-info/requires.txt
+src/pHcalc.egg-info/top_level.txt
