@@ -1,0 +1,13 @@
+Products.GenericSetup
+Zope
+persistent
+plone.app.vocabularies
+setuptools
+zope.contentprovider
+zope.viewlet
+
+[test]
+Products.CMFPlone
+plone.app.testing
+plone.testing
+zope.publisher
