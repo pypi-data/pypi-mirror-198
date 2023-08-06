@@ -1,0 +1,19 @@
+name: napari-cell-centroid-annotator
+display_name: 3D cell centroid annotator
+contributions:
+  commands:
+    - id: napari-cell-centroid-annotator.get_reader
+      python_name: napari_cell_centroid_annotator._reader:napari_get_reader
+      title: Open image and points data with 3D cell centroid annotator
+    - id: napari-cell-centroid-annotator.make_annotate_centroids_widget
+      python_name: napari_cell_centroid_annotator._widget:annotate_centroids_widget
+      title: Make centroid annotation widget
+  readers:
+    - command: napari-cell-centroid-annotator.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.tif', '*.tiff', '*.csv','*.npy']
+  writers:
+  widgets:
+    - command: napari-cell-centroid-annotator.make_annotate_centroids_widget
+      autogenerate: true
+      display_name: Centroid Annotation Widget

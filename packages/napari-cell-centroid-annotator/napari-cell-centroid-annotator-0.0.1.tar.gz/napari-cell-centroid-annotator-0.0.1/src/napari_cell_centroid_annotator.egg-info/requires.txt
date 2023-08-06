@@ -1,0 +1,17 @@
+numpy
+pandas
+tifffile
+pathlib
+napari
+napari-plugin-engine
+napari-layer-table
+magicgui
+qtpy
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
