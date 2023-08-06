@@ -1,0 +1,3 @@
+[console_scripts]
+letloop.py=letloopit:main
+
