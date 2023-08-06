@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: medutils-mri
+Version: 0.1.0
+Summary: Utils for medical image processing and reconstruction
+Home-page: https://github.com/khammernik/medutils/
+Author: Kerstin Hammernik
+Author-email: k.hammernik@tum.de
+License: Apache 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+
+medutils
+========
+
+This repository contains useful functions for medical image processing and reconstruction.
+
+- **io**: loadmat function to handle mat files saved with different versions
+- **measures**: common evaluation measures
+- **mri**: (centered) fft2 / ifft2, MRI Cartesian 2D operators, post-processing functions, radial and spiral trajectories
+- **optimization**: Conjugate gradient, primal-dual optimizers for arbitrary operators 
+- **visualization**: slice viewer, contrast enhancement, image brightening, functions to show and save images and k-space data, image flipping
+
+Installation
+------------
+To install the package, simply execute following commands. All dependencies will
+be installed automatically.
+
+.. code-block::
+
+    pip install medutils-mri
