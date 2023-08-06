@@ -1,0 +1,25 @@
+[tool.poetry.scripts]
+commit-msg-checker = "commit_msg_checker:main"
+
+[tool.black]
+line-length = 100
+
+[tool.poetry]
+name = "commit-msg-checker"
+version = "0.1.0"
+description = "for adoc commit-msg-checker"
+authors = ["yongineer1990 <yongineer1990@gmail.com>"]
+packages = [{ include = "src/*.py" }]
+license = "Proprietary"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pre-commit = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+python-language-server = { extras = ["all"], version = "*" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
