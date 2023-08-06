@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TrendVerify
+Version: 0.0.1
+Requires-Dist: tzdata (>=2022.7)
+Requires-Dist: regex (>=2022.10.31)
+Requires-Dist: importlib-metadata ; python_version > "3.11"
+
