@@ -1,0 +1,5 @@
+boto3
+dataclass-wizard
+pandas
+pdfplumber
+twine
