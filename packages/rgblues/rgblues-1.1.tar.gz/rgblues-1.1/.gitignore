@@ -1,0 +1,16 @@
+# Particular files
+rgblues.pdf
+rgblues*csv
+*~
+
+# PyCharm related files
+.idea
+
+# Auxiliary directories
+build
+dist
+rgblues.egg-info
+rgblues/__pycache__/
+rgblues/core/__pycache__/
+rgblues/gui/__pycache__/
+rgblues/tests/__pycache__/
