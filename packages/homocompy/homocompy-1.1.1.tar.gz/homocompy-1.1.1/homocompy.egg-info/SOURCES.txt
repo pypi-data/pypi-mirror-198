@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+Examples/__init__.py
+Examples/example1.py
+homocompy/__init__.py
+homocompy/stiffness_homogenization.py
+homocompy.egg-info/PKG-INFO
+homocompy.egg-info/SOURCES.txt
+homocompy.egg-info/dependency_links.txt
+homocompy.egg-info/requires.txt
+homocompy.egg-info/top_level.txt
