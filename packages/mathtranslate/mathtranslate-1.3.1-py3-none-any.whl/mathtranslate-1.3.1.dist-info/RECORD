@@ -1,0 +1,14 @@
+mathtranslate/__init__.py,sha256=0dFq8Pd9dLS_I502eSmwn8RDMUSgEpgAPyx55tZJCMo,295
+mathtranslate/config.py,sha256=3f78YpvBamYoO-QzCpSa5oT6kgjFq0KSmSlkgYsRav8,1858
+mathtranslate/fix_encoding.py,sha256=StniqGmqQP8K20vA_m3IVCnM_cQitcP0_k4N0TBQYEU,896
+mathtranslate/gpt_overleaf.py,sha256=Z8-Cml7GkS7J5g_VMTcVjDchXW550he4GhAD97Xf564,1953
+mathtranslate/process_latex.py,sha256=nuGG5reu6-gMem1X6qw2VDVSPUmdWAZiY8tpf7Npp4Q,3006
+mathtranslate/tencent.py,sha256=SPfX1nX2MsVTVsCgE2ZH2YIF4pfDuDSvgLMs4A5bN_s,745
+mathtranslate/translate_tex.py,sha256=x_o-s-AnG_Fno5ll_0JzB680Ucq816tW1zhLN0aDXeU,5551
+mathtranslate/translation.py,sha256=z2JC-dM2BZPHUrU8zWjuHnPknhDKoy5h87S0yOQiNL0,3861
+mathtranslate-1.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mathtranslate-1.3.1.dist-info/METADATA,sha256=6YxOUR7_46hM3vRrhWLAxFTUjpeUfrHQLboo1kWhLQE,5519
+mathtranslate-1.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mathtranslate-1.3.1.dist-info/entry_points.txt,sha256=Gp1aJ-ojh5b5pb0JOqoLPFWWVvaOj4j6q4zlljlLdLU,67
+mathtranslate-1.3.1.dist-info/top_level.txt,sha256=9fiyv2mtqrZ-icGi_P3adnAX09LKL4-FT9PSmaPhUcs,14
+mathtranslate-1.3.1.dist-info/RECORD,,
