@@ -1,0 +1,12 @@
+README.rst
+pyproject.toml
+setup.py
+pycimg/__init__.py
+pycimg/pycimg.py
+pycimg.egg-info/PKG-INFO
+pycimg.egg-info/SOURCES.txt
+pycimg.egg-info/dependency_links.txt
+pycimg.egg-info/not-zip-safe
+pycimg.egg-info/requires.txt
+pycimg.egg-info/top_level.txt
+src/cimg_bindings.cpp
