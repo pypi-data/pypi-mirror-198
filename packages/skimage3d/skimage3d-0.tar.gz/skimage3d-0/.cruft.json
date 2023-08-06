@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/ianhi/pyrepo-cookiecutter",
+  "commit": "525a213d5a01700ac67b06e050e6ca37dd7e99e0",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Dennis Brookner",
+      "email": "debrookner@gmail.com",
+      "github_username": "dennisbrookner",
+      "project_name": "skimage3d",
+      "project_slug": "skimage3d",
+      "project_short_description": "Simple extension of various skimage.transform utilites for 3D images",
+      "pypi_username": "dennisbrookner",
+      "_copy_without_render": [
+        ".github/workflows/*"
+      ],
+      "_template": "https://github.com/ianhi/pyrepo-cookiecutter"
+    }
+  },
+  "directory": null
+}
