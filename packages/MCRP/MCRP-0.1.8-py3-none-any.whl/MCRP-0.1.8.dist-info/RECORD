@@ -1,0 +1,12 @@
+MCRP/__init__.py,sha256=RcgEDZnpRwgNQhgAFT1YdwwIhQ_hCICnWteiDJ_ywqs,80
+MCRP/iautil.py,sha256=SdQwcfsYuSG4JFMR1NrfcVHDLZQF4WYmG1FpfI3ysbw,611
+MCRP/mcrp.py,sha256=MnoZ5fXiAdxalUZPokkPX1Te48MImtWKlTkoDpaGJKY,14560
+MCRP/mcwp.py,sha256=TR09MKMPjOlLFMA75du5tnZu1he4-N1QZqUsIkOwINw,5927
+MCRP/tcproxy.py,sha256=IosWmb484ckintI6tUBRM3nZEdssqCaqMYWEnrRMtAo,4114
+MCRP/util.py,sha256=QPWzVMO4ulHkSA9v3nPUqKfLecPa68uc03zz-rI-8MM,882
+MCRP-0.1.8.dist-info/LICENSE,sha256=5o3klq1LXYOQ7ZW15SETGFku4Z3oV9VOELnettdwfLU,35060
+MCRP-0.1.8.dist-info/METADATA,sha256=Ho58DHrzDOUpDZ75csidt_kmycwKYIQ4k6qbcHErr6g,7314
+MCRP-0.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MCRP-0.1.8.dist-info/entry_points.txt,sha256=8HjEjIsVMm6kdV9S1GqsjK9ICk_iAvrb3W6S2Zzfre4,41
+MCRP-0.1.8.dist-info/top_level.txt,sha256=kiBJB9iCobyqf3IxllWZAGupoBPqi7nHCNXQevMrEpc,5
+MCRP-0.1.8.dist-info/RECORD,,
