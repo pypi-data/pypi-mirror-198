@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+cfdtools.egg-info/PKG-INFO
+cfdtools.egg-info/SOURCES.txt
+cfdtools.egg-info/dependency_links.txt
+cfdtools.egg-info/entry_points.txt
+cfdtools.egg-info/requires.txt
+cfdtools.egg-info/top_level.txt
+tests/test_0_api.py
+tests/test_0_connectivity.py
+tests/test_1_gmsh.py
+tests/test_1_ic3.py
+tests/test_1_simple.py
+tests/test_2_cli.py
+tests/test_2_convert.py
+tests/test_probes.py
