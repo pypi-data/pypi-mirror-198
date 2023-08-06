@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/scs/__init__.py
+src/scs/divide/__init__.py
+src/scs/divide/divide_by_three.py
+src/scs/multiply/__init__.py
+src/scs/multiply/multiply_by_three.py
+src/svg_captcha_solver.egg-info/PKG-INFO
+src/svg_captcha_solver.egg-info/SOURCES.txt
+src/svg_captcha_solver.egg-info/dependency_links.txt
+src/svg_captcha_solver.egg-info/top_level.txt
+tests/test_divide_by_three.py
+tests/test_multiply_by_three.py
