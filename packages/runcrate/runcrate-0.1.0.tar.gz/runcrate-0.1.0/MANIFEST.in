@@ -1,0 +1,18 @@
+graft docs
+graft src
+
+include *.rst
+include LICENSE
+include requirements.txt
+include CODE_OF_CONDUCT.md
+
+exclude tox.ini
+
+prune cwl
+prune devtools
+prune tests
+prune tools
+
+global-exclude *.py[cod] __pycache__/* *.so *.dylib 
+global-exclude tags
+global-exclude *.swp
