@@ -1,0 +1,10 @@
+README.md
+setup.py
+./syntax/__init__.py
+./syntax/__main__.py
+demontonto.egg-info/PKG-INFO
+demontonto.egg-info/SOURCES.txt
+demontonto.egg-info/dependency_links.txt
+demontonto.egg-info/entry_points.txt
+demontonto.egg-info/requires.txt
+demontonto.egg-info/top_level.txt
