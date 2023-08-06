@@ -1,0 +1,2 @@
+[nbdev]
+engishiki_data = engishiki_data._modidx:d
