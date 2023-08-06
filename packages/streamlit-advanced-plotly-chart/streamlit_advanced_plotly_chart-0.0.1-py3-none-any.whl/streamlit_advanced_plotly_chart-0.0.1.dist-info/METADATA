@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: streamlit-advanced-plotly-chart
+Version: 0.0.1
+Summary: Custom Streamlit component to preserve zoom level of plotly charts when getting event data from them.
+Home-page: https://github.com/fabianandresgrob/streamlit-advanced-plotly-chart
+Author: Fabian Grob
+Author-email: grobfab@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+
+This is a custom Streamlit component to preserve zoom level of plotly charts when getting event data from them. It is based on the streamlit-plotly-events component by @null-jones. It changes the option to select the event to watch to a string.
