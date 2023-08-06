@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bangla-python
+Version: 1.2
+Summary: bangla-python
+Author: Nahid Hossain (nahid@cse.uiu.ac.bd)
+Author-email: mailbox.nahid@gmail.com
+Keywords: bangla-python,bangla language processing,bangla tokenizer,bangla remove punctuation,bangla remove foreign word,bangla number to word,bangla numbers,bangla to english number,english to bangla number,bangla number to word
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A comprehensive package for bangla language processing in python.<br> Please full documentation: http://www.nahid.org/bangla-python 
