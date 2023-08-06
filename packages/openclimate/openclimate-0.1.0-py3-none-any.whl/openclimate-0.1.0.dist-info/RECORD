@@ -1,0 +1,15 @@
+openclimate/ActorOverview.py,sha256=lGDLmT5EGeI1g8d1uDpu5NLCiyNXrI9FF4RPJ86w0i4,4243
+openclimate/Base.py,sha256=ZFZQLR-RyPFy-dtATI5s52pnXbZtzbuyXMCV6IR70bc,414
+openclimate/Client.py,sha256=_WyJW9fPGYEgGGmKWnTD2jY7meomgF9bEuiVFC8pNtw,5134
+openclimate/Emissions.py,sha256=KMCZldiW4Y6IwpHfnJ165LRpLvMy3Cl5-KYJL72G-TM,3007
+openclimate/GDP.py,sha256=XBBLYPCnZwB_e8mQiLpQqRqcsqqOJa2dy1oLMiYMKT4,1599
+openclimate/Population.py,sha256=vfXrld435KLnNEIJll5iUVSIDa4COIfnt2J1pLKstkA,1685
+openclimate/Search.py,sha256=PwmNb1KBbo9XbhNYhGB-VL0NyPZtE_0LvUoZd1y-o-0,3141
+openclimate/Targets.py,sha256=R4oOl4Sb1o58gWY_KW6OPy2ahLgOqeq1C4wwy_uU-wM,2095
+openclimate/__init__.py,sha256=BlgELX5QDcpx8oWDw1CaMqnl6huCAAF9E6cSujSzHqU,99
+openclimate/utils.py,sha256=JOy9N3S_E-UdzIlfEZ4Qv0zztz9aUO9UTBxTjL6-4VY,1111
+openclimate-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openclimate-0.1.0.dist-info/METADATA,sha256=0NFwhAr2sOQBfmWUaJOEk_tlh7XkFrs7KK1KqKOO_-I,2853
+openclimate-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openclimate-0.1.0.dist-info/top_level.txt,sha256=ZntY13PiKrpdisJ4PErQYKmGApkG6t9O3f9i19594io,12
+openclimate-0.1.0.dist-info/RECORD,,
