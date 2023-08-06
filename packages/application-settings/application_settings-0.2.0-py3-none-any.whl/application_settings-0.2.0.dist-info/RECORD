@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=WCF6FoDSeo5mGrkmDD7ucsVnLN5U8zUnPZzSU-4hcMQ,1024
+LICENSE,sha256=UHN9S-Bd3jTFEUz9bSchEK2S0E73qYsb-Ccox4fZvt4,1141
+README.md,sha256=Z5CFgk5Y4USZFH1faKWvVhBStY_zN7k2ahBfz1k2Wus,2847
+application_settings/__init__.py,sha256=4r6ILg2mKLj62OrhGcySKoOcScFhadnkqu54Uqzay_g,634
+application_settings/configuring_base.py,sha256=cDrUKMuD3aD39Bky01fvrgL96_3gCobTkrIxXdkcz2Y,1030
+application_settings/container_base.py,sha256=iMT9_f3oI-VYk7YIgECyTHze-zxYehV-nQoDgZPTY4s,8791
+application_settings/py.typed,sha256=bGD5UrdyV_saa5ISOCeHtHPzB1GvB2xON3LbrE2lxcQ,49
+application_settings/settings_base.py,sha256=4i1YEmX37UTfjkOf4wIYNYXmHsfQF2iDdGPJm0nQILQ,748
+application_settings/type_notation_helper.py,sha256=MnJRf06Vrolvt7IKLutdUO9MrXq4rDT-wbRyYlG-avs,510
+application_settings-0.2.0.dist-info/LICENSE,sha256=UHN9S-Bd3jTFEUz9bSchEK2S0E73qYsb-Ccox4fZvt4,1141
+application_settings-0.2.0.dist-info/METADATA,sha256=nUasoOomJ3Vjd11YHYVU4dr4eUuGvaK-YOdpqXm9yGk,4144
+application_settings-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+application_settings-0.2.0.dist-info/RECORD,,
