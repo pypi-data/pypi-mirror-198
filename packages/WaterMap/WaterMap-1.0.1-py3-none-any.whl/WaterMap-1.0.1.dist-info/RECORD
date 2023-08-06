@@ -1,0 +1,15 @@
+WaterMap/__init__.py,sha256=OFeoSehtOx81PAp0L2FiUEtZzSWjBrmXZkfPMBQ-b_g,83
+WaterMap/dwm/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+WaterMap/dwm/deepwatermap.py,sha256=mkuY1owPQ0Nifh30nQ_2142wqkuFkfZCyzB4sAPE18s,2515
+WaterMap/dwm/dwm_wm.py,sha256=VmH69dwFT32HXm1lcyxlgP4qLtsryWODrHIDhfHBf4I,2750
+WaterMap/dwm/utils.py,sha256=5JOsP0-caVvMB0mL7OKpM5Ny2hOsuzZhyqr0FXmCM8A,250
+WaterMap/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WaterMap/test/test_build_detect.py,sha256=LQyeIE_b0Pei_dK7EegH5A6Xk9ixLYs5aw1vFVnoixE,19
+WaterMap/watnet/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+WaterMap/watnet/imgPatch.py,sha256=CCS2RiBPfjcklhcvCSlwZ9MmIFcKMNGIXCFX1lb4bLk,3957
+WaterMap/watnet/watnet_wm.py,sha256=tI0iH8YNnrF5aN_s0b1Lm2plJeSzbFW-ceIMkxdnMjY,2570
+WaterMap-1.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WaterMap-1.0.1.dist-info/METADATA,sha256=yJSDmX1jBXlGqoXdLLAjTvXjcMvakjuiV1R0RfIPUaI,3061
+WaterMap-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+WaterMap-1.0.1.dist-info/top_level.txt,sha256=BEBTmKyuwcsLUrVBYE5CA5o9jT72Hat_LGthNju-HJI,9
+WaterMap-1.0.1.dist-info/RECORD,,
