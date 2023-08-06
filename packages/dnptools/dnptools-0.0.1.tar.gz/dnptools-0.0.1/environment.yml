@@ -1,0 +1,8 @@
+name: dnptools_devel
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - python-build
+  - pytest
+  - twine
