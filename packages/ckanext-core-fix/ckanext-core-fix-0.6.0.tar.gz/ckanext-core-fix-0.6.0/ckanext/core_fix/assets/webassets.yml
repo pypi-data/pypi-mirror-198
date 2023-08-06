@@ -1,0 +1,26 @@
+# core_fix-js:
+#   filter: rjsmin
+#   output: ckanext-core_fix/%(version)s-core_fix.js
+#   contents:
+#     - js/core_fix.js
+#   extra:
+#     preload:
+#       - base/main
+
+fontawesome_icons:
+  filter: cssrewrite
+  output: ckanext-core_fix/%(version)s-fontawesome-icons.css
+  contents:
+    - css/fontawesome_icons.css
+
+secondary_order:
+  filter: cssrewrite
+  output: ckanext-core_fix/%(version)s-secondary-order.css
+  contents:
+    - css/secondary_order.css
+
+button_icon_text_gap:
+  filter: cssrewrite
+  output: ckanext-core_fix/%(version)s-button_icon_text_gap.css
+  contents:
+    - css/button_icon_text_gap.css
