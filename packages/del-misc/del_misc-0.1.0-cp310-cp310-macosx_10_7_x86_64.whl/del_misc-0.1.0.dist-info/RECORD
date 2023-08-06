@@ -1,0 +1,5 @@
+del_misc-0.1.0.dist-info/METADATA,sha256=opSYoK2N_W5MzybV2s0uPOy1j33l5XDzFVcjMcom4tE,257
+del_misc-0.1.0.dist-info/WHEEL,sha256=id_3NCv17Wo649PAN_X8wxjoore-3nfJJgj8bsE-ovA,106
+del_misc/__init__.py,sha256=1i8OtLzFvaRYJln0XUvWNsMe3jsuw3Jqw_-23cn3wes,115
+del_misc/del_misc.cpython-310-darwin.so,sha256=LXmQUDye4SCYiZ2W9QuNIDINfoNggB0LRqfQGro6EO8,484672
+del_misc-0.1.0.dist-info/RECORD,,
