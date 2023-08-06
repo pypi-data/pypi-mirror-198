@@ -1,0 +1,17 @@
+odoo/addons/datev_export/README.rst,sha256=9-tZbg1hCRi77soF7-JDX0D73YiD2n_NaPp82G_-tQ0,2835
+odoo/addons/datev_export/__init__.py,sha256=zs6pggzqmYojZ9FnJOP7nCF2WCEMnzEYd_mZvpPDOEA,120
+odoo/addons/datev_export/__manifest__.py,sha256=UmpATH0y5hM00HjNmw3A_WmBgWi6jwdioVHLvlz4Pwk,670
+odoo/addons/datev_export/i18n/datev_export.pot,sha256=uNTuIrRJBtwzeR3pFpedAj55OaEBGyZIRIB8Ky4CfMc,3431
+odoo/addons/datev_export/models/__init__.py,sha256=ntBvGdja8Nf1l0qHFia3jm2-vAKVSdya3jGUU0Kpfhg,146
+odoo/addons/datev_export/models/res_company.py,sha256=OfoPZujCXyTnbeds3YotB1-_YTdTTKTjsJQGnPrtgus,474
+odoo/addons/datev_export/models/res_config_settings.py,sha256=mkueck9sYlLLVoKIkugQMHalgCHcEvXaXmQAkUaAqf4,466
+odoo/addons/datev_export/readme/CONFIGURATION.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/datev_export/readme/CONTRIBUTORS.rst,sha256=yGxQEZSWFEwkHtHDyDO2qVcIB02VvUZ9aIs4O8NW2j8,58
+odoo/addons/datev_export/readme/DESCRIPTION.rst,sha256=ihZXkFikkW8xqGPc8QslHmYHz6f08xB7e3VR64dd_I4,181
+odoo/addons/datev_export/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/datev_export/static/description/index.html,sha256=2eKMKX-u035-6X-FXGWXRLgexNjA9HXkUqNM0zIcnjI,11252
+odoo/addons/datev_export/views/res_config_settings_views.xml,sha256=oIV1R8V-vUdgp9Rz8SfvdmSE2HfGl0q7Z-5HFf-GoxM,3262
+odoo14_addon_datev_export-14.0.1.0.1.dev3.dist-info/METADATA,sha256=aGTCwvzao4mWMN9NSDSYcmGlnStj-XXL_4_2whIh0Wo,3509
+odoo14_addon_datev_export-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odoo14_addon_datev_export-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_datev_export-14.0.1.0.1.dev3.dist-info/RECORD,,
