@@ -1,0 +1,10 @@
+README.md
+setup.py
+miPaquete/__init__.py
+miPaquete/modulo1.py
+miPaquete/modulo2.py
+miPaqueteSuperRandom.egg-info/PKG-INFO
+miPaqueteSuperRandom.egg-info/SOURCES.txt
+miPaqueteSuperRandom.egg-info/dependency_links.txt
+miPaqueteSuperRandom.egg-info/requires.txt
+miPaqueteSuperRandom.egg-info/top_level.txt
