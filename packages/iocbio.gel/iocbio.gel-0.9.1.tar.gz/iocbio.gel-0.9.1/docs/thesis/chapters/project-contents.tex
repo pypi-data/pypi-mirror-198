@@ -1,0 +1,121 @@
+The project was implemented as one monolith desktop application without any external dependencies besides user-configured databases.
+
+\section{Application views}
+The application consists of various different views. During initial startup the user is shown a database configuration dialog where it’s possible to specify DBMS to be used and the parameters to connect to the database, as well as an image source configuration dialog, where the user can choose between local filesystem storage or specify connection parameters to an OMERO server. After completing initial configuration, the user is navigated to the main view where he can navigate to more specific views.
+
+\subsection{Database configuration dialog}
+The database configuration dialog opens during startup in case the application doesn’t find configuration parameters from its settings. It’s possible if it’s being used for the first time or if the settings have been manually removed. In this view user can choose between SQLite and PostgreSQL from the DBMS from the dropdown menu and according to the choice specific configuration parameters will appear. In the case of SQLite there are no additional settings to be shown. For PostgreSQL one can specify database host, port, SSL mode, database name, user and password.
+
+\subsection{Image source configuration dialog}
+The image source configuration dialog opens during startup, after the database configuration dialog (assuming no relevant configuration found in settings). The user is initially prompted to choose the source for the images, which are currently a folder on the local filesystem or an existing OMERO database. If local filesystem is chosen, files will be fetched from a folder in the application’s directory. If OMERO is selected, user can specify hostname, port, username and password for the connection.
+
+\subsection{Gel list}
+Gel list is a list of gels located at the left on application. It shows a vertical list of buttons - one button for every added gel with a gel name on the button. Clicking on the button will lead user to the detail view of that particular gel. At the top of the list there is a bigger button with the text “Gels” written on it that leads to gel list view.
+
+\subsection{Gel list view}
+A table view where the user can navigate by clicking on the “Gels” button on the left upper corner of application. For each gel its id, name, transfer time, comment, lane count and measurements count is shown. Value of every field except id can be changed if the editing mode is active.
+
+\subsection{Gel detail view}
+To navigate into the gel detail view one must click on one of the buttons on the left menu below the “Gels” button. On the upper part of the view the gel name and creation time is displayed.
+The lanes table contains the id, lane number, sample id, protein amount in micrograms (μg), comment and the checkbox indicating if the lane is reference(TODO: More precisely). All the fields except id can be changed if the editing mode is turned on. Lanes can also be deleted in this mode.
+Measurements table contains the data of all the measurements linked to gel. Table shows the image, time, id, type, comment and identifiers of connected lanes. All the fields can be changed in editing mode. 
+
+\subsection{Gel image view}
+Gel image view contains different subviews meant for processing and analyzing the gel image. User can move between these views by clicking on corresponding tabs.
+Raw image view shows the gel image without any processing done on it. Image can not be changed in this view.
+Adjust view allows user to specify a region on image that is used for analysis on subsequent steps. A rectangle appears when the image is clicked. Size, rotation and position of this rectangle can be changed by dragging it from handles. Region can be confirmed for analysis by clicking on the “Apply” button.
+The background subtraction view gives the user the option to apply the rolling ball background subtraction algorithm, specifying kernel type (‘ball’, ‘ellipsoid’ or ‘none’), ball radius (two radiuses for ellipsoid) and whether the image is inverted before passing into the algorithm. When ‘none’ is chosen, background subtraction will not be performed). Pressing ‘Apply’ will execute the algorithm with given parameters. Three images are shown: how it looked from the previous step, the extracted background from the algorithm and the result, which is the difference of the input image and background (matrix subtraction). If the image was set to be inverted, the algorithm will use an inverted version of the image and the result will be subtracted from the inverted image, which will then be inverted again to restore original colors. The image should be inverted if the source image has a dark background. The rolling ball implementation used is the one from the scikit-image library \cite{rolling-ball}.
+
+\subsection{Lanes view}
+The lanes view contains an image graph with the image processed in the three previous views. The ‘New lane’ button allows the user to place a vertical variable-width lane inside the bounds of the image, which will span from top to bottom. Existing lanes can be moved along the horizontal axis, change widths or be removed entirely. The number of placeable lanes is bounded by the number of lanes defined in the Gel detail view. 
+For each lane, there is a corresponding graph showing the pixel intensities along the lane, the y-axis being the pixel intensity and x-axis the position of the horizontal chunk of pixels in the lane, starting from the top of the lane. The graph has a modifiable zero-line below the reading that can be dragged around by their points, which can be added onto the line by clicking on it. The resulting area for the lane is determined by the difference between the readings integral and zero-line integral from 0 to the width of the lane.
+
+\subsection{Measurements view}
+TODO: Not sure about the structuring of this section yet. Also should annotate the figure for this view.
+
+The Measurements view contains 4 components:
+a) Measurements table
+b) Lanes graph
+c) Intensity plots
+d) Measurement lanes
+
+Workflow in Measurements view: (TODO: express with graph?)
+1) [in a] Edit an existing or create a new measurement by specifying the measurement type, comment or expected lanes (TODO: creating a new measurement with default values does not trigger a change so an edit and revert is required)
+2) [in a] Select a measurement by double-licking on the ID field
+3) [in b] Click on the lanes which this measurement should cover (TODO: could be derived automatically in the future from the "expected" aka measurement.lanes) (second click will de-select)
+4) [in c] Specify which peaks on the intensity plot should count towards the area by moving the min/max limit lines for each of the lane plots
+5) [in d] Optionally add a comment to the measured area and mark if the measurement was successful or not 
+
+
+a) Image graph with the lanes marked on the previews analysis step. Placed lanes can't be manipulated in this view anymore.
+b) Lane plots list which displays an intensity graph for 
+
+
+
+\subsection{Measurement types view}
+Measurements type view is a table view where one can navigate by clicking the “Types” button on the lower left corner, below the gel buttons. Table shows the id, name and comment of every measurement type. Value of each field can be changed and type can be deleted in editing mode. An error box appears and deletion fails if user tries to delete measurement type that is connected to one or more measurements.
+
+\subsection{Settings view}
+One can navigate to settings view by clicking on the “Settings” button on the toolbar. It allows user to change configured database settings and offers the same options as initial database dialog. “Image source” section allows the user to choose between local and OMERO options for storing images. “Database connection” section lets users specify the same database connection options as in the database configuration dialog.
+
+\subsection{Toolbar}
+The horizontal toolbar at the top of the application gives user the most frequently needed functionalities at every stage of the flow. “Add new gel” option allows user to add new gel which appears at the left gel menu and can be subsequently modified by the user. Undo/Redo options allow user to revert his previous action or reapply previously reverted action. “Settings” opens a settings view where one can modify image source and database connections. Editing/Viewing toggle allows user to switch between viewing and editing modes. One can modify and delete various objects only in editing mode.
+
+\section{Analysis}
+
+\subsection{ROI selection}
+Region to be analyzed on gel image is selected at the “Adjust” step of analysis. Main algorithmic problem was to crop the original image(NumPy array) based on the position and rotation of the rectangular region. There was no need to implement this by manipulating the arrays as PyQtGraph ROI object provided “getArrayRegion” method. (Figure \ref{fig:cropping-gel-image})
+
+\subsection{Background subtraction}
+STUD
+
+\subsection{Plot area calculation}
+
+Pixel intensities are represented in a \(O_{i j}\) matrix where each (\({i j}\)) element has a gray scale value ranging from 0 (white) to 255 (black).
+
+\textbf{Intensities before being restricted by limits and zero-line}%
+\begin{equation}
+S_{r c}=(O_{i j})_{\substack{y \leq i < y+h\\ x \leq j < x+w}}
+\end{equation}
+\begin{equation}
+I = \begin{bmatrix}\sum S_{1 c} \sum S_{2 c} ... \sum S_{r c} \end{bmatrix}
+\end{equation}
+
+where
+\begin{itemize}
+    \item [\(S_{r c}\)  =] Lane slice with \(r\) rows and \(c\) columns
+    \item [\(O_{i j}\) =] original image with height \(i\) and width \(j\)
+    \item [\(x, y, h, w\) =] Lane top left coordinates on the image, Lane height and width
+    \item [\(I\)  =] pixel intensities accumulated horizontally across the Lane
+\end{itemize}
+
+\textbf{Intensity plot area with restrictions}%
+
+\begin{equation}
+P = \sum\limits_{i=l}^u I_{i}
+\end{equation}
+
+TODO: these are a bit incorrect since sets don't have an order?
+
+\begin{equation}
+L = \lbrace f_{1}(p_{i}, p_{i+1}) \mid p_{i}, p_{i+1} \in B \rbrace
+\end{equation}
+
+\begin{equation}
+A_{z} = \sum\limits_{p_{i}\in L}^{|L|-1} f_{2}(p_{i}, p_{i+1})
+\end{equation}
+
+where
+\begin{itemize}
+    \item [\(l, u\)  =] lower and upper limits for integrating the intensity curve
+    \item [\(P\)  =] Area under intensity curve within limits
+    \item [\(B\)  =] \(\lbrace (x_{1},y_{1}), (x_{1},y_{1}) , ... , (x_{n},y_{n}) \rbrace\) Set of points representing the Plot zero-line
+    \item [\(f_{1}(p_{1}, p_{2})\)  =] Function returning a pair of \((x,y)\) points which are either within the limits or are the segment \((p_{1}, p_{2})\) intersection points with either or both of the \(x=l\) and \(x=u\) lines.
+    \item [\(L\)  =] A set of points within limits representing the zero-line
+\end{itemize}
+
+TODO: Translate to equations:
+\begin{itemize}
+    \item area under zero line within limits = sum of: use found points to form line segments and find their area using right trapezoid formula (y1 + y2) * (abs(x1 - x2) / 2)
+    \item subtract area under zero line area from plot area
+\end{itemize}

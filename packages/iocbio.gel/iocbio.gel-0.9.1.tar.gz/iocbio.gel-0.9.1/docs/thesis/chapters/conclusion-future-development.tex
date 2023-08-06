@@ -1,0 +1,9 @@
+The project met its primary goal - the created application aids biologists sufficiently to be usable in laboratories for managing analysis process metadata and measuring the quantities of the protein samples on the gel images. During the project, 28 out of the 39 identified user stories were implemented, and the overall feedback from the client and the testers was positive.
+
+The requirements for the secondary goal of being able to publish the software as an open-source project were not met due to time constraints. Some development was done towards that goal, but not all of the features were implemented or were implemented in a limited way.
+
+In addition to finishing the missed functionality, there are some features that the authors believe could enhance the utility of the application.
+
+Certain processes like lane and ROI detection, zero-line placement, and background detection could at least to some extent be automated. Zero-line placement should be relatively straightforward to implement as it is only necessary to determine the minimum value of the data and draw the horizontal line accordingly.
+
+Currently, background subtraction is slow, partly because of the image dimensions. A possible option to reduce the time to run the rolling ball algorithm would be to downscale the image, apply the algorithm to get the background matrix, and then upscale the image again, and then subtract that from the original. The process could also be optimized by performing the background subtraction on a separate thread and avoiding freezing the UI. This way, the user could also stop the process if necessary.

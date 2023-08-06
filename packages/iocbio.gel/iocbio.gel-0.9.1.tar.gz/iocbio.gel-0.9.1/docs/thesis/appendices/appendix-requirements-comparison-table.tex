@@ -1,0 +1,58 @@
+\small
+
+\begin{longtable}[h!]{|p{0.02\linewidth} | p{0.7\linewidth} | p{0.05\linewidth}| p{0.05\linewidth}|}
+\caption{Requirements satisfied by alternative applications}\label{table:alternative-comparison-results}\\
+\hline
+\rot{\textbf{Requirement No.}} & \rot{\textbf{Requirement}} & \rot{\textbf{ImageJ}} & \rot{\textbf{Image Lab}}\\
+\hline
+\endfirsthead
+\multicolumn{4}{c}%
+{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+\hline
+\rot{\textbf{Requirement No.}} & \rot{\textbf{Requirement}} & \rot{\textbf{ImageJ}} & \rot{\textbf{Image Lab}}\\
+\hline
+\endhead
+\multicolumn{4}{c}{\textit{Continues on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+1 & I want the software to be released under GPLv3 license. & Yes & No\\ \hline
+2 & I want GitLab pipeline configured to build packaged executables. & N/A & N/A\\ \hline
+3 & I want the software to look as agreed on the UI design document. & N/A & N/A\\ \hline
+4 & I want to import images from the lab’s OMERO server. & No & No\\ \hline
+5 & I want my data saved on the lab’s PostgreSQL server. & No & No\\ \hline
+6 & I want the software to indicate when it has lost external connections and allow to retry or change connection parameters. & N/A & N/A \\ \hline
+7 & I want to import images from my local computer. & Yes & Yes\\ \hline
+8 & I want my data to persist between work sessions locally. & No & No\\ \hline
+9 & I want to export the results of my work as a CSV file. & Yes & Yes\\ \hline
+10 & I want to use the software in my own language. & No & No\\ \hline
+11 & I want to add and modify measurement types. & No & No\\ \hline
+12 & I want to add and modify gels. & No & No\\ \hline
+13 & I want to add and modify the general information about the lanes on the gel. & No & Yes\\ \hline
+14 & I want to add multiple images for gels. & Yes & Yes\\ \hline
+15 & I want to view the raw image before analysis. & Yes & Yes\\ \hline
+16 & I want to select a ROI on the image before analysis (rotate and crop). & Yes & Yes\\ \hline
+17 & I want to specify if the background on the image is dark or light. & Yes & Yes\\ \hline
+18 & I want to correct image background (subtraction by rolling ball method). & Yes & Yes\\ \hline
+19 & I want to choose a false-color mapping for the image. & Yes & Yes\\ \hline
+20 & I want to mark the lane positions and widths on the gel image. & Yes & Yes\\ \hline
+21 & I want to adjust lane widths individually. & No & Yes\\ \hline
+22 & I want to rotate the lanes individually. & No & Yes\\ \hline
+23 & I want to curve the lanes individually. & No & Yes\\ \hline
+24 & I want to see pixel intensity plots for marked lanes. & Yes & Yes\\ \hline
+25 & I want to specify a zero-line to separate background from signal on the intensity plots. & Yes & Yes\\ \hline
+26 & I want to add and modify measurements connected to specific gel images. & N/A & N/A\\ \hline 
+27 & I want to choose which lanes a measurement includes. & Yes & Yes\\ \hline
+28 & I want to specify the integration limits on the pixel intensity plots. & Yes & Yes\\ \hline
+29 & I want the selected limits to be visible on their lanes. & Yes & Yes\\ \hline
+30 & I want to see a comparison and annotate analyzed lanes for measurements. & Yes & Yes\\ \hline
+31 & I want to search previously analyzed gels by name, ID, sample ID, lane ID and measurement ID. & Yes & Yes\\ \hline
+32 & I want the option to undo an accidental modification. & No & Yes\\ \hline
+33 & I want a way to disable all editing operations to avoid accidental modifications during a review. & Yes & Yes\\ \hline
+34 & I want to change my image and data source parameters after initial setup. & No & No\\ \hline
+35 & I want to use the software on macOS computer. & Yes & Yes\\ \hline
+36 & I want to use the software on Windows computer. & Yes & Yes\\ \hline
+37 & I want to use the software on Linux computer. & Yes & No\\ \hline
+38 & I want a user manual for the software. & Yes & Yes\\ \hline
+39 & I want the implementation of analysis steps formally documented. & Yes & Yes\\
+\end{longtable}
