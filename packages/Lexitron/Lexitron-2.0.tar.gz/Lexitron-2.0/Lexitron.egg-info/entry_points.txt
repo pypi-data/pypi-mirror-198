@@ -1,0 +1,2 @@
+[console_scripts]
+lx = lexitron.lexitron:main
