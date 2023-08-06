@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: manga-dl0
+Version: 1.1
+Summary: A Python Package To Download Manga From Arabic Site [3asq]
+Home-page: https://github.com/dexter-90/manga-dl0
+Author: Dexter
+Keywords: manga,3asq,arabic,download
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+License-File: LICENSE
