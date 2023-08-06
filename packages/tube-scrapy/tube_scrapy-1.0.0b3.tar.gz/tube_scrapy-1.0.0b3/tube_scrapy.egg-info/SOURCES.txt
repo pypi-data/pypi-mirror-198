@@ -1,0 +1,16 @@
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+tube_scrapy/__init__.py
+tube_scrapy/exceptions.py
+tube_scrapy/scraped_video_info.py
+tube_scrapy/test_tube_scrapy.py
+tube_scrapy/tube_scrapy.py
+tube_scrapy.egg-info/PKG-INFO
+tube_scrapy.egg-info/SOURCES.txt
+tube_scrapy.egg-info/dependency_links.txt
+tube_scrapy.egg-info/requires.txt
+tube_scrapy.egg-info/top_level.txt

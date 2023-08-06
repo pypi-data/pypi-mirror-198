@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tube_scrapy"
+version = '1.0.0-beta3'
+authors = [
+  { name="Abner Freitas", email="defreitasabner@gmail.com" },
+]
+description = "A python package to webscraping for youtube video data as title, video url, thumbnail url, and number of views."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+keywords = ["webscraping", "youtube"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "selenium",
+  "webdriver_manager"
+]
+
+[project.urls]
+"Repository" = "https://github.com/defreitasabner/tube_scrapy"
+"Issue Tracker" = "https://github.com/defreitasabner/tube_scrapy/issues"
+"Changelog" = "https://github.com/defreitasabner/tube_scrapy/blob/main/CHANGELOG.md"
