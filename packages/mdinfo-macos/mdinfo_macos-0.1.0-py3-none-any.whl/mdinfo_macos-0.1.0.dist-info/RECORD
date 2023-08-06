@@ -1,0 +1,12 @@
+mdinfo_macos/__init__.py,sha256=I0OjSLDTGtfPqxwFZhjoaqyKTlSEkqaGIdKf_q_0G8U,70
+mdinfo_macos/_version.py,sha256=mTouKuOgg8ciFy_MXQ0bbhhLDGtB8pZYkLamnplq15w,55
+mdinfo_macos/datetime_formatter.py,sha256=i3Woo1bAimHSpgu8Q1qndPUS1QA-yeSbmeKsisWydFs,1624
+mdinfo_macos/help.py,sha256=MWvyChkLOX6avEqzIjdtB21qsXcWPzmMexloPg4qVxQ,2488
+mdinfo_macos/mdinfo_finder.py,sha256=0OMg5XWZLeRM8IeE_LyFH2UK0rYG2-h9MxxOH5OFahk,1716
+mdinfo_macos/mdinfo_mac.py,sha256=RQs7TIrjANd03-D-ivljIJnoKrz34w3ivZAIPZVolhI,3806
+mdinfo_macos-0.1.0.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+mdinfo_macos-0.1.0.dist-info/METADATA,sha256=zSJGjKwr4pkSULxBi0zGAh_ZSUw2tWNSWeh5kaud2A0,10484
+mdinfo_macos-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mdinfo_macos-0.1.0.dist-info/entry_points.txt,sha256=H4_1HIP1KdZnd8HTwu8V2dchocbvdJQgAE4yd7b_Dd0,75
+mdinfo_macos-0.1.0.dist-info/top_level.txt,sha256=4RmynvSnwaSmHLQ5ZdnftV7tVtOQc6w5sC3BgPOaY5Q,13
+mdinfo_macos-0.1.0.dist-info/RECORD,,
