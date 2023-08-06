@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+augment/__init__.py
+augment/augment.py
+augment/transform.py
+augment_nd.egg-info/PKG-INFO
+augment_nd.egg-info/SOURCES.txt
+augment_nd.egg-info/dependency_links.txt
+augment_nd.egg-info/requires.txt
+augment_nd.egg-info/top_level.txt
+tests/test_augments.py
