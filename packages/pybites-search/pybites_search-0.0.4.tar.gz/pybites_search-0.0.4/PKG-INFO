@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pybites_search
+Version: 0.0.4
+Summary: A search engine for Pybites content
+Project-URL: Homepage, https://github.com/pybites/search
+Project-URL: Bug Tracker, https://github.com/pybites/search/issues
+Author-email: Pybites <info@pybit.es>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: requests
+Requires-Dist: typer[all]
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Requires-Dist: flake8; extra == 'lint'
+Requires-Dist: isort; extra == 'lint'
+Requires-Dist: pyupgrade; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Pybites Search
+
+A command line tool to easily search across Pybites content.
+
+## Installation
+
+```
+$ pip install pybites-search
+```
+
+## How to run it:
+
+```
+$ search --help
+
+ Usage: search [OPTIONS] COMMAND [ARGS]...
+
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --install-completion          Install completion for the current shell.                                                                                     │
+│ --show-completion             Show completion for the current shell, to copy it or customize the installation.                                              │
+│ --help                        Show this message and exit.                                                                                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ article                                                                                                                                                     │
+│ video                                                                                                                                                       │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+$ search article zipfiles
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Title                                        ┃ Url                                   ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ How to Create and Serve Zipfiles from Django │ https://pybit.es/django-zipfiles.html │
+└──────────────────────────────────────────────┴───────────────────────────────────────┘
+
+$ search video property
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Title                                ┃ Url                                         ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Python @property decorator explained │ https://www.youtube.com/watch?v=8BbngXWouzo │
+└──────────────────────────────────────┴─────────────────────────────────────────────┘
+```
