@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nautobot-tools-dd
+Version: 0.0.12
+Summary: Nautobot tools project by Data Ductus
+Keywords: network,automation,nautobot,yang
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: nautobot
+Requires-Dist: djangorestframework
+Requires-Dist: yangson
+
