@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pre-commit-keyword-checker
+Version: 1.0.0
+Summary: A pre-commit hook for checking specified keywords in the files being committed.
+Home-page: https://github.com/AliYmn/pre-commit-keyword-checker
+Author: Ali Yaman
+Author-email: aliymn.db@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pre-commit
+
+UNKNOWN
+
