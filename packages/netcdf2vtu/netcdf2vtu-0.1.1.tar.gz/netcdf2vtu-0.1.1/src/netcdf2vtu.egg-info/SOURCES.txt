@@ -1,0 +1,14 @@
+AUTHORS.md
+LICENSE
+README.md
+pyproject.toml
+src/netcdf2vtu/__init__.py
+src/netcdf2vtu/cli.py
+src/netcdf2vtu/netcdf2vtu.py
+src/netcdf2vtu.egg-info/PKG-INFO
+src/netcdf2vtu.egg-info/SOURCES.txt
+src/netcdf2vtu.egg-info/dependency_links.txt
+src/netcdf2vtu.egg-info/entry_points.txt
+src/netcdf2vtu.egg-info/requires.txt
+src/netcdf2vtu.egg-info/top_level.txt
+tests/test_netcdf2vtu.py
