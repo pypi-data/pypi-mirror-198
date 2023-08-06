@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "refuge"
+version = "0.1.0"
+description = ""
+authors = ["Alex Carpenter <alex@refuge.au>", "Simon Biggs <simon@refuge.au>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
