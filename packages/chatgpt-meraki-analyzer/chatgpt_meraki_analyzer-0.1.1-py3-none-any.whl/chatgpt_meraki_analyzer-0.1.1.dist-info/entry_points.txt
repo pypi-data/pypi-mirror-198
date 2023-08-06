@@ -1,0 +1,3 @@
+[console_scripts]
+chatgpt_meraki_analyzer=chatgpt_meraki_analyzer.script:run
+
