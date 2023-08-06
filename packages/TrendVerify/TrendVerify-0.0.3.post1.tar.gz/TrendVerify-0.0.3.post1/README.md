@@ -1,0 +1,37 @@
+# TrendVerify
+Vanilla Trend Verification for Metar reports.
+## Installation
+Install TrendVerify with pip.
+```
+pip install trendverify
+PyPI link: https://pypi.org/project/TrendVerify/```
+## System Requirements
+Python version >= 3.10.
+```
+Installation using pip requires admin privileges. Alternatively, the package may be installed in a virtual environment without admin privileges. Example:
+```
+python -m pip install pipenv # Only required if pipenv is not preinstalled
+python -m pipenv install trendverify
+# Drop to the venv shell
+python -m pipenv shell
+($ven) trendverify -h
+```
+## Documentation
+Synopsis:
+
+```
+trendverify [-h] [-d DIRECTORY] [-o OUTPUTFILE]
+options:
+-h, --help            show this help message and exit
+-d DIRECTORY, --directory DIRECTORY: full path to directory containing metar files
+-o OUTPUTFILE, --outputfile OUTPUTFILE: full file path to output file
+```
+All metar data should be located in files with filename matching the regex `"METAR\d{6}.*+"` `(Examples: METAR202201.txt)`. The script recursively scans all subdirectories for the matched files.
+All metars are read line by line from metar files. Invalid syntax or non-metar messages like speci will cause the script to terminate fatally.
+All arguments are optional. Omitting the -d argument will cause the script to scan the current directory. Omitting the -o argument will print to an output file at the current directory; the output file shall be formatted as outputfile_<random_hex_code>.txt.
+#### Example
+```
+trendverify -d c:\Users\Public\MetarDir -o c:\Users\Public\verificationoutput.txt
+```
+## Gitlab
+https://gitlab.com/priv5141811/TrendVerification
