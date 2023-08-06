@@ -1,0 +1,17 @@
+rubberduck_chat/__init__.py,sha256=on4Bj4mGEjEjyUkQExxprhOoEopcv_sPapsEnNxyelE,22
+rubberduck_chat/configs.py,sha256=8RmaF-68XPSZo5es0n295MwiBQOQZTw74g0euHQRQGg,3165
+rubberduck_chat/input_handler.py,sha256=z2z7aYbe3IliXvlfgnDPYtZGyPvPvEeRa3sp6wzydpw,4749
+rubberduck_chat/rubberduck.py,sha256=6So1Rebs7Eij2YoJyhiguvqe6xAQekgQk_0CwhjL1-M,1171
+rubberduck_chat/store.py,sha256=eJJ7UI_zudVXzdGJvPEqqaUcQtpVV8VbJCHOpqKqWFI,166
+rubberduck_chat/utils.py,sha256=Ob1OaFB5lSW1nNOxxVwxVLO21hQbWtXHtA_bslQaZGQ,181
+rubberduck_chat/chat_gpt/__init__.py,sha256=B0PFIgftLCN0c8Nq4vqaXTEg4erZ9c8MiyenjmBATK8,90
+rubberduck_chat/chat_gpt/chat.py,sha256=XHjXp5u-404FRQwhzkI9WDwDPPgNd0I__uOTBa5R6Hk,6988
+rubberduck_chat/chat_gpt/credentials.py,sha256=4EFAe0CuS25ZdNlAdWLu9DDIRnctSyRglZGerU2u-7Y,3283
+rubberduck_chat/chat_gpt/session_store.py,sha256=-NXF0rnMWJMBVvtpheqq-ULqBDpDlDw2ecF9thgSRTM,8471
+rubberduck_chat/chat_gpt/setup_gpt.py,sha256=WcE14zX5clogn0jQUoq25bwwELXytbl4K9E-ejJHmyg,2144
+rubberduck_ai-0.3.3.dist-info/LICENSE,sha256=NP7qrU2VUbJD80eg_ci2nh9Fct8m0H5cv73ooPjWX5w,20624
+rubberduck_ai-0.3.3.dist-info/METADATA,sha256=kHhAignJ7UKIZY52-fuC2LxEHwsXeHmYSu4tt64mUQo,1674
+rubberduck_ai-0.3.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rubberduck_ai-0.3.3.dist-info/entry_points.txt,sha256=DrgSgE6iy78bpudEuAjAb2IlOEvRcVRP_76q-0mlPKA,56
+rubberduck_ai-0.3.3.dist-info/top_level.txt,sha256=5TGXO-XbkvK970BOOmZo4Z4d_xqXb7hNmjgFkK2tH6E,16
+rubberduck_ai-0.3.3.dist-info/RECORD,,
