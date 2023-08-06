@@ -1,0 +1,2 @@
+[gui_scripts]
+traxis = traxis.__main__:main
