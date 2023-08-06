@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/elnano33/__init__.py
+src/elnano33/comparacion.py
+src/elnano33.egg-info/PKG-INFO
+src/elnano33.egg-info/SOURCES.txt
+src/elnano33.egg-info/dependency_links.txt
+src/elnano33.egg-info/top_level.txt
