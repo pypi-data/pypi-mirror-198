@@ -1,0 +1,14 @@
+api-assignment/__init__.py,sha256=6acwZU2bqs9AyG3COFQxu6yE2eVzhqh6VavDpG2hoPY,85
+api-assignment/ipGenerator.py,sha256=qKcxZ9eb47o0AOmhpbd-UaYx70QS43KvV2QXsvpw3uc,1032
+api-assignment/module1.py,sha256=Gy7h1w3Ai57PwJXJVbqvJlFf2aabAI60vwa0icXEYE0,2861
+api-assignment/module5.py,sha256=mROzv3M6iGD2UzmXyGNTozvA_rknlsEbVftF-Z9KM_Q,270
+api-assignment/module6.py,sha256=5m8y7PsUlUTWwEfCdOFHl-kUPMy2s8A4U7Qr5FfmyjQ,114
+api-assignment/module7.py,sha256=gqs79vhgmIAYxIchHklxhtUwghSkWt-UrLgqZXLpXm4,180
+api-assignment/tcpClient.py,sha256=mrcxsG6pGuIfcKiq_Z7Qu7npz-C2bxBHK1SSE85vfpY,504
+api-assignment/tcpServer.py,sha256=f1XL4KhpHCKOUpa2hBBZg7BSjyHWnPnUayMOArQkjpc,1117
+api-assignment/udpClient.py,sha256=UPx3QdWCyeTqLUpNxCFz-RsmQ7vAzq1edqIU3PEb6fE,442
+api-assignment/udpServer.py,sha256=ZjmGFzy3mXD5n3LHS1dV5GWNXYOd3VbujX2cel5hZG0,1142
+api_tutorial-0.0.1.dist-info/METADATA,sha256=qFGxwj-7y07HVTso18Ex9AKWQ9ex4uR7FNHJ5ehzev0,57
+api_tutorial-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+api_tutorial-0.0.1.dist-info/top_level.txt,sha256=YyorNFjVhY0nvQ5Q7G4fSw2DmU-trONUk3tsvI3vLjU,15
+api_tutorial-0.0.1.dist-info/RECORD,,
