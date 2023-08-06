@@ -1,0 +1,12 @@
+marchitect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marchitect/prefab.py,sha256=8CTCHpGYP3TQ-YKUDvNhnCeQWl8PcHNOK8sieXlgbtg,14982
+marchitect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marchitect/site_plan.py,sha256=WpxizbMjMxIOx_TkhMz-PpPRt-7EajDB-V1DDETdO3Y,8127
+marchitect/util.py,sha256=wcHHCLzpJFcpah7TfiaAlvb977tugAGFoEJk4kLrbpw,481
+marchitect/whiteprint.py,sha256=_dxByoEwvCgnZGTeep-lkaNwd71oA1JwFdeLNtEPgzI,21751
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_basic.py,sha256=R16mOv0uIrJIBCOnydy9yjAuNQT9RK0xYypd8q70ENo,24414
+marchitect-0.7.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+marchitect-0.7.dist-info/METADATA,sha256=sOFX1XjJ1SsTUuZ5AK4TS-OjsbobLOUsz-O-5XCD3Qo,14381
+marchitect-0.7.dist-info/licenses/LICENSE-MIT,sha256=K6LnA2rWETptuftjWEQN1y5FLOZ1l0cgJxeR04ZgnLo,1056
+marchitect-0.7.dist-info/RECORD,,
