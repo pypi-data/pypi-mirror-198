@@ -1,0 +1,12 @@
+onono/__init__.py,sha256=dGJlO9fDrXkmbSpmT13ikC_GcD3NvMV2WFkiB0SBvwA,158
+onono/__main__.py,sha256=RlgbDjZDPK_RuXRJCAQlzFDAf9eh1b66csENb4QYL6Q,128
+onono/app.py,sha256=sqOOMygLT01k3cmUu4_Es3DabUVJmg5FSpPyjKM7Pjk,7250
+onono/gamelogic.py,sha256=k7s9UxOrRPr_tLYkdDNhcvQGHfAMhana2T30TlHuObI,2136
+onono/gui_definitions.py,sha256=bBd71bcJMKTK5EFJ_Tr7B7lguQOuXWmWM4x-oimFicA,944
+onono/image.py,sha256=3_JamUUnwz_2tzZr9i0waOobp-rThOHt83I5l7CawK8,2654
+onono/menu.py,sha256=lNSivKqyDSB6A7ndPJOckjbbSZwqU7uIawC75gTBIqg,7188
+onono/savegame.py,sha256=m1yyEpt7vauk-WqB6-3AtuFBbh6qjqQ-hfgmfNG9fT4,4569
+onono-1.0.1.dist-info/METADATA,sha256=mk8vPWwAAz038vairpo29uEF2gBu0sRgM0uzh_IsKjg,4229
+onono-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+onono-1.0.1.dist-info/top_level.txt,sha256=VqGtbd-JL4n9aRN3e2wWX0VgJR_virWzmQNN5UKhJ3U,6
+onono-1.0.1.dist-info/RECORD,,
