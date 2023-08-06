@@ -1,0 +1,2 @@
+[console_scripts]
+lazydog_merge_sqlite = lazydog_merge_sqlite.__main__:main
