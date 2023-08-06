@@ -1,0 +1,54 @@
+#!/usr/bin/env pypy3
+#
+#
+# Copyright (c) 2023, Hiroyuki Ohsaki.
+# All rights reserved.
+#
+# $Id: run.py,v 1.6 2023/03/20 08:44:56 ohsaki Exp ohsaki $
+#
+
+import random
+import sys
+
+from perlcompat import die, warn, getopts
+import randwalk
+import graph_tools
+import tbdump
+
+def usage():
+    die(f"""\
+usage: {sys.argv[0]} [-s #] [-n #] [-k #]
+  -s #      seed of random number generator
+  -n #      the number of vertices (default: 100)
+  -k #      average degree (default: 3)
+  -t type   type of graph (random/barandom)
+  -a agent  name of agent class (SRW/NBRW)
+  -A #      bias parameter alpha (default: 0)
+""")
+
+def main():
+    opt = getopts('s:n:k:t:a:A:') or usage()
+    seed = int(opt.s) if opt.s else 1
+    n_nodes = int(opt.n) if opt.n else 100
+    kavg = float(opt.k) if opt.k else 3.
+    graph_type = opt.t if opt.t else 'random'
+    agent_cls = opt.a if opt.a else 'BiasedRW'
+    alpha = float(opt.A) if opt.A else 0.
+
+    random.seed(seed)
+
+    # Create graph.
+    g = graph_tools.Graph(directed=False)
+    g = g.create_graph(graph_type, n_nodes, int(n_nodes * kavg / 2))
+
+    # Create an agent of a given agent class.
+    cls = eval('randwalk.' + agent_cls)
+    agent = cls(graph=g, current=1, alpha=alpha)
+
+    # Perform an instance of simulation.
+    while agent.ncovered < n_nodes:
+        agent.advance()
+        agent.dump()
+
+if __name__ == "__main__":
+    main()
