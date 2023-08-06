@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "Time": "s",
+    "Current": "A",
+    "Voltage": "V"
+  },
+  "A_step": -0.1,
+  "Step_duration": 2,
+  "N_measurements_per_step": 3,
+  "V_Compliance": 2.0,
+  "SLDO_VI": [
+    {
+      "Time": 3.082810401916504,
+      "Current": 4.4,
+      "Voltage_mean": 1.5816666666666668,
+      "Voltage_sigma": 0.00047140452079108444
+    },
+    {
+      "Time": 5.9296300411224365,
+      "Current": 4.3,
+      "Voltage_mean": 1.569,
+      "Voltage_sigma": 0.0
+    }
+  ]
+}

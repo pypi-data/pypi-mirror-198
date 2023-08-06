@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "V_step",
+    "Step_duration",
+    "N_measurements_per_step",
+    "A_Compliance"
+  ],
+  "properties": {
+    "unit": {
+      "type": "object",
+      "required": ["Time", "Voltage", "Current"],
+      "properties": {
+        "Time": {
+          "type": "string"
+        },
+        "Voltage": {
+          "type": "string"
+        },
+        "Current": {
+          "type": "string"
+        },
+        "Temperature": {
+          "type": "string"
+        },
+        "Humidity": {
+          "type": "string"
+        }
+      }
+    },
+    "V_step": {
+      "type": "number"
+    },
+    "Step_duration": {
+      "type": "number"
+    },
+    "N_measurements_per_step": {
+      "type": "number"
+    },
+    "A_Compliance": {
+      "type": "number"
+    },
+    "Temperature": {
+      "type": "number"
+    },
+    "Humidity": {
+      "type": "number"
+    },
+    "Sensor_IV": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "minProperties": 4,
+        "maxProperties": 6,
+        "additionalProperties": false,
+        "required": ["Time", "Voltage", "Current_mean", "Current_sigma"],
+        "properties": {
+          "Time": {
+            "type": "number"
+          },
+          "Voltage": {
+            "type": "number"
+          },
+          "Current_mean": {
+            "type": "number"
+          },
+          "Current_sigma": {
+            "type": "number"
+          },
+          "Temperature": {
+            "type": "number"
+          },
+          "Humidity": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}
