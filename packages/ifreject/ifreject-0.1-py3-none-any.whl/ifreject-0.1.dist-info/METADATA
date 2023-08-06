@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ifreject
+Version: 0.1
+Summary: Isolation_Forest_Automatic_Rejection
+Author: Runkai Zhang
+Author-email: 271013216@qq.com
+License-File: LICENSE
+Requires-Dist: mne (>=1.0.3)
+Requires-Dist: mne-features (>=0.2.1)
+Requires-Dist: numpy (>=1.23.5)
+
