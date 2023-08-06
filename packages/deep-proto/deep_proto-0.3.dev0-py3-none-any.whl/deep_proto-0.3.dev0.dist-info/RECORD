@@ -1,0 +1,6 @@
+deepproto/proto/common/v1/common_pb2.py,sha256=qdAwXGj05o4M4eiWO-h9NUVfEGHVlJjtqQlAvjjuPg8,1845
+deepproto/proto/poll/v1/poll_pb2.py,sha256=AK97dhHaJ--Wk_ndPuBALK2KlY9kfhMntxVf1yJcrdo,2605
+deepproto/proto/poll/v1/poll_pb2_grpc.py,sha256=ojBbpZmCjSg9SS8MJT_9SvSZwX0KQUs0Hy7-qwrgB6w,2818
+deep_proto-0.3.dev0.dist-info/METADATA,sha256=1qwt1Jb8A4_r7pIO-StJH8R3he_DFsKeLm5QpjpfcCI,1223
+deep_proto-0.3.dev0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+deep_proto-0.3.dev0.dist-info/RECORD,,
