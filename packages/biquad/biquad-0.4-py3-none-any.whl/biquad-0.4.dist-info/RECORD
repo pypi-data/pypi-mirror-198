@@ -1,0 +1,15 @@
+biquad/__init__.py,sha256=RK0RxAG1ARad4w_-8Ii8B1GvOqhkSCeBt1g8cfTnywQ,1366
+biquad/allpass.py,sha256=T9iANDZ-xutExvC8HzBxInT1t0Ns_FUUhzuu3mWpdHk,2813
+biquad/bandpass.py,sha256=n3A3Fgo_b1-ijqh2bp2vQiC4FpxN-vJc-U8gplUjV8Y,3141
+biquad/biquad.py,sha256=SN26fG04iJnZn3gpznMsw-qMSWuV5IvQdPOmKsLVmSE,7001
+biquad/highpass.py,sha256=xZEZAZ5b50kzs_0yvMAekykrRXiFjxXS3Gv-DB-V5p0,2826
+biquad/highshelf.py,sha256=hVv_f2ToQjQPuqnerrAhE3WfhkkT9Wo1noq6D_Sm3JM,2935
+biquad/lowpass.py,sha256=PT02sbclZWVG8IdV7OmlbsTDzHhp2FdLMEKCMkacaKA,2824
+biquad/lowshelf.py,sha256=JdTEib5c8LmyBw12KTUxCZX6zSRGyzBXAA6K29CMfbY,2933
+biquad/notch.py,sha256=Cl_aja0m_JMLS6jP5Exo5YsE0N5fB54BmH54k6_hbBQ,2784
+biquad/peak.py,sha256=Rodqhlgr0r63gE5luht5uBN24iczaQ84qPzM4hpoPI0,2905
+biquad-0.4.dist-info/LICENSE,sha256=zGdw_6DxFbsP_zfw5mVFVtwkpdfZ2nFql_XpjwBZ7ps,1069
+biquad-0.4.dist-info/METADATA,sha256=0Bldlx5-UxF_S0Ba2rD3wnagy8gmTI0o0RTaxuDWsbA,3559
+biquad-0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+biquad-0.4.dist-info/top_level.txt,sha256=OMpggdHRsGUakoTOYGPJ7qbs8EHjfoB6UqpcKSflty8,7
+biquad-0.4.dist-info/RECORD,,
