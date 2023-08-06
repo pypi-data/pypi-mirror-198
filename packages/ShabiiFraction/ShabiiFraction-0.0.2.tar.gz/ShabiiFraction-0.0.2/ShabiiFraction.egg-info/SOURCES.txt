@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+ShabiiFraction/__init__.py
+ShabiiFraction/module_a.py
+ShabiiFraction.egg-info/PKG-INFO
+ShabiiFraction.egg-info/SOURCES.txt
+ShabiiFraction.egg-info/dependency_links.txt
+ShabiiFraction.egg-info/top_level.txt
