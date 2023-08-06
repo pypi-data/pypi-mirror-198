@@ -1,0 +1,7 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client.py,sha256=H2q1-ndoE9B57bcGXfdV0YiIsxeR64qzPKlVfQoTKx0,3618
+personal_banking_client.py,sha256=HzDV0i9E4VIG44QUGwDBjhSU-yEBjL4J9l9MS-tqPho,5976
+investec_openapi_wrapper-0.0.1.dist-info/METADATA,sha256=yBLLvLMzfeWMJd2hjPOl2W_1H_xaSfJUgwfjmqLSz-Q,5547
+investec_openapi_wrapper-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+investec_openapi_wrapper-0.0.1.dist-info/top_level.txt,sha256=bLuDI6ZoE7b62TJjleXLGRDId0BBmu4yvgkrz7AH4MM,40
+investec_openapi_wrapper-0.0.1.dist-info/RECORD,,
