@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+tensorcircuit-nightly
+pyscf
+openfermion
+qiskit
+pylatexenc
+noisyopt
+renormalizer
+
+[jax]
+jax
+jaxlib
