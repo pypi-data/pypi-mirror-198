@@ -1,0 +1,11 @@
+taufactor/__init__.py,sha256=AcxCYD6J_zpqwdH94vPx5TSobJBVWn9HwbBXES1iWrk,148
+taufactor/cli.py,sha256=pwVEFJrPwWBsF6iKLRD65fHDSPww121l2XTIyUVnlyE,405
+taufactor/metrics.py,sha256=QAqmRIwFjSRJCjWza1j1dyXfFrC1plp68ovxFfk14eU,4781
+taufactor/taufactor.py,sha256=3bQCkVvsMF4WZQSzjObR2h_SUUYkzu-LKHAQq1wnkbU,29649
+taufactor/utils.py,sha256=6IemFnvnodE6iXoUtLlNIshrAyCwpicrc8hyZB8mP7s,1998
+taufactor-1.0.0.dist-info/AUTHORS.md,sha256=XzQ71idVzdalQYS1yRmP_7myP7j14fe4yFGQle4bfO0,206
+taufactor-1.0.0.dist-info/LICENSE,sha256=cV6ahpZhzN-QQ6OLl2oCKuSVtZ39-KNkuOcnE-EjflI,1071
+taufactor-1.0.0.dist-info/METADATA,sha256=-NKAbdFk9UBLoLzr08Xl0Z0J9YvI9ifp9w5dMYvcTX8,4199
+taufactor-1.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+taufactor-1.0.0.dist-info/top_level.txt,sha256=bLmVYOIw3SjO2PsFszD-324SoHDk7YLRRBdF76w5TOs,10
+taufactor-1.0.0.dist-info/RECORD,,
