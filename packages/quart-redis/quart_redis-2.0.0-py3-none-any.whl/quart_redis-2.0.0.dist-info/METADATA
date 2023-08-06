@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: quart-redis
+Version: 2.0.0
+Summary: A easy way of setting up a redis in quart
+Author: Leo Spratt
+License: MIT
+Project-URL: homepage, https://github.com/enchant97/quart-redis
+Project-URL: documentation, https://quart-redis.readthedocs.io/en/stable/
+Project-URL: repository, https://github.com/enchant97/quart-redis.git
+Project-URL: changelog, https://github.com/enchant97/quart-redis/blob/master/CHANGELOG.md
+Keywords: quart,asyncio,redis,cache
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: quart (~=0.18)
+Requires-Dist: redis (<5,>=4.2)
+
+# Quart-Redis
+[![Documentation Status](https://readthedocs.org/projects/quart-redis/badge/?version=latest)](https://quart-redis.readthedocs.io/en/latest/)
+![PyPI](https://img.shields.io/pypi/v/quart-redis)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/quart-redis)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/quart-redis)
+![GitHub](https://img.shields.io/github/license/enchant97/quart-redis)
+![GitHub issues](https://img.shields.io/github/issues/enchant97/quart-redis)
+![GitHub last commit](https://img.shields.io/github/last-commit/enchant97/quart-redis)
+
+An easy way of setting up a redis connection in quart.
+
+## Requirements
+- quart >= 0.18
+- redis >= 4.2
+
+## Example of Use
+```
+pip install quart-redis
+```
+
+```python
+from quart import Quart
+from quart_redis import RedisHandler, get_redis
+
+app = Quart(__name__)
+app.config["REDIS_URI"] = "redis://localhost"
+# override default connection attempts, set < 0 to disable
+# app.config["REDIS_CONN_ATTEMPTS"] = 3
+redis_handler = RedisHandler(app)
+
+@app.route("/")
+async def index():
+    redis = get_redis()
+
+    val = await redis.get("my-key")
+
+    if val is None:
+        await redis.set("my-key", "it works!")
+        val = await redis.get("my-key")
+
+    return val
+```
