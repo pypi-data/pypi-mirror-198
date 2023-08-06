@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: grocery-list
+Version: 0.0.1
+Summary: grocery-list
+Home-page: https://github.com/mdmould/grocery-list
+Author: Matthew Mould
+Author-email: mattdmould@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pythonpackage
