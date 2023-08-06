@@ -1,0 +1,17 @@
+emborg/__init__.py,sha256=azsHSh-xibZB_Z6uFRT_WhepjCIba2HWwFxVtZrxPLA,77
+emborg/collection.py,sha256=7RLniqT_zVJtL53bWg4BcHMm0Tw6ir1id-iS6xBfzN4,6989
+emborg/command.py,sha256=2j0pJdMI-81E2bd6wZUuRvIizV-xMwWn6kWBm_174yU,72849
+emborg/emborg.py,sha256=rs49CJGlkHq4fSI9nrI02y6g-PEx-_pmjjt1nJnGrmI,35810
+emborg/help.py,sha256=kRYlquX_11jJ7-Yx-Ki3Q4euFS-rCQQ09qKocgd24Vw,6914
+emborg/hooks.py,sha256=tNdl2W_GgzVtF-IEX-8SK39PKX4FluMm2HTmq9I-DAw,4645
+emborg/main.py,sha256=UMVMh6s8gIoZenfNpI-uA93pK8eFwHivhglIyw0CoRA,5027
+emborg/overdue.py,sha256=jlvyY071VbA-AmP__5ssPbhiYwa8EJ85RduNWC8_o2s,7402
+emborg/patterns.py,sha256=jDuQjK0OthgD2Cv9XIdU-CRRTtRKGorisp0TcNcqd7U,6205
+emborg/preferences.py,sha256=1y6vtnuSAotCTIdghqwi4KTDN2Lz_V3R8tguwH_pm5U,12571
+emborg/python.py,sha256=lxp1CcpoqIoaXZIlBlltD_jrbfgdHhctlgPyHvyfK9M,4014
+emborg/shlib.py,sha256=-FANs7GzV50T5pO3aXthrlprIZlLNWap5XT7mE-yaZA,31802
+emborg/utilities.py,sha256=jB6iHa7owiPLc4f-3pQ0l3yaa7uwZprgMuCl6RXfAvo,6203
+emborg-1.35.dist-info/entry_points.txt,sha256=RcnAKwqSnTKH2yjUZBxU_dvOEGwQlF4yms00QK5nePY,78
+emborg-1.35.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+emborg-1.35.dist-info/METADATA,sha256=qAmQfmgFXRo5agdr4-0TutBHUWeiIPvDGmNld9Bl2_s,2915
+emborg-1.35.dist-info/RECORD,,
