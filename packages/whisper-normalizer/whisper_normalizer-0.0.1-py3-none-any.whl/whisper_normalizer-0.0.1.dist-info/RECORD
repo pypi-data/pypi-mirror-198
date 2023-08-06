@@ -1,0 +1,11 @@
+whisper_normalizer/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+whisper_normalizer/_modidx.py,sha256=PN13cLBlUlLfA4B6S9WpsyjXQm1tSqdtqANybwiqqD8,5314
+whisper_normalizer/basic.py,sha256=PIjx-oge4Y3O_gu0DhEq5O1Gl18sTNB_zSW9Ak7DFSg,2184
+whisper_normalizer/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+whisper_normalizer/english.py,sha256=mCBCST8YTuwQgPrE39cNDEiKpqCQD4yt5UGQo681X24,21279
+whisper_normalizer-0.0.1.dist-info/LICENSE,sha256=nc3DmoL9oqjN0gcd26L1U7yizh8vDdri3QNxv95dyro,1069
+whisper_normalizer-0.0.1.dist-info/METADATA,sha256=ogSml2E0SU6OADe8fvL4yZVpcIahfcTvK01b-mBAfNc,1141
+whisper_normalizer-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+whisper_normalizer-0.0.1.dist-info/entry_points.txt,sha256=zBn4xM-RRalh7W8wEpMPyDHtzXeESI9cLgTkGpXlcv0,58
+whisper_normalizer-0.0.1.dist-info/top_level.txt,sha256=N_fNbP1KyCCaYRU9Vipgqzc-T54PhHx0bJlj4OgXS-g,19
+whisper_normalizer-0.0.1.dist-info/RECORD,,
