@@ -1,0 +1,7 @@
+numpy
+pandas
+requests
+deepdiff
+openpyxl
+urllib3
+XlsxWriter

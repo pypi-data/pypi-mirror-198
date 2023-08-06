@@ -1,0 +1,45 @@
+{"Testcase ID":1,"Testcase Name":"UN CASE 1","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":2,"Testcase Name":"UN CASE 2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":3,"Testcase Name":"UN CASE 3","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":4,"Testcase Name":"EI Case 1 ","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":5,"Testcase Name":"CRV","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":6,"Testcase Name":"Russian Sector","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":7,"Testcase Name":"CINS Case1- Cuba , Iran,North Korea, Syria","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":8,"Testcase Name":"CINS Case2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":9,"Testcase Name":"Conditionally Case","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":10,"Testcase Name":"Clearly Applicable Case","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":11,"Testcase Name":"Iraq case","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":12,"Testcase Name":"ALL destinations, except Canada' case1","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":13,"Testcase Name":"China case","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":14,"Testcase Name":"test14_CHINA","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":15,"Testcase Name":"test15_china","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":16,"Testcase Name":"worldwide case","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":17,"Testcase Name":"STA Exceptions CASES 1","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":18,"Testcase Name":"STA Exceptions CASES2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":19,"Testcase Name":"STA Exceptions CASES 3","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":20,"Testcase Name":"STA Exceptions CASES 4","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":21,"Testcase Name":"STA Exceptions CASES 5","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":22,"Testcase Name":"LVS CASES 1","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":23,"Testcase Name":"LVS CASES 2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":24,"Testcase Name":"LVS CASES 3","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":25,"Testcase Name":"LVS CASES 4","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":26,"Testcase Name":"LVS CASES 5","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":27,"Testcase Name":"LVS CASES 6","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":28,"Testcase Name":"LVS CASES 7","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":29,"Testcase Name":"LR new RFC Conditional Case 1","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":30,"Testcase Name":"LR new RFC Conditional Case 2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":31,"Testcase Name":"LR new RFC Conditional Case 3","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":32,"Testcase Name":"LR new RFC Conditional Case 4","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":33,"Testcase Name":"Check exception 1","Api Name":"license_requirement\/checkexception","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":34,"Testcase Name":"check exception_2","Api Name":"license_requirement\/checkexception","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":35,"Testcase Name":"Itemsgrouping_1","Api Name":"license_requirements\/itemsgrouping","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":36,"Testcase Name":"Itemsgrouping_2","Api Name":"license_requirements\/itemsgrouping","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":37,"Testcase Name":"Itemsgrouping_3","Api Name":"license_requirements\/itemsgrouping","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":38,"Testcase Name":"Itemsgrouping_4","Api Name":"license_requirements\/itemsgrouping","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":39,"Testcase Name":"eccn_enduses_1","Api Name":"license_requirements\/eccn_enduses","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":40,"Testcase Name":"eccn_enduses_2","Api Name":"license_requirements\/eccn_enduses","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":41,"Testcase Name":"eccn_enduses_3","Api Name":"license_requirements\/eccn_enduses","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":42,"Testcase Name":"eccn_enduses_4","Api Name":"license_requirements\/eccn_enduses","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":43,"Testcase Name":"countries","Api Name":"license_requirements\/countries","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":44,"Testcase Name":"categories_productgroups","Api Name":"license_requirements\/categories_productgroups","Testcase Result":"Passed","RootCause":null,"Validations":null}
+{"Testcase ID":45,"Testcase Name":"ALL destinations, except Canada' case2","Api Name":"license_requirement\/getLicenseRequirements","Testcase Result":"Passed","RootCause":null,"Validations":null}

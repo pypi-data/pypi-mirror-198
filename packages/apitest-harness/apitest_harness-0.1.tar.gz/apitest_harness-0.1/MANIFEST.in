@@ -1,0 +1,5 @@
+include apitest_harness/source/*
+include apitest_harness/logs/*
+include apitest_harness/report/*
+include apitest_harness/src/*
+include apitest_harness/requirements.txt
