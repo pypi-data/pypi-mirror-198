@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: regext
+Version: 0.0.1
+Summary: Simple regex assistant with OpenAI API and prompt engineering
+Author: Sulthan Abiyyu
+License: MIT
+Requires-Dist: openai (==0.26.5)
+Requires-Dist: python-dotenv (==1.0.0)
+
+# Under Construction
