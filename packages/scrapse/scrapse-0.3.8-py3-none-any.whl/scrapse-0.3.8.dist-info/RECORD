@@ -1,0 +1,14 @@
+scrapse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapse/__main__.py,sha256=6pCgAj7qE3K4Yye1jVEYOOasNHL0ngbPG3nbLQryTV0,48
+scrapse/leggitalia/commands/dump_judgments.py,sha256=Rb6sQRTOu6ndk1u37WChR1oh8qvI5lZUGAd2e7babrk,9913
+scrapse/leggitalia/commands/save_cookie.py,sha256=mF1IhH8qrzabdtcbGHjzCLKWZYXnpt7-SzpxgM0uZNc,337
+scrapse/leggitalia/commands/scrap_judgments.py,sha256=jacWYwT_3otznw3_0T7uJskqswhB7UTQxdTWKgQ7i70,4834
+scrapse/leggitalia/commands/scrap_voices.py,sha256=qc-Ju6i3tm7Iih7xb2d7GkAm9p0S7BOqkeFN-L5ybnY,1425
+scrapse/leggitalia/commands/show_filters.py,sha256=De7Jb6W3HK9cyaMB1S8Oi4vg0REIF0uwivBt6N1HoSQ,393
+scrapse/leggitalia/leggitalia.py,sha256=yY8rs4z149VtZSA7fEvepOM5tPEkBglCzH9LRDE2gBk,1007
+scrapse/leggitalia/utils.py,sha256=UMOrJvDHAtku-w1q9zyvrW55Vd4ZoipSdGoB4akDZ-Y,9895
+scrapse/main.py,sha256=EH7HXE7LvVjF9aWzwwxjB8H0YulscItd0mRCXm5XR8s,729
+scrapse-0.3.8.dist-info/METADATA,sha256=6E5L6qKoyWVQDTXto4mlgLk6PPag--9Z7G4pXPgxevk,2149
+scrapse-0.3.8.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+scrapse-0.3.8.dist-info/entry_points.txt,sha256=48l9qMpZPWOfcPVGtaXxikv8X0NGhJOkJe5oozYCM6E,44
+scrapse-0.3.8.dist-info/RECORD,,
