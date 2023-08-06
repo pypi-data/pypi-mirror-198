@@ -1,0 +1,16 @@
+coco_froc_analysis/__init__.py,sha256=y5cG7H-THjH7ZyKIGGBB2RrAdHPTOxiF6A_6t6agyH8,97
+coco_froc_analysis/__main__.py,sha256=7x2ytRVOKy0JtAKT87tTnMB0F_PuzFZ9vIPqymSXKoA,109
+coco_froc_analysis/cli_froc_analysis.py,sha256=HUve6PdTV2Moltt0Om71ubYISV6k-OjFK8vL3G_Zdqc,4261
+coco_froc_analysis/count/__init__.py,sha256=a3O31IlP-DHERJ3oTtzREEn_w9h7sCgcARqiY-UWLSo,234
+coco_froc_analysis/count/bootstrap_count_curve.py,sha256=S925pAqNMRj8Qtp4aQMtOtGxFSuKQWjiPWtAVHWINxU,8464
+coco_froc_analysis/count/count_curve.py,sha256=iu2Zb-4lvEbSe4VwjuTwkZrkpw92kvh-s8FMZ4612J8,5559
+coco_froc_analysis/count/count_stats.py,sha256=lXkAZhVnU5mSIIQkIHlFbLpupuqcYvI0qtnIP7nzzfM,3321
+coco_froc_analysis/froc/__init__.py,sha256=wy9okJcwIbOKvbofIURtQ7tnOmj789ifHBpjqFVdsEw,228
+coco_froc_analysis/froc/bootstrap_froc_curve.py,sha256=gcN9W90nVb0gqZKa8e4GxDQ7s4_T84SCH2eGIFSEElo,8555
+coco_froc_analysis/froc/froc_curve.py,sha256=MODN6nIYKSEAq1nHZGs9Ujv9060ISgftMJxaxMBGUL8,6162
+coco_froc_analysis/froc/froc_stats.py,sha256=TjdSl4TheD7u1NGOAHn5HbD3uNF1wqcWbkStxi1qMMg,4386
+coco_froc_analysis/utils.py,sha256=y_mz5ptCJD3XwkRDTH8aTKADB5JhQqQP_NqC1SAokC0,4329
+coco_froc_analysis-0.2.1.dist-info/LICENSE,sha256=me_S4p03sjMVSD_ClUeKDPfaLnrSZEla9waoYrZ3_Y4,1066
+coco_froc_analysis-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+coco_froc_analysis-0.2.1.dist-info/METADATA,sha256=z-D4xuEiYHtmlJhKk12lc5jr7IM1U5QxfmSu4J2pdyk,4170
+coco_froc_analysis-0.2.1.dist-info/RECORD,,
