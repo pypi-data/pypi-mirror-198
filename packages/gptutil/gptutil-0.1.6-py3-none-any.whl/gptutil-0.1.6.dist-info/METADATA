@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gptutil
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx
+Requires-Dist: pylint
+Requires-Dist: click
+Requires-Dist: tiktoken
+Requires-Dist: langchain
+Requires-Dist: prompt-toolkit
+
+UNKNOWN
+
+
