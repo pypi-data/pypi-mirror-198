@@ -1,0 +1,70 @@
+Screen {
+    align: center middle;
+    overflow-x: auto;
+    layers: bottom top;
+}
+
+Button {
+    margin-right: 1;
+    margin-left: 1;
+}
+
+ContentSwitcher {
+    background: $panel;
+    border: round $primary;
+    width: 100%;
+    height: 90%;
+}
+
+#dbtree {
+    dock: left;
+    width: 25;
+    padding: 1;
+}
+
+DataTable {
+    padding-left: 1;
+    padding-right: 1;
+}
+
+#opentree {
+    height: 80%;
+    margin-top: 2;
+    margin-left: 2;
+}
+
+#openlabel {
+    margin-left: 3;
+    margin-top: 2;
+}
+
+FieldEditor {
+    dock: bottom;
+    width: 100%;
+    height: 50%;
+    layer: top;
+    border: solid;
+    visibility: hidden;
+}
+
+InsertEditor {
+    dock: bottom;
+    width: 100%;
+    height: 70%;
+    layer: top;
+    border: solid red;
+    visibility: hidden;
+}
+
+RowEdit {
+    height: 3;
+    width: 80%;
+}
+#roweditlabel {
+    margin-left: 2;
+    margin-top: 1;
+}
+#roweditvalue {
+    height: 3;
+    margin-left: 2;
+}
