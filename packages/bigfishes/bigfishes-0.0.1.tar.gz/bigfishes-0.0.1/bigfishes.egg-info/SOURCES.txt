@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bigfishes/__init__.py
+bigfishes/bigfishes.py
+bigfishes.egg-info/PKG-INFO
+bigfishes.egg-info/SOURCES.txt
+bigfishes.egg-info/dependency_links.txt
+bigfishes.egg-info/not-zip-safe
+bigfishes.egg-info/top_level.txt
