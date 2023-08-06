@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+license_text_normalizer/__init__.py
+license_text_normalizer/main.py
+license_text_normalizer.egg-info/PKG-INFO
+license_text_normalizer.egg-info/SOURCES.txt
+license_text_normalizer.egg-info/dependency_links.txt
+license_text_normalizer.egg-info/top_level.txt
