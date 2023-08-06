@@ -1,0 +1,16 @@
+[console_scripts]
+dabapush=dabapush.main:cli
+
+[dabapush_readers]
+NDJSON=dabapush.Reader.NDJSONReader:NDJSONReaderConfiguration
+Tegracli=dabapush.Reader.tegracli_reader:TegracliReaderConfiguration
+Twacapic=dabapush.Reader.TwacapicReader:TwacapicReaderConfiguration
+
+[dabapush_writers]
+CSV=dabapush.Writer.CSVWriter:CSVWriterConfiguration
+NDJSON=dabapush.Writer.NDJSONWriter:NDJSONWriterConfiguration
+SMOFB=dabapush.Writer.FacebookDBWriter:FacebookDBWriterConfiguration
+SMOIG=dabapush.Writer.InstagramDBWriter:InstagramDBWriterConfiguration
+SMOTG=dabapush.Writer.TelegramDBWriter:TelegramDBWriterConfiguration
+SMOTW=dabapush.Writer.TwitterDBWriter:TwitterDBWriterConfiguration
+
