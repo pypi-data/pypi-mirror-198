@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+midtermtest/__init__.py
+midtermtest/midtermtest.py
+midtermtest.egg-info/PKG-INFO
+midtermtest.egg-info/SOURCES.txt
+midtermtest.egg-info/dependency_links.txt
+midtermtest.egg-info/not-zip-safe
+midtermtest.egg-info/top_level.txt
