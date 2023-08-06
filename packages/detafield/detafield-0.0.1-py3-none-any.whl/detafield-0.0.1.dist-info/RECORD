@@ -1,0 +1,13 @@
+detafield/__init__.py,sha256=6ELIsWhfNHOctzXb6qHZdG-KFMovvN66cbXpAlnoINU,229
+detafield/abstracet_model.py,sha256=Jetbu5piiUCa1pX9xROefiTEh3RxR2puKEnOqFcCxt8,1427
+detafield/base.py,sha256=EE8eedhC5PVoJxg3DheBO46rQ75kWnB6P5ioYN8iQhU,15365
+detafield/descriptor.py,sha256=JElIqMKSw2VLCW3dFA4ydxeTdn1wuFEODUHU2-jffqA,4693
+detafield/element.py,sha256=5Mgq4dcoY8oM2YatSeDnpgQkJ6QyQx_bdp4XGgaETrA,12306
+detafield/enums.py,sha256=pv2RI5rLlo2KRBZglGRUgrcFyg7VUrS5ohbM6eszw1s,1162
+detafield/env.py,sha256=SjO_MODbS7bf1emXMtwBDY0wb_l_d-bqy_qdGHAJLWw,236
+detafield/functions.py,sha256=yGXmsRXEv0oojVwiAaHIeoAy4-6z-TAd0tdNKNjZ8zk,240
+detafield/json_encoder.py,sha256=1udEJbhAtN8nZ-Jr3Mr-nVpOw5CEUY6b0bb-htvIXjA,1015
+detafield/regex.py,sha256=zAxCVpacYNnINBDWrIRz7dWjmuPbu0GlvAD4y69dOM4,6321
+detafield-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+detafield-0.0.1.dist-info/METADATA,sha256=Gr1Mw378fYI5G_4OiUjzMir6nODXLJUqUaeIp6jNYVs,377
+detafield-0.0.1.dist-info/RECORD,,
