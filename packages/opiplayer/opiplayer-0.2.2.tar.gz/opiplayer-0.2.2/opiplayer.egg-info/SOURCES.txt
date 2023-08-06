@@ -1,0 +1,12 @@
+MANIFEST.in
+MusicApp.py
+setup.py
+img/circled-pause.png
+img/end.png
+img/external-arrow-arrows-jumpicon-line-jumpicon-line-ayub-irawan-50.png
+img/play-button-circled.png
+opiplayer.egg-info/PKG-INFO
+opiplayer.egg-info/SOURCES.txt
+opiplayer.egg-info/dependency_links.txt
+opiplayer.egg-info/requires.txt
+opiplayer.egg-info/top_level.txt
