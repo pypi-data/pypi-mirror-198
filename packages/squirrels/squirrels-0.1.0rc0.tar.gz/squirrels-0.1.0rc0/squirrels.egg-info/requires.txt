@@ -1,0 +1,11 @@
+inquirer
+pwinput
+cachetools
+fastapi
+uvicorn
+Jinja2
+GitPython
+pandasql
+pandas
+sqlalchemy<2
+pyyaml
