@@ -1,0 +1,13 @@
+neuro_deloy.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+neuro_deploy.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+quicksample.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+neuro_deploy/__init__.py,sha256=FF7q_KKSJQGe-rs3f2Knfpu5FTBOzd_kG8TvU1dL8Ys,110
+neuro_deploy/neuro_deploy.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+neuro_deploy/test.py,sha256=a2NI2ta8prqIFFN_ONBW6Fi03M2T3RGaOQtCxcHppoU,45
+neuro_deploy/users.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+neuro_deploy/queries/__init__.py,sha256=CSJsFS6jKMnZ0UtC-2zBwkDpZENf-verRypq_PRurKc,81
+neuro_deploy/queries/users.py,sha256=Sm2hOa7AM-xHtT3ZKnpL3JWFlR53_NG8XtftsiaXOsE,69
+neuro_deploy-0.0.1.dist-info/METADATA,sha256=TERNwgUoku-wLIdDlFS2f7ZgYJLfTUiKUYkkaZwHOSk,401
+neuro_deploy-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+neuro_deploy-0.0.1.dist-info/top_level.txt,sha256=WBofPya0UxOxru5DsPo1TZarJZKo96bkm2wtsejR2w8,13
+neuro_deploy-0.0.1.dist-info/RECORD,,
