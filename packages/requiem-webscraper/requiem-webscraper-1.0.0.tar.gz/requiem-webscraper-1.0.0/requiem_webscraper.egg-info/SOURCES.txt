@@ -1,0 +1,7 @@
+setup.py
+requiem_webscraper.egg-info/PKG-INFO
+requiem_webscraper.egg-info/SOURCES.txt
+requiem_webscraper.egg-info/dependency_links.txt
+requiem_webscraper.egg-info/entry_points.txt
+requiem_webscraper.egg-info/requires.txt
+requiem_webscraper.egg-info/top_level.txt
