@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: moko
+Version: 0.1.0.12
+Summary: Modern Korean NLP Package
+Home-page: https://cmks.yonsei.ac.kr/
+Author: m.kim, yk.jeong
+Author-email: munui0822@gmail.com, yookyungjeong@gmail.com
+License: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+moko는 1900년대 국한문혼용 텍스트에서 한자 단어를 추출하는 모듈입니다. <br>
+근대한국학연구소 HK+사업단의 한국학 DB구축 연구의 일환으로 제작되었습니다.
+
+## Installation
+
+```
+$ pip install moko
+```
+
+## Usage
+
+국한문혼용 텍스트로부터 명사를 추출하는 모듈은 아래 두 종류가 있습니다.
+- noun_chunk_dict: 사전기반 단어 추출
+- noun_chunk_model: 띄어쓰기 모델을 활용한 텍스트 분할
+
+명사 추출을 기본으로 하며, 수사는 추출하지 않습니다.<br>
+
+
+```
+from moko import noun_chunker
+
+text = "論說\n⊙粤自循蜚、結繩遂寢、書契旣興以來、人生學業聞見之弘博必由載籍"
+
+noun_list = noun_chunker.noun_chunk_dict(text, char_num=4)
+print(noun_list)
+
+noun_list = noun_chunker.noun_chunk_model(text)
+print(noun_list)
+```
+noun_chunk_dict의 char_num은 추출될 단어의 길이를 조절합니다.<br> 
+인자를 생략했을 때는 기본값이 4로, 가급적 단어의 길이가 4글자를 넘지 않도록 합니다.
+
+띄어쓰기 모델은 관련 연구들이 황성신문의 논설기사를 띄어쓰기한 자료를 학습데이터로 사용하였습니다.<br>
+띄어쓰기 기반의 단어 분절 모듈로, 사전기반의 방식보다 많은 단어들이 결과로 반환됩니다.
+
+
+신문에 사용되는 今日, 今年, 一日 등의 단어를 포함하여 약 700여 개의 불용어가 기본으로 제거됩니다. noun_chunker.set_stopwords("경로.txt")으로 불용어 사전을 변경할 수 있습니다. 불용어 사전은 한줄에 한개의 단어로 이루어진 txt 파일이어야 합니다.
+
+간단한 단어 빈도측정과 공기어추출이 가능합니다.
+
+```
+from moko import term_analyzer
+
+term_analyzer.word_count(noun_list)
+term_analyzer.co_occurence_count(noun_list)
+```
+
+## Update
+아래의 기능이 추가로 오픈될 예정입니다.
+- 개체명인식: 인명, 서명, 저자명, 기관명 
+- 토픽모델링 연계
+- 단어임베딩
