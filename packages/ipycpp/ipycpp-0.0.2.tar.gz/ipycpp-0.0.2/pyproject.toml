@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ipycpp"
+version = "0.0.2"
+authors = [
+  { name="Luca Fabbian", email="luca.fabbian.1999@gmail.com" },
+]
+description = "Jupyter kernel for C++ (cpp, cplusplus) with no external deps!"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'ipykernel >= 6',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lucafabbian/ipycpp"
+"Bug Tracker" = "https://github.com/lucafabbian/ipycpp/issues"
+
+
+[tool.hatch.build.targets.wheel.shared-data]
+"kernel.json" = "share/jupyter/kernels/ipycpp/kernel.json"
