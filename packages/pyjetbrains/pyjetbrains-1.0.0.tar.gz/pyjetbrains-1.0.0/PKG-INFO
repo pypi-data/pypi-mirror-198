@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyjetbrains
+Version: 1.0.0
+Summary: Python package to take control over JetBrains IDEs
+Project-URL: Repository, https://github.com/KrazyManJ/pyjetbrains
+Project-URL: Bug Tracker, https://github.com/KrazyManJ/pyjetbrains/issues
+Author: KrazyManJ
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: winapps
+Description-Content-Type: text/markdown
+
+<h1 align="center">pyjetbrains</h1>
+
+<p align="center"><i>Take the control over JetBrains IDEs Family with python code!</i></p>
+
+---
+
+```shell
+pip install pyjetbrains
+```
