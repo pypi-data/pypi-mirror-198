@@ -1,0 +1,17 @@
+xomx/__init__.py,sha256=ItX3Sd2wM-zgNFjnydpu73aITGGttYHexX87I90UTCc,368
+xomx/classifiers/__init__.py,sha256=NgYOhKKHoxgNDl7GgVIn5u_sv2CRRNn-ZhjezgBhrzw,45
+xomx/classifiers/multiclass.py,sha256=KUX_83z5TmcLgEs7cNBLoUYfPOFHIavbsR1yaQ-_B0Q,2459
+xomx/data_importation/__init__.py,sha256=KfBzP2sV16yhXvBPs2uhE9Oy8STM9Z0aRIxHG2BScnQ,61
+xomx/data_importation/gdc.py,sha256=kTXalBaea98Jk1fZ1WrOYFx94j7TfGiUMQXR6rpkgK4,3626
+xomx/feature_selection/RFEExtraTrees.py,sha256=rVNgf3BAFXLrF8z1-JIkddiTkm0BtmSEFDRSTHY4pIA,7939
+xomx/feature_selection/__init__.py,sha256=GVMgDn2O-Wtqa-qAuLsGptxPZzWe8zyAAyiIaen0mZg,61
+xomx/plotting/__init__.py,sha256=VLojMhvseyRTeIvPtVuRLLxoBxdUlc7npjCFXVSi9b4,522
+xomx/plotting/basic_plot.py,sha256=54ps4cG9F8nlZIYEwCzm4aSUld0zCYdn6cTzwCNHt2w,34070
+xomx/tools/__init__.py,sha256=ZcacvV-zf5Vx7BKBAW617p0RBo_pSPPnxhsA6imHQ6k,361
+xomx/tools/bio.py,sha256=gYL3oWo8-XNDgnzQSIGPZGwEcwmM1XjrdczZcJbpQGI,3296
+xomx/tools/utils.py,sha256=zSxZpjdJjBJrK2Bnp-9MtJgPWO9ddyE4qlLLbGkHt6I,2985
+xomx-0.1.2.dist-info/LICENSE,sha256=55EGNlYEAIGbfzQe3FL_1aBq62kQShsuww2f3h0ym-w,1518
+xomx-0.1.2.dist-info/METADATA,sha256=VdFiVoFmYs85H1Y5fZBxUw-yP26ZlSSCVmvbtyv3ss0,3546
+xomx-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xomx-0.1.2.dist-info/top_level.txt,sha256=Y241ka1JXWVT42TWQSsga0fWm48PP2ICAOTKe8D0tw0,5
+xomx-0.1.2.dist-info/RECORD,,
