@@ -1,0 +1,2 @@
+[console_scripts]
+exorde = exorde.command:run

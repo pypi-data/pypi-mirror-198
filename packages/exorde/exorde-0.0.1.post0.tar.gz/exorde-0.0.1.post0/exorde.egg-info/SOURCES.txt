@@ -1,0 +1,8 @@
+setup.py
+exorde/__init__.py
+exorde/command.py
+exorde.egg-info/PKG-INFO
+exorde.egg-info/SOURCES.txt
+exorde.egg-info/dependency_links.txt
+exorde.egg-info/entry_points.txt
+exorde.egg-info/top_level.txt
