@@ -1,0 +1,7 @@
+
+[test]
+pytest-runner
+mock
+pytest
+pylama
+six

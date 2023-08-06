@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tb-paho-mqtt-client
+Version: 1.6.2
+Summary: Fork of with critical bug fixed.
+Author-email: Samsonov <vbidochka@thingsboard.io>
+Project-URL: Homepage, https://github.com/samson0v/paho.mqtt.python
+Project-URL: Bug Tracker, https://github.com/eclipse/paho.mqtt.python/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.txt
