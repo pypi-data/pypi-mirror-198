@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+covertree/__init__.py
+covertree/covertree.py
+covertree.egg-info/PKG-INFO
+covertree.egg-info/SOURCES.txt
+covertree.egg-info/dependency_links.txt
+covertree.egg-info/top_level.txt
