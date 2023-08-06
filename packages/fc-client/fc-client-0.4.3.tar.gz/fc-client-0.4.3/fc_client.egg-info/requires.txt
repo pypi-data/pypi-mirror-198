@@ -1,0 +1,5 @@
+prettytable==2.2.1
+pyserial-labgrid==3.4.0.1
+
+[labgrid]
+labgrid==0.4.1
