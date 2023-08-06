@@ -1,0 +1,3 @@
+[console_scripts]
+clusterq-setup = clusterq.scripts:setup
+
