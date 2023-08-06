@@ -1,0 +1,10 @@
+meilisearchdsl/__init__.py,sha256=6gEEUcykS89yaThH9COhc47GFwA2Fgck9jHZTfnt14o,136
+meilisearchdsl/client.py,sha256=IjvfaAa6nU3prxLrrxFey3fcRl5dPi_-9F0He4Z5RQA,3321
+meilisearchdsl/index.py,sha256=fDdukl7zfkK07xQnPDkHfUCd_c7xA_zGQklbUOLuBvA,21506
+meilisearchdsl/query.py,sha256=WI_srUdD7ZLurcs6ydZcvWkWH5TP9lGc1EXbm8oiTYs,8025
+meilisearchdsl/test.py,sha256=fL5bBzxYy5Lj89UMfFs_cxWFh_FDa2wKor7TqGUY0ZM,4270
+meilisearchdsl-0.1.2.dist-info/LICENSE,sha256=cfluFWjjxPqtdRFZseEwXf2jHT73fTXkC6N5K83F0yE,1063
+meilisearchdsl-0.1.2.dist-info/METADATA,sha256=ywVRKMcLatpqXP7ryh5tdjkF6lWzQ6RTBUhqA9duAqA,3044
+meilisearchdsl-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+meilisearchdsl-0.1.2.dist-info/top_level.txt,sha256=JTie8tHo2U1GfIpzVv67E8rubuONiBdS4x1nLjtEWNw,15
+meilisearchdsl-0.1.2.dist-info/RECORD,,
