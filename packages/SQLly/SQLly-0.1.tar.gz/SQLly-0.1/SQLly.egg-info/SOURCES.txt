@@ -1,0 +1,7 @@
+README.md
+setup.py
+SQLly.egg-info/PKG-INFO
+SQLly.egg-info/SOURCES.txt
+SQLly.egg-info/dependency_links.txt
+SQLly.egg-info/requires.txt
+SQLly.egg-info/top_level.txt
