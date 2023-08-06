@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: in2xl
+Version: 0.1.0
+Summary: Insert String, Integer, Float or Dataframe into an XLSX file
+Author: David Herzog
+License: UNKNOWN
+Keywords: python,xlsx,excel,dataframe,insert in excel,template,excel template
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: ruamel.std.zipfile
+Requires-Dist: lxml
+Requires-Dist: pandas
+
+A package that allows to insert data in an XLSX file without changing the layout.
+
