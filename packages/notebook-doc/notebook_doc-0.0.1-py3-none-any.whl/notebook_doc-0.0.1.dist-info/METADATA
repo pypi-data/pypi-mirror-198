@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: notebook-doc
+Version: 0.0.1
+Summary: A package to create documentation for functions in Databricks notebooks
+Author-email: Hiran Hasanka <hiranhasanka@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Notebook-doc
+
+Notebook-doc is a Python package that can create documentation for functions in Databricks notebooks.
+
+It can generate documentation from the docstrings of functions.
+
+It will generate documentation as HTML documents, which can be displayed inside Databricks notebooks.
+
