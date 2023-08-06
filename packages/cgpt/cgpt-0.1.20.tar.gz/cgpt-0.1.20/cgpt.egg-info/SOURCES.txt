@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+cgpt.py
+setup.py
+app/__init__.py
+app/file_service.py
+app/main.py
+app/plugin.py
+cgpt.egg-info/PKG-INFO
+cgpt.egg-info/SOURCES.txt
+cgpt.egg-info/dependency_links.txt
+cgpt.egg-info/entry_points.txt
+cgpt.egg-info/requires.txt
+cgpt.egg-info/top_level.txt
