@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: raymics
+Version: 0.5.5
+Summary: Raymics Tools
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: imageio
+Requires-Dist: imageio[ffmpeg]
+Requires-Dist: av
+Requires-Dist: SimpleITK
+Requires-Dist: pyradiomics
+Requires-Dist: opencv-contrib-python
+Requires-Dist: dicom2nifti
+
