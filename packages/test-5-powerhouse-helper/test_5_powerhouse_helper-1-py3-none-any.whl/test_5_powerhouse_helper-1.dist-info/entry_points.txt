@@ -1,0 +1,2 @@
+[console_scripts]
+powerhouse-helper = test5_powerhouse_helper.main:run
