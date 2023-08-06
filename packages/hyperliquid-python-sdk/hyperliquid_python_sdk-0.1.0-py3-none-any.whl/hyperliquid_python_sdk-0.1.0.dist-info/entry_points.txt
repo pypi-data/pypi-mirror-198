@@ -1,0 +1,3 @@
+[console_scripts]
+hyperliquid-python-sdk=src.__main__:app
+
