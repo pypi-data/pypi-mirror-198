@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+readme.txt
+setup.py
+pbit_extract.egg-info/PKG-INFO
+pbit_extract.egg-info/SOURCES.txt
+pbit_extract.egg-info/dependency_links.txt
+pbit_extract.egg-info/requires.txt
+pbit_extract.egg-info/top_level.txt
