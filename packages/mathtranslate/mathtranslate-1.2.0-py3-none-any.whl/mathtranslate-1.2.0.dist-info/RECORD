@@ -1,0 +1,11 @@
+mathtranslate/__init__.py,sha256=VuGop9UFVf0qeOboIJeTF49HwP_8IQpcGMAhq9z33Wk,190
+mathtranslate/config.py,sha256=3f78YpvBamYoO-QzCpSa5oT6kgjFq0KSmSlkgYsRav8,1858
+mathtranslate/tencent.py,sha256=SPfX1nX2MsVTVsCgE2ZH2YIF4pfDuDSvgLMs4A5bN_s,745
+mathtranslate/translate_tex.py,sha256=SRuD14SFFTWctYu8tQibwb5p80kAW2ajWBJX7essFQk,5118
+mathtranslate/translation.py,sha256=jWW2kjcav47wrwID9HtzvDUzTlZmcIOcJC_ejY-hrOM,5024
+mathtranslate-1.2.0.data/scripts/translate_tex.py,sha256=7Lski-qncDH2s27EopmK1Ktu3-RhNL9_-C1aagwG4iU,5105
+mathtranslate-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mathtranslate-1.2.0.dist-info/METADATA,sha256=tBTi3vha_oKiLHqhyuqbP8zCV80QRvZwc0jb1MN9xXg,5685
+mathtranslate-1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mathtranslate-1.2.0.dist-info/top_level.txt,sha256=9fiyv2mtqrZ-icGi_P3adnAX09LKL4-FT9PSmaPhUcs,14
+mathtranslate-1.2.0.dist-info/RECORD,,
