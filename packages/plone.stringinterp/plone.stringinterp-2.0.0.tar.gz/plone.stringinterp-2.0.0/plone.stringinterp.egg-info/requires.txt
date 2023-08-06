@@ -1,0 +1,9 @@
+setuptools
+plone.base
+plone.memoize
+zope.i18n
+
+[test]
+plone.app.contenttypes
+plone.app.testing
+plone.testing
