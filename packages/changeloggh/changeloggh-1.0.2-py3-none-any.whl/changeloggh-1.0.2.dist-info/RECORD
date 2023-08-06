@@ -1,0 +1,12 @@
+LICENSE,sha256=z_ayIbVxHCXWci7P2DnNjgUBCWeQ6wTpniRkFew9HEg,1067
+changeloggh/__init__.py,sha256=GFvW_dO30O6_tckia7YMBs4oMdRMaknOncQKMpf0cwA,113
+changeloggh/__main__.py,sha256=RqhnmdPf75Z2CG-qItI4RTF8fC61xRLfLVJMxgmrsrc,40
+changeloggh/changelog.py,sha256=7ZWRkCa-Bg2QXVDn-iZoeZu-ZJC1YA_X28Rc6tNDTDo,10510
+changeloggh/cli.py,sha256=3QytUVkWtNa8uszGRjOcRs67LQy9u6v43zphQ66juTk,5586
+changeloggh/url_utils.py,sha256=An3Kv9t1vj-3lVy9zzuevcKirnS0deqtIC94f1Jjn4Q,90
+changeloggh/version_utils.py,sha256=LLzADyXZJlitOFmm1Vpdw7GNoSe-svwcvr4jCbakHng,737
+changeloggh-1.0.2.dist-info/LICENSE,sha256=z_ayIbVxHCXWci7P2DnNjgUBCWeQ6wTpniRkFew9HEg,1067
+changeloggh-1.0.2.dist-info/METADATA,sha256=qqe5ROkXFN8N3b403tzeZ8N2gpyG14l_HGgkyq_ggdg,4429
+changeloggh-1.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+changeloggh-1.0.2.dist-info/entry_points.txt,sha256=xQ20nOUIK8BSfs1cJf0d1gSztQgvZv3404Ia0VIc1DY,78
+changeloggh-1.0.2.dist-info/RECORD,,
