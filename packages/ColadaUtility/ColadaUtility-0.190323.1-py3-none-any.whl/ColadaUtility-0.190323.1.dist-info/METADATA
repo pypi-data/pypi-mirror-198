@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ColadaUtility
+Version: 0.190323.1
+Summary: Some useful utility stuff
+Author-email: Nouhelgod <nouhel12@gmail.com>
+Project-URL: Homepage, https://github.com/Nouhelgod/ColadaUtility
+Project-URL: Bug Tracker, https://github.com/Nouhelgod/ColadaUtility/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Some random stuff
