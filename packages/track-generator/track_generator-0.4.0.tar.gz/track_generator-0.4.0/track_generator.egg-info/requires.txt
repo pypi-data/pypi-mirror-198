@@ -1,0 +1,5 @@
+PySide6
+drawsvg==1.9
+numpy
+pytransform3d
+watchdog
