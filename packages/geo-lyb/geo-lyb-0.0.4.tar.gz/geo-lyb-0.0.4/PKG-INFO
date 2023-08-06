@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geo-lyb
+Version: 0.0.4
+Summary: wood class
+Home-page: https://github.com/WalidGharianiEAGLE/geo-poz
+Author: Walid Ghariani
+Author-email: walid11ghariani@gmail.com
+License: MIT
+Keywords: spatial
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+
+# geo-poz
+stuff
