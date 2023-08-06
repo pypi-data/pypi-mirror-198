@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: reacher
+Version: 0.1
+Summary: A tool for reaching out to remote machine - excecute code and collect artificats
+Home-page: https://github.com/johannes-skog/reacher
+Author: johannes skog
+Author-email: johannes.skog.unsec@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: scp
+Requires-Dist: paramiko
+
+# reacher
