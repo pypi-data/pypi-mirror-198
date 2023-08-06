@@ -1,0 +1,32 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{as\_dict()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{get\_number\_constants()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+  \item \spxentry{get\_uncertainty()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+  \item \spxentry{get\_unit()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+  \item \spxentry{get\_value()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+  \item \spxentry{get\_year()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{module}
+    \subitem \spxentry{pycodata}, \hyperpage{19}
+    \subitem \spxentry{pycodata.\_codata}, \hyperpage{19}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{print()}\spxextra{in module pycodata.\_codata}, \hyperpage{19}
+  \item \spxentry{pycodata}
+    \subitem \spxentry{module}, \hyperpage{19}
+  \item \spxentry{pycodata.\_codata}
+    \subitem \spxentry{module}, \hyperpage{19}
+
+\end{sphinxtheindex}
