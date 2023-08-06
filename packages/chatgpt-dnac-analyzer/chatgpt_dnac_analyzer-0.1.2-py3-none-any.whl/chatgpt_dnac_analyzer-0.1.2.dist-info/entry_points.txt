@@ -1,0 +1,3 @@
+[console_scripts]
+chatgpt_dnac_analyzer=chatgpt_dnac_analyzer.script:run
+
