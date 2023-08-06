@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-cell-centroid-annotator = napari_cell_centroid_annotator:napari.yaml
