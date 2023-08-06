@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ytsaurus-yson
+Version: 0.4.2
+Summary: C++ bindings for YSON.
+Home-page: UNKNOWN
+Author: YTsaurus
+Author-email: dev@ytsaurus.tech
+License: Apache 2.0
+Keywords: yt python bindings yson
+Platform: UNKNOWN
+Requires-Dist: ytsaurus-client (>=0.12.0)
+
+UNKNOWN
+
