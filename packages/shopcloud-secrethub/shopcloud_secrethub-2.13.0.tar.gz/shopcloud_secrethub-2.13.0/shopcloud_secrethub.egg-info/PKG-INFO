@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: shopcloud-secrethub
+Version: 2.13.0
+Summary: CLI tool for the Shopcloud SecretHub
+Home-page: https://github.com/Talk-Point/shopcloud-secrethub-cli
+Author: Konstantin Stoldt
+Author-email: konstantin.stoldt@talk-point.de
+License: MIT-License
+Requires-Python: >=3.8
+License-File: LICENSE.txt
