@@ -1,0 +1,7 @@
+from transformers import AutoConfig, AutoModelForSequenceClassification
+
+from .configuration_bert import NamiBertConfig
+from .modeling_bert import NamiBertForSequenceClassification
+
+AutoConfig.register("nami_bert", NamiBertConfig)
+AutoModelForSequenceClassification.register(NamiBertConfig, NamiBertForSequenceClassification)
