@@ -1,0 +1,2 @@
+[console_scripts]
+powerhouse-helper = powerhouse_helper.main:run
