@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bangla_python.egg-info/PKG-INFO
+bangla_python.egg-info/SOURCES.txt
+bangla_python.egg-info/dependency_links.txt
+bangla_python.egg-info/top_level.txt
+bangla_python_nahidhossain/__init__.py
+bangla_python_nahidhossain/bangla_python.py
