@@ -1,0 +1,1 @@
+[service_base](https://gitlab.com/nest.lbl.gov/service_base) contains the python package that provides a basic operations for an application that will run as a Unix daemon that can be controlled via a signals.

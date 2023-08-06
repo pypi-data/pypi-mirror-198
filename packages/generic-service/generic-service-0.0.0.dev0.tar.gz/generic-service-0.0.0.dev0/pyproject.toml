@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generic-service"
+version = "0.0.0.dev0"
+description = "Provides the basics for run and controlling a service running as a daemon."
+readme = "README.md"
+authors = [
+    { "name"="Simon Patton", "email" ="sjpatton@lbl.gov"}
+]
+license = { text = "BSD-3-Clause-LBNL" }
+classifiers=[  # Optional
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3.10",
+]
+keywords=["service", "daemon", "signals"]  # Optional
+dependencies = [ # Optional
+    "python-daemon >= 3"
+]
+requires-python = ">=3.10, <4"
+
+[project.scripts]
+# my_service = "generic_service:main"
+
+# Note the quotes around drip.dropper in order to escape the dot .
+#[project.entry-points."service.plugin"]
+#file_drip = "service:MyPlugin"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["src/main/python/service_pkg"]  # ["."] by default
+# include = # ["*"] by default
+# exclude = # [] by default
+
+[tool.setuptools]
+py-modules = ["generic_service"]
+
+[tool.setuptools.package-data]
+generic_service = ["py.typed"]
