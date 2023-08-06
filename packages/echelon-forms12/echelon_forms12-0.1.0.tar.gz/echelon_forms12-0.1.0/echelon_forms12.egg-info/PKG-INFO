@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: echelon-forms12
+Version: 0.1.0
+Summary: Demo library
+Home-page: https://github.com/akiva123/echelon
+Author: Akiva Neuman
+Author-email: neuman1@umbc.edu
+License: Akiva Neuman
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Enter rows and columns into the the find method from the echelon library to 
+find all the possible echelon forms of a matrix.    
+
