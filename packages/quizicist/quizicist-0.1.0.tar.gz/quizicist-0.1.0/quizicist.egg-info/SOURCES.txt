@@ -1,0 +1,12 @@
+setup.py
+quizicist/__init__.py
+quizicist/completion.py
+quizicist/consts.py
+quizicist/errors.py
+quizicist/postprocess.py
+quizicist/prompt.py
+quizicist.egg-info/PKG-INFO
+quizicist.egg-info/SOURCES.txt
+quizicist.egg-info/dependency_links.txt
+quizicist.egg-info/requires.txt
+quizicist.egg-info/top_level.txt
