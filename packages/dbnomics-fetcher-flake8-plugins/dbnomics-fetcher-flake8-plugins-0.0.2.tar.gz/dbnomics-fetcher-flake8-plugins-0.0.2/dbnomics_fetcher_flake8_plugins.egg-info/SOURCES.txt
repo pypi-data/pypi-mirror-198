@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+dbnomics_fetcher_flake8_plugins.egg-info/PKG-INFO
+dbnomics_fetcher_flake8_plugins.egg-info/SOURCES.txt
+dbnomics_fetcher_flake8_plugins.egg-info/dependency_links.txt
+dbnomics_fetcher_flake8_plugins.egg-info/requires.txt
+dbnomics_fetcher_flake8_plugins.egg-info/top_level.txt
