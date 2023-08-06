@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: linetools
+Version: 0.3.1
+Summary: A package for analysing absorption and emission lines in 1d spectra, especially galaxy and quasar spectra.
+Home-page: http://linetools.readthedocs.org/
+Author: The linetools developers
+Author-email: xavier@ucolick.org, neilcrighton@gmail.com
+License: BSD-3
+Keywords: linetools
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.8
+Provides-Extra: pyside2
+Provides-Extra: pyqt5
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: dev
