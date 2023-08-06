@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+impaper/__init__.py
+impaper/canvas.py
+impaper/charwidth.py
+impaper/config.py
+impaper/draw.py
+impaper/typesetting.py
+impaper.egg-info/PKG-INFO
+impaper.egg-info/SOURCES.txt
+impaper.egg-info/dependency_links.txt
+impaper.egg-info/requires.txt
+impaper.egg-info/top_level.txt
+tests/test_charwidth.py
+tests/test_config.py
+tests/test_typesetting.py
