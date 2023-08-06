@@ -1,0 +1,10 @@
+README.md
+setup.py
+funniest_duoduo/__init__.py
+funniest_duoduo/colorprint.py
+funniest_duoduo/segmentation.py
+funniest_duoduo.egg-info/PKG-INFO
+funniest_duoduo.egg-info/SOURCES.txt
+funniest_duoduo.egg-info/dependency_links.txt
+funniest_duoduo.egg-info/not-zip-safe
+funniest_duoduo.egg-info/top_level.txt
