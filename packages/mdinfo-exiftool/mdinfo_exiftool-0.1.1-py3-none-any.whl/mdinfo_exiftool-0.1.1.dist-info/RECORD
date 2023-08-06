@@ -1,0 +1,12 @@
+mdinfo_exiftool/__init__.py,sha256=R1WfvYygB8WNeLuzLpUGAQjywQBdXYHBH88ifwiW4XE,137
+mdinfo_exiftool/_version.py,sha256=toffNA3DS60Phwca8L0JduZrZQtQ2L25cV9eeRJeYB8,58
+mdinfo_exiftool/datetime_formatter.py,sha256=i3Woo1bAimHSpgu8Q1qndPUS1QA-yeSbmeKsisWydFs,1624
+mdinfo_exiftool/exiftool.py,sha256=zbM-wYq1XQ5G_q0N52eFSr42fmE3DuEDbMWucR8kCRw,17082
+mdinfo_exiftool/help.py,sha256=SS5_MxosiKNbMzWf9FFCXeA12jYPD4CfYKGLZ-_tK4I,2043
+mdinfo_exiftool/mdinfo_exiftool.py,sha256=IMWknI0RuQUwi6tK4Q-p3FbmVYlU0T5UFGTqf754WU8,8160
+mdinfo_exiftool-0.1.1.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+mdinfo_exiftool-0.1.1.dist-info/METADATA,sha256=dae7OSpsN22vo0uumDLMqd4biwQiKNTiX_3LxzZv9JM,2677
+mdinfo_exiftool-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mdinfo_exiftool-0.1.1.dist-info/entry_points.txt,sha256=aGWKywhZlD9wjXJ7NV6Rx8qeDyKrd8M9dn0Zj_uk1Vc,36
+mdinfo_exiftool-0.1.1.dist-info/top_level.txt,sha256=1a5Qyvy8BCCIinxTnVIwy1uieR1hk596cOSNK0yIpFg,16
+mdinfo_exiftool-0.1.1.dist-info/RECORD,,

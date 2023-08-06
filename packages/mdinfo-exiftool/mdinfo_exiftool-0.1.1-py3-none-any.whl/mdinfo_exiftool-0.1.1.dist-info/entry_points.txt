@@ -1,0 +1,2 @@
+[mdinfo]
+exiftool = mdinfo_exiftool
