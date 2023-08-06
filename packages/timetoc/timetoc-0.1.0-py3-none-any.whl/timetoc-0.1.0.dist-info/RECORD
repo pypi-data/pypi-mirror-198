@@ -1,0 +1,9 @@
+timetoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timetoc/cli.py,sha256=FyJpqQeBi_M53VdzXRfG3Zr80Fj845GMp-50DkHvw2k,2542
+timetoc/login.py,sha256=bMpXtLwKpH-tTvXuUlrMsvZIT1o-xxSXNPXKeoSsrp8,2840
+timetoc/timeparser.py,sha256=IbQil0x3K3SBCtU0YfMQBBW_NHaiJalK3tiPPmWbOT0,2376
+timetoc/timetracking.py,sha256=zNaC7t87nOQg55nYAiaCG025IqVwtE0AH87ZZ43ppRg,2277
+timetoc-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+timetoc-0.1.0.dist-info/entry_points.txt,sha256=9-KGT6B2sk8eL55LBtZgIMndJDyyIMQIEdQ4o7H3omI,43
+timetoc-0.1.0.dist-info/METADATA,sha256=hExuDvAB--QWkBaZywPtYwnfCNa7Zp6HkuHNunvwPUU,664
+timetoc-0.1.0.dist-info/RECORD,,
