@@ -1,0 +1,201 @@
+{
+    "_input": {
+        "@class": "AbinitInput",
+        "@module": "abipy.abio.inputs",
+        "abi_args": [
+            [
+                "ecut",
+                6
+            ],
+            [
+                "ngkpt",
+                [
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            [
+                "shiftk",
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            [
+                "nshiftk",
+                1
+            ],
+            [
+                "chksymbreak",
+                0
+            ],
+            [
+                "paral_kgb",
+                1
+            ],
+            [
+                "optcell",
+                0
+            ],
+            [
+                "ionmov",
+                2
+            ],
+            [
+                "tolrff",
+                0.02
+            ],
+            [
+                "tolmxf",
+                5e-05
+            ],
+            [
+                "ntime",
+                50
+            ],
+            [
+                "chksymtnons",
+                0
+            ],
+            [
+                "npimage",
+                1
+            ],
+            [
+                "npkpt",
+                2
+            ],
+            [
+                "npspinor",
+                1
+            ],
+            [
+                "npfft",
+                1
+            ],
+            [
+                "npband",
+                1
+            ],
+            [
+                "bandpp",
+                1
+            ],
+            [
+                "irdden",
+                1
+            ]
+        ],
+        "comment": null,
+        "decorators": [],
+        "enforce_typat": null,
+        "enforce_znucl": null,
+        "pseudos": [
+            {
+                "@class": "NcAbinitPseudo",
+                "@module": "pymatgen.io.abinit.pseudos",
+                "Z": 14,
+                "Z_val": 4.0,
+                "basename": "14si.pspnc",
+                "filepath": "/Users/gmatteo/git_repos/abipy/abipy/data/pseudos/14si.pspnc",
+                "l_max": 2,
+                "md5": "3916b143991b1cfa1542b130be320e5e",
+                "symbol": "Si",
+                "type": "NcAbinitPseudo"
+            }
+        ],
+        "structure": {
+            "@class": "Structure",
+            "@module": "abipy.core.structure",
+            "charge": 0,
+            "lattice": {
+                "a": 3.8669746199813364,
+                "alpha": 60.00000000034071,
+                "b": 3.866974619998123,
+                "beta": 60.0000000001971,
+                "c": 3.866974620011213,
+                "gamma": 60.000000000275,
+                "matrix": [
+                    [
+                        3.3488982567001644,
+                        0.0,
+                        1.9334873099791476
+                    ],
+                    [
+                        1.1162994189000548,
+                        3.157371555775884,
+                        1.9334873099791476
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        3.866974620011213
+                    ]
+                ],
+                "pbc": [
+                    true,
+                    true,
+                    true
+                ],
+                "volume": 40.888291793621434
+            },
+            "sites": [
+                {
+                    "abc": [
+                        0.9987599038697524,
+                        0.004238818951938423,
+                        0.9989990170893839
+                    ],
+                    "label": "Si",
+                    "properties": {
+                        "cartesian_forces": [
+                            0.08939209862421099,
+                            -0.41771458881789886,
+                            -0.07192990181079892
+                        ]
+                    },
+                    "species": [
+                        {
+                            "element": "Si",
+                            "occu": 1
+                        }
+                    ],
+                    "xyz": [
+                        3.349477092064309,
+                        0.01338352638893412,
+                        5.802389147001827
+                    ]
+                },
+                {
+                    "abc": [
+                        0.25296842823024746,
+                        0.2461977972480615,
+                        0.2498396054106164
+                    ],
+                    "label": "Si",
+                    "properties": {
+                        "cartesian_forces": [
+                            -0.08939209862421099,
+                            0.41771458881789886,
+                            0.07192990181079892
+                        ]
+                    },
+                    "species": [
+                        {
+                            "element": "Si",
+                            "occu": 1
+                        }
+                    ],
+                    "xyz": [
+                        1.121995986302941,
+                        0.7773379221257076,
+                        1.93125497572897
+                    ]
+                }
+            ]
+        },
+        "tags": []
+    }
+}
