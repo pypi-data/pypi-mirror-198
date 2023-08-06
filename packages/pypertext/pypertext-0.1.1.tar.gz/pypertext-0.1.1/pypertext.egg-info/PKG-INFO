@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: pypertext
+Version: 0.1.1
+Summary: Render HTML strings from Python dictionaries
+Home-page: https://github.com/asifr/pypertext
+Project-URL: Documentation, https://github.com/asifr/pypertext
+Project-URL: Source, https://github.com/asifr/pypertext
+Keywords: html,ui
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pypertext
+
+Transform a Python dictionary to HTML string.
+
+## Install
+
+Requires python 3.6+
+
+```
+pip install pypertext
+```
+
+## Usage
+
+The `render_element` function taks a dictionary and returns a string.
+
+```python
+el = {
+    "tag": "div",
+    "attrs": {
+        "class": "container",
+    },
+    "children": [
+        {
+            "tag": "h1",
+            "children": "Hello World!",
+        },
+        {
+            "tag": "p",
+            "children": "This is a paragraph.",
+        },
+    ],
+}
+expected = '<div class="container"><h1>Hello World!</h1><p>This is a paragraph.</p></div>'
+out = render_element(el)
+assert out == expected
+```
+
+The `render_document` function takes a dictionary or list and returns a full HTML document as a string.
+
+```python
+el = {
+    "tag": "div",
+    "attrs": {
+        "class": "container",
+    },
+    "children": [
+        {
+            "tag": "h1",
+            "children": "Hello World!",
+        },
+    ],
+}
+expected = '<!DOCTYPE html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/></head><body><div class="container"><h1>Hello World!</h1></div></body></html>'
+out = render_document(body=el)
+assert out == expected
+```
+
+## Tasks
+
+Use the [xc](https://xcfile.dev/) task runner to execute the commands below.
+
+### build-dist
+
+```
+rm -rf ./dist
+python setup.py sdist
+```
+
+### clean
+
+Delete build artifacts
+
+```
+rm -rf dist/ pypertext.egg-info/ site/ build/
+rm -rf ./pypertext/*.so
+rm -rf ./pypertext/__pycache__/
+rm -rf ./pypertext_sessions.db
+```
+
+### upload-pypi
+
+```
+twine upload --repository pypi dist/*
+```
+
+### upload-testpypi
+
+```
+twine upload --repository testpypi dist/*
+```
+
+### install-dev
+
+```
+rm -rf ./pypertext.egg-info
+python -m pip uninstall -y pypertext
+python -m pip install -e .[dev]
+```
