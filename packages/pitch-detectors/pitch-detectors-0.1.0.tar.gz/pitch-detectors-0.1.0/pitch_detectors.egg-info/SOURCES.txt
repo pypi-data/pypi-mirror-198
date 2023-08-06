@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+pitch_detectors/__init__.py
+pitch_detectors/algorithms.py
+pitch_detectors/evaluation.py
+pitch_detectors/util.py
+pitch_detectors.egg-info/PKG-INFO
+pitch_detectors.egg-info/SOURCES.txt
+pitch_detectors.egg-info/dependency_links.txt
+pitch_detectors.egg-info/requires.txt
+pitch_detectors.egg-info/top_level.txt
