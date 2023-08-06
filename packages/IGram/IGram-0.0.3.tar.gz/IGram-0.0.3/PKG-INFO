@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: IGram
+Version: 0.0.3
+Summary: InstaGram Scrapper
+Home-page: https://github.com/3110vaibhav2005/Igram/blob/main/sample1.py
+Author: Vaibhav Pandey
+Author-email: pandey.vaibhav3110@gmail.com
+Keywords: Instagram info,webscrapping,instagram id name,IGram,insta scrapper,webscrapper,beautifulsoup,vaibhavpandey module,vaibhav pandey python module,Instagram by pyhton
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ 
+IGram is a Python package that allows you to fetch important information about any Instagram profile using the BeautifulSoup (bs4) and Requests modules. With IGRAM, you can easily retrieve the number of followers, following, and the total number of posts uploaded by any Instagram user.
+
+Using IGram is simple and straightforward. First, you need to install the package using pip or any other package manager. Once installed, you can import the IGRAM package and use its functions to fetch the desired information.
+
+The package provides the following functions:
+
+Followers() - This function returns the number of followers of the corresponding Instagram profile.
+
+Following() - This function returns the number of users that the corresponding Instagram profile is following.
+
+Posts() - This function returns the total number of posts uploaded by the corresponding Instagram profile.
+
+Name() - This function returns the name of corresponding Instagram profile.
+
+Description() - This function returns the Bio-Data of corresponding Instagram profile
