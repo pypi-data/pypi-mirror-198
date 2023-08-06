@@ -1,0 +1,3 @@
+[console_scripts]
+yapona=yapona.app:main
+
