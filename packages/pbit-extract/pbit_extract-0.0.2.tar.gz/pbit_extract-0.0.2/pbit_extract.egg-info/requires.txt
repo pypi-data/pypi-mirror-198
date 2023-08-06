@@ -1,0 +1,8 @@
+openpyxl
+json
+zipfiles
+pathlib
+tkinter
+openai
+os
+shutil
