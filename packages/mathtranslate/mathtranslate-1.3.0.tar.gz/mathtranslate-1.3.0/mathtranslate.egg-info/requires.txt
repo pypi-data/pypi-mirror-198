@@ -1,0 +1,3 @@
+mtranslate
+tencentcloud-sdk-python
+chardet
