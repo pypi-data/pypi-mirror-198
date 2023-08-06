@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: yolo-v39
+Version: 0.0.1
+Summary: To the moon!
+Home-page: https://github.com/FrancescoSaverioZuppichini/yolo-v39
+Author: Me
+Author-email: francesco.zuppichini@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Official YOLOv39
+
+Implementation of paper - [YOLOv39](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+We achieved `skynet` on COCO dataset
+
+<img width=500px src="docs/moon.png"/>
+
+## Installation
+
+```
+pip install yolo-v39
+```
+
