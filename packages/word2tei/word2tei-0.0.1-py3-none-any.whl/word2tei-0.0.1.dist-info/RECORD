@@ -1,0 +1,9 @@
+word2tei/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word2tei/_modidx.py,sha256=WoigDp8XEPlVuWOBFHXSNdHwRbbVjAI3UAEN-E5g1qA,1368
+word2tei/core.py,sha256=mvbpsij87sB2Ca7FHs_pvlMDQ5jC7kOr7nUBk2nHYmA,14093
+word2tei-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+word2tei-0.0.1.dist-info/METADATA,sha256=K0ZshNcg97-rQArMhKfrGVGKYdsDXi3x3_Ehs3Z9qUs,1248
+word2tei-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+word2tei-0.0.1.dist-info/entry_points.txt,sha256=pFc1M3wkBRga3JEmc-FwvGbu6Ui8fD6wg4Wbn3tOVIY,38
+word2tei-0.0.1.dist-info/top_level.txt,sha256=kzueimoh9pm2AOdWp_UdY13s-Gcmsq0A9FgF1VlQd0Q,9
+word2tei-0.0.1.dist-info/RECORD,,

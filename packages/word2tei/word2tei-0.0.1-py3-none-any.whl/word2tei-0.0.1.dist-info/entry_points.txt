@@ -1,0 +1,2 @@
+[nbdev]
+word2tei = word2tei._modidx:d
