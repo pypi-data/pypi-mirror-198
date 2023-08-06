@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: colourtime
+Version: 0.1
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: event_stream
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Summary: Represent time with colours
+Author-email: Alexandre Marcireau <alexandre.marcireau@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# colourtime
+
+A Python script to represent event data time with colours
+
+
+## Build from source
+
+```sh
+python3 -m venv .
+source ./bin/activate
+pip3 install -U pip event_stream matplotlib maturin numpy pillow
+maturin develop
+```
+
