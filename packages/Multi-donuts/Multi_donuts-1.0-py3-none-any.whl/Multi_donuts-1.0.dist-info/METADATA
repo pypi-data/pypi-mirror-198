@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Multi-donuts
+Version: 1.0
+Summary: Yow want add colorfull easter egg in your project, but all the code for donut consuming file space? Use Multi-donuts lib!
+Home-page: https://github.com/Flam3y/Multi_donuts
+Download-URL: https://github.com/Flam3y/Multi_donuts/archive/refs/tags/Python.tar.gz
+Author: Flam3y
+Author-email: glebnextik@gmail.com
+License: MIT
+Keywords: DONUT,CONSOLE-GRAPHIC,RGB
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: ansicolors
+
