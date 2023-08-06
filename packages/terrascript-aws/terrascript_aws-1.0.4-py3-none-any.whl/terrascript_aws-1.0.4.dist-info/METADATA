@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: terrascript-aws
+Version: 1.0.4
+Summary: 
+Author: csylaios
+Author-email: chris.sylaios@gmail.com
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: terrascript-core (>=1.0.7,<2.0.0)
