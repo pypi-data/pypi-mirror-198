@@ -1,0 +1,17 @@
+golem_garden/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+golem_garden/__main__.py,sha256=WcmuiiBBqrhB7g0fgMB_0GfE05ui4VZ_uCj8ZksN78Y,820
+golem_garden/config_database.py,sha256=tYtjURoidXdKjBizMu-ppPG4VfpBl-0SgEpe_DRGHnA,1954
+golem_garden/context_database.py,sha256=7mL8ZV6_doJ56XGrT70CfXTdVwaLhRPdcweWlLgoQ28,3317
+golem_garden/golem_factory.py,sha256=w4boelD3F52v51fakCbcnscQ8_f32uMVCJ8j6r0YM30,1262
+golem_garden/golem_garden.py,sha256=XPuEZrJsX_cYSaL7J6dZ40AHbb0Qb_F23JpZNIN-HwQ,1171
+golem_garden/golems.py,sha256=nH6p5ezTWTE7DnRB6X6xmOhfis2vvNE9gX5n3hM1tc8,5015
+golem_garden/openai_api.py,sha256=4mfSBNsdmMg-AmdwZmfLPl3csTb0iu1fXgUkMhRLZjc,820
+golem_garden/user_interface.py,sha256=GN2ZUOqXDnMHF1fmGF5ihb321TA5kwTlscvv_Lh3U1w,4141
+golem_garden/system/get_formatted_timestamp.py,sha256=5D9lThDGGYV_ORLwC2rf14bkydRTHjg18jda9iBxyEU,865
+golem_garden/utlities/get_md_from_url.py,sha256=xmp8NGotNb1SSnnsUaaQGQ7C-yI---SsYDWs_all-4c,937
+golem_garden/utlities/grab_all_py_in_one_text_block.py,sha256=o6bA74Cx8PWgtOIiblC2qH3bh8VBh69U08D97sVeJYE,688
+golem_garden-0.1.0.dist-info/entry_points.txt,sha256=2b-Wea9iXf1ZqnObZiOuYUeG71AsP0TDW4EghEW9nE0,52
+golem_garden-0.1.0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+golem_garden-0.1.0.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+golem_garden-0.1.0.dist-info/METADATA,sha256=uZw-mrsx7R5Ouce4g-T5jbg_IT-3S_TqEcDXz6CSNqM,482
+golem_garden-0.1.0.dist-info/RECORD,,
