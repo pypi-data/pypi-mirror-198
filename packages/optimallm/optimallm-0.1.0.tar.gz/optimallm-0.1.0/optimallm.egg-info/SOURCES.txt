@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+optimallm/__init__.py
+optimallm/optimiser.py
+optimallm.egg-info/PKG-INFO
+optimallm.egg-info/SOURCES.txt
+optimallm.egg-info/dependency_links.txt
+optimallm.egg-info/requires.txt
+optimallm.egg-info/top_level.txt
