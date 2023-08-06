@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: fast-jl
+Version: 0.1.0
+Summary: Fast JL: Compute JL projection fast on a GPU
+Author: MadryLab
+Author-email: krisgrg@mit.edu
