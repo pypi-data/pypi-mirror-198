@@ -1,0 +1,12 @@
+talon_git_labeller/__init__.py,sha256=DckDnIkOGGkqO0yyBvvmEYPcTloylj7kPYXlR4MFCEs,22
+talon_git_labeller/cli.py,sha256=-WRA91kSEClepyXp3qvQY6d2fG8Du_d_SCDLnnoe760,1233
+talon_git_labeller/commands.py,sha256=5GZq11sckYdVlJaXBX05c5Z0ZSS4gsdk9BFGK79Uy0Q,2243
+talon_git_labeller/const.py,sha256=0OkOEsTFpeD9jZ1pwPXYBRvc8o22TS6T2Xjvszlxz74,173
+talon_git_labeller/helpers.py,sha256=d8s--bAZcJeg5567Kw3DNWT9NxLMosreYxX71KIj7Ag,2138
+talon_git_labeller/write.py,sha256=CxEkac7u4yz97eU_xX1yZ5XxpXSPpkyYQ1M0U-oTcqE,390
+talon_git_labeller-0.1.5.dist-info/LICENSE.txt,sha256=kqEhjrpZOactIpixFlxiWbiMsJ-6UI_XTzlxAsGVbTY,1076
+talon_git_labeller-0.1.5.dist-info/METADATA,sha256=H-XMhdRFcWRbwOTnoo9a5n8H9cs9Uj6tUYXko6Nec-o,2164
+talon_git_labeller-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+talon_git_labeller-0.1.5.dist-info/entry_points.txt,sha256=w0qDRmfPd1iBMacAy3UL_bKoyKHUs78Nw-aOhSeH2Vg,153
+talon_git_labeller-0.1.5.dist-info/top_level.txt,sha256=ugV_WVtgBpuUXateAWgGWsg_HQUy0AVzRpD_V-OfhSA,19
+talon_git_labeller-0.1.5.dist-info/RECORD,,
