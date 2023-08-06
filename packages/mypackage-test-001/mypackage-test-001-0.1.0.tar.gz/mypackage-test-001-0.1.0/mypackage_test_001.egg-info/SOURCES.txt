@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+base/__init__.py
+base/logger.py
+mypackage_test_001.egg-info/PKG-INFO
+mypackage_test_001.egg-info/SOURCES.txt
+mypackage_test_001.egg-info/dependency_links.txt
+mypackage_test_001.egg-info/top_level.txt
+program/__init__.py
+program/__version__.py
+program/main.py
