@@ -1,0 +1,14 @@
+few_shot_priming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+few_shot_priming/analye_order.py,sha256=kfWrC6kUOckHKyhmherzXnPTQCZ7-af_XKmhb2Z8tWs,1338
+few_shot_priming/baseline.py,sha256=PPiywGTw-X9l53FhnudRXXlRNvDLwulBnKCSfAjodzU,6019
+few_shot_priming/conf.yaml,sha256=DA-Ln8DkLvRgOp-78qOONHNWF00EFiXBQImPRkqBHdg,667
+few_shot_priming/few_shot_stance.py,sha256=nLHmPbhCyc1eEypOAu8RElfgHkaqjv0dKddzgc_CoZc,12806
+few_shot_priming/ibm_baseline.py,sha256=h23bLZC2l9CWzF8C77TEqjvBzthLTncXkY5DF6QUd94,444
+few_shot_priming/data/claim_stance_dataset_v1.csv,sha256=8bIwWvKIPnQGNzTqrhHvidKpN478vOF1ZBQzLuxjrcg,1017422
+few_shot_priming/experiment/test.csv,sha256=w7FbPgLdLbWlenjHftFUsNQ2KenxL3inkWoTEtyKQks,518571
+few_shot_priming/experiment/train.csv,sha256=5DFZjmGZY1dlAcfF2Lnz1U8T8gaL67VVorXhnrE7Xpk,240003
+few_shot_priming/experiment/validation.csv,sha256=B2Myom84yS40faRcMGyytPV2j-Af3YMa1IPtzjizLko,178874
+few_shot_priming-0.0.102.dist-info/METADATA,sha256=n1UBNkooF-SBUwdfTJDLpVoOcdtvD991PUKYsxDpwDw,6861
+few_shot_priming-0.0.102.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+few_shot_priming-0.0.102.dist-info/top_level.txt,sha256=incVNauAhdZ1aJWVERG4ifiKeG4bmLKy6tdy4Li4rdY,17
+few_shot_priming-0.0.102.dist-info/RECORD,,
