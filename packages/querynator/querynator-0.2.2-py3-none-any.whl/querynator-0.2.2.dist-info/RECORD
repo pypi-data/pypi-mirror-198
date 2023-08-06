@@ -1,0 +1,14 @@
+querynator/__init__.py,sha256=Y8XmXY7bo2UU_oHlPPu3JszHHuj13FTuuG9TN9ijJxM,148
+querynator/__main__.py,sha256=NYkhtJnERpvPi2vKQx70jAE-M8U0432yySOLLsi_xoM,13975
+querynator/query_api/__init__.py,sha256=56QW5O-rFjyNj69SGiYZ-eP7i9sstxVPIOh7JRc2ujk,48
+querynator/query_api/cancertypes.js,sha256=6t3TKROWinH9fMvUCYuIJZtmneuJP6ulGOaYMog5MYY,7952
+querynator/query_api/cgi_api.py,sha256=nKRVxbhQZ9pO5dFlaolB42NlS--vHxuP9BWzdCs2jHo,8371
+querynator/query_api/civic_api.py,sha256=b1XtT2fYuUiV3643z-l8i2J56JNzupIAvS-xfUw9-Dk,18895
+tests/__init__.py,sha256=1CRqueLrx8vx9kRkxc3HO2yhtsK3ZEquaWcLJiS7d_k,40
+tests/test_querynator.py,sha256=y3u6ET2RXur9OvPx7clzfNvtnz6_6PfFHooOSP7FESk,1696
+querynator-0.2.2.dist-info/LICENSE,sha256=aA3q2Cilyncy9dJ5Y3ltOnAhmhBhaewt_3_17kXePoQ,1073
+querynator-0.2.2.dist-info/METADATA,sha256=La_2tLegMS93lScyG2i9kkh16KHEw_4xGdgd-Zblnxw,5307
+querynator-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+querynator-0.2.2.dist-info/entry_points.txt,sha256=2ITpRUwLLmUTi856Rp-J09mBV4ovE7YhUmN_DiuITdA,66
+querynator-0.2.2.dist-info/top_level.txt,sha256=HN6lTJ07B5ntYmXOKLP6xuKp8FnZXAdN2tU3xqax1MI,17
+querynator-0.2.2.dist-info/RECORD,,
