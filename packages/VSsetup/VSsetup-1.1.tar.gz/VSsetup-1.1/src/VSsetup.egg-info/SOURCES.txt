@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/VSsetup/__init__.py
+src/VSsetup/vs_tools.py
+src/VSsetup.egg-info/PKG-INFO
+src/VSsetup.egg-info/SOURCES.txt
+src/VSsetup.egg-info/dependency_links.txt
+src/VSsetup.egg-info/requires.txt
+src/VSsetup.egg-info/top_level.txt
