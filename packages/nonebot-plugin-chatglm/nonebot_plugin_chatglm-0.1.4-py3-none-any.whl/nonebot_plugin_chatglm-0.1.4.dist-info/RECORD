@@ -1,0 +1,10 @@
+nonebot_plugin_chatglm/20B_tokenizer.json,sha256=VqxIIeEp0sUg_aumCr2SD6hSraUbRcDdUru2vYyYWt4,2467981
+nonebot_plugin_chatglm/__init__.py,sha256=LOpx0y6C3aSHxZ63kQphLYDV1W6dXG1qY_YXySu_ICQ,371
+nonebot_plugin_chatglm/chat.py,sha256=09ow1bregWVgZ2MNDSjtnVjuFfQYyciTbLNNa8YCFRs,2963
+nonebot_plugin_chatglm/config.py,sha256=bCSwKN9L8R4_h2nA5u2uK_VHnlqQmOeps6Gp_uk1JXo,1343
+nonebot_plugin_chatglm/help.py,sha256=jwQtmoWpKsnDWoUjq2Kify2oLxx0wMTN7fTYo6BY2V0,600
+nonebot_plugin_chatglm/mini_rwkv.py,sha256=_WnPAftF8jjPbObtN7qyg8K0JFsqRnbdC69DZOIOV24,2965
+nonebot_plugin_chatglm-0.1.4.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+nonebot_plugin_chatglm-0.1.4.dist-info/METADATA,sha256=DacQcf5GoL6Q-et0EdaFrZzR50YBCIDjpazo1rL0m_0,9824
+nonebot_plugin_chatglm-0.1.4.dist-info/licenses/LICENSE,sha256=q2pO0hjtU0XKIg80phTIoPl2oZqfkkRxbYKfGo8zNJ4,1066
+nonebot_plugin_chatglm-0.1.4.dist-info/RECORD,,
