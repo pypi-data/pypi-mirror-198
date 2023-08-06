@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xemeler/__init__.py
+src/xemeler.egg-info/PKG-INFO
+src/xemeler.egg-info/SOURCES.txt
+src/xemeler.egg-info/dependency_links.txt
+src/xemeler.egg-info/top_level.txt
