@@ -1,0 +1,6 @@
+setup.py
+smashing.egg-info/PKG-INFO
+smashing.egg-info/SOURCES.txt
+smashing.egg-info/dependency_links.txt
+smashing.egg-info/requires.txt
+smashing.egg-info/top_level.txt
