@@ -1,0 +1,10 @@
+consortia_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+consortia_commons/file/__init__.py,sha256=9vossl3W-X38lW-NHo3WaNjH22FD3EN-QZpYaPudYuw,535
+consortia_commons/object/__init__.py,sha256=NWDfN2CxiXwwGr6HF5rMceOb23BVTjdYWdMiAjC50WQ,613
+consortia_commons/rest/__init__.py,sha256=obWvFI9uc5p_87OcCCW22hst-GPUBAs8RJv1ohL18wg,1761
+consortia_commons/string/__init__.py,sha256=5bbPDFdScDsbkB4kv_BbDnDJiExpA9GKCQI22YJX8Jw,1065
+consortia_commons/ubkg/__init__.py,sha256=Y6WLvZRQscSflmr9C7vV3BX1Y5jCdhyDIhI5YGXCPr4,2967
+consortia_commons-1.0.3.dist-info/METADATA,sha256=Dk9F9f_O25NF5AqXk48rIFEIiH49K0_NK9w1I8LjJjc,1435
+consortia_commons-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+consortia_commons-1.0.3.dist-info/top_level.txt,sha256=bG6ha9m47ScsBCpbTjSg4m59jCCkmaKcdo6Ntm9RQL8,18
+consortia_commons-1.0.3.dist-info/RECORD,,
