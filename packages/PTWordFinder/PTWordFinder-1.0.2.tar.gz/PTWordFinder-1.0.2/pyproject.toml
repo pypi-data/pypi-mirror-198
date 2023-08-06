@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "PTWordFinder"
+version = "1.0.2"
+description = "A command line tool that help to find specific words from a file  in any selected file." 
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "DarekRepos" }
+]
+
+dependencies = [
+    "attrs>=22.1.0","exceptiongroup>=1.0.4","iniconfig>=1.1.1","packaging>=21.3","pluggy>=1.0.0","pyparsing>=3.0.9","tomli>=2.0.1",
+]
+
+requires-python = ">=3.10.6"
+
+[tool.setuptools.packages.find]
+include = ["src"]
+
+[projects.urls]
+Homepage = "https://github.com/DarekRepos/PanTadeuszWordFinder"

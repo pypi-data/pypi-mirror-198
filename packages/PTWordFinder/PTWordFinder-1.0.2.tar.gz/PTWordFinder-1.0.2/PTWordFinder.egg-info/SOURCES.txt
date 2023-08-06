@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+PTWordFinder.egg-info/PKG-INFO
+PTWordFinder.egg-info/SOURCES.txt
+PTWordFinder.egg-info/dependency_links.txt
+PTWordFinder.egg-info/requires.txt
+PTWordFinder.egg-info/top_level.txt
+src/PTWordFinder.py
+src/__init__.py
+tests/test_PTWordFinder.py
