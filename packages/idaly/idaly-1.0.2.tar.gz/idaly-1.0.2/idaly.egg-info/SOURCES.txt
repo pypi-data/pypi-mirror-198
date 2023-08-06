@@ -1,0 +1,9 @@
+README.md
+setup.py
+idaly/__init__.py
+idaly/augmentation.py
+idaly/model.py
+idaly.egg-info/PKG-INFO
+idaly.egg-info/SOURCES.txt
+idaly.egg-info/dependency_links.txt
+idaly.egg-info/top_level.txt
