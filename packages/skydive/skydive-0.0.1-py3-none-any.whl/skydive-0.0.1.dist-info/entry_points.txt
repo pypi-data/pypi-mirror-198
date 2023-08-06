@@ -1,0 +1,2 @@
+[console_scripts]
+skydive = skydive.entry:main
