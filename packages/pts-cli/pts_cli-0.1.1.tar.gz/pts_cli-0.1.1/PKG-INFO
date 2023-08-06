@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pts_cli
+Version: 0.1.1
+Summary: End-user CLI utility for the Phone Test System
+Home-page: https://git.sr.ht/~martijnbraam/pts_cli
+Author: Martijn Braam
+Author-email: martijn@brixit.nl
+License: MIT
