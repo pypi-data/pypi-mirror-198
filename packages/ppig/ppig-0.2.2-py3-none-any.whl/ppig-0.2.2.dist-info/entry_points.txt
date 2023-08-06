@@ -1,0 +1,4 @@
+[console_scripts]
+ppig=ppig.main:cli_commands
+ppigd=ppig.main:prompt_directly
+
