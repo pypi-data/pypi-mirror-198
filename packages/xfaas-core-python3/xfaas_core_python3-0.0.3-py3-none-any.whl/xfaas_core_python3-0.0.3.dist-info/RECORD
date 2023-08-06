@@ -1,0 +1,10 @@
+xfaas_core_python3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xfaas_core_python3/xfunction.py,sha256=rlRWfbyI-MvR3xSNScbaeNRGICk4fdgHFa9Vd04hzuE,331
+xfaas_core_python3/xrunner.py,sha256=brlJy09Nedtmf8BiG6aSlV0VjVwFrPAS9yrsQJ4ayEY,1184
+xfaas_core_python3/adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xfaas_core_python3/adapter/xfaas_entry.py,sha256=utlSELYTjxMHTEbR_GG0PZHfLYLQ-bm58uIx-H8DuT4,606
+xfaas_core_python3-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+xfaas_core_python3-0.0.3.dist-info/METADATA,sha256=E371B5V8CX2LdOTCtVCldzkkZagBdlFe6uYLtpxaI1o,1043
+xfaas_core_python3-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xfaas_core_python3-0.0.3.dist-info/top_level.txt,sha256=ReW0gMbUoQbAQ9V86NKT7yUnPn1RvjuoAtWYJgeBEj8,19
+xfaas_core_python3-0.0.3.dist-info/RECORD,,
