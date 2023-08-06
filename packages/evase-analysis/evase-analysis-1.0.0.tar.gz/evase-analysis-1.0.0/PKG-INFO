@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: evase-analysis
+Version: 1.0.0
+Summary: A Python package with tools for the detection of SQL injection vulnerabilities in projects.
+Author-email: Tony Abou Zeidan <tony.azp25@gmail.com>, Anthony Dooley <anthonydooley@cmail.carleton.ca>, Ethan Chase <e281828c@gmail.com>, Shaopeng Liu <shaopengliu@cmail.carleton.ca>
+Keywords: attack,security,SQL,injection
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <=3.11,>=3.7
+Description-Content-Type: text/markdown
+
+[![CI Backend Tests](https://github.com/Bruce-liushaopeng/Evase/actions/workflows/ci_tests.yml/badge.svg?branch=main)](https://github.com/Bruce-liushaopeng/Evase/actions/workflows/ci_tests.yml)
+
+# Evase Analysis Library
+This library intends to help users detect SQL Injection vulnerabilities from their source code. 
+It has several structures that take-in Python source code (in .zip format) and use abstract-syntax trees (ASTs) to analyze for such vulnerabilities.
+
+## Usage
+This package was developed initially with the intention that it be used in the Backend for the Evase web-application,
+so it is structured as such. To use it in a program, the user first needs to specify information pertaining to the project.
+
+First the user defined a `ProjectStructure` object with the name and root directory of the project.
+
+```python
+from evase.structures.analysisperformer import AnalysisPerformer
+
+code_analyzer = AnalysisPerformer(
+    project_name="myProject",
+    project_root="<filepath to root>"
+)
+
+code_analyzer.perform_analysis()
+
+print(code_analyzer.get_results())
+
+# optionally, output to JSON
+code_analyzer.results_to_JSON("<output directory>")
+```
+
+## Installation
+The package will be installable via PyPI. For now clone the repository, and run the following command:
+
+`pip install .`
+
