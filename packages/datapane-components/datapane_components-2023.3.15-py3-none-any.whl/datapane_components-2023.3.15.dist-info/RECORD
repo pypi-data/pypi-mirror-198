@@ -1,0 +1,14 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+NOTICE,sha256=FJqCFtA9e-1Se2w_q8erLGfbVNdaauN2SEfr4lYTTyk,77
+README.md,sha256=YvoAf-99ZVpW4wBOBeJzfmdrceXYirVWMjEykggsFHU,2625
+datapane_components/README.md,sha256=rwAttXHSmN_DpNQmGoTB58ZqrjhJGgv7g4r8t0M8AwQ,77
+datapane_components/__init__.py,sha256=SfEDCEi8IB8b2d_LKr2cTrTx1TO1EcyBt-twINn4Q6I,102
+datapane_components/calendar_heatmap.py,sha256=qc_z2I1kI-Lk75Yl_vHBD1kzEq0nl0P29DeYtJDWLk8,4401
+datapane_components/chatgpt.py,sha256=f1brfvhYLt_-zEhepJyLehBVUZxST9zPjzetzxqd-Vs,3006
+datapane_components/datasets.py,sha256=jcdj7Z4nYw78f14brdJQ2RIxF7n1wrLhgLfTZ9B5Tbc,840
+datapane_components/timeline.py,sha256=sEUpBngc76N0CuVOQF9Gj9ReiW6eXJLWC5vWXjbX0XU,7576
+datapane_components/utils.py,sha256=PYrlq0anS08wtfnxHdQpxoBULpAQQucheKJ2kZODNtI,1083
+datapane_components-2023.3.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datapane_components-2023.3.15.dist-info/METADATA,sha256=Jnj_2OkboWpRaPJuWaugnydjwkrfKT_BKOjhREPdAoI,4041
+datapane_components-2023.3.15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+datapane_components-2023.3.15.dist-info/RECORD,,
