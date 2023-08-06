@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+Mensajes/__init__.py
+Mensajes/Adios/__init__.py
+Mensajes/Adios/despedida.py
+Mensajes/hola/__init__.py
+Mensajes/hola/saludos.py
+Mensajes_AntonioY92.egg-info/PKG-INFO
+Mensajes_AntonioY92.egg-info/SOURCES.txt
+Mensajes_AntonioY92.egg-info/dependency_links.txt
+Mensajes_AntonioY92.egg-info/requires.txt
+Mensajes_AntonioY92.egg-info/top_level.txt
+test/__init__.py
+test/test_hola.py
