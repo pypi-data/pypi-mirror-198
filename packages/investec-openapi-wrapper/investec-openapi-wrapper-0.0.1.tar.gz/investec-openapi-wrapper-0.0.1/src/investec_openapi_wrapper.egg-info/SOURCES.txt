@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/client.py
+src/personal_banking_client.py
+src/investec_openapi_wrapper.egg-info/PKG-INFO
+src/investec_openapi_wrapper.egg-info/SOURCES.txt
+src/investec_openapi_wrapper.egg-info/dependency_links.txt
+src/investec_openapi_wrapper.egg-info/requires.txt
+src/investec_openapi_wrapper.egg-info/top_level.txt
