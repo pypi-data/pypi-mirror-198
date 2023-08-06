@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ipycpp
+Version: 0.0.1
+Summary: Jupyter kernel for C++ (cpp, cplusplus) with no external deps!
+Project-URL: Homepage, https://github.com/lucafabbian/ipycpp
+Project-URL: Bug Tracker, https://github.com/lucafabbian/ipycpp/issues
+Author-email: Luca Fabbian <luca.fabbian.1999@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: ipykernel>=6
+Description-Content-Type: text/markdown
+
+# ipy_cpp
+Simple and hackable jupyter kernel for running c++ (c plus plus) codes inside a python notebook
