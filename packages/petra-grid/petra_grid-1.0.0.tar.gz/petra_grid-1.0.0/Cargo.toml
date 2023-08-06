@@ -1,0 +1,18 @@
+[package]
+name = "petra_grid_py"
+edition = "2021"
+version = "1.0.0"
+authors = ["Derrick W. Turk <dwt@terminusdatascience.com>"]
+description = "Python bindings for the petra_grid crate"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/derrickturk/petra_grid_py"
+
+[lib]
+name = "petra_grid"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.18.0"
+petra_grid = "1.0.0"
+pyo3 = { version = "0.18.1", features = ["extension-module"] }
