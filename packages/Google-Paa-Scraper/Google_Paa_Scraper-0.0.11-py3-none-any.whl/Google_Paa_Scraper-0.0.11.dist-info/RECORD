@@ -1,0 +1,12 @@
+gpaa_scraper/__init__.py,sha256=NEcGqW-_x8cswwwmSwSsoZNYVF_OGjZUVx_LOTlk1u4,88
+gpaa_scraper/browser.py,sha256=WiURjl1-_N_uEoeKLqcEUKtKmCebUYhEZkeHDv3lVz8,2711
+gpaa_scraper/container.py,sha256=yXe2NwJsiUR2ydGeYZZMC99EzvCcQvG_ULyIQPdsWTU,391
+gpaa_scraper/exception.py,sha256=G8Ba9cwqj_sDWu2kj77q8wBtjA957duDxpqopPO28Qc,45
+gpaa_scraper/helper.py,sha256=p24_T-jgCoDkTG65d1ksdo4kI6QqZCcr1Ahif_kDf28,762
+gpaa_scraper/parsing.py,sha256=j_QPPKQ9w_T3mnCl6MXvEKM72IdAz1fBCw4MoJensM4,3399
+gpaa_scraper/utils.py,sha256=sUaUJOmLeHtQXruhl7iYpI31PJp3irbMeYPmfn-3pLk,3733
+Google_Paa_Scraper-0.0.11.dist-info/LICENSE,sha256=D1R2QxIa6qOOkrzjIm1Y96jnh6hL2dPc8J935m4Dnkc,1094
+Google_Paa_Scraper-0.0.11.dist-info/METADATA,sha256=7TxNIv0c8x-NMozToK8hwYjo9u3-WRSz4V06z0s_ZTA,3105
+Google_Paa_Scraper-0.0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Google_Paa_Scraper-0.0.11.dist-info/top_level.txt,sha256=0lO2TcvYoN2M6mV_D2fUmzMxnq8zOGXlGxWGhSBqlfY,13
+Google_Paa_Scraper-0.0.11.dist-info/RECORD,,
