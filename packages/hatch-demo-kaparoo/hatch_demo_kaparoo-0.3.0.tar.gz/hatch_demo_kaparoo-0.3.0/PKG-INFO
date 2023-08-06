@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hatch-demo-kaparoo
+Version: 0.3.0
+Summary: A demo package using hatch.
+Project-URL: Homepage, https://www.github.com/kaparoo/
+Author-email: Jaewoo Park <kaparoo2001@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: demo,hatch,kaparoo
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Provides-Extra: plot
+Requires-Dist: matplotlib; extra == 'plot'
+Description-Content-Type: text/markdown
+
+# **Hatch Demo - kaparoo**

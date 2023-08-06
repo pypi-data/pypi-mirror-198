@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hatch-demo-kaparoo"
+description = "A demo package using hatch."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "Jaewoo Park", email = "kaparoo2001@gmail.com" },
+]
+keywords = [
+  "hatch",
+  "demo",
+  "kaparoo",
+]
+dependencies = [
+  "numpy",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+plot = [
+  "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://www.github.com/kaparoo/"
+
+[tool.hatch.build]
+exclude = ["tests", "dist", ".venv_py310"]
+skip-excluded-dirs = true
+
+[tool.hatch.version]
+path = "hatch_demo/__init__.py"
