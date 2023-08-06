@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+upddetect.egg-info/PKG-INFO
+upddetect.egg-info/SOURCES.txt
+upddetect.egg-info/dependency_links.txt
+upddetect.egg-info/requires.txt
+upddetect.egg-info/top_level.txt
