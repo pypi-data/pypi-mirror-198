@@ -1,0 +1,15 @@
+django_ram/__init__.py,sha256=TYrQI76UCtiU7APD5a6HdiILkcZ1aUmqLBR93rdbs3o,164
+django_ram/admin.py,sha256=K0-zZ_Nc_Fst5WQO0Pma8tmc8WQIjdEF46gWXZ-gRaI,978
+django_ram/apps.py,sha256=naMrKoTD8qaYDp2KB9BbCJaLBUPKTzXe54hsw2rbylY,541
+django_ram/definition.py,sha256=mmfgGbsoTCzmpBAFYLOJMaNtOUYUNcZ-H8TvxJMsKvI,3343
+django_ram/models.py,sha256=fRFiAmvkLY1ACtUXj8z-scyigg2mqZlT6SqRN4RxTjs,2566
+django_ram/migrations/0001_initial.py,sha256=7nUKSajfcKzIsbLaFLWat1pTgCcovnbOzKH34-zNvic,898
+django_ram/migrations/0002_role_active.py,sha256=LtDMeoN1GV0AX9lwri-NnRvmFcQIDHTGQ4Wdy9Mr9Wc,409
+django_ram/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ram/rest_framework/__init__.py,sha256=5N_3FBCp-pCI1eqopFux2qmbG2y1NvZpt9PPPbz89iM,106
+django_ram/rest_framework/permissions.py,sha256=KQY5EholNABY5l6nJWsUk2YvfByuzpgW28KUAZtC-Cs,1844
+django_ram-0.1.2.dist-info/LICENSE,sha256=C_zWEFxsJXdTIp8HzHPnOs_88oVeF9LKuSfjYFhxlDk,1072
+django_ram-0.1.2.dist-info/METADATA,sha256=tqCkLfPRoQkRx93vH1vwG6FH5KaHx53Jp9dHB2fSPw0,2420
+django_ram-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_ram-0.1.2.dist-info/top_level.txt,sha256=UnFrmICMh-vBI3wYT9z_ILtNH6CE2kPb5cswWajgjWw,11
+django_ram-0.1.2.dist-info/RECORD,,
