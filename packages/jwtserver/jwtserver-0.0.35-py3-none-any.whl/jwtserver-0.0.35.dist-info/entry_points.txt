@@ -1,0 +1,3 @@
+[console_scripts]
+updatehead=jwtserver.commands:db_upgrade_cmd
+
