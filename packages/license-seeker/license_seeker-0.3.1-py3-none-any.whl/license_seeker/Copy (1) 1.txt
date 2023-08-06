@@ -1,0 +1,3 @@
+https://github.com/technicalpickles/homesick
+https://github.com/alezost/org-ref-prettify.el
+https://pypi.org/project/rich/

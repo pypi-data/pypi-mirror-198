@@ -1,0 +1,3 @@
+[console_scripts]
+license-seeker=license_seeker.main:main
+

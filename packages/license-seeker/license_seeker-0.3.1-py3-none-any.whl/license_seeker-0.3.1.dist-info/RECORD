@@ -1,0 +1,21 @@
+license_seeker/1.txt,sha256=zlc3HCsYl4FQZL2oLlY-bIE7-udlLOgoZqowMbvrKyA,31
+license_seeker/Copy (1) 1.txt,sha256=L1RpSiuXL59LEPsSc5wDzYU3hMsGUyX6bXt-pney3Xc,123
+license_seeker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+license_seeker/apis/__init__.py,sha256=NLCqEDXj2avVPIxkDT3Fc5u1txf5snPlx_QPyDp04bs,117
+license_seeker/apis/connection_config.py,sha256=Cc44Y-svMfa3ld8TZyFs3I9ch0aeFOxdkcWSylVOiRQ,1894
+license_seeker/apis/converters/__init__.py,sha256=VifkPzvAqAJkpnS5eJwDKqxpm3MflKm8gU-6dSA40rU,139
+license_seeker/apis/converters/converter.py,sha256=QvCjBVUxB4J7-yAxKArXjYZNK6JUoZ7UxrPDdZXAsQw,2029
+license_seeker/apis/converters/github_converter.py,sha256=eoHgyJZERShqvAv74PGasld4LpBSO7WIfHB7iX0kiA0,1829
+license_seeker/apis/converters/pypi_converter.py,sha256=-owatEJwYVxric-TTsfZHMKR9MitMOeavTXDfDU7L_Y,1879
+license_seeker/apis/parsers/__init__.py,sha256=xYNwR4no8VeBjaNn07u0iXZFeO7lypuvgVHoohA1HN4,121
+license_seeker/apis/parsers/github_parser.py,sha256=tfg9JzqO8p7nL_7H-93V6zxvcNbzOaTQZNM66WUX1Uk,1723
+license_seeker/apis/parsers/parser.py,sha256=F0xovfWJ7UdyZevCdlytrRNjKcifqUvj0Q8-Z8GwaJA,2082
+license_seeker/apis/parsers/pypi_parser.py,sha256=6dOwDSohONfxVl-_4l9HgAkVwx1i4P-lLEUTX2l2FzQ,1769
+license_seeker/apis/receiver.py,sha256=tUZVig2XFOfvFHQ1ZDj47Mys-og90M_TWb49qQhKdWo,1814
+license_seeker/lic.txt,sha256=lZugu6IYcm8jbuUnRVcCCd-SD-_qRr5sgIAPLhPm4L0,314
+license_seeker/main.py,sha256=95xNpsvXXPPAb8ZZWL9325dv5ouPrk1sVjNTwZ85cFQ,2782
+license_seeker-0.3.1.dist-info/METADATA,sha256=JU1A5iqll8hKJQhIyofE6js6j3s6_ZMULp8-2yNEgRU,913
+license_seeker-0.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+license_seeker-0.3.1.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+license_seeker-0.3.1.dist-info/entry_points.txt,sha256=NJQy47leEV31p2Utk2YkcusLFaKfWVU-44IRYoYvFsM,59
+license_seeker-0.3.1.dist-info/RECORD,,
