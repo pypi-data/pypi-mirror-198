@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ur_interface_yorickbm"
+version = "0.0.1"
+authors = [
+  { name="YorickBM", email="info@yorickblom.nl" },
+]
+description = "A package that allows support for easy URe Client Interface data parsing"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/YorickBM/URInterface"
+"Bug Tracker" = "https://github.com/YorickBM/URInterface/issues"
