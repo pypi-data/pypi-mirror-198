@@ -1,0 +1,6 @@
+langchain
+click
+openai
+LAC
+tqdm
+streamlit

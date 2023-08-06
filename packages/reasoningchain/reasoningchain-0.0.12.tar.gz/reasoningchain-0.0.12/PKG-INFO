@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: reasoningchain
+Version: 0.0.12
+Author: duer
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+# ReasoningChain
+
+## 给接口增加本地缓存
+
+```python3
+@reasoningchain.cache.disk_cache(cache_path=os.path.join(os.environ["HOME"], "some_path/some_name"), expire_time=864000)
+def foobar(key:str):
+    """do something"""
+    pass
+```
+
+## 获取文本向量
+
+```python3
+embeddings = reasoningchain.api.closeai.batch_get_embeddings(["hello", "world"], batch_size=16)
+```
+
+## 构建文本向量索引
+
+```python3
+doc_index = DocIndex()
+doc_index.build(doc_full_text)    # 构建索引
+doc_index.save(index_file_path)   # 保存索引到文件
+
+doc_index.load(index_file_path)   # 从文件加载索引
+
+results = doc_index.search(query) # 查询索引
+```
+
+## 自定义langchain Tools
+
+```python
+# 增加自定义tool
+@custom_tool(
+    name = "{{Tool Name}}",
+    description = "{{Tool Descriptions}}"
+)
+def tool_func(input_text:str, callback:callable=None) -> str:
+    """do something"""
+    pass
+
+# 获取所有自定义的tool names
+reasoningchain.custom_tools.get_all_custom_tool_names()
+
+# 加载tools
+tools = reasoningchain.custom_tools.load_tools(["BaiduSearchText", "GoogleSearchImage"])
+```
+
+## 参数配置
+```python3
+# 使用BaiduSearchText时需设置
+os.environ['BAIDU_SEARCH_API'] = 'https://m.baidu.com/...'
+
+# 使用openai相关接口时需设置
+os.environ['OPENAI_API_KEY'] = '123'
+# 需要对openai做代理时可设置
+os.environ['OPENAI_API_BASE'] = '代理地址'
+
+# 使用serpapi时需设置，包括google的搜索API
+os.environ['SERPAPI_API_KEY'] = 'SERP API-KEY'
+
+# 使用WOLFRAM ALPHA Tool时需设置
+os.environ['WOLFRAM_ALPHA_APPID'] = 'walfram-alpha appid'
+```
+
