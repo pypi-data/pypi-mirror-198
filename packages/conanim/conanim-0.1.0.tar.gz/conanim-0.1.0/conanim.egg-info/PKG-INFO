@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: conanim
+Version: 0.1.0
+Summary: A Python library for creating animation in console.
+Home-page: https://github.com/yourusername/mypackage
+Author: breadlol64
+Author-email: breadlol64@gmail.com
+License: UNKNOWN
+Keywords: console animation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# conanim Library
+**This python library is used for creating simple animations in console.**
+## How to use
+
+To create an animation you need use `frame_animattion()`function. Example:
+```Python
+import conanim as ca
+
+# define frames for animation
+frames = [
+    "|",
+    "/",
+    "-",
+    "\\",
+]
+
+while True:
+    ca.frame_animation(frames, 0.1) # create an animation
+```
+In this example `frame_animation()` needs 2 arguments: frames and delay in seconds between frames
+```Python 
+frame_animation(frames, delay)
+```
+This is cool, but if we create program like this:
+```Python
+import conanim as ca
+
+# define frames for animation
+frames = [
+    "|",
+    "/",
+    "-",
+    "\\",
+]
+
+while True:
+    print("loading ", end="")
+    ca.frame_animation(frames, 0.1) # create an animation
+```
+it wil doesn't work, so this library have `print_with_animation()` function:
+```Python
+import conanim as ca
+
+# define frames for animation
+frames = [
+    "|",
+    "/",
+    "-",
+    "\\",
+]
+
+while True:
+    ca.print_with_animation("Loading ", frames, 0.1) # create an animation
+```
+
+

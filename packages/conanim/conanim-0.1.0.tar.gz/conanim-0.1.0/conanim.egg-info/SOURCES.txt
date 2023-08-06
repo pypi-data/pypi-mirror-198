@@ -1,0 +1,7 @@
+README.md
+setup.py
+conanim.egg-info/PKG-INFO
+conanim.egg-info/SOURCES.txt
+conanim.egg-info/dependency_links.txt
+conanim.egg-info/entry_points.txt
+conanim.egg-info/top_level.txt
