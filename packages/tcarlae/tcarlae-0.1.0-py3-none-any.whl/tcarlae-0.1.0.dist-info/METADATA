@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: tcarlae
+Version: 0.1.0
+Summary: Minimal Python repository with a simple development workflow. Share and enjoy!
+License: CC0-1.0
+Author-email: David Seaward <david@librem.one>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# T. carlae
+
+Minimal Python repository with a simple development workflow. Share and enjoy!
+
+As of 2008, the Barbados threadsnake (Tetracheilostoma carlae, or T. carlae) is
+the smallest known snake species in the world.
+
+## Workflow
+
+```bash
+$ git clone https://gitlab.com/lfdo/tcarlae.git
+$ cd tcarlae
+$ pdm install --dev
+$ pdm run tcarlae
+Hello world!
+```
+
+Alternatively:
+
+```bash
+$ pdm run python -m tcarlae.cli
+Hello world!
+```
+
+And to publish:
+
+```bash
+$ pdm publish
+```
+
+# Sharing and contributions
+
+```
+T. carlae
+https://lofidevops.neocities.org
+Copyright 2023 David Seaward and contributors
+SPDX-License-Identifier: CC0-1.0
+```
+
+You can copy this freely without credit. It's mostly uncopyrightable anyway.
+
