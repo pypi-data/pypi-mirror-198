@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: PADAWAN_helper
+Version: 0.0.6
+Summary: Python Core project code
+Home-page: https://github.com/MagdaVic/PADAWAN_helper
+Author: PADAWAN TEAM
+Author-email: 
+License: MIT
+License-File: LICENSE
+
+**Welcome to PADAWAN_helper!**
+
+The package is installed in the system by the command: pip install PADAWAN-helper.
+After installation, the package appears in the system: PADAWAN_helper.
+Once the package is installed on the system, the script can be called anywhere from the console with the command: PADAWAN.
+
+You are in the main menu. Press "Tab + A", and choose one of the proposed commands:
+**"use addressbook"** - go to the address book tab, **"use notebook"** - go to the notebook tab,
+**"sort directory"** - go to the file sorting tab, **"exit"** - exit from PADAWAN_helper.
+
+The "Address Book" tab can help you with the following:
+
+    'Tab + A' - will offer you available commands.
+    'hello' - allows you to say hello to PADAWAN_helper :)
+    'add phone' - adds name and phone number. It is written in the formats "name", "one space", "phone number".
+    'add birthday' - adds date of birth.
+    'add address'- adds an address.
+    'add email'- adds email.
+    'change phone' - changes the phone number.
+    'change address' - changes address
+    'change email' - changes email.
+    'change birthday' - changes the date of birth.
+    'birthday in days' - display a list of contacts whose birthday is a specified number of days from the current date.
+    'remove phone' - deletes the phone.
+    'remove contact' - deletes the contact.
+    'show all' - shows all existing records.
+    'find' - searches and shows the found record.
+    'save' - saves the changes made to the records.
+    'load' - uploads records.
+    'exit' - exits the address book to the main menu.
+
+The "Notebook" tab can help you with the following:
+
+    'Tab + A' - will offer you available commands.
+    'add' - adds a record.
+    'show' - shows all existing records.
+    'remove' - deletes the record.
+    'edit' - changes record.
+    'search' - searches and shows the found record.
+    'save' - saves the changes made to the records.
+    'load' - uploads records.
+    'exit' - exits the notebook to the main menu.
+
+The "Sort directory" tab can help you sort files in the specified folder.
