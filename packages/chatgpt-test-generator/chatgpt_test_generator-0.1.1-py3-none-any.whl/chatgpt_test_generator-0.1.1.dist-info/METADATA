@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chatgpt-test-generator
+Version: 0.1.1
+Summary: AI based test generation tool.
+Author: Furkan Melih Ercan
+Author-email: furkan.ercan@b2metric.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=0.27.2,<0.28.0)
+Requires-Dist: pytest (>=7.2.2,<8.0.0)
+Requires-Dist: setuptools (>=67.6.0,<68.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+## CHATGPT TEST GENERATOR
+
