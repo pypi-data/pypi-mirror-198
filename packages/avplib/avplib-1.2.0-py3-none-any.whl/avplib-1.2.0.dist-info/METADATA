@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: avplib
+Version: 1.2.0
+Summary: AVP - ASCII Video Player. Allows you to play any video as ASCII-art.
+Home-page: https://github.com/romanin-rf/avplib
+Author: ProgrammerFromParlament
+Author-email: semina054@gmail.com
+License: MIT
+Keywords: avplib
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: soundfile
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: pygame
+Requires-Dist: fpstimer
+Requires-Dist: ffmpeg
+Requires-Dist: moviepy
+Requires-Dist: numpy
+
+# avplib
+## Description
+**AVP** - ASCII Video Player. Allows you to play any video as ASCII-art.
+
+## Install
+```
+python -m pip install --upgrade avplib
+```
+
+## Usage
+- `Windows`
+    -   ```
+        Usage: python -m avplib [OPTIONS] VIDEO_PATH
+
+        Options:
+        -r, --res <INTEGER INTEGER>...  [default: 0, 0]
+        --fps INTEGER RANGE             [default: 30; 1<=x<=120]
+        --help                          Show this message and exit.
+        ```
+- `Linux`
+    - `ВЇ\_(гѓ„)_/ВЇ`
+
+

@@ -1,0 +1,13 @@
+avplib/__init__.py,sha256=HfebW4MS5iGVSIgOJwTvY68P7GDuCFwE29uC93wA1e8,23
+avplib/__main__.py,sha256=EbIffvORLDzF_e9M3dV7lQJ_JXBmJ_dcbd9QEbqFqGw,2673
+avplib/avplib.py,sha256=I0k1h9Mbd1mTG0QtiDjhFK6dGqwZpGNi0hYl4sGVH0Y,5881
+avplib/units.py,sha256=-XbfVRZlV6AOzR6KsgcpiNDQDgKFI5yzPVEh-IV6pus,275
+imgcroper/__init__.py,sha256=nZq93kJS1_TWqNiLrjcMn7QniPbGK4BBqGmeQlVyupY,68
+imgcroper/__main__.py,sha256=ZWv-0dxOQCWtQdhGQSSmIRD16UMy6aRMQeDbRbMKtbU,440
+imgcroper/imgcroper.py,sha256=X0_56vjgtkjiF2IQ4cwGS_ME32LMdOqilaA7s4KaAHQ,968
+imgcroper/types.py,sha256=fqE3kK0gnoP1YrwfBsNbtHtHjYp5QdVvr9BO-zkIbyc,266
+imgcroper/units.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+avplib-1.2.0.dist-info/METADATA,sha256=0YaBDGJCuaxdbu_Oa0KoLzIqLpkXiWDH4Ld9Z8uiAkY,1064
+avplib-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+avplib-1.2.0.dist-info/top_level.txt,sha256=s0ZLScKswoEVJqrasZp8GKc8kSWTt6x62Kt4eZeFf4s,17
+avplib-1.2.0.dist-info/RECORD,,
