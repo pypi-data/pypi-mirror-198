@@ -1,0 +1,12 @@
+numpy
+romkan
+jaconv
+geopandas
+pandas
+topojson
+shapely
+tqdm
+openpyxl
+xlrd
+pyarrow
+rich
