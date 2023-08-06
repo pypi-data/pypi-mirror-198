@@ -1,0 +1,5 @@
+setup.py
+pyflodotcom.egg-info/PKG-INFO
+pyflodotcom.egg-info/SOURCES.txt
+pyflodotcom.egg-info/dependency_links.txt
+pyflodotcom.egg-info/top_level.txt
