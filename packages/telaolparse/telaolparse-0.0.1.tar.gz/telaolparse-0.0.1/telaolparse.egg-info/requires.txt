@@ -1,0 +1,13 @@
+psycopg2
+pandas
+numpy
+json
+os
+subprocess
+uuid
+urllib.parse
+boto3
+requests
+yandexcloud
+datetime
+yandex
