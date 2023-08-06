@@ -1,0 +1,12 @@
+levis_pdfparse-0.1.0.data/scripts/serve_grobid.sh,sha256=JZbqNod0OOIZSnAUFz5UdYCz_oDWVO4b4Q5yTQMV0Bk,375
+scipdf/__init__.py,sha256=9xcBnQsLUedtWmJrjemwrVTfJYpus-2wGzpeGuIf9KI,131
+scipdf/features/__init__.py,sha256=J5SaJCPXyoDzWlVkf0ghUQomolCq2qQE5rITJe_8bxo,176
+scipdf/features/text_utils.py,sha256=YFIUktrtI04zHTEQsia0pCGle1OlkiE7PvOyjQL7Nw4,7417
+scipdf/pdf/__init__.py,sha256=qV1lJFLOWQHwY6RRXof5wuKd1fcVdFRAED-9ysQ8NlY,161
+scipdf/pdf/parse_pdf.py,sha256=_Za6gu1L_tG0UVaFsIRDug3eR6Q1nVMNuV6nU1BqdFg,15507
+scipdf/pdf/pdffigures2/pdffigures2-assembly-0.0.12-SNAPSHOT.jar,sha256=KpEX4kkCjvhQrEp7Tlsby_bQK41Rj_4lDJNo-H7Xj-g,33667261
+levis_pdfparse-0.1.0.dist-info/LICENSE.txt,sha256=0_J7InCGnsFgiTuyHlQ6JU1odXgHjO7dD6t58SWWzPQ,1075
+levis_pdfparse-0.1.0.dist-info/METADATA,sha256=-0BGLIf4ztOzhIJYI5x5kjAzmmyKCbPNGDrXONpUr-w,2774
+levis_pdfparse-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+levis_pdfparse-0.1.0.dist-info/top_level.txt,sha256=hdtQPfDhOUFIgiKmU-c4XLNpG_bu-r6AhvvCQfFxAwM,7
+levis_pdfparse-0.1.0.dist-info/RECORD,,
