@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pygamelive/__init__.py
+src/pygamelive/debugger.py
+src/pygamelive.egg-info/PKG-INFO
+src/pygamelive.egg-info/SOURCES.txt
+src/pygamelive.egg-info/dependency_links.txt
+src/pygamelive.egg-info/top_level.txt
