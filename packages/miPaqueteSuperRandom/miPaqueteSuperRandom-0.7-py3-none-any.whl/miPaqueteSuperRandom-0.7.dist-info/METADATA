@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: miPaqueteSuperRandom
+Version: 0.7
+Summary: Random description
+Author: Random guy
+Author-email: random@email.com
+License: MIT
+Keywords: paquete ejemplo
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
