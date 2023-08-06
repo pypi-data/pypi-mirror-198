@@ -1,0 +1,5 @@
+click<9.0,>=8.0.3
+boto3
+cloudflare
+awsipranges
+slack_sdk
