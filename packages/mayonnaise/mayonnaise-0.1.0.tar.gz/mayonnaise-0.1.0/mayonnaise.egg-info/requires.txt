@@ -1,0 +1,3 @@
+pytube@ git+https://github.com/duvu/pytube
+click
+tqdm
