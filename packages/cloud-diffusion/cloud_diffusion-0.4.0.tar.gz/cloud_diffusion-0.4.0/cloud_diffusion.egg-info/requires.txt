@@ -1,0 +1,7 @@
+torch
+fastprogress
+fastcore
+wandb
+numpy
+matplotlib
+diffusers
