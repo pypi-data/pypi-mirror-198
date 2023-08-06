@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ColadaUtility
+Version: 0.190323.2
+Summary: Some useful utility stuff
+Author-email: Nouhelgod <nouhel12@gmail.com>
+Project-URL: Homepage, https://github.com/Nouhelgod/ColadaUtility
+Project-URL: Bug Tracker, https://github.com/Nouhelgod/ColadaUtility/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+**Some useful stuff**
+---
+
+``` bash 
+$ pip install ColadaUtility
+```
+---
+
+``` python3
+from ColadaUtility.PowerColor import Colors as c
+from ColadaUtility.PowerLogger import Logger
+
+
+log = Logger()
+log.coloredTerminal = True
+log.outputFile = 'C:\\Git\\Playground\\log.txt'
+log.tune()
+
+log.d('Chilly debug message')
+log.i('Usual INFO log, whatever')
+log.w('Warning? Warning!!!')
+log.e(f'Some big UH-OH happened here...')
+log.d(c(p="link", text="http://www.google.com"))
+log.i(f'Unusual but {c(f="g", d="i u b")}pretty{c()} INFO {c(b="g", t="log")} ~!')
+```
+---
+<img src="https://i.ibb.co/vBzRBzL/Colada-Utility.png" alt="Colada-Utility" border="0">
