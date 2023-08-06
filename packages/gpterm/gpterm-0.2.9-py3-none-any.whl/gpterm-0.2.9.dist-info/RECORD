@@ -1,0 +1,12 @@
+gpterm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpterm/config.py,sha256=oG1eGocZBEqtZQDcH495yQt-a1SN4VRV_vKkgC1w3-A,3267
+gpterm/enums.py,sha256=xYEejgTeh4mERv0Hapcut-z7-M7MtNp5tmczVRRyHLw,873
+gpterm/gpt_terminal.py,sha256=TrsVH40qOvxud65gmcMGsWm9QvdZcsFH0YagxkxDZvw,19764
+gpterm/shell.py,sha256=AG1u3cK7woTBtsbFf-K_8jqbP2fuHLBC9IYyBuwhyVY,10785
+gpterm/utils.py,sha256=1FklA3PSDSAf7QD8MTqIIr2nRy3wt0Q27Rxw-cFBhcg,918
+gpterm-0.2.9.dist-info/LICENSE,sha256=8WwkN31vKHrOTCsBaoSqsxQWC8wBWR0YjoYQjeHXODs,1063
+gpterm-0.2.9.dist-info/METADATA,sha256=Sb75lKOBrl56xuog-xpyq0BShu_ShIEIpWtIFaDjZtA,3550
+gpterm-0.2.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpterm-0.2.9.dist-info/entry_points.txt,sha256=-9xJR-Lr7CJJtNVme-ievRtBrGB51emzLbRsiF43nok,59
+gpterm-0.2.9.dist-info/top_level.txt,sha256=oT78MGv9m_TIEYxZtfpyoB3Lz6MWWZBRBI9V9F64pSY,7
+gpterm-0.2.9.dist-info/RECORD,,
