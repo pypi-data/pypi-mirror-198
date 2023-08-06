@@ -1,0 +1,12 @@
+filesocket/__init__.py,sha256=qSnOY1EhPc8B6_HZcdrnVUJIFTdbNR5NQSvPZ6Nb3-c,1528
+filesocket/__main__.py,sha256=W_Vnxg5EW_oCajYsw-codj0OPqQkYEhwzocTebPu1B0,5479
+filesocket/config.py,sha256=ltes80lb2yuAnluTgDA0KQzAbgwlYKoNe66CcAEZWPA,2488
+filesocket/exceptions.py,sha256=Y6rlKS53zuTa7PCmOqU47wZ65YMsP0Xb1Cyx_2C8STU,350
+filesocket/managed_device_client.py,sha256=D6Xawj2zxEK_5PtOA_gs7al9kDHuiHHp-UR9oZYHdsw,5484
+filesocket/managing_device_client.py,sha256=MrHBEhjgDLe84NkMOXi918YJRYJDppGNMtF-c0z4Ugk,9456
+filesocket/storekeeper.py,sha256=ESp3x8h4A06CJoJh7dTjHui2kY5ypnTR-nGyQ_aJje4,1295
+filesocket-0.1.7.dist-info/LICENSE,sha256=F7KoFjc7fZ9M0bEdZal6_uaiM-6ijz7IHQ9uKvvhdZs,1090
+filesocket-0.1.7.dist-info/METADATA,sha256=cbQt98qQV-_Y0pvGvUXpEokQ0a_Ndgn3fjicJei3yLc,1552
+filesocket-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+filesocket-0.1.7.dist-info/top_level.txt,sha256=vLDgVn9wAw1hAj5cTOVwOHf2Lwr3uLBZby9UOtpTkHI,11
+filesocket-0.1.7.dist-info/RECORD,,
