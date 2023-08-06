@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+IPCCalc.egg-info/PKG-INFO
+IPCCalc.egg-info/SOURCES.txt
+IPCCalc.egg-info/dependency_links.txt
+IPCCalc.egg-info/top_level.txt
+inflation-calc-spain/IPCCalc.py
+inflation-calc-spain/__init__.py
