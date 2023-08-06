@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mth-3
+Version: 1.0.0
+Summary: mth-3
+Home-page: https://github.com/NovykovDaniil/python-core-project
+Author: Python Powerhouse
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: prettytable
+Requires-Dist: prompt-toolkit
+Requires-Dist: pygame
+
