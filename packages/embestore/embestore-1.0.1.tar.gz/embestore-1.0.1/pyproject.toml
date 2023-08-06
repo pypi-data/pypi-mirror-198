@@ -1,0 +1,54 @@
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+skip_magic_trailing_comma = true  # For compatibility with pydoc>=4.6, check if still needed.
+experimental-string-processing = true
+
+[tool.poetry]
+name = "embestore"
+version = "1.0.1"
+description = ""
+authors = ["Yoshi Gao <yoshi4868686@gmail.com>"]
+readme = "README.md"
+packages = [{include = "embestore"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+numpy = "^1.24.1"
+pyarrow = "^11.0.0"
+jina = {version = "^3.13.2", optional = true}
+torch = {version = "^1.13.1", optional = true}
+sentence-transformers = {version = "^2.2.2", optional = true}
+typer = {version = "^0.7.0", extras = ["all"]}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+pytest-mock = "^3.10.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+flake8 = "^6.0.0"
+pre-commit = "^2.21.0"
+questionary = "^1.10.0"
+pep440-version-utils = "^0.3.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+markers = [
+    "unit",
+    "integration"
+]
+
+[tool.poetry.extras]
+jina = ["jina"]
+sentence-transformers = ["torch", "sentence-transformers"]
+
+[tool.poetry.scripts]
+embestore = "embestore.cli.main:app"
