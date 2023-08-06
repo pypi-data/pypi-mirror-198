@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ur_interface_yorickbm
+Version: 0.0.1
+Summary: A package that allows support for easy URe Client Interface data parsing
+Project-URL: Homepage, https://github.com/YorickBM/URInterface
+Project-URL: Bug Tracker, https://github.com/YorickBM/URInterface/issues
+Author-email: YorickBM <info@yorickblom.nl>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
