@@ -1,0 +1,11 @@
+setup.py
+envvar_manager.egg-info/PKG-INFO
+envvar_manager.egg-info/SOURCES.txt
+envvar_manager.egg-info/dependency_links.txt
+envvar_manager.egg-info/entry_points.txt
+envvar_manager.egg-info/requires.txt
+envvar_manager.egg-info/top_level.txt
+provider/__init__.py
+provider/amazon.py
+provider/cloud_provider.py
+provider/google.py
