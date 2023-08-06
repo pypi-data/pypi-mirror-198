@@ -1,0 +1,10 @@
+saxonche.cpython-38-darwin.so,sha256=3SWcna6PEZ1LxQsL_KiTpbrs9W-v0ABIDNJMUod3PLM,895648
+saxonche.pypy38-pp73-darwin.so,sha256=e6MJanv_SkRJX-qMHRFvSOk5eOpooRIkpeRqgzGAV8E,665840
+saxonche-12.1.0.dist-info/RECORD,,
+saxonche-12.1.0.dist-info/WHEEL,sha256=S9Dxl7gN6v0OXLTIMZgvl_ks5Wa8jF4LNnfpv-M-AVg,116
+saxonche-12.1.0.dist-info/top_level.txt,sha256=6tJxlK8ePmvwmsTmpNkKssbnfExHvDb9UiuTurDdKrU,9
+saxonche-12.1.0.dist-info/METADATA,sha256=qRNbcnUGrceBnva1xlNj6l3SE8JbOGDPDwguZB1AqYY,5021
+saxonche/test_saxonc.py,sha256=lk0_9HzcYcL0HAKwkW8d7HYpaLz4ktJNyV51P4w5Cw0,58099
+saxonche/setup.py,sha256=QdjdEzWpa3roV7b6PvPcXZADiL_XaTJ4H0UiqBJo9_4,2967
+saxonche/test_saxon_schema.py,sha256=Vjj0SLRSNMHbzR9Vkcz3xraBRrlIwujjV6-jbayxsIw,3995
+saxonche.dylibs/libsaxon-hec-12.1.dylib,sha256=5wHloLyky6fS6AlX4nhe6dl8nlMbtugD2q4H30WCDlI,48942224
