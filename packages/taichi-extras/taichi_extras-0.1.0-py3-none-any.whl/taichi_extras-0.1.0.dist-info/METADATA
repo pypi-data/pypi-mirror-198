@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: taichi-extras
+Version: 0.1.0
+Summary: 
+Author: Qin Li
+Author-email: liblaf@outlook.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: meshio[all] (>=5.3.4,<6.0.0)
+Requires-Dist: pyvista[all] (>=0.38.5,<0.39.0)
+Requires-Dist: taichi (>=1.4.1,<2.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+

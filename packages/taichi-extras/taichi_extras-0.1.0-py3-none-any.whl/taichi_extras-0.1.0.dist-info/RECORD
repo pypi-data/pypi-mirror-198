@@ -1,0 +1,15 @@
+taichi_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/mesh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/mesh/obj.py,sha256=iopslCpOEZhwn4VZEDoneW2ictQiRDozVYzZWRozrA4,859
+taichi_extras/optimize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/optimize/minimize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/optimize/minimize/gradient_descent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/optimize/minimize/gradient_descent/adam.py,sha256=POrFDOJ7IWJ6gTNhOQ-Oz3z5uBHwHACMWUG-4GZUGa4,2682
+taichi_extras/spatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/spatial/transform.py,sha256=_q7BY0X_RQkMbOnC3ISeKnln-Sy-24ujW3uQ1AVEr3U,1709
+taichi_extras/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/utils/field/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taichi_extras/utils/field/like.py,sha256=LN7nJLlMFjYUaQyXdMQvPXvcDifvT0Qo5vo_GL6gEjM,822
+taichi_extras-0.1.0.dist-info/METADATA,sha256=QKH26TdeSPHJnTs0yy-2RGfWEGo1P5XVfkiknt3r5os,459
+taichi_extras-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+taichi_extras-0.1.0.dist-info/RECORD,,
