@@ -1,0 +1,11 @@
+README.md
+setup.py
+mediadata/__init__.py
+mediadata/mediadata.py
+mediadata.egg-info/PKG-INFO
+mediadata.egg-info/SOURCES.txt
+mediadata.egg-info/dependency_links.txt
+mediadata.egg-info/entry_points.txt
+mediadata.egg-info/top_level.txt
+mediadata/lib/Arguement.py
+mediadata/lib/__init__.py
