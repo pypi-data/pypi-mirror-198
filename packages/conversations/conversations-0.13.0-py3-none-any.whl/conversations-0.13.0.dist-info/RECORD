@@ -1,0 +1,15 @@
+conversations/__about__.py,sha256=j1uKS7vGu_bgXd33r8yh2x5QOqbke1ZLT99h3sdSBQo,180
+conversations/__init__.py,sha256=CoU-M0rRjUF_L7A7WEIiuma-Fb8oXBMNZJMbxjMXcP4,110
+conversations/_conversations.py,sha256=4ThbX-DT5TaCu9GHWD0qtuhjApaEahWbIyh3i35aZTg,1720
+conversations/diarise/__init__.py,sha256=DJu6-Gx3wDmAFN57yWqi9EuUbIeQJgb_k2FJQAln1pU,45
+conversations/diarise/simple/__init__.py,sha256=Se9LlcvYwy5NcNLzCun-BNf6ALBvctiIODV1ZqW3Ebs,72
+conversations/diarise/simple/_simple.py,sha256=ZjSps4jo57SUDpUpBXjDmrZXzjnz4rpDFXv5g2uG5hk,691
+conversations/report/__init__.py,sha256=DnnE1PXuLHiq1cz-URk4xX-ePNYEw7iAfq1jL2_lM8Q,73
+conversations/report/_report.py,sha256=nHWMn_8zSxvujGnKCt7m3s5bsq2kZWhH97cEiaofWto,3095
+conversations/transcribe/__init__.py,sha256=PcJRbppIYkAtofFze2KNKf8coBeviFUQRCKCfMCa_YQ,40
+conversations/transcribe/whisper/__init__.py,sha256=5qFNs6RUktk7c4jol5t5rJex8zWqNggsabtsDedV-QM,84
+conversations/transcribe/whisper/_whisper.py,sha256=R4JZdGgsn3rU86N9lhCOUxpxeVAnfMWrDAr8wzNIU98,615
+conversations-0.13.0.dist-info/METADATA,sha256=DFE5q-XjJrnehrxKfrb1No3tZEDJeurx_UnVWNeAOdA,1358
+conversations-0.13.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+conversations-0.13.0.dist-info/licenses/LICENSE.txt,sha256=xYJTHtDt7WTfTsMGvdmWB5xgbK2_cZj8HHQfDCsCkY0,1098
+conversations-0.13.0.dist-info/RECORD,,
