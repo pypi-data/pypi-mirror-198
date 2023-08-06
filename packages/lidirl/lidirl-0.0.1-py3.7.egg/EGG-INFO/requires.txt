@@ -1,0 +1,10 @@
+numpy>=1.20
+torch>=1.11.0
+torchmetrics>=0.8.2
+torchvision>=0.8.2
+transformers>=4.22.0
+uncertainty-metrics>=0.0.81
+flopth>=0.0.502
+
+[:python_version < "3.5"]
+typing

@@ -1,0 +1,17 @@
+README.md
+setup.py
+lidirl/MCLayer.py
+lidirl/__init__.py
+lidirl/augmentations.py
+lidirl/label.py
+lidirl/make-data.py
+lidirl/metrics.py
+lidirl/models.py
+lidirl/preprocessor.py
+lidirl/trainer.py
+lidirl.egg-info/PKG-INFO
+lidirl.egg-info/SOURCES.txt
+lidirl.egg-info/dependency_links.txt
+lidirl.egg-info/entry_points.txt
+lidirl.egg-info/requires.txt
+lidirl.egg-info/top_level.txt
