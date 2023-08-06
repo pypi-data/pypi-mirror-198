@@ -1,0 +1,9 @@
+README.md
+helperagent.py
+setup.py
+shiftai.py
+ShiftAI.egg-info/PKG-INFO
+ShiftAI.egg-info/SOURCES.txt
+ShiftAI.egg-info/dependency_links.txt
+ShiftAI.egg-info/requires.txt
+ShiftAI.egg-info/top_level.txt
