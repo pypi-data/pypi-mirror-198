@@ -1,0 +1,76 @@
+
+# def announce_server(task=None, loop=None, **outer_kwargs):
+#     if task is None:
+#         return lambda f: announce_server(f, loop=loop, **outer_kwargs)
+
+#     @wraps(task)
+#     def wrapper(*args, **kwargs):
+#         async def main(*args, **kwargs):
+#             if loop is not None:
+#                 host_block_thread = loop.run_in_executor(None, task)
+#             else:
+#                 host_block_thread = asyncio.to_thread(task) # python 3.9+
+
+#             # Announce the server to the host
+#             await _announce_server(**outer_kwargs)
+
+#             # Wait for host_block to finish
+#             await host_block_thread
+
+#         if loop is not None:
+#             task = loop.create_task(main(*args, **kwargs))
+#         else:
+#             task = asyncio.run(main(*args, **kwargs))
+#         return task
+#     return wrapper
+
+# def announce_server(task=None, loop=None, **outer_kwargs):
+#     if task is None:
+#         return lambda f: announce_server(f, loop=loop, **outer_kwargs)
+
+#     @wraps(task)
+#     async def wrapper(*args, **kwargs):
+#         if not asyncio.iscoroutinefunction(task):
+#             # If the decorated function is not a coroutine, wrap it in a coroutine
+#             task = asyncio.coroutine(task)
+#         if loop is not None:
+#             host_block_thread = loop.run_in_executor(None, task)
+#         else:
+#             host_block_thread = asyncio.to_thread(task)
+
+#         # Announce the server to the host
+#         await _announce_server(**outer_kwargs)
+
+#         # Wait for host_block to finish
+#         await host_block_thread
+
+#     return wrapper
+
+
+# def announce_server(task=None, loop=None, **outer_kwargs):
+#     if task is None:
+#         return lambda f: announce_server(f, loop=loop, **outer_kwargs)
+
+#     if loop is None:
+#         loop = asyncio.get_event_loop()
+
+#     @wraps(task)
+#     def wrapper(*args, **kwargs):
+#         async def main(*args, **kwargs):
+#             if asyncio.iscoroutinefunction(task):
+#                 # If the task is async, just await it
+#                 host_block_thread = task(*args, **kwargs)
+#             else:
+#                 host_block_thread = loop.run_in_executor(None, task, *args, **kwargs)
+
+#             # Announce the server to the host
+#             await _announce_server(**outer_kwargs)
+
+#             # Wait for host_block to finish
+#             await host_block_thread
+
+#         task = loop.create_task(main(*args, **kwargs))
+#         return task
+
+# return wrapper
+
