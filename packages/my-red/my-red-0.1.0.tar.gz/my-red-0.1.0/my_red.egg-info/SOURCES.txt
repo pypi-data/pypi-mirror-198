@@ -1,0 +1,8 @@
+setup.py
+my-red/__init__.py
+my-red/file.py
+my_red.egg-info/PKG-INFO
+my_red.egg-info/SOURCES.txt
+my_red.egg-info/dependency_links.txt
+my_red.egg-info/requires.txt
+my_red.egg-info/top_level.txt
