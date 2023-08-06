@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tbgutils
+Version: 1.1.1
+Summary: General TBG Utilities
+Author-email: Marc Schwarzschild <ms@TheBrookhavenGroup.com>
+Maintainer-email: Marc Schwarzschild <ms@TheBrookhavenGroup.com>
+License: MIT
+Project-URL: homepage, https://github.com/schwarzschild/tbgutils
+Project-URL: repository, https://github.com/schwarzschild/tbgutils
+Project-URL: documentation, https://github.com/schwarzschild/tbgutils
+Keywords: holidays,dates,commify,commitize,cround
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytz (==2022.7)
+
+# The Brookhaven Group, LLC (TBG) Utilities
+*Date and string utilities*
+
+These are utilities commonoly used at The Brookhaven Group, LLC
+
+
+### Installation
+
+[PyPI Page](https://pypi.org/search/?q=tbgutils)
+
+```shell
+$ pip install tbgutils 
+```
+
+### Examples
+
