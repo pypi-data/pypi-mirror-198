@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+readme.txt
+setup.py
+modeldocumentation/model.py
+modeldocumentation.egg-info/PKG-INFO
+modeldocumentation.egg-info/SOURCES.txt
+modeldocumentation.egg-info/dependency_links.txt
+modeldocumentation.egg-info/requires.txt
+modeldocumentation.egg-info/top_level.txt
+pbit_extract.egg-info/SOURCES.txt
+pbit_extract.egg-info/dependency_links.txt
+pbit_extract.egg-info/requires.txt
+pbit_extract.egg-info/top_level.txt
