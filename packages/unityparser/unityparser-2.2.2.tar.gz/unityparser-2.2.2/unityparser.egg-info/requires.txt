@@ -1,0 +1,8 @@
+PyYAML==5.4
+
+[development]
+pip-compile-multi
+pytest
+pytest-cov
+tox
+tox-conda
