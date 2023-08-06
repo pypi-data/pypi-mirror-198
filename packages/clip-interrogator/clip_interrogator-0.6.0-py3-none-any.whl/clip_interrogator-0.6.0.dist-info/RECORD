@@ -1,0 +1,12 @@
+clip_interrogator/__init__.py,sha256=5HIRZDv-KSwHm_zHyMcQ40c4kwfpNBH3fdQbNJSy6ws,167
+clip_interrogator/clip_interrogator.py,sha256=zUtEnV7O-x_8ZSl8N23rWflj33zuG0_kXIDyR1nQNeU,20855
+clip_interrogator/data/artists.txt,sha256=AeSzD218_bYvRYLFvsZY4C15v5wZBSlJzjM21u_005U,82438
+clip_interrogator/data/flavors.txt,sha256=yZ2Dp6Q1FXM587YKNHlMUk3jcVmpty86IDTfgkXEovE,1804274
+clip_interrogator/data/mediums.txt,sha256=kfJrnQ19k_jjATmpT4lbpal3RAM-wLF0U586iLxJzSw,1606
+clip_interrogator/data/movements.txt,sha256=FtYOy0iQGIXod8qSQ7PDK8hKJHfE0_Chz21mCGzkdIM,2683
+clip_interrogator/data/negative.txt,sha256=sKijbj9RndOwcwMTfIvq7suip2WDDkBKQn4whFyD6OI,418
+clip_interrogator-0.6.0.dist-info/LICENSE,sha256=fh435b5Be9pCS1yDQWllOzE1Px0QZAx_HdYr9WpcZ3s,1072
+clip_interrogator-0.6.0.dist-info/METADATA,sha256=fzCAw7fHASuyjtAugA_L72bzMu884gKhIMSuPz9kY1M,4891
+clip_interrogator-0.6.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+clip_interrogator-0.6.0.dist-info/top_level.txt,sha256=f630938ybGmdxNSkkFLVAr3YUimLzbguSVoCdyPbwfs,18
+clip_interrogator-0.6.0.dist-info/RECORD,,
