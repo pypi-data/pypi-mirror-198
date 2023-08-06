@@ -1,0 +1,2 @@
+replbuilder>=1.0.5
+bs4
