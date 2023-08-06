@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: LANfactory
+Version: 0.3.0
+Summary: Package with convenience functions to train LANs
+Home-page: https://github.com/AlexanderFengler/LANfactory
+Author: Alexander Fenger
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
