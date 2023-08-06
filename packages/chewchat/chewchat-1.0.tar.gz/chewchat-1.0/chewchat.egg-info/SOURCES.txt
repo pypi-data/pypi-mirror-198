@@ -1,0 +1,6 @@
+setup.py
+chewchat.egg-info/PKG-INFO
+chewchat.egg-info/SOURCES.txt
+chewchat.egg-info/dependency_links.txt
+chewchat.egg-info/requires.txt
+chewchat.egg-info/top_level.txt
