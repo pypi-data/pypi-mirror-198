@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pycfalias/__init__.py
+src/pycfalias/config.py
+src/pycfalias/formatting.py
+src/pycfalias/pycfalias.py
+src/pycfalias.egg-info/PKG-INFO
+src/pycfalias.egg-info/SOURCES.txt
+src/pycfalias.egg-info/dependency_links.txt
+src/pycfalias.egg-info/top_level.txt
