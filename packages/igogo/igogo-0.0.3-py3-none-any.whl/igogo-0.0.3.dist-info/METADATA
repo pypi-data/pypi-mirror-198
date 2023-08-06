@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: igogo
+Version: 0.0.3
+Summary: Execute several jupyter cells simultaneously
+Project-URL: Homepage, https://github.com/AlexRoar/igogo
+Author-email: Alex Dremov <igogo@alexdremov.me>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: execute,ipython,jupyter,jupyterlab,python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Description-Content-Type: text/markdown
+
+# igogo
