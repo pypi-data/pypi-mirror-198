@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: IGram
+Version: 0.0.1
+Summary: InstaGram Scrapper
+Author: Vaibhav Pandey
+Author-email: pandey.vaibhav3110@gmail.com
+Keywords: Instagram info,webscrapping,instagram id name,webscrapper,beautifulsoup,vaibhavpandey module,vaibhav pandey python module,Instagram by pyhton
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: json
+Requires-Dist: bs4
+
+A webscrapper to Scrap some details from INSTAGRAM handle
+This would basically gives the 
+Posts(),Followers(),Following(),ProfileImage(),Name(),Description()
