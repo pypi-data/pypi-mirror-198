@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: revERNIEBot
+Version: 0.0.2
+Summary: 百度文心一言逆向工程
+Project-URL: Homepage, https://github.com/xw5xr6/revERNIEBot
+Project-URL: Bug Tracker, https://github.com/xw5xr6/revERNIEBot/issues
+Author-email: xw5xr6 <xw5xr6@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: browsermob-proxy
+Requires-Dist: selenium
+Description-Content-Type: text/markdown
+
+# revERNIEBot
+
+文心一言 API
