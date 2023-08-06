@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: spinecore
+Version: 0.0.1
+Summary: The core lib of spine library
+Author-email: Shahar Luftig <shaharluftig@gmail.com>
+Project-URL: Homepage, https://github.com/shaharluftig/spine
+Keywords: dataframe,dag,core,spine,workflow,data pipline,data enginnering
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: stringcase (~=1.2.0)
+Requires-Dist: matplotlib
+Requires-Dist: networkx (~=3.0)
+Provides-Extra: all
+Requires-Dist: polars (>=0.16.11) ; extra == 'all'
+Requires-Dist: pyarrow ; extra == 'all'
+Requires-Dist: pyspark (~=3.2.1) ; extra == 'all'
+Requires-Dist: connectorx (>=0.3.2a2) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest (~=7.2.2) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (~=0.20.3) ; extra == 'dev'
+Provides-Extra: polars
+Requires-Dist: polars (>=0.16.11) ; extra == 'polars'
+Requires-Dist: pyarrow ; extra == 'polars'
+Requires-Dist: connectorx (>=0.3.2a2) ; extra == 'polars'
+Provides-Extra: spark
+Requires-Dist: pyspark (~=3.2.1) ; extra == 'spark'
+
