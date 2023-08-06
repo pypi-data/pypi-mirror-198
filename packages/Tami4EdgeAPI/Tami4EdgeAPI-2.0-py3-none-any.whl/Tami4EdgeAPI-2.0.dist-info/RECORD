@@ -1,0 +1,11 @@
+Tami4EdgeAPI/Tami4EdgeAPI.py,sha256=kz-5FzsSXyO8rJFTMDmZgZP9wtUSH6sH5Ut1NsHZPOI,5971
+Tami4EdgeAPI/__init__.py,sha256=xrXJiWkxKYR7uairji1ckahQ7hVXA9Ae6JcCyHAxgt4,39
+Tami4EdgeAPI/device.py,sha256=tKrw9wgVXnJaYPu3ioyEB01ZMc1n0tspF_Ef4iDCIqA,197
+Tami4EdgeAPI/drink.py,sha256=4vyzNviBWZhKoKlK2YovdqTP-w1Atn4jIEIkVvzx4Kw,199
+Tami4EdgeAPI/token.py,sha256=KoNypk16aHCdp35zpSsU1gSu0G0WPkxf0_6EiPsGDwU,595
+Tami4EdgeAPI/water_quality.py,sha256=SUZ2OyZdZFanugKwMJuAvMy2FKWhsPZMu0kuOTWTp-w,560
+Tami4EdgeAPI-2.0.dist-info/LICENSE,sha256=ez_sw0ZJs3vRlAlnzQ-63mJN8ol8_hzYJjdLd8GF7E4,1067
+Tami4EdgeAPI-2.0.dist-info/METADATA,sha256=GdDc2Xz9YG0g0FNw6EdlLpz_nxV6VndGMjdEl0jbFTY,1829
+Tami4EdgeAPI-2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Tami4EdgeAPI-2.0.dist-info/top_level.txt,sha256=bzQcNYTCVRwya1GG-jEpVHoXWJPnvreMNhfePQxg4Vw,13
+Tami4EdgeAPI-2.0.dist-info/RECORD,,
