@@ -1,0 +1,2 @@
+Bubot_WebServer>=0.1.12
+Bubot_Core>=0.1.17
