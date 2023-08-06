@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+colorPrint/__init__.py
+colorPrint/colorPrint.py
+easy_colorprint.egg-info/PKG-INFO
+easy_colorprint.egg-info/SOURCES.txt
+easy_colorprint.egg-info/dependency_links.txt
+easy_colorprint.egg-info/top_level.txt
