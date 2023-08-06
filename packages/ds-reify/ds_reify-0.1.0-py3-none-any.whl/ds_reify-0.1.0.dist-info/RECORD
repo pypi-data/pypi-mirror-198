@@ -1,0 +1,9 @@
+ds_reify/__init__.py,sha256=J9GJbrM7VLFDTCROCDfnriqAh95ZUrD83EvQBLRUmlg,83
+ds_reify/commands/hello.py,sha256=JesV80liEmyE4swOSTEqEz0vgx8HoUGbNCSLNLCU3JM,409
+ds_reify/dsreify.py,sha256=Z3vy41_AMWE3qyvdtmM-eSbcc-XNqo7GG2hwVouGk8s,451
+ds_reify/styles.py,sha256=oXGyb309-L-EW-4d62Bq7PfAGBm5RaHvOR6VCe_U8Ag,1942
+ds_reify-0.1.0.dist-info/LICENSE,sha256=dQ98hC_S5Ml-94QZxyKvEZwAt7rVV4P4YYUzRmAl8ts,1074
+ds_reify-0.1.0.dist-info/METADATA,sha256=L6ss4VkrFOmY6PNZa0jba9ZEk2SBFX4lz63HlVFGukw,5228
+ds_reify-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+ds_reify-0.1.0.dist-info/entry_points.txt,sha256=OqHcGwP9R_Wu4bwO8aakcX-9fYBwCb11C3A3Mplxw8g,49
+ds_reify-0.1.0.dist-info/RECORD,,
