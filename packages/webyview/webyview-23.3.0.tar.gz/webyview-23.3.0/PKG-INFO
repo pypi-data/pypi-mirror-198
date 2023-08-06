@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: webyview
+Version: 23.3.0
+Summary: Build GUI for your Python program with JavaScript, HTML, and CSS.
+Home-page: https://github.com/acteam-ux/webyview
+Download-URL: https://github.com/acteam-ux/webyview/archive/23.3.0.tar.gz
+Author: acteam-ux
+Author-email: abolfazlmalekpour@gmail.com
+License: New BSD license
+Keywords: gui,html,web
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: text/markdown
+Provides-Extra: cef
+Provides-Extra: gtk
+Provides-Extra: pyside2
+Provides-Extra: pyside6
+Provides-Extra: qt
+License-File: LICENSE.md
+
+
+
+## __webyview__ is a lightweight cross-platform wrapper around a weview component that allows to display HTML content in its own native GUI window. it is based on [pywebview](https://github.com/r0x0r/pywebview) ;)
