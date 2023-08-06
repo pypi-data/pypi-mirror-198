@@ -1,0 +1,12 @@
+pytomlpp.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+pytomlpp.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+pytomlpp-1.0.13.dist-info/LICENSE,sha256=NoX4Gl0aPFIHkIkIiNb7S2hGpC5-VGelIqAZczie4Wk,1093
+pytomlpp-1.0.13.dist-info/WHEEL,sha256=WaSDDc4jmsDNErnHiPefrfBYwN94F34iFwHxbUbydFs,111
+pytomlpp-1.0.13.dist-info/top_level.txt,sha256=RHp4QG1BqUDU3DTLdGItb_rh_WzYDxfkCiZ8h_xj0lc,9
+pytomlpp-1.0.13.dist-info/RECORD,,
+pytomlpp-1.0.13.dist-info/METADATA,sha256=IlenWZTJFVl8m8rQhXGUDXeslQBS6kmHxQuoBQDsFNU,4804
+pytomlpp/_io.py,sha256=fG9LciyZfH5pEvC4gsDvqJSVV8LXgbaky-zya9DxjHw,1799
+pytomlpp/__init__.py,sha256=MBNbFvu4Qu79R8diWhCE160z088kunJgT8Fn4Jt8LuU,243
+pytomlpp/_impl.cpython-311-i386-linux-musl.so,sha256=IZ2Ps27HHI3v-FJTjnKpbgaG_VUYau-f3LDuPVhwdak,8525357
+pytomlpp/_impl.pyi,sha256=1yP_A-LGUGaWW0puiJ1QjZwKlXfdoNuZqDnblw90FzE,108
+pytomlpp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
