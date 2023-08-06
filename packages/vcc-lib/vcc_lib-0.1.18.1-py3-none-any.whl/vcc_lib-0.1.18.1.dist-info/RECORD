@@ -1,0 +1,9 @@
+vcc/__init__.py,sha256=SWP73Z2KDELHZbCw5rfrDb5pLT2NdUUHeYg4OxMqooQ,223
+vcc/service.py,sha256=tJ9qu0RCsgwTiqmnwe17vnItugpIosfXvOZYIEvWE-0,7250
+vcc/tools.py,sha256=Ei0DIOEyJOiYtStR9Detp2cRIqb6qGWKI-0uNxydA0U,1602
+vcc/vcc.py,sha256=F2Sssvq6U_eyV_HMZvk1ztQD8Yr6feylT2TVJ3FqX-k,25643
+vcc_lib-0.1.18.1.dist-info/LICENCE,sha256=MftGbLni_zEdTcKvQ3GG8bnVQXInDQ3Tvcz4u6F-sbs,1059
+vcc_lib-0.1.18.1.dist-info/METADATA,sha256=X2uVM1G_6oVai8P5E8ObrW_j5trCDygjBiOGvAeSeUQ,98
+vcc_lib-0.1.18.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vcc_lib-0.1.18.1.dist-info/top_level.txt,sha256=tGqVZ1HPtvJIngQXk2bgf2CDFjONXf_wgMeCcQvD7gM,4
+vcc_lib-0.1.18.1.dist-info/RECORD,,
