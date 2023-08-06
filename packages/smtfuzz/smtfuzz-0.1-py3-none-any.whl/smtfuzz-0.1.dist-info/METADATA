@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: smtfuzz
+Version: 0.1
+Summary: A random input generator SMT-LIBv2 files
+Home-page: https://github.com/ZJU-Automated-Reasoning-Group/smtfuzz
+Download-URL: https://github.com/ZJU-Automated-Reasoning-Group/smtfuzz
+Author: The authors of smtfuzz
+License: GPLv3
+Project-URL: Source Code, https://github.com/ZJU-Automated-Reasoning-Group/smtfuzz
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=2.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+smtfuzz: A random generator for SMT-LIB2 formulas
+====================================================
+
+
+Just type `smtfuzz`, and you will see an SMT-LIB2 formula in the screen.
+
+
+For more advanced options, please try `smtfuzz -h`
