@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+perceptronAI/__init__.py
+perceptronAI/perceptronAI.py
+perceptronAI.egg-info/PKG-INFO
+perceptronAI.egg-info/SOURCES.txt
+perceptronAI.egg-info/dependency_links.txt
+perceptronAI.egg-info/requires.txt
+perceptronAI.egg-info/top_level.txt
