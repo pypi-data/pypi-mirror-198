@@ -1,0 +1,9 @@
+numpy
+sympy
+
+[dev]
+cython
+pyximport
+
+[examples]
+tqdm
