@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moxtrice"
+authors = [
+    {name = "Xie Zejian", email = "xiezej@gmail.com"},
+]
+description = "A simple tool to synchronize between moxfield.com and cockatrice"
+readme= "README.md"
+license = {file="LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "requests",
+    "emoji",
+    "ml_collections",
+    "tqdm",
+    "pathvalidate"
+]
+
+dynamic = ["version"]
+
+[project.scripts]
+moxtrice = "moxtrice.main:absl_main"
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+write_to = "moxtrice/_version.py"
+
+[project.urls]
+"Homepage" = "https://github.com/fecet/moxtrice"
+"Bug Tracker" = "https://github.com/fecet/moxtrice/issues"
