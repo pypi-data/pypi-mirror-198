@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: positional-lsb
+Version: 1.0.0
+Summary: A package for hiding data in an image using the Positional LSB algorithm
+Project-URL: Homepage, https://github.com/neamaddin/positional-lsb
+Project-URL: Bug Tracker, https://github.com/neamaddin/positional-lsb/issues
+Author-email: Neamaddin Akhmedov <neamaddin.a@mail.ru>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: opencv-python>=4.6.0.66
+Requires-Dist: pycryptodome>=3.15.0
+Provides-Extra: flake8
+Requires-Dist: flake8>=6.0.0; extra == 'flake8'
+Provides-Extra: mypy
+Requires-Dist: mypy>=1.1.1; extra == 'mypy'
+Provides-Extra: pytest
+Requires-Dist: pytest-cov>=4.0.0; extra == 'pytest'
+Requires-Dist: pytest-mock>=3.10.0; extra == 'pytest'
+Requires-Dist: pytest>=7.2.2; extra == 'pytest'
+Description-Content-Type: text/markdown
+
+# Positional LSB
+
+[![tests](https://github.com/neamaddin/positional-lsb/actions/workflows/tests.yml/badge.svg)](https://github.com/neamaddin/positional-lsb/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/neamaddin/positional-lsb/branch/main/graph/badge.svg?token=ZO0TQ25F6C)](https://codecov.io/gh/neamaddin/positional-lsb)
+[![python-versions](https://img.shields.io/pypi/pyversions/positional-lsb)](https://pypi.org/project/positional-lsb/)
+[![version](https://img.shields.io/pypi/v/positional-lsb)](https://github.com/neamaddin/positional-lsb/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/neamaddin/positional-lsb)](https://github.com/neamaddin/positional-lsb/blob/master/LICENSE)
+
+Пример использования:
+
+```python 
+from positional_lsb.stego import PositionalLSBImage
+
+
+if __name__ == '__main__':
+    lsb_encode = PositionalLSBImage('empty_image.[jpg, png, ...]', 'Passw0rd')
+    with open('file_to_hide.*', 'rb') as file:
+        lsb_encode.encode_with_3des(file.read(), 'new.png')
+
+    lsb_decode = PositionalLSBImage('new.png', 'Passw0rd')
+    with open('output_file.*', 'wb') as file:
+        file.write(lsb_decode.decode_with_3des())
+
+```
+
+В данном примере показано приминение алгоритма с использование шифроваия 3DES
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
