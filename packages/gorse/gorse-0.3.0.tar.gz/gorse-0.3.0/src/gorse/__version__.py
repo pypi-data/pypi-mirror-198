@@ -1,0 +1,10 @@
+__title__ = "gorse"
+__description__ = "Python HTTP for Humans."
+__url__ = "https://github.com"
+__version__ = "0.3.0"
+__build__ = 0x36013
+__author__ = "Mark Hoo"
+__author_email__ = "markhoo@foxmail.com"
+__license__ = "Apache 2.0"
+__copyright__ = "Copyright Mark Hoo"
+__cake__ = "\u661F\u661F\u661F"
