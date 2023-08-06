@@ -1,0 +1,10 @@
+csv_export/__init__.py,sha256=_7OlQdbVkK4jad0CLdpI0grT-zEAb-qgFmH5mFzDXiA,22
+csv_export/apps.py,sha256=xQQbmDSDXUDg7IfHuq8gIIPDyg_-iWAdih0OeDhAXfc,135
+csv_export/views.py,sha256=45w8Lv5BQxf_i4QMm4gFz1P1hFqbBRMq2ZRDDPrCrQ8,6778
+django_csv_export_view-2.0.0.data/data/CHANGELOG.md,sha256=RY6X1DxdsdeAJOBTY_I89Uc_YTSlfJLeR4HSRuw2Qb4,2607
+django_csv_export_view-2.0.0.data/data/README.md,sha256=BWgGK2_O1yRJg09cUdx2d0T3OjuLpOUUjsdvVo-aa34,5203
+django_csv_export_view-2.0.0.dist-info/LICENSE,sha256=yGBOHGGS7mklMqRLHmq0VhAit3-DWVB_5HB1EevqYB4,1484
+django_csv_export_view-2.0.0.dist-info/METADATA,sha256=OWZn3H7ewFMe_cGXx4M49p9zpvQFY5NpVjOw0NMfx6o,6258
+django_csv_export_view-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_csv_export_view-2.0.0.dist-info/top_level.txt,sha256=6oBmmpFV-9y44y14YZf9NU7V-rB4vFnfIuvXTnk0kSE,11
+django_csv_export_view-2.0.0.dist-info/RECORD,,
