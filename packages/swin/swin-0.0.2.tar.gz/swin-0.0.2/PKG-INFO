@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: swin
+Version: 0.0.2
+Summary: Swin: SoftWare INsights
+Project-URL: Homepage, https://github.com/lunarserge/swin
+Project-URL: Bug Tracker, https://github.com/lunarserge/swin/issues
+Author: Serge Lunev
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: matplotlib
+Requires-Dist: numerize
+Requires-Dist: pandas
+Requires-Dist: prettytable
+Requires-Dist: pypistats
+Description-Content-Type: text/markdown
+
+# swin
+Software Insights
