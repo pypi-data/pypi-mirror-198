@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-request-track
+Version: 0.0.1
+Summary: Save log for requests with detail's
+Home-page: https://github.com/PooyaRezaee/django-request-logger
+Author: PooyaRezaee
+Author-email: pooya.rezaee.official@gmail.com
+License: MIT
+License-File: LICENSE
+
