@@ -1,0 +1,14 @@
+molspotter/__init__.py,sha256=O1eoh9aW1QAjdAwFpijxadqJSetex2tRrn7V7kQxInA,167
+molspotter/cli.py,sha256=pMCWPxOXYRT_M4tyD3y7dR5wQ86DccLkHaOmCxngk70,2498
+molspotter/io.py,sha256=kNn-UIjayTjSkdoHZs2uEueOPVxhiwVi3mDeS-D_1ws,13236
+molspotter/molspotter.py,sha256=7FVPnqXwdD-IXFga4JVp_BIUejy02TgagEv1tglxQFA,8077
+molspotter/spotters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+molspotter/spotters/chembl_32.sp,sha256=Na3A8q598UeSAWuKXfXTwnjS_n1KwG8h-Vhm9hjFVSA,113056
+molspotter/spotters/excapedb.sp,sha256=hBTpBdjJi2pULORKHU0-nW3grOtHv3Vfq-DQ87fyMps,70916
+molspotter/spotters/papyrus_05.6.sp,sha256=9b_i0fBhCAgTURzkjsk89VlwL5iRh17UQI7Uwzjvgx0,77720
+molspotter-0.0.1.dist-info/LICENSE,sha256=LX2I1oyKMdfBSgBCJt7eINgH77EKp4eQKTicAWBdP08,1093
+molspotter-0.0.1.dist-info/METADATA,sha256=po1U6sBsIRqjLgfQBMjsz9wkPh5Ki9vWme5FBXHVxPw,3397
+molspotter-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+molspotter-0.0.1.dist-info/entry_points.txt,sha256=GTryVgO79KCgmO1pTgrsMBozRvCtZNwQg7u49IJDJkY,51
+molspotter-0.0.1.dist-info/top_level.txt,sha256=DhaWs67UwiisK6nXuRhJabtB3vwI9bITE3iz7ZDzyEs,11
+molspotter-0.0.1.dist-info/RECORD,,
