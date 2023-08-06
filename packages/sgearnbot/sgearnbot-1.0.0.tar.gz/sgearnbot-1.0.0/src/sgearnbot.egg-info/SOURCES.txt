@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/sgearnbot/__init__.py
+src/sgearnbot/lsedb.py
+src/sgearnbot/sgearnbot.py
+src/sgearnbot.egg-info/PKG-INFO
+src/sgearnbot.egg-info/SOURCES.txt
+src/sgearnbot.egg-info/dependency_links.txt
+src/sgearnbot.egg-info/top_level.txt
