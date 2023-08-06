@@ -1,0 +1,9 @@
+model_inference_fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model_inference_fastapi/main.py,sha256=PtrhEkJR64aOGNeFqwl9Hy2rK46G14toqv2hKaQIbQU,1876
+model_inference_fastapi/model_service.py,sha256=F8w4EvDZR88haRel_T5pq-_5aAXjAOnvF4IURT2Ewvc,499
+model_inference_fastapi/model_service_base.py,sha256=Pe5XmMRYad9VLsJcC0yfscmdDKZzeP_cZaaZmFNxz_g,458
+model_inference_fastapi/utils.py,sha256=_LcTsDTEK2XQMETY-fwLBdp0WuZt-kFEVPkk5Im2CJA,1345
+model_inference_fastapi-0.0.1a0.dist-info/METADATA,sha256=755ZFgArVAdlO_VK3mV8bpZFNca33-d4pz-_a4Uam80,7444
+model_inference_fastapi-0.0.1a0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+model_inference_fastapi-0.0.1a0.dist-info/licenses/LICENSE,sha256=z5CaAid70LayH1ZwfTMTbsvwb47z1sTast_xLVvVrSI,1071
+model_inference_fastapi-0.0.1a0.dist-info/RECORD,,
