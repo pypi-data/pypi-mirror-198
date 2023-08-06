@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs-expose-page-metadata = mkdocs_expose_page_metadata.plugin:ExposePageMetadataPlugin
