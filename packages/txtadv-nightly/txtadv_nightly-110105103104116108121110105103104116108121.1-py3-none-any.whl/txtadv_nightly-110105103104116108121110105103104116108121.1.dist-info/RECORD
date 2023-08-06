@@ -1,0 +1,13 @@
+txtadv_nightly/BUILD_DESC.md,sha256=_STNIDSEF-_SVnhdj3n93M3QMtNUYQjKSYLNDGLdbSQ,414
+txtadv_nightly/__init__.py,sha256=2mBP2dEUgIcjRRRZINYSv4rOf-CcT-w89mFgIrQM_tY,11499
+txtadv_nightly/color/__init__.py,sha256=tQI73arRV9oCULr5I3gOLwFnwH9bh8c9nDYy9CaSjMA,759
+txtadv_nightly/commands/__init__.py,sha256=t8YzdoyOCjlr0n4boyyversHeFqd6J1L8TfcUnPCqpM,7006
+txtadv_nightly/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+txtadv_nightly/file/load.py,sha256=wZRPWM3pbZCez8CF1-PRTp8HR_WiA43_vSaZHfcBbgg,2546
+txtadv_nightly/file/save.py,sha256=U3J04vcYSvqVEBcw4nAlK8Di56UBEe706c-0HndJD4o,1696
+txtadv_nightly/location/__init__.py,sha256=vncolT2rFbfIY_R2VNK5ZUaXdH5QnQwXkosGiCKowPc,720
+txtadv_nightly/messaging/__init__.py,sha256=terYFUfJJ09ZVBuhq3-C3-3sRRAFKp2mmJapjScO0X8,1955
+txtadv_nightly-110105103104116108121110105103104116108121.1.dist-info/LICENSE,sha256=m37mkNcV7ubcwT6jUuDEfpiRtzpeJm5gBtMyIQfiFnQ,1068
+txtadv_nightly-110105103104116108121110105103104116108121.1.dist-info/METADATA,sha256=9IMAcgtiF8cNKBOEhkl_81KZSfn8p14Vra0ZAPReO90,877
+txtadv_nightly-110105103104116108121110105103104116108121.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+txtadv_nightly-110105103104116108121110105103104116108121.1.dist-info/RECORD,,
