@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: VSsetup
+Version: 1.0
+Summary: Use this tools to change the color of the outputs in the terminal
+Author: Ruben Hinojar
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Deep Learning Assistant
+
+Recommended for Visual Studio Code.
+
+Use this tools to change the color of the outputs in the terminal.
+
+For more projects and libraries like this visit my [GitHub Profile](https://github.com/Papahana)
+
+## Installing
+
+```
+pip install VSsetup
+```
+
+```
+from VSsetup.vs_tools import Terminal
+```
+
+### Install Requires
+
+```
+colorama
+```
