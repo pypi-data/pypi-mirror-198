@@ -1,0 +1,17 @@
+waffle_hub/__init__.py,sha256=k_ZVKL0z2HWqTOyCMvc5K0Zit_y5P1QeU_gZi-ZaG7Q,2483
+waffle_hub/run.py,sha256=gqAEp1lBdHmlqHHfHukfQPdc10TFgvdeir3jlpEA3FU,1247
+waffle_hub/hub/__init__.py,sha256=xHR7xiaXu_bSWZ6t2K4zSion7k-gfXrlB4HxXWOyZ2g,158
+waffle_hub/hub/base_hub.py,sha256=9mq4u4Q0Y839Dy2He1aE155hOZcaO6h8pxvTOe5OAkI,18663
+waffle_hub/hub/ultralytics_hub.py,sha256=7YKVYC96ygYkaauCS984d0ltg48hMFr4Y-7CiNwsY_0,7659
+waffle_hub/hub/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waffle_hub/hub/model/wrapper.py,sha256=fNayK7q0jGHOo1D2beeLXsbqqqRFu2W3zLpHkP9gEJk,4958
+waffle_hub/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waffle_hub/schemas/configs.py,sha256=hxE3rjywpsTpu0Klbr_LEwBnbeaL0ijZGnhOQgbkt6U,679
+waffle_hub/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waffle_hub/utils/image.py,sha256=jnfVfs0eWZvMDcxaeHEeSRXFfigzdhLb_uYxK8PaprE,5024
+waffle_hub-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+waffle_hub-0.1.0.dist-info/METADATA,sha256=0a7n-X3Umcst0XWtiMbafCUW101VKFhk0farCkgsyBU,3109
+waffle_hub-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+waffle_hub-0.1.0.dist-info/entry_points.txt,sha256=Er8eoCdqGTNTzjyeIwPinQ-p4MEDYafyaNm4XmNjsKo,42
+waffle_hub-0.1.0.dist-info/top_level.txt,sha256=Tll01uaS4urML_QT0gHaUtIJ59C-_EG1gobhhCHelM4,11
+waffle_hub-0.1.0.dist-info/RECORD,,
