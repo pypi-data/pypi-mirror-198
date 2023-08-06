@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2023-03-18 05:41 and 2023-03-23 16:31.
 
-The repo is 34% (13992/40000) complete.
+The repo is 39% (15992/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-198/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| pydantic-core | 316 |
-| netbox-storage | 254 |
-| pyllamacpp | 164 |
-| pycextensions | 138 |
-| ddtrace | 138 |
-| nucliadb-node-binding | 132 |
-| llamacpp | 122 |
-| alacorder | 116 |
-| pytomlpp | 114 |
-| colourtime | 107 |
-| hiddifypanel | 92 |
-| reverse-geocoder-whl | 89 |
-| SQLAlchemy | 82 |
-| pyerfa | 80 |
-| rpycocotools | 79 |
-| pyzmq | 77 |
-| pywry | 77 |
-| libsemigroups-pybind11 | 74 |
-| cy-root | 74 |
-| ujrpc | 69 |
-| pygame | 68 |
-| pyflagsercount | 68 |
-| petra-grid | 67 |
-| typeset-soren-n | 66 |
-| pyo3-tonic-greeter-example | 66 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-198).
 
 
