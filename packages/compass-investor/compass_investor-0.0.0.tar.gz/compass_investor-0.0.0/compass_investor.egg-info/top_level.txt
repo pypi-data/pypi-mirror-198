@@ -1,0 +1,7 @@
+compass
+data
+dist
+docs
+make
+notebook
+tests
