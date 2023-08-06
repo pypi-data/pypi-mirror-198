@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PgsFile
+Version: 0.0.1
+Summary: To make coding easier for literary students
+Home-page:  
+Author: Pan Guisheng
+Author-email: 895284504@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free For Educational Use
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Purpose: This module is to facilitate Python beginners for the convenience of easily operating files of txt, xlsx and json. It has two usages: getting data from the files and save processing results in the files.
+Author: Pan Guisheng, a PhD student at the Graduate Institute of Interpretation and Translation of Shanghai International Studies University
+E-mail: 895284504@qq.com
+
