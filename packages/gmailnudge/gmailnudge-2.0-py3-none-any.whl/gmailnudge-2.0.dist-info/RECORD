@@ -1,0 +1,11 @@
+gmailnudge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gmailnudge/gmailnudge.py,sha256=s3p_2XF7OeujbL4Fqa-6W2Ld-ujZq3Ml6IqRZ3VBlUY,6896
+gmailnudge/deployment_files/creds_SMTP,sha256=dj5Yf0airDChEGngZkTVSrg3G8fNXqTha-B2G1r0hJY,190
+gmailnudge/deployment_files/gmailnudge.cfg,sha256=xlGRK6j_BSgSNy4NP95nYiaEOaffjGq-TAtUzwxVsM8,1472
+gmailnudge/deployment_files/gmailnudge.service,sha256=eQY79AS6CC--vMfKpXgPJxn4hlGZBjB9Boivwq5osgE,223
+gmailnudge-2.0.dist-info/LICENSE.txt,sha256=2SChajJBlOYXT2Ims4fJfqJTnrR7tawN0mRbWm0v_sA,1088
+gmailnudge-2.0.dist-info/METADATA,sha256=gZtyGG55WhYIyXUxzY33o6V01fyqb9fJMm8gxU2uifM,8196
+gmailnudge-2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gmailnudge-2.0.dist-info/entry_points.txt,sha256=n4riiHtCuVPasHYk0xJTkIBpuxCFjZA6XCUi-8FhvQo,55
+gmailnudge-2.0.dist-info/top_level.txt,sha256=3K3ZFDDTEpBQGJNSVcrnOs-92eCSAytq40yNuycaS5Q,11
+gmailnudge-2.0.dist-info/RECORD,,
