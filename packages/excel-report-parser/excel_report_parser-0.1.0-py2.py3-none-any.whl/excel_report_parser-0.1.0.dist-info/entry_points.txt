@@ -1,0 +1,2 @@
+[console_scripts]
+erp = program.main:main
