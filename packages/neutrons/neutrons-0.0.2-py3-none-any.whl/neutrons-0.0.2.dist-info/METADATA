@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: neutrons
+Version: 0.0.2
+Summary: Neutron scattering physics simulation
+Author: FreddyWordingham
+Author-email: freddy@digilab.co.uk
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: maturin (>=0.14.15,<0.15.0)
+Description-Content-Type: text/markdown
+
+# Neutron
+
+Neutron scattering physics simulation
+
+<div align="center">
+    <img src="./resources/images/distance.png" width="512" height="512" />
+</div>
+
+## Installation
+
+### Dependencies
+
+-   [Rust](https://www.rust-lang.org/tools/install)
+
+### Quickstart
+
+Downloading the release tool should be as simple as:
+
+```shell
+cargo install neutrons
+```
+
+Create a directory called `input`, and within it add a parameters file called `parameters.json`:
+
+```shell
+mkdir input
+touch input/parameters.json
+```
+
+The parameters file should look something like [this](./input/parameters.json).
+
+You can then run the program with:
+
+```shell
+neutrons parameters.json
+```
+
