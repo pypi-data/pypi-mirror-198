@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloudshell-shell-networking-standard
+Version: 6.0.0
+Summary: QualiSystems Shells Networking Standard Package
+Home-page: https://www.quali.com/
+Author: Quali
+Author-email: info@quali.com
+Requires-Python: ~=3.7
+License-File: LICENSE.htm
+
+QualiSystems Shells Networking Standard Package
