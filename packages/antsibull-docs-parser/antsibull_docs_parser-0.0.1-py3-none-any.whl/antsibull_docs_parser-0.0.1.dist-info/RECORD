@@ -1,0 +1,14 @@
+antsibull_docs_parser/__init__.py,sha256=3L232-4wbE715l_61DydmL9jkVMGFTU1hCjHLstK8bU,209
+antsibull_docs_parser/_parser_impl.py,sha256=ogXD6A2_dqSPsvTbMG0AM6wH3PtVO4jsdUfwC8CLkcM,2984
+antsibull_docs_parser/dom.py,sha256=0oGCLbIyT-PrysrWZLex71pXYgZ1nx2Ji3jhIUk82KU,8154
+antsibull_docs_parser/format.py,sha256=5bHhllpOEL8VPL3VmFIfUtb2DYJqQcw_su9cEwnhh80,7750
+antsibull_docs_parser/html.py,sha256=qtK899Ws3TsnOszv7oLpGokdFDcWE_5IjqineXXfMw8,8917
+antsibull_docs_parser/md.py,sha256=rMqhVx-gjDTeZIF_YR5ovkX56C1GKQigHLyBWDzpD8o,4091
+antsibull_docs_parser/parser.py,sha256=8fW-sjVgpt8iQuAiGzBTrv-eSNvBETIfiKnPweVmN68,10830
+antsibull_docs_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antsibull_docs_parser/rst.py,sha256=SFLA55TLeeNA6PY0C0blYLU2GzBTAq5DXpoSEsOgCCA,4422
+antsibull_docs_parser-0.0.1.dist-info/METADATA,sha256=C6wn9sm8Xic-v10TtULWYXwcYQcffznlAEweYMEGKxQ,2029
+antsibull_docs_parser-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+antsibull_docs_parser-0.0.1.dist-info/licenses/LICENSES/BSD-2-Clause.txt,sha256=8R5R7R7sOa0h1Fi6RNgFgHowHBfun-OVOMzJ4rKAk2w,1237
+antsibull_docs_parser-0.0.1.dist-info/licenses/LICENSES/GPL-3.0-or-later.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+antsibull_docs_parser-0.0.1.dist-info/RECORD,,
