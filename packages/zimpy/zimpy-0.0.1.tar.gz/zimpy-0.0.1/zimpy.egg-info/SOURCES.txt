@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+zimpy/__init__.py
+zimpy/zimpy.py
+zimpy.egg-info/PKG-INFO
+zimpy.egg-info/SOURCES.txt
+zimpy.egg-info/dependency_links.txt
+zimpy.egg-info/not-zip-safe
+zimpy.egg-info/top_level.txt
