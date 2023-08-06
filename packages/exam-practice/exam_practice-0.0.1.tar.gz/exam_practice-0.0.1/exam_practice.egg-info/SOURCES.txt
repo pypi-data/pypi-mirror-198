@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+exam_practice/__init__.py
+exam_practice/exam_practice.py
+exam_practice.egg-info/PKG-INFO
+exam_practice.egg-info/SOURCES.txt
+exam_practice.egg-info/dependency_links.txt
+exam_practice.egg-info/not-zip-safe
+exam_practice.egg-info/top_level.txt
