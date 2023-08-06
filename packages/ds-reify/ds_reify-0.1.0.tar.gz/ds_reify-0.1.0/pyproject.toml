@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "ds-reify"
+version = "0.1.0"
+description = "A CLI helper for [Distributed-Something](https://github.com/DistributedScience/Distributed-Something)"
+authors = ["Nodar Gogoberidze <gnodar01@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://distributedscience.github.io/Distributed-Something/introduction.html"
+repository = "https://github.com/gnodar01/ds-reify"
+keywords = ["Distributed-Something", "DistributedScience"]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+rich-click = "^1.6.1"
+
+[tool.poetry.scripts]
+dsreify = "ds_reify.dsreify:main"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.2"
+coverage = {extras = ["toml"], version = "^7.2.2"}
+pytest-cov = "^4.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+flake8 = "^6.0.0"
+flake8-bandit = "^4.1.1"
+flake8-black = "^0.3.6"
+flake8-bugbear = "^23.3.12"
+flake8-import-order = "^0.18.2"
+safety = "^2.3.5"
+mypy = "^1.1.1"
+flake8-annotations = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+# lists of file paths that should be considered equivalent when combining data
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+# whether to measure branch coverage in addition to statement coverage
+# ie when line in program can jump to more than one next line (eg conditional)
+branch = true
+# (multi-string) A list of packages or directories
+# the source to measure during execution
+source = ["ds_reify"]
+
+[tool.coverage.report]
+# When running a summary report, show missing lines
+show_missing = true
