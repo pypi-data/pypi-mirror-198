@@ -1,0 +1,4 @@
+plugins
+querysource
+resources
+settings
