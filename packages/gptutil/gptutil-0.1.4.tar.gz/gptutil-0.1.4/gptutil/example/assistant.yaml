@@ -1,0 +1,148 @@
+simple_chat:
+  user_prompt: |-
+    "{question}"
+  params:
+    - name: "question"
+      type: "each"
+      value: "質問内容"
+  history:
+    type: "file"
+    path: "~/.simple_chat_history"
+
+coder:
+  system_prompt: |-
+    """
+    Brainstorm in any language you have ever learned and generate Linux commands to run now.
+    Set up for the purpose of creating test code for the source code stored in `{pwd}`.
+    You will output only Linux commands in code blocks and no natural language will be spoken.
+    The process you are to perform can be described as follows when converted into pseudo python code.
+    This is pseudo code and you will only answer Linux commands.
+    ````python
+    def search_py_files()::
+      # Search the current directory for py files and return a list. Do not pipe in commands.
+      return pyfiles
+    def read_file_command(filename).
+      # return a command that prints the contents of a single filename given
+      # Example `cat filename`.
+      return '```bash\n'' + cmd + '\n``'
+    def create_test_file(code)::
+      # Generate test code from source code using language model
+      # Generate and return a command to save the test code using the Linux command redirect
+      return '```bash\n'' + cmd + '\n``'
+    def me(command)::
+      # type the result of my command execution.
+      return cmd_result
+    while True: for pyfile in search_pyfile
+      for pyfile in search_pyfiles()::
+        create_test_file(me(read_file(pyfile)))
+    ```
+    Example of a conversation
+    * You
+    ```bash
+    find {pwd} -name '*.py' -type f -not -path '*/tests/*' -not -name '__init__.py' -not -name 'setup.py' -print
+    ```
+    * me
+    ```bash
+    find {pwd} -name '*.py' -type f -not -path '*/tests/*' -not -name '__init__.py' -not -name 'setup.py' -print
+    ```
+    # result
+    ```bash
+    ./path/hoge1.py
+    ./path/hoge2.py
+    ./path/hoge3.py
+    ```
+    * You
+    ```bash
+    cat ./path/hoge1.py
+    ```
+    * me
+    ```bash
+    cat ./path/hoge1.py
+    ```
+    # result
+    ```bash
+    def target_func(arg):
+      print(arg)
+    ```
+    * You
+    ```bash
+    mkdir -p {pwd}/tests
+    cat << __EOF__ > {pwd}/tests/test_hoge1.py
+    def test_target_func(capsys):
+        from hoge import target_func
+        target_func('test')
+        captured = capsys.readouterr()
+        assert captured.out.strip() == 'test'
+    __EOF__
+    """
+  user_prompt: |-
+    "Please start by locating the file to be tested. Current directory: {pwd}"
+  params:
+    - name: "pwd"
+      type: "static"
+      value: "${PWD}"
+    - name: "question"
+      type: "each"
+      value: "始めましょう"
+  agent: 
+    name: "code"
+    args: |-
+      "The command could not be executed. What file do you want to test code next?
+      The command should be enclosed in a code block.
+      ```bash
+      linux command here
+      ```"
+  history:
+    type: "file"
+    path: "~/.coder_chat_history"
+
+command_debug:
+  system_prompt: |-
+    "あなたはLinuxコマンドについての問題解決を行うアシスタントです。
+    実行環境: {environment}"
+  user_prompt: |-
+    "以下のエラーを修正して下さい。
+    実行コマンド: {command}
+    エラー内容: {error}"
+  params:
+    - name: "environment"
+      type: "once"
+      value: "実行環境"
+    - name: "command"
+      type: "each"
+      value: "実行したコマンド"
+    - name: "error"
+      type: "each"
+      value: "エラー内容"
+  history: 
+    type: "memory"
+
+pentest:
+  system_prompt: |-
+    "次のターゲットにペネトレーションテストを行う必要があります。
+    コマンドの実行手順を教えて下さい。
+    {target}"
+  user_prompt: |-
+    "以下を実行しました。次に実行するべき代表的なツール名や実行コマンドの例を出して下さい。
+    実行したコマンド: {command}
+    実行結果: {result}
+    その他の質問: {question}"
+  params:
+    - name: "target"
+      type: "once"
+      value: "ターゲット(ip,url,domainなど)"
+    - name: "command"
+      default: "まだ実行していません"
+      type: "each"
+      value: "実行したコマンド"
+    - name: "result"
+      type: "each"
+      default: "N/A"
+      value: "実行結果"
+    - name: "question"
+      type: "each"
+      value: "その他の質問"
+  history:
+    type: "file"
+    path: "~/.pentest_history"
+
