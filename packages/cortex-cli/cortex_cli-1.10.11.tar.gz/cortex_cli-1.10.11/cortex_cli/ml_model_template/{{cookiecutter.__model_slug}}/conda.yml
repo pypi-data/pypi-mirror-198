@@ -1,0 +1,30 @@
+name: {{cookiecutter.__model_name}}
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.13
+  - cloudpickle=2.1.0
+  - pyopenssl=22.0.0
+  - numpy
+  - mlflow
+  - pandas
+  - scikit-learn
+  - prophet
+  - plumbum
+  - python-utils
+  - requests
+  - cookiecutter
+  - pathlib
+  - pyyaml
+  - setuptools
+  - openpyxl
+  - xlrd
+  - conda-pack
+  - async-timeout
+  - aiohttp
+  - pip
+  - pip:
+    - cortex-cli==1.10.11
+    - mlserver
+    - mlserver-mlflow
+    - fairlearn
