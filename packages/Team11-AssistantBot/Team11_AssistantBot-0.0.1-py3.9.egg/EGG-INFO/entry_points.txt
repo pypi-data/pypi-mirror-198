@@ -1,0 +1,3 @@
+[console_scripts]
+assist = Team11_AssistantBot.main
+
