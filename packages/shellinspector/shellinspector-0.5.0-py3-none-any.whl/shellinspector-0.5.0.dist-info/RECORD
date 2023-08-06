@@ -1,0 +1,10 @@
+shellinspector/__about__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+shellinspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shellinspector/__main__.py,sha256=V4abX0yhat_g_0OAcjPJIZ3MkExg3NB6rfscOEOHM9I,2592
+shellinspector/parser.py,sha256=FArCDoDiCjjFJLwRl7rElHIxRDrZ9SDVTDaRFSSSNtA,3132
+shellinspector/reporter.py,sha256=1iz5snmUucQYgEAng2Lyh_Id3EnrJooesorjyTAZxy8,1649
+shellinspector/runner.py,sha256=RPTZlQm_UjEbEcbn_yKWmB8sneSiqZyAdsC52GGdUMk,7686
+shellinspector-0.5.0.dist-info/METADATA,sha256=vwXyO3o6O1MkHVJHPEUzKCXXgmugI3YIcLxcUlhyTaU,1603
+shellinspector-0.5.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+shellinspector-0.5.0.dist-info/entry_points.txt,sha256=ekTzFAMxi5ChCz4re0J9nhNIIe7eMnmM79-7nEN5CYE,64
+shellinspector-0.5.0.dist-info/RECORD,,
