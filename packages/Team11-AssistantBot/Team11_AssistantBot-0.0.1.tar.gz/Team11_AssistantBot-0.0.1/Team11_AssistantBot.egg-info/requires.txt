@@ -1,0 +1,5 @@
+color-it
+prompt_toolkit
+functools
+typing
+prettytable

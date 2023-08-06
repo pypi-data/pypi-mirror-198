@@ -1,0 +1,7 @@
+setup.py
+Team11_AssistantBot.egg-info/PKG-INFO
+Team11_AssistantBot.egg-info/SOURCES.txt
+Team11_AssistantBot.egg-info/dependency_links.txt
+Team11_AssistantBot.egg-info/entry_points.txt
+Team11_AssistantBot.egg-info/requires.txt
+Team11_AssistantBot.egg-info/top_level.txt
