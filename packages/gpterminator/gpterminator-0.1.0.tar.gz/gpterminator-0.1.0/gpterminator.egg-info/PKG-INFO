@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gpterminator
+Version: 0.1.0
+Summary: GPTerminator provides a convenient way to interact with OpenAIs chat completion and image generation APIs using your command line interface.
+Home-page: https://github.com/AineeJames/ChatGPTerminator
+License: LICENSE
+Project-URL: Documentation, https://github.com/AineeJames/ChatGPTerminator
+Keywords: chatgpt cli python
+License-File: LICENSE
