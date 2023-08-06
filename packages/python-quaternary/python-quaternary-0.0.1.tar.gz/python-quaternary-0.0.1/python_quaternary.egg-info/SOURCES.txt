@@ -1,0 +1,10 @@
+LICENSE
+README.txt
+setup.py
+python_quaternary.egg-info/PKG-INFO
+python_quaternary.egg-info/SOURCES.txt
+python_quaternary.egg-info/dependency_links.txt
+python_quaternary.egg-info/requires.txt
+python_quaternary.egg-info/top_level.txt
+quaternary/Quaternary.py
+quaternary/__init__.py
