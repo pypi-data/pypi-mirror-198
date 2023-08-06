@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: flask-apispec-tools
+Version: 0.1.0
+License-File: LICENSE
+Requires-Dist: apispec-webframeworks ; python_version >= "0.5.2"
+Requires-Dist: Flask ; python_version >= "2.2.3"
+Requires-Dist: apispec ; python_version >= "6.3.0"
+
