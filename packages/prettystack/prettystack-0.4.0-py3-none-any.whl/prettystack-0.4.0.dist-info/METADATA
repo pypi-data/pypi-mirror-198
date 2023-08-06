@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: prettystack
+Version: 0.4.0
+Summary: Output pretty stack traces.
+Author-email: Colm O'Connor <colm.oconnor.github@gmail.com>
+License: MIT
+Project-URL: homepage, https://hitchdev.com/prettystack
+Project-URL: documentation, https://hitchdev.com/prettystack/using
+Project-URL: repository, https://github.com/crdoconnor/prettystack
+Project-URL: changelog, https://hitchdev.com/prettystack/changelog
+Keywords: stacktrace
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: colorama (>=0.4.0)
+Requires-Dist: jinja2 (>=2.10)
+Requires-Dist: path.py (>=9.1)
+
+# PrettyStack
