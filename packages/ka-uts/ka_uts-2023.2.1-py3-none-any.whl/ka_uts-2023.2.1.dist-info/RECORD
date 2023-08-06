@@ -1,0 +1,13 @@
+dist/ka_uts-2023.2.1.tar.gz,sha256=QmfSATrhmx-x5MEh7jyA61-LGZvzfWTRmTMZolJMjfk,7746
+ka_uts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ka_uts/__version__.py,sha256=WTz6woWsSrigks9N1nROc0NuGAL3qig2WAN8pdnhJYg,342
+ka_uts/ka_iop.py,sha256=Ult1S11LJVI-_L1CxQgYxH9RBLiBNDKy4VFyy-01o-0,883
+ka_uts/ka_paths.py,sha256=P2yxVlyVDnmQKxGLSYG3jyQfgZG6Z8xdJNgwwfIJ9h8,3942
+ka_uts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ka_uts/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ka_uts/data/log.yml,sha256=hCBsy34Nb3cHObRtMcjB2GtRLFqh-pzr3vuC1xB8PWY,2281
+ka_uts-2023.2.1.dist-info/LICENSE.txt,sha256=EC5PUOoKgczMKeDQgcPLP243EfLW24d4KntTnncLj_E,856
+ka_uts-2023.2.1.dist-info/METADATA,sha256=-hkZNT36YGshwb2lyUEyJgh2arFfHoGFoeC8sfRxb_8,2204
+ka_uts-2023.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ka_uts-2023.2.1.dist-info/top_level.txt,sha256=W7AFetunfgs4UYUu5srmpzy_1lr3ZDIDYSzCSmE19TA,12
+ka_uts-2023.2.1.dist-info/RECORD,,
