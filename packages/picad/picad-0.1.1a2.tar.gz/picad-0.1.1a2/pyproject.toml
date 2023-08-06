@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "picad"
+version = "0.1.1a2"
+description = "Python package for reading and writing KiCad 6+ files"
+authors = ["wideopentech <fossie@wideoppentech.co.uk>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+john = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
