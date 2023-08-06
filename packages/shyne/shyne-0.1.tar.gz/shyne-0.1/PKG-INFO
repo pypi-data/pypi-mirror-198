@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: shyne
+Version: 0.1
+Summary: A highly customizable game engine with nodal programming powered by pyNDL
+Home-page: https://github.com/merwynnn/Shyne
+Download-URL: https://github.com/merwynnn/Shyne/archive/refs/tags/v_01.tar.gz
+Author: Louis Gambardella
+Author-email: louis.gambardella03@gmail.com
+License: MIT
+Keywords: GameEngine,GameEngine,Nodal,Language,pyNDL,Blueprint
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
