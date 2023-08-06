@@ -1,0 +1,10 @@
+consortia_commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+consortia_commons/file/__init__.py,sha256=9vossl3W-X38lW-NHo3WaNjH22FD3EN-QZpYaPudYuw,535
+consortia_commons/object/__init__.py,sha256=plDP-YwQZEpRMJictMraHbCTVKuIXlrVXzJotS_ZPNQ,726
+consortia_commons/rest/__init__.py,sha256=4xkl53nfZ6M-pcD-zAUmbQRzd06YhlEqnp4oUdE687Q,3063
+consortia_commons/string/__init__.py,sha256=_6FQOPcFJBj1F-i64BkoNQr9S-K176HL4gLhIYOrxck,1093
+consortia_commons/ubkg/__init__.py,sha256=OkCMOe1d5No-d45EuV5laSRmdaXrBV6HYfvuBKZgpzc,3040
+consortia_commons-1.0.6.dist-info/METADATA,sha256=2bf-dnMsJoiA3WvBlV1IRELwuMFLo2G6bE6zlzJjbI0,1435
+consortia_commons-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+consortia_commons-1.0.6.dist-info/top_level.txt,sha256=bG6ha9m47ScsBCpbTjSg4m59jCCkmaKcdo6Ntm9RQL8,18
+consortia_commons-1.0.6.dist-info/RECORD,,
