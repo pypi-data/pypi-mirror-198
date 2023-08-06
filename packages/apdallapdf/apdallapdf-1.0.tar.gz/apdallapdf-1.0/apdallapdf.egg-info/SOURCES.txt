@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+apdallapdf/__init__.py
+apdallapdf/pdf2image.py
+apdallapdf/pdf2text.py
+apdallapdf.egg-info/PKG-INFO
+apdallapdf.egg-info/SOURCES.txt
+apdallapdf.egg-info/dependency_links.txt
+apdallapdf.egg-info/top_level.txt
