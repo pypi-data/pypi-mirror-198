@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "digilab"
+version = "0.0.0"
+description = "digiLab public API"
+authors = ["FreddyWordingham <freddy@digilab.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
