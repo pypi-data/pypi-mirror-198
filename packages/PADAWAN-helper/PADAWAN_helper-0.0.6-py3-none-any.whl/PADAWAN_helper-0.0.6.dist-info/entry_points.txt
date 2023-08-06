@@ -1,0 +1,2 @@
+[console_scripts]
+PADAWAN = PADAWAN_helper.menu:main
