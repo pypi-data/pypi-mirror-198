@@ -1,0 +1,5 @@
+[console_scripts]
+bashmate_config = post_install:post_install
+wiz = wizard:main
+wm = workman:main
+

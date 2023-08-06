@@ -1,0 +1,12 @@
+LICENCE.txt
+README.md
+post_install.py
+setup.py
+BashMate.egg-info/PKG-INFO
+BashMate.egg-info/SOURCES.txt
+BashMate.egg-info/dependency_links.txt
+BashMate.egg-info/entry_points.txt
+BashMate.egg-info/requires.txt
+BashMate.egg-info/top_level.txt
+Scripts/wizard.py
+Scripts/workman.py
