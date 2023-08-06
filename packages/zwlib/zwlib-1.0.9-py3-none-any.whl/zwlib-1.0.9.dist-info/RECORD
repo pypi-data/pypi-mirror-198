@@ -1,0 +1,8 @@
+pytransform/__init__.py,sha256=YeF5Do2h3r2K4V6x_PLXM4ti8aVU7R5tLmXN_jr6LiA,13383
+pytransform/_pytransform.so,sha256=5RCTFuZiK6pGwC3-piQzUHld3qV0LEuXeih6DnOH6p8,1193952
+zwlib/__init__.py,sha256=96pMBS4q3hMJqZ0a_mppDIW_ddcGGKtyjUAqcTVs11o,1237
+zwlib/zwlib.py,sha256=FUmXCbXvf9E_HB-ekVEu1ujAeIQi2bXOOHqUsVj4Cp0,15611
+zwlib-1.0.9.dist-info/METADATA,sha256=Yj7AQISqlnnK92NjjarTdIQfLjCqlYvi30dFX0KzZK4,1091
+zwlib-1.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+zwlib-1.0.9.dist-info/top_level.txt,sha256=KxfDm2CYFrVO9KDViZv6ZsRCo94OtQ2jchadaciNRbY,18
+zwlib-1.0.9.dist-info/RECORD,,
