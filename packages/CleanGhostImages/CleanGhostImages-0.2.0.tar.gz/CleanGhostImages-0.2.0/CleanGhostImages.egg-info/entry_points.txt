@@ -1,0 +1,2 @@
+[console_scripts]
+cleanghostimages = cleanghostimages.__main__:main
