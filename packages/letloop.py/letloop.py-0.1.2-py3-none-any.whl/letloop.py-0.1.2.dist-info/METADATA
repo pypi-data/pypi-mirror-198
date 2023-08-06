@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: letloop.py
+Version: 0.1.2
+Summary: A cloud for the parenthetical leaning doers
+Home-page: https://github.com/letloop/letloop.cloud/
+Author: Amir
+Author-email: amirouche@hyper.dev
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.28.2,<3.0.0)
