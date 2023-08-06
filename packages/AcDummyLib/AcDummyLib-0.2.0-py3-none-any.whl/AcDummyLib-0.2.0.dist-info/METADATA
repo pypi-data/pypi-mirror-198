@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: AcDummyLib
+Version: 0.2.0
+Summary: Assetto Corsa dummy library.
+Home-page: UNKNOWN
+Author: Kirby R
+Author-email: <andkirby@gmail.com>
+License: UNKNOWN
+Keywords: python,AC,Assetto Corsa,dummy,stub
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment :: Simulation
+License-File: LICENSE
+
+Assetto Corsa dummy library for "ac" object. Useful for autocompletion in IDE during development.
+
