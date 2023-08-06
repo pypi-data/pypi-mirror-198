@@ -1,0 +1,9 @@
+_damerau_levenshtein.cpython-311-darwin.so,sha256=UJo_6HT2rDFLQrMV4s1f8kPHSnP0vKtjSUp3abE3k40,50640
+_hamming.cpython-311-darwin.so,sha256=cS1uKGCtoyYTQREoxNN-Y-QjgAZrXh_63VCjoOyVPz8,50232
+fast_distance/__init__.py,sha256=YRFLurGxuHd_P2beXIrchp909eLfeu38H1zXYKWylp4,23
+fast_distance/_version.py,sha256=k5tJXhBQJ4l9fKHJ76K5w98zBHoYvNk9r-UNH6eQ2-k,21
+fast_distance/distance.py,sha256=Y6qtGGdflGux8LgI6HDFeSMDb1aQoGyDbohaJ5yTg80,238
+fast_distance-0.0.3.dist-info/METADATA,sha256=3bsqKAwVDAWWMT6zFdLE80s5-pV0lNIfIiz7VTDjBXo,58
+fast_distance-0.0.3.dist-info/WHEEL,sha256=HItbqhkHxDdqb3EiZkdf0t_UW4UoHbzg029edlNxhJw,111
+fast_distance-0.0.3.dist-info/top_level.txt,sha256=gdkR1wMa9PULYO1lxb2FUfkZFvo1iswgZszZXzqE7tM,44
+fast_distance-0.0.3.dist-info/RECORD,,
