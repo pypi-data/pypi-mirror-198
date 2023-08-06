@@ -1,0 +1,9 @@
+pycextensions/__init__.py,sha256=3ni3PmYZjvQcFzAEPisRTXHR-UFP8O5hSx8paGsMnVo,63
+pycextensions/fprintf.cp38-win_amd64.pyd,sha256=_KKSYbQ-zxH1ntTCY3kc73_t4OwOSZ7tsReZblVcfDE,11264
+pycextensions/main.py,sha256=9w9KQjrN0V9YCP15WjkjYUBw0o3xFwXJsBZjRZC1h48,84
+pycextensions/util.py,sha256=ZD2LyNsrM9KjQtWcWPVv2y3v6SREMNqzinF8eflsGak,547
+pycextensions-0.0.5.dist-info/LICENSE,sha256=MjjuzEVJhEzEeYbWXMf2zB_LnL2fdOt6YUgrdqFz43U,1091
+pycextensions-0.0.5.dist-info/METADATA,sha256=envjGb1ZFGi5LEb52L_ru3DdT5HzAvCZ_34i-ACKfu8,1131
+pycextensions-0.0.5.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+pycextensions-0.0.5.dist-info/top_level.txt,sha256=h5InxYXtx59lqSqPibMTB2OsGblKiTjJvmJpk7lRnSU,14
+pycextensions-0.0.5.dist-info/RECORD,,
