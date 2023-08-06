@@ -1,0 +1,9 @@
+doclient/clients/__init__.py,sha256=QCJuBgPk73BiUUXaWtL2Sw6Jla5iHLM6fHwCKSFscS8,63
+doclient/clients/k8s_client.py,sha256=08EPWWlnVyE5OhNRD8vGhleHWco0nrjaqlIR7E5WbaA,8845
+doclient/exceptions/apiexceptions.py,sha256=29fXtWliyou0v33GURWkr6Lwyfc-89Z-lA4PraNxmxc,42
+doclient/resources/k8s/schemas.py,sha256=9GV3JJPGYq77T-fy6_5ovL_-3WHmG2d5xGolugiOMPo,2151
+doclient/resources/vpc/schemas.py,sha256=dcdWCjFCYaNRuduY1q6jzs7w1HmeHThmraBY9ZncnbA,175
+async_doclient-0.1.0.dist-info/LICENSE,sha256=fozjTZGojsB54zwkrsNK3ouPCAtDYyvxer_777h_Oi8,1062
+async_doclient-0.1.0.dist-info/METADATA,sha256=CGo7jNaWVwcK1Omo5dqtLauA2qgNJ4d8I0RaVtoUnnY,728
+async_doclient-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+async_doclient-0.1.0.dist-info/RECORD,,
