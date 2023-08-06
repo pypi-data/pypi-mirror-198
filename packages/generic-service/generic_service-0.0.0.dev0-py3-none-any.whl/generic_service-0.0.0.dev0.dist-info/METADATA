@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: generic-service
+Version: 0.0.0.dev0
+Summary: Provides the basics for run and controlling a service running as a daemon.
+Author-email: Simon Patton <sjpatton@lbl.gov>
+License: BSD-3-Clause-LBNL
+Keywords: service,daemon,signals
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: python-daemon (>=3)
+
+[service_base](https://gitlab.com/nest.lbl.gov/service_base) contains the python package that provides a basic operations for an application that will run as a Unix daemon that can be controlled via a signals.
