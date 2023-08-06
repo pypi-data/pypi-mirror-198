@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pytotp-client
+Version: 0.4.0
+Summary: TOTP client for macOS
+Home-page: https://github.com/elisey/pytotp_client
+License: MIT
+Author: Elisei
+Author-email: elisey.rav@gmail.comp
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pykeychain (>=1.1.0,<2.0.0)
+Requires-Dist: pyotp (>=2.7.0,<3.0.0)
+Project-URL: Repository, https://github.com/elisey/pytotp_client
+Description-Content-Type: text/markdown
+
+# TOTP client for macOS
+
+- Written in Python
+- Secrets are stored in macOS keychain.
+
+## How to work with pytotp_client
+
+Add secret to keychain
+
+```shell
+totp add google.com BBBBDDDD
+```
+
+Get one time password
+
+```shell
+totp get google.com
+```
+
+Remove secret from keychain
+
+```shell
+totp delete google.com
+```
+
+## Where is my secrets stored?
+
+In macOS default keychain.
+ - Name: pytotp_client
+ - Type: application password
