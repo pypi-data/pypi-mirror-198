@@ -1,0 +1,11 @@
+tidypyspark/__init__.py,sha256=c-qBxsVwPqP5YGUV9QhRMO6qwR3VUMtS1un-5BAauQY,157
+tidypyspark/_unexported_utils.py,sha256=4t1ZJAxcbQVQy5Dkejuzb-2TmFn-BFkj2KqP2Im7cvg,6021
+tidypyspark/accessor_class.py,sha256=XT2sgBIa0W4AxflUNW8e_iNwrVi3jJHefNoNCkozvCg,2452
+tidypyspark/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidypyspark/data/pen.csv,sha256=8gTbLHU7CTfKrDyzUlhWLBTwc-S7x2viS0xRziJ2epM,15241
+tidypyspark/datasets.py,sha256=HP52Yn3L-Y2d0esVRHSA4qaJXRKQUW9-07pNQWLh3fQ,235
+tidypyspark/tidypyspark_class.py,sha256=C43N5v1G4QPteoRSGEaFjBCF_qr7QzOO4_w4QJBiUAc,110566
+tidypyspark-0.0.1.dist-info/LICENSE,sha256=02hP4J5PThNfWXcPTMMdBXgCMcVTdtVSiHNeUoZpsWA,35109
+tidypyspark-0.0.1.dist-info/METADATA,sha256=MYOa_BdKtMbFLAbPFCaqGYEaIZAUEIbBnjfnp_q8R68,3918
+tidypyspark-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tidypyspark-0.0.1.dist-info/RECORD,,
