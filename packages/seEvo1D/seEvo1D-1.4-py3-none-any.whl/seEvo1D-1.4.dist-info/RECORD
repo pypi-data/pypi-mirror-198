@@ -1,0 +1,15 @@
+seEvo1D/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seEvo1D/__main__.py,sha256=9qZFNIXIn3_GvQmFl0lAkh7p6mHeH-5kNyLwknHOWHM,104
+seEvo1D/externalPlots.py,sha256=x8MF2c7tU6gSRFXQSCh2469l-wQuwQDMbba_judu2P4,15573
+seEvo1D/mainView.py,sha256=qzwczqbbdC36nYaXMhVn68WbwCE35UGVDb27MUAhPqQ,24345
+seEvo1D/seEvo_analytical_model_1D.py,sha256=awUM-az8_Ui1kUZcxwJ8okFYrux7HQEn6AF0dfBClBQ,1916
+seEvo1D/seEvo_evolution_init.py,sha256=xgwElHDykV8EDYveQSwpeH84nuBE4g6bgTVK-Z24F_o,4856
+seEvo1D/seEvo_evolution_loop_1D.py,sha256=n7e5PS252nI32J9gdA0vuZh4r4JELW-UyNRiHi7U0oA,1890
+seEvo1D/wmean.py,sha256=BWuFwhRfCLMNFIynbysCZGtDQpzUiTpR6ps3dpaQEiU,176
+seEvo1D/workspace.py,sha256=QYUBOSNG_q5phSfby4-eH2rcq8dujwrD9m0O_JYxeu4,3965
+seEvo1D-1.4.dist-info/LICENSE,sha256=Y_zDMUosI56de95GVglpC19GilDg_0qu5kgmy4XiwKE,33092
+seEvo1D-1.4.dist-info/METADATA,sha256=gZ1m0-LMUjiCUOXiBy5AkZ-PZPqwWzWaAhiHJvXoOC8,3976
+seEvo1D-1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+seEvo1D-1.4.dist-info/entry_points.txt,sha256=uvkUpzQlyCzO9BkbnBDCFaMe4M0bVfnqUPsqle7MC98,42
+seEvo1D-1.4.dist-info/top_level.txt,sha256=pUpb4fe0ijliBQ772ZHfcn9cu6Ai1e_TYYABjrtKiRY,8
+seEvo1D-1.4.dist-info/RECORD,,
