@@ -1,0 +1,11 @@
+markpickle/__init__.py,sha256=BxYbWNtOIVqUrXUP9CjFqfl6o4UJKpxSd1WeoZ7nFOc,363
+markpickle/config_class.py,sha256=8KafcYw6JlNtJRgmb8mhR514VHDcRnTmlaVi_saS07E,3403
+markpickle/deserialize.py,sha256=OiGr3isS7mnLjaEKNHj-NhhUL7LvAFuaw6PZA8t0WeI,5852
+markpickle/mypy_types.py,sha256=yZVurX1E5eZ5ChKEZ2T47Dv_yaZSJBCTSeqEQYxHx_4,568
+markpickle/py.typed,sha256=B-DLSjYBi7pkKjwxCSdpVj2J02wgfJr-E7B1wOUyxYU,80
+markpickle/python_to_tables.py,sha256=JZxTcjmIRmiDbh_3_l6n6X2YIpANN1yW_6HNKgxOFiY,2753
+markpickle/serialize.py,sha256=I_8_AtVLuAzFT7pLa0d5PF8dsKn49VW3bkY_qn4QjHU,5034
+markpickle-1.0.0.dist-info/LICENSE,sha256=tGKBQK4vWPeU1PCRBgDYReNZpEAe3HKlKBJRvhvA3Ec,1071
+markpickle-1.0.0.dist-info/METADATA,sha256=NhWlwurknxehOq7ukbrkNUrm7QDLbkg2Hsgwo1WebhY,4941
+markpickle-1.0.0.dist-info/WHEEL,sha256=SlW3K6T2LNPbN9-QzFT1pS72PIuYOJEoe_9_lIJkxrk,92
+markpickle-1.0.0.dist-info/RECORD,,
