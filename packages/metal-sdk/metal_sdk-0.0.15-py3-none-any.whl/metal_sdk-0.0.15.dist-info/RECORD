@@ -1,0 +1,7 @@
+src/metal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/metal/metal.py,sha256=lii63yvxDEve_tokV0D5NYUTYlU_AeymVRWtIIaTIyw,3344
+src/metal/typings.py,sha256=sR1vTBdhtJdYZCVnEWdHyjFn9lyAa4bBIkNz_cu6yiE,634
+metal_sdk-0.0.15.dist-info/METADATA,sha256=-PolUZl2-3r9L1zgeWOMoeziSN447rRqwt_tSt8tfiA,1045
+metal_sdk-0.0.15.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+metal_sdk-0.0.15.dist-info/licenses/LICENSE,sha256=umYqvWYL37K6kXSLON2UeY-o0PLk8PiXvFWic_gtTqM,10942
+metal_sdk-0.0.15.dist-info/RECORD,,
