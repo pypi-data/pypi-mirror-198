@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lakefs-client
+Version: 0.97.1
+Summary: lakeFS API
+Home-page: https://github.com/treeverse/lakeFS/tree/master/clients/python
+Author: Treeverse
+Author-email: services@treeverse.io
+License: Apache 2.0
+Keywords: OpenAPI,OpenAPI-Generator,lakeFS API
+Requires-Python: >=3.7
+
+    lakeFS HTTP API  # noqa: E501
+    
