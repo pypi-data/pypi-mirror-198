@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: coca
+Version: 1.0.0
+Summary: A Python lib to help you update the lines you have already printed to stdout.
+Author: @foobuzz
+Author-email: foobuzz@fastmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
+
+UNKNOWN
+
