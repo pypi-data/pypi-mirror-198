@@ -1,0 +1,10 @@
+rdpurchaseorder/EcsInterface.py,sha256=U9f6DIJq5AhvfRfXTQaP5h2dZejRVecTwc1_rb5l_gg,3122
+rdpurchaseorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdpurchaseorder/mainModel.py,sha256=z6U4hwrh1zNh_D80WtoZV3AnqLeh6A-ghok50Qv3GGI,1716
+rdpurchaseorder/metadata.py,sha256=27g4g3u0XtdMhd4sbL3cachTeEyNs-J6iSqdhnjCQro,14833
+rdpurchaseorder/operation.py,sha256=QtsBDUnkZHT3Dvzd6hdxWC_fLcAHysXr8Qi66evRzLQ,7275
+rdpurchaseorder/utility.py,sha256=EQgB5oy5sgnq5RrpHTzdPXiJX5a_FvijgZudV7szVuU,1184
+rdpurchaseorder-1.3.4.dist-info/METADATA,sha256=13jVDxk1ODp3vrnaiHwZ2vrN3hC_zsPnJ_BjQDQukt0,305
+rdpurchaseorder-1.3.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rdpurchaseorder-1.3.4.dist-info/top_level.txt,sha256=Q8SR--bsPof_dOi5qy41Lq6Ojh30MUZ2DoIx7dUJmtM,16
+rdpurchaseorder-1.3.4.dist-info/RECORD,,
