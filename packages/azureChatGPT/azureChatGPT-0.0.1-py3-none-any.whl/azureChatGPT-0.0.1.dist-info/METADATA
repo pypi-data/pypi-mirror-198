@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: azureChatGPT
+Version: 0.0.1
+Summary: ChatGPT is a reverse engineering of Azure ChatGPT API
+Home-page: https://github.com/EvAnhaodong/azureChatGPT
+Author: yehaodong
+Author-email: yehaodong@genomics.cn
+License: GNU General Public License v2.0
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: prompt-toolkit
+Requires-Dist: tiktoken (>=0.3.0)
+Requires-Dist: aiohttp (==3.8.4)
+Requires-Dist: openai (>=0.27.2)
+
