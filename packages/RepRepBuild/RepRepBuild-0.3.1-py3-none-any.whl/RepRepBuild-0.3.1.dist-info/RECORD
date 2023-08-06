@@ -1,0 +1,14 @@
+reprepbuild/__init__.py,sha256=iHyVckZLhAkIezYp2bdeJ7iApgZv0iKNAdtJk-zllpI,775
+reprepbuild/__main__.py,sha256=jFCvd8ncuKwcTqz9pboWM4R9ErAwPLqdVTwzC38xBA8,8516
+reprepbuild/articlezip.py,sha256=6hVzQ7lPsFddAW30_lqIQod6YwOnjmdCGwUM3mxKcDM,2187
+reprepbuild/latex.py,sha256=NN6JSmyVel0sTrOqMys4wtOsbdy115b4PE9jN6LCVdU,5660
+reprepbuild/normalizepdf.py,sha256=lTm9obEZF6emudffIay5YhvSJ8DKXqZ6nLThZQb2vss,1647
+reprepbuild/pythonscript.py,sha256=nwXOqiYciMwUlegSu-SqsMRLqrx99jQmZqo5zo9lQ_U,4150
+reprepbuild/repeat.py,sha256=859K1oBUIlL6CC9GyEh8vJvgiaTyIZwsR5vXhBC2xUY,2856
+reprepbuild/utils.py,sha256=Uok7-P2QWFLA4IsF0t2NTsWib6kQ8b73nIJpNGPpPBo,4029
+reprepbuild/zip.py,sha256=_4LsBqjz7gOmQN6mOelwcwBKKK8opgeXx-JQaclirAQ,2151
+RepRepBuild-0.3.1.dist-info/METADATA,sha256=OjfvQlg_0HUs3xPbGg_Es6db9WqS2A4gKRG3BiPw2Kg,43071
+RepRepBuild-0.3.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+RepRepBuild-0.3.1.dist-info/entry_points.txt,sha256=o5uwDAK_POtge_Vu6pfReo328cfNDhvoBBvtNGK_Auk,286
+RepRepBuild-0.3.1.dist-info/top_level.txt,sha256=BhQWkd8bGLyLR5GfbEap2Qp1ag04ZzS7mMHkDHiDOhY,12
+RepRepBuild-0.3.1.dist-info/RECORD,,
