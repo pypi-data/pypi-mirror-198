@@ -1,0 +1,7 @@
+metapackage.py
+pyproject.toml
+pyspine.egg-info/PKG-INFO
+pyspine.egg-info/SOURCES.txt
+pyspine.egg-info/dependency_links.txt
+pyspine.egg-info/requires.txt
+pyspine.egg-info/top_level.txt
