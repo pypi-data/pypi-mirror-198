@@ -1,0 +1,10 @@
+transfermarkt_api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transfermarkt_api_wrapper/competitions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transfermarkt_api_wrapper/competitions/competitions.py,sha256=fCcNtfeHdYUtXZWjfK2Jsu6BbXMJnqCQavs9jsmU9Y8,1571
+transfermarkt_api_wrapper/main.py,sha256=ZWsWGb2VQzTtqnW083UoS-8MoN9CQ77FkW-vknWzNGg,1028
+transfermarkt_api_wrapper/pandas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transfermarkt_api_wrapper/pandas/competitions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transfermarkt_api_wrapper/pandas/competitions/competitions.py,sha256=cb_r2fDmUpXBWqrdTC8s5dxlzKOSol2yd19pPR6jC6c,2333
+transfermarkt_api_wrapper-0.1.0.dist-info/METADATA,sha256=1eqViA_l22IivuadqM5vhHF4gdZgkZI1oUAo-4FwB4w,661
+transfermarkt_api_wrapper-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+transfermarkt_api_wrapper-0.1.0.dist-info/RECORD,,
