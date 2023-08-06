@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+version
+artemis_common.egg-info/PKG-INFO
+artemis_common.egg-info/SOURCES.txt
+artemis_common.egg-info/dependency_links.txt
+artemis_common.egg-info/requires.txt
+artemis_common.egg-info/top_level.txt

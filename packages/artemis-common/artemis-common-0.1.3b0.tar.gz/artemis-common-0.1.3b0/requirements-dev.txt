@@ -1,0 +1,5 @@
+coverage
+pre-commit
+pytest
+pytest-cov
+tox==3.28.0
