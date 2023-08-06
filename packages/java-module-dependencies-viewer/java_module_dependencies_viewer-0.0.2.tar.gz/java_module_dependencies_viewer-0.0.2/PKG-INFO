@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: java_module_dependencies_viewer
+Version: 0.0.2
+Summary: Tool to create or show a diagram representing the dependencies declared in a set of module-info.java files.
+Author-email: MKO575 <mko575@duck.com>
+Project-URL: Homepage, https://gitlab.com/mko-utilities/java-module-dependencies-viewer
+Project-URL: Bug Tracker, https://gitlab.com/mko-utilities/java-module-dependencies-viewer/-/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Java Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Java Module Dependencies Viewer
+
+This project contains a small python script allowing to visualize dependencies defined in a set of java-module.info files.
+
+This project is distributed on [PyPI](https://pypi.org) on the following page: https://pypi.org/project/java-module-dependencies-viewer/
+
+## Alternatives solutions
+
+This script is way simpler than the following other solutions:
+- https://livebook.manning.com/book/the-java-9-module-system/d-analyzing-a-project-s-dependencies-with-jdeps/v-9/11
+- https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies/
+- https://github.com/cartermc24/Java-Dependency-Visualizer
+- https://github.com/rahmanusta/module-graph
+- https://github.com/ExpediaGroup/jarviz
+
+## Build and distribution process
+
+Distribution of this script used information available at:
+* https://packaging.python.org/en/latest/tutorials/packaging-projects/
+* https://scikit-hep.org/developer/pep621
+and the following exemple https://github.com/kubernetes-client/python.

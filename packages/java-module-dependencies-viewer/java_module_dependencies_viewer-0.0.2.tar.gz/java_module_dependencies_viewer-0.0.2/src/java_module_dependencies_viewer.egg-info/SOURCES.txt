@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/java_module_dependencies_viewer/__init__.py
+src/java_module_dependencies_viewer/show_java_module_dependencies.py
+src/java_module_dependencies_viewer.egg-info/PKG-INFO
+src/java_module_dependencies_viewer.egg-info/SOURCES.txt
+src/java_module_dependencies_viewer.egg-info/dependency_links.txt
+src/java_module_dependencies_viewer.egg-info/top_level.txt
