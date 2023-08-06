@@ -1,0 +1,7 @@
+license.txt
+setup.py
+Adil_Boudida.AI.egg-info/PKG-INFO
+Adil_Boudida.AI.egg-info/SOURCES.txt
+Adil_Boudida.AI.egg-info/dependency_links.txt
+Adil_Boudida.AI.egg-info/top_level.txt
+code/__init__.py
