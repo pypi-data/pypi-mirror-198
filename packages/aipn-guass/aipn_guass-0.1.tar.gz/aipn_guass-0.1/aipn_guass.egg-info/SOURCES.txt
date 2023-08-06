@@ -1,0 +1,10 @@
+setup.py
+aipn_guass/Binomialdistribution.py
+aipn_guass/Gaussiandistribution.py
+aipn_guass/Generaldistribution.py
+aipn_guass/__init__.py
+aipn_guass.egg-info/PKG-INFO
+aipn_guass.egg-info/SOURCES.txt
+aipn_guass.egg-info/dependency_links.txt
+aipn_guass.egg-info/not-zip-safe
+aipn_guass.egg-info/top_level.txt
