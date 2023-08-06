@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hxoe
+Version: 0.0.1
+Summary: wood class
+Home-page: https://github.com/WalidGharianiEAGLE/hxoe
+Author: Walid Ghariani
+Author-email: walid11ghariani@gmail.com
+License: MIT
+Keywords: spatial
+Requires-Python: >=3.7
+Requires-Dist: pandas (>=0.20)
+Requires-Dist: numpy (>=1.10.0)
+Requires-Dist: geopandas (>=0.3)
+Requires-Dist: shapely (>=1.6)
+Requires-Dist: matplotlib (>=2.2.4)
+Requires-Dist: scikit-learn (>=0.22)
+
+# hxoe
+stuff

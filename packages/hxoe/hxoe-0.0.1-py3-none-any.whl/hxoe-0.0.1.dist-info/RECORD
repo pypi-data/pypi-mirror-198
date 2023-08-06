@@ -1,0 +1,11 @@
+hxoe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hxoe/blocks.py,sha256=McXhOLxDvVdMYIE-Qw8UrWKgkCw7HH0Q8bRWQuhoXHs,6267
+hxoe/clusters.py,sha256=h_cs0vuL10Yyv3xaJeKtZUC30ysSiQFtP6tPh3n5JU4,2384
+hxoe/hxoe.py,sha256=qi8xa7GwDVrAkk7lQwJu9A9P4VcRWb2vaoJ6mwyHHP8,85
+hxoe/plotting.py,sha256=_-ijV6RQiu3EEIcA3aghbQxXYcQWc0kUPiNmDGArL-s,4259
+hxoe/stats.py,sha256=5xwN5rAqWhS3BPhEmh4Z40iP3yFTJaAX4ptaSNFkFSM,1942
+hxoe/data/ames.geojson,sha256=FqyZmWp9X1bwu6fRz0m-NNZPxS_I_-pP5a6UfTnPdwA,5186120
+hxoe-0.0.1.dist-info/METADATA,sha256=KZe3NCsCEOR-O_P8YWxGmIX2IAQkWEFOKwvrfy0-bW4,453
+hxoe-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hxoe-0.0.1.dist-info/top_level.txt,sha256=mp9ZMUsyurmml09N5cZXk3OI9CR6hom1Wpa5Zt5naGw,5
+hxoe-0.0.1.dist-info/RECORD,,
