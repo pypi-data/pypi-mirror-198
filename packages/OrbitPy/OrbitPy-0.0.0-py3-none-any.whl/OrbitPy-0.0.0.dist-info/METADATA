@@ -1,0 +1,163 @@
+Metadata-Version: 2.1
+Name: OrbitPy
+Version: 0.0.0
+Summary: A Python library that deals with different fields of science.
+Home-page: https://github.com/PyndyalaCoder/OrbitPy
+Author: Siddhu Pendyala
+Author-email: elcientifico.pendyala@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/PyndyalaCoder/OrbitPy/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# OrbitPy
+OrbitPy is an opensource science library developed for python developers that deals with <b>classical mechanics, celestial mechanics, physics, thermodynamics, and astronomy</b>
+
+## OrbitPy Terms
+This is an open-source software that is constantly evolving as it is upgraded by its creators as well as the community. If you have questions about it, please email lunastrohelp@gmail.com. Please view the liscense provided or visit https://opensource.org/license/mit/ for legal permissions.
+
+## Usage Examples
+
+OrbitPy is a versatile and <b>developing</b> library. Here is a simple usage case:
+
+```python
+  from OrbitPy import *
+  latitude = 47.6 # Bellevue WA latitude
+  sunData = getSunData(latitude)
+  print(f"The sun's current declination is: {sunData.dec}")
+```
+
+This <b>code (On Sun Mar 19 2:08 PM)</b> would have outputted `-1.3112534178591464`
+
+<b>A more advanced usage case:</b>
+
+```python
+  from OrbitPy import *
+  latitude = 47.6
+  longitude = -122.2
+  siderealtime = localSiderealTime(longitude)
+  now = datetime.datetime.now()
+  if siderealtime.hour == now.hour and siderealtime.minute == now.minute and siderealtime.second == now.second:
+    print("Sidereal time matches with regular time")
+  else:
+    print("Sidereal time does not match with regular time")
+```
+
+## Methods & Tools
+
+OrbitPy has an <b>extensive</b> array of methods that are updated constantly. The current methods include:
+
+<h3>Astronomy</h3>
+
+- `getMoonPosition(lat, long)` that takes in two parameters that represent latitude and longitude of the user's location respectively. The function then returns an object that contains attributes 'azimuth', 'altitude', 'distance', 'parallacticAngle', and 'phase'.
+- `astronomicalRefraction(alt)` that takes in one parameter that represents altitude. It returns refraction
+- `sunRA()` that returns the right ascension of the sun.
+- `solarHourAngle()` that returns the current solar hour angle
+- `azimuth(lat, long)` that returns the azimuth of the sun for the given <b>latitude and longitude</b>
+- `altitude(lat, long)` that returns the altitude of the sun for the given <b>latitude and longitude</b>
+- `localSiderealTime(long)` that returns the local sidereal time of the given <b>longitude</b>
+- `getSunData(lat)` that returns an object that contains attributes "dec" for declination, "hour_angle" for hr angle, "ra" for right ascension, "long_omega" for the longitude of the sun's ascending node, "true_solar_anomaly" for the true solar anomaly, "true_solar_longitude" for the true solar longitude, "geo_anomaly" for the geometric mean anomaly,  "geo_long" for the geometric mean longitude, "dist" for distance to the sun.
+- `planetMeanAnomaly(planet)` that returns the mean anomaly of the planet based on an str input that contains the name of the planet
+- `planetEquationOfCenter(planet)` that returns the equation of center of the planet based on an str input that contains the name of the planet
+- `planetTrueAnomaly(planet)` that returns the planet's true anomaly
+- `getLunarPhase(date)` that takes an optional parameter of date (if no date provided, current date is used) and calculates lunar phase
+- `get_lunar_age(date)` that takes an optional parameter of date (if no date provided, current date is used) and calculates lunar age
+- `get_lunar_age_percent(date)` that takes an optional parameter of date (if no date provided, current date is used) and calculates the percentage of the lunar age 
+
+
+<h3>Time</h3>
+
+- `localSiderealTime(long)` that returns the local sidereal time of the given <b>longitude</b>
+- `daysSinceJ2000()` that returns the days since J2000 epoch
+- `juliandate(now)` that takes the parameter of `datetime.datetime.now()` and returns the julian date.
+- `astroNorthernSeasonDates(year)` that takes the parameter of the current year and returns the season start dates for the N. Hemisphere
+- `astroSouthernSeasonDates(year)` that takes the parameter of the current year and returns the season start dates for the S. Hemisphere
+
+<h3>Thermodynamics</h3>
+
+- `enthalpy(cp, m, delta_t)` : Calculates enthalpy of a substance. <br>
+      - param cp: specific heat capacity of the substance <br>
+      - param m: mass of the substance <br>
+      - param delta_t: change in temperature of the substance <br>
+      - return: enthalpy of the substance <br>
+
+- `specificHeat(cp, m)`: Calculates specific heat of a substance. <br>
+      - param cp: specific heat capacity of the substance <br>
+      - param m: mass of the substance <br>
+      - return: specific heat of the substance <br>
+      
+- `entropy(q, t)`: Calculates entropy of a substance. <br>
+      - param q: heat added or removed from the substance <br>
+      - param t: temperature of the substance <br>
+      - return: entropy of the substance <br>
+      
+- `internalEnergy(cv, m, delta_t)`: Calculates internal energy of a substance. <br>
+      - param cv: specific heat capacity at constant volume of the substance <br>
+      - param m: mass of the substance <br>
+      - param delta_t: change in temperature of the substance <br>
+      - return: internal energy of the substance <br>
+
+- `gibbs_free_energy(h, t, s)`: Calculates Gibbs free energy of a substance. <br>
+      - param h: enthalpy of the substance <br>
+      - param t: temperature of the substance <br>
+      - param s: entropy of the substance <br>
+      - return: Gibbs free energy of the substance <br>
+
+- `ideal_gas_law(p, v, n, r=8.314)`: Calculates the ideal gas law for a gas. <br>
+      - param p: pressure of the gas <br>
+      - param v: volume of the gas <br>
+      - param n: number of moles of the gas <br>
+      - param r: universal gas constant (default is 8.314 J/(mol*K)) <br>
+      - return: temperature of the gas <br>
+
+- `peng_robinson_eos(p, v, n, tc, pc, omega)`: Calculates the Peng-Robinson equation of state for a gas. <br>
+      - param p: pressure of the gas <br>
+      - param v: volume of the gas <br>
+      - param n: number of moles of the gas <br>
+      - param tc: critical temperature of the gas <br>
+      - param pc: critical pressure of the gas <br>
+      - param omega: acentric factor of the gas <br>
+      - return: temperature of the gas <br>
+      
+      
+- `heat_flux(delta_T, k, thickness)`: Calculates the heat flux through a material.
+      - param delta_T: temperature difference across the material (in K)
+      - param k: thermal conductivity of the material (in W/m.K)
+      - param thickness: thickness of the material (in m)
+      - return: heat flux through the material (in W/m^2)
+
+- `thermal_conductivity(diffusivity, specific_heat, density)`: Calculates the thermal conductivity of a substance.
+      - param diffusivity: thermal diffusivity of the material (in m^2/s)
+      - param specific_heat: specific heat capacity of the material (in J/kg K)
+      - param density: density of the material (in kg/m^3)
+      - return: thermal conductivity of the material (in W/m K)
+
+- `calculate_diffusivity(k, rho, cp)`: Calculates the diffusivity of a material in m^2/s given its thermal conductivity (k),
+    density (rho), and specific heat capacity (cp).
+
+
+<h3>Physics</h3
+  
+  Initialize the <b>`star`</b> class
+  
+  ```python
+      
+    from OrbitPy import *
+    star = Star(mass, age, distance)
+  ```
+  
+  <b>Setup and get</b> information:
+  
+  ```python
+      calculate_luminosity() # setup the luminosity
+      calculate_surface_temperature() # setup the surface temperature
+      calculate_radius() # setup the radius
+      calculate_core_temperature() # setup the core temp
+      calculate_apparent_brightness() # setup the apparent brightness
+      calculate_absolute_brightness() # setup the absolute brightness
+  ```
+  
+  <b>After</b> setting the information, you can get the attribute of the object. <br>
+  You can get the <b>attribute</b> by calling 'name'.insert_attribute_name_here
+
