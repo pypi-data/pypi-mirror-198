@@ -1,0 +1,17 @@
+dfx_apiv2_client/Auths.py,sha256=u_gOuCpijBVST9ndleLU-On2oe4nXs8s4wBCt-MbsYA,2205
+dfx_apiv2_client/Base.py,sha256=I_j-fC1wk37bHWkPp-XLsO-62znfAugNwl-67Mx16tg,2993
+dfx_apiv2_client/Devices.py,sha256=6DV8u8LjdI2WYU6tWGgjc6O0iXh0lhQ5cw-46tLgt0I,3717
+dfx_apiv2_client/General.py,sha256=r-HacSa2L7KRYJaukWXcc5Ysp8Fr-neTAFIg7F87JTE,1289
+dfx_apiv2_client/Licenses.py,sha256=CkKAmWwqhoXazEtMf_fyBlfj5Znd5lub5SS7NG8nZpU,458
+dfx_apiv2_client/Measurements.py,sha256=RYm6Z_g-oYz1EQg-msnWgEszSk1FsOE8eAEzZyVAMV0,5796
+dfx_apiv2_client/Organizations.py,sha256=iveZOPsY1QXhrNGwyAUiOu891Q2XCUN2vGJrCw-Y60k,13276
+dfx_apiv2_client/Profiles.py,sha256=q4TqXxvQA0anAD4MT_9L3C8pUZBrTWUTh5ZUSMm34hc,2676
+dfx_apiv2_client/Settings.py,sha256=gCV3HDXeOlW_gV4x11KW94rN4-afYvqDnnJFo6h2YSA,405
+dfx_apiv2_client/Studies.py,sha256=q2SA1Kn6pl4m2WXrC82jjoDLLnohi05Er2hOsbtQy38,3417
+dfx_apiv2_client/Users.py,sha256=SrkQBBJwg5OMipZ9E9st35ENFaI3vqWwPD8z47Tg_LA,8905
+dfx_apiv2_client/__init__.py,sha256=bL28DAHzORxSzcM9MXIpQKHtkZB8633QCvPYSgkwuHM,466
+dfx_apiv2_client-0.14.0.dist-info/LICENSE.txt,sha256=D_eB8n2IALvzp3E7WZQqizPU2CpjqdcdCpjJE2yI02s,1087
+dfx_apiv2_client-0.14.0.dist-info/METADATA,sha256=0zBRFNpl97e4WPvwdCl24SO3mnBbcFA9GIqQmCsXPG4,927
+dfx_apiv2_client-0.14.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dfx_apiv2_client-0.14.0.dist-info/top_level.txt,sha256=IgtFl0bDqG4c2DCIymyx1Wcmlk8E8eFAgkXVRW3d_2w,17
+dfx_apiv2_client-0.14.0.dist-info/RECORD,,
