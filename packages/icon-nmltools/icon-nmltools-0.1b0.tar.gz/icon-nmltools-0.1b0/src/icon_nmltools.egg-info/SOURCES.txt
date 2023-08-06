@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/nmldiff.py
+src/icon_nmltools.egg-info/PKG-INFO
+src/icon_nmltools.egg-info/SOURCES.txt
+src/icon_nmltools.egg-info/dependency_links.txt
+src/icon_nmltools.egg-info/entry_points.txt
+src/icon_nmltools.egg-info/requires.txt
+src/icon_nmltools.egg-info/top_level.txt
