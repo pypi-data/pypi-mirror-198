@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chaigpt"
+version = "0.0.25"
+authors = [
+  { name="Douglas Graham", email="doug.n.graham@gmail.com" },
+]
+
+description = "Powerful ChatGPT wrapper adds extensible botswarms for web search, coding, and more."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "appdirs>=1.4.4",
+    "beautifulsoup4>=4.12.0",
+    "duckduckgo_search>=2.8.1",
+    "jsonpickle>=3.0.1",
+    "openai>=0.27.0",
+    "python-dotenv>=1.0.0",
+    "tiktoken>=0.3.2",
+    "unicode_slugify>=0.1.5",
+    "urllib3>=1.26.15",
+]
+
+[project.scripts]
+chai="chaigpt.chai:_chai"
+
+[project.urls]
+"Homepage" = "https://github.com/VulcanicAI/ChaiGPT"
+"Bug Tracker" = "https://github.com/VulcanicAI/ChaiGPT/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
