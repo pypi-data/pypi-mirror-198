@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pytwebl/COLORS.py
+pytwebl/__init__.py
+pytwebl/main.py
+pytwebl.egg-info/PKG-INFO
+pytwebl.egg-info/SOURCES.txt
+pytwebl.egg-info/dependency_links.txt
+pytwebl.egg-info/entry_points.txt
+pytwebl.egg-info/top_level.txt
