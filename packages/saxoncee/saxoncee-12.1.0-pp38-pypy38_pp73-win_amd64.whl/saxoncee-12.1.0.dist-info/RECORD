@@ -1,0 +1,16 @@
+saxoncee.cp38-win_amd64.pyd,sha256=slpqcFL9s6RTX-uK9Os_jniqLrbMjf4Ohx9Qm9E_byw,523264
+saxoncee.pypy38-pp73-win_amd64.pyd,sha256=I3OGdr_q9Vw0IwhEu2A3KHudhuWLaZK44VFSx-Q-wcE,491008
+saxoncee/setup.py,sha256=FVxx6xkc1ghS_DcU9ISDBpb7dozQytxjAqMPdhix44Q,3050
+saxoncee/test_saxonc.py,sha256=3KK_KsDDOt_sLTRE-N2-4HzpCqXe0jHgZnNVgfRuCvw,59464
+saxoncee/test_saxon_schema.py,sha256=Kgg4lSH5bzQ7ac_H00ohYkQ2sHQAv7lisspgpGnZ1r0,4095
+saxoncee-12.1.0.data/platlib/.load-order-saxoncee-12.1.0,sha256=ykAGIGsfIGFnOW7MyqQjIDgLKknmNAgG5PYTI3LPLQg,200
+saxoncee-12.1.0.data/platlib/concrt140-0f755671db7c0ef525f00d7ac7200c81.dll,sha256=qcVLHfDrq4q3gFn96H6nQDlAkF-REltECI1LwgKtwFk,306688
+saxoncee-12.1.0.data/platlib/libsaxon-eec-12.1-758d448bc4502d77d67cc2196ad7ebff.dll,sha256=HGVPKyWEFjK9d7RTorRB0XHB8_1fRGRqpOsZEhDFe5s,58343424
+saxoncee-12.1.0.data/platlib/msvcp140-0ed6be4b7d853d9545ba668452c87861.dll,sha256=9c7n2jnxSo8xFqZ-H6K8jWmH-SHyhBIxRj3BN8ZyvWE,611328
+saxoncee-12.1.0.data/platlib/vcruntime140_1-2d17de9d8c00c56ebdd9a6a26b6f3f80.dll,sha256=4LZmAcwo7LFxw9S3rGkMZn9H2mthg7_4BgTITADSZas,49488
+saxoncee-12.1.0.data/platlib/_preload_saxoncee_12.1.0.pth,sha256=p_xYfsda9VtkF6dqBth2RrB_3Zay7dmdWPfOeOxkFyI,698
+saxoncee-12.1.0.dist-info/DELVEWHEEL,sha256=ikTXxrrYel1HqKsdCOcyXYfU-RUwTFO8A64q7LTIF70,429
+saxoncee-12.1.0.dist-info/METADATA,sha256=Ey65-sMWXSovq7rRq1BGvzZfGT6VnfNWDAZpUp6UwvU,5162
+saxoncee-12.1.0.dist-info/RECORD,,
+saxoncee-12.1.0.dist-info/top_level.txt,sha256=wUukq_Q-eGXqORVXlotGf6vj6BTA3ZYOgtf9Zd0FFuI,9
+saxoncee-12.1.0.dist-info/WHEEL,sha256=VdGht2tAV-pZeKh01R_AzgNm9hOgkZNK5FJALyJVlrI,107
