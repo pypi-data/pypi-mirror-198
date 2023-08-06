@@ -1,0 +1,5 @@
+typing-inspect>=0.7.1
+marshy~=3.0
+pyaes~=1.6
+schemey~=5.7
+servey[dev,server,serverless]~=2.4
