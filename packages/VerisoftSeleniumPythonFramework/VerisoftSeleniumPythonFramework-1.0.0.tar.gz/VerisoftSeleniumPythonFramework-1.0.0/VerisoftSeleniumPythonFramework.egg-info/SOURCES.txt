@@ -1,0 +1,7 @@
+setup.py
+VerisoftSeleniumPythonFramework.egg-info/PKG-INFO
+VerisoftSeleniumPythonFramework.egg-info/SOURCES.txt
+VerisoftSeleniumPythonFramework.egg-info/dependency_links.txt
+VerisoftSeleniumPythonFramework.egg-info/top_level.txt
+automation-qa-infra/__init__.py
+automation-qa-infra/module.py
