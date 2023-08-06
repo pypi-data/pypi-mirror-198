@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qlik-test-yuri
+Version: 0.1.1
+Summary: init_01
+Author: Yuri
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# qlik-test-yuri
+
+test
+ 
+
