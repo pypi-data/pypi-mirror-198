@@ -1,0 +1,9 @@
+kubectl_ng/__init__.py,sha256=HPSto2gjkhh7XjcH27eBNkd0jQMMRRuerFmacg434f4,189
+kubectl_ng/_formatters.py,sha256=wue1kXrrHcLXXSqq8bETxK2LjpbpYX0GertqFwMO-R8,769
+kubectl_ng/_get.py,sha256=V0jZQfCGYK9WdvlTcQt5Xgv1EYzJzPHjdp4AEp9be34,5676
+kubectl_ng/cli.py,sha256=4F0XcL-UPV6mcNTPHgT2VF9o-DlQ0dni6KNs_s5ig4c,683
+kubectl_ng/tests/test_formatters.py,sha256=MoXhgPGpoRrgYk9wVLHP5oieAn686pGmGw8yxwOV9j8,1029
+kubectl_ng-0.1.0a0.dist-info/METADATA,sha256=pLh4m_jv-PLLIY7H4biaEZh2aERth6Ulzao71YKFLJo,553
+kubectl_ng-0.1.0a0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+kubectl_ng-0.1.0a0.dist-info/entry_points.txt,sha256=myZX78VR8zAnrUjowkV7azytZ9fXyeR0_21AvVwgodk,48
+kubectl_ng-0.1.0a0.dist-info/RECORD,,
