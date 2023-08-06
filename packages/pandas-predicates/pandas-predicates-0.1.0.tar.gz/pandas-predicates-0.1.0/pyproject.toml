@@ -1,0 +1,34 @@
+[project]
+name = "pandas-predicates"
+version = "0.1.0"
+authors = [
+    {name="Rafael S. Calsaverini", email="rafael.calsaverini@gmail.com"},
+]
+description = "A library to create predicates for filtering pandas dataframes"
+readme = "README.md"
+requires-python = ">=3.6"
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rcalsaverini/pandas-predicates"
+"Bug Tracker" = "https://github.com/rcalsaverini/pandas-predicates/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
