@@ -1,0 +1,7 @@
+setup.py
+kenu/__init__.py
+kenu.egg-info/PKG-INFO
+kenu.egg-info/SOURCES.txt
+kenu.egg-info/dependency_links.txt
+kenu.egg-info/requires.txt
+kenu.egg-info/top_level.txt
