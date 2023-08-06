@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+shopcloud_django_test.egg-info/PKG-INFO
+shopcloud_django_test.egg-info/SOURCES.txt
+shopcloud_django_test.egg-info/dependency_links.txt
+shopcloud_django_test.egg-info/requires.txt
+shopcloud_django_test.egg-info/top_level.txt

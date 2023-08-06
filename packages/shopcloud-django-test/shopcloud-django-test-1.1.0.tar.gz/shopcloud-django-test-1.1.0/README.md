@@ -1,0 +1,1 @@
+# shopcloud-django-test
