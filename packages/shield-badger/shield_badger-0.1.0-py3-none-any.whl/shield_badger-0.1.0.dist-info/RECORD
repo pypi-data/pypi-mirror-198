@@ -1,0 +1,9 @@
+shield_badger/__init__.py,sha256=69Eiv4XqwruKserAf8WjJ3GSYE11Sv2Znh1rP01lOPU,231
+shield_badger/__main__.py,sha256=Ff0JaJhIsbwvFNLNGMlW-XBYGIFcDWIKWz6-R0BRvQE,113
+shield_badger/cli.py,sha256=zozc8mi4T78jFgtQzK3uQIp8MmYMLlA4GliC3mT9Jmk,6756
+shield_badger/settings.py,sha256=ClBTBi0whTSsEtiTyfQOcUQ5q_DV5VezeD_Xebq1szk,238
+shield_badger/utils.py,sha256=dANVU3u4ts-VgTPFKiG8u14Q434Mr04rtABr9tQtIPE,803
+shield_badger-0.1.0.dist-info/METADATA,sha256=T7jftNxoAeIxSkxxK1xQ-HPxnovnATByEikwn8QcTj0,1205
+shield_badger-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+shield_badger-0.1.0.dist-info/entry_points.txt,sha256=rp4fiiH8T73790MI4e23h47r6unfbljVC--Z5MokucM,56
+shield_badger-0.1.0.dist-info/RECORD,,

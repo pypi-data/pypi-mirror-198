@@ -1,0 +1,3 @@
+[console_scripts]
+shield-badger=shield_badger.cli:main
+
