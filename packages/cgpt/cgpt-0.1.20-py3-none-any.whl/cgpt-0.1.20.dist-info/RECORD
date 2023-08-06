@@ -1,0 +1,11 @@
+cgpt.py,sha256=PdhXP9xAI_S9wYQ78gJSRInfVqDRv8n-gOy6jxXgXxg,421
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/file_service.py,sha256=eQ884gY9bNTaGktzGn86ytR1LeRxYSxb6nzV3I7nnk4,495
+app/main.py,sha256=kfKYSyEMJMIED7eiXmjIX2s7Z8P7X7EcnxFTTzFcgb0,763
+app/plugin.py,sha256=tMOQcrQSmXZPpmxFeaqy2zGJs3ehAk3w6zMvTC0wkgg,1035
+cgpt-0.1.20.dist-info/LICENSE,sha256=6mRl0s8fEDv-m9uEwmw6qsoiPfvmJDGBmhamvM9tfes,1065
+cgpt-0.1.20.dist-info/METADATA,sha256=Zqy4eTur6dBTwhEp54NSTv43OoDLYvjn1Ny3slvlBMw,1004
+cgpt-0.1.20.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cgpt-0.1.20.dist-info/entry_points.txt,sha256=oDCkQT5L8QwkyAesQrTKgLbOtarh7oLTi8kcrplaJpY,34
+cgpt-0.1.20.dist-info/top_level.txt,sha256=bfOWX_xW0JOLU3ZsGnvzAClZ9lek9YNUllW3SpWVkTw,9
+cgpt-0.1.20.dist-info/RECORD,,
