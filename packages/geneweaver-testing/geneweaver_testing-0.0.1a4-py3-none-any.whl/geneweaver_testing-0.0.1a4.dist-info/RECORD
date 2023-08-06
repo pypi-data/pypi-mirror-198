@@ -1,0 +1,10 @@
+geneweaver/testing/__init__.py,sha256=ZbLpfOz1y4tIvg3ACmzWII4bPI79yoyQ1UHQJz2koOE,42
+geneweaver/testing/fixtures/__init__.py,sha256=Ox_lwlIwX97W807tNGjRgTzYG_79evTsqs7aJ-e-8ls,37
+geneweaver/testing/fixtures/package.py,sha256=_WZIpPuJcJzyH86KsEki-HgfPO1jfvl6IRfUM0CHEW0,1987
+geneweaver/testing/package/__init__.py,sha256=dWB3_pIyynK6agCsQmwGQFciv0jSN2XlHAtDonG4iPk,96
+geneweaver/testing/package/can_import.py,sha256=40dS3z5HuoBQa4u23kIZ0to4oTyAwrtj9Q3NMnqYl4Q,1484
+geneweaver/testing/package/pyproject.py,sha256=Mm4OZTeOwJdrbwpgCpcv6Cn_l-IaQs4_IQHVEKexuvo,6001
+geneweaver/testing/package/structure.py,sha256=zGRtKQGIgytrUiSkib_hyA3SKQCW2mDwKcRcdMa1EhY,1802
+geneweaver_testing-0.0.1a4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+geneweaver_testing-0.0.1a4.dist-info/METADATA,sha256=JaL1zvstE1b0OYvw7vaiWC7M_NkD5P-ukd9VS9PM8kE,2590
+geneweaver_testing-0.0.1a4.dist-info/RECORD,,
