@@ -1,0 +1,5 @@
+sceptre>=3.2
+validator-collection>=1.5
+
+[test]
+pytest>=6.2
