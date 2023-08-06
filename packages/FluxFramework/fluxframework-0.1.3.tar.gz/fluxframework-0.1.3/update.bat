@@ -1,0 +1,40 @@
+@echo off
+cd C:\Users\danny\source\repos\Python\FluxFrameworkPackage
+del /q dist\*
+set /p Build=<version.txt
+set /p OldBuild=<version.txt
+for /f "tokens=1-3 delims=. " %%a in ("%Build%") do (
+set Major=%%a
+set Minor=%%b
+set Hotfix=%%c
+)
+SET /a Hotfix+=1
+REM echo Major=%Major%
+REM echo Minor=%Minor%
+REM echo Hotfix=%Hotfix%
+set Build=%Major%.%Minor%.%Hotfix%
+>version.txt echo %Build%
+
+setlocal enableextensions disabledelayedexpansion
+
+set "textFile=pyproject.toml"
+set "search=%OldBuild%"
+set "replace=%Build%"
+
+REM echo %textFile%
+REM echo %OldBuild%
+REM echo %Build%
+
+for /f "delims=" %%i in ('type "%textFile%" ^& break ^> "%textFile%" ') do (
+	set "line=%%i"
+	setlocal enabledelayedexpansion
+	>>"%textFile%" echo(!line:%search%=%replace%!
+	endlocal
+)
+@echo on
+
+py -m build
+
+py -m twine upload dist/*
+
+py -m pip install upgrade FluxFramework==%Build%
