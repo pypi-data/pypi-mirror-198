@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quizicist
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: lxml (==4.9.1)
+Requires-Dist: mistletoe (==0.9.0)
+Requires-Dist: openai (==0.27.2)
+Requires-Dist: python-dotenv (==0.21.0)
+Requires-Dist: transformers (==4.22.1)
+Provides-Extra: dev
+Requires-Dist: pytest (==7.2.2) ; extra == 'dev'
+
+UNKNOWN
+
+

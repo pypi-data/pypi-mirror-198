@@ -1,0 +1,11 @@
+quizicist/__init__.py,sha256=Sq4hu61GomRcviACp90Np6udw7I2mVAzuDMMP5XRfHI,80
+quizicist/completion.py,sha256=loVxuM5N8CfujlCPAXhSxf6gMJnhzLBzOAimqNMAwx0,4818
+quizicist/consts.py,sha256=veYoBmMtqFG3pvojB_Rg-lTtFBiM2qgsAs8vPSUVK_c,685
+quizicist/errors.py,sha256=A-PIqt4-ikflnwdGpBgO5_U1MWzl9bfrmzOAw8mHXvM,82
+quizicist/postprocess.py,sha256=f9DezfiA6YP02WTMPdOwpr3IrHq890kePjdujZ55sQo,2569
+quizicist/prompt.py,sha256=0-DIMBSLJX2aweO7zwI3Q8bc9v6rhkFznz7xK0GoABk,2921
+quizicist-0.1.0.dist-info/LICENSE,sha256=ZrLZ1q_hlaxlv-rBQgrKvk9Ziao697dfwSG9bF5HPRQ,1054
+quizicist-0.1.0.dist-info/METADATA,sha256=uoNEPqWsaLoOvLcDXVoMrn_8zZLLzbGR0p2A41vAa5s,422
+quizicist-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+quizicist-0.1.0.dist-info/top_level.txt,sha256=1GY2HqBKEKHOtmSE7-Lyd5Wc1KpTpL-LZj_3M7A8PEw,10
+quizicist-0.1.0.dist-info/RECORD,,
