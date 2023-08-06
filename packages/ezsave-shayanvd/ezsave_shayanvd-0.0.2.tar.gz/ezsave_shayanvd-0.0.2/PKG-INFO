@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ezsave-shayanvd
+Version: 0.0.2
+Summary: A simple package to save python lists, dictionaries and strings to a file.
+Author-email: Shayan von Düring <shayanvonduering@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: orjson~=3.8.7
+Description-Content-Type: text/markdown
+
+# ezsave
+
+*ezsave* is a simple package to save python lists, dictionaries and strings to a file.
+
+By default it saves a temporary file so your files don't get corrupted if your program or computer crashes.
