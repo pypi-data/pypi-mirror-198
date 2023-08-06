@@ -1,0 +1,17 @@
+stockpick/.DS_Store,sha256=LXybLAy3n_mJ5ENzjsUY6K2CavMWBO69QQVaixrzQkI,8196
+stockpick/__init__.py,sha256=7NgiMK4y95uClviQOq51_1A8jFW6-W6abu5XR5uLNnI,134
+stockpick/corpus_process.py,sha256=wgUDpT9WIFol_pNhpaL8zQ2UlBxk38DaebdfmlQRZck,3902
+stockpick/enum_table,sha256=j_8irWQ4Pnuf79oOrM9BtkBqcZ0qW671Lb31JmmpbjU,1091
+stockpick/extractor.py,sha256=oSx1ONREIVs0OADSYBve_uFYHQ1EvcqKvpRA2JU6ZeE,12133
+stockpick/extractor_new.py,sha256=WDcpROle-4s99vFM-_IJDoVQwIgw3Vo_PvGXL-hhVhw,12265
+stockpick/gupiao_dict.txt,sha256=StFtBkrP2xx4hG2pmvBhd2ZTCht-eesLCtJf4a2e_20,222580
+stockpick/index_table,sha256=RX-blsmWXvbo1CAW65mt0mtHgiaNuAK6G4LLr30-OQo,3155
+stockpick/question.txt,sha256=sRfFNP_rNTPxd7Lv09f74rSTkkKuAuzNJcm6ZImd7N4,697
+stockpick/scope_table,sha256=rwEK8lHWdA27fAwpwfVEbdl7ErBLVjspGWGzNx_ZMoQ,1533
+stockpick/sentences.txt,sha256=hpsbtQzGd_DCiGqRnCsDDY1-VSiYcE9oZxmn6Byomgc,1416
+stockpick/unit_table,sha256=1DzgbTs-S87tTPND5YM7N6f9YI4nXz-XT-RBJ0OidgY,131
+stockpick/utils.py,sha256=CHjPf-L-7sM3GB7seSoXxkMW_XggNDemWbbpOs-yZc8,709
+stockpick-1.3.0.dist-info/METADATA,sha256=qEW6yin0fkcoTClmhBad9O8QNLTZ9TZZOhMQhghCtz4,220
+stockpick-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stockpick-1.3.0.dist-info/top_level.txt,sha256=BufNdGunPZT_TJ3_9gD7VLobclDjXXDghnY5N0eANQg,10
+stockpick-1.3.0.dist-info/RECORD,,
