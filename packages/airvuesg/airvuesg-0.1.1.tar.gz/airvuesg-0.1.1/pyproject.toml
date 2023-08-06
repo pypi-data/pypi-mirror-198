@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "airvuesg"
+version = "0.1.1"
+description = "Library to access Gmail using credentials stored in S3, using boto3"
+authors = ["Airvue"]
+readme = "README.md"
+packages = [{include = "airvue_sg"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-api-python-client = "^2.82.0"
+beautifulsoup4 = "^4.12.0"
+python-dateutil = "^2.8.2"
+oauth2client = "^4.1.3"
+lxml = "^4.9.2"
+boto3 = "^1.26.96"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
