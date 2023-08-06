@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: resellerclub-python
+Version: 0.0.1
+Summary: A client for ResellerClub HTTP API
+Project-URL: Homepage, https://github.com/TI-Sin-Problemas/resellerclub-python
+Project-URL: Bug Tracker, https://github.com/TI-Sin-Problemas/resellerclub-python/issues
+Author-email: TI Sin Problemas <pypi@tisinproblemas.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: api,client,resellerclub
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Requires-Dist: requests>=2.28.2
+Description-Content-Type: text/markdown
+
+# Reseller Club Unofficial API Client
+
+This is an unoffcial Python wrapper to consume [Reseller Club](https://www.resellerclub.com/) HTTP API
