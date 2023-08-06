@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kaggle_store_sale.egg-info/PKG-INFO
+kaggle_store_sale.egg-info/SOURCES.txt
+kaggle_store_sale.egg-info/dependency_links.txt
+kaggle_store_sale.egg-info/requires.txt
+kaggle_store_sale.egg-info/top_level.txt
