@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lstm_preprocess
+Version: 0.2.0
+Summary: This package provides fundamental operation on reshaping dataframes for Keras LSTM input
+Home-page: https://github.com/ysong126/lstm_reshaper
+Author: song111
+Author-email: clarksoyoung@sina.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ysong126/lstm_reshaper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#This is a tool used to reshape dataset in pandas for Keras LSTM model
+
+### This module provides a single function that converts a multivariate time series dataframe into a supervised learning - style dataframe by flattening and shifting each series along a given lagging period. For example, when one tries to use keras on a 2-D tensor of shape (total_time_steps, num_features), it's required to reshape the tensor into a 3-D tensor of input_shape (num_features, time_steps, batch_size)
+
+
+
+
+
+
+
+
+
+
+
