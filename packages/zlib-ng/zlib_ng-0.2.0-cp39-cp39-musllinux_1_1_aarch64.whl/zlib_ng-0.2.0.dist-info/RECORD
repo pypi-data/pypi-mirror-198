@@ -1,0 +1,12 @@
+zlib_ng-0.2.0.dist-info/LICENSE,sha256=g7BC_H1qyg8Q1o5F76Vrm8ChSWYI5-dyj-CdGlNKBUo,2484
+zlib_ng-0.2.0.dist-info/WHEEL,sha256=BPeDRRlSfFAa2ag9dk1SHjK4VgWrnN7y5lewVkO-s5U,112
+zlib_ng-0.2.0.dist-info/top_level.txt,sha256=TT28PKmHtbmNxoumLpP--3jlmiQVVMCux45dUVs_hes,8
+zlib_ng-0.2.0.dist-info/RECORD,,
+zlib_ng-0.2.0.dist-info/METADATA,sha256=5Qjr47ADLNWMKcBi8Ec3wtNfD34fzyQGulFjPbVmorc,6408
+zlib_ng/__init__.py,sha256=MBzPOritYcBUuVv4-ZtdcFk71WkWtJqf0RmtaGFcKv8,346
+zlib_ng/zlib_ng.cpython-39-aarch64-linux-gnu.so,sha256=7tXvbsvn4EzmDVVvBKGm8NShUFONpIU8QW43ZsgLmZ8,136008
+zlib_ng/zlib_ng.pyi,sha256=U_i53RcQDPf27cHP4564a7nXLTR87NWhZE_VdB7Nmig,2058
+zlib_ng/gzip_ng.py,sha256=P28iJ1CNk6UdQXU3AZs2DfhnCBdcrEXZMpfoAQY0bDo,18620
+zlib_ng/py.typed,sha256=bWew9mHgMy8LqMu7RuqQXFXLBxh2CRx0dUbSx-3wE48,27
+zlib_ng/zlib-ng/README.md,sha256=ugQkStjuqU2DTSWqdbQOf4SYRKM8aO0YDCpjE3jh8hE,11765
+zlib_ng/zlib-ng/LICENSE.md,sha256=08gL4FXZTXmOqnhhFuhPoLAQvBFCC10gYNl46neEVDY,867
