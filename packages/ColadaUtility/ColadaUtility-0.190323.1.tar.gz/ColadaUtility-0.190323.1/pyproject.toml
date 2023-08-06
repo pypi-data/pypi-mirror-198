@@ -1,0 +1,18 @@
+[project]
+name = "ColadaUtility"
+version = "0.190323.1"
+authors = [
+  { name="Nouhelgod", email="nouhel12@gmail.com" },
+]
+description = "Some useful utility stuff"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Nouhelgod/ColadaUtility"
+"Bug Tracker" = "https://github.com/Nouhelgod/ColadaUtility/issues"
