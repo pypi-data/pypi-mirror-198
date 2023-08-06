@@ -1,0 +1,8 @@
+VERSION
+setup.py
+atlasapprox/__init__.py
+atlasapprox.egg-info/PKG-INFO
+atlasapprox.egg-info/SOURCES.txt
+atlasapprox.egg-info/dependency_links.txt
+atlasapprox.egg-info/requires.txt
+atlasapprox.egg-info/top_level.txt
