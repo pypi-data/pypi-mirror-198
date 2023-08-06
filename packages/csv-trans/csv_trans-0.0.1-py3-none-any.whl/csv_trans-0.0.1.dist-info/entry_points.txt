@@ -1,0 +1,2 @@
+[console_scripts]
+csv_trans = csv_trans.__main__:cli
