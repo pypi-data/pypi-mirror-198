@@ -1,0 +1,48 @@
+# CLIMATE RISK ANALYTICS PACKAGE
+
+
+This package provides the following analytics which can be run end-to-end (retrieval to analytics output):
+- carbon footprint (weighted average carbon intensity - WACI; financed emissions - TCE; owned emissions - OE) for the equity portfolio and benchmark and ftse all cap.
+- share of equity nav which falls in each MSCI low carbon transition score
+- implied temperature rise breakdown by sector and portfolio/benchmark total
+- attribution of WACI for portfolio t vs portfolio t-1
+- attribution of WACI for portfolio vs benchmark
+- quality score
+- country-sector change in data quality
+- country-sector concentrations
+
+
+#### PLEASE NOTE: if something looks like a bug, walks like a bug and calls(?) like a bug, it's probably a bug. Please contact Ginni to fix/discuss
+
+
+
+
+## Structure, how to install, how to run:
+This package provides 
+- storages (getting data and validating)
+- services (making calculations / analytics)
+
+
+#### How to install: pip install git+https://github.com/NBIM/climate_risk.git
+This will pick up every time a version is incremented.
+#### How to run: All of these are united in the views folder. In order to run the analytics the user needs to run the scripts in the views, not the other files.
+You can also use the services autonomously.
+
+
+## Important notes on how to use this package:
+- to run most analytics the user will need access to the underlying schemas and tables used.
+- make sure to change the credentials to your snowflake account (email needed)
+- scripts will run for specific portfolios (ftse all cap/eq portfolio/eq benchmark); specific fk_dim_date and specific ICB level. Make sure to change the variables at the beginning of the script to change any of these parameters.
+
+
+
+
+
+## Future improvements:
+- tests!
+- remove storage from this package, keep only services. Or at least separate the two.
+- generalise settings/configurations for constants and authorisations
+- improve validations upon data retrieval
+
+
+#### published following https://python-packaging.readthedocs.io/en/latest/minimal.html
