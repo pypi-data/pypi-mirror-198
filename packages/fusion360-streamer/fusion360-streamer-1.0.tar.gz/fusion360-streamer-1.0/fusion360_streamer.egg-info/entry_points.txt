@@ -1,0 +1,2 @@
+[console_scripts]
+fusion360-streamer = fusion360_streamer.__main__
