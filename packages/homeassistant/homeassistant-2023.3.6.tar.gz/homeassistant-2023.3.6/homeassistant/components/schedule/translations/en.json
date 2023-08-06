@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Schedule",
+            "state": {
+                "off": "Off",
+                "on": "On"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Off",
+            "on": "On"
+        }
+    },
+    "title": "Schedule"
+}

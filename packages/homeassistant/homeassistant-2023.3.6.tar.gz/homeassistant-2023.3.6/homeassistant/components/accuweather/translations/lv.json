@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "pressure_tendency": {
+                "state": {
+                    "falling": "Riet",
+                    "rising": "Aust"
+                }
+            }
+        }
+    }
+}

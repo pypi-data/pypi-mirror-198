@@ -1,0 +1,21 @@
+{
+    "config": {
+        "flow_title": "{name}",
+        "step": {
+            "associate": {
+                "data": {
+                    "activation_code": "Aktiviz\u0101cijas kods"
+                }
+            },
+            "bluetooth_confirm": {
+                "description": "Vai v\u0113laties iestat\u012bt {name}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Ier\u012bce"
+                },
+                "description": "Izv\u0113lieties ier\u012bci, kuru iestat\u012bt"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Skript",
+            "state": {
+                "off": "Neakt\u00edvny",
+                "on": "Akt\u00edvny"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Vypnut\u00fd",
+            "on": "Zapnut\u00fd"
+        }
+    },
+    "title": "Skript"
+}

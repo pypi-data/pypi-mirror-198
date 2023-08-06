@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Ajakava",
+            "state": {
+                "off": "V\u00e4ljas",
+                "on": "Sees"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "V\u00e4ljas",
+            "on": "Sees"
+        }
+    },
+    "title": "Ajakava"
+}

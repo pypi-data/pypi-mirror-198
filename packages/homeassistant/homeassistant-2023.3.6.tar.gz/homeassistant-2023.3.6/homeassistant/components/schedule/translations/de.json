@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Zeitplan",
+            "state": {
+                "off": "Aus",
+                "on": "An"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Aus",
+            "on": "An"
+        }
+    },
+    "title": "Zeitplan"
+}

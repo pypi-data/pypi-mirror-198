@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Taimer",
+            "state": {
+                "active": "Aktiivne",
+                "idle": "Ootel",
+                "paused": "Peatatud"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "aktiivne",
+            "idle": "ootel",
+            "paused": "peatatud"
+        }
+    }
+}

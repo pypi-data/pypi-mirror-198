@@ -1,0 +1,16 @@
+{
+    "entity": {
+        "sensor": {
+            "aqi": {
+                "state": {
+                    "bad": "Slikti",
+                    "good": "Labi",
+                    "moderate": "M\u0113reni",
+                    "sufficient": "Pietiekami",
+                    "very_bad": "\u013boti slikti",
+                    "very_good": "\u013boti labi"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Entrada booleana",
+            "state": {
+                "off": "Desligado",
+                "on": "Ligado"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Desligado",
+            "on": "Ligado"
+        }
+    },
+    "title": "Entrada booleana"
+}

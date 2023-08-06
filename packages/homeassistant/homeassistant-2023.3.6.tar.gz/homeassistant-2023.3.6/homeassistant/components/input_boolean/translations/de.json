@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Boolescher Wert eingeben",
+            "state": {
+                "off": "Aus",
+                "on": "An"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "off": "Aus",
+            "on": "An"
+        }
+    },
+    "title": "Boolescher Wert eingeben"
+}

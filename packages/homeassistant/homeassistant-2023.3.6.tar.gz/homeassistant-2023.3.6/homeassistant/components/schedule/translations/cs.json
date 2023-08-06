@@ -1,0 +1,10 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "off": "Vypnut\u00fd",
+                "on": "Zapnut\u00fd"
+            }
+        }
+    }
+}

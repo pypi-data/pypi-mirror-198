@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Timer",
+            "state": {
+                "active": "Active",
+                "idle": "Idle",
+                "paused": "Paused"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "Active",
+            "idle": "Idle",
+            "paused": "Paused"
+        }
+    }
+}

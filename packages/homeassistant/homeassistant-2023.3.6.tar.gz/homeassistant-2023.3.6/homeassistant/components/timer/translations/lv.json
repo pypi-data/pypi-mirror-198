@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Taimeris",
+            "state": {
+                "active": "Akt\u012bvs",
+                "idle": "D\u012bkst\u0101ve",
+                "paused": "Aptur\u0113ts"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "active": "akt\u012bvs",
+            "idle": "d\u012bkst\u0101ve",
+            "paused": "aptur\u0113ts"
+        }
+    }
+}
