@@ -1,0 +1,11 @@
+dokkusd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dokkusd/cli.py,sha256=3vrXOtbPckXo64tOWAvx1jtceDiQmc_EpU9HAP7Ws8s,4533
+dokkusd/config_models.py,sha256=WIfLE3BSziaVNJixMMDAQX4bnS0tYysRrfPfTLoEDcw,1375
+dokkusd/deploy.py,sha256=3SOGexkW-w-EGoEWOeKsJC_jRqvNwczWL6gxqXT3G0k,7289
+dokkusd/destroy.py,sha256=sagJlsUU4y5HXyT1Z-qnLo7qlcCLohRhJ6ukE5qKp3o,283
+dokkusd/util.py,sha256=zi_Sr31WH_3IHs9-T5L-R0SSH5jEJ456YyqhDeGhadc,3153
+DokkuSD-0.5.0.dist-info/LICENSE,sha256=EfrKzcZqfvPMwxNDip3xUwqn3KCRLAhUgP89Spqge-Y,1058
+DokkuSD-0.5.0.dist-info/METADATA,sha256=lQPcDNhALykcCUibrBCMsAo8znxY5-4nMMos__lZmBw,783
+DokkuSD-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+DokkuSD-0.5.0.dist-info/top_level.txt,sha256=_8KziSaccbimSVLm4_ccuzwla7rKJ1nT0_2LRHaGFrU,8
+DokkuSD-0.5.0.dist-info/RECORD,,
