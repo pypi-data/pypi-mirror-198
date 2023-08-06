@@ -1,0 +1,2 @@
+[console_scripts]
+tap-invoiced = tap_invoiced:main

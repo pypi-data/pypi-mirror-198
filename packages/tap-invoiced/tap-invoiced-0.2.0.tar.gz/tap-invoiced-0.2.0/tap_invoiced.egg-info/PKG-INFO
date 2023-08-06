@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tap-invoiced
+Version: 0.2.0
+Summary: Singer.io tap for extracting data from Invoiced
+Home-page: https://invoiced.com
+Author: Invoiced
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
