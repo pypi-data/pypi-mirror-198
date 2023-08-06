@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+demo_solarisneko.egg-info/PKG-INFO
+demo_solarisneko.egg-info/SOURCES.txt
+demo_solarisneko.egg-info/dependency_links.txt
+demo_solarisneko.egg-info/requires.txt
+demo_solarisneko.egg-info/top_level.txt

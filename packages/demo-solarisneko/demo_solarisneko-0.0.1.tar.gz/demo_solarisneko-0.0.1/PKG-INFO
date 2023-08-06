@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: demo_solarisneko
+Version: 0.0.1
+Summary: try to upload to Pypi
+Home-page: https://github.com/SolarisNeko/python-try-to-upload-pypi
+Author: SolarisNeko
+Author-email: SolarisNeko <1417015340@qq.com>
+Project-URL: Homepage, https://github.com/SolarisNeko/python-try-to-upload-pypi
+Project-URL: Bug Tracker, https://github.com/SolarisNeko/python-try-to-upload-pypi/issues
+Keywords: demo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Test Upload Pypi
+
+@author SolarisNeko
