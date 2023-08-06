@@ -1,0 +1,7 @@
+README.md
+setup.py
+tf_nightly_2.0_preview.egg-info/PKG-INFO
+tf_nightly_2.0_preview.egg-info/SOURCES.txt
+tf_nightly_2.0_preview.egg-info/dependency_links.txt
+tf_nightly_2.0_preview.egg-info/not-zip-safe
+tf_nightly_2.0_preview.egg-info/top_level.txt
