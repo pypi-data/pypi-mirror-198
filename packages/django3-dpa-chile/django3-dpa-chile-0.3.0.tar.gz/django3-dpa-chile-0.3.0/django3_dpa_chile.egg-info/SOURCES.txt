@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+d3_dpa_chile/__init__.py
+d3_dpa_chile/models.py
+d3_dpa_chile/management/__init__.py
+d3_dpa_chile/management/commands/__init__.py
+d3_dpa_chile/management/commands/populate_dpa_chile.py
+d3_dpa_chile/migrations/0001_initial.py
+d3_dpa_chile/migrations/__init__.py
+django3_dpa_chile.egg-info/PKG-INFO
+django3_dpa_chile.egg-info/SOURCES.txt
+django3_dpa_chile.egg-info/dependency_links.txt
+django3_dpa_chile.egg-info/requires.txt
+django3_dpa_chile.egg-info/top_level.txt
