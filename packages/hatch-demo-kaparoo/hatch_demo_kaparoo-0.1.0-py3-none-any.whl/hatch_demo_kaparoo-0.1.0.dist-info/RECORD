@@ -1,0 +1,9 @@
+hatch_demo/__init__.py,sha256=3p5hP0U3nYACEe4zSenShKUSWq88LLBTwO-JXkEYLJc,48
+hatch_demo/sine.py,sha256=nwh54MlXJAnO_Jdhd7KmkNWpUPVs1t0mmQe0-4Y9nJo,188
+hatch_demo/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_demo/plot/bar.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_demo/plot/graph.py,sha256=JAiZ6jz6BksI_--HFkXbYcCNX5zddFUL3PuEfZauwt8,237
+hatch_demo_kaparoo-0.1.0.dist-info/METADATA,sha256=udZU2BzfIC9S3v2brfTr4hSk5rIJBfToAhJ2gENPDB8,459
+hatch_demo_kaparoo-0.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+hatch_demo_kaparoo-0.1.0.dist-info/licenses/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_demo_kaparoo-0.1.0.dist-info/RECORD,,
