@@ -1,0 +1,13 @@
+ghcr_badge/__init__.py,sha256=QhA3BD5zb74N3uxPxdqmMO02ghAJkzGzHfs18YGz_DM,125
+ghcr_badge/dicts.py,sha256=xcPmlz-SGHV_o56zoGJgsBWKLVU502rHNC38PPZb2DY,1436
+ghcr_badge/generate.py,sha256=COXfa4GeMd1u1DjGcUS8YaKzFx7C-0kZ_VbgtAiOSZw,12955
+ghcr_badge/main.py,sha256=BQfN9rjSbcsCIO3r8JngG2JJssFFNfLM1cHtQ_hSW64,2859
+ghcr_badge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghcr_badge/server.py,sha256=lscbeBoxqA_tzEkFax0hgys313Qsa0fLpnSh_3JuebE,6826
+ghcr_badge/svg/mark-github.svg,sha256=FIYHm_mgv-zyV0jqqywDBwdM4SIManGM2HK5DkJzoes,721
+ghcr_badge/svg/package-16.svg,sha256=tkymkRcZXai6QzNmsj-CeSs-EAurwOj4Rmti0MnamcE,540
+ghcr_badge-0.2.0.dist-info/LICENSE.txt,sha256=azp3ZdVfyc7eBxxFYn1t4c2Q30xZ1RCcxV40vsOdlL0,1049
+ghcr_badge-0.2.0.dist-info/METADATA,sha256=K1r8E5-WoY3M2aTFpZg0xsKN6ROPIn2gQSq8rNFBo5s,4956
+ghcr_badge-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+ghcr_badge-0.2.0.dist-info/entry_points.txt,sha256=TfJDx5fOB_OJLhENJ4gCJjfKdxKXyVGx5KtwHuWZ2wY,92
+ghcr_badge-0.2.0.dist-info/RECORD,,
