@@ -1,0 +1,2 @@
+[console_scripts]
+ap_new = airpage.cmd_entry:CMD_NewProject
