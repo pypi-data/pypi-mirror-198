@@ -1,0 +1,15 @@
+asdf>=2.12.1
+
+[docs]
+tomli
+sphinx
+sphinx-asdf>=0.1.3
+sphinx-astropy
+astropy>=5.0.4
+graphviz
+matplotlib
+docutils
+sphinx-rtd-theme
+
+[test]
+pytest
