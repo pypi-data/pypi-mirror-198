@@ -1,0 +1,9 @@
+easyxl/__init__.py,sha256=E95d6hjFLOtLjKl0mCdxptXueVpieTNQ3gZHzrwUB6E,79
+easyxl/__main__.py,sha256=qN9gl7takssalOI1K2vzxZ8h_NKoVqDF7Hbk32rKTHg,359
+easyxl/excel2json.py,sha256=mFKjHH6WcybE0vE5gX614PM_AgN7vsYmMYyEbuP1iYQ,23208
+easyxl/utils.py,sha256=i8T-vjFGw7vokxedrZ0oPP-pnP9CdmN1GwdfjzU3_Us,7658
+easyxl-1.0.15.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+easyxl-1.0.15.dist-info/METADATA,sha256=FhTUQYppz7aR4c6Wkbp-OXV_P-Mwl8OC4zdIbfrCU48,5018
+easyxl-1.0.15.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+easyxl-1.0.15.dist-info/top_level.txt,sha256=ZY3D1O5WGywNZZwmQZHBWmJPjEgIEgY6sgTLKxMdsFk,7
+easyxl-1.0.15.dist-info/RECORD,,
