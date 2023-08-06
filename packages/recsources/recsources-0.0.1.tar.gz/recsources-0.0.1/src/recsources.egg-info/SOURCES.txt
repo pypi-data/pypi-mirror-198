@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/package_name/__init__.py
+src/recsources.egg-info/PKG-INFO
+src/recsources.egg-info/SOURCES.txt
+src/recsources.egg-info/dependency_links.txt
+src/recsources.egg-info/requires.txt
+src/recsources.egg-info/top_level.txt
