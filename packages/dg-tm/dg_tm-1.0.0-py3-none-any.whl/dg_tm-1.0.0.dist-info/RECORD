@@ -1,0 +1,13 @@
+dg_tm/15710.txt,sha256=WR-Kz6I0CiVVOK7vGFXAh2BEC0JbBFQidSdtsK_Q_uE,2703713
+dg_tm/__init__.py,sha256=eQGMCsFREKTRX5T1Gq8QKKYUqbeLwGyb_21OKMfAaho,127
+dg_tm/char.csv,sha256=jaqmVLurmcgdlXPIVv3N9o2meI1l_HZruGl7-w3lKQU,5430
+dg_tm/dict.txt,sha256=cZfDIR3dmJYrA2zfQDJNHqK_qhK9Ao5o-qcBEaiOEqg,5071852
+dg_tm/kb.txt,sha256=FOrYTX8gjT01IMmEi3ylejAmJuZ-9ummgllIYJ3bM50,57286
+dg_tm/tmp.py,sha256=U0Kj1OJrW7sDDwKk9bGN8PJQODEwFEaSkKPx7mtkvL0,452
+dg_tm/utils.py,sha256=G14bahrBcQOzri5sm_MnxP5W_U6mmFMZTrinH9yOIFs,656
+dg_tm/word.csv,sha256=k2ZnhHMawF8bR4_nsJqsjjho0_j4KQWKyWFSdSvSu-I,1089
+dg_tm/word_mining.py,sha256=czyd4zD9EObORmqXhKqZENrMgpspaCk9KCB8faQzTSs,7103
+dg_tm-1.0.0.dist-info/METADATA,sha256=JfYRxQu0ooQvbs21KlIWAbpeai-7bcE6j85SboKMJ0Q,180
+dg_tm-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dg_tm-1.0.0.dist-info/top_level.txt,sha256=kWp-C9sMQW0BXBR9T8KkBffCb0XkhaIgtZWDl-pB0Ek,6
+dg_tm-1.0.0.dist-info/RECORD,,
