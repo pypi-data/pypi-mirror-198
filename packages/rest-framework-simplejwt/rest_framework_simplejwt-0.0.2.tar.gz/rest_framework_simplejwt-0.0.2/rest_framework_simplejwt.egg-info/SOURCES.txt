@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+rest_framework_simplejwt.egg-info/PKG-INFO
+rest_framework_simplejwt.egg-info/SOURCES.txt
+rest_framework_simplejwt.egg-info/dependency_links.txt
+rest_framework_simplejwt.egg-info/top_level.txt
+views/__init__.py
+views/views.py
