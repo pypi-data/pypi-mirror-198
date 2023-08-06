@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nwp/__init__.py
+nwp.egg-info/PKG-INFO
+nwp.egg-info/SOURCES.txt
+nwp.egg-info/dependency_links.txt
+nwp.egg-info/top_level.txt
+nwp/icon/__init__.py
+nwp/icon/app.py
+nwp/icon/consts.py
+nwp/icon/utils.py
+nwp/metoffice/__init__.py
+tests/__init__.py
