@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: torcwa
+Version: 0.1.4.2
+Summary: GPU-accelerated Fourier modal method with automatic differentiation
+Home-page: https://github.com/kch3782/torcwa
+Author: Changhyun Kim
+Author-email: kch3782@snu.ac.kr
+License: LGPL
+Keywords: torcwa
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch (>=1.10.1)
+
