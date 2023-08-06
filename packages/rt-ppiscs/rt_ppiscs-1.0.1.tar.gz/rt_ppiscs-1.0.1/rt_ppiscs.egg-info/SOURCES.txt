@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+rt_ppiscs/__init__.py
+rt_ppiscs/coef_scs_fcc.mat
+rt_ppiscs/example.py
+rt_ppiscs/model.py
+rt_ppiscs.egg-info/PKG-INFO
+rt_ppiscs.egg-info/SOURCES.txt
+rt_ppiscs.egg-info/dependency_links.txt
+rt_ppiscs.egg-info/requires.txt
+rt_ppiscs.egg-info/top_level.txt
