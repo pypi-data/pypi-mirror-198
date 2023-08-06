@@ -1,0 +1,125 @@
+{% extends "../base.html" %}
+
+{% block title %}
+    LiteDFS-Login
+{% end %}
+
+{% block header %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">LiteDFS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav ml-auto">
+            <li id="register" class="nav-item">
+                <a class="nav-link">Register</a>
+            </li>
+        </ul> -->
+    </div>
+</nav>
+{% end %}
+
+{% block body %}
+<div class="login-form-container">
+    <form class="form-middle border border-secondary rounded">
+        <div class="mb-3 row">
+            <label for="name" class="col-sm-4 col-form-label">Name</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="name">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="password" class="col-sm-4 col-form-label">Password</label>
+            <div class="col-sm-8">
+                <input type="password" class="form-control" id="password">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <button id="btn-register" type="button" class="btn btn-secondary btn-register" onclick="this.blur();">Register</button>
+            <button id="btn-log-in" type="button" class="btn btn-secondary btn-log-in" onclick="this.blur();">Log in</button>
+        </div>
+    </form>
+</div>
+<div id="register-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create New Account</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control form-control-sm" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control form-control-sm" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" class="form-control form-control-sm" id="confirm-password">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" class="form-control form-control-sm" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" class="form-control form-control-sm" id="phone">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btn-create-account" type="button" class="btn btn-light" onclick="this.blur();">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% end %}
+
+{% block public_js %}
+
+{% end %}
+
+{% block javascript %}
+<link href="{{ static_url('css/common.css') }}" rel="stylesheet" >
+<link href="{{ static_url('css/login.css') }}" rel="stylesheet" >
+<script src="{{ static_url('js/common.js') }}"></script>
+<script src="{{ static_url('js/login.js') }}"></script>
+<script type="text/javascript">
+    var $form_container = $(".login-form-container");
+    var $form_middle = $(".form-middle");
+    var scrollBarSize = getBrowserScrollSize();
+    var height_delta = 150;
+    window.onload = window.onresize = function(){
+        $(document).ready(function(){
+            var window_height = $(window).height();
+            var window_width = $(window).width();
+            var top = (window_height - height_delta) / 2 - 80;
+            if (top < 30) {
+                top = 30;
+            }
+            $form_container.height(window_height - height_delta);
+            $form_container.css("width", "100%");
+            $form_middle.css("top", top);
+        });
+    }
+
+    $(document).ready(function(){
+        var window_height = $(window).height();
+        var window_width = $(window).width();
+        var top = (window_height - height_delta) / 2 - 80;
+        if (top < 30) {
+            top = 30;
+        }
+        $form_container.height(window_height - height_delta);
+        $form_container.css("width", "100%");
+        $form_middle.css("top", top);
+        loginInit();
+    });
+</script>
+{% end %}
