@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: text-analysis-helpers
+Version: 0.5.0
+Summary: Collection of classes and functions for text analysis
+Home-page: https://github.com/pmatigakis/text-analysis-helpers
+License: MIT
+Keywords: text analysis
+Author: Matigakis Panagiotis
+Author-email: pmatigakis@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: arrow (>=0.15.5,<1.0.0)
+Requires-Dist: article-extraction (>=0.3.0,<0.4.0)
+Requires-Dist: extruct (>=0.13.0,<1.0.0)
+Requires-Dist: nltk (>=3.3,<4.0)
+Requires-Dist: numpy (>=1.15.2,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: sumy (>=0.11.0,<1.0.0)
+Requires-Dist: textstat (>=0.4.1,<0.5.0)
+Project-URL: Repository, https://github.com/pmatigakis/text-analysis-helpers
+Description-Content-Type: text/markdown
+
+# Introduction
+
+Text-analysis-helpers is a collection of classes and functions for text analysis.
+
+# Installation
+
+A Python 3 interpreter is required. It is recommended to install the package in
+a virtual environment in order to avoid corrupting the system's Python interpreter
+packages.
+
+Install the package using pip.
+
+```bash
+pip install text-analysis-helpers
+
+python -m nltk.downloader "punkt"
+python -m nltk.downloader "averaged_perceptron_tagger"
+python -m nltk.downloader "maxent_ne_chunker"
+python -m nltk.downloader "words"
+python -m nltk.downloader "stopwords"
+```
+
+# Usage
+
+You can use the HtmlAnalyser object to analyse the contents of a url.
+
+```python
+from text_analysis_helpers.html import HtmlAnalyser
+
+analyser = HtmlAnalyser()
+analysis_result = analyser.analyse_url("https://www.bbc.com/sport/formula1/64983451")
+
+analysis_result.save("analysis_result.json")
+```
+
+You can see the scripts in the `examples` folder for some usage examples.
+
+There is also an cli utility that can be used to analyse a url. For example to
+analyse a url and save the analysis result to a json encoded file execute the
+following command in the terminal.
+
+```bash
+text-analysis-helpers-cli analyse-url --output analysis_result.json https://www.bbc.com/sport/formula1/64983451
+```
+
