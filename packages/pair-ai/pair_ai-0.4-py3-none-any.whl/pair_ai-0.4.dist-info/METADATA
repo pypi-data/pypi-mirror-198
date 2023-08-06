@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pair-ai
+Version: 0.4
+License-File: LICENSE
+Requires-Dist: chatstack
+
