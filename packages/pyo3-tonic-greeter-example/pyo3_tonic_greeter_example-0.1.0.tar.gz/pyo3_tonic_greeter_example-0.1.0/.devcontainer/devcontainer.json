@@ -1,0 +1,22 @@
+{
+	"name": "PyO3 Tonic Greeter Example",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"files.watcherExclude": {
+					"**/target/**": true,
+					"**/node_modules/*/**": true
+				}
+			}
+		}
+	},
+	"remoteUser": "root"
+}

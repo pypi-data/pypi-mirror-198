@@ -1,0 +1,24 @@
+[package]
+name = "pyo3-tonic-greeter-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pyo3_tonic_greeter_example"
+crate-type = ["cdylib"]
+
+[dependencies]
+prost = "0.11.8"
+prost-types = "0.11.8"
+pyo3 = { version = "0.18.1", features = ["extension-module"] }
+pyo3-asyncio = { version = "0.18.0", features = ["tokio-runtime"] }
+tokio = { version = "1.26.0", features = ["macros", "rt-multi-thread"] }
+tokio-stream = "0.1.12"
+tonic = "0.8.3"
+tonic-web = "0.5.0"
+tower-http = { version = "0.4.0", features = ["cors"] }
+
+[dev-dependencies]
+prost-types = "0.11.8"
+tonic-build = "0.8.4"
