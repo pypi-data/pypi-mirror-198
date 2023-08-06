@@ -1,0 +1,11 @@
+pydefender/__init__.py,sha256=ot6yTt5uvcFR375c7Jwq5Uh5-wj3K7BgOrEwKK9G6x0,123
+pydefender/__main__.py,sha256=m7bcVWFv3WRem1jFhp7o6tOnQTZ6ulfvLqBdaPDCRDw,13973
+pydefender/post_install_hook.py,sha256=B36u8nOqlP-eFLLcXvLKGlPV-2rNCTy574WG3V9FVWo,713
+pydefender/pydefender/__init__.py,sha256=ot6yTt5uvcFR375c7Jwq5Uh5-wj3K7BgOrEwKK9G6x0,123
+pydefender/pydefender/__main__.py,sha256=m7bcVWFv3WRem1jFhp7o6tOnQTZ6ulfvLqBdaPDCRDw,13973
+pydefender/pydefender/post_install_hook.py,sha256=B36u8nOqlP-eFLLcXvLKGlPV-2rNCTy574WG3V9FVWo,713
+pydefender-1.0.1.dist-info/METADATA,sha256=QPTvWDOlLU8PbsAK8BjmzgvEa22mcfdjZaX9kAsGT08,1369
+pydefender-1.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+pydefender-1.0.1.dist-info/entry_points.txt,sha256=4GSowsX9Gc94bSWTyCAleVx2CrsLpyGqD0EqXpUeBYY,52
+pydefender-1.0.1.dist-info/top_level.txt,sha256=qBWRdgl7ybl-j_XOgfYMu6BL9V0Iz1rbqHHbcNWVRH4,11
+pydefender-1.0.1.dist-info/RECORD,,
