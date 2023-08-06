@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chatblade
+Version: 0.1.0
+Summary: CLI Swiss Army Knife for ChatGPT
+Home-page: https://github.com/npiv/chatblade
+Project-URL: Documentation, https://github.com/npiv/chatblade
+Keywords: chatblade chatgpt cli python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
