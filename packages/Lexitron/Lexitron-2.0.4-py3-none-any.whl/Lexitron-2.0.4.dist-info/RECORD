@@ -1,0 +1,10 @@
+lexitron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexitron/agid-common.txt,sha256=GzOCiNXdcDOmgx3VZNAIlotd9L3tFvnu68iC0koA4FU,3049195
+lexitron/agid-proper.txt,sha256=OchZ-X-vpsfxbK2VfFCUmZIKRpfC7fPDRDgyLzDSEOw,424631
+lexitron/lexitron.py,sha256=EEkWRKfiUYP_WDfYknv4A5AF2riCcsoC0gNE4b8xh-s,7228
+Lexitron-2.0.4.dist-info/LICENSE,sha256=oBJZobUizw3pWCT5hgYTtFMVPuusRo6WGW1dfbqEeGw,18025
+Lexitron-2.0.4.dist-info/METADATA,sha256=z9qt6IwbALvf8DHV3EfFD-9EfKUqknWWD_-2w3Ifw-I,6942
+Lexitron-2.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Lexitron-2.0.4.dist-info/entry_points.txt,sha256=2OTojgsWMtQQigRSYQyf-f3eHSUpxNhTRoBYA7XXrKw,46
+Lexitron-2.0.4.dist-info/top_level.txt,sha256=dEeR7b6hRkpVqJe9_Z8VZ3rgZh1vaTw_AugYLs-tLWE,9
+Lexitron-2.0.4.dist-info/RECORD,,
