@@ -1,0 +1,16 @@
+pydra/tasks/fsl/__init__.py,sha256=MX7LG5NZbsxWlAb6Ttgxa82-fzJ9pD4w3YHR92fsUp4,554
+pydra/tasks/fsl/bet.py,sha256=vmxx1G5q5PP1yt3WdROjmKv1A__WrE9HJFnI1-UJfro,4308
+pydra/tasks/fsl/convert_xfm.py,sha256=kUTTiYH2i8qjywkuihfm8QvGZjsjAyqi7v8U6SGkY9E,1673
+pydra/tasks/fsl/eddy.py,sha256=oKK05N0o0K6x1Tf6geJmgVP2ykiKD629LbLC0gFS2nQ,12486
+pydra/tasks/fsl/fast.py,sha256=oGJ-1mq2QIDu946brXAUMd80MVpFvPN5NoVadx5vLLo,5716
+pydra/tasks/fsl/flirt.py,sha256=7SrJFHcL2nP7UQvw6hFvYiYLyPpDpH6i0PTTZ4gjZrw,4642
+pydra/tasks/fsl/fnirt.py,sha256=5PS1F3TxCh0klroKY6ll04q4Z3fYflUF2jt87PXiuyw,2352
+pydra/tasks/fsl/fslmaths.py,sha256=i9zVinCk6CyD13oOU21Kt2pUsTGo2d_rcY_7uN51V7A,2584
+pydra/tasks/fsl/fslmerge.py,sha256=M2YG4-pLVg3TyzLXTxMDEO7Fxy0KGn6MQNeZmnmIPMU,1714
+pydra/tasks/fsl/fslreorient2std.py,sha256=QWK7PZtXj2nldmRM8OoFy8AMEstFybx9um256YzLkpQ,1483
+pydra/tasks/fsl/fslroi.py,sha256=GjkJ0ZkrpBmtTITldC-A6KjmEicLLJhELkWGWg6kwJM,3065
+pydra/tasks/fsl/robustfov.py,sha256=5tGWHpsDsYH4ACrE4pEyhpJVRcR_G2iUzATTWxI632A,1545
+pydra_fsl-0.0.7.dist-info/METADATA,sha256=dIstTWZnIET3w5zUPk0S1wMzk309grCHgYSzKGi3cs4,3027
+pydra_fsl-0.0.7.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pydra_fsl-0.0.7.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydra_fsl-0.0.7.dist-info/RECORD,,
