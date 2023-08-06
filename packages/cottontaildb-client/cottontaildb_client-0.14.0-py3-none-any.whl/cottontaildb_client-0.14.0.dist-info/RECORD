@@ -1,0 +1,14 @@
+cottontaildb_client/__init__.py,sha256=dV9xg5lz_KGtDSEN8tDYrtsknKCxUQTO5rx2QHzYVw8,169
+cottontaildb_client/__main__.py,sha256=bebw6GZppQ_1Q5fYO9L5V-eJJsqzqvqgM5iPhzr-m6I,91
+cottontaildb_client/cottontail_pb2.py,sha256=wEXggGXUMxuTOW_G5QBhPMO4uMfGNDkiOZacjCNsciI,50592
+cottontaildb_client/cottontail_pb2_grpc.py,sha256=bEntrkzc3K1yyXhvatKoag_nv-9dotRcUYNOEwtMOoo,45483
+cottontaildb_client/cottontaildb_cli.py,sha256=FqI80XxYbTkER-0PThRQU-LhRH-vG-vioHY1iIxCnVA,5330
+cottontaildb_client/cottontaildb_client.py,sha256=TcMM5Ez7MoP4Ms3zWK0ZSghBIXewQtbEP-zdqNGUQ5U,19123
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cottontaildb_client.py,sha256=7mR5vLFa4dyX4k0s_r96870WU7VXUisZVhBZillWi8Q,11541
+cottontaildb_client-0.14.0.dist-info/LICENSE,sha256=ei_9w648BVLMgj7uPaxdFSqvpGgeG-o9g_wHXw51pJ8,1070
+cottontaildb_client-0.14.0.dist-info/METADATA,sha256=fQO5vD1WWUQZ-C1gCeHey0TBkiVOhruSsl_6n5GUCjY,3323
+cottontaildb_client-0.14.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cottontaildb_client-0.14.0.dist-info/entry_points.txt,sha256=p6LowXubP_xD0lwB_VQlgXs-awd_c4RTqnD7-MVSoos,81
+cottontaildb_client-0.14.0.dist-info/top_level.txt,sha256=iM68t4jAfev6B-KgJWdVji1tX4PojK9dHXTbgQZlxwg,26
+cottontaildb_client-0.14.0.dist-info/RECORD,,
