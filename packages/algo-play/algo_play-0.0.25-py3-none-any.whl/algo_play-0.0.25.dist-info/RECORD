@@ -1,0 +1,9 @@
+algoplay/__init__.py,sha256=Z13rgXx95yivu_YRm_jjCaaq3zxSNKlJjxXzO7-3r2g,43
+algoplay/color.py,sha256=xMfItJrUnJ00hQu4wJqGZJUYeTI7HwZAX3Z4kp_w3yg,7058
+algoplay/exceptions.py,sha256=CPCfoGRGW_3ie5WxlfTiW7O8j3VMrfR9-enMEFDZ13w,322
+algoplay/keypress.py,sha256=tCeSXdS9iIEfKVewPx_o_92-Xm_tNcvI0Pvd-SYaABM,3884
+algoplay/play.py,sha256=s0nKQacMdmEOCAN8vlrX0eZ_j3FFODMEXbHWkEV2jwI,57627
+algo_play-0.0.25.dist-info/METADATA,sha256=tMqly4mu7kKHmMtllNq7GNrClxHgyAzRBOKNZZE05bU,30828
+algo_play-0.0.25.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+algo_play-0.0.25.dist-info/top_level.txt,sha256=pnNPOY-MnjaLS2GFLrueE8Idn2vUy6UJFi0WeW1C95w,9
+algo_play-0.0.25.dist-info/RECORD,,
