@@ -1,0 +1,8 @@
+setup.py
+ast_visualizer/__init__.py
+ast_visualizer/main.py
+ast_visualizer_vavilovm.egg-info/PKG-INFO
+ast_visualizer_vavilovm.egg-info/SOURCES.txt
+ast_visualizer_vavilovm.egg-info/dependency_links.txt
+ast_visualizer_vavilovm.egg-info/requires.txt
+ast_visualizer_vavilovm.egg-info/top_level.txt

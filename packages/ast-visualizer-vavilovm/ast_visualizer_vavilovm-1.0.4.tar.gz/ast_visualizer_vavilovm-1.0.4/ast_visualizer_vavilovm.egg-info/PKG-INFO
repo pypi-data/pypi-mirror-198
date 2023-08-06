@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ast-visualizer-vavilovm
+Version: 1.0.4
+Home-page: https://github.com/vavilovm/hse-python-2023
+Author: Mark Vavilov
+Requires-Python: >=3.9
