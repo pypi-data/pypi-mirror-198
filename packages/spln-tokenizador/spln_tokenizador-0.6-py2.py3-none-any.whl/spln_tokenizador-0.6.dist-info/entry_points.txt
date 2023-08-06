@@ -1,0 +1,3 @@
+[console_scripts]
+spln-tokenizador=tokenizador:main
+
