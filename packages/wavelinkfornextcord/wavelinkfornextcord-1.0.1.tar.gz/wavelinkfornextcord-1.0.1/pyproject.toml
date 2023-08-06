@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wavelinkfornextcord"
+version = "1.0.1"
+description = "All the same wavelink, but based on nextcord! documentation - https://wavelink.readthedocs.io/en/latest"
+authors = ["Pythonista"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core", "nextcord==2.4.1"]
+build-backend = "poetry.core.masonry.api"
