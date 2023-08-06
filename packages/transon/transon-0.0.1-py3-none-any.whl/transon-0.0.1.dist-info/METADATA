@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: transon
+Version: 0.0.1
+Summary: 
+Author: Eugene Chernyshov
+Author-email: chernyshov.eugene@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# transon
+
+![Codecov](https://img.shields.io/codecov/c/github/transon-org/transon)
+
