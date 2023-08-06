@@ -1,0 +1,11 @@
+easyinstruct/__init__.py,sha256=XBwRRM-Ky-q_-kTjAiVFOqyny0ruWx_QR6IcQG2a-Hc,23
+easyinstruct/utils.py,sha256=tE62zWVUsEofUSJBTwxa7h5B_nxCkElV1qHjic6IDAs,356
+easyinstruct/prompts/__init__.py,sha256=H7V_724IpdS4_D9tM1kaUcW8A8EFaccoBDTvAt5-pqk,106
+easyinstruct/prompts/base_prompt.py,sha256=CBrRlI229rpASHuyw847ctH3tz9Kfnbr0DYv3oyB-q0,1805
+easyinstruct/prompts/ie_prompt.py,sha256=ceFd0eCmaUHJnLalTtxfuUUaP16W3ueL9-Vtt9YWR3I,18946
+easyinstruct/prompts/index_prompt.py,sha256=BrxMcmYZhqYwbRZuwDBuXSv7GXUzAIQTyctCRwJMxt0,3592
+easyinstruct-0.0.1.dist-info/LICENSE,sha256=cJaJ3gZhQyEn8EBwoOThlACd7TzBerQ9zOqV3Cte4O0,1063
+easyinstruct-0.0.1.dist-info/METADATA,sha256=vfyCbFq-hJ265UGTJPc23dKBeBvlfe_kwwKNFP54AhQ,1123
+easyinstruct-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+easyinstruct-0.0.1.dist-info/top_level.txt,sha256=MNqxCXnc3nW_wy5TjcU-qpZzmo4t36mZlj6TbLffrek,13
+easyinstruct-0.0.1.dist-info/RECORD,,
