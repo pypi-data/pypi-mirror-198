@@ -1,0 +1,11 @@
+django_view_utils/__about__.py,sha256=dt55hEO4GYpHjZNVo7qfK7q4uh8NII9VuUsM2_sP_cE,140
+django_view_utils/__init__.py,sha256=IkKBR6BW95fUdCFpRgxKbsg-83AW6eJ9xsLrbUHa1g0,207
+django_view_utils/apps.py,sha256=i85839b4fY2jaM9-950vK7bgGukwhTwocMB_1oI97_8,2180
+django_view_utils/conf.py,sha256=o6UKkZlyszVa9Hsf2KDkhbZL7i76MfVAeOyd9DCJnqA,224
+django_view_utils/decorators.py,sha256=HIy1EPUGSVL3r60UDFsNOTTFzBWKK2Ug7uRiwrVyRXk,2976
+django_view_utils/urls.py,sha256=BTsLcsbubxMofLQ2EDBOyyGSxUkEkb4XAQTR4Gq8_ok,90
+django_view_utils/utils.py,sha256=euTbvItOOV5ZoFB1b_53aRCJclWa4acljAgjnBeUrOo,451
+django_view_utils-0.0.4.dist-info/METADATA,sha256=NjvN9EeaLpDvXUSCYyINK1xZ26Dz5C4xd530svYhFiU,3414
+django_view_utils-0.0.4.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+django_view_utils-0.0.4.dist-info/licenses/LICENSE.txt,sha256=RIKrabjPAf9PaD3INmSk6SGUJRipnysyGLC8N9KgM4Y,1110
+django_view_utils-0.0.4.dist-info/RECORD,,
