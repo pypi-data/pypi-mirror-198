@@ -1,0 +1,8 @@
+commit bd0a7ba3f042bfbced5ca1894b236cea08904e26 (HEAD -> master, origin/master, origin/HEAD)
+Merge: 9d88138 2e11114
+Author: Chow Loong Jin <hyperair@debian.org>
+Date:   Mon Oct 25 17:49:37 2021 +0800
+
+    Merge pull request #95 from whi-tw/fix_profiles
+
+    Fix issues in profiles.scad
