@@ -1,0 +1,2 @@
+[console_scripts]
+powerhouse-helper = t8ph_helper.main:run
