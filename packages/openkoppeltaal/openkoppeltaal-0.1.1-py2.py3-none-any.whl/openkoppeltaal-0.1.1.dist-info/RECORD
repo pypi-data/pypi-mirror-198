@@ -1,0 +1,10 @@
+openkoppeltaal/__init__.py,sha256=BOdNz6ufrTn9z4ig_E_iEv4hENmdFjM0ubghGa-iIUQ,45
+openkoppeltaal/cli.py,sha256=Bp5z9L3Z2Xi8YAuXjPXl7MiMMU_isfp8CwgE2YAcsh4,621
+openkoppeltaal/commands.py,sha256=NGK0DYT319CCC-jnKwAES7Q1N429kl2fKaJNqsY8Dpg,1059
+openkoppeltaal/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openkoppeltaal/settings.py,sha256=xJpHKBunPQuAOyPwhknIcTIk3r31AwZhtXKYPqXc9MU,769
+openkoppeltaal-0.1.1.dist-info/entry_points.txt,sha256=pfq6FCHrDdPJVGkS3iF_qSLwp6GjWytXxAV4jT1VOE0,47
+openkoppeltaal-0.1.1.dist-info/LICENSE,sha256=OgJkepsx0-CEJfmtMC_yYAE6qUp_vTQMgdORAz7A4oI,1058
+openkoppeltaal-0.1.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+openkoppeltaal-0.1.1.dist-info/METADATA,sha256=Q48yZkhO3FncTb5bBiy07R-WSCs7VGbm-610oImqvbc,1331
+openkoppeltaal-0.1.1.dist-info/RECORD,,
