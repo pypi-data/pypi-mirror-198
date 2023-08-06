@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pysyn_data
+Version: 0.2.5
+Summary: This package is for generating synthetic data using 4 models i.e Conditional Genrative Adveserial Networks(CTGAN), Gaussian Mixture Model (GMM), Prinicipal Component Analysis (PCA) and Bayesian Network (BN). It also informs the user which model will work best based on the input data characterisitics.
+Home-page: UNKNOWN
+Author: Raghav_Ritesh
+Author-email: raghav.20.rb@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
