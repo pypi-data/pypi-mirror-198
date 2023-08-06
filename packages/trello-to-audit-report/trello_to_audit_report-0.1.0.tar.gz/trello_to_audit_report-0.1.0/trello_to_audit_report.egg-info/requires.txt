@@ -1,0 +1,7 @@
+certifi
+charset-normalizer
+idna
+requests
+urllib3
+python-dotenv
+pypandoc
