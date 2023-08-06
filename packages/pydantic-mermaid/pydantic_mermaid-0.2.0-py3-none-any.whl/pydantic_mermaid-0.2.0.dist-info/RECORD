@@ -1,0 +1,10 @@
+pydantic_mermaid/__init__.py,sha256=q77uvDmHMjtM9PGWoX10L6tAcZojm3JfUYeIgTEy5q4,83
+pydantic_mermaid/__main__.py,sha256=HFA-LkvQjhsciEcWJIFpo78RYLD0f-8JqOUUuO-hXCg,2276
+pydantic_mermaid/mermaid_generator.py,sha256=6tUTGyCgyVbe4H9r4wI09IcdZSPbfZUfFJO2tIIUwPE,6434
+pydantic_mermaid/models.py,sha256=xogWuaz4yVyB8OWaxDfHWxTi6_k_W55aC5qEVvEOzrk,1329
+pydantic_mermaid/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_mermaid-0.2.0.dist-info/METADATA,sha256=9OBWiWFJUp__EBrbPmu4r1y9YdXDMWC7vkFesoY0cHk,3093
+pydantic_mermaid-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydantic_mermaid-0.2.0.dist-info/entry_points.txt,sha256=iPPwRalfoPiy0Uvt9-tGo1hhDXWc82tbOWDy7Yvqj4w,68
+pydantic_mermaid-0.2.0.dist-info/top_level.txt,sha256=UZ_npkZjCBDRnQq7HuWH1KFEY8dmWK-hoezMMF-IdXA,17
+pydantic_mermaid-0.2.0.dist-info/RECORD,,
