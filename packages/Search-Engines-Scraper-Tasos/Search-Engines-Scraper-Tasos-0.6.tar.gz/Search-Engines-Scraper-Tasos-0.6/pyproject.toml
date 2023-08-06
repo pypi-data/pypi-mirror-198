@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Search-Engines-Scraper-Tasos"
+version = "0.6"
+authors = [
+  { name="Tasos M. Adamopoulos", email="author@example.com" },
+]
+description = "Search google, bing, yahoo, and other search engines with python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tasos-py/Search-Engines-Scraper"
+"Bug Tracker" = "https://github.com/tasos-py/Search-Engines-Scraper/issues"
