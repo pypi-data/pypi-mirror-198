@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+pdtj/__init__.py
+pdtj/__version__.py
+pdtj/constants.py
+pdtj/docstring_handler.py
+pdtj/files_finder.py
+pdtj/json_generator.py
+pdtj/parameters.py
+pdtj/util.py
+pdtj.egg-info/PKG-INFO
+pdtj.egg-info/SOURCES.txt
+pdtj.egg-info/dependency_links.txt
+pdtj.egg-info/entry_points.txt
+pdtj.egg-info/requires.txt
+pdtj.egg-info/top_level.txt
