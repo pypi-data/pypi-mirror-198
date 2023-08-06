@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+plotly
+rich
+pyDRMetrics
+tqdm
+toml
+ipywidgets==7.7.2
