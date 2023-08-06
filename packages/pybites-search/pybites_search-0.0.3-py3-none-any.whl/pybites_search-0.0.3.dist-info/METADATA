@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pybites_search
+Version: 0.0.3
+Summary: A search engine for Pybites content
+Project-URL: Homepage, https://github.com/pybites/search
+Project-URL: Bug Tracker, https://github.com/pybites/search/issues
+Author-email: Pybites <info@pybit.es>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: requests
+Requires-Dist: typer[all]
+Description-Content-Type: text/markdown
+
+# Pybites Search
+
+
