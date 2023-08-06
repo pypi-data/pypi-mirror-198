@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rtp-feedback-tool"
+version = "0.0.1"
+authors = [
+  { name="HuaJuan Zhang", email="zhj630985214@gmail.com" },
+]
+description = "Robot Tasking Platform(RTP,机器人任务下发与状态同步平台)的数据反馈工具,在RTP下发的应用容器中使用"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.15.0",
+    "paho-mqtt>=1.5.0",
+    "Pillow>=5.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://gitee.com/zhj6848/robot-tasking-platform/tree/main/rtp-feedback-tool"
+"Bug Tracker" = "https://gitee.com/zhj6848/robot-tasking-platform/issues"
