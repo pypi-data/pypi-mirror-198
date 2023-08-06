@@ -1,0 +1,33 @@
+from ba_whatsapp_api_client_python.response import Response
+
+class Journals:
+    def __init__(self, basisApi) -> None:
+        self.basisApi = basisApi
+        
+    def getChatHistory(self, chatId: str, count: str) -> Response:
+            'The method returns the chat message history.'
+
+            requestBody = {
+                'chatId': chatId,
+                'count': count,
+            }
+
+            return self.basisApi.request('POST', 
+                '{{host}}/waInstance{{idInstance}}'
+                '/GetChatHistory/{{apiTokenInstance}}',
+                requestBody)
+
+    def lastIncomingMessages(self) -> Response:
+            'The method returns the chat message history.'
+
+            return self.basisApi.request('GET', 
+                '{{host}}/waInstance{{idInstance}}'
+                '/LastIncomingMessages/{{apiTokenInstance}}')
+
+    def lastOutgoingMessages(self) -> Response:
+            'The method returns the last outgoing messages of the account.'
+            'Outgoing messages are stored on the server for 24 hours.'
+
+            return self.basisApi.request('GET', 
+                '{{host}}/waInstance{{idInstance}}'
+                '/LastOutgoingMessages/{{apiTokenInstance}}')
