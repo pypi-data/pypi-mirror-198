@@ -1,0 +1,35 @@
+/* i.fa {
+    font-weight: var(--fa-style, normal);
+    &:before {
+        font-family: "FontAwesome";
+    }
+} */
+
+.fa-clock-o::before {
+    content: "\f017";
+}
+
+.fa-building-o::before {
+    content: "\f1ad";
+}
+
+.fa-map-marker::before {
+    content: "\f3c5";
+
+}
+
+.fa-file-pdf-o::before {
+    content: "\f1c1";
+}
+
+.fa-bar-chart-o::before {
+    content: "\f080";
+}
+
+.fa-file-text-o::before {
+    content: "\f15c";
+}
+
+.fa-arrow-circle-o-down::before {
+    content: "\f019";
+}
