@@ -1,0 +1,10 @@
+numpy
+
+[dev]
+black
+bumpver
+pytest
+mypy
+setuptools
+build
+twine

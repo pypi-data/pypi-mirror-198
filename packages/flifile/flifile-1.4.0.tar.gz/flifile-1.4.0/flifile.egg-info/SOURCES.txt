@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+flifile/__init__.py
+flifile/datatypes.py
+flifile/flifile.py
+flifile/readheader.py
+flifile/version.py
+flifile.egg-info/PKG-INFO
+flifile.egg-info/SOURCES.txt
+flifile.egg-info/dependency_links.txt
+flifile.egg-info/requires.txt
+flifile.egg-info/top_level.txt
+tests/test_readfile.py
+tests/test_readheader.py
