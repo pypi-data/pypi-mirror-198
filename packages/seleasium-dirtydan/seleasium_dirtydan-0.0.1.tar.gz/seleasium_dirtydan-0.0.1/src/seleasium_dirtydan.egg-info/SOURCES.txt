@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/__init__.py
+src/seleasium.py
+src/seleasium_dirtydan.egg-info/PKG-INFO
+src/seleasium_dirtydan.egg-info/SOURCES.txt
+src/seleasium_dirtydan.egg-info/dependency_links.txt
+src/seleasium_dirtydan.egg-info/top_level.txt
