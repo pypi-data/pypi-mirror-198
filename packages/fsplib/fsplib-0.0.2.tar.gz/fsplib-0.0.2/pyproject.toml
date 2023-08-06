@@ -1,0 +1,15 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=45"]
+
+[project]
+name = "fsplib"
+version = "0.0.2"
+# dynamic = ["version"]
+description = 'python package for PredictFutureSales compet'
+
+readme = "README.md"
+requires-python = ">=3.7"
+
+[tool.setuptools]
+packages = ['fsplib']
