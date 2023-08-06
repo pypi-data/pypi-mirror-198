@@ -1,0 +1,11 @@
+spinecore
+
+[all]
+spinecore[spark]
+spinecore[polars]
+
+[polars]
+spinecore[polars]
+
+[spark]
+spinecore[spark]
