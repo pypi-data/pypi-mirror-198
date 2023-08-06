@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CATWRSM
+Version: 0.1
+Summary: convert WRSM output files to full or selected compenents of the catchment water balance
+Home-page: UNKNOWN
+Author: Peni Metho
+Author-email: aquaalgorithms@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
