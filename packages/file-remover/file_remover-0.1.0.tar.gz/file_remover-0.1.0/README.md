@@ -1,0 +1,1 @@
+This cli program helps to delete files, of format `._<anything>`
