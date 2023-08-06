@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: rootstacks
+Version: 0.11
+Summary: Root BlueStacks
+Home-page: https://github.com/hansalemaos/rootstacks
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: BlueStacks,root,android
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: reggisearch
+
+
+# Root BlueStacks
+
+
+
+### pip install rootstacks
+
+
+
+
+
+```python
+
+from rootstacks import root_bluestacks
+
+
+
+root_bluestacks(make_read_only=False)  # if make_read_only is True, BlueStacks can't change the config file anymore
+
+
+
+```
+
