@@ -1,0 +1,4 @@
+[
+  "src/tests/test_caspy.py::test_computed_lnK",
+  "src/tests/test_caspy.py::test_results_for_A_B_case"
+]
