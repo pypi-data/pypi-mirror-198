@@ -1,0 +1,9 @@
+csv_trans/__init__.py,sha256=nz2567g0wzmjioFhL8XB0AQwel7QiplywmT-HH3HwGc,34
+csv_trans/translate.py,sha256=T8IBCK8dyCt0oquifPujEftm5XG7I1pw0TSquZ_Zq-8,2977
+csv_trans/utils.py,sha256=mPQ4ob3isr8POmvpMgsJRWNXdyoLCQXa7gqVjavvkhY,6075
+csv_trans-0.0.3.dist-info/LICENSE,sha256=KsjY85kc__Q5FE2EqTGUTM-tGyyDfbRCAJXR-weeX4E,1090
+csv_trans-0.0.3.dist-info/METADATA,sha256=Wf2CDFJ0zKLW67VL5eqs7chBCuyymmPNcpyjZH-NWnE,2945
+csv_trans-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+csv_trans-0.0.3.dist-info/entry_points.txt,sha256=vqcQP4QirIHhDqon_i_-JglHoRJzmDLFeaA-1pE7kUg,53
+csv_trans-0.0.3.dist-info/top_level.txt,sha256=QMNJ8hjOdxHLSN4hGXJBG_i4mMGbZzG2Sglniz1OPyE,10
+csv_trans-0.0.3.dist-info/RECORD,,
