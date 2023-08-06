@@ -1,0 +1,8 @@
+README.md
+main.py
+setup.py
+update_changelog.egg-info/PKG-INFO
+update_changelog.egg-info/SOURCES.txt
+update_changelog.egg-info/dependency_links.txt
+update_changelog.egg-info/entry_points.txt
+update_changelog.egg-info/top_level.txt
