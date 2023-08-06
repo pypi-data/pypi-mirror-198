@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pywhiten
+Version: 1.0.0
+Summary: A python package for conducting Lomb-Scargle based prewhitening of stellar time series. 
+Home-page: https://www.github.com/erikstacey/pywhiten
+Author: Erik William Stacey
+Author-email: Erik Stacey <erik@erikstacey.com>
+License: MIT
+Project-URL: Homepage, https://github.com/erikstacey/pywhiten
+Project-URL: Bug Tracker, https://github.com/erikstacey/pywhiten/issues
+Project-URL: Documentation, https://readthedocs.org/projects/pywhiten/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![pywhiten logo](pywhitenlogo3.png)
+
+A python package for conducting Lomb-Scargle-based pre-whitening of stellar time series. A similar program, called pypw,
+was written and utilized for the analyses presented in my Master's thesis. I'm in the process of converting pypw to
+this package, such that it can be utilized in a more accessible fashion.
+
+Current Status (18 Mar 2023):
+
+Core behaviour of pypw re-implemented in this package. Need to do a bit of final testing and upload to pip, then write some usage instructions here. Stay tuned.
+
+Expected completion: By 2 Mar, 2023
