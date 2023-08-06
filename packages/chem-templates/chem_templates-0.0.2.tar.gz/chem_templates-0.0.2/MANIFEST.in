@@ -1,0 +1,6 @@
+include settings.ini
+include LICENSE
+include CONTRIBUTING.md
+include README.md
+include chem_templates/synt_on/fusion_reactions/*
+recursive-exclude * __pycache__
