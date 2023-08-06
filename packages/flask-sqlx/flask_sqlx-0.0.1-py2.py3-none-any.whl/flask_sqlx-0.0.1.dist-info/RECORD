@@ -1,0 +1,9 @@
+flask_sqlx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_sqlx/__version__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+flask_sqlx/db.py,sha256=PLLfzpX-dL76y6aixGiPfHfD9bq6C1O4qdJ4udY1x14,7494
+flask_sqlx/exceptions.py,sha256=h2uOXE5YIwXaQaVn9e6lq2yO5pDi7jehYjrtcclrLuQ,281
+flask_sqlx/sql_loader.py,sha256=j3rGF-pS7UsnANeogEzSIsqmk3jgnGQEZZ89zepgMrQ,4358
+flask_sqlx-0.0.1.dist-info/METADATA,sha256=w_bqIs04KRCI0arZAi-Y-xFX_41b_gSIk_brmZIfRK8,859
+flask_sqlx-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+flask_sqlx-0.0.1.dist-info/top_level.txt,sha256=R1aqgmNJz3iDV6Azamiks_RvZxrMsjGh6Z-KR813DfE,11
+flask_sqlx-0.0.1.dist-info/RECORD,,
