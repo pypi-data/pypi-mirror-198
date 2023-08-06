@@ -1,0 +1,9 @@
+quickutil4py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickutil4py/datetime_util.py,sha256=1orwr-xrQBx_1-0ne8r4MApWPm3lF8-Vd7NkDH4vdng,436
+quickutil4py/db_util.py,sha256=9GR2lHuGNlo8ouhtIARVy-YwINdO8VPKm2ggn1nzgio,2283
+quickutil4py/file_util.py,sha256=LgQE9qcQg5GpLipmWIzrr1WfR3k4HE3Y4Oh6bclUPeg,1172
+quickutil4py-0.1.dist-info/LICENSE,sha256=d8NHOcZiuaSgW-05iyGw6qT7jcmv5jxoB0V45syTrQg,1073
+quickutil4py-0.1.dist-info/METADATA,sha256=PYRoK6aRAj8udUwMPZJ-Ryrm0eVKoqF1R2W15TTXGrg,791
+quickutil4py-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+quickutil4py-0.1.dist-info/top_level.txt,sha256=erDtfCqaoqoZwx8DcZvpX33cVmo5mxz4BARo8wK-ApQ,13
+quickutil4py-0.1.dist-info/RECORD,,
