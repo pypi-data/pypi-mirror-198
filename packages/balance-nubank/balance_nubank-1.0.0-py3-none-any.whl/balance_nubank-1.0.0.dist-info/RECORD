@@ -1,0 +1,17 @@
+pynubank/__init__.py,sha256=z1-HGkLcwRgUrveEWJtCTCWLbsLnl6rkI4ZoFBFdmrQ,400
+pynubank/auth_mode.py,sha256=y5tsr-r-uGvlWZLjsdrTpYMDB8F9gaxzpDTiUy3kXyc,682
+pynubank/cli.py,sha256=Oelu4Y7Vn8ihLul4MmbuEtB-rBCBRFm15ottvJIMQAQ,1645
+pynubank/exception.py,sha256=U5oSmHqxDTbl8tt8sZpzZsF5k2pFEsJLmdz1OECI8E4,690
+pynubank/nubank.py,sha256=mg_odusifkUVswZfMPwS9rizqFoMrlH8zYtYWTgtkMI,13597
+pynubank/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynubank/utils/certificate_generator.py,sha256=AwLt5AAETuWjFtYJZwpZNfWz9cAKaNOGprTqGsKBnEc,3138
+pynubank/utils/discovery.py,sha256=utH_qHlf6XJ6-OKXmUi6Mi02HdRsKsDipD8yo-b_uU4,1011
+pynubank/utils/graphql.py,sha256=TbeoE6WhorVDePEoSWaQlVaIP4HmIWHjTWVqhHJY_ng,494
+pynubank/utils/http.py,sha256=VNx2Yh7Rqiqj8lmWYk-lMfZcnqOR3tNxNnHroKbVi6A,1397
+pynubank/utils/mock_http.py,sha256=CAT4kv_wr7JVe4cs6t6Hm7KsC-0xXYGDiSVMg7W2Wxs,4636
+pynubank/utils/parsing.py,sha256=3aUuTTX9QJIL2KbCH6doGLKu4NsEwrIePxKoCrYxbjo,1499
+pynubank/utils/mocked_responses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+balance_nubank-1.0.0.dist-info/METADATA,sha256=bIRWLPx8gZMdE-oX2SUUoR_iwrlfQ3YCU_JFqXaINBs,716
+balance_nubank-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+balance_nubank-1.0.0.dist-info/top_level.txt,sha256=rBM7hgmP7ydjFo_6r0XiWb6Y_oN-r1v2asHfaDlcoIE,9
+balance_nubank-1.0.0.dist-info/RECORD,,
