@@ -1,0 +1,15 @@
+README.md
+setup.py
+pygalfitm/__init__.py
+pygalfitm/auxiliars.py
+pygalfitm/plot.py
+pygalfitm/psf.py
+pygalfitm/pygalfitm.py
+pygalfitm/read.py
+pygalfitm.egg-info/PKG-INFO
+pygalfitm.egg-info/SOURCES.txt
+pygalfitm.egg-info/dependency_links.txt
+pygalfitm.egg-info/requires.txt
+pygalfitm.egg-info/top_level.txt
+pygalfitm/VOs/__init__.py
+pygalfitm/VOs/splus.py
