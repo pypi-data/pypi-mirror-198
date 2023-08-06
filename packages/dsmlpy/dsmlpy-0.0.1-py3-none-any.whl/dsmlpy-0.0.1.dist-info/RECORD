@@ -1,0 +1,10 @@
+dspy/__init__.py,sha256=6P6oBcMOiWVVIG_phsau1YHKp60t8xTWIc2aBa_isP4,256
+dspy/data_preparation.py,sha256=WuTx5iMhR4pQQ0QsISukooKZnMOhwqhWPcS_q93W2bw,7764
+dspy/data_understanding.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dspy/deployment.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dspy/evaluation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dspy/modeling.py,sha256=46i3J5gHZx_jumYPypGLZTyGTm81MFwS0PGSHObQgkg,4481
+dsmlpy-0.0.1.dist-info/METADATA,sha256=eYiDbU0EqGt2shH_RQjbkvVCn4lZmL-htz6QUHzyEXc,363
+dsmlpy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dsmlpy-0.0.1.dist-info/top_level.txt,sha256=LBmD7P1EFkkAdnyrx0roZM296sq5F8AuJyV-Ht00hV4,5
+dsmlpy-0.0.1.dist-info/RECORD,,
