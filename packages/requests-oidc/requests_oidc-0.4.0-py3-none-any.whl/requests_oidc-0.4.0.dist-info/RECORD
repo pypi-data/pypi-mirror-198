@@ -1,0 +1,15 @@
+requests_oidc/__init__.py,sha256=j0ftxgZ8BKlKShFmQj2DMrYeiY7CHfD-WrfY7-U9Jvo,361
+requests_oidc/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requests_oidc/exceptions.py,sha256=n6F6ycKffVlJKwOcToRohEEoMP6viZ4BYhqiI4Ppa9s,41
+requests_oidc/flows/auth_code.py,sha256=NczenQF9luajqrPcFwLVV1rJZ2dSq5yfNQILkSHFzjo,4445
+requests_oidc/flows/client_credentials.py,sha256=WsyjLdkICSrHqSuVNf547aC6O9LMWGaoY_SIFOBaA5M,1061
+requests_oidc/flows/device_code.py,sha256=z9PUJwsKPvGXIqvOH5k_k2l_HBkCv7u_thGn-yaN8iE,3717
+requests_oidc/types.py,sha256=NUbNKyl5MZFM5j-IAzUWMMucKaf4zaK_1hlKlLDaX9E,67
+requests_oidc/utils/__init__.py,sha256=oFF-nhh7p6-gWFeYqkby3NWyytjrArRZBBdOjaxAaIc,104
+requests_oidc/utils/catcher.py,sha256=-LmxStVfOwW4rvGZ38hT3rRd-A5HWhK-sPTVbD8Eye8,930
+requests_oidc/utils/discovery.py,sha256=yRJRsbN-Ttr-xr9iZinmT-4ADuu_pJR6IuosEPREEUY,637
+requests_oidc/utils/scope.py,sha256=Sx5I9SaA-HSh-JZSGWmr8XDcwAzeUnaLMV6r7rohctk,219
+requests_oidc-0.4.0.dist-info/METADATA,sha256=P3lmvTgg66xrpI_uLyw7J7ZUcZVjaWs94lYGrSJSY_A,4060
+requests_oidc-0.4.0.dist-info/LICENSE,sha256=pnVF7eB7rpJbC2qmDRZ9jnq4SIPhban-ElRWa2meztM,1054
+requests_oidc-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+requests_oidc-0.4.0.dist-info/RECORD,,
