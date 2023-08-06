@@ -1,0 +1,9 @@
+pybind11numpyexample.pypy38-pp73-x86-linux-gnu.so,sha256=5WlMTuo2B8FEx6TRLfHPTMvl3dbjz1Cg2CdgPxgWwoA,182564
+include/pybind11-numpy-example/pybind11-numpy-example.hpp,sha256=TUDkJjMgR7aKP-dAP-0Fl_K4S0hYfH7eOLmtSm4TYYQ,475
+lib/libpybind11-numpy-example.a,sha256=ZQ6oWGX7CIzQ4hg6NR4zyTG5bv0BQ0gSr5ONUcgCLR0,894
+lib/cmake/pybind11-numpy-example/pybind11-numpy-example-config.cmake,sha256=-tCUPhxjL1lt_4TDZxYmxsJ-FxYyCyRMhFXU77zpnvQ,4042
+lib/cmake/pybind11-numpy-example/pybind11-numpy-example-config-release.cmake,sha256=e9Px8GVWPhER_ObfNtStk7Md_Jk3mqd_CBUO0Ltag_I,1035
+pybind11_numpy_example-0.0.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybind11_numpy_example-0.0.5.dist-info/WHEEL,sha256=XIXq7ob1EgCWOI0vuNGPe405GlFeaqP7PtIEhyi7I8w,161
+pybind11_numpy_example-0.0.5.dist-info/RECORD,,
+pybind11_numpy_example-0.0.5.dist-info/METADATA,sha256=eYQSVaUBloIkosZIWRyT7NppoTKPXEaz0x0hgfGvRic,3608
