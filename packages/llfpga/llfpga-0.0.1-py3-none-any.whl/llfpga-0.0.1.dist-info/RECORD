@@ -1,0 +1,7 @@
+llfpga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llfpga/register.py,sha256=mM-5-sd1QdpJWbJH6RNQ_8M5DkSaBdsI3Bs2lxmR3qk,92
+llfpga/rpc.py,sha256=6dJ0sYK_3NdJyX16d5bLcBtIho9ioGvUemduPwqBddw,1605
+llfpga-0.0.1.dist-info/METADATA,sha256=QCdTSVwFHhRY3DGsMIBtsMbx-DWg9DQ32WG94Vmctf4,440
+llfpga-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+llfpga-0.0.1.dist-info/top_level.txt,sha256=UwK-ZmG0Q1eyn64iAlSqSDJklvz_k4T-cRDGluhCdmE,7
+llfpga-0.0.1.dist-info/RECORD,,
