@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+sources = ["src"]
+
+[project]
+name = "single_chars_counter_package"
+version = "0.0.1"
+authors = [
+  { name="Ihor Prokopenko", email="scaryscreamerg@gmail.com" },
+]
+description = "App that count unique characters in text"
+readme = "README.md"
+requires-python = ">=3.11.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = 'https://git.foxminded.ua/foxstudent104424/task-3-collection-framework'

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: single_chars_counter_package
+Version: 0.0.1
+Summary: App that count unique characters in text
+Project-URL: Homepage, https://git.foxminded.ua/foxstudent104424/task-3-collection-framework
+Author-email: Ihor Prokopenko <scaryscreamerg@gmail.com>
+License-File: LICENSE.txt
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+
+# Single Chars Counter
+This is an app that count unique characters in text
