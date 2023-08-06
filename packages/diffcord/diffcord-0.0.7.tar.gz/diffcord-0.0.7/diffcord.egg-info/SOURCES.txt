@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+diffcord/__init__.py
+diffcord/api.py
+diffcord/client.py
+diffcord/error.py
+diffcord/vote.py
+diffcord.egg-info/PKG-INFO
+diffcord.egg-info/SOURCES.txt
+diffcord.egg-info/dependency_links.txt
+diffcord.egg-info/not-zip-safe
+diffcord.egg-info/requires.txt
+diffcord.egg-info/top_level.txt
+tests/test_client.py
+tests/test_webhook_listener.py
+tests/testing_main.py
