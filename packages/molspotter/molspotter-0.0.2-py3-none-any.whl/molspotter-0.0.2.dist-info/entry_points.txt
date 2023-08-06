@@ -1,0 +1,2 @@
+[console_scripts]
+molspotter = molspotter.cli:main
