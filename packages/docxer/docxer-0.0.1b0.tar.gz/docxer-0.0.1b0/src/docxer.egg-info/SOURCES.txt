@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/docxer/__init__.py
+src/docxer.egg-info/PKG-INFO
+src/docxer.egg-info/SOURCES.txt
+src/docxer.egg-info/dependency_links.txt
+src/docxer.egg-info/top_level.txt
