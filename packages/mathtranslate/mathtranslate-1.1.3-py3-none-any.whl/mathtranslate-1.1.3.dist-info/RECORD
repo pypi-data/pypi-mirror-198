@@ -1,0 +1,9 @@
+mathtranslate/__init__.py,sha256=qd9IAYcJlvhbQAG7FUcS_1hoYd8ZLEUOS_rYsH7t5Pg,170
+mathtranslate/config.py,sha256=6nL0BdzTwpcxm2fuLJIv0aWttBZ9Q2-S99MVAoegQHk,85
+mathtranslate/translate_tex.py,sha256=XSooDmzxF_cFVl6L6nevHYJ-VcItcD8b3MNU52rtm7A,6761
+mathtranslate-1.1.3.data/scripts/translate_tex.py,sha256=6bDq40VMf6eT1temVcuqjipUcAtLeW_1ZbWptkbdX0I,6748
+mathtranslate-1.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mathtranslate-1.1.3.dist-info/METADATA,sha256=uNlsBD2dXVol31ZkDs3Kcp5TPHpAUd17W3l_OXv0xhg,5053
+mathtranslate-1.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mathtranslate-1.1.3.dist-info/top_level.txt,sha256=9fiyv2mtqrZ-icGi_P3adnAX09LKL4-FT9PSmaPhUcs,14
+mathtranslate-1.1.3.dist-info/RECORD,,
