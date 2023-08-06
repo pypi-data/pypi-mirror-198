@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+openhuman.egg-info/PKG-INFO
+openhuman.egg-info/SOURCES.txt
+openhuman.egg-info/dependency_links.txt
+openhuman.egg-info/requires.txt
+openhuman.egg-info/top_level.txt
+src/reader/config.toml
