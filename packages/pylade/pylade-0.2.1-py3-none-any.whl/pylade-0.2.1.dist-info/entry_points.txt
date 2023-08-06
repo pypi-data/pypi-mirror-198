@@ -1,0 +1,5 @@
+[console_scripts]
+pylade=pylade.console_scripts.detect:main
+pylade_eval=pylade.console_scripts.evaluate:main
+pylade_train=pylade.console_scripts.train:main
+
