@@ -1,0 +1,5 @@
+[console_scripts]
+zettasql = zclient.main:main
+zettasql-help = zserver.help:help
+zettasql-start = zserver.start:start
+zettasql-stop = zserver.stop:stop
