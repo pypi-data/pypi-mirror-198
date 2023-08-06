@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+GTTD.egg-info/PKG-INFO
+GTTD.egg-info/SOURCES.txt
+GTTD.egg-info/dependency_links.txt
+GTTD.egg-info/entry_points.txt
+GTTD.egg-info/requires.txt
+GTTD.egg-info/top_level.txt
+bot/__init__.py
+bot/interface.py
+bot/sublayers/address_book.py
+bot/sublayers/cleaner.py
+bot/sublayers/handler.py
+bot/sublayers/notebook.py
