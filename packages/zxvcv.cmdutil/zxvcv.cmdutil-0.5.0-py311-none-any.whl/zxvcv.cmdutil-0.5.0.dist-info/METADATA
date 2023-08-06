@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: zxvcv.cmdutil
+Version: 0.5.0
+Summary: Commandline toolbox
+Author-email: Pawel Piskorz <ppiskorz0@gmail.com>
+Maintainer-email: Pawel Piskorz <ppiskorz0@gmail.com>
+License: MIT License
+Project-URL: homepage, https://gitlab.com/zxvcv-python/zxvcv/cmdutil
+Project-URL: repository, https://gitlab.com/zxvcv-python/zxvcv/cmdutil
+Project-URL: changelog, https://gitlab.com/zxvcv-python/zxvcv/cmdutil/-/blob/master/CHANGES.rst
+Project-URL: download, https://pypi.org/project/zxvcv.cmdutil/
+Project-URL: issues, https://gitlab.com/zxvcv-python/zxvcv/cmdutil/-/issues
+Keywords: zxvcv,toolbox,tool,command
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: tox
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <3.12,>=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: zxvcv.util (~=0.4.1)
+
+# zxvcv.cmdutil
+Commandline toolbox.
+
+# Setup aliases
+To use aliases provided with this package:
+## Windows
+Add path <python_path>/Lib/site-packages/zxvcv/cmdutil/aliases/dos
+
+## Unix
+Run command (for python 3.11): `printf "\nexport PATH=\$PATH:~/.local/lib/python3.11/site-packages/zxvcv/cmdutil/aliases/unix\n. ~/.local/lib/python3.11/site-packages/zxvcv/cmdutil/aliases/unix/bash_zxvcv_aliases\n\n" >> ~/.bashrc`
+
+> requires to install `sudo apt install python-is-python3` or set `alias python=python3 $@`
+
+> To get python site-packates path run: python3 -m site
+
+# Provided aliases
+## Windows
+`clear` = cls \
+`gita` = git add -A :!a \
+`gitl` = git log --graph --oneline %* \
+`la` = dir \
+`ll` = dir \
+`ls` = dir /B \
+`venva` - support activation python venvs (see --help) \
+`venvi` - support creation python venvs (see --help) \
+`venvr` - support removing python venvs (see --help) \
+`venvl` - list available python venvs (see --help)
+## Unix
+`cls` = clear \
+`gita` = git add -A :!a \
+`gitl` = git log --graph --oneline $@ \
+`venva` - support activation python venvs (see --help) \
+`venvi` - support creation python venvs (see --help) \
+`venvr` - support removing python venvs (see --help) \
+`venvl` - list available python venvs (see --help)
+
+
+# Virtual Python Environemts Paths
+Windows: `C:\PythonVenv` \
+Unix: `~/pythonvenv`
+
+# Scripts
+
+## zxvcv.pullall
+Helps updating multiple git repositories (see --help)
