@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/Wenxin.egg-info/PKG-INFO
+src/Wenxin.egg-info/SOURCES.txt
+src/Wenxin.egg-info/dependency_links.txt
+src/Wenxin.egg-info/requires.txt
+src/Wenxin.egg-info/top_level.txt
+src/wenxin/wenxin.py
