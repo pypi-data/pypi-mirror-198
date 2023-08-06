@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+webai.egg-info/PKG-INFO
+webai.egg-info/SOURCES.txt
+webai.egg-info/dependency_links.txt
+webai.egg-info/top_level.txt
