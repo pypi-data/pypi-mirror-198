@@ -1,0 +1,12 @@
+parse
+transliterate
+
+[:python_version >= "3.7"]
+tomli
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
