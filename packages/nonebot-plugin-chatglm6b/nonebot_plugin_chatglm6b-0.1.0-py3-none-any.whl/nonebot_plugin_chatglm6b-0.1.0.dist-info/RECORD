@@ -1,0 +1,10 @@
+nonebot_plugin_chatglm6b/__init__.py,sha256=JrDAfoou_-uRVUpOdLExh52-UCbIMT6VtPb1faCCzAc,707
+nonebot_plugin_chatglm6b/chat.py,sha256=rAznosWJX94fICAgE7nlxHYoVXvv-MuqKozevsaQRg4,2522
+nonebot_plugin_chatglm6b/config.py,sha256=3M8aW4UpMlNj61JX7_paqKKmtFnN7QsT59AgOePOhwI,916
+nonebot_plugin_chatglm6b/request.py,sha256=Ue86oYNsI8GSsYerRiJtq8CoYgb7t7VDF0LO4GAHEq0,1873
+nonebot_plugin_chatglm6b/save.py,sha256=Oo7RWitHKqwEYL4ua1ADnSEi4fySDes5tQBzfE1dxzY,2541
+nonebot_plugin_chatglm6b-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_plugin_chatglm6b-0.1.0.dist-info/METADATA,sha256=pVPf-qlH3KCkxK0QdJ04DyKX17Z97bE3EIDCA2XDzJ8,7218
+nonebot_plugin_chatglm6b-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nonebot_plugin_chatglm6b-0.1.0.dist-info/top_level.txt,sha256=yUCmOmahHQS9eeOHdcof7lu0JGTb1JUu-TYoBmFrrGg,25
+nonebot_plugin_chatglm6b-0.1.0.dist-info/RECORD,,
