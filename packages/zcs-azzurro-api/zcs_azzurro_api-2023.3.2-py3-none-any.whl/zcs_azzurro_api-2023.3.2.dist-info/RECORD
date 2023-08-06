@@ -1,0 +1,11 @@
+zcs_azzurro_api/__init__.py,sha256=tMbJkzawIZb3V2GyII7xXMnMYfsPIvH7aukinRx58CQ,124
+zcs_azzurro_api/const.py,sha256=0cM3348JXV00070aXHhAhTdk16FFvYmSMSIPvNgPM7Y,766
+zcs_azzurro_api/errors.py,sha256=4bFXwfhX-Ssdy8lHDeYgM5wIWxcG31CcPUegux4GAR8,389
+zcs_azzurro_api/inverter.py,sha256=ETPHLX8CUmjQQagIWTp7rRsaINVDP8ORSsCv-2n6JzA,4385
+zcs_azzurro_api/zcs_azzurro_inverter.py,sha256=idf0M52c-vMvSIj1rizx4CxsTGMpP9C4nqhIFRiQ024,5065
+zcs_azzurro_api/zcs_base.py,sha256=vJaHnNH_ljd65_9H2fQHyX-PGPamAguRJddT7Cu1L_E,4205
+zcs_azzurro_api-2023.3.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+zcs_azzurro_api-2023.3.2.dist-info/METADATA,sha256=shWa3OXRruwwXRtteppQXbn5mdDnAuTJPw0msoNtpLU,1616
+zcs_azzurro_api-2023.3.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zcs_azzurro_api-2023.3.2.dist-info/top_level.txt,sha256=Qx_rz5ca0IlY9HhaHkAlxd-OwmONMYCXGY_TUuT8JsI,16
+zcs_azzurro_api-2023.3.2.dist-info/RECORD,,
