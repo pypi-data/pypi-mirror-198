@@ -1,0 +1,2 @@
+[console_scripts]
+announce_server = announce_server.__main__:main
