@@ -1,0 +1,17 @@
+sphinxcontrib_yamcs-1.2.7-py3.10-nspkg.pth,sha256=bvCbvTDhKUCTNtrCbu6HVe8TsYC4G4-hRkXeHdEJ6t4,574
+sphinxcontrib/yamcs/__init__.py,sha256=HOWpl7ivprYfqfSzMJBkxWHSpR-vOJqPlMCpvypA1I8,3348
+sphinxcontrib/yamcs/autogen.py,sha256=vp-3lxZuP_jkLPAxmzLHvEomzs8T92gphqHgEKUadSY,6479
+sphinxcontrib/yamcs/color.py,sha256=xGUxg0XI2aX3LIzTV41lk-itPCfNzM5h687TdV_dvUA,609
+sphinxcontrib/yamcs/javadoc.py,sha256=gIyHmaEsXTkeBNII7lfzlpSelAWuGbTEr4jm2Cn3348,487
+sphinxcontrib/yamcs/lexers.py,sha256=1h6fYW6ylN5OMl07WPHNf7ZbjXuU80oB9ivu9ivFkWg,859
+sphinxcontrib/yamcs/opi.py,sha256=9oU1gK7qvFfEzZmg-y-SPXkOCex1qMqcLOK1zNB67Ok,2198
+sphinxcontrib/yamcs/options.py,sha256=xpKK_gULv6ZLSxtLMg5AdJX88pxj69sr1yvUjBHFMog,5512
+sphinxcontrib/yamcs/proto.py,sha256=A0Mvr-XGppxfJncwPK0navcSUnHf47AL4ugZjR44Q78,8479
+sphinxcontrib/yamcs/protoparse.py,sha256=DRwygq-2ezDA5M20q-MUh3koWdhHIGne4XhRZcMGiwY,13295
+sphinxcontrib/yamcs/templates.py,sha256=esGqIajcxSfWNOyyr95_6pe6IiTJsHNWtGKDANKiSsE,2216
+sphinxcontrib_yamcs-1.2.7.dist-info/LICENSE,sha256=dUH5OeDheWASpEzr7mWzvJvjodw6a_SiTOyqrjKd6dk,1316
+sphinxcontrib_yamcs-1.2.7.dist-info/METADATA,sha256=bA2llFo7RIY1cR97zkerpF5mzme0Nilr018VYNWAVCo,502
+sphinxcontrib_yamcs-1.2.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sphinxcontrib_yamcs-1.2.7.dist-info/namespace_packages.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_yamcs-1.2.7.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_yamcs-1.2.7.dist-info/RECORD,,
