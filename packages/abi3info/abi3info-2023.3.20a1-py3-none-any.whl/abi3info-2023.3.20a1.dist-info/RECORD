@@ -1,0 +1,7 @@
+abi3info/__init__.py,sha256=PDd7NQbdOAlclUeRkhf7n2xvtvP0MpUZ5HtgDaHkoT4,1040
+abi3info/_internal.py,sha256=nOXzrFaR5z62j8buuHmKevVf_n1F1Eh2BxNuU_R9Psg,189123
+abi3info/models.py,sha256=5PmaxbdrSntprf1P5GkcGSQO2Kiy8mXvCZIcPCiFkC4,7791
+abi3info-2023.3.20a1.dist-info/LICENSE,sha256=afKKJn5NugNHjEQMEDJJX3miFHh1NGiXRm8VXzbla7U,1109
+abi3info-2023.3.20a1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+abi3info-2023.3.20a1.dist-info/METADATA,sha256=YGqT2cDbQzGSb_wNoO0tLPL5dOg2qREowdG1T9tTHTM,3464
+abi3info-2023.3.20a1.dist-info/RECORD,,
