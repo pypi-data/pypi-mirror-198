@@ -1,0 +1,12 @@
+async-lru
+fastapi
+httpx
+pydantic
+python-dateutil
+python-json-logger
+pytz
+requests
+setuptools
+twine
+uvicorn
+wheel
