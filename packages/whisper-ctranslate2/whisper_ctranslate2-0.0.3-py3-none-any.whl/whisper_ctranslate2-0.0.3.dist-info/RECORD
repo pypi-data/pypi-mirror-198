@@ -1,0 +1,11 @@
+src/whisper_ctranslate2/languages.py,sha256=7CHj0L96EvwTkcTC0Ky6MM0faFpyJiDZId6zb43hQgc,2560
+src/whisper_ctranslate2/models.py,sha256=MjbxqOK-xBA-ONK_SeuSsZdBMTGg1FupzuMfxWbSoO0,4301
+src/whisper_ctranslate2/transcribe.py,sha256=f5vFKFPtfI3nuOofK_orTpMzOEeJElm4P-ZQX0yYRh0,3691
+src/whisper_ctranslate2/whisper_ctranslate2.py,sha256=nGfFcxXms_7h6NYHu6XRL-64QsxRyr-dH6xs1NacvKs,8035
+src/whisper_ctranslate2/writers.py,sha256=41LxWsxnhZYRFTB2pTWzCKrhNtS0aQVd6FdbjmONKZA,5340
+whisper_ctranslate2-0.0.3.dist-info/LICENSE,sha256=fgVgP4GS9lRk3cMciqIJSbjN3bHVBUZ13SrozrlRe0E,1066
+whisper_ctranslate2-0.0.3.dist-info/METADATA,sha256=E5auk4EkI6zbwSSj4ZlLQMxIMP9cel5MVJLpXZMvFkw,2186
+whisper_ctranslate2-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+whisper_ctranslate2-0.0.3.dist-info/entry_points.txt,sha256=2zg8tPikLsHrda3OafY9U53uFzAa7L4w7RVxyHqiDTU,90
+whisper_ctranslate2-0.0.3.dist-info/top_level.txt,sha256=rEH14k9I2CCSx_FJpijDQa-2locJSGhaCDV0g62ro5w,24
+whisper_ctranslate2-0.0.3.dist-info/RECORD,,
