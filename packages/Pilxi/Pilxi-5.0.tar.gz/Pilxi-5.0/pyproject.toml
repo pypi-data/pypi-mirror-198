@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Pilxi"
+version = "5.0"
+description = "Python Pilxi is a Python wrapper for Pickering ClientBridge driver."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+authors = [
+    {name = "Pickering Interfaces", email = "support@pickeringtest.com"}
+]
+dependencies = [
+    "enum34"
+]
+
+[project.urls]
+homepage = "https://www.pickeringtest.com/"
+
+[tool.setuptools.packages]
+find = {}

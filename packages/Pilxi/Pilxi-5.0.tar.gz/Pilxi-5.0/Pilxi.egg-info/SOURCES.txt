@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+LXIpxm78xx/__init__.py
+Pilxi.egg-info/PKG-INFO
+Pilxi.egg-info/SOURCES.txt
+Pilxi.egg-info/dependency_links.txt
+Pilxi.egg-info/requires.txt
+Pilxi.egg-info/top_level.txt
+pi620lx/__init__.py
+pi743lx/__init__.py
+pilxi/__init__.py
+pipslx/__init__.py
