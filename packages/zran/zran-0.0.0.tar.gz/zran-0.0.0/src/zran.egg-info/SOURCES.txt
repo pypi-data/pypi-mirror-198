@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/zran/zran.c
+src/zran/zranlib.c
+src/zran.egg-info/PKG-INFO
+src/zran.egg-info/SOURCES.txt
+src/zran.egg-info/dependency_links.txt
+src/zran.egg-info/not-zip-safe
+src/zran.egg-info/top_level.txt
+tests/test_zran.py
