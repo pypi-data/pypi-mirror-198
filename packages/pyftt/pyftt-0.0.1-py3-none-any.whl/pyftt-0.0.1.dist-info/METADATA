@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyftt
+Version: 0.0.1
+Summary: sparse-array partial tracing
+Home-page: UNKNOWN
+Author: Julio Candanedo
+Author-email: juliojcandanedo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+
+Fast Tensor Trace
+
+Julio Candanedo
+
+The Fast-Tensor-Trace algorthim is implemented here in pure python (+numpy with no other dependecies).
+The purpose is to trace two multidimensional sparse-arrays (arrays with mostly 0s) similar to 
+numpy.einsum function for dense (regular) numpy.arrays.
+
+Main Aspects of the Code are:
+1. sparse-array class defintion
+2. the ftt function
+
+
+
