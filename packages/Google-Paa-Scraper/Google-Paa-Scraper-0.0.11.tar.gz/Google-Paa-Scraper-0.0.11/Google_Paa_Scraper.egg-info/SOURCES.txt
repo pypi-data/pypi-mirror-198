@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+Google_Paa_Scraper.egg-info/PKG-INFO
+Google_Paa_Scraper.egg-info/SOURCES.txt
+Google_Paa_Scraper.egg-info/dependency_links.txt
+Google_Paa_Scraper.egg-info/requires.txt
+Google_Paa_Scraper.egg-info/top_level.txt
+gpaa_scraper/__init__.py
+gpaa_scraper/browser.py
+gpaa_scraper/container.py
+gpaa_scraper/exception.py
+gpaa_scraper/helper.py
+gpaa_scraper/parsing.py
+gpaa_scraper/utils.py
+tests/test.py
