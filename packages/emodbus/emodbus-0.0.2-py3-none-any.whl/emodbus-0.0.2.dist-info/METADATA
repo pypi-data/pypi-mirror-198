@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: emodbus
+Version: 0.0.2
+Summary: All Magic Methods Implement. You can easyly to implement all magic methods or part of them
+Home-page: https://github.com/estaleiroweb/mandrake
+Author: Helbert Braga Fernandes
+Author-email: helbertfernandes@gmail.com
+License: MIT License
+Keywords: magic methods class
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: mandrake
+
+# Description
+
+> Version: 0.0.1
+> python 2.x,3.x
+
+Project easy Modbus.
+
+In this package you can connect in TCP, RTU or ASC mode in modbus usign a mask to collect everything from your device
+
+## Donate
+
+**PIX**: +55 31 99101-8619
+
+## Contact
+
+**URL**: [http://estaleiroweb.com.br](http://estaleiroweb.com.br)
+
+**GIT**: [https://github.com/estaleiroweb/emodbus](https://github.com/estaleiroweb/emodbus)
+
+# Instalation
+
+> pip install emodbus
+
+# Upgrade
+
+> pip install emodbus -upgrade
+
+# Use
+
+```python
+import emodbus as emb
+from pprint import pprint
+
+# connect to bus of devices
+tcp = emb.ConnTCP('192.168.1.45')
+rtu = emb.ConnRTU('COM4')
+
+# define the MIB of device
+# {name: (Address:int,functionCode:int,callbackFunction_modbustype:'None|str|tuple|list'),....},
+addrs = {
+    'Temperature': [1, 4, ('Dec', {'dec': 1})],
+    'Humidy': [2, 4, ['Dec', {'dec': 1}]],
+    'TemperatureRaw': [1, 4],
+    'HumidyRaw': [2, 4],
+}
+
+# read all MIB
+slave = 1
+pprint({
+    'TCP': tcp.read(addrs, slave),
+    'RTU': rtu.read(addrs, slave),
+})
+```
+
+

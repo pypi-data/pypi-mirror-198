@@ -1,0 +1,10 @@
+emodbus/__init__.py,sha256=lTnoH6R5gxES2cQG3GdDpL4oVwc713ME519ehhbUU0g,61
+emodbus/constants.py,sha256=KyxR8sYVm9H6CWZlQ57vSXEMhKJfa9eLf8jrhK3Hd_c,3866
+emodbus/emodbus.py,sha256=OavUkL7cXHmfHeBMV6TBMthpAl3s4LnCp9toME-GLQI,6086
+emodbus/modbustypes.py,sha256=G5BFr32yYd_bWgn8oi4R7oplbizyAW27fIw14JagYU8,8627
+emodbus/test.py,sha256=ev720ZXz-e7vj3UghbUFEu-N0LWGtIaEt1dq8lrsJ9A,558
+emodbus-0.0.2.dist-info/LICENCE,sha256=SM8wd8H6Gh0HORydXK7HrM0ETnkQ_hSmDgDemRBGQ7s,1079
+emodbus-0.0.2.dist-info/METADATA,sha256=vNnoq7NzhsBiOAUlJq9dVh9AHGxRdPBQ8ctbAqVKzKs,1814
+emodbus-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+emodbus-0.0.2.dist-info/top_level.txt,sha256=KiBcAitwBmpt18dCEzEu4BAK8Oh3ENrT7JoBNALSEcU,8
+emodbus-0.0.2.dist-info/RECORD,,
