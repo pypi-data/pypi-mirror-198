@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: treetool
+Version: 1.0.1
+Summary: Python package for tree detection, segmentation and extraction of DBH
+Home-page: https://github.com/porteratzo/TreeTool
+Author: Omar Montoya
+Author-email: omar.alfonso.montoya@hotmail.com
+License: MIT License
+License-File: LICENSE
+Requires-Dist: open3d
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: lsq-ellipse
+
