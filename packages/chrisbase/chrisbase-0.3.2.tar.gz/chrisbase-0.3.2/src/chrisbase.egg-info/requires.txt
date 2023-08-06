@@ -1,0 +1,13 @@
+typer
+pandas
+tabulate
+chrisdict
+sqlalchemy
+dataclasses
+dataclasses-json
+
+[full]
+jupyter
+ipynbname
+numpy
+matplotlib
