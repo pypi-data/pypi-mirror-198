@@ -1,0 +1,10 @@
+dwave/__init__.py,sha256=iD6VG4fzBywhUeE8pLOJVZ5a4S4YGVn0uFxprjyGLcc,648
+dwave/plugins/__init__.py,sha256=iD6VG4fzBywhUeE8pLOJVZ5a4S4YGVn0uFxprjyGLcc,648
+dwave/plugins/sklearn/__init__.py,sha256=2HcV5iTDwWxPsY4t7FSEcLXpu8VmM12XpSIGBJNQ_0c,654
+dwave/plugins/sklearn/transformers.py,sha256=H6AtyHFLZmvAb2Hhg1D9OoY3mdMxBay_nMifWQzT-mM,11709
+dwave/plugins/sklearn/utilities.py,sha256=G4Mw5qlvXi7G73ULZjTebMuZXAO0GwcQU5XWGsFnxV8,7585
+dwave_scikit_learn_plugin-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dwave_scikit_learn_plugin-0.1.0.dist-info/METADATA,sha256=byY0t3_nz7b-t52q_2jqU7i2tCtnF_E1oYqDscYkoow,4124
+dwave_scikit_learn_plugin-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dwave_scikit_learn_plugin-0.1.0.dist-info/top_level.txt,sha256=aTb-vnyXORvuDIahX6dn8y_5R8_lH1TU7rTM9M_bteE,6
+dwave_scikit_learn_plugin-0.1.0.dist-info/RECORD,,
