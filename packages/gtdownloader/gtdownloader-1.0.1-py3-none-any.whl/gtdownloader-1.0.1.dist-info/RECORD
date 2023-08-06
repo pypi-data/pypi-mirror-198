@@ -1,0 +1,12 @@
+gtdownloader/__init__.py,sha256=RpdFqtR71JlcpMX51dUe9rKO2P8oOLY6bvVKJ2adkbQ,76
+gtdownloader/apicall.py,sha256=gIaaG72cmc5ooXnNVqRV30yb-N_SB9X1Gv5jITNJ3AY,971
+gtdownloader/downloader.py,sha256=1BqasZenjWbttJ6jS1fShTdyzlSsbtrY0dfuprvdDSA,29204
+gtdownloader/geomethods.py,sha256=BiNjpokVgJU6OiYFFaDq0cRT9k0u5NsXdVh9KaZRE_A,13217
+gtdownloader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gtdownloader/_utils/__init__.py,sha256=sCxl5p-ExSrgDm0mfC4xiRS3v1vEH0lDYsKLWDx7bUI,37
+gtdownloader/_utils/utils.py,sha256=pyAhvkCo-EU4SKb49rmtXzSMQ8b02OVUbRcxRrgZwk8,1587
+gtdownloader-1.0.1.dist-info/LICENSE.txt,sha256=MRu1whrFfRq1By4ZH2D2Ttw3w0MO2o3q7dndNHKkItA,1222
+gtdownloader-1.0.1.dist-info/METADATA,sha256=nGpogyQZmc9F8oZ1t5BOVEKlrV_BT0oTPdccrOS501A,3517
+gtdownloader-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gtdownloader-1.0.1.dist-info/top_level.txt,sha256=GA4T4Nkg9YWJ_F2GAr9VDcjtaMTb-wA6hzc1dY4pS9I,33
+gtdownloader-1.0.1.dist-info/RECORD,,
