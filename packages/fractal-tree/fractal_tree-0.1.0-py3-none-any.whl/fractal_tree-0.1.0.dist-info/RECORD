@@ -1,0 +1,10 @@
+fractal_tree/Mesh.py,sha256=24ydDgl79_zG4PiokdrOJEZZREA_zDVE23BO4eJe-1o,6794
+fractal_tree/__init__.py,sha256=e0ywp7FZpieu1b1AUsHykjC8Ux43D28n2tuol_FwBaw,298
+fractal_tree/branch.py,sha256=II7g4PO63EzO5_W7ms5pCdoHJQQ-2JGf9uFN-ZtAlh8,11191
+fractal_tree/tree.py,sha256=C7c-an-jTmeboMtwwLty5QmeMl5AZr7CPnji1Ei9AzE,9506
+fractal_tree/viz.py,sha256=NxLD_iMvtkrIS0z4ti3oy0SlwmA3R_tBZmzRaeXzih0,1544
+fractal_tree-0.1.0.dist-info/LICENSE_fsahli,sha256=BL23wgI1mnEWOAaNYcXKceh-pOjvl7Qi0wNGgjpKPI8,1073
+fractal_tree-0.1.0.dist-info/METADATA,sha256=QKUBv6uCTDSwmrUFzrJNS-2C0WQjTGM5T9tGm7dd78o,3719
+fractal_tree-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fractal_tree-0.1.0.dist-info/top_level.txt,sha256=e8TKAAGEgoeUumOwcCVgvc0WLAzp9AkK__bfoL_fWkI,13
+fractal_tree-0.1.0.dist-info/RECORD,,
