@@ -1,0 +1,11 @@
+
+[:python_version < "3.8"]
+typing-extensions>=3.7
+
+[dev]
+pytest>=6
+pytest-cov>=3
+
+[test]
+pytest>=6
+pytest-cov>=3
