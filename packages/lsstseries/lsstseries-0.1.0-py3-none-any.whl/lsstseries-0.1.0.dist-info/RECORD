@@ -1,0 +1,12 @@
+lsstseries/__init__.py,sha256=Hls8GVRe3AOZIlB5Diq6iFsvqZtCUdsS15ZZZQBo4Hg,98
+lsstseries/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+lsstseries/ensemble.py,sha256=ec8CrYCIAZDg5OwpqGmV64GECafwtMHYi5mrQE-4sTg,20753
+lsstseries/timeseries.py,sha256=Q1N6sr8eEIJw9Da9XTr1F5UjSCheiBFYXremPyJXUi4,6234
+lsstseries/analysis/__init__.py,sha256=qAiwhXTLdMj89eOhNMUWweCMvwg_pHo8JI_lEj4T4rA,74
+lsstseries/analysis/stetsonj.py,sha256=vpW1p9gk9FJ5Jjbc7iIV94ls_EDWcV4v4mmqNqGdHak,4849
+lsstseries/analysis/structurefunction2.py,sha256=rvEhZGNCWCvBs6ZBw4DgkZyxGN7Y9nQeuhFaEnI7AXA,9445
+lsstseries-0.1.0.dist-info/LICENSE,sha256=hwD3hUi2Vv6r0cbxcxzr5-fWE9Sc6e58qRPd2l8we-Q,1101
+lsstseries-0.1.0.dist-info/METADATA,sha256=2dQhHIVrhJVTKxk5WrRIfqhQOeU1pm8T21mv2khtn9Q,4133
+lsstseries-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lsstseries-0.1.0.dist-info/top_level.txt,sha256=C7ELz1FUhOkSF7-akugpURjYnk8i1m52ECp909T7QyI,11
+lsstseries-0.1.0.dist-info/RECORD,,
