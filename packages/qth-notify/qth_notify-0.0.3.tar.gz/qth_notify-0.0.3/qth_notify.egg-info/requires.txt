@@ -1,0 +1,3 @@
+qth
+desktop-notify
+dbus-next
