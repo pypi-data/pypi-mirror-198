@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+CleanGhostImages.egg-info/PKG-INFO
+CleanGhostImages.egg-info/SOURCES.txt
+CleanGhostImages.egg-info/dependency_links.txt
+CleanGhostImages.egg-info/entry_points.txt
+CleanGhostImages.egg-info/requires.txt
+CleanGhostImages.egg-info/top_level.txt
+cleanghostimages/__init__.py
+cleanghostimages/__main__.py
+cleanghostimages/cleanghostimages.py
