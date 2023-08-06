@@ -1,0 +1,2 @@
+[console_scripts]
+v2raycli = v2raycli.entry:v2raycli
