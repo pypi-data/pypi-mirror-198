@@ -1,0 +1,31 @@
+[project]
+name = "nextcloud_tasks_api"
+version = "0.0.5"
+authors = [
+    { name = "Hackitude42", email = "hackitude42@gmail.com" },
+]
+maintainers = [
+    { name = "Alban Crommer", email = "pip@albancrommer.com" },
+]
+description = "A package to pilot the nextcloud Tasks API"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "questionary",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/albancrommer/nextcloud-tasks-api"
+"Bug Tracker" = "https://gitlab.com/albancrommer/nextcloud-tasks-api/-/issues"
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
