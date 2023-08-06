@@ -1,0 +1,9 @@
+provider/__init__.py,sha256=n0-dGK0xMWBULCnqcMcPQQcCyVrL380PgdSCWe-L3f8,127
+provider/amazon.py,sha256=6LRbeIBdybsF1pDUF_DPmhYskkQ_Zuf1gNh2YBc5uc8,400
+provider/cloud_provider.py,sha256=JqYD9gzs_UIAGCncqh77xB_F6WK_mbB-n8Qj989cRCY,95
+provider/google.py,sha256=zi-UgyTcYYmparFbfasYDHQaPJkCvT1PX3dL1LV4zmY,580
+envvar_manager-0.1.dist-info/METADATA,sha256=DCRycWfR8aKJYByfytDewAe1qmr8BXrZ-gckcMV6O1c,220
+envvar_manager-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+envvar_manager-0.1.dist-info/entry_points.txt,sha256=dFaRVtoccCq4SUnSjtLj-S1yUYoSr7a1bym6YTq4OMc,48
+envvar_manager-0.1.dist-info/top_level.txt,sha256=vV-BCB99MJ8LXIBea6wnRaCtb16DLBR7Y1Oi3KDUd94,9
+envvar_manager-0.1.dist-info/RECORD,,

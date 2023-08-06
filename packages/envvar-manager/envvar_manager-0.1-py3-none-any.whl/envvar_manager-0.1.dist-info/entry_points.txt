@@ -1,0 +1,2 @@
+[console_scripts]
+envvar_manager = bin.cli:main
