@@ -1,0 +1,2 @@
+[console_scripts]
+pullnix = pullnix.cli:cli
