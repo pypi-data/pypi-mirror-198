@@ -1,0 +1,3 @@
+[pytest11]
+pytest_draw = pytest_draw.plugin
+
