@@ -1,0 +1,9 @@
+README.md
+setup.py
+igfold_pytorch/__init__.py
+igfold_pytorch/igfold_pytorch.py
+igfold_pytorch.egg-info/PKG-INFO
+igfold_pytorch.egg-info/SOURCES.txt
+igfold_pytorch.egg-info/dependency_links.txt
+igfold_pytorch.egg-info/requires.txt
+igfold_pytorch.egg-info/top_level.txt
