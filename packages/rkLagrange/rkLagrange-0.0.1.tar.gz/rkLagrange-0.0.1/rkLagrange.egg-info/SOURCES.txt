@@ -1,0 +1,8 @@
+setup.py
+Lagrange/Lagrange.py
+Lagrange/__init__.py
+rkLagrange.egg-info/PKG-INFO
+rkLagrange.egg-info/SOURCES.txt
+rkLagrange.egg-info/dependency_links.txt
+rkLagrange.egg-info/requires.txt
+rkLagrange.egg-info/top_level.txt
