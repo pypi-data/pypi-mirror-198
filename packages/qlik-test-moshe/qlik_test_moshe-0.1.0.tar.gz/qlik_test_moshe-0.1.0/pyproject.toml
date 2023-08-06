@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qlik-test-moshe"
+version = "0.1.0"
+description = ""
+authors = ["MosheZeiger <3503504@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qlik_test_moshe"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
