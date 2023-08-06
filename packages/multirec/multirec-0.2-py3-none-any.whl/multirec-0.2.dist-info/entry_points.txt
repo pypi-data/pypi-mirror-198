@@ -1,0 +1,2 @@
+[console_scripts]
+multirec = multirec.__main__:main
