@@ -1,0 +1,2 @@
+[console_scripts]
+gdm = gazoo_device.gdm_cli:main
