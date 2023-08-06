@@ -1,0 +1,4 @@
+terminaltables
+requests
+PyYAML
+packaging
