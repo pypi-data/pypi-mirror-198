@@ -1,0 +1,3 @@
+[console_scripts]
+PACKAGE=with_context.__main__:main
+

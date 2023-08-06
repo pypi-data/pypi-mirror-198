@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: with_context
+Version: 0
+Summary: Context managers as decorators>
+Author-email: Amethyst Reese <amy@n7.gg>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: attribution==1.6.2 ; extra == "dev"
+Requires-Dist: black==23.1.0 ; extra == "dev"
+Requires-Dist: flake8==6.0.0 ; extra == "dev"
+Requires-Dist: flit==3.8.0 ; extra == "dev"
+Requires-Dist: mypy==1.0.1 ; extra == "dev"
+Requires-Dist: ufmt==2.0.1 ; extra == "dev"
+Requires-Dist: usort==1.0.5 ; extra == "dev"
+Project-URL: Home, https://github.com/amyreese/with_context
+Provides-Extra: dev
+
+# with-context
+
+Context managers as decorators
+
+[![version](https://img.shields.io/pypi/v/with_context.svg)](https://pypi.org/project/with_context)
+[![license](https://img.shields.io/pypi/l/with_context.svg)](https://github.com/amyreese/with_context/blob/main/LICENSE)
+
+Install
+-------
+
+```shell-session
+$ pip install with_context
+```
+
+License
+-------
+
+with-context is copyright Amethyst Reese, and licensed under the MIT license.
