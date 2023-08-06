@@ -1,0 +1,7 @@
+pyflagsercount/__init__.py,sha256=dVD_OEQH35msZi7cCQFOgdwfazdJoysIk5Vh4afScRw,120
+pyflagsercount/flagser_functions.py,sha256=NrBWoDFElMSHNnd6wT0QWWQ2eXRfAHu0aK3y1dabF6o,3915
+pyflagsercount/modules/flagsercount_pybind.cpython-38-x86_64-linux-gnu.so,sha256=Truk3aZ2hiyLG0bBNYiTs2WXl3yAKE3qcr0uP9954C0,349264
+pycount.cpython-38-x86_64-linux-gnu.so,sha256=UqoKdUt_3JtI4HfC1dddbhhByp3qOGU11yWXCxzOMdE,508504
+pyflagsercount-0.2.10.dist-info/WHEEL,sha256=dC1bq1OiaApssqPAgr3BYWhUkqRmZMp5UUjsRYYwjTI,108
+pyflagsercount-0.2.10.dist-info/METADATA,sha256=d-72SIWyLlz-2Dm7xyMKOAQIlRuDg2pUnkxAsG2-yYw,1370
+pyflagsercount-0.2.10.dist-info/RECORD,,
