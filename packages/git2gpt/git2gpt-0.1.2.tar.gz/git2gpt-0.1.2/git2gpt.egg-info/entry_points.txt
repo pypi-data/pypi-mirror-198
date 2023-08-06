@@ -1,0 +1,3 @@
+[console_scripts]
+git2gpt = git2gpt.main:main
+
