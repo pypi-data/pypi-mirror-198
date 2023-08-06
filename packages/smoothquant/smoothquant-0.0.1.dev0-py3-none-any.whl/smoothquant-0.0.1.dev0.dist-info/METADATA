@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: smoothquant
+Version: 0.0.1.dev0
+Summary: SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models
+Author: Shadow Walker
+License: UNKNOWN
+Keywords: smoothquant
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+# SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models
+
+> SmoothQuant enables an INT8 quantization of both weights and activations for all the matrix multiplications in LLMs, including OPT-175B, BLOOM-176B, GLM-130B, and MT-NLG 530B.
+
+
+
+
+
