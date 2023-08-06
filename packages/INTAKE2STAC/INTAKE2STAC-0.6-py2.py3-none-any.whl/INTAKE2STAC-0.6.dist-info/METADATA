@@ -1,0 +1,169 @@
+Metadata-Version: 2.1
+Name: INTAKE2STAC
+Version: 0.6
+Summary: A python module for creating STAC catalog from datasets in INTAKE
+Home-page: https://codebase.helmholtz.cloud/CAT4KIT/intake2stac
+Author: Mostafa Hadizadeh
+Author-email: mostafa.hadizadeh@kit.edu
+License: EUPL-1.2
+Project-URL: Documentation, https://intake2stac.readthedocs.io
+Project-URL: Source, https://codebase.helmholtz.cloud/CAT4KIT/intake2stac
+Project-URL: Tracker, https://codebase.helmholtz.cloud/CAT4KIT/intake2stac/issues/
+Keywords: CAT4KIT,KIT,EXU-Vorhaben-Research-Data-Management,helmholtz
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: requests ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: isort (==5.9.3) ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: blackdoc (==0.3.4) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest-django ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: mde-sphinx-ext ; extra == 'dev'
+Requires-Dist: autodocsumm ; extra == 'dev'
+Requires-Dist: sphinxcontrib-django ; extra == 'dev'
+Provides-Extra: testsite
+Requires-Dist: tox ; extra == 'testsite'
+Requires-Dist: requests ; extra == 'testsite'
+Requires-Dist: types-requests ; extra == 'testsite'
+Requires-Dist: isort (==5.9.3) ; extra == 'testsite'
+Requires-Dist: black (==22.3.0) ; extra == 'testsite'
+Requires-Dist: blackdoc (==0.3.4) ; extra == 'testsite'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'testsite'
+Requires-Dist: pre-commit ; extra == 'testsite'
+Requires-Dist: mypy ; extra == 'testsite'
+Requires-Dist: pytest-django ; extra == 'testsite'
+Requires-Dist: pytest-cov ; extra == 'testsite'
+
+===========
+INTAKE2STAC
+===========
+
+
+.. image:: https://codebase.helmholtz.cloud/cat4kit/tds2stac/-/raw/main/intake2stac.png
+
+
+=========
+
+.. image:: https://img.shields.io/pypi/v/intake2stac.svg
+        :target: https://pypi.python.org/pypi/intake2stac
+
+
+.. image:: https://readthedocs.org/projects/intake2stac/badge/?version=latest
+        :target: https://intake2stac.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+STAC specification is a method of exposing spatial and temporal data collections in a standardized manner. Specifically, the `SpatioTemporal Asset Catalog (STAC) <https://stacspec.org/en>`_ specification describes and catalogs spatiotemporal assets using a common structure. 
+This package creates STAC metadata by harvesting dataset details from the `INTAKE <https://intake.readthedocs.io/en/latest/index.html>`_ interface. After creating STAC Catalogs, Collections, and Items, it imports them into `pgSTAC <https://stac-utils.github.io/pgstac/pgstac/>`_ and `STAC-FastAPI <https://stac-utils.github.io/stac-fastapi/>`_.
+
+* Free software: EUPL-1.2
+* Documentation: https://intake2stac.readthedocs.io.
+
+
+
+Installation from PyPi
+------------------------
+.. code:: bash
+
+   pip install intake2stac
+
+Installation for development
+--------------------------------
+.. code:: bash
+
+   git clone https://codebase.helmholtz.cloud/cat4kit/intake2stac.git
+   cd intake2stac
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements_dev.txt
+
+
+Installing using Docker
+------------------------
+
+For runnig by docker use `this <https://codebase.helmholtz.cloud/cat4kit/ds2stac-docker>`_ repository.
+
+
+Usage
+----------------
+ 
+Use case:
+
+You can use the following template for creating STAC catalog from the TDS web service for your project.
+
+You can change configuration of PgSTAC in `config_pgstac <./intake2stac/config_pgstac.py>`_
+
+.. code::python
+        from intake2stac import intake2stac
+        intake2stac.Convertor(
+                "https://s3.imk-ifu.kit.edu:8082/climatedata/catalog.yaml",
+                driver="zarr",
+                stac=True or False,
+                stac_id="an ID for the main STAC catalog",
+                stac_description="Description for the main STAC catalog",
+                stac_dir="/path/to/save/stac/catalogs/",
+                stac_catalog_dynamic=True or False,
+        )
+
+.. code::python
+        output:
+                Intake catalog details:
+                Version:  0.1
+                Drivers:  Zarr
+                Parameter:  mswx v1.0e  | Description:  MSWX global climate data  | urlpath:  https://s3.imk-ifu.kit.edu:8082/climatedata/mswx_daily_v1.0.zarr
+                Parameter:  eobs v24.0e  | Description:  E-OBS v24.0e climate data for Europe  | urlpath:  https://s3.imk-ifu.kit.edu:8082/climatedata/eobs_v24.0e.zarr
+                Parameter:  MERRA2 tavgM 2d aer NX  | Description:  M2TMNXAER (or tavgM_2d_aer_Nx) is a time-averaged 2-dimensional monthly mean data collection in Modern-Era 
+                Retrospective analysis for Research and Applications version 2 (MERRA-2). This collection consists of assimilated aerosol diagnostics, such as column mass density 
+                of aerosol components (black carbon, dust, sea salt, sulfate, and organic carbon), surface mass concentration of aerosol components, and total extinction (and scattering )
+                aerosol optical thickness (AOT) at 550 nm. The total PM1.0, PM2.5, and PM10 may be derived with the formula described in the FAQs under the Documentation tab of 
+                this page. The collection also includes variance of certain parameters.  | urlpath:  https://s3.imk-ifu.kit.edu:8082/climatedata/merra2_monthly_tavgM_2d_aer_Nx.zarr
+                Parameter:  ERA5 daily surface variables  | Description:  Selection of surface variables (precip, temperature, etc.) from ECMWFs latest atmospheric reanalysis ERA5 
+                | urlpath:  https://s3.imk-ifu.kit.edu:8082/climatedata/era5_daily.zarr
+                ./mswx v1.0e/collection.json
+                |____ ./mswx_v1.0e/mswx_v1.0e.json
+                ./eobs v24.0e/collection.json
+                |____ ./eobs_v24.0e/eobs_v24.0e.json
+                ./MERRA2 tavgM 2d aer NX/collection.json
+                |____ ./MERRA2_tavgM_2d_aer_NX/MERRA2_tavgM_2d_aer_NX.json
+                ./ERA5 daily surface variables/collection.json
+                |____ ./ERA5_daily_surface_variables/ERA5_daily_surface_variables.json
+
+
+Copyright
+---------
+Copyright © 2023 Karlsruher Institut für Technologie
+
+Licensed under the EUPL-1.2-or-later
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the EUPL-1.2 license for more details.
+
+You should have received a copy of the EUPL-1.2 license along with this
+program. If not, see https://www.eupl.eu/.
+

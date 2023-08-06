@@ -1,0 +1,14 @@
+intake2stac/__init__.py,sha256=dIAK946Ejke4RyOeT6OeLdPHEYnb7mlEfxRnejR6Ex0,531
+intake2stac/_version.py,sha256=pS0HmQF9aDtyCS5OKwkXIbgJozzM-Dmx6Nq7R97AprA,495
+intake2stac/cli.py,sha256=ej8d3MS7Td8m8T69vk4zfUdClXAMQ2kl05VpRd7IC2c,419
+intake2stac/config_pgstac.py,sha256=c2keCWUeePAbx5-N-DirLS8FySwZ8w7lBWNnXIhZ4vM,1029
+intake2stac/funcs.py,sha256=df2sGeREK-6tKkT3igt3YTtUoCYjJCAiJUYxabcXLyk,58
+intake2stac/intake2stac.py,sha256=SsvQrO-j5WNL9oB7gfm3jloMAkeeb_S9FuzcRvPTls4,13888
+tests/__init__.py,sha256=xYX5muho9uAxAjc4I4jvr1v213R_07Y8nYsMBiXJpSY,41
+tests/test_intake2stac.py,sha256=PSJBR7yJjonFlVxLxgjKi24evhJ2SG3f5Ryx4gJqIIo,963
+INTAKE2STAC-0.6.dist-info/AUTHORS.rst,sha256=v5n9XBBJCQyNzhFRH3tSTr-O0ncS8ppwIcFVXADf00w,168
+INTAKE2STAC-0.6.dist-info/LICENSE,sha256=GtrUPJchKDW7AaS-sGMqxKcF9vRbqHIjVRcpxmljiCo,13807
+INTAKE2STAC-0.6.dist-info/METADATA,sha256=LlrjWkQoVnt20QSykV14_U4uyryAX1NJSUS9FW_g9ys,7598
+INTAKE2STAC-0.6.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+INTAKE2STAC-0.6.dist-info/top_level.txt,sha256=qt5YNiEf5qQBOdN7mhUtw0kjbCz0Oxyv2roJcmIhPsg,18
+INTAKE2STAC-0.6.dist-info/RECORD,,
