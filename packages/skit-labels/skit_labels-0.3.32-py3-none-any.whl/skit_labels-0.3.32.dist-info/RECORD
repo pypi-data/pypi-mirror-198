@@ -1,0 +1,11 @@
+skit_labels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skit_labels/cli.py,sha256=gVJs-rMDzQENiMlu6lIqALr-9pK-apyQjOGFzAms_nU,13154
+skit_labels/commands.py,sha256=ks-I2wt-JRHqIgGm06e8kjMEPKiAUOTy7uOwihsMo0M,15188
+skit_labels/constants.py,sha256=CkU96C8XRBvBZPzT_F8thRR_gH14BTrWqbzFCVGyv1I,2880
+skit_labels/db.py,sha256=DgxZLrn1dOdJARsS_ufL4t9HLSIdeCniyoLIVUkBLtM,24656
+skit_labels/types.py,sha256=oSGLq0oWj5vy-PsRLN7yxiEqg26l2osL0DPtC5boN3k,6625
+skit_labels/utils.py,sha256=rEQ8t80l3Gpj75rGebHLKwy4qU53PItULsyKcQDCnR0,3029
+skit_labels-0.3.32.dist-info/METADATA,sha256=Utb5gRgeyrYFHxT0o41wZSiPcGVVfJhObm-icWteTWw,1007
+skit_labels-0.3.32.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+skit_labels-0.3.32.dist-info/entry_points.txt,sha256=3Yo0JHJ6L5JHZ5Dto0dMXz5GDrrflKz3GYG-MYyGtTs,52
+skit_labels-0.3.32.dist-info/RECORD,,
