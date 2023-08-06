@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fibonacci2283371488124
+Version: 0.1
+Summary: A package for calculating Fibonacci numbers and visualizing ASTs
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: pygraphviz
+
+UNKNOWN
