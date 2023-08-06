@@ -1,0 +1,13 @@
+setenvironment/.DS_Store,sha256=q63DcnXr2rrsn5mYqGgyxNKxGCUWcdGayuGiICkQ7wo,6148
+setenvironment/__init__.py,sha256=vHQTLCg4pP3i5nW72KgqfRZeO7PPwp1mvuiwKllrgL0,166
+setenvironment/cli.py,sha256=jlSwDvw7MPQT97qfXowf_bAnfrb3dMM5K83fpcCpCj4,2851
+setenvironment/setenv.py,sha256=Mw3r7xgcRoqwLPdalWemI7zH4UgKadyWCBL2S0jrWg0,3131
+setenvironment/setenv_unix.py,sha256=hDjuRKRBANnyuKAxKg68Af2KL2coWAfQrGaJJGbJikw,4118
+setenvironment/setenv_win32.py,sha256=mvt019Nq0STdoJGh-a3UFAyAh5osz8EzZRezDVBnGts,6944
+setenvironment/util.py,sha256=4mCdPuy34gXKIkxNzY8OQ5Gi6B_mmlyeB92ELC4GM1c,362
+setenvironment-1.1.0.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+setenvironment-1.1.0.dist-info/METADATA,sha256=LYnoo2W2flr1dLPQP7tLLRO1tlN7y05nEhl9R-gNkHY,3365
+setenvironment-1.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+setenvironment-1.1.0.dist-info/entry_points.txt,sha256=XJBmFUhQ9cDum5fPXOCGNkb5zx54M2op42AVPJs7k-Y,273
+setenvironment-1.1.0.dist-info/top_level.txt,sha256=14qKYqWbJyP17hwvZ6fD36iElPO5WqQIjJl6a34vL4I,15
+setenvironment-1.1.0.dist-info/RECORD,,
