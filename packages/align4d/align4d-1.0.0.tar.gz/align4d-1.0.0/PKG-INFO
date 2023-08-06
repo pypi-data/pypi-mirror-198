@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: align4d
+Version: 1.0.0
+Summary: Test package for align4d
+Author-email: Peilin Wu <pwu54@emory.edu>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Project-URL: Bug Tracker, https://github.com/emorynlp/align4d/issues
+Project-URL: Homepage, https://github.com/emorynlp/align4d
+
+# Align4d 
+
+This is a simple testing package for align4d. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
