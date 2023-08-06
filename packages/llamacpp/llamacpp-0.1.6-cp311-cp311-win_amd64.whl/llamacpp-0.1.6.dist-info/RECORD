@@ -1,0 +1,15 @@
+llamacpp/__init__.py,sha256=RdLqKtnWCZ3jrc-N8LlCDJ0nXJW4l_1S4DKToQw2_VY,98
+llamacpp/chat.py,sha256=FqbHglDglioB7LAZZ459yfDq5w-CMbPyZRHvdw3RSZo,4037
+llamacpp/cli.py,sha256=98dkiD-fMsllhYCt4bIGH8HQDuo6MZpOEhfcWTlZ_TI,5812
+llamacpp/convert.py,sha256=f8vg2_OveukFjMxWysfVEmHMwSCw1rddsnAXwOIda1k,5811
+llamacpp/quantize.py,sha256=WfTbqLfX38F9LoRU2-VaAC8SiQFwcOXjg4MZHD55R58,1887
+llamacpp/__init__.py,sha256=RdLqKtnWCZ3jrc-N8LlCDJ0nXJW4l_1S4DKToQw2_VY,98
+llamacpp/chat.py,sha256=FqbHglDglioB7LAZZ459yfDq5w-CMbPyZRHvdw3RSZo,4037
+llamacpp/cli.py,sha256=98dkiD-fMsllhYCt4bIGH8HQDuo6MZpOEhfcWTlZ_TI,5812
+llamacpp/convert.py,sha256=f8vg2_OveukFjMxWysfVEmHMwSCw1rddsnAXwOIda1k,5811
+llamacpp/llamacpp.cp310-win_amd64.pyd,sha256=Arwf3Ue__nqDIMID1Gtv0YanyESt2BJZkxNZoniquA0,357376
+llamacpp/quantize.py,sha256=WfTbqLfX38F9LoRU2-VaAC8SiQFwcOXjg4MZHD55R58,1887
+llamacpp-0.1.6.dist-info/entry_points.txt,sha256=TMZwkaHC4xn9APU8RVz89Pl4YMfaUj5qXyNDe2G2qQ0,161
+llamacpp-0.1.6.dist-info/METADATA,sha256=ILFn6x8GUpf_ERinc7iis7umZx8Z6evriKSuK_tqc2k,3204
+llamacpp-0.1.6.dist-info/WHEEL,sha256=GfWFGsCFxSCrhZDj2eZNQFZqIhFbDH3WG3KVZ8MP664,98
+llamacpp-0.1.6.dist-info/RECORD,,
