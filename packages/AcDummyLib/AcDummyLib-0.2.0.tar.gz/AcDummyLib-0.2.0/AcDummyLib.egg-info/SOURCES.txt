@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AcDummyLib.egg-info/PKG-INFO
+AcDummyLib.egg-info/SOURCES.txt
+AcDummyLib.egg-info/dependency_links.txt
+AcDummyLib.egg-info/top_level.txt
+ac/__init__.py
