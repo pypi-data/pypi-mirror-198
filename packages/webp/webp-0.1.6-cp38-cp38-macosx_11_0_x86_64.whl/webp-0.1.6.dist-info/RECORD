@@ -1,0 +1,10 @@
+_webp.abi3.so,sha256=XpIBJojQMUj9IOwHblrxUA5qAus3JqXoh-bfhKleEOI,837053
+webp/__init__.py,sha256=oC0EJfOA966-PZaLVITn9DVpr2WRtyHEyn2VQCRj2fk,21602
+webp_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webp_build/builder.py,sha256=1GNdiHRw6iS0u82rDqOl7GQlz56cbA29PW_qJqDEhv4,1790
+webp_build/source.c,sha256=Nu4UgprnbD7TmGmOovtoFh76DAmCMPb29Ajab58ZRvM,310
+webp_build/cdef.h,sha256=u8NlFEWrirCsqDbDyM_0ne9hkEYDyhDZbF64hwjXBZ8,5142
+webp-0.1.6.dist-info/RECORD,,
+webp-0.1.6.dist-info/LICENSE,sha256=C7y_VBPQuyipzyIJUUoEjrFS8OxsgXOp_ucKzGzfuyQ,1056
+webp-0.1.6.dist-info/WHEEL,sha256=xfBdPJ4BXTTgU8UbNmTh65sFhHAn3Zxn-u7KAp-VvpI,105
+webp-0.1.6.dist-info/METADATA,sha256=D7E7j4NabST2hwl20_5kJAz-GKDtOgHfKyXgn2YrK3s,5187
