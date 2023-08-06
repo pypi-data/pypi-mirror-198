@@ -1,0 +1,7 @@
+latexvm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latexvm/expression.py,sha256=K8zbHzT5tRgIizI823RKPYDvhNEDFn_i6EvbuzLwfXE,12676
+latexvm/graph_session.py,sha256=3cBFmriyGuqN5ZHHfIRjMudPadneGykiLGPni_txRP0,8983
+latexvm/type_defs.py,sha256=sYcONpHQL7aGCzfCeyWIjely5Sh-zlzaAEhS86LlNjE,1371
+latexvm-0.1.4.dist-info/METADATA,sha256=DYOPiVtFQTTXLusSl8trFeXziAMK-08Lr6o9CPpPLuA,3977
+latexvm-0.1.4.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+latexvm-0.1.4.dist-info/RECORD,,
