@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PopularNewsIndonesia
+Version: 0.0.2.1
+Summary: A simple package to show 5 popular news from detik.com
+Author-email: Dwiky <damaradwiky6@gmail.com>
+Project-URL: Homepage, https://github.com/DwikyDamara/popular-news-indonesia
+Project-URL: Bug Tracker, https://github.com/DwikyDamara/popular-news-indonesia/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# popular-news-indonesia
+app to show 5 popular news in Indonesia based from detik.com (one of biggest media in Indonesia)
+
+## HOW IT WORK?
+This package will scrape from [Detik](https://www.detik.com) to get top 5 popular news in Indonesia
+
+This package use BeautifulSoup4 and requests.
+
+# HOW TO USE?
+import PopularNews
+
+if __name__ == "__main__":
+    result = PopularNews.data_extraction()
+    PopularNews.data_displaying(result)
