@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+declback/__init__.py
+declback.egg-info/PKG-INFO
+declback.egg-info/SOURCES.txt
+declback.egg-info/dependency_links.txt
+declback.egg-info/requires.txt
+declback.egg-info/top_level.txt
+tests/test_simple.py
