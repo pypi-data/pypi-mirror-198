@@ -1,0 +1,34 @@
+The chemical reaction equilibrium solver 
+Developed by H. Mert Polat, Frederick de Meyer, Celine Houriez, Othonas A. Moultos and Thijs J. H. Vlugt 
+Please cite:  H.M. Polat, F. de Meyer, C. Houriez, O.A. Moultos and T.J.H. Vlugt, 2023, 
+Solving Chemical Absorption Equilibria Using Free Energy andQuantum Chemistry Calculations: Methodology, Limitations, and New Open-Source Software,
+Journal of Chemical Theory and Computation.
+
+--------------------------------------------Initial conditions--------------------------------------------
+T = 313.15 K, V = 1e-03 m3, Number of Species in liquid phase = 3
+
+Solvent: C, Pure Density of the Solvent = 20.00 [mol/dm3]
+
+Number of reactions = 1
+Reaction stoichiometry:
+Reaction 1: 1 A <---> 1 B 
+
+Number of mass balance equations = 1
+Species included in the mass balance equations:
+Equation 1: A B 
+
+The net charges of the molecules: 
+A:0 B:0 C:0 
+--------------------------------------------Initial conditions--------------------------------------------
+
+----------------Solution 1----------------
+C_C = 1.000e+00 mol/dm3 
+SOLUTION FOUND SUCCESSFULLY! [2] iterations 
+Maximum residual in the objective function = [0.000e+00]
+Names of the species: [A B C ] 
+Solution = [1.500e+01 1.500e+01 8.432e+01 ] / [mol/dm3]
+Mole fractions = [1.312e-01 1.312e-01 7.376e-01 ]
+ln(K_des) = [0.000 ]
+ln(K_act) = [0.000 ]
+The values of mass balance equations and charge neutrality = [0.000e+00 0.000e+00 ]
+
