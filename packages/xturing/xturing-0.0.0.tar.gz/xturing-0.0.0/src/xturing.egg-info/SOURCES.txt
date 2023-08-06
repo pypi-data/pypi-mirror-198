@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/turing/__init__.py
+src/xturing.egg-info/PKG-INFO
+src/xturing.egg-info/SOURCES.txt
+src/xturing.egg-info/dependency_links.txt
+src/xturing.egg-info/requires.txt
+src/xturing.egg-info/top_level.txt
