@@ -1,0 +1,11 @@
+simpleicp/__init__.py,sha256=cyiN3U-91KzGQMwYuk8k_fWHx3Z8oYRLUQjoajy52fs,296
+simpleicp/cli.py,sha256=4nRL3HYZPkS5vyy6omrPSaaXfs8ZWx8d5_567ctaYYI,61
+simpleicp/corrpts.py,sha256=KFTrj5hDR2qqUdM6Kjg6UFoF2vm4tBEt-AJsXDRpjo8,8009
+simpleicp/mathutils.py,sha256=WgmzVviR5kJfQP4ckVWyT4JpLhutABROhhq2PPrGhD0,2570
+simpleicp/optimization.py,sha256=UjNW2uAcORqKi6NKjMswYiegR8G5wcpdsV9gvA3Zn8Q,13377
+simpleicp/pointcloud.py,sha256=hDeKXPX5-Zr8wES0uqn9oJXIZBt2MPmGtOjfHgbqzRw,8377
+simpleicp/simpleicp.py,sha256=QQdhsyEP2IPir8AIXxIOl0eLLRK6ti8jq1IHAJ26Xz0,14653
+simpleicp-2.0.13.dist-info/METADATA,sha256=dBzOnnNwG7ZFw9e0ZXIoqTbuTc-UyFuPtGn3tBWwkgc,4194
+simpleicp-2.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+simpleicp-2.0.13.dist-info/top_level.txt,sha256=UXpbBleqWbbVb0YYbQ84h8_QAJlOrtDHgri5K-PTeNs,10
+simpleicp-2.0.13.dist-info/RECORD,,
