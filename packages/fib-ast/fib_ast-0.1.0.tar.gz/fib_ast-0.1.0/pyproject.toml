@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fib-ast"
+version = "0.1.0"
+description = "AST graph building for fibonacci function"
+authors = ["pacificus <masterkristall@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "fib_ast"}]
+
+repository = "https://github.com/pacifikus/fibonacci_ast"
+homepage = "https://github.com/pacifikus/fibonacci_ast"
+
+keywords = [
+  "ast",
+  "fibonacchi"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = "3.0"
+matplotlib = "3.7.1"
+astunparse = "1.6.3"
+pygraphviz = "1.10"
+pydot = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

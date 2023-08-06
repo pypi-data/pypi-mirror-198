@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fib-ast
+Version: 0.1.0
+Summary: AST graph building for fibonacci function
+Home-page: https://github.com/pacifikus/fibonacci_ast
+License: MIT
+Keywords: ast,fibonacchi
+Author: pacificus
+Author-email: masterkristall@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: networkx (==3.0)
+Requires-Dist: pydot (>=1.4.2,<2.0.0)
+Requires-Dist: pygraphviz (==1.10)
+Project-URL: Repository, https://github.com/pacifikus/fibonacci_ast
+Description-Content-Type: text/markdown
+
+# fibonacci_ast
+
