@@ -1,0 +1,13 @@
+mjson5/__init__.py,sha256=QX5FMpFyF9GREMY4Gu0LMaiDy6gNBY3wq2uw_Bf6SdA,821
+mjson5/__main__.py,sha256=PvOf-PnCgTFcSpP5Ca5CWmiapiUTF8Fv0O_9Nq6sqKE,741
+mjson5/arg_parser.py,sha256=1TElEFUucZ8md42-d0Db88HVLUBlvWLdYtNEa3c1ArA,2130
+mjson5/host.py,sha256=fbjXtzkjXh0RECXgUp3IMU42lVibFEiMoDBm6xxgsDQ,1635
+mjson5/lib.py,sha256=S1u6dBVZdMszqBMYjl7aRfHoedTvJ7hHYmnyN7c7ajc,19939
+mjson5/parser.py,sha256=XcTqe4tAfg_4Bb3_bgq6KSA_emFdZP8Ij8YGCvjD4hs,29770
+mjson5/tool.py,sha256=E7eVNZVQ4lE-L2PzrKHTdBubVLI6yNOkunXyyoCEOrI,3690
+mjson5/version.py,sha256=KZzhiEPuy4YWVjFPAUN1SM1l1ZF_MVNwWg7W2o1azCw,615
+mjson5-0.9.13.2.dist-info/METADATA,sha256=FtmRC5fLvLdZwhIg0oRdDQbu6Y1uUYJrFdEGN7kr2kw,10562
+mjson5-0.9.13.2.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+mjson5-0.9.13.2.dist-info/entry_points.txt,sha256=c8WYXVPVgLz6GIjVu-d4j9GCeTJoyRSmtdcB4jv8-ps,45
+mjson5-0.9.13.2.dist-info/top_level.txt,sha256=O7wnsj8DwPYShVaQaZdaiRPDZM8-Q3HDxVpgXyArO0A,7
+mjson5-0.9.13.2.dist-info/RECORD,,
