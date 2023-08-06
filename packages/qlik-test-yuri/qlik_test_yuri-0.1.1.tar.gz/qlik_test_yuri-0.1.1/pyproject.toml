@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qlik-test-yuri"
+version = "0.1.1"
+description = "init_01"
+authors = ["Yuri"]
+readme = "README.md"
+packages = [{include = "qlik_test_yuri"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+#pandas = "^1.5.3"
+#flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
