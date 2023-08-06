@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: seeplus-api
+Version: 0.1.1
+Summary: Seeplus API Client
+Home-page: http://seeplus-api.hive.pt
+Author: Hive Solutions Lda.
+Author-email: development@hive.pt
+License: Apache License, Version 2.0
+Description: # [Seeplus API](http://seeplus-api.hive.pt)
+        
+        The Seeplus API client for Python.
+        
+        ## Configuration
+        
+        | Name              | Type  | Default | Description                                                  |
+        | ----------------- | ----- | ------- | ------------------------------------------------------------ |
+        | **SEEPLUS_TOKEN** | `str` | `None`  | The `Bearer` token to be used in the authentication process. |
+        
+        ## License
+        
+        Seeplus API is currently licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/).
+        
+        ## Build Automation
+        
+        [![Build Status](https://github.com/hivesolutions/seeplus-api/workflows/Main%20Workflow/badge.svg)](https://github.com/hivesolutions/seeplus-api/actions)
+        [![PyPi Status](https://img.shields.io/pypi/v/seeplus-api.svg)](https://pypi.python.org/pypi/seeplus-api)
+        [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/)
+        
+Keywords: seeplus api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
