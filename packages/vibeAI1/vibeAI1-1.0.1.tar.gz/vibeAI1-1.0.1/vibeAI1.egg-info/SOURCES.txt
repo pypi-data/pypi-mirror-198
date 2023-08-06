@@ -1,0 +1,8 @@
+setup.py
+vibeAI1/__init__.py
+vibeAI1/vibelibarycode.py
+vibeAI1.egg-info/PKG-INFO
+vibeAI1.egg-info/SOURCES.txt
+vibeAI1.egg-info/dependency_links.txt
+vibeAI1.egg-info/requires.txt
+vibeAI1.egg-info/top_level.txt
