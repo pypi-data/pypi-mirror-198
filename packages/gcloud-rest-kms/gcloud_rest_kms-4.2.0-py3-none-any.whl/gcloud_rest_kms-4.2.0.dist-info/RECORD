@@ -1,0 +1,12 @@
+gcloud/__init__.py,sha256=1n_LmR7E_AwLFKWzvYj2Hvu1TA4q3nDLV6EKKGIhL_U,212
+gcloud/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcloud/rest/__init__.py,sha256=O2rSAsMqwffTGshbj50TE7dSiGpg-hTJjyHwJ3m6tOI,216
+gcloud/rest/kms/__init__.py,sha256=UF2lqUShcRzlpLca_sBq0-gDuai25aq4g8kQbF54Zec,1318
+gcloud/rest/kms/kms.py,sha256=3B2Hjctr2hCfWTpIaYSGZaro_SXPvvM5ydbJEZPrTTA,3394
+gcloud/rest/kms/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcloud/rest/kms/utils.py,sha256=udaKR7McuhWxlIZzFBvlrdNv9tpnRxnlokRNn0p8WW8,1067
+gcloud/rest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcloud_rest_kms-4.2.0.dist-info/LICENSE,sha256=ZJQHHGfMeRl1Q_8g4PSDVLCZDz443ZHk4KIap_C8MxY,1063
+gcloud_rest_kms-4.2.0.dist-info/METADATA,sha256=GcQkSYIFezCHEKlvjXjvheSl5hvpGYdztUwcTROHYuU,2209
+gcloud_rest_kms-4.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+gcloud_rest_kms-4.2.0.dist-info/RECORD,,
