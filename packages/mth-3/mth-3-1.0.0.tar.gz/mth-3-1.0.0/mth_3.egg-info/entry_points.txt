@@ -1,0 +1,2 @@
+[console_scripts]
+mth = test_version_powerhouse_helper.main:run
