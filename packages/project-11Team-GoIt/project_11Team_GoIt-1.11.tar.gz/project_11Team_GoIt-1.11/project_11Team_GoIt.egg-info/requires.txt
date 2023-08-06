@@ -1,0 +1,11 @@
+os
+color-it
+re
+pickle
+datetime
+prompt_toolkit
+functools
+subprocess
+collections
+typing
+prettytable

@@ -1,0 +1,13 @@
+setup.py
+project_11Team_GoIt/Notepad.py
+project_11Team_GoIt/addressbook.py
+project_11Team_GoIt/greeting.py
+project_11Team_GoIt/help.py
+project_11Team_GoIt/main.py
+project_11Team_GoIt/sort.py
+project_11Team_GoIt.egg-info/PKG-INFO
+project_11Team_GoIt.egg-info/SOURCES.txt
+project_11Team_GoIt.egg-info/dependency_links.txt
+project_11Team_GoIt.egg-info/entry_points.txt
+project_11Team_GoIt.egg-info/requires.txt
+project_11Team_GoIt.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+assist = project_11Team_GoIt.main
+
