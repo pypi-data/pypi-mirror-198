@@ -1,0 +1,3 @@
+[console_scripts]
+d8y = discogrify.cli:cli
+discogrify = discogrify.cli:cli

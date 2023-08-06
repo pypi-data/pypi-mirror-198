@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: discogrify
+Version: 0.0.10
+Summary: Create discographies on Spotify
+Home-page: https://github.com/Ch00k/discogrify
+Author: Andrii Yurchuk
+Author-email: ay@mntw.re
+License: Unlicense
+Keywords: spotify discography playlist
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+
+# discogrify
+
+[![codecov](https://codecov.io/github/Ch00k/discogrify/branch/main/graph/badge.svg?token=VqiqnTAjJX)](https://codecov.io/github/Ch00k/discogrify)
+
+_discogrify_ is a command line tool to create artist discographies as Spotify playlists.
+
+## Installation
+
+The easiest way to install _discogrify_ is with [pipx](https://pypa.github.io/pipx/) (see
+[here](https://pypa.github.io/pipx/installation/) for installation of pipx itself):
+
+```
+pipx install discogrify
+```
+
+## Usage
+
+First, authenticate with Spotify:
+
+```
+d8y authenticate
+```
+
+This will open a browser where you would be asked to login with your Spotify account and give _discogrify_ access to it.
+
+When done, create your playlist by providing a Spotify artist URL to `d8y create`. For example the following command
+will create a playlist with all albums and singles of Joy Division:
+
+```
+d8y create https://open.spotify.com/artist/432R46LaYsJZV2Gmc4jUV5
+```
+
+For more details on usage:
+
+```
+d8y create --help
+```
