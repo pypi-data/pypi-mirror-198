@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"8fbd23ce94efa8394efe01aaacc7d9806ab30d8b"
+[nil nil nil nil (25628 14781 241671 127000) 0 nil]
+([nil nil ((#("MetaFSM, cls" 0 12 (fontified t)) . 8659) (undo-tree-id0 . -4) (undo-tree-id1 . -7) (undo-tree-id2 . -7) (undo-tree-id3 . -7) (undo-tree-id4 . -7) (undo-tree-id5 . -7) (undo-tree-id6 . -7) (undo-tree-id7 . -7) (undo-tree-id8 . -12) (undo-tree-id9 . -11) 8666 (t 25628 11845 667756 27000)) nil (25628 14781 241663 135000) 0 nil])
+([nil current ((#("    " 0 4 (fontified t)) . -15046) (undo-tree-id10 . -4) (undo-tree-id11 . -4) (undo-tree-id12 . -4) (undo-tree-id13 . -1) (undo-tree-id14 . -4) 15050 (15045 . 15050) (t 25628 14781 261184 214000) 15040) nil (25628 15035 827313 258000) 0 nil])
+nil
