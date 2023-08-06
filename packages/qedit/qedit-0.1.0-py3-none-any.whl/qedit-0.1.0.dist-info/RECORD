@@ -1,0 +1,8 @@
+qedit/__init__.py,sha256=Wo9yHD1HCfXkYs69i2wwsuRCCc-cZhxS_issIi8O3JA,72
+qedit/__main__.py,sha256=leK6bJpgllXIKX6ufHSUlooxBAInXxROG0CTNllo4vw,67
+qedit/cli.py,sha256=eUoUHz2EezYRXqzR6C9PdiNwrKUeR7tNmgYtzpIwV08,2121
+qedit/editor.py,sha256=oCq7O6nlCA_r89q3TDYdBzQ1YOeCUjJ4lAW1V3lAQLs,7728
+qedit-0.1.0.dist-info/entry_points.txt,sha256=xQ0PsWo9TwTUesa1gGJAaGmlGvGWFsXI93eJV5ekljY,39
+qedit-0.1.0.dist-info/METADATA,sha256=95AMp7wBASBIUSs5Y9l3l3soIg_vluE-HyIOUBzyIto,786
+qedit-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+qedit-0.1.0.dist-info/RECORD,,
