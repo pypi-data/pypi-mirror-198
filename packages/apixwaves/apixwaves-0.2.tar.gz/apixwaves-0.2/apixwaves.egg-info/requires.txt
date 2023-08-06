@@ -1,0 +1,6 @@
+xarray
+numpy
+netCDF4
+importlib_resources
+tqdm
+pillow

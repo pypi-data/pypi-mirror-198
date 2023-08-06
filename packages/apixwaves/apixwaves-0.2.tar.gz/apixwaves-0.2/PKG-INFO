@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: apixwaves
+Version: 0.2
+Summary: Python library to compute cross spectra from SAR image
+Author: Antoine Grouazel
+License: GPL-3.0
+Keywords: SAR,wave,reseach,cross-spectra
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+apixwaves
+
+API to query xwaves-services.ifremer.fr
+
+
+# installation
+
+```bash
+git clone https://github.com/agrouaze/apixwaves.git
+cd apixwaves
+pip install .
+```
+
+# usage
+
+```python
+import apixwaves
+```
