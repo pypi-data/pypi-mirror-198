@@ -1,0 +1,7 @@
+orders_pr_messaging/__init__.py,sha256=cVc8lvwTH-TNYPcSbsJvpViSE7xC25MszOeWiLXZk5M,408
+orders_pr_messaging/connection.py,sha256=hoqZMRCu-kPK_b7dyvpALGWxpha6k5h-qYiLfBlarxE,4405
+orders_pr_messaging/dto.py,sha256=fCSVKHbTwz4MpYlJBKhWsUAwgDJIkAhW66G8mIVSkow,640
+orders_pr_messaging-0.2.0.dist-info/METADATA,sha256=djEg2IIs8tiHpt-NhVKygxXue6EFhAWMLKBE_mum7qI,211
+orders_pr_messaging-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+orders_pr_messaging-0.2.0.dist-info/top_level.txt,sha256=nhk4pG7IrejP-qSyEvIVthKX6vDk8rA75CIU7bwZmcw,20
+orders_pr_messaging-0.2.0.dist-info/RECORD,,
