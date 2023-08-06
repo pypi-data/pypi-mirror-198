@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: flifile
+Version: 1.4.2
+Summary: Read flifiles
+Author-email: Rolf Harkes <r.harkes@nki.nl>
+Project-URL: Homepage, https://github.com/rharkes/flifile
+Keywords: flifile,lambert Instruments
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+[![mypy](https://github.com/rharkes/flifile/actions/workflows/mypy.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/mypy.yml)
+[![Black](https://github.com/rharkes/flifile/actions/workflows/black.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/black.yml)
+[![Black](https://github.com/rharkes/flifile/actions/workflows/pytest.yml/badge.svg)](https://github.com/rharkes/flifile/actions/workflows/pytest.yml)
+
+# flifile
+Python code for opening a lambert instruments .fli file
+
+## Requirements
+* Numpy
+
+## Examples
+Open a local .fli file
+```
+>>> from flifile import FliFile
+>>> myflifile = FliFile('sample_file.fli')
+>>> data = myflifile.getdata()
+>>> data.shape
+(348, 256, 12)
+>>> data.mean()
+26342.449652777777
+```
+
+## Install
+`pip install flifile`
+
+https://pypi.org/project/flifile/
+
+
+## Contribute
+* Clone the repository
+* Install with the development packages: `pip install -e .[dev]`
+
+Before making a pull request, make sure the following three commands run without errors
+* `black .`
+* `pytest`
+* `mypy`
