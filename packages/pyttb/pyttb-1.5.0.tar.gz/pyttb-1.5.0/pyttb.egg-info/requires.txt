@@ -1,0 +1,9 @@
+numpy
+numpy_groupies
+scipy
+
+[testing]
+black
+isort
+pylint
+mypy
