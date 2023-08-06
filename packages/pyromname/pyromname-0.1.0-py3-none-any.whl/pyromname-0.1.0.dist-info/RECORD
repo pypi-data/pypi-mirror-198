@@ -1,0 +1,11 @@
+pyromname/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pyromname/cli.py,sha256=RKZXqF4NhkfKal-qwEQu_6RqhrFg02aUANG2A92X8TQ,8913
+pyromname/crc.py,sha256=jLvFp4IyyBpAtHKHl3JwBWF77Czn7T--B77bsnXPbUk,669
+pyromname/file.py,sha256=JOSwwMHw8Njk_ge4LO4KSkrKGXG56PZiaetceaQfKG4,5144
+pyromname/io.py,sha256=mUujvGHq2xOlmfDNxuqGgYrCWoYYcqhYbDh5vwOCyBw,975
+pyromname/rom_database.py,sha256=sysg0UYOZbHxkSo0WMO_iLhuFYiWz_pNleKZYZ4w6D0,2095
+pyromname/seven_zip.py,sha256=acvFjxfqMS9tCDhOf0QuGZkeBWh-wdKq8azBnIszOyw,3588
+pyromname-0.1.0.dist-info/METADATA,sha256=o6P7AN-A8PE4KfoeNN7BRPWu6FfbxfeK305ydMN9aFw,471
+pyromname-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+pyromname-0.1.0.dist-info/entry_points.txt,sha256=71GECFyrpbS5do2IUMS53HuN6LN9sYLEsUtK9deLNS4,48
+pyromname-0.1.0.dist-info/RECORD,,
