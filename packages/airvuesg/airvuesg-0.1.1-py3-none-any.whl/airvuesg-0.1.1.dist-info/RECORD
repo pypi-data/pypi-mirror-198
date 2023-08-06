@@ -1,0 +1,10 @@
+airvue_sg/__init__.py,sha256=bxV42OgpEnzVZtKPlcrMigKCUPce_5XCL2BZekV7cs4,129
+airvue_sg/attachment.py,sha256=YvbZTFF80keq7cqrSKMJtHvVrrNVNk8K5MgTjK9YRT8,3290
+airvue_sg/boto.py,sha256=hIaBpegmroB-44ZZapvjC6eToz_gBkSD25m2K1WfR6w,719
+airvue_sg/gmail.py,sha256=zUFuRGM_R1B_nrXR6RDR13Q2T1VwBFqnnDLqv50S11s,36161
+airvue_sg/label.py,sha256=plNhvbsWvJVsfrlZYQISHtzaog32Jxg5pjEdRurPJRE,1642
+airvue_sg/message.py,sha256=K_yQEPxJB6rvhhtwGlelPNxtTpk2JIhyF0yvtUcUHc4,12082
+airvue_sg/query.py,sha256=zTZd5OyuClXKz3l0Ff6lQp2uKESS3tZvMBD9jcMGJIY,15153
+airvuesg-0.1.1.dist-info/METADATA,sha256=InIuxqDDEKjy2tgjM0vhsuGGl08PpFR10ZhH6T8cOzo,699
+airvuesg-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+airvuesg-0.1.1.dist-info/RECORD,,
