@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: remote-inria
+Version: 1.3.2
+Summary: Remote Inria: A CLI tool for remotely interacting with Inria computing resources.
+Author-email: Gaétan Lepage <gaetan.lepage@inria.fr>
+License: GNU General Public License v3.0
+Project-URL: project, https://gitlab.inria.fr/galepage/remi
+Keywords: machine learning
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: click
+Requires-Dist: termcolor
+
