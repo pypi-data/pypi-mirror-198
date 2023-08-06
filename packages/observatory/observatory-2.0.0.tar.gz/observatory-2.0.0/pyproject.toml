@@ -1,0 +1,54 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.1.0",
+    "nox>=2022.11.21",
+    "pdm-publish>=0.2.1",
+]
+
+[project]
+name = "observatory"
+version = "2.0.0"
+description = "Observable, event-driven python!"
+authors = [
+    { name = "Ed Whetstone" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+keywords = [
+    "event",
+    "observer",
+    "observability",
+    "observables",
+    "pubsub",
+    "pub-sub",
+    "publish",
+    "subscribe",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+homepage = "https://github.com/sharpencrag/observatory"
+documentation = "https://github.com/sharpencrag/observatory#readme"
+repository = "https://github.com/sharpencrag/observatory"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit>=3.2.0",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
