@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+testpg/__init__.py
+testpg.egg-info/PKG-INFO
+testpg.egg-info/SOURCES.txt
+testpg.egg-info/dependency_links.txt
+testpg.egg-info/entry_points.txt
+testpg.egg-info/top_level.txt
+testpg.egg-info/zip-safe
+testpg/shell/__init__.py
+testpg/shell/usage.py
+testpg/src/__init__.py
+testpg/src/demo.py
