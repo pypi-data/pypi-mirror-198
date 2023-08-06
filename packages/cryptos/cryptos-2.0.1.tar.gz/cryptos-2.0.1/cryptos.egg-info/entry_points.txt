@@ -1,0 +1,9 @@
+[console_scripts]
+broadcast = scripts.broadcast
+convert_private_key = scripts.convert_private_key
+create_private_key = scripts.create_private_key
+cryptosend = scripts.cryptosend
+explorer = scripts.explorer
+get_block_sizes = scripts.get_block_sizes
+subscribe = scripts.subscribe
+view_private_key_addresses = scripts.view_private_key_addresses
