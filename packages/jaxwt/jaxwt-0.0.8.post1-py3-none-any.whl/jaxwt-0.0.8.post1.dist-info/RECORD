@@ -1,0 +1,13 @@
+jaxwt/__init__.py,sha256=HgeVjuuv949DFpLueuM-gcawLdeb_0PFD1qqFQy-8Rc,267
+jaxwt/_lorenz.py,sha256=609StAziQKvvq9HSHguUvgKx_wVgtrhmHH5TVdDZ_WA,1421
+jaxwt/continuous_transform.py,sha256=_QktImczxcn9VZimKSr_Z1oiXlFBvnNm8dczP_eb8b0,5015
+jaxwt/conv_fwt.py,sha256=IljZ1SAM9ChDMoui2K-0Ve39tGz3Q7Jz697ogldvGu0,8392
+jaxwt/conv_fwt_2d.py,sha256=X8nUwQJ_QefkpLaxhQi6Tf3e3Ay7E0ohztz9XDv3xY0,8486
+jaxwt/packets.py,sha256=8IyaB7LeBsuzGPfc32Yo5G3b9_npySjZD2tzyDMxBuo,7891
+jaxwt/utils.py,sha256=UpHnuGgJejsQwYEPB9axAafU59w9L4aBijwFjyR6olw,1784
+jaxwt/version.py,sha256=i3W-fGsyvNrWBuWMEJOhQqu1sf3_JtVEEgX0kzBNQI4,967
+jaxwt-0.0.8.post1.dist-info/LICENSE,sha256=lG-MCdtc9p85OX4EBx1qSV62rAWfN-lo4iJid2arHxE,14014
+jaxwt-0.0.8.post1.dist-info/METADATA,sha256=j4sd6qMpXGYm9U2b1HMWlSOKKFvnWZzAKOtVbUVxtlU,5633
+jaxwt-0.0.8.post1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jaxwt-0.0.8.post1.dist-info/top_level.txt,sha256=hFgqjEfKrM--tF7gm798Byp0zcpvEc6xSBfrwgx-PBY,6
+jaxwt-0.0.8.post1.dist-info/RECORD,,
