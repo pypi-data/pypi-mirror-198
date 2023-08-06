@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+tickersaver/__init__.py
+tickersaver/cache/sqllite_cache.py
+tickersaver/fetcher/kite/orders.py
+tickersaver/fetcher/kite/ws_tick_fetcher.py
+tickersaver/utils/log.py
+zerodha_tickersaver.egg-info/PKG-INFO
+zerodha_tickersaver.egg-info/SOURCES.txt
+zerodha_tickersaver.egg-info/dependency_links.txt
+zerodha_tickersaver.egg-info/entry_points.txt
+zerodha_tickersaver.egg-info/requires.txt
+zerodha_tickersaver.egg-info/top_level.txt
