@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/NCBIQuery.egg-info/PKG-INFO
+src/NCBIQuery.egg-info/SOURCES.txt
+src/NCBIQuery.egg-info/dependency_links.txt
+src/NCBIQuery.egg-info/requires.txt
+src/NCBIQuery.egg-info/top_level.txt
