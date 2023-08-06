@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: letloop.py
+Version: 0.1.6
+Summary: A cloud for the parenthetical leaning doers
+Home-page: https://github.com/letloop/letloop.cloud/
+Author: Amir
+Author-email: amirouche@hyper.dev
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# `letloop.py`
+
+Client to interact with
+[https://letloop.cloud](https://letloop.cloud/).
+
+![A curl looking like a growing lemniscate](https://letloop.cloud/static/letloop.png)
+
+Usage:
+
+> A cloud for the parenthetical leaning doers
+>
+> Usage:
+>
+>  🌐️ letloop.py FILENAME
+>
+>  📜 Caveat emptor: this service is alpha, use it at your own risks
+>
+>  👋 For inspiration have a look at: https://github.com/letloop/letloop.cloud/
+
+You can have your way with curl!
+
