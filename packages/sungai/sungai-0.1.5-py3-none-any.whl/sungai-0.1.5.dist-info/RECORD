@@ -1,0 +1,11 @@
+sungai/__init__.py,sha256=R9jnVSLPFCqEwiL7v02GVf5CpNS0mf_a1kVzQenNw2E,1722
+sungai/__main__.py,sha256=J4xCHfGZ-ImzhFzVOonUh5EX3fghcerFiJRPaZkrDYs,143
+sungai/sungai.py,sha256=JfLjOYne4AMM-xU5id1Y4fCLny8IfvyJuIZ3-dGIh10,7926
+tests/__init__.py,sha256=jpOHU6_bumUSOGGxaO6Jb7B_Sh4Igs0gFPf3bzcDHLI,73
+tests/test_sungai.py,sha256=f9WFfxOpstH6YG9vjcaO0DmRF9KOGZGv_sqC-MHEXFk,7716
+sungai-0.1.5.dist-info/LICENSE,sha256=4hKEyaxn9oaToJVCAwId437-YTaoZO0lo4W6mOf_HGQ,1072
+sungai-0.1.5.dist-info/METADATA,sha256=guxj7SEsOdNaAuNOk1h_qZeSR6cR_91p-yaHuohz8bs,4322
+sungai-0.1.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sungai-0.1.5.dist-info/entry_points.txt,sha256=v2DF8o67qHLcCUKnbb0JqsncZTw_r5kM5CgHG86dE9Y,45
+sungai-0.1.5.dist-info/top_level.txt,sha256=CN7TgYoi6x-1S-PegabyJaShtEbJCqaMQiiraE94Rys,13
+sungai-0.1.5.dist-info/RECORD,,
