@@ -1,0 +1,7 @@
+coq-tactician
+datasets
+dist
+pytact
+src
+tests
+theories

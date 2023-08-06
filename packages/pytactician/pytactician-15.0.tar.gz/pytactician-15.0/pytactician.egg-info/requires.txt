@@ -1,0 +1,7 @@
+pycapnp>=1.2.2
+immutables
+graphviz
+sanic==22.6.2
+sanic-ext==22.6.2
+Jinja2
+inflection
