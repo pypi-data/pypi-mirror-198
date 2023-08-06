@@ -1,0 +1,9 @@
+ng_nx/__init__.py,sha256=yz4DxVDJFDhE9D0lO0bU5h-DIvKvsJKeU5AZHtdqCTc,480
+ng_nx/query_reader.py,sha256=HDPUKBcA-sBs4gv2RYXuXiV6nZGY2zRWVNbEmqNtwzE,2262
+ng_nx/scan_reader.py,sha256=eEO9MVHluU582ZIo0sITxXb_OCq6hG2WzetNLrqVyIM,365
+ng_nx/utils.py,sha256=-M8lhDAb8gT2yZeKdzZRozsRndDHLLhlNPDbGB7C6YE,1485
+ng_nx/writer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ng_nx-0.1.0.dist-info/WHEEL,sha256=lsei1NEk3eJVaxXEuOSSqU002B_yCocFbsEPxBs2x2s,87
+ng_nx-0.1.0.dist-info/METADATA,sha256=d-ow2iphDUH6SxsDSp2sisfBfpLF4lXv1aQk89WGQVY,3400
+ng_nx-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ng_nx-0.1.0.dist-info/RECORD,,
