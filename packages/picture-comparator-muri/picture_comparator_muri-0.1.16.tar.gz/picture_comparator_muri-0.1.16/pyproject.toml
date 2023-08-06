@@ -1,0 +1,53 @@
+[project]
+name = "picture-comparator-muri"
+version = "0.1.16"
+authors = [
+  { name="Muri", email="gurtos29A@gmail.com" },
+]
+license = 'GPL-3.0-or-later'
+description = "Finds similar images in chosen directory."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX",
+]
+dependencies = [
+    'ImageHash ~= 4.2.1',
+    'PySide6 == 6.2.2.1',
+    'python-magic ~= 0.4.24',
+    'Wand ~= 0.6.7',
+    'scikit-learn ~= 1.0.2'
+]
+
+[project.scripts]
+picture-comparator = "picture_comparator_muri.main:main"
+
+[project.urls]
+"Homepage" = "https://gitlab.com/muria/picture-comparator"
+"Bug Tracker" = "https://gitlab.com/muria/picture-comparator/-/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "/.git",
+    "/.gitignore",
+    "/.idea",
+    "/build",
+    "/dist",
+    "/pictures",
+    "/more pictures",
+    "/readme_images",
+    '/test_env',
+    '/venv',
+    '/ui_generate.ui',
+    '/src/picture_comparator_muri/design'
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/picture_comparator_muri"]
+
