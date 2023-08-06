@@ -1,0 +1,2 @@
+[console_scripts]
+nmldiff = nmldiff:nmldiff_cli
