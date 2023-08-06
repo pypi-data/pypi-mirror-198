@@ -1,0 +1,17 @@
+stackdiac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackdiac/cli/__init__.py,sha256=ZbLKAL6kYtCDC6y3NEr_QmB_0bewVMECqAro8f1jX4s,1301
+stackdiac/cli/build.py,sha256=3AkGjVS01uTOcZJ1VP8eRUuu89sfeoLX8PGmYe2AyYs,707
+stackdiac/cli/create.py,sha256=10uJc3r6E1HxIZA8e9bYrx9LbicDaXTNCb9o5NjtXtE,1594
+stackdiac/models/__init__.py,sha256=7NVNjOUGV6b-iItq59vBrOqhG1E7aWXkz75mwjIeelI,201
+stackdiac/models/binary.py,sha256=AhXFDqWT0QmtLr9HHNpsHf0B7IJaT1E-fZLPnaScHfc,1947
+stackdiac/models/cluster.py,sha256=CSnobK9XxabkKx5JUN0vBiugUxo3nMr5415IqG4mo68,2193
+stackdiac/models/config.py,sha256=Emqc_mmy-XmH2Y4ndMMkfdw8ye9vR49X1tQEnkC7dPk,2193
+stackdiac/models/repo.py,sha256=iRgXnoC7VzE85qmKkeVWY4sdo8WaIH64j4eFo3zLdP4,5175
+stackdiac/models/stack.py,sha256=Uxywxkl7cN3m35FUNpG4nxX4s8f3BfCaEc8gohcOnoQ,4416
+stackdiac/models/stackd.py,sha256=_GrbB5gCewAF1cg8x7zN65omJIAdyOnFRW5SIBgkKNM,5375
+stackdiac/models/versions.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+stackdiac-0.0.1.dev6.dist-info/LICENSE,sha256=08WD9uu0Txtp9_tiH2oA9fvzlFfGKLdpJhUIjI3j4Wg,1066
+stackdiac-0.0.1.dev6.dist-info/METADATA,sha256=FR942-hlJXKGUbVLGKIe2g1n1LGZ5Ed9TFM7x-ltX-4,1298
+stackdiac-0.0.1.dev6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+stackdiac-0.0.1.dev6.dist-info/entry_points.txt,sha256=3WDs4XOhxcClklTT-3HnWXpgxA_qmcgSkTOamBWGtf0,44
+stackdiac-0.0.1.dev6.dist-info/RECORD,,
