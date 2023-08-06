@@ -1,0 +1,3 @@
+[powerhouse_assistant]
+start=powerhouse_assistant.powerhouse_assistant.__main__.py:main
+
