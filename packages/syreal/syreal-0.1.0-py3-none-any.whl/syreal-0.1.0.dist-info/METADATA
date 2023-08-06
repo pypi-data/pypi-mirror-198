@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: syreal
+Version: 0.1.0
+Summary: Tools for system reliability analysis.
+License: GNU GPLv3
+Author: daniel
+Author-email: daniel.krpelik@vsb.cz
+Requires-Python: >=3.10,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: networkx (>=3.0,<4.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: progress (>=1.6,<2.0)
+Requires-Dist: scipy (>=1.10.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# syreal
+system reliability analysis
+
