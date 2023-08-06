@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+qcloud_requests_auth/__init__.py
+qcloud_requests_auth/qcloud_auth.py
+qcloud_requests_auth.egg-info/PKG-INFO
+qcloud_requests_auth.egg-info/SOURCES.txt
+qcloud_requests_auth.egg-info/dependency_links.txt
+qcloud_requests_auth.egg-info/requires.txt
+qcloud_requests_auth.egg-info/top_level.txt
+qcloud_requests_auth/tests/__init__.py
+qcloud_requests_auth/tests/test_aws_auth.py
