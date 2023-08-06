@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EasyPyGameGUI
+Version: 0.0.1
+Summary: PyGame based module allowing for easy in-Pygame GUI
+Home-page: 
+Author: WerronPL
+Author-email: paligaaleksander@gmail.com
+License: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE

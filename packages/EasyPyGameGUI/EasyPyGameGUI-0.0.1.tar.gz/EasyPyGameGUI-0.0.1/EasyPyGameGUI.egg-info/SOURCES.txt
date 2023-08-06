@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+EasyPyGameGUI/PyGameSimpleGUI.py
+EasyPyGameGUI/__init__.py
+EasyPyGameGUI.egg-info/PKG-INFO
+EasyPyGameGUI.egg-info/SOURCES.txt
+EasyPyGameGUI.egg-info/dependency_links.txt
+EasyPyGameGUI.egg-info/requires.txt
+EasyPyGameGUI.egg-info/top_level.txt
