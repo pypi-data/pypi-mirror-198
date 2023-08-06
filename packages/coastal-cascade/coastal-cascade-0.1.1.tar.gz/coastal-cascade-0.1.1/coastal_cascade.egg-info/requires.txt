@@ -1,0 +1,9 @@
+baked-brie
+barrier3d
+imageio
+joblib
+numpy
+pyyaml
+
+[dev]
+nox
