@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: MNB_soap
+Version: 0.1
+Summary: MNB soap client
+Home-page: https://github.com/hnwfs/mnb-soap
+Author: Világi Norbert
+Author-email: Világi Norbert <vilagi@alwaysdata.net>
+Project-URL: Homepage, https://github.com/hnwfs/mnb-soap
+Project-URL: Bug Tracker, https://github.com/hnwfs/mnb-soap/issues
+Platform: any
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MNB SOAP client module
+
+## Background
+
+MNB exposes a publicly available exchange rate API as a SOAP service where they publish their official daily rate between Hungarian Forint (HUF) and most other currencies.
+
+The official documentation of their API is available here [in hungarian](https://www.mnb.hu/letoltes/aktualis-es-a-regebbi-arfolyamok-webszolgaltatasanak-dokumentacioja-1.pdf) or [in english](https://www.mnb.hu/letoltes/documentation-on-the-mnb-s-web-service-on-current-and-historic-exchange-rates.pdf)
+
+## Installation
+
+  python setup.py install
+
+  or you can install it with any PyPI-compatible package manager
+
+  pip install mnb-soap
+
+## Sample:
+
+```python
+
+from mnb import getCurrencyRate
+
+a = getCurrencyRate()
+
+print (a.getCurrencies())
+print ('1 japán yen = {} hungarian forint', a.getActual('JPY'))
+print (a.getHistoricalData('2023-03-01','2023-03-20','JPY'))
+end
+```
+# Python version:
+
+    Programming Language :: Python :: 2.7
+    Programming Language :: Python :: 3
+    Programming Language :: Python :: 3.5
+    Programming Language :: Python :: 3.6
+    Programming Language :: Python :: 3.7
+    Programming Language :: Python :: 3.8
+    Programming Language :: Python :: 3.9
+
+# History:
+
+  **2023-03-21** ver 0.1
+             rewrited to module
+             old branch moved to: 0.0.1 alpha
+
+  **2023-02-24** actualisation
+
+  **2017-02-06** rewrited test.py scrapper
