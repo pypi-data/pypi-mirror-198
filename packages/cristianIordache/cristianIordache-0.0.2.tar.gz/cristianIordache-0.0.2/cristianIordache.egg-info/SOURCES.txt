@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+cristianIordache.egg-info/PKG-INFO
+cristianIordache.egg-info/SOURCES.txt
+cristianIordache.egg-info/dependency_links.txt
+cristianIordache.egg-info/top_level.txt
+ruleaza/__init__.py
+ruleaza/demisie.py
