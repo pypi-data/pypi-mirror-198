@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ac-stubs
+Version: 0.4.0
+Summary: Assetto Corsa stubs library.
+Author: Kirby R
+Author-email: <andkirby@gmail.com>
+Keywords: python,AC,Assetto Corsa,dummy,stub
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment :: Simulation
+License-File: LICENSE
+
+Assetto Corsa stubs library for "ac" object. Useful for autocompletion in IDE during development.
