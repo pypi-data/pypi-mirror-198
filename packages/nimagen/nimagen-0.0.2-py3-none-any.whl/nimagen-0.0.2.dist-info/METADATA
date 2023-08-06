@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nimagen
+Version: 0.0.2
+Summary: Simple statistical and visualisation tool for neuroimaging genetics studies
+Author-email: Hai Le <l.haimcl@gmail.com>
+Project-URL: Homepage, https://github.com/lehai-ml/nimagen
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NIMAGEN: Statistical and Visualisation tool for NeuroIMAging GENetics studies
+
+See the online documentation
+
+## Quick install
+
+1. `pip install lehai-ml/nimagen`
+2. `conda install -c lehai-ml nimagen`
