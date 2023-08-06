@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: query-client
+Version: 0.0.1
+Summary: A simple query client for pcd label dataset
+Home-page: http://mirrors.sxc.sh/pypi/simple/query_client
+Author: liuyixiong
+Author-email: liuyixiong@saicmotor.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sql-metadata
+Requires-Dist: trino[sqlalchemy]
+
+# Query Client
+
+This is a simple client to query.
+
+## example
+
+### 初始化客户端及元数据
+
+> ```python
+> from query_client import QueryClient
+>
+> qc = QueryClient()
+>
+> tables = qc.get_meta()
+> # print(tables) 获取全部可查表,及其coloumns, 元数据
+> ## 目前只有两个相关表注册
+> can_table = tables["can_detail"]
+> pcd_table = tables["pcd_label_desc"]
+> ```
+>
+
+### fetch
+
+```python
+python
+from sqlalchemy.sql.expression import select, text, and_
+from query_client import QueryClient
+import pandas as pd
+
+qc = QueryClient()
+tables = qc.get_meta()
+mytable = tables["pcd_label_desc"]
+
+# 1. fetch_by_stmt 初始化 statement, select/where/group_by
+stmt = select(mytable.c.dataset, mytable.c.batch_path, text("array_distinct(categories) scenes"), text("cardinality(filter(categories, x -> x IN ('car'))) as target_cnt"))
+r = qc.fetch_by_stmt(stmt)
+df = pd.DataFrame(r)
+
+# 2. fetch_by_sql
+query = "select * from pcd_label_desc limit 10"
+r = qc.fetch_by_sql(query)
+df = pd.DataFrame(r)
+```
+
+### 具体示例
+
+1. 城区场景的筛选
+   * 定义单帧指标(各种目标数)
+   * group by 序列
+2. fetch_by_sql 实现方式
+   * cte 语法:
+     * t 表查询单帧的去重场景、不同类型的目标数指标，dataset 及batch 维度
+     * 利用 t 表的dataset, batch_path 维度聚合指标
+   * code example
+     ```python
+     query = """
+     WITH t AS (
+         SELECT
+             dataset,
+             batch_path,
+             array_distinct(categories) scenes,
+             cardinality(
+                 filter(
+                     categories,
+                     x -> x IN (
+                         'car',
+                         'van',
+                         'truck',
+                         'mini_truck',
+                         'special_truck',
+                         'truck',
+                         'cyclist',
+                         'bicycle',
+                         'pedestrian'
+                     )
+                 )
+             ) AS target_cnt,
+             cardinality(
+                 filter(
+                     categories,
+                     x -> x IN (
+                         'truck',
+                         'mini_truck',
+                         'special_truck'
+                     )
+                 )
+             ) truck_cnt,
+             cardinality(filter(categories, x -> x IN ('car', 'van'))) carvan_cnt,
+             cardinality(filter(categories, x -> x = 'pedestrian')) pedestrian_cnt,
+             cardinality(
+                 filter(categories, x -> x IN ('cyclist', 'bicycle'))
+             ) cyclist_cnt
+         FROM
+             pcd_label_desc
+         WHERE
+             delivery_date = '20230310'
+             AND any_match(
+                 road_condition,
+                 x -> x = 'highway_road'
+             )
+     )
+     SELECT
+         dataset,
+         batch_path,
+         array_distinct(FLATTEN(ARRAY_AGG(scenes))) scenes,
+         SUM(target_cnt) target_cnt,
+         SUM(carvan_cnt) carvan_cnt,
+         SUM(pedestrian_cnt) pedestrian_cnt,
+         SUM(truck_cnt) truck_cnt,
+         SUM(cyclist_cnt) cyclist_cnt
+     FROM
+         t
+     GROUP BY
+         1,
+         2
+     ORDER BY
+         target_cnt DESC
+     """
+
+     r = qc.fetch_by_sql(query)
+     df = pd.DataFrame(r)
+     ```
+3. fetch_by_stmt 实现方式
+   ```python
+   mytable = tables["pcd_label_desc"]
+
+   stmt = select(
+           mytable.c.dataset, 
+           mytable.c.batch_path, # 指定table聚合的维度
+   	text("cardinality(filter(categories, x -> x IN ('car', 'van'))) carvan_cnt"), # 定义函数变换指标
+           # ... goon
+           )
+           .where(and_(
+               mytable.c.delivery_date == "20230310",
+               text("any_match(road_condition, x -> x = 'city_road')") # 过滤城区场景
+   	))
+
+   # 指标cte 表
+   cte = qc.with_cte(stmt)
+
+   # 继续聚合
+   stmt2 = select(
+       cte.c.dataset, 
+       cte.c.batch_path,
+       text("SUM(carvan_cnt) carvan_cnt")
+       ).group_by(cte.c.dataset, cte.c.batch_path)
+
+   # 查询结果
+   r = qc.fetch_by_stmt(stmt2)
+   df = pd.DataFrame(r)
+
+   ```
