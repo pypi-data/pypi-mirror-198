@@ -1,0 +1,7 @@
+PyQt5
+PycifRW
+fabio
+matplotlib
+numpy
+scipy
+xfab

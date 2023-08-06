@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: TIMEleSS-tools
+Version: 1.0.0
+Summary: Multigrain crystallography toolbox from the TIMEleSS project
+Home-page: https://github.com/FABLE-3DXRD/TIMEleSS
+Maintainer: Sebastien Merkel
+Maintainer-email: sebastien.merkel@univ-lille.fr
+License: GPL
+Project-URL: Documentation, http://multigrain.texture.rocks/
+Project-URL: Source, https://github.com/FABLE-3DXRD/TIMEleSS
+Project-URL: Science project, http://timeless.texure.rocks
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.0.0

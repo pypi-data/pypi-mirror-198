@@ -1,0 +1,34 @@
+[console_scripts]
+timeless2thetaHistFromGVE = TIMEleSS.evaluation.twoThetaHistFromGVE:run
+timelessAverageEDF = TIMEleSS.diffraction.averageImage:run
+timelessClearFLTGrains = TIMEleSS.simulation.clearFLTGrains:run
+timelessClearGVEGrains = TIMEleSS.simulation.clearGVEGrains:run
+timelessCreateEmptyImage = TIMEleSS.diffraction.createEmptyImage:run
+timelessDACShadow = TIMEleSS.diffraction.dacShadowMask:run
+timelessDiamondSpotRemoval = TIMEleSS.diffraction.diamondSpotRemoval:run
+timelessEdf2tiff = TIMEleSS.diffraction.edf2tiffSingle:run
+timelessEdf2tiffFileSeries = TIMEleSS.diffraction.edf2tiffFileSeries:run
+timelessExtractEulerAngles = TIMEleSS.evaluation.extractEulerAngles:run
+timelessExtractGrainSizes = TIMEleSS.evaluation.extractGrainSizes:run
+timelessFixGSOutput = TIMEleSS.evaluation.fixGrainSpotterOutput:run
+timelessGSIndexingStatistics = TIMEleSS.evaluation.GSIndexingStatistics:run
+timelessGrainComparison = TIMEleSS.simulation.grainComparison:run
+timelessGrainPeaksComparison = TIMEleSS.simulation.grainPeaksComparison:run
+timelessGrainSpotterMerge = TIMEleSS.simulation.grainSpotterMerge:run
+timelessID27_hdf5_To_Edf = TIMEleSS.diffraction.ID27_hdf5_To_Edf:run
+timelessMccd2edf = TIMEleSS.diffraction.mccd2edf:run
+timelessMeanFileSeries = TIMEleSS.diffraction.meanFileSeries:run
+timelessPeaksFromCIF = TIMEleSS.simulation.printPeaksFromCIF:run
+timelessRelToAbsGrainSize = TIMEleSS.evaluation.relToAbsGrainSize:run
+timelessSaveFLTGrains = TIMEleSS.simulation.fltForGrains:run
+timelessSubtractEDF = TIMEleSS.diffraction.subtractImage:run
+timelessTest = TIMEleSS.simulation.test:test
+timelessTestGSEulerAngles = TIMEleSS.evaluation.testGSEulerAngles:run
+timelessTestGSvsGVE = TIMEleSS.evaluation.testGSvsGVE:run
+timelessTiff2edf = TIMEleSS.diffraction.tiff2edf:run
+timelessTthHistogram2Maud = TIMEleSS.evaluation.tthHistogram2Maud:run
+timelessUpdateGVEFromCIF = TIMEleSS.simulation.updateGVEFromCIF:run
+
+[gui_scripts]
+timelessPlotIndexedGrain = TIMEleSS.evaluation.testGrainsPeaksGui:run
+
