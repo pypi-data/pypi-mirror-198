@@ -1,0 +1,3 @@
+ijson
+yt_dlp
+youtubesearchpython

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/YouTube_Prompt.egg-info/PKG-INFO
+src/YouTube_Prompt.egg-info/SOURCES.txt
+src/YouTube_Prompt.egg-info/dependency_links.txt
+src/YouTube_Prompt.egg-info/requires.txt
+src/YouTube_Prompt.egg-info/top_level.txt
+src/yt-prompt/__init__.py
+src/yt-prompt/app.py
