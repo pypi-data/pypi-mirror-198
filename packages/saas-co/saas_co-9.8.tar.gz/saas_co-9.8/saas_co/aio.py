@@ -1,0 +1,38 @@
+import os
+import json
+import asyncio
+import pandas as pd
+from typing import Any
+from itertools import groupby
+from functools import wraps, partial
+from concurrent.futures import ThreadPoolExecutor
+
+MAX_WORKERS = int(os.environ.get('MAX_WORKERS', '32'))
+worker_pool = ThreadPoolExecutor(max_workers=MAX_WORKERS)
+
+def worker(func: Any) -> Any:
+    """
+    Runs blocking code asynchronously in worker thread from worker pool
+    """
+    @wraps(func)
+    async def run(*args, **kwargs):
+        pfunc = partial(func, *args, **kwargs)
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(worker_pool, pfunc)
+    return run
+
+
+@worker
+def gather_data(account, region, instances):
+    pass
+
+def grouped_instances(records, account="account_id", region="region"):
+    grouped_instances = groupby(records, lambda r: (r[account], r[region]))
+    return {key: list(group) for key, group in grouped_instances}
+
+def create_tasks(grouped_instances, func=gather_data):
+    grouped_instances_dict = {key: list(group) for key, group in grouped_instances.items()}
+    return [func(account, region, instances) for (account, region), instances in grouped_instances_dict.items()]    
+
+def updated_dataframe(records, groupd_instances):
+    return pd.DataFrame([record for records in grouped_instances.values() for record in records])

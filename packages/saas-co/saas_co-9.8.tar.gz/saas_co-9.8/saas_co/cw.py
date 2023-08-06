@@ -1,0 +1,111 @@
+from jsonpath_ng import parse
+from .paginate import cw_paginate
+
+from datetime import datetime as dt
+from datetime import timedelta as td
+
+#####################################
+
+class get_metric_data(cw_paginate):
+    def name(self): return __class__.__name__        
+    def jsonpath_expression(self): return parse('MetricDataResults[*]')
+
+#####################################
+
+def _get_metric_stat(**kargs):
+
+  stat = kargs.get('Stat')
+
+  try:
+      md = kargs.get('session').client('cloudwatch').get_metric_statistics(
+                                                        StartTime=dt.now() - td(days=kargs.get('days')), 
+                                                        EndTime=dt.now(), 
+                                                        Namespace=f"AWS/{kargs.get('Namespace')}",
+                                                        MetricName=kargs.get('MetricName'),
+                                                        Dimensions=[kargs.get('Dimensions')],
+                                                        Period=kargs.get('Period'), 
+                                                        Statistics=[stat])
+      return md['Datapoints'][0][stat] if len(md['Datapoints']) > 0 else None
+  except Exception as e:
+        print(e)
+        return None
+
+#####################################
+# Utility
+#####################################
+
+def _get_metric_data(**kargs):
+
+    try:
+        return get_metric_data(kargs.get('session'), 
+            StartTime=dt.now()-td(days=kargs.get('days')), 
+            EndTime=dt.now(), 
+            MetricDataQueries=kargs.get('MetricDataQueries'),
+            fields=kargs.get('fields',[]));
+    except Exception as e:
+        print(e)
+        return None
+    
+
+
+#####################################
+
+def _get_metric_data_queries(**kargs):
+    dims = kargs.get('Dimensions')
+    return [{
+         "Id": f"{metric}_{dims['Value']}", 
+         "MetricStat": {
+             "Metric": {
+                 "Namespace": f"AWS/{kargs.get('Namespace')}",
+                 "MetricName": metric,
+                 "Dimensions": [dims]
+             },
+             "Period": kargs.get('Period'), 
+             "Stat": kargs.get('Stat'),
+             "Unit": kargs.get("Unit"),
+         },
+         'Label': metric
+      } for metric in kargs.get('MetricNames')]
+
+
+#####################################
+
+import boto3
+import datetime as dt  
+from itertools import groupby
+from datetime import datetime, timedelta
+
+def get_metrics(**kargs):
+    try:
+        iid = kargs.get('instance_id')
+        period = kargs.get('period',300)
+        dimensions = [{"Name": "InstanceId", "Value": iid}]
+        queries = [
+            {
+                "Id": label, 
+                "MetricStat": { 
+                    "Metric": { 
+                        "Namespace": nameSpace, 
+                        "MetricName": metricName, 
+                        "Dimensions": dimensions
+                    },                
+                    "Period": period,                
+                    "Stat": stat,
+                    "Unit": unit
+                },     
+                "ReturnData": returnData,
+                "Label": label,        
+            } for i, (nameSpace, metricName, stat, unit, returnData, label) in enumerate(kargs.get('queries'))
+        ]
+        
+        days = kargs.get('days',31)
+        results = kargs.get('session').client('cloudwatch').get_metric_data(
+            MetricDataQueries=queries,
+            StartTime = dt.datetime.today() - timedelta(days=days + 1),
+            EndTime=dt.datetime.today() - timedelta(days=1),
+        )["MetricDataResults"]
+        
+        return {k: list(group) for k, group in groupby(results, key=lambda r: r["Label"])}      
+    except Exception as e:
+        print (e)
+        return None
