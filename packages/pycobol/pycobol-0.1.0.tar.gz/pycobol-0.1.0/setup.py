@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['pycobol']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'pycobol',
+    'version': '0.1.0',
+    'description': 'make cobol in python or python like cobol',
+    'long_description': 'Projet pycobol\n==============\n\nObjectifs\n---------\n\nLe langage COBOL est partout et il sera difficile de s\'en débarrasser.\nDes solutions de transformation plus ou moins automatiques existent.\n\nPycobol est avant tout une expérience visant à :\n- Passer du COBOL  au Python\n- Convertir des structures COBOL en objets Python\n- Offrir des facilités de manipulations.\n\nPrincipes.\n----------\n\nLa première étape vise à convertir la DATA-DIVISION  en objet Python\nPuis à utiliser des méthodes pour retranscrire les manipulations COBOL en Python.\n\nIl est possible d\'instancier des structures Python se comportant comme des zones COBOL.\nUn eventail de classe est proposé pour manipuler des zones simples, zones groupes etc.\n\nLa documentation du projet est sur `le site read_the_doc <https://pycobol.readthedocs.io/fr/latest/>`_\n\n\nPoint d\'etape\n-------------\n* Exemple d\'hello world avec pycobol\n\nDans un programme Python::\n\n from pycobol import parser_cobol\n zg1 =\'\'\'        PROCEDURE DIVISION.\n                            DISPLAY "Hello world !".\n                            STOP RUN.\'\'\'\n lignes_cobol = parser_cobol.fake_read_file_proc(zg1)\n pgm = parser_cobol.load_procedure(lignes_cobol)\n print(\'Contenu\')\n print(pgm.vidage())\n print(\'Execution\')\n pgm.run()\n\nIl affichera::\n\n Contenu\n Etiquette:Debut_programme\n instruction:display\n instruction:stop_run\n Execution\n Etiquette: Debut_programme\n Hello world !\n fin du programme\n\n\n* Utilisation de coverage pour mesurer la couverture du code\n\n* Utilisation de prospector pour la qualité du code\n\n* Utilisation de SPHINX pour la documentation\n\n* La documentation est publiée sur le site read_the_doc\n\nLe projet utilise POETRY pour sa mise en oeuvre.\n\nLe traitement des zones élémentaires  de niveau 77 est en cours de developpement\n\nPycobol utilise deux types de test:\n\n* Doctest pour les tests de non regression\n\n* unittest pour les tests plus complets.\n\n\nDepuis le répertoire du projet:\n-------------------------------\n\nPour lancer les tests intégrés.\n\n python .\\pycobol\\zonage.py\n ou poetry run python .\\pycobol\\zonage.py\n\nPour lancer les tests complets:\n\npython -m unittest discover\nou poetry run python -m unittest discover\n\nUtilisation\n===========\n\nLe module fonctionne en 2 modes:\n\n* Soit en fournissant les lignes COBOL\n* Soit en instanciant soi-même les objets à manipuler\n\nExemple à partir du COBOL::\n\n    zg2 =\'\'\'\n                10            MADATE.                                   \n                    11            AAAA   PICTURE  9(4).                 \n                    11            MOIS   PICTURE  99.                      \n                    11            JJ   PICTURE  99.                 \n                10   DATEBRUT REDEFINE MADATE PIC 9(8).\'\'\'     \n\nUtiliser la méthode : ZoneGroupe.fake_read_file_redefine(zg2) (mise en token)\n\nPuis la methode: ZoneGroupe.read_groupe_from_code(tlignes)  (mise en objet)\n\n5 instances seront disponibles prefixées par \'_\' suivi du nom cobol en minuscule (_mois , etc)  \n\n\n\n\nComment contribuer ? .\n======================\n\n- En installant le projet\n\net en ajoutant des cas de test dans le fichier pic77ok.txt\n\n- En developpant des nouveaux traitements de format.\n- En faisant des refactorisations de code.\n- Ajouter de la documentation\n- En apportant des idées.\n\nFeuille de route.\n=================\n\n- Developper la prise en charge des formats non pris en charge (exemple COMP ) FAIT\n- concevoir la classe des zones groupes: FAIT\n- Developper la prise en charge des clauses de formatage (exemple BLANK WHEN ZERO):  A FAIRE\n- Prendre en charge les clauses redefine : FAIT\n- Prendre en charge les FILLERS: FAIT\n- Prendre en charge les clauses OCCURS : A FAIRE\n- Mise en place d\'un moteur d\'exécution : EN COURS\n\n\nMerci\n\nEric German\n\nJournal\n=======\n\nLe 27/12/22:\nMise en place de la documentation avec SPHINX\nPublication de la documentation sur le site read the docs\nRefactorisations profondes\n\nLe 23/11/2022:\n--------------\nRefactorisation encore et encore\nFin du developpement des zones groupes mais il reste le probleme de la retropropagation\nDeveloppment d\'une méthode d ajout dynamique à l\'espace de nommage: les zones COBOL sont accessibles préfixées par un \'_\'\n\n\nLe 28/10/2022:\n--------------\nRefactorisation du code.\n\nReorganisation du dépot.\n\nDébut du developpement des zones groupes.\n\n\nLe 08/10/2022: \n--------------\nAjout d\'un repertoire COBOL qui contiendra des sources COBOL pour étudier le comportement \nde GnuCOBOL \n\nDeveloppement du premier exemple de programme utilisant pycobol qui mnanipule des zones de niveau 77\n\n',
+    'author': 'Eric German',
+    'author_email': 'german.eric@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/germanlinux/pycobol',
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.9,<4.0',
+}
+
+
+setup(**setup_kwargs)
