@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/VERSION.txt
+src/dummy/__init__.py
+src/spetlr_tools.egg-info/PKG-INFO
+src/spetlr_tools.egg-info/SOURCES.txt
+src/spetlr_tools.egg-info/dependency_links.txt
+src/spetlr_tools.egg-info/not-zip-safe
+src/spetlr_tools.egg-info/requires.txt
+src/spetlr_tools.egg-info/top_level.txt
