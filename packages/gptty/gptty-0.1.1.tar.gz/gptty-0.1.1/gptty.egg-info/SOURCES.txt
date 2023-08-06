@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gptty.egg-info/PKG-INFO
+gptty.egg-info/SOURCES.txt
+gptty.egg-info/dependency_links.txt
+gptty.egg-info/entry_points.txt
+gptty.egg-info/requires.txt
+gptty.egg-info/top_level.txt
+tests/test_tagging_logic.py
