@@ -1,0 +1,4 @@
+[console_scripts]
+lidirl = lidirl.label:main
+lidirl_preprocess = lidirl.dataset:main
+lidirl_train = lidirl.trainer:main
